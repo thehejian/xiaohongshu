@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+  <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#FF6B35"/>
+    <stop offset="100%" stop-color="#FBBF24"/>
+  </linearGradient>
+  <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#8B5CF6"/>
+    <stop offset="100%" stop-color="#FF6B35"/>
+  </linearGradient>
+  <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#06B6D4"/>
+    <stop offset="100%" stop-color="#8B5CF6"/>
+  </linearGradient>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#15151F"/>
+    <stop offset="100%" stop-color="#050509"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity=".5"/>
+  </filter>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#27272A" stroke-width="0.5" opacity="0.4"/>
+  </pattern>
+  
+</defs>
+<rect width="1024" height="1024" fill="#0A0A14"/>
+<rect width="1024" height="1024" fill="url(#grid)" opacity="0.3"/>
+
+<g transform="translate(64,64)">
+  <rect x="0" y="0" width="6" height="36" fill="#FF6B35"/>
+  <text x="20" y="20" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#F97316">MINIMAX · M3 RELEASE</text>
+  <text x="20" y="34" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#71717A">2026.06 · MODEL DROP</text>
+</g>
+
+<!-- Title -->
+<g transform="translate(64, 180)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" letter-spacing="3" fill="#FF6B35">CARD 02 · 长程执行</text>
+  <text x="0" y="60" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="44" font-weight="900" fill="#F5F5F7" letter-spacing="-2">12 小时自主复现</text>
+  <text x="0" y="110" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="44" font-weight="900" fill="url(#orangeGrad)" letter-spacing="-2">ICLR 2025 杰出论文</text>
+</g>
+
+<!-- Stats row -->
+<g transform="translate(64, 360)">
+  <!-- 12H -->
+  <rect x="0" y="0" width="280" height="200" rx="16" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="280" height="200" rx="16" fill="none" stroke="#FF6B35" stroke-width="2"/>
+  <text x="140" y="50" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="600" letter-spacing="2" fill="#FF6B35">连续运行</text>
+  <text x="140" y="140" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="80" font-weight="900" fill="url(#orangeGrad)" letter-spacing="-2">12h</text>
+  <text x="140" y="175" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="500" fill="#A1A1AA">零人工介入</text>
+
+  <!-- 18 commits -->
+  <rect x="308" y="0" width="280" height="200" rx="16" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="308" y="0" width="280" height="200" rx="16" fill="none" stroke="#8B5CF6" stroke-width="2"/>
+  <text x="448" y="50" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="600" letter-spacing="2" fill="#8B5CF6">代码提交</text>
+  <text x="448" y="140" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="80" font-weight="900" fill="#8B5CF6" letter-spacing="-2">18</text>
+  <text x="448" y="175" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="500" fill="#A1A1AA">commits</text>
+
+  <!-- 23 charts -->
+  <rect x="616" y="0" width="280" height="200" rx="16" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="616" y="0" width="280" height="200" rx="16" fill="none" stroke="#06B6D4" stroke-width="2"/>
+  <text x="756" y="50" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="600" letter-spacing="2" fill="#06B6D4">实验图表</text>
+  <text x="756" y="140" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="80" font-weight="900" fill="#06B6D4" letter-spacing="-2">23</text>
+  <text x="756" y="175" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="500" fill="#A1A1AA">figures</text>
+</g>
+
+<!-- Timeline -->
+<g transform="translate(64, 620)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="600" letter-spacing="2" fill="#71717A">LONG HORIZON TIMELINE</text>
+
+  <!-- timeline bar -->
+  <line x1="0" y1="60" x2="896" y2="60" stroke="#27272A" stroke-width="2"/>
+  <rect x="0" y="50" width="896" height="20" rx="10" fill="url(#purpleGrad)"/>
+
+  <!-- milestones -->
+  <g transform="translate(0, 30)">
+    <circle cx="0"   cy="30" r="10" fill="#FF6B35"/>
+    <text x="0" y="0"  text-anchor="middle" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" fill="#71717A">0H</text>
+    <text x="0" y="100" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="12" font-weight="500" fill="#A1A1AA">读论文</text>
+
+    <circle cx="280" cy="30" r="10" fill="#8B5CF6"/>
+    <text x="280" y="0" text-anchor="middle" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" fill="#71717A">4H</text>
+    <text x="280" y="100" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="12" font-weight="500" fill="#A1A1AA">代码骨架</text>
+
+    <circle cx="560" cy="30" r="10" fill="#06B6D4"/>
+    <text x="560" y="0" text-anchor="middle" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" fill="#71717A">8H</text>
+    <text x="560" y="100" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="12" font-weight="500" fill="#A1A1AA">实验运行</text>
+
+    <circle cx="896" cy="30" r="10" fill="#10B981"/>
+    <text x="896" y="0" text-anchor="middle" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" fill="#71717A">12H</text>
+    <text x="896" y="100" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="12" font-weight="500" fill="#10B981">✅ 复现成功</text>
+  </g>
+</g>
+
+<!-- Paper info -->
+<g transform="translate(64, 850)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="500" fill="#F5F5F7">论文:Learning Dynamics of LLM Finetuning</text>
+  <text x="0" y="32" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#A1A1AA">多模态读图 + 长上下文 + Agent 长线程执行 — 三能力首次合一</text>
+</g>
+
+<!-- Footer -->
+<g transform="translate(64, 980)">
+  <text x="0" y="0" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#71717A">CARD 02/03 · 02/03</text>
+</g>
+</svg>

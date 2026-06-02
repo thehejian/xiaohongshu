@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+  <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#FF6B35"/>
+    <stop offset="100%" stop-color="#FBBF24"/>
+  </linearGradient>
+  <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#8B5CF6"/>
+    <stop offset="100%" stop-color="#FF6B35"/>
+  </linearGradient>
+  <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#06B6D4"/>
+    <stop offset="100%" stop-color="#8B5CF6"/>
+  </linearGradient>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#15151F"/>
+    <stop offset="100%" stop-color="#050509"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity=".5"/>
+  </filter>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#27272A" stroke-width="0.5" opacity="0.4"/>
+  </pattern>
+  
+</defs>
+<rect width="1024" height="1024" fill="#0A0A14"/>
+<rect width="1024" height="1024" fill="url(#grid)" opacity="0.3"/>
+<circle cx="0" cy="0" r="300" fill="#FF6B35" opacity="0.08"/>
+<circle cx="1024" cy="1024" r="400" fill="#8B5CF6" opacity="0.08"/>
+
+<!-- Eyebrow -->
+<g transform="translate(64, 80)">
+  <rect x="0" y="0" width="6" height="36" fill="#FF6B35"/>
+  <text x="22" y="18" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#FF6B35">minimax · M3</text>
+  <text x="22" y="34" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#71717A">FRONTIER · 2026.06</text>
+</g>
+
+<!-- Hero -->
+<g transform="translate(64, 180)">
+  <text x="0" y="80" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="92" font-weight="900" fill="#F5F5F7" letter-spacing="-3">minimax</text>
+  <text x="0" y="220" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="160" font-weight="900" fill="url(#orangeGrad)" letter-spacing="-5">M3</text>
+</g>
+
+<!-- Focal number -->
+<g transform="translate(64, 480)">
+  <rect x="0" y="0" width="896" height="280" rx="16" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="896" height="280" rx="16" fill="none" stroke="#27272A" stroke-width="1"/>
+
+  <text x="40" y="50" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#FF6B35">BROWSE COMP</text>
+  <text x="40" y="78" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#71717A">AGENT BENCHMARK</text>
+
+  <text x="40" y="200" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="120" font-weight="900" fill="url(#orangeGrad)" letter-spacing="-3">83.5</text>
+  <text x="280" y="200" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="40" font-weight="300" fill="#A1A1AA">vs</text>
+  <text x="370" y="200" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="80" font-weight="700" fill="#8B5CF6">79.3</text>
+  <text x="600" y="160" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="500" fill="#71717A">Opus 4.7</text>
+  <text x="600" y="190" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="700" fill="#F97316">+4.2 领先</text>
+
+  <text x="40" y="245" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="500" fill="#A1A1AA">首个 frontier 国产开源旗舰</text>
+</g>
+
+<!-- 3 chips -->
+<g transform="translate(64, 800)">
+  <g transform="translate(0,0)">
+  <rect x="0" y="0" width="102" height="28" rx="14" fill="#FF6B35" opacity="0.18"/>
+  <rect x="0" y="0" width="102" height="28" rx="14" fill="none" stroke="#FF6B35" stroke-width="1" opacity="0.6"/>
+  <text x="51.0" y="18" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="12" font-weight="600" fill="#FF6B35">1M 上下文</text>
+</g>
+  <g transform="translate(180,0)">
+  <rect x="0" y="0" width="90" height="28" rx="14" fill="#06B6D4" opacity="0.18"/>
+  <rect x="0" y="0" width="90" height="28" rx="14" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.6"/>
+  <text x="45.0" y="18" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="12" font-weight="600" fill="#06B6D4">原生多模态</text>
+</g>
+  <g transform="translate(360,0)">
+  <rect x="0" y="0" width="138" height="28" rx="14" fill="#8B5CF6" opacity="0.18"/>
+  <rect x="0" y="0" width="138" height="28" rx="14" fill="none" stroke="#8B5CF6" stroke-width="1" opacity="0.6"/>
+  <text x="69.0" y="18" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="12" font-weight="600" fill="#8B5CF6">前沿 Coding</text>
+</g>
+  <g transform="translate(540,0)">
+  <rect x="0" y="0" width="78" height="28" rx="14" fill="#10B981" opacity="0.18"/>
+  <rect x="0" y="0" width="78" height="28" rx="14" fill="none" stroke="#10B981" stroke-width="1" opacity="0.6"/>
+  <text x="39.0" y="18" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="12" font-weight="600" fill="#10B981">即将开源</text>
+</g>
+</g>
+
+<!-- Bottom -->
+<g transform="translate(64, 940)">
+  <text x="0" y="0" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#71717A">▶ POSTTRAINBENCH · ICLR 12H · CUDA 9.4×</text>
+  <text x="896" y="0" text-anchor="end" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#71717A">2026.06</text>
+</g>
+</svg>
