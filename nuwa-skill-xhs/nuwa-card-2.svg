@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+  <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#DC2626"/>
+    <stop offset="100%" stop-color="#EF4444"/>
+  </linearGradient>
+  <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#A855F7"/>
+    <stop offset="100%" stop-color="#DC2626"/>
+  </linearGradient>
+  <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F59E0B"/>
+    <stop offset="100%" stop-color="#DC2626"/>
+  </linearGradient>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#15151F"/>
+    <stop offset="100%" stop-color="#050509"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity=".5"/>
+  </filter>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#27272A" stroke-width="0.5" opacity="0.4"/>
+  </pattern>
+  
+</defs>
+<rect width="1024" height="1024" fill="#0A0A14"/>
+<rect width="1024" height="1024" fill="url(#grid)" opacity="0.3"/>
+<g transform="translate(64,64)">
+  <rect x="0" y="0" width="6" height="36" fill="#DC2626"/>
+  <text x="20" y="20" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#DC2626">NUWA · SKILL 造人术</text>
+  <text x="20" y="34" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#71717A">2026.06 · 22K STARS · MIT</text>
+</g>
+
+<!-- Title -->
+<g transform="translate(64, 180)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" letter-spacing="3" fill="#DC2626">CARD 02 · 提炼方法论</text>
+  <text x="0" y="60" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="48" font-weight="900" fill="#F5F5F7" letter-spacing="-2">5 层心智模型提取</text>
+  <text x="0" y="110" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="28" font-weight="400" fill="#A1A1AA">不是语录合集,是认知操作系统</text>
+</g>
+
+<!-- 5 layers list -->
+<g transform="translate(64, 360)">
+  <g transform="translate(0,0)">
+  <rect x="0" y="0" width="896" height="84" rx="10" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="6" height="84" fill="#DC2626"/>
+  <text x="30" y="36" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="14" font-weight="700" letter-spacing="3" fill="#DC2626">L1</text>
+  <text x="100" y="40" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26" font-weight="700" fill="#F5F5F7">怎么说话</text>
+  <text x="100" y="68" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#A1A1AA">表达 DNA —— 语气、节奏、用词偏好</text>
+</g>
+<g transform="translate(0,100)">
+  <rect x="0" y="0" width="896" height="84" rx="10" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="6" height="84" fill="#A855F7"/>
+  <text x="30" y="36" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="14" font-weight="700" letter-spacing="3" fill="#A855F7">L2</text>
+  <text x="100" y="40" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26" font-weight="700" fill="#F5F5F7">怎么想</text>
+  <text x="100" y="68" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#A1A1AA">心智模型 · 认知框架</text>
+</g>
+<g transform="translate(0,200)">
+  <rect x="0" y="0" width="896" height="84" rx="10" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="6" height="84" fill="#F59E0B"/>
+  <text x="30" y="36" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="14" font-weight="700" letter-spacing="3" fill="#F59E0B">L3</text>
+  <text x="100" y="40" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26" font-weight="700" fill="#F5F5F7">怎么判断</text>
+  <text x="100" y="68" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#A1A1AA">决策启发式 · 直觉规则</text>
+</g>
+<g transform="translate(0,300)">
+  <rect x="0" y="0" width="896" height="84" rx="10" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="6" height="84" fill="#06B6D4"/>
+  <text x="30" y="36" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="14" font-weight="700" letter-spacing="3" fill="#06B6D4">L4</text>
+  <text x="100" y="40" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26" font-weight="700" fill="#F5F5F7">绝不做什么</text>
+  <text x="100" y="68" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#A1A1AA">反模式 · 价值观底线</text>
+</g>
+<g transform="translate(0,400)">
+  <rect x="0" y="0" width="896" height="84" rx="10" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="6" height="84" fill="#10B981"/>
+  <text x="30" y="36" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="14" font-weight="700" letter-spacing="3" fill="#10B981">L5</text>
+  <text x="100" y="40" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26" font-weight="700" fill="#F5F5F7">知道局限</text>
+  <text x="100" y="68" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#A1A1AA">诚实边界 · 做不到什么</text>
+</g>
+</g>
+
+<!-- Bottom note -->
+<g transform="translate(64, 920)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="500" fill="#A855F7">▶ 3-7 个心智模型 + 5-10 条决策启发式,装进 SKILL.md</text>
+  <text x="0" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#A1A1AA">女娲不是复制人,提取认知操作系统</text>
+</g>
+
+<g transform="translate(64,984)">
+  <text x="0" y="0" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#71717A">SOURCE · github.com/alchaincyf/nuwa-skill</text>
+  <text x="896" y="0" text-anchor="end" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#71717A">CARD 02/04</text>
+</g>
+</svg>

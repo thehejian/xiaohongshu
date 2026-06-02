@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1792" height="1024" viewBox="0 0 1792 1024">
+<defs>
+  <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#DC2626"/>
+    <stop offset="100%" stop-color="#EF4444"/>
+  </linearGradient>
+  <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#A855F7"/>
+    <stop offset="100%" stop-color="#DC2626"/>
+  </linearGradient>
+  <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F59E0B"/>
+    <stop offset="100%" stop-color="#DC2626"/>
+  </linearGradient>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#15151F"/>
+    <stop offset="100%" stop-color="#050509"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity=".5"/>
+  </filter>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#27272A" stroke-width="0.5" opacity="0.4"/>
+  </pattern>
+  
+</defs>
+<rect width="1792" height="1024" fill="#0A0A14"/>
+<rect width="1792" height="1024" fill="url(#grid)" opacity="0.3"/>
+<circle cx="0" cy="0" r="300" fill="#DC2626" opacity="0.08"/>
+<circle cx="1792" cy="1024" r="400" fill="#A855F7" opacity="0.08"/>
+
+<!-- Eyebrow -->
+<g transform="translate(96, 80)">
+  <rect x="0" y="0" width="8" height="48" fill="#DC2626"/>
+  <text x="28" y="22" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" letter-spacing="4" fill="#DC2626">NUWA · SKILL 造人术</text>
+  <text x="28" y="42" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#71717A">22K STARS · MIT · 50+ RUNTIMES</text>
+</g>
+
+<!-- Hero title -->
+<g transform="translate(96, 300)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="220" font-weight="900" fill="url(#redGrad)" letter-spacing="-6">女娲</text>
+  <text x="0" y="100" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="48" font-weight="500" fill="#F5F5F7">蒸馏任何人的思维方式</text>
+</g>
+
+<!-- Tagline -->
+<g transform="translate(96, 580)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="28" font-weight="400" fill="#A1A1AA">输入一个名字 · 6 路 Agent 并行调研 · 三重验证提炼</text>
+  <text x="0" y="40" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="28" font-weight="400" fill="#A1A1AA">乔布斯 / 马斯克 / 芒格 / 费曼 / 纳瓦尔 / 塔勒布 ... 给你打工</text>
+</g>
+
+<!-- Chip row -->
+<g transform="translate(96, 720)">
+  <g transform="translate(0,0)">
+  <rect x="0" y="0" width="82" height="28" rx="14" fill="#DC2626" opacity="0.18"/>
+  <rect x="0" y="0" width="82" height="28" rx="14" fill="none" stroke="#DC2626" stroke-width="1" opacity="0.6"/>
+  <text x="41.0" y="18" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="12" font-weight="600" fill="#DC2626">心智模型</text>
+</g>
+  <g transform="translate(150,0)">
+  <rect x="0" y="0" width="95" height="28" rx="14" fill="#A855F7" opacity="0.18"/>
+  <rect x="0" y="0" width="95" height="28" rx="14" fill="none" stroke="#A855F7" stroke-width="1" opacity="0.6"/>
+  <text x="47.5" y="18" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="12" font-weight="600" fill="#A855F7">决策启发式</text>
+</g>
+  <g transform="translate(330,0)">
+  <rect x="0" y="0" width="108" height="28" rx="14" fill="#F59E0B" opacity="0.18"/>
+  <rect x="0" y="0" width="108" height="28" rx="14" fill="none" stroke="#F59E0B" stroke-width="1" opacity="0.6"/>
+  <text x="54.0" y="18" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="12" font-weight="600" fill="#F59E0B">表达 DNA</text>
+</g>
+  <g transform="translate(490,0)">
+  <rect x="0" y="0" width="82" height="28" rx="14" fill="#06B6D4" opacity="0.18"/>
+  <rect x="0" y="0" width="82" height="28" rx="14" fill="none" stroke="#06B6D4" stroke-width="1" opacity="0.6"/>
+  <text x="41.0" y="18" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="12" font-weight="600" fill="#06B6D4">诚实边界</text>
+</g>
+  <g transform="translate(640,0)">
+  <rect x="0" y="0" width="121" height="28" rx="14" fill="#10B981" opacity="0.18"/>
+  <rect x="0" y="0" width="121" height="28" rx="14" fill="none" stroke="#10B981" stroke-width="1" opacity="0.6"/>
+  <text x="60.5" y="18" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="12" font-weight="600" fill="#10B981">13 位已蒸馏</text>
+</g>
+</g>
+
+<!-- Install -->
+<g transform="translate(96, 820)">
+  <rect x="0" y="0" width="700" height="64" rx="8" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="700" height="64" rx="8" fill="none" stroke="#27272A" stroke-width="1"/>
+  <text x="24" y="40" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="22" font-weight="600" fill="#10B981">$</text>
+  <text x="60" y="40" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="22" font-weight="500" fill="#F5F5F7">npx skills add alchaincyf/nuwa-skill</text>
+</g>
+
+<!-- Bottom -->
+<g transform="translate(96, 940)">
+  <text x="0" y="0" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="14" letter-spacing="2" fill="#71717A">▶ DISTILL HOW ANYONE THINKS</text>
+</g>
+
+<!-- Right panel: personas grid -->
+<g transform="translate(0, 0)">
+  <text x="1100" y="62" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#DC2626">已蒸馏 · 13 位 + 1 主题</text>
+  <g transform="translate(1100,100)">
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="none" stroke="#DC2626" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="22" cy="40" r="6" fill="#DC2626"/>
+  <text x="42" y="46" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F5F5F7">Paul Graham</text>
+</g>
+<g transform="translate(1330,100)">
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="none" stroke="#A855F7" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="22" cy="40" r="6" fill="#A855F7"/>
+  <text x="42" y="46" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F5F5F7">张一鸣</text>
+</g>
+<g transform="translate(1560,100)">
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="none" stroke="#F59E0B" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="22" cy="40" r="6" fill="#F59E0B"/>
+  <text x="42" y="46" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F5F5F7">Karpathy</text>
+</g>
+<g transform="translate(1100,190)">
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="none" stroke="#06B6D4" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="22" cy="40" r="6" fill="#06B6D4"/>
+  <text x="42" y="46" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F5F5F7">Ilya</text>
+</g>
+<g transform="translate(1330,190)">
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="none" stroke="#10B981" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="22" cy="40" r="6" fill="#10B981"/>
+  <text x="42" y="46" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F5F5F7">MrBeast</text>
+</g>
+<g transform="translate(1560,190)">
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="none" stroke="#EF4444" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="22" cy="40" r="6" fill="#EF4444"/>
+  <text x="42" y="46" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F5F5F7">特朗普</text>
+</g>
+<g transform="translate(1100,280)">
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="none" stroke="#C084FC" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="22" cy="40" r="6" fill="#C084FC"/>
+  <text x="42" y="46" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F5F5F7">乔布斯</text>
+</g>
+<g transform="translate(1330,280)">
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="none" stroke="#F59E0B" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="22" cy="40" r="6" fill="#F59E0B"/>
+  <text x="42" y="46" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F5F5F7">马斯克</text>
+</g>
+<g transform="translate(1560,280)">
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="none" stroke="#06B6D4" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="22" cy="40" r="6" fill="#06B6D4"/>
+  <text x="42" y="46" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F5F5F7">芒格</text>
+</g>
+<g transform="translate(1100,370)">
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="none" stroke="#10B981" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="22" cy="40" r="6" fill="#10B981"/>
+  <text x="42" y="46" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F5F5F7">费曼</text>
+</g>
+<g transform="translate(1330,370)">
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="none" stroke="#DC2626" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="22" cy="40" r="6" fill="#DC2626"/>
+  <text x="42" y="46" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F5F5F7">纳瓦尔</text>
+</g>
+<g transform="translate(1560,370)">
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="none" stroke="#A855F7" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="22" cy="40" r="6" fill="#A855F7"/>
+  <text x="42" y="46" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F5F5F7">塔勒布</text>
+</g>
+<g transform="translate(1100,460)">
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="#15151F" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="220" height="80" rx="12" fill="none" stroke="#71717A" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="22" cy="40" r="6" fill="#71717A"/>
+  <text x="42" y="46" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F5F5F7">× 主题</text>
+</g>
+</g>
+
+<!-- Footer: 50+ runtimes -->
+<g transform="translate(1100, 880)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#A855F7">跨 50+ RUNTIME</text>
+  <text x="0" y="32" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="14" fill="#A1A1AA">Claude Code · Codex · Cursor · OpenClaw</text>
+  <text x="0" y="58" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="14" fill="#A1A1AA">Hermes · Gemini CLI · OpenCode · ...</text>
+</g>
+</svg>
