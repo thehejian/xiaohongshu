@@ -287,3 +287,273 @@ BG_PANEL = "#15151F"
 - **先 git commit**（让本地有完整备份）→ 再飞书 → 再 XHS 草稿
 - 这样中途失败可以从 git 恢复
 
+## 9. opencli 1.8.1 坑（2026-06-02）
+
+### upload 命令 bug
+- **症状**：`SyntaxError: Identifier 'markerAttr' has already been declared`
+- **影响**：`opencli xiaohongshu publish --images` 完全失效
+- **状态**：1.8.0 和 1.8.1 都存在，暂无 fix
+
+### 文件选择器 3 种方案
+
+| 方案 | 原理 | 成功率 |
+|------|------|--------|
+| `opencli click <ref>` | 触发 input.click() | ❌ Chrome extension bridge 拦截，不弹 dialog |
+| `opencli eval <js>` 调用 .click() | 同上 | ❌ 非 user gesture，Chrome 拦截 |
+| **HTTP Server + DataTransfer** | fetch 图片转 Blob，注入 input.files | ✅ **实测成功** |
+
+### DataTransfer 注入步骤
+```bash
+# 1. 本地起 HTTP server（带 CORS）
+cd <images_dir> && python3 -c "
+from http.server import HTTPServer, SimpleHTTPRequestHandler
+class C(SimpleHTTPRequestHandler):
+    def end_headers(self):
+        self.send_header('Access-Control-Allow-Origin','*')
+        super().end_headers()
+HTTPServer(('127.0.0.1', 8765), C).serve_forever()
+" &
+
+# 2. eval 注入文件
+opencli browser <session> eval '
+(async () => {
+  const urls = ["http://127.0.0.1:8765/001.png","http://127.0.0.1:8765/002.jpg"];
+  const files = [];
+  for (const u of urls) {
+    const r = await fetch(u);
+    const blob = await r.blob();
+    files.push(new File([blob], u.split("/").pop(), { type: blob.type }));
+  }
+  const dt = new DataTransfer();
+  files.forEach(f => dt.items.add(f));
+  const input = document.querySelector("input[type=file][accept*=.jpg]");
+  input.files = dt.files;
+  input.dispatchEvent(new Event("change", { bubbles: true }));
+})()
+'
+```
+
+### file input accept 陷阱
+- 小红书创作者中心有**两个 file input**：
+  - [84] `accept=.mp4,.mov,.flv...` — 视频上传
+  - [84/77] `accept=.jpg,.jpeg,.png,.webp` — 图片上传
+- **注意**：tab 切换后 ref 编号会变，用 CSS selector 更稳：
+  ```bash
+  opencli browser <session> state 2>&1 | grep 'accept=\.jpg'
+  ```
+
+### contenteditable 填写
+- 不用 fill 命令（fill 只支持 input/textarea）
+- 用 eval + innerHTML + InputEvent：
+  ```javascript
+  const editor = document.querySelector('div[contenteditable][role=textbox]');
+  editor.innerHTML = body.split('\n').map(l => `<p>${l}</p>`).join('');
+  editor.dispatchEvent(new InputEvent('input', { bubbles: true }));
+  ```
+
+### 底部按钮定位
+- "暂存离开"/"发布"按钮在页面底部，需 `window.scrollTo(0, document.body.scrollHeight)` 展开
+- 用 `opencli screenshot` 确认按钮出现后再 click
+
+### click ref stale 问题
+- opencli 返回的 ref 容易 stale（React/Vue 重新渲染后 ref 编号变）
+- 改用 CSS selector + eval 更稳：
+  ```bash
+  opencli browser <session> eval 'document.querySelector(".tab-item:nth-child(2)").click()'
+  ```
+
+### eval 参数传递
+- **不支持 `--args`**：报错 `unknown option --args`
+- 闭包嵌入：
+  ```bash
+  opencli browser <session> eval "(async () => { const urls = [...]; ... })()"
+  ```
+
+### M3 草稿发布路径（已验证）
+1. 打开创作者中心 → 草稿箱 → 图文笔记
+2. 找到目标草稿 → 点"编辑"
+3. 编辑界面 → 点"发布" → 笔记进入"审核中"
+4. **30 分钟内可在 App 撤回**，Web 端无法撤回
+
+### 今日成果
+- ✅ M3 草稿 → 发布成功（审核中）
+- ✅ Qwen3.7 草稿 → 3 图 + 标题 + 正文 已填好，待用户点"暂存离开"
+
+## 10. karpathy-skills-xhs 案例（浅色卡片 + 精简正文）
+
+**任务**：Karpathy 开源 Skills 的小红书内容
+**完成时间**：2026-06-02
+**文件**：`karpathy-技能名-xhs/`（README + square/banner PNG/SVG）
+
+### 完整工作流
+1. **用户输入**：GitHub 项目链接 + "写小红书"
+2. **获取 README**：用 `webfetch` 拿原始 markdown
+3. **写 README.md**：小红书风格正文（< 950 字）
+4. **设计 SVG 卡片**：浅色奶油底 + 4 原则 4 色卡片布局
+5. **Inkscape 渲染**：`inkscape *.svg -o *.png -w 10xx -h 10xx`
+6. **飞书预览**：`lark-cli docs +create` + `+media-insert × 2`
+7. **XHS 草稿**：`opencli xiaohongshu publish --draft true`
+8. **等用户审核后手动发布**
+
+### 浅色卡片配方（本次验证有效）
+```
+底色：#FAF7F2 → #F3F0E8 渐变
+强调色：蓝 #1E40AF / 绿 #10B981 / 橙 #F59E0B / 粉 #EC4899
+结构：左侧 6px 色条 + 编号 + 大字标题 + 描述句
+圆角：rx="16"
+阴影：feDropShadow opacity=0.08 蓝调
+字号：标题 92-110px，卡片 32-34px，副文 18-22px
+```
+
+### XHS 标题压缩（本次实践）
+- 原：`Karpathy 亲自吐槽 AI 写代码 他给的解法是这套 Skill 🔥`
+- 压缩：`Karpathy怒批AI写代码`（12 字符）✓
+- 技巧：去空格 / 合并短词 / 砍 emoji
+
+### 发布命令正确写法
+```bash
+# content 必须全放在一个 positional 参数（不要换行/不要多个参数）
+# --title/--images/--topics 顺序随意，但全部要指定
+# --window foreground 必须（后台无法上传图片）
+# --site-session persistent 避免重复扫码
+
+opencli xiaohongshu publish "<正文>" \
+  --title "<≤20字>" \
+  --images "<相对路径,csv>" \
+  --topics "<不含#,csv>" \
+  --draft true \
+  --window foreground \
+  --site-session persistent \
+  -f yaml
+```
+
+### 本次数据
+- 正文：~812 字符（< 950 ✓）
+- 标题：12 字符（≤ 20 ✓）
+- 图片：2 张（square 10KB + banner 10KB）
+- 话题：7 个（Karpathy,AI编程,ClaudeCode,Cursor,开源工具,程序员,Skills）
+
+### 飞书文档
+- URL：`https://www.feishu.cn/docx/ZvlcdCJ7mobFxax2eBNcwzlOnad`
+- 流程：`+create` → `+media-insert × 2`（banner + square）
+
+---
+
+## 11. PUA Skill 小红书项目（2026-06-02）
+
+### 项目结构
+```
+pua-xhs/
+├── README.md          # 小红书正文（912 字）
+├── pua-square.png     # 封面 (1024×1024)
+├── pua-banner.png     # 横版 (1792×1024)
+├── pua-square.svg     # 源文件
+├── pua-banner.svg     # 源文件
+└── flavor-cards/      # 14 张大厂味道卡片
+    ├── ali.png        # 阿里
+    ├── bytedance.png  # 字节
+    ├── huawei.png     # 华为
+    ...（共 14 张）
+```
+
+### 正文压缩（950 → 912 字）
+- 砍掉 14 厂完整列表（保留主要 6 家 + "+ 4 家"）
+- 砍掉 11 个 IDE 完整列表（保留前 6 家）
+- 表格简化（只保留 3 行关键数据）
+- 工具：Python 正则提取纯文字 + 计数
+
+### 卡片生成尝试记录
+| 尝试 | 工具 | 风格 | 结果 |
+|------|------|------|------|
+| 1 | Kolors AI | 浅米色 + 场景 | ❌ 背景有花瓶窗帘等具体场景，AI 味重 |
+| 2 | SVG Swiss | 浅米 paper + 黑色 ink | ❌ 用户不喜欢"干净设计感" |
+| 3 | SVG codex++ | 深色径向渐变 + 渐变标题 + 星点装饰 | ✅ 用户认可 |
+
+### SVG 代码风格（codex++ 深色）
+```xml
+<!-- 背景：深色径向渐变 -->
+<radialGradient id="bg" cx="50%" cy="40%" r="70%">
+  <stop offset="0%" stop-color="#1E1B4B"/>
+  <stop offset="100%" stop-color="#070B1E"/>
+</radialGradient>
+
+<!-- 标题：渐变 -->
+<linearGradient id="titleGrad">
+  <stop offset="0%" stop-color="#FF6A00"/>  <!-- 品牌色 -->
+  <stop offset="100%" stop-color="#e14c00"/> <!-- 稍暗 -->
+</linearGradient>
+
+<!-- 装饰星点 -->
+<circle cx="120" cy="120" r="2" fill="#FF6A00" opacity="0.6"/>
+```
+
+### 大厂味道卡片（14 张）
+- 布局：800×800，深色背景，渐变标题
+- 按钮居中：3 按钮 × 120px + 20px gap = 400px 整体
+- 起始位置：x = (800 - 400) / 2 = 200
+- 首次生成时按钮偏左（从 x=180 开始），修复后居中
+
+### 飞书上传
+```bash
+cd pua-xhs
+lark-cli docs +media-insert --doc "<doc_id>" --file "./pua-square.png"
+lark-cli docs +media-insert --doc "<doc_id>" --file "./pua-banner.png"
+
+# 14 张大厂卡片
+for f in ali.png bytedance.png ...; do
+  lark-cli docs +media-insert --doc "<doc_id>" --file "./$f"
+done
+```
+
+### 小红书发布
+```bash
+# 标题 ≤ 20 字符
+opencli xiaohongshu publish "<正文>" \
+  --title "<≤20字>" \
+  --images "./pua-square.png" \
+  --topics "AI编程,ClaudeCode,Codex,AIAgent,开源工具,效率工具" \
+  --draft true
+```
+
+### 本次数据
+- 正文：912 字符（< 950 ✓）
+- 标题：14 字符（≤ 20 ✓）
+- 飞书文档：`https://www.feishu.cn/docx/R3QpdTJSJoTFODxvICgcfpsXnch`
+- 小红书草稿：已保存，标题「这个开源 Skill 专治 AI 摆烂」
+
+## 13. SVG 卡片生成踩坑（cc-switch-xhs，2026-06-02）
+
+### 致命坑：SVG 属性闭合引号
+```
+# ❌ 错误 — 漏了末尾的 "
+<svg ... height="{h}>
+# 输出: height="1024>
+
+# ✅ 正确
+<svg ... height="{h}">
+# 输出: height="1024">
+```
+- **Python f-string 中容易遗漏**：`{h}>` 看起来自然，但 `"` 被吃掉了
+- **Inkscape 静默处理**：不报错，直接输出全透明 PNG
+- **症状**：文件 <10KB（1024×1024 正常 >400KB）
+
+### 尺寸用 `100%` 失效
+- `<rect width="100%" height="100%">` 在 Inkscape 中不渲染
+- 必须用显式像素值：`<rect width="1024" height="1024">`
+
+### PNG 生成后立即验证
+```python
+from PIL import Image
+import numpy as np
+img = Image.open("card.png")
+arr = np.array(img)
+if len(np.unique(arr.reshape(-1, arr.shape[-1]), axis=0)) < 10:
+    print("⚠️ 空白图片！")
+```
+文件大小经验：1024×1024 > 400KB 正常，<50KB 即空白。
+
+### 卡片去 AI 味
+- **避免**：图表（柱状图/饼图）、hub-and-spoke 拓扑图、点阵底纹、过多装饰
+- **保持**：纯奶油底 + 白色卡片 + 简洁文字 + 单一强调色
+- **一张卡片只传达一个信息**，不堆叠
+

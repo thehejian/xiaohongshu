@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="8" flood-color="#1E293B" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <text x="400" y="55" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="36" font-weight="800" fill="#1E293B">🔌 中转注入模式</text>
+  <text x="400" y="90" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#64748B">官方登录 + 第三方 API · 一键热切换</text>
+
+  <!-- Steps -->
+  <g transform="translate(40, 140)">
+    <rect x="0" y="0" width="720" height="60" rx="14" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="40" cy="30" r="20" fill="#3B82F6"/>
+    <text x="40" y="36" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFF">1</text>
+    <text x="80" y="36" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#1E293B">登录 ChatGPT 官方</text>
+    <text x="320" y="36" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">在 Codex 里完成 OAuth 登录</text>
+  </g>
+
+  <g transform="translate(40, 220)">
+    <rect x="0" y="0" width="720" height="60" rx="14" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="40" cy="30" r="20" fill="#8B5CF6"/>
+    <text x="40" y="36" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFF">2</text>
+    <text x="80" y="36" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#1E293B">添加中转配置</text>
+    <text x="320" y="36" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">Base URL + Key，可多套</text>
+  </g>
+
+  <g transform="translate(40, 300)">
+    <rect x="0" y="0" width="720" height="60" rx="14" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="40" cy="30" r="20" fill="#EC4899"/>
+    <text x="40" y="36" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFF">3</text>
+    <text x="80" y="36" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#1E293B">应用中转注入</text>
+    <text x="320" y="36" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">Codex++ 自动写好 provider</text>
+  </g>
+
+  <g transform="translate(40, 380)">
+    <rect x="0" y="0" width="720" height="60" rx="14" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="40" cy="30" r="20" fill="#10B981"/>
+    <text x="40" y="36" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFF">4</text>
+    <text x="80" y="36" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#1E293B">启动 Codex++</text>
+    <text x="320" y="36" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">想回官方？点「清除 API 模式」</text>
+  </g>
+
+  <!-- Config card -->
+  <g transform="translate(40, 480)">
+    <rect x="0" y="0" width="720" height="260" rx="16" fill="#1E293B" filter="url(#shadow)"/>
+    <text x="24" y="36" font-family="ui-monospace, monospace" font-size="16" font-weight="700" fill="#DBEAFE">~/.codex/config.toml</text>
+    <line x1="24" y1="52" x2="696" y2="52" stroke="#334155" stroke-width="1"/>
+    <text x="24" y="90" font-family="ui-monospace, monospace" font-size="15" fill="#E2E8F0">model_provider = "CodexPlusPlus"</text>
+    <text x="24" y="130" font-family="ui-monospace, monospace" font-size="15" fill="#EDE9FE">[model_providers.CodexPlusPlus]</text>
+    <text x="48" y="165" font-family="ui-monospace, monospace" font-size="15" fill="#CBD5E1">wire_api = "responses"</text>
+    <text x="48" y="195" font-family="ui-monospace, monospace" font-size="15" fill="#CBD5E1">base_url = "https://example.com/v1"</text>
+    <text x="48" y="225" font-family="ui-monospace, monospace" font-size="15" fill="#CBD5E1">experimental_bearer_token = "sk-..."</text>
+  </g>
+</svg>

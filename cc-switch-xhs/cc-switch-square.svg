@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F3F0E8"/></linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/><circle cx="81.92" cy="81.92" r="60" fill="#E0F2FE" opacity="0.4"/><circle cx="942.08" cy="122.88" r="50" fill="#EDE9FE" opacity="0.4"/><circle cx="81.92" cy="901.12" r="70" fill="#DBEAFE" opacity="0.3"/><circle cx="942.08" cy="798.72" r="80" fill="#FFEDD5" opacity="0.3"/>
+
+<text x="512" y="240" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="140" font-weight="900" fill="#1E293B" letter-spacing="-4">CC</text>
+<text x="512" y="380" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="160" font-weight="900" fill="#0EA5E9" letter-spacing="-5">Switch</text>
+<text x="512" y="460" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="28" fill="#64748B">5 个 AI 编程 CLI · 一个 App 统一管理</text>
+
+<g transform="translate(162, 560)">
+  <rect x="0" y="0" width="700" height="80" rx="40" fill="#FFFFFF" stroke="#0EA5E9" stroke-width="2"/>
+  <text x="350" y="50" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="28" font-weight="700" fill="#0EA5E9">告别手改 JSON · 托盘秒切</text>
+</g>
+
+<g transform="translate(120, 700)">
+  <rect x="0" y="0" width="160" height="44" rx="22" fill="#E0F2FE"/><text x="80" y="29" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" font-weight="600" fill="#0EA5E9">Claude Code</text>
+  <rect x="180" y="0" width="120" height="44" rx="22" fill="#DBEAFE"/><text x="240" y="29" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" font-weight="600" fill="#3B82F6">Codex</text>
+  <rect x="320" y="0" width="140" height="44" rx="22" fill="#EDE9FE"/><text x="390" y="29" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" font-weight="600" fill="#8B5CF6">Gemini CLI</text>
+  <rect x="480" y="0" width="130" height="44" rx="22" fill="#FFEDD5"/><text x="545" y="29" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" font-weight="600" fill="#F97316">OpenCode</text>
+  <rect x="630" y="0" width="130" height="44" rx="22" fill="#D1FAE5"/><text x="695" y="29" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" font-weight="600" fill="#10B981">OpenClaw</text>
+</g>
+
+<text x="512" y="850" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#94A3B8">50+ 供应商预设 · MCP / Skills 统一管理 · 云同步</text>
+<text x="512" y="960" text-anchor="middle" font-family="ui-monospace,monospace" font-size="16" fill="#94A3B8">github.com/farion1231/cc-switch</text>
+</svg>

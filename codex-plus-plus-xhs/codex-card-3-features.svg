@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <text x="400" y="55" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="36" font-weight="800" fill="#1E293B">8 大核心能力</text>
+  <text x="400" y="90" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#64748B">所有增强走 CDP 注入 · 不改原文件</text>
+  
+    <g transform="translate(40, 140)">
+      <rect x="0" y="0" width="350" height="110" rx="16" fill="#FFFFFF" stroke="#3B82F6" stroke-width="1.5"/>
+      <circle cx="38" cy="55" r="24" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1"/>
+      <text x="38" y="63" text-anchor="middle" font-family="ui-monospace, monospace" font-size="22" font-weight="800" fill="#3B82F6">01</text>
+      <text x="78" y="50" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#1E293B">插件入口解锁</text>
+      <text x="78" y="82" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">API Key 也能用</text>
+    </g>
+    <g transform="translate(410, 140)">
+      <rect x="0" y="0" width="350" height="110" rx="16" fill="#FFFFFF" stroke="#EF4444" stroke-width="1.5"/>
+      <circle cx="38" cy="55" r="24" fill="#FEF2F2" stroke="#EF4444" stroke-width="1"/>
+      <text x="38" y="63" text-anchor="middle" font-family="ui-monospace, monospace" font-size="22" font-weight="800" fill="#EF4444">02</text>
+      <text x="78" y="50" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#1E293B">真·删除会话</text>
+      <text x="78" y="82" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">列表悬停即删</text>
+    </g>
+    <g transform="translate(40, 270)">
+      <rect x="0" y="0" width="350" height="110" rx="16" fill="#FFFFFF" stroke="#10B981" stroke-width="1.5"/>
+      <circle cx="38" cy="55" r="24" fill="#F0FDF4" stroke="#10B981" stroke-width="1"/>
+      <text x="38" y="63" text-anchor="middle" font-family="ui-monospace, monospace" font-size="22" font-weight="800" fill="#10B981">03</text>
+      <text x="78" y="50" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#1E293B">Markdown 导出</text>
+      <text x="78" y="82" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">一键导出 .md</text>
+    </g>
+    <g transform="translate(410, 270)">
+      <rect x="0" y="0" width="350" height="110" rx="16" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="1.5"/>
+      <circle cx="38" cy="55" r="24" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="1"/>
+      <text x="38" y="63" text-anchor="middle" font-family="ui-monospace, monospace" font-size="22" font-weight="800" fill="#8B5CF6">04</text>
+      <text x="78" y="50" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#1E293B">项目移动</text>
+      <text x="78" y="82" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">UI 调归属</text>
+    </g>
+    <g transform="translate(40, 400)">
+      <rect x="0" y="0" width="350" height="110" rx="16" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5"/>
+      <circle cx="38" cy="55" r="24" fill="#FFFBEB" stroke="#F59E0B" stroke-width="1"/>
+      <text x="38" y="63" text-anchor="middle" font-family="ui-monospace, monospace" font-size="22" font-weight="800" fill="#F59E0B">05</text>
+      <text x="78" y="50" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#1E293B">Timeline 视图</text>
+      <text x="78" y="82" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">按时间浏览</text>
+    </g>
+    <g transform="translate(410, 400)">
+      <rect x="0" y="0" width="350" height="110" rx="16" fill="#FFFFFF" stroke="#06B6D4" stroke-width="1.5"/>
+      <circle cx="38" cy="55" r="24" fill="#ECFEFF" stroke="#06B6D4" stroke-width="1"/>
+      <text x="38" y="63" text-anchor="middle" font-family="ui-monospace, monospace" font-size="22" font-weight="800" fill="#06B6D4">06</text>
+      <text x="78" y="50" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#1E293B">用户脚本注入</text>
+      <text x="78" y="82" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">自定义 JS</text>
+    </g>
+    <g transform="translate(40, 530)">
+      <rect x="0" y="0" width="350" height="110" rx="16" fill="#FFFFFF" stroke="#EC4899" stroke-width="1.5"/>
+      <circle cx="38" cy="55" r="24" fill="#FCE7F3" stroke="#EC4899" stroke-width="1"/>
+      <text x="38" y="63" text-anchor="middle" font-family="ui-monospace, monospace" font-size="22" font-weight="800" fill="#EC4899">07</text>
+      <text x="78" y="50" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#1E293B">Upstream worktree</text>
+      <text x="78" y="82" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">智能创建分支</text>
+    </g>
+    <g transform="translate(410, 530)">
+      <rect x="0" y="0" width="350" height="110" rx="16" fill="#FFFFFF" stroke="#6366F1" stroke-width="1.5"/>
+      <circle cx="38" cy="55" r="24" fill="#EEF2FF" stroke="#6366F1" stroke-width="1"/>
+      <text x="38" y="63" text-anchor="middle" font-family="ui-monospace, monospace" font-size="22" font-weight="800" fill="#6366F1">08</text>
+      <text x="78" y="50" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#1E293B">Zed Remote 打开</text>
+      <text x="78" y="82" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">远程上下文识别</text>
+    </g>
+  <text x="400" y="770" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="15" fill="#94A3B8">Rust 后端 · Tauri 管理面板 · 深色/浅色切换</text>
+</svg>

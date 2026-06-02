@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F3F0E8"/></linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/><circle cx="81.92" cy="81.92" r="60" fill="#E0F2FE" opacity="0.4"/><circle cx="942.08" cy="122.88" r="50" fill="#EDE9FE" opacity="0.4"/><circle cx="81.92" cy="901.12" r="70" fill="#DBEAFE" opacity="0.3"/><circle cx="942.08" cy="798.72" r="80" fill="#FFEDD5" opacity="0.3"/>
+
+<text x="512" y="90" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="38" font-weight="800" fill="#1E293B">核心能力</text>
+
+<g transform="translate(62, 180)">
+  <circle cx="30" cy="30" r="26" fill="none" stroke="#0EA5E9" stroke-width="3"/>
+  <text x="30" y="37" text-anchor="middle" font-family="ui-monospace,monospace" font-size="22" font-weight="800" fill="#0EA5E9">01</text>
+  <text x="80" y="30" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="26" font-weight="700" fill="#1E293B">50+ 供应商预设</text>
+  <text x="80" y="70" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">AWS Bedrock · NVIDIA NIM · 各家中转 · 复制 Key 就能用</text>
+</g>
+<g transform="translate(62, 340)">
+  <circle cx="30" cy="30" r="26" fill="none" stroke="#3B82F6" stroke-width="3"/>
+  <text x="30" y="37" text-anchor="middle" font-family="ui-monospace,monospace" font-size="22" font-weight="800" fill="#3B82F6">02</text>
+  <text x="80" y="30" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="26" font-weight="700" fill="#1E293B">托盘秒切换</text>
+  <text x="80" y="70" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">系统托盘一键切换供应商 · Claude Code 支持热切换不重启</text>
+</g>
+<g transform="translate(62, 500)">
+  <circle cx="30" cy="30" r="26" fill="none" stroke="#8B5CF6" stroke-width="3"/>
+  <text x="30" y="37" text-anchor="middle" font-family="ui-monospace,monospace" font-size="22" font-weight="800" fill="#8B5CF6">03</text>
+  <text x="80" y="30" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="26" font-weight="700" fill="#1E293B">用量成本追踪</text>
+  <text x="80" y="70" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">跨供应商统计支出 Token · 趋势图表 · 详细请求日志 · 心中有数</text>
+</g>
+<g transform="translate(62, 660)">
+  <circle cx="30" cy="30" r="26" fill="none" stroke="#F97316" stroke-width="3"/>
+  <text x="30" y="37" text-anchor="middle" font-family="ui-monospace,monospace" font-size="22" font-weight="800" fill="#F97316">04</text>
+  <text x="80" y="30" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="26" font-weight="700" fill="#1E293B">MCP / Skills 统一</text>
+  <text x="80" y="70" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">所有工具的 MCP 服务 + Prompts · 一个界面管理，不用到处找</text>
+</g>
+<text x="512" y="960" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" fill="#94A3B8">所有功能开源免费 · Tauri 原生 · 跨平台</text>
+
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="8" flood-color="#1E293B" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <text x="400" y="55" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="36" font-weight="800" fill="#1E293B">🖥️ 三平台覆盖</text>
+  <text x="400" y="90" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#64748B">从 GitHub Releases 直接下载</text>
+
+  <g transform="translate(40, 150)">
+    <rect x="0" y="0" width="720" height="150" rx="18" fill="#FFFFFF" filter="url(#shadow)" stroke="#3B82F6" stroke-width="1.5"/>
+    <text x="30" y="50" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#1E293B">🪟 Windows x64</text>
+    <text x="30" y="90" font-family="ui-monospace, monospace" font-size="16" fill="#3B82F6">CodexPlusPlus-*-windows-x64-setup.exe</text>
+    <text x="30" y="125" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">NSIS 安装包 · 桌面 + 开始菜单快捷方式</text>
+  </g>
+
+  <g transform="translate(40, 330)">
+    <rect x="0" y="0" width="720" height="150" rx="18" fill="#FFFFFF" filter="url(#shadow)" stroke="#8B5CF6" stroke-width="1.5"/>
+    <text x="30" y="50" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#1E293B">🍎 macOS Intel x64</text>
+    <text x="30" y="90" font-family="ui-monospace, monospace" font-size="16" fill="#8B5CF6">CodexPlusPlus-*-macos-x64.dmg</text>
+    <text x="30" y="125" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">安装 /Applications/Codex++.app + 管理工具.app</text>
+  </g>
+
+  <g transform="translate(40, 510)">
+    <rect x="0" y="0" width="720" height="150" rx="18" fill="#FFFFFF" filter="url(#shadow)" stroke="#EC4899" stroke-width="1.5"/>
+    <text x="30" y="50" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#1E293B">🍎 macOS Apple Silicon</text>
+    <text x="30" y="90" font-family="ui-monospace, monospace" font-size="16" fill="#EC4899">CodexPlusPlus-*-macos-arm64.dmg</text>
+    <text x="30" y="125" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">M1/M2/M3/M4 专用 · 静默入口隐藏 Dock</text>
+  </g>
+
+  <text x="400" y="730" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">⚠️ macOS 首次打开报"已损坏"？执行 xattr -rd com.apple.quarantine</text>
+</svg>
