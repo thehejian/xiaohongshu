@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <pattern id="dot" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#0a0a0a" opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <!-- Paper background -->
+  <rect width="1024" height="1024" fill="#fafaf8"/>
+  <rect width="1024" height="1024" fill="url(#dot)"/>
+
+  <!-- Top bar -->
+  <g font-family="'IBM Plex Mono', 'SF Mono', Menlo, Consolas, monospace" font-weight="500">
+    <text x="80" y="100" font-size="20" letter-spacing="2.5" fill="#0F172A" font-weight="700">PI · AGENT</text>
+    <text x="80" y="130" font-size="16" letter-spacing="2" fill="#737373">MINIMAL CODING HARNESS · EARENDIL INC</text>
+  </g>
+
+  <!-- Top-right corner badge -->
+  <g transform="translate(944, 80)">
+    <rect x="-60" y="0" width="60" height="32" fill="none" stroke="#0a0a0a" stroke-width="1.5"/>
+    <text x="-30" y="22" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="14" font-weight="600" fill="#0a0a0a" letter-spacing="2">NEW</text>
+  </g>
+
+  <!-- HERO: Pi -->
+  <g font-family="'Inter', 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="80" y="500" font-size="380" font-weight="200" fill="#0a0a0a" letter-spacing="-12">π</text>
+    <text x="80" y="580" font-size="44" font-weight="300" fill="#0a0a0a" letter-spacing="-0.5">Make it yours</text>
+    <text x="80" y="630" font-size="22" font-weight="400" fill="#737373">极简终端编码助手</text>
+    <text x="80" y="660" font-size="22" font-weight="400" fill="#737373">Adapt Pi to your workflows</text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="80" y1="700" x2="944" y2="700" stroke="#0a0a0a" stroke-width="1" opacity="0.2"/>
+
+  <!-- Stats matrix: 4 columns -->
+  <g transform="translate(80, 740)" font-family="'Inter', sans-serif">
+    <text x="0" y="0" font-family="'IBM Plex Mono', monospace" font-size="13" font-weight="600" fill="#0F172A" letter-spacing="2">4 大核心能力</text>
+
+    <g transform="translate(0, 30)">
+      <text x="0" y="60" font-size="56" font-weight="200" fill="#0a0a0a" letter-spacing="-2">15+</text>
+      <text x="0" y="90" font-size="13" font-weight="500" fill="#737373">模型供应商</text>
+    </g>
+    <g transform="translate(220, 30)">
+      <text x="0" y="60" font-size="56" font-weight="200" fill="#0a0a0a" letter-spacing="-2">4</text>
+      <text x="0" y="90" font-size="13" font-weight="500" fill="#737373">运行模式</text>
+    </g>
+    <g transform="translate(440, 30)">
+      <text x="0" y="60" font-size="56" font-weight="200" fill="#0a0a0a" letter-spacing="-2">树状</text>
+      <text x="0" y="90" font-size="13" font-weight="500" fill="#737373">会话历史</text>
+    </g>
+    <g transform="translate(660, 30)">
+      <text x="0" y="60" font-size="56" font-weight="200" fill="#0a0a0a" letter-spacing="-2">∞</text>
+      <text x="0" y="90" font-size="13" font-weight="500" fill="#737373">扩展能力</text>
+    </g>
+  </g>
+
+  <!-- Install bar -->
+  <g transform="translate(80, 920)">
+    <rect x="0" y="0" width="864" height="40" fill="none" stroke="#0a0a0a" stroke-width="1.5"/>
+    <text x="20" y="27" font-family="'IBM Plex Mono', monospace" font-size="16" font-weight="600" fill="#0a0a0a">$</text>
+    <text x="44" y="27" font-family="'IBM Plex Mono', monospace" font-size="16" fill="#0a0a0a">curl -fsSL https://pi.dev/install.sh | sh</text>
+  </g>
+
+  <!-- Footer: hashtag -->
+  <g transform="translate(80, 985)">
+    <text x="0" y="0" font-family="'IBM Plex Mono', monospace" font-size="12" letter-spacing="2" fill="#737373">#AI编程 #CodingAgent #Pi #开源 #开发者工具</text>
+  </g>
+
+  <!-- Accent: dark dot -->
+  <circle cx="900" cy="340" r="18" fill="#0F172A"/>
+</svg>

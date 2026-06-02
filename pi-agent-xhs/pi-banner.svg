@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1792" height="1024" viewBox="0 0 1792 1024">
+  <defs>
+    <pattern id="dot" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#0a0a0a" opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <!-- Paper background -->
+  <rect width="1792" height="1024" fill="#fafaf8"/>
+  <rect width="1792" height="1024" fill="url(#dot)"/>
+
+  <!-- Top bar -->
+  <g font-family="'IBM Plex Mono', monospace" font-weight="500">
+    <text x="96" y="100" font-size="22" letter-spacing="3" fill="#0F172A" font-weight="700">PI · AGENT</text>
+    <text x="96" y="135" font-size="18" letter-spacing="2" fill="#737373">MINIMAL CODING HARNESS · EARENDIL INC · NEW</text>
+  </g>
+
+  <!-- Top-right corner badge -->
+  <g transform="translate(1696, 80)">
+    <rect x="-60" y="0" width="60" height="36" fill="none" stroke="#0a0a0a" stroke-width="1.5"/>
+    <text x="-30" y="25" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="16" font-weight="600" fill="#0a0a0a" letter-spacing="2">NEW</text>
+  </g>
+
+  <!-- HERO: Pi (left side) -->
+  <g font-family="'Inter', 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="96" y="520" font-size="380" font-weight="200" fill="#0a0a0a" letter-spacing="-12">π</text>
+    <text x="96" y="600" font-size="52" font-weight="300" fill="#0a0a0a" letter-spacing="-0.5">Make it yours</text>
+    <text x="96" y="650" font-size="24" font-weight="400" fill="#737373">极简终端编码助手</text>
+    <text x="96" y="685" font-size="24" font-weight="400" fill="#737373">Adapt Pi to your workflows, not the other way around</text>
+  </g>
+
+  <!-- Accent dot -->
+  <circle cx="1000" cy="350" r="18" fill="#0F172A"/>
+
+  <!-- Right panel: 4 features matrix -->
+  <g transform="translate(1080, 180)">
+    <text x="0" y="0" font-family="'IBM Plex Mono', monospace" font-size="16" font-weight="600" fill="#0F172A" letter-spacing="2.5">4 大核心能力</text>
+    <line x1="0" y1="20" x2="600" y2="20" stroke="#0a0a0a" stroke-width="1.5"/>
+
+    <g transform="translate(0, 80)">
+      <text x="0" y="0" font-family="'Inter', sans-serif" font-size="80" font-weight="200" fill="#0a0a0a" letter-spacing="-2">15+</text>
+      <text x="120" y="-5" font-family="'Inter', sans-serif" font-size="18" font-weight="600" fill="#0a0a0a">模型供应商</text>
+      <text x="120" y="22" font-family="'Inter', sans-serif" font-size="15" font-weight="400" fill="#737373">Anthropic / OpenAI / Google / Azure / Ollama...</text>
+    </g>
+    <line x1="0" y1="110" x2="600" y2="110" stroke="#0a0a0a" stroke-width="0.5" opacity="0.2"/>
+
+    <g transform="translate(0, 180)">
+      <text x="0" y="0" font-family="'Inter', sans-serif" font-size="80" font-weight="200" fill="#0a0a0a" letter-spacing="-2">4</text>
+      <text x="120" y="-5" font-family="'Inter', sans-serif" font-size="18" font-weight="600" fill="#0a0a0a">运行模式</text>
+      <text x="120" y="22" font-family="'Inter', sans-serif" font-size="15" font-weight="400" fill="#737373">交互 / Print / JSON / RPC / SDK</text>
+    </g>
+    <line x1="0" y1="210" x2="600" y2="210" stroke="#0a0a0a" stroke-width="0.5" opacity="0.2"/>
+
+    <g transform="translate(0, 280)">
+      <text x="0" y="0" font-family="'Inter', sans-serif" font-size="80" font-weight="200" fill="#0a0a0a" letter-spacing="-2">树状</text>
+      <text x="120" y="-5" font-family="'Inter', sans-serif" font-size="18" font-weight="600" fill="#0a0a0a">会话历史</text>
+      <text x="120" y="22" font-family="'Inter', sans-serif" font-size="15" font-weight="400" fill="#737373">分支跳转 / HTML 导出 / Gist 分享</text>
+    </g>
+    <line x1="0" y1="310" x2="600" y2="310" stroke="#0a0a0a" stroke-width="0.5" opacity="0.2"/>
+
+    <g transform="translate(0, 380)">
+      <text x="0" y="0" font-family="'Inter', sans-serif" font-size="80" font-weight="200" fill="#0a0a0a" letter-spacing="-2">∞</text>
+      <text x="120" y="-5" font-family="'Inter', sans-serif" font-size="18" font-weight="600" fill="#0a0a0a">扩展能力</text>
+      <text x="120" y="22" font-family="'Inter', sans-serif" font-size="15" font-weight="400" fill="#737373">Extension / Skills / Prompt Template / Theme</text>
+    </g>
+  </g>
+
+  <!-- Bottom-left data row -->
+  <g transform="translate(96, 790)" font-family="'Inter', sans-serif">
+    <text x="0" y="0" font-family="'IBM Plex Mono', monospace" font-size="14" font-weight="600" fill="#0F172A" letter-spacing="2">安装方式</text>
+    <g transform="translate(0, 40)">
+      <rect x="0" y="0" width="260" height="70" fill="none" stroke="#0a0a0a" stroke-width="1.5"/>
+      <text x="20" y="30" font-family="'IBM Plex Mono', monospace" font-size="16" font-weight="500" fill="#0a0a0a">curl .../install.sh</text>
+      <text x="20" y="55" font-size="12" font-weight="500" fill="#737373" letter-spacing="1">Linux / macOS</text>
+    </g>
+    <g transform="translate(280, 40)">
+      <rect x="0" y="0" width="260" height="70" fill="none" stroke="#0a0a0a" stroke-width="1.5"/>
+      <text x="20" y="30" font-family="'IBM Plex Mono', monospace" font-size="16" font-weight="500" fill="#0a0a0a">npm i -g pi-...</text>
+      <text x="20" y="55" font-size="12" font-weight="500" fill="#737373" letter-spacing="1">npm / pnpm / bun</text>
+    </g>
+  </g>
+
+  <!-- Install bar -->
+  <g transform="translate(96, 950)">
+    <rect x="0" y="0" width="700" height="44" fill="none" stroke="#0a0a0a" stroke-width="1.5"/>
+    <text x="20" y="29" font-family="'IBM Plex Mono', monospace" font-size="18" font-weight="600" fill="#0a0a0a">$</text>
+    <text x="46" y="29" font-family="'IBM Plex Mono', monospace" font-size="18" fill="#0a0a0a">curl -fsSL https://pi.dev/install. sh | sh</text>
+  </g>
+
+  <!-- Footer right: hashtags -->
+  <g transform="translate(1080, 985)">
+    <text x="0" y="0" font-family="'IBM Plex Mono', monospace" font-size="14" letter-spacing="2" fill="#737373">#AI编程 #CodingAgent #Pi #开源</text>
+  </g>
+</svg>
