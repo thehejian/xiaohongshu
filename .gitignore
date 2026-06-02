@@ -1,0 +1,6 @@
+# OS files
+.DS_Store
+*.swp
+
+# Temp/backup
+*_raw.png

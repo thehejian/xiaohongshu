@@ -1,0 +1,10 @@
+OpenCode / Codex CLI / CC-Switch / Codex++
+
+名字像兄弟，干的活完全不同：
+
+OpenCode → 开源多模型，MIT
+Codex CLI → OpenAI 原装，沙箱最安全
+CC-Switch → 管理面板，一键切配置
+Codex++ → 增强外挂，补位工具
+
+不是竞品，不同层。
