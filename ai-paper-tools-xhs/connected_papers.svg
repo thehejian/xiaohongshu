@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#FAF7F2"/>
+  
+  <!-- Center card -->
+  <rect x="112" y="180" width="800" height="664" rx="32" fill="#FFFFFF" stroke="#EF4444" stroke-width="4"/>
+  
+  <!-- Top accent bar -->
+  <rect x="112" y="180" width="800" height="12" rx="32" fill="#EF4444"/>
+  <rect x="112" y="284" width="800" height="12" rx="6" fill="#EF4444"/>
+  
+  <!-- Icon -->
+  <text x="512" y="380" text-anchor="middle" font-size="120">🕸️</text>
+  
+  <!-- Tool name -->
+  <text x="512" y="500" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="bold" fill="#1F2937">Connected Papers</text>
+  
+  <!-- Tagline -->
+  <text x="512" y="580" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#EF4444">文献关联图谱</text>
+  
+  <!-- Description -->
+  <text x="512" y="660" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#6B7280">可视化展示论文引用关系</text>
+  
+  <!-- Bottom decoration -->
+  <circle cx="200" cy="880" r="20" fill="#EF4444" opacity="0.1"/>
+  <circle cx="824" cy="880" r="20" fill="#EF4444" opacity="0.1"/>
+  <circle cx="512" cy="900" r="8" fill="#EF4444" opacity="0.2"/>
+  
+  <!-- Bottom accent -->
+  <rect x="112" y="844" width="800" height="12" rx="6" fill="#EF4444" opacity="0.1"/>
+</svg>

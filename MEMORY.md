@@ -986,3 +986,75 @@ ai-drawing-xhs/
 - 已保存为草稿，标题「AI画图工具红黑榜」
 - 5 张图片 + 6 个话题标签
 - 待用户去 creator.xiaohongshu.com 审核发布
+## 3. 小红书卡片设计 (XHS 风格)
+
+### 2026-06-03 经验总结
+
+#### 初版设计问题
+- 卡片过于简单（纯色背景 + 大 emoji + 小字）
+- 缺乏视觉冲击力，不符合 XHS 热门封面风格
+- 用户反馈"图太丑了"
+
+#### XHS 爆款封面特征
+1. **大标题 + 醒目文字** — 字体大、粗体、高对比度
+2. **高饱和度配色** — 颜色鲜艳吸睛
+3. **渐变背景** — 更有层次感
+4. **装饰元素** — 小图标、线条、贴纸感
+5. **数字/榜单感** — 突出"5个"这种数字
+
+#### v2 设计改进
+| 改进点 | 原版 | v2 版 |
+|--------|------|-------|
+| 标题 | 普通字体 | 超大粗体 (72px) + 数字编号 |
+| 配色 | 单色 | 渐变 + 高饱和度 |
+| 背景 | 纯色 | 浅色渐变 + 装饰圆 |
+| 图标 | 大 emoji | 圆形背景 + emoji |
+| 层次感 | 扁平 | 卡片阴影 + 多层元素 |
+
+#### SVG 绘制要点
+```xml
+<!-- 渐变定义 -->
+<linearGradient id="gradTop" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%" style="stop-color:{start}"/>
+  <stop offset="100%" style="stop-color:{end}"/>
+</linearGradient>
+
+<!-- 阴影滤镜 -->
+<filter id="shadow">
+  <feDropShadow dx="0" dy="8" stdDeviation="20" flood-opacity="0.15"/>
+</filter>
+
+<!-- 装饰圆 -->
+<circle cx="100" cy="100" r="60" fill="{primary}" opacity="0.05"/>
+```
+
+#### 配色方案（XHS 友好）
+| 工具 | Primary | Gradient | Background |
+|------|---------|----------|------------|
+| Paperpal | #6366F1 | #818CF8→#6366F1 | #EEF2FF |
+| Scite | #10B981 | #34D399→#10B981 | #ECFDF5 |
+| Elicit | #F59E0B | #FBBF24→#F59E0B | #FFFBEB |
+| Connected Papers | #EF4444 | #F87171→#EF4444 | #FEF2F2 |
+| Jenni | #8B5CF6 | #A78BFA→#8B5CF6 | #FAF5FF |
+
+#### 卡片尺寸
+- **XHS 推荐**: 3:4 (1242×1660) 或 1:1 (1024×1024)
+- 本次使用 1024×1024（正方形，通用性更好）
+
+#### 生成流程
+```bash
+python3 gen_cards_v2.py  # SVG → Inkscape → PNG
+```
+
+#### 常见 SVG 陷阱
+- `width="100%"` 在 Inkscape 中不被支持 → 用明确数值 `width="1024"`
+- 渐变引用错误 → 确保 `<defs>` 中定义了 `id`
+- 字体缺失 → 用 `system-ui, -apple-system, sans-serif` 通用字体栈
+- 阴影不显示 → 确保 `<filter>` 在 `<defs>` 中且 `id` 正确引用
+
+### 设计决策流程
+1. 先做简单版验证内容结构
+2. 用户反馈后快速迭代设计
+3. 参考平台热门内容调整风格
+4. 保持品牌一致性（5张卡片统一风格）
+5. 输出可复用模板（gen_cards_v2.py）
