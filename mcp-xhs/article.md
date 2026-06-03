@@ -7,7 +7,7 @@
 ## 📋 标题
 
 ```
-MCP 是什么？AI 圈的 USB-C 标准
+MCP 是什么？AI 圈的 USB-C
 ```
 
 ---
@@ -15,9 +15,9 @@ MCP 是什么？AI 圈的 USB-C 标准
 ## 📋 正文（直接复制，小红书自动分段）
 
 ```
-MCP 是什么？AI 圈的 USB-C 标准
+MCP 是什么？AI 圈的 USB-C
 
-2026 年了还不懂 MCP？
+还不懂 MCP？
 这篇文章让你 3 分钟看懂 👇
 
 ---
@@ -38,7 +38,7 @@ N 个模型 × M 个工具 = N×M 个集成
 ✅ MCP 来了
 
 Model Context Protocol
-由 Anthropic 于 2024.11 发布的开源标准
+由 Anthropic 发布的开源标准
 
 一句话：给 AI 做了一个"USB-C 接口"
 一个协议 = 所有工具都能插
@@ -64,12 +64,12 @@ Prompts → 给 AI 预制高质量模板
 
 ---
 
-🚀 生态数据（2026）
+🚀 生态数据
 
 - Python SDK: 1.64 亿次/月下载
 - 10,000+ MCP 服务器
 - 已获 Anthropic · OpenAI · Google · Microsoft · AWS 全厂商支持
-- 2025.12 捐赠 Linux 基金会，永不锁死
+- 捐赠 Linux 基金会，永不锁死
 
 一句话：MCP 已经成了 AI Agent 事实标准
 
