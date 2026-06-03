@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1024">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F3F0E8"/></linearGradient>
+<linearGradient id="lobsterG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#ff4d4d"/><stop offset="100%" stop-color="#cc2222"/></linearGradient></defs>
+<rect width="1792" height="1024" fill="url(#bgG)"/><circle cx="143.36" cy="81.92" r="60" fill="#E8EEFF" opacity="0.5"/><circle cx="1648.64" cy="122.88" r="50" fill="#EDE9FE" opacity="0.4"/><circle cx="143.36" cy="901.12" r="70" fill="#E0F2FE" opacity="0.3"/><circle cx="1648.64" cy="798.72" r="80" fill="#FFEDD5" opacity="0.3"/>
+
+<g transform="translate(30, 30)"><g transform="translate(18,0) scale(0.25)">
+  <path d="M60 10 C30 10 15 35 15 55 C15 75 30 95 45 100 L45 110 L55 110 L55 100 C55 100 60 102 65 100 L65 110 L75 110 L75 100 C90 95 105 75 105 55 C105 35 90 10 60 10Z" fill="url(#lobsterG)"/>
+  <path d="M20 45 C5 40 0 50 5 60 C10 70 20 65 25 55 C28 48 25 45 20 45Z" fill="url(#lobsterG)"/>
+  <path d="M100 45 C115 40 120 50 115 60 C110 70 100 65 95 55 C92 48 95 45 100 45Z" fill="url(#lobsterG)"/>
+  <path d="M45 15 Q35 5 30 8" stroke="#ff4d4d" stroke-width="3" stroke-linecap="round"/>
+  <path d="M75 15 Q85 5 90 8" stroke="#ff4d4d" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="45" cy="35" r="6" fill="#050810"/><circle cx="75" cy="35" r="6" fill="#050810"/>
+  <circle cx="46" cy="34" r="2.5" fill="#00e5cc"/><circle cx="76" cy="34" r="2.5" fill="#00e5cc"/>
+</g></g>
+<text x="896" y="250" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="56" font-weight="400" fill="#64748B" letter-spacing="3">OpenClaw</text>
+<text x="896" y="460" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="220" font-weight="900" fill="#3370FF" letter-spacing="-7">× 飞书</text>
+<text x="896" y="560" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="40" fill="#64748B">AI 个人助手 · 直接接入飞书 · 两步开通</text>
+
+<g transform="translate(296, 650)">
+  <rect x="0" y="0" width="1200" height="80" rx="40" fill="#E8EEFF"/>
+  <text x="600" y="52" text-anchor="middle" font-family="ui-monospace,monospace" font-size="32" font-weight="700" fill="#3370FF">openclaw channels login --channel feishu</text>
+</g>
+
+<g transform="translate(100, 800)">
+  <rect x="0" y="0" width="220" height="50" rx="25" fill="#E8EEFF"/><text x="110" y="34" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="600" fill="#3370FF">消息</text>
+  <rect x="250" y="0" width="220" height="50" rx="25" fill="#E0F2FE"/><text x="360" y="34" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="600" fill="#0EA5E9">文档</text>
+  <rect x="500" y="0" width="220" height="50" rx="25" fill="#EDE9FE"/><text x="610" y="34" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="600" fill="#8B5CF6">多维表格</text>
+  <rect x="750" y="0" width="220" height="50" rx="25" fill="#FFEDD5"/><text x="860" y="34" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="600" fill="#F97316">日历</text>
+  <rect x="1000" y="0" width="220" height="50" rx="25" fill="#D1FAE5"/><text x="1110" y="34" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="600" fill="#10B981">任务</text>
+  <rect x="1250" y="0" width="220" height="50" rx="25" fill="#FFE4E6"/><text x="1360" y="34" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="600" fill="#F43F5E">流式输出</text>
+</g>
+
+<text x="896" y="960" text-anchor="middle" font-family="ui-monospace,monospace" font-size="22" fill="#94A3B8">openclaw.ai · npm i -g openclaw · MIT License · 30+ 模型平台</text>
+
+</svg>

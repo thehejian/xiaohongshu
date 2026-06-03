@@ -1611,3 +1611,77 @@ mcp-xhs/
 - 话题：无（去掉了 `--topics` 因话题无法匹配）
 - 状态：✅ 暂存成功（草稿箱）
 - 飞书文档：`https://www.feishu.cn/docx/QyGudmAkjopuJGxj9DGcnQUgnpc`
+
+## 26. openclaw-feishu-xhs 项目经验（2026-06-03）
+
+### 项目结构
+```
+openclaw-feishu-xhs/
+├── article.md              # 小红书草稿（标题 10 字 + 正文 608 字）
+├── README.md               # 完整博客版 + 链接
+├── gen_cards.py            # SVG→PNG 生成器（4 张浅色大标题卡片）
+├── openclaw-square.png     # 封面 (1024×1024) 官方龙虾 logo
+├── openclaw-card-1.png     # 飞书官方插件功能列表 (1024×1024)
+├── openclaw-card-2.png     # 两步开通指南 (1024×1024)
+└── openclaw-banner.png     # 横幅 (1792×1024)
+```
+
+### 发布数据
+- 标题：`AI助手接入飞书绝了`（10 字，≤20 ✓）
+- 正文：608 字（≤950 ✓），首行即标题 ✓
+- 图片：4 张（≤9 ✓）
+- 话题：无（`OpenClaw`/`AI` 都无法匹配 XHS 话题实体，去掉 --topics 后成功）
+- 状态：✅ 暂存成功（草稿箱）
+- 飞书文档：https://www.feishu.cn/docx/QNEWdBRmboIuVmxMtzcceAYNn3b
+
+### 官方 Logo 嵌入 SVG
+- OpenClaw 官方图标从 `https://openclaw.ai/favicon.svg` 获取（红色龙虾 SVG）
+- 剥掉 SVG 外套（`<svg>...</svg>`），只取 `<g>` 内的 path 数据
+- Gradient def 合并到 `<defs>` 中统一管理，避免重复定义
+- 龙虾图标嵌入到封面卡（square）顶部居中，banner 卡左上角
+
+### 卡片设计要点（浅色大标题爆款型）
+```
+底色：#FAF7F2 → #F3F0E8 渐变
+Logo：官方龙虾 favicon 路径嵌入 SVG（scale 0.65，居中/左上角）
+封面：Logo → OpenClaw 60px → × 飞书 190px 超大标题 → 副标题 38px → 命令 (BLUEL底+BLUE文)
+功能卡：6 大领域列表（蓝/青/紫/橙/绿/粉），每领域 key + 名称 + 描述
+教程卡：Step 1/2 + 可选插件 + 重启命令
+Banner：Logo（左上）+ 标题 220px + 命令 + 6 领域标签
+```
+
+### 关键踩坑 & 修复
+
+**1. 标题文字与下方元素重叠**
+- 症状：封面 "OpenClaw" 与下方 "× 飞书" 文字重叠
+- 修复：重新分配 y 坐标，增大间距（Logo y=95 → OpenClaw y=260 → × 飞书 y=460 → 副标题 y=560）
+- 公式：`gap ≥ fontsize × 0.5` 留安全间距
+
+**2. 浅色风格不能用白色文字**
+- 原设计：蓝色按钮（`#3370FF`）上白色文字 `fill="#FFFFFF"`
+- 修复：改为浅蓝底 `BLUEL`（`#E8EEFF`）+ 深蓝字 `BLUE`（`#3370FF`）
+- 规则：浅色卡片上任何文字都不能用 `#FFF`/`#FFFFFF`
+
+**3. 标题文字禁用投影**
+- SVG 中 `<text>` 元素不添加任何 `filter` 属性（glow/shadow）
+- 容器的阴影（`<rect>` 上的 feDropShadow）可保留
+
+**4. 官方 Logo 太小**
+- 初版 `scale(0.45)` → 用户反馈太小 → 放大到 `scale(0.65)`
+- 面积增大约 2 倍，视觉上合适
+
+**5. opencli xiaohongshu publish 话题匹配失败**
+- `OpenClaw`、`AI`、`飞书` 等话题都返回 `Could not attach topic: no real topic entity appeared`
+- 修复：去掉 `--topics` 参数后发布成功
+- 经验：小众/非 XHS 热门话题直接导致发布失败，要么用平台已有热门标签，要么不传
+
+**6. SVG 属性闭合引号检查**
+- `height="{h}>` 漏写 `"` → Inkscape 输出空白 PNG
+- 所有 SVG 属性必须显式用 `"` 闭合
+
+### 正文格式严格执行
+- **标题 ≤ 20 字符**：`AI助手接入飞书绝了` = 10 ✓
+- **正文 ≤ 950 字**：608 ✓
+- **首行即标题**：正文第一行是标题文字
+- **无时间戳**：正文中无日期/版本号
+- **纯文本**：不支持 Markdown 格式（`---`、`###` 等会显示为原文）

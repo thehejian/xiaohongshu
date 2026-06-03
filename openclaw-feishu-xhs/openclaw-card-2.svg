@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F3F0E8"/></linearGradient>
+<linearGradient id="lobsterG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#ff4d4d"/><stop offset="100%" stop-color="#cc2222"/></linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/><circle cx="81.92" cy="81.92" r="60" fill="#E8EEFF" opacity="0.5"/><circle cx="942.08" cy="122.88" r="50" fill="#EDE9FE" opacity="0.4"/><circle cx="81.92" cy="901.12" r="70" fill="#E0F2FE" opacity="0.3"/><circle cx="942.08" cy="798.72" r="80" fill="#FFEDD5" opacity="0.3"/>
+
+<text x="512" y="90" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="42" font-weight="800" fill="#1E293B">两步开通</text>
+<text x="512" y="132" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" fill="#64748B">WebSocket 直连 · 无需公网服务器</text>
+
+<g transform="translate(62, 200)">
+  <rect x="0" y="0" width="900" height="160" rx="20" fill="#FFFFFF" stroke="#3370FF" stroke-width="2"/>
+  <text x="30" y="45" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#3370FF">Step 1 · 安装 OpenClaw</text>
+  <text x="30" y="85" font-family="ui-monospace,monospace" font-size="20" fill="#1E293B">npm install -g openclaw</text>
+  <text x="30" y="120" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">支持 macOS / Windows / Linux</text>
+  <text x="30" y="146" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">或一键脚本 curl -fsSL https://openclaw.ai/install.sh | bash</text>
+</g>
+
+<g transform="translate(62, 410)">
+  <rect x="0" y="0" width="900" height="160" rx="20" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="2"/>
+  <text x="30" y="45" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#8B5CF6">Step 2 · 飞书登录</text>
+  <text x="30" y="85" font-family="ui-monospace,monospace" font-size="20" fill="#1E293B">openclaw channels login --channel feishu</text>
+  <text x="30" y="120" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">OAuth 授权 · 扫码绑定</text>
+  <text x="30" y="146" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">浏览器登录后自动配置完成</text>
+</g>
+
+<g transform="translate(62, 620)">
+  <rect x="0" y="0" width="900" height="120" rx="20" fill="#FFFFFF" stroke="#0EA5E9" stroke-width="2"/>
+  <text x="30" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#0EA5E9">可选 · 飞书官方插件</text>
+  <text x="30" y="80" font-family="ui-monospace,monospace" font-size="20" fill="#1E293B">npm install @larksuite/openclaw-lark</text>
+  <text x="30" y="108" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">更多 API 支持 · 文档 / 多维表格 / 日历 / 任务</text>
+</g>
+
+<g transform="translate(62, 810)">
+  <rect x="0" y="0" width="900" height="70" rx="16" fill="#E8EEFF"/>
+  <text x="30" y="44" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="600" fill="#3370FF">openclaw gateway restart  →  立即生效 🚀</text>
+</g>
+
+</svg>
