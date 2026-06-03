@@ -1430,3 +1430,184 @@ hermes-feishu-xhs/
 - 封面双 logo 让用户一眼看清"这个产品对接了谁"
 - 编号列表 + 统一底部布局（半透明黑卡叠加"底栏"）
 - 每卡一个 emoji 图标作"锚点"，提高信息辨识度
+
+## 23. deepseek-api-apply-xhs 项目经验（2026-06-03）
+
+### 项目结构
+```
+deepseek-api-apply-xhs/
+├── article.md                         # 小红书草稿（标题 20 字 + 正文 476 字）
+├── README.md                          # 完整博客版
+├── gen_cards.py                       # SVG→PNG 生成器（6 张浅色爆款卡片）
+├── deepseek-square-cover.png          # 封面卡（1024×1024，SVG 生成）
+├── deepseek-gemini-cover.png          # Gemini AI 生成封面（1024×1024）
+├── deepseek-card-1..5-signup/apikey/code/pricing/tips.png  # 步骤卡（800×800）
+```
+
+### 发布参数（实测）
+- 标题：`DeepSeek API 申请保姆级教程` = 20 字 ✓
+- 正文：476 字（首行为标题）✓
+- 图片：6 张（1 cover + 5 步骤卡）
+- 话题：10 个
+- 状态：✅ 暂存成功（草稿箱）
+
+### 卡片设计要点（浅色大标题爆款型）
+```
+底色：#FAF7F2 → #F5F0E8 渐变
+标题栏：rx=50 pill 形状，浅色背景 + 深色文字（#1E293B）
+封面：大标题 80px gradient（蓝→紫→粉），带 shadow filter
+步骤卡：48px 粗体标题 + 白卡片分块 + 左侧色条指示器
+代码卡：深色终端风格 #1E293B 背景，语法高亮
+价格卡：两个模型白卡上下排列，底部比较标签
+避坑卡：红色 alert 标题 + 4 条 tips 列表
+```
+
+### SVG 关键陷阱（本次踩坑）
+
+**1. `&` 字符必须转义为 `&amp;`**
+- 症状：`"注册 & 登录"` → Inkscape 报 `xmlParseEntityRef: no name`，卡片渲染空白
+- 根因：`&` 在 XML/SVG 中是特殊字符，不能直接写在文本内容里
+- 修复：所有文本中的 `&` 改为 `&amp;`
+- 检查点：`grep '&[^a]' *.svg` 可发现未转义的 `&`
+
+**2. 标题栏文字颜色对比度**
+- 症状：白字 (`#FFF`) 在纯色蓝/紫/绿/橙/红背景上看不清
+- 修复：标题栏背景改为浅色版（`BLUE_LIGHT`/`PURPLE_LIGHT`/...），文字改为深色 `#1E293B`
+- 原则：标题栏主体用 light variant 做 bg + dark text，而非 bold color + white text
+
+**3. 代码块行距溢出**
+- 症状：Python 代码块 6 行 × 34px 行距 = 204px，超出 block height 210px
+- 根因：行数 × 行距 > 容器高度，末行文字跑出圆角边界
+- 修复：增大 block height（210→230px）或减小字号/行距
+- 公式：`block_height ≥ last_line_y + font_size * 1.4`
+
+**4. lark-cli media-insert 路径限制**
+- 绝对路径 `/Users/.../file.png` → `unsafe file path: --file must be a relative path`
+- 必须 `cd` 到卡片目录后用 `--file ./xxx.png`
+
+**5. Gemini 封面命名**
+- `opencli gemini image --op <dir>` 输出 `gemini_<timestamp>.png`
+- 需要手动 `cp / mv` 为有意义的名字（如 `deepseek-gemini-cover.png`）
+
+### 飞书文档
+- URL：https://www.feishu.cn/docx/OUVXdi4u3olD4hxhN8ncn7runpb
+- 7 张图全部上传成功（gemini cover + svg cover + 5 步骤卡）
+
+### 关键约束（本次验证）
+1. **标题 ≤ 20 字**：`"DeepSeek API 申请保姆级教程"` = 20 ✓（含 emoji 会超限）
+2. **正文 ≤ 950 字**：476 字，内容到"关注我"结尾
+3. **首行即标题**：正文第一行复制标题文字
+4. **无时间戳**：SVG 卡片、正文均无日期/版本号
+5. **Card 3 代码块**：双 block（cURL + Python），需确保行距不溢出
+6. **lark-cli 图片插入**：先 `cd` 到目录，再用相对路径 `--file ./xxx.png`
+
+## 24. opencut-xhs 项目经验（2026-06-03）
+
+### 项目结构
+```
+opencut-xhs/
+├── article.md              # 小红书草稿（标题 15 字 + 正文 444 字）
+├── README.md               # 完整博客版
+├── gen_cards.py            # SVG→PNG 生成器（4 张浅色大标题卡片）
+├── opencut-cover.png       # 封面 (1024×1024)
+├── opencut-card-1.png      # 核心能力 2×2 网格 (1024×1024)
+├── opencut-card-2.png      # OpenCut vs 剪映 对比表 (1024×1024)
+└── opencut-card-3.png      # AI 黑科技全家桶 (1024×1024)
+```
+
+### 发布数据
+- 标题：`OpenCut 开源剪映平替🔥`（15 字，≤20 ✓）
+- 正文：444 字（≤950 ✓），首行即标题
+- 图片：4 张（≤9 ✓）
+- 话题：OpenCut,开源,剪映,视频剪辑,AI工具,效率工具,CapCut
+- 状态：✅ 暂存成功（草稿箱）
+- 飞书文档：`https://www.feishu.cn/docx/Kj89dwCN1o7Vigx6Z9EcHbRanQc`
+
+### 卡片设计要点（浅色大标题 XHS 爆款型）
+```
+底色：#FAF7F2 → #F0EBE0 渐变
+强调色：蓝色 #2563EB / 紫色 #8B5CF6 / 绿色 #10B981 / 橙色 #F59E0B
+封面：140px 超大标题 "Cut" + OPEN 小字 eyebrows + 安装命令按钮
+功能卡：2×2 大圆角白卡，每卡 icon + 标题 + 描述
+对比卡：表头蓝底 + 行交替白底 + 末尾安装 CTA
+AI 卡：2×2 四象限白卡，icon + 标题 + 双行描述
+```
+
+### 踩坑记录
+
+**1. opencli gemini image 返回 no-images**
+- 症状：`status: ⚠️ no-images`，Gemini 页面打开了但未生成图片
+- 可能原因：Gemini 会话未登录或 prompt 不符合生成条件
+- 尝试方案：换了 3 次 prompt + `--window foreground/background` 均失败
+- 结论：Gemini 当前会话不可用，全部用 SVG 卡片代替封面
+
+**2. opencli xiaohongshu publish 图片上传失败**
+- 首次使用 ``--window background`` 时报 `Image injection failed: No file input found on page`
+- 修复：改用 `--window foreground` 让浏览器窗口在前台运行，上传成功
+- 经验：XHS publish 命令必须用 foreground 模式，后台无法操作 file input
+
+**3. 首次 publish `--draft true` 输出格式**
+- 本次启用了 `--window foreground --site-session persistent -f yaml` 四个参数
+- 返回格式：`- status: ✅ 暂存成功`（yaml 数组格式）
+- 区别于其他项目的 `"ok": true` JSON 格式——注意解析差异
+
+### 内容迭代（无，一稿过）
+- 标题、正文、卡片全部一次通过用户审核
+- 验证了"浅色大标题 + 对比表 + AI 功能"组合适合开源工具介绍类内容
+
+## 25. mcp-xhs 项目经验（2026-06-03）
+
+### 项目结构
+```
+mcp-xhs/
+├── article.md              # 小红书草稿（标题 19 字 + 正文 867 字）
+├── README.md               # 完整博客版 + 文件清单
+├── gen_cards.py            # SVG→PNG 生成器（5 张浅色大标题卡片）
+├── mcp-cover.png           # 封面 (1024×1024) 标题 100px
+├── mcp-card-1-problem.png  # 问题卡 (800×800)
+├── mcp-card-2-what.png     # MCP 定义卡 (800×800)
+├── mcp-card-3-how.png      # 工作原理卡 (800×800)
+└── mcp-card-4-adoption.png # 生态数据卡 (800×800)
+```
+
+### 封面标题布局（核心教训）
+- 标题 `"MCP 是什么？"` font-size=100px，baseline y=230
+- 文字底部 ≈ y=230 + 25(descent) = y=255
+- 副标题卡从 y=300 开始，gap=45px → 安全
+- **公式**：`gap ≥ fontsize × 0.5`，100px 字号至少留 50px 到下一个元素
+- 标签卡（eyebrow）从 y=40 开始，font-size=26px，gap 充裕
+
+### 标题文字禁用投影（规则）
+- `<text>` 元素上**永远不要**加 `filter="url(#glow)"` 或 `filter="url(#shadow)"`
+- 用户多次反馈投影降低可读性和高级感
+- `<rect>` 容器的卡阴影（feDropShadow）可以保留，这不属于"标题文字投影"
+- 这条规则已记入 AGENTS.md SVG pitfalls 节
+
+### SVG 的 & 转义
+- 正文含 `&`（如 `"OpenAI & Google"`）必须写为 `&amp;`
+- 否则 Inkscape 报 `xmlParseEntityRef: no name`，整张卡片变空白
+- 检查方法：`grep '&[^a]' gen_cards.py` 除 `&amp;` 外不应有裸 `&`
+
+### 浅色风格白字检查清单
+- `fill="#FFF"` 或 `fill="#FFFFFF"` 只允许出现在**深色背景**上（如色号 #2563EB/#7C3AED/#059669 等）
+- 浅色背景（`BLUE_LIGHT`/`GREEN_LIGHT`/cream/white）上的文字必须用深色（`#1E293B` 或品牌色）
+- 检查方法：`grep -n 'fill="#FFF\|fill="#FFFFFF' gen_cards.py` 逐一确认背景色
+
+### opencli gemini image 可靠性
+- 本次 `opencli gemini image` 两次调用均返回 `status: ⚠️ no-images`
+- Gemini 页面打开了但未生成图片（可能会话状态或 prompt 问题）
+- **结论**：不可作为封面唯一来源，SVG 卡片必须自带封面作为 fallback
+
+### opencli xiaohongshu publish topics 限制
+- `--topics` 中不常见的话题名（如 `"MCP"`、`"AI协议"`、`"ModelContextProtocol"`）导致 `Could not attach topic: no real topic entity appeared after selection`
+- 修复：去掉 `--topics` 参数，发布成功
+- **经验**：XHS 话题必须使用平台已有的热门标签，小众标签会导致整个发布失败
+- 要么用常见话题（`AI工具,大模型,开发者,开源`），要么不传 `--topics`
+
+### 本次发布数据
+- 标题：`MCP 是什么？AI 圈的 USB-C`（19 字，≤20 ✓）
+- 正文：867 字（≤950 ✓），首行即标题 ✓
+- 图片：5 张（≤9 ✓）
+- 话题：无（去掉了 `--topics` 因话题无法匹配）
+- 状态：✅ 暂存成功（草稿箱）
+- 飞书文档：`https://www.feishu.cn/docx/QyGudmAkjopuJGxj9DGcnQUgnpc`
