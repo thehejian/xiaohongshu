@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#FAF7F2"/>
+    <stop offset="100%" stop-color="#F3F0E8"/>
+  </linearGradient>
+  <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#8B5CF6"/>
+    <stop offset="100%" stop-color="#A78BFA"/>
+  </linearGradient>
+  <filter id="cardShadow" x="-5%" y="-5%" width="115%" height="115%">
+    <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000" flood-opacity="0.06"/>
+  </filter>
+</defs>
+
+<rect width="1024" height="1024" fill="url(#bgGrad)"/>
+
+<!-- Eyebrow -->
+<g transform="translate(80, 80)">
+  <rect x="0" y="0" width="6" height="36" rx="3" fill="#8B5CF6"/>
+  <text x="20" y="14" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#94A3B8">AI AGENT FRAMEWORK</text>
+  <text x="20" y="34" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="12" fill="#94A3B8">N8N · Dify · Coze 三选一</text>
+</g>
+
+<!-- Hero title -->
+<g transform="translate(80, 160)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="72" font-weight="900" fill="#1E293B" letter-spacing="-2">AI Agent</text>
+  <text x="0" y="82" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="72" font-weight="900" fill="url(#titleGrad)" letter-spacing="-2">框架四巨头对比</text>
+</g>
+
+<!-- Subtitle -->
+<g transform="translate(80, 300)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="500" fill="#475569">看完这张图，选对工具不踩坑</text>
+</g>
+
+<!-- Three platform cards in a row -->
+<!-- N8N card -->
+<g transform="translate(80, 380)" filter="url(#cardShadow)">
+  <rect x="0" y="0" width="270" height="300" rx="16" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="270" height="6" rx="3" fill="#EA580C"/>
+  <text x="135" y="52" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="32" font-weight="800" fill="#EA580C">N8N</text>
+  <text x="135" y="80" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" fill="#94A3B8">工作流自动化</text>
+  <line x1="30" y1="100" x2="240" y2="100" stroke="#E2E8F0" stroke-width="1"/>
+  <g transform="translate(30, 120)">
+    <rect x="0" y="0" width="6" height="28" rx="3" fill="#EA580C"/>
+    <text x="18" y="12" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#EA580C">开源</text>
+    <text x="18" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="15" fill="#475569">可自托管，数据可控</text>
+  </g>
+  <g transform="translate(30, 165)">
+    <rect x="0" y="0" width="6" height="28" rx="3" fill="#EA580C"/>
+    <text x="18" y="12" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#EA580C">节点</text>
+    <text x="18" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="15" fill="#475569">500+ 集成，拖拽编排</text>
+  </g>
+  <g transform="translate(30, 210)">
+    <rect x="0" y="0" width="6" height="28" rx="3" fill="#EA580C"/>
+    <text x="18" y="12" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#EA580C">优势</text>
+    <text x="18" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="15" fill="#475569">自动化流程，开发者友好</text>
+  </g>
+  <g transform="translate(30, 255)">
+    <rect x="0" y="0" width="210" height="42" rx="10" fill="#EA580C" opacity="0.08"/>
+    <text x="16" y="27" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="15" font-weight="600" fill="#EA580C">🎯 有开发能力 · 重视隐私</text>
+  </g>
+</g>
+
+<!-- Dify card -->
+<g transform="translate(377, 380)" filter="url(#cardShadow)">
+  <rect x="0" y="0" width="270" height="300" rx="16" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="270" height="6" rx="3" fill="#2563EB"/>
+  <text x="135" y="52" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="32" font-weight="800" fill="#2563EB">Dify</text>
+  <text x="135" y="80" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" fill="#94A3B8">LLM 应用开发</text>
+  <line x1="30" y1="100" x2="240" y2="100" stroke="#E2E8F0" stroke-width="1"/>
+  <g transform="translate(30, 120)">
+    <rect x="0" y="0" width="6" height="28" rx="3" fill="#2563EB"/>
+    <text x="18" y="12" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#2563EB">开源</text>
+    <text x="18" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="15" fill="#475569">可自部署，社区活跃</text>
+  </g>
+  <g transform="translate(30, 165)">
+    <rect x="0" y="0" width="6" height="28" rx="3" fill="#2563EB"/>
+    <text x="18" y="12" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#2563EB">RAG</text>
+    <text x="18" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="15" fill="#475569">知识库 + Agent 工作流</text>
+  </g>
+  <g transform="translate(30, 210)">
+    <rect x="0" y="0" width="6" height="28" rx="3" fill="#2563EB"/>
+    <text x="18" y="12" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#2563EB">优势</text>
+    <text x="18" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="15" fill="#475569">Prompt 调优 · 模型管理</text>
+  </g>
+  <g transform="translate(30, 255)">
+    <rect x="0" y="0" width="210" height="42" rx="10" fill="#2563EB" opacity="0.08"/>
+    <text x="16" y="27" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="15" font-weight="600" fill="#2563EB">🎯 搭 LLM 应用 · 需知识库</text>
+  </g>
+</g>
+
+<!-- Coze card -->
+<g transform="translate(674, 380)" filter="url(#cardShadow)">
+  <rect x="0" y="0" width="270" height="300" rx="16" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="270" height="6" rx="3" fill="#F97316"/>
+  <text x="135" y="52" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="32" font-weight="800" fill="#F97316">扣子</text>
+  <text x="135" y="80" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" fill="#94A3B8">插件生态 Bot</text>
+  <line x1="30" y1="100" x2="240" y2="100" stroke="#E2E8F0" stroke-width="1"/>
+  <g transform="translate(30, 120)">
+    <rect x="0" y="0" width="6" height="28" rx="3" fill="#F97316"/>
+    <text x="18" y="12" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#F97316">闭源</text>
+    <text x="18" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="15" fill="#475569">SaaS 平台，上手最快</text>
+  </g>
+  <g transform="translate(30, 165)">
+    <rect x="0" y="0" width="6" height="28" rx="3" fill="#F97316"/>
+    <text x="18" y="12" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#F97316">插件</text>
+    <text x="18" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="15" fill="#475569">上百现成插件，多模态</text>
+  </g>
+  <g transform="translate(30, 210)">
+    <rect x="0" y="0" width="6" height="28" rx="3" fill="#F97316"/>
+    <text x="18" y="12" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#F97316">优势</text>
+    <text x="18" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="15" fill="#475569">一键发布 · 抖音/飞书/微信</text>
+  </g>
+  <g transform="translate(30, 255)">
+    <rect x="0" y="0" width="210" height="42" rx="10" fill="#F97316" opacity="0.08"/>
+    <text x="16" y="27" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="15" font-weight="600" fill="#F97316">🎯 快速上线 · 依赖插件</text>
+  </g>
+</g>
+
+<!-- Bottom summary bar -->
+<g transform="translate(80, 740)">
+  <rect x="0" y="0" width="864" height="60" rx="12" fill="#1E293B" opacity="0.04"/>
+  <text x="30" y="26" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#94A3B8">N8N → 自动化流程</text>
+  <text x="320" y="26" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#94A3B8">Dify → LLM 应用 + 知识库</text>
+  <text x="640" y="26" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#94A3B8">扣子 → Bot + 快速上线</text>
+  <text x="30" y="50" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="13" fill="#94A3B8">三者组合用也不冲突：N8N 底层 + Dify LLM 层 + 扣子前端</text>
+</g>
+
+<!-- Footer -->
+<g transform="translate(80, 860)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#1E293B" font-weight="600">#AI Agent · #N8N · #Dify · #扣子 · #Coze · #LLM · #AI工具 · #自动化</text>
+</g>
+</svg>

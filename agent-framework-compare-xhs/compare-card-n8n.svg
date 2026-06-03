@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#FAF7F2"/>
+    <stop offset="100%" stop-color="#FDF2F0"/>
+  </linearGradient>
+  <filter id="cardShadow" x="-5%" y="-5%" width="115%" height="115%">
+    <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000" flood-opacity="0.06"/>
+  </filter>
+</defs>
+<rect width="1024" height="1024" fill="url(#bgGrad)"/>
+
+<!-- Top accent -->
+<rect x="0" y="0" width="1024" height="8" fill="#EA580C"/>
+
+<!-- Header -->
+<g transform="translate(80, 70)">
+  <rect x="0" y="0" width="6" height="36" rx="3" fill="#EA580C"/>
+  <text x="20" y="14" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#94A3B8">WORKFLOW AUTOMATION</text>
+  <text x="20" y="34" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="12" fill="#94A3B8">开源 · 自托管 · 500+ 集成</text>
+</g>
+
+<!-- Title -->
+<g transform="translate(80, 150)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="80" font-weight="900" fill="#EA580C" letter-spacing="-2">N8N</text>
+  <text x="0" y="80" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="36" font-weight="600" fill="#1E293B">工作流自动化王者</text>
+</g>
+
+<!-- Divider -->
+<line x1="80" y1="260" x2="944" y2="260" stroke="#E2E8F0" stroke-width="1"/>
+
+<!-- Feature blocks -->
+<!-- Block 1: 开源 -->
+<g transform="translate(80, 300)" filter="url(#cardShadow)">
+  <rect x="0" y="0" width="420" height="130" rx="16" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="6" height="130" rx="3" fill="#EA580C"/>
+  <text x="30" y="42" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#EA580C">开源可自托管</text>
+  <text x="30" y="72" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" fill="#475569">代码开源，可部署在自己的服务器上</text>
+  <text x="30" y="96" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#94A3B8">数据完全可控 · 无 API 调用费用</text>
+</g>
+
+<!-- Block 2: 节点 -->
+<g transform="translate(524, 300)" filter="url(#cardShadow)">
+  <rect x="0" y="0" width="420" height="130" rx="16" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="6" height="130" rx="3" fill="#EA580C"/>
+  <text x="30" y="42" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#EA580C">节点式编排</text>
+  <text x="30" y="72" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" fill="#475569">拖拽节点串联 API、数据库、AI 模型</text>
+  <text x="30" y="96" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#94A3B8">500+ 原生集成 · 可视化工作流</text>
+</g>
+
+<!-- Block 3: 场景 -->
+<g transform="translate(80, 470)" filter="url(#cardShadow)">
+  <rect x="0" y="0" width="864" height="130" rx="16" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="6" height="130" rx="3" fill="#EA580C"/>
+  <text x="30" y="42" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#EA580C">典型使用场景</text>
+  <text x="30" y="76" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" fill="#475569">自动化脚本 · 数据同步 · 内部工具集成 · 定时任务</text>
+  <text x="30" y="100" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#94A3B8">适合：有开发能力、重视数据隐私的团队</text>
+</g>
+
+<!-- Limitation -->
+<g transform="translate(80, 640)" filter="url(#cardShadow)">
+  <rect x="0" y="0" width="864" height="80" rx="16" fill="#FEF2F2"/>
+  <rect x="0" y="0" width="6" height="80" rx="3" fill="#EF4444"/>
+  <text x="30" y="34" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#DC2626">⚠️ 注意</text>
+  <text x="30" y="58" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#991B1B">LLM 原生能力较弱，需要自己接 OpenAI / Claude 等 API</text>
+</g>
+
+<!-- Rating -->
+<g transform="translate(80, 770)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#1E293B">上手难度</text>
+  <text x="200" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="28" font-weight="800" fill="#EA580C">中等</text>
+  <text x="0" y="40" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#1E293B">推荐指数</text>
+  <text x="200" y="40" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="28" font-weight="800" fill="#EA580C">★★★★☆</text>
+</g>
+
+<!-- Target -->
+<g transform="translate(80, 870)">
+    <rect x="0" y="0" width="864" height="42" rx="10" fill="#EA580C" opacity="0.08"/>
+    <text x="16" y="27" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="15" font-weight="600" fill="#EA580C">🎯 有开发能力 · 重视数据隐私的团队</text>
+  </g>
+
+<!-- Footer -->
+<g transform="translate(80, 960)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#94A3B8">#N8N #工作流自动化 #开源 #AI工具</text>
+</g>
+</svg>

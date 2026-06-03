@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#FAF7F2"/>
+    <stop offset="100%" stop-color="#EFF6FF"/>
+  </linearGradient>
+  <filter id="cardShadow" x="-5%" y="-5%" width="115%" height="115%">
+    <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000" flood-opacity="0.06"/>
+  </filter>
+</defs>
+<rect width="1024" height="1024" fill="url(#bgGrad)"/>
+
+<rect x="0" y="0" width="1024" height="8" fill="#2563EB"/>
+
+<!-- Header -->
+<g transform="translate(80, 70)">
+  <rect x="0" y="0" width="6" height="36" rx="3" fill="#2563EB"/>
+  <text x="20" y="14" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#94A3B8">LLM APPLICATION PLATFORM</text>
+  <text x="20" y="34" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="12" fill="#94A3B8">开源 · RAG + Agent + 模型管理</text>
+</g>
+
+<!-- Title -->
+<g transform="translate(80, 150)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="80" font-weight="900" fill="#2563EB" letter-spacing="-2">Dify</text>
+  <text x="0" y="80" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="36" font-weight="600" fill="#1E293B">LLM 应用开发平台</text>
+</g>
+
+<line x1="80" y1="260" x2="944" y2="260" stroke="#E2E8F0" stroke-width="1"/>
+
+<!-- Block 1: RAG -->
+<g transform="translate(80, 300)" filter="url(#cardShadow)">
+  <rect x="0" y="0" width="420" height="130" rx="16" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="6" height="130" rx="3" fill="#2563EB"/>
+  <text x="30" y="42" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#2563EB">RAG 知识库</text>
+  <text x="30" y="72" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" fill="#475569">上传文档自动切片 · 向量检索 · 精准回答</text>
+  <text x="30" y="96" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#94A3B8">支持 PDF/Word/Markdown · 知识库管理</text>
+</g>
+
+<!-- Block 2: Agent -->
+<g transform="translate(524, 300)" filter="url(#cardShadow)">
+  <rect x="0" y="0" width="420" height="130" rx="16" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="6" height="130" rx="3" fill="#2563EB"/>
+  <text x="30" y="42" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#2563EB">Agent 工作流</text>
+  <text x="30" y="72" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" fill="#475569">可视化编排 Agent 推理流程</text>
+  <text x="30" y="96" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#94A3B8">多模型路由 · Prompt 版本管理</text>
+</g>
+
+<!-- Block 3: 场景 -->
+<g transform="translate(80, 470)" filter="url(#cardShadow)">
+  <rect x="0" y="0" width="864" height="130" rx="16" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="6" height="130" rx="3" fill="#2563EB"/>
+  <text x="30" y="42" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#2563EB">典型使用场景</text>
+  <text x="30" y="76" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" fill="#475569">企业知识库问答 · ChatBot · 内容生成 · 数据分析助手</text>
+  <text x="30" y="100" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#94A3B8">适合：想快速搭建 LLM 应用、需要知识库的企业</text>
+</g>
+
+<!-- Advantage -->
+<g transform="translate(80, 640)" filter="url(#cardShadow)">
+  <rect x="0" y="0" width="864" height="80" rx="16" fill="#EFF6FF"/>
+  <rect x="0" y="0" width="6" height="80" rx="3" fill="#2563EB"/>
+  <text x="30" y="34" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#2563EB">💡 优势</text>
+  <text x="30" y="58" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#1E40AF">比 N8N 更懂 LLM，比 Coze 更灵活 · 开源可自部署</text>
+</g>
+
+<!-- Rating -->
+<g transform="translate(80, 770)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#1E293B">上手难度</text>
+  <text x="200" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="28" font-weight="800" fill="#2563EB">中等</text>
+  <text x="0" y="40" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#1E293B">推荐指数</text>
+  <text x="200" y="40" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="28" font-weight="800" fill="#2563EB">★★★★★</text>
+</g>
+
+<g transform="translate(80, 870)">
+    <rect x="0" y="0" width="864" height="42" rx="10" fill="#2563EB" opacity="0.08"/>
+    <text x="16" y="27" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="15" font-weight="600" fill="#2563EB">🎯 想快速搭建 LLM 应用 · 需要知识库的企业</text>
+  </g>
+
+<g transform="translate(80, 960)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#94A3B8">#Dify #LLM应用 #RAG #开源 #AI工具</text>
+</g>
+</svg>
