@@ -1132,3 +1132,138 @@ python3 gen_cards_v2.py  # SVG → Inkscape → PNG
 3. 参考平台热门内容调整风格
 4. 保持品牌一致性（5张卡片统一风格）
 5. 输出可复用模板（gen_cards_v2.py）
+
+## 20. ai-xhs-tool-xhs 项目经验（2026-06-03）
+
+### 项目结构
+```
+ai-xhs-tool-xhs/
+├── article.md          # 小红书草稿正文
+├── xhs_content.txt     # 发布用纯文本（标题首行 + 正文）
+├── index.html          # HTML 卡片模板（Swiss IKB Blue）
+├── render.js           # Puppeteer 渲染脚本
+├── package.json
+└── output/
+    ├── page1.png       # 封面
+    ├── page2.png       # 痛点对比
+    ├── page3.png       # 功能矩阵
+    ├── page4.png       # 实测数据
+    ├── page5.png       # 工作流
+    ├── page6.png       # 避坑指南
+    ├── page7.png       # 进阶技巧
+    └── page8.png       # 收尾金句
+```
+
+### 8页内容规划（验证有效）
+| 页 | 主题 | 布局 | 核心内容 |
+|----|------|------|---------|
+| P1 | 封面 | 克莱因蓝满版 | 超大标题 + 标签 |
+| P2 | 痛点 | 旧vs新对比 | 灰化旧方式 + 蓝底新方式 |
+| P3 | 功能 | 2×2 矩阵 | 4大能力卡片 |
+| P4 | 数据 | KPI + 进度条 | 3组数据 + "0熬夜"黑框 |
+| P5 | 工作流 | 垂直流程 | 4步 + 图标 |
+| P6 | 避坑 | 列表 | 5个经验教训 |
+| P7 | 技巧 | 卡片列表 | 3个进阶用法 |
+| P8 | 收尾 | 居中金句 | "工具不是替代，是放大器" |
+
+### 设计选择
+- **风格**: Swiss International + IKB Blue (#002FA7)
+- **理由**: 克莱因蓝高饱和度 + 科技感，适合 AI/工具类内容
+- **浅色方案**: 全克莱因蓝背景比柠檬黄更有冲击力
+
+### 致命 Bug：Puppeteer 截图全一样
+
+**症状**：8张图文件大小完全相同（都是 48856 字节），内容看起来一样。
+
+**根因**：
+```javascript
+// ❌ 错误写法 — selector 截图截取的是视口区域，不是元素本身
+await page.screenshot({
+  path: outputPath,
+  selector: `#${posterId}`,  // 所有 section 尺寸都是 1080×1440
+  fullPage: false
+});
+```
+
+所有8个 `<section class="poster xhs">` 尺寸都是 1080×1440，`page.screenshot({ selector })` 截取的是**固定视口区域**，所以每张图都一样。
+
+**修复**：
+```javascript
+// ✅ 正确写法 — 直接截取元素本身
+const element = await page.$(`#${posterId}`);
+const boundingBox = await element.boundingBox();
+await element.scrollIntoView();
+await element.screenshot({
+  path: outputPath,
+  type: 'png'
+});
+```
+
+**验证方法**：
+```bash
+ls -la output/page*.png  # 文件大小应该各不相同
+file output/page*.png    # 确认都是 PNG
+```
+
+### 其他踩坑
+
+**1. Puppeteer 安装问题**
+- macOS 系统 Python 是 externally-managed 环境，`pip install puppeteer` 失败
+- 解决方案：`npm install puppeteer-core`（不下载 Chromium，用本地 Chrome）
+
+**2. Chrome 路径**
+```javascript
+executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
+```
+必须指定完整路径，不能用 `chromium` 或 `google-chrome`。
+
+**3. lark-cli 文件路径**
+- `--file` 必须是**相对路径**，不能用绝对路径
+- 错误：`--file /Users/.../output/page1.png` → `unsafe file path`
+- 正确：`cd` 到项目目录后用 `--file ./output/page1.png`
+
+**4. 多页渲染循环**
+```javascript
+for (let i = 1; i <= 8; i++) {
+  await renderPage(i, path.join(outputDir, `page${i}.png`));
+}
+```
+每个 section 的 ID 是 `xhs-01` ~ `xhs-08`，循环渲染时注意补零。
+
+### 小红书发布约束（严格执行）
+- **标题 ≤ 20 字符**：`AI写小红书｜保姆级教程` = 13 字符 ✓
+- **正文 ≤ 950 字**：244 字符 ✓
+- **标题在正文第一行**：用户偏好
+- **无时间戳/版本号**：去掉所有日期信息
+- **图片 ≤ 9 张**：8 张 ✓
+- **话题标签**：逗号分隔，不含 # 号
+
+### 发布命令
+```bash
+opencli xiaohongshu publish "$(cat xhs_content.txt)" \
+  --title "AI写小红书｜保姆级教程" \
+  --images "output/page1.png,output/page2.png,..." \
+  --topics "AI工具,小红书运营,内容创作,效率工具,自媒体" \
+  --draft true \
+  --window foreground \
+  --site-session persistent \
+  -f yaml
+```
+
+### 飞书文档
+- URL：https://www.feishu.cn/docx/Q4YMdpT3cojGpTxVinZcDsCNn3e
+- 8张图全部上传成功
+
+### 内容结构建议（8页模板）
+```
+P1 封面 → 吸引点击（大标题 + 高饱和度背景）
+P2 痛点 → 引发共鸣（旧vs新对比）
+P3 功能 → 展示能力（矩阵/列表）
+P4 数据 → 建立信任（数字 + 进度条）
+P5 流程 → 可操作（步骤 + 图标）
+P6 避坑 → 增加价值（经验教训）
+P7 技巧 → 进阶内容（给高手）
+P8 收尾 → 金句收尾（记忆点）
+```
+
+这个结构适用于**工具推荐/教程/经验分享**类内容，内容饱满度刚好填满8页，不会显得空洞。
