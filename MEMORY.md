@@ -1685,3 +1685,166 @@ Banner：Logo（左上）+ 标题 220px + 命令 + 6 领域标签
 - **首行即标题**：正文第一行是标题文字
 - **无时间戳**：正文中无日期/版本号
 - **纯文本**：不支持 Markdown 格式（`---`、`###` 等会显示为原文）
+
+## 27. ai-graveyard-xhs AI产品死亡名单（2026-06-03）
+
+### 项目结构
+```
+ai-graveyard-xhs/
+├── article.md              # 小红书草稿（标题 14 字 + 正文 684 字）
+├── README.md               # 完整博客版 + 数据来源
+├── gen_cards.py            # SVG→PNG 生成器（5 张浅色无白块卡片）
+├── ai-graveyard-cover.png       # 封面 (1024×1024)
+├── ai-graveyard-card-1-global.png  # 全球重磅关停 (800×800)
+├── ai-graveyard-card-2-cn.png      # 国产阵亡名单 (800×800)
+├── ai-graveyard-card-3-death-reasons.png  # 三大死因 (800×800)
+└── ai-graveyard-card-4-survivors.png   # 幸存者名单 (800×800)
+```
+
+### 发布数据
+- 标题：`AI死亡名单｜年度关停大盘点`（14 字，≤20 ✓）
+- 正文：684 字（≤950 ✓），首行即标题 ✓
+- 图片：5 张（≤9 ✓）
+- 话题：有 topics 在 body 标签中，publish 时不传 `--topics`（因话题无法匹配）
+- 状态：✅ 暂存成功（草稿箱）
+- 飞书文档（最终版）：`https://www.feishu.cn/docx/Ky3gdcCiGoKMuRxI5gecpP4KnKd`
+
+### 卡片设计原则（浅色无白色大块）
+```
+底色：#FAF7F2 → #F0EAE0 径向渐变
+结构：奶油底色直接放文字，不用白色卡片做容器
+分区：用细线（<line>）或间距做视觉分隔
+色块：仅用浅色变体（RED_LIGHT/PURPLE_LIGHT/PINK_LIGHT/BLUE_LIGHT）作为数据标签
+文本：始终深色（#1E293B 或品牌色），无 #FFF 白字
+投影：无 feDropShadow 滤镜（Inkscape WARNING + 用户厌恶）
+圆角：rx=16~30 数据标签
+```
+
+### 关键踩坑 & 修复
+
+**1. 首图标题与下方文字重叠（3 轮修复）**
+- v1 问题：白色卡片内，"💀 2025-2026 关停大盘点" (y=120 fs=28) 与 "AI 产品死亡名单" (y=190 fs=80) 重叠 20px
+- v2 修复：移出白色卡片，subtitle y=70 + 白卡 y=100-240 + title y=200 + 副标题 y=318 + 数据 y=500-980 → 互不重叠
+- v3 修复：去掉全部白色卡片，用奶油底色直接承载文字 + 细线分隔
+- **教训**：布局设计用 Python 预算每个 text 的 `[top, bottom]` 范围，确保 gap ≥ 20px
+
+**2. 浅色风格不能出现白色文字**
+- 全局检查所有卡片，移除 3 处 `fill="#FFF"`（card-1 底部条、card-3 标题栏、card-4 结论条）
+- 改为浅色背景（RED_LIGHT）+ 深色文字（RED/TEXT）
+- **规则**：浅色卡片全卡无 `#FFF`/`#FFFFFF`，背景和文字都必须在浅色系内
+
+**3. 文字永远不要出现投影**
+- 移除全部 `<feDropShadow>` 滤镜（4 张卡片 × defs + 引用）
+- 移除后 Inkscape 不再报 `WARNING: unknown type: svg:feDropShadow`
+- **规则**：SVG `<text>` 元素永远不加 filter，`<rect>` 容器的投影也不加（统一无阴影）
+
+**4. 避免大片白色色块**
+- 初版封面有 3 个白色大 rect（标题卡 900×176、副标题卡 700×72、数据卡 900×540）
+- 用户反馈"大片的白色色块，很low"
+- 修复：全部去掉，文字直接放在奶油渐变底色上
+- **经验**：浅色风格用奶油色（#FAF7F2）基底 + 小面积浅色强调块 + 细线分隔，比白色大卡片更高级
+
+**5. opencli gemini image 返回 no-images**
+- 与 mcp-xhs 和 opencut-xhs 现象一致
+- **结论**：Gemini 当前不可靠，SVG 封面是唯一稳定的封面来源
+
+**6. opencli xiaohongshu publish topics 限制**
+- `AI产品` / `AI` 等话题均无法匹配 XHS 话题实体
+- 去掉 `--topics` 后发布成功
+- **经验**：不常见话题名一律去掉 `--topics`，body 中的 #标签 已足够
+
+### 设计决策记录
+| 轮次 | 封面布局 | 白色块 | 投影 | 文字颜色 | 结果 |
+|------|---------|--------|------|---------|------|
+| v1 | 3 层白卡堆叠 | 3 个大白色 rect | feDropShadow | 有 #FFF | ❌ 重叠+白块+白字+投影 |
+| v2 | 4 层白卡 + 间距调整 | 3 个白卡 | 无 | 无 #FFF | ❌ 白块仍存在 |
+| v3 | 奶油底面 + 细线分隔 | 0 个白卡 | 无 | 全深色 | ✅ |
+
+### 正文格式（严格执行）
+- 标题 ≤ 20 字：`AI死亡名单｜年度关停大盘点` = 14 ✓
+- 正文 ≤ 950 字：684 ✓
+- 首行即标题：正文第一行复制标题
+- 无时间戳：不出现日期/版本号
+- 纯文本：无 Markdown（无 `---` `###` `**` `>`）
+- 短段落 + emoji 分段 + · 列表 + 末尾 #标签
+- 话题标签用 # 写 body 中，publish 不传 `--topics`
+
+## 28. Twitter (X) 推文串发布（2026-06-03）
+
+### 项目
+- **内容**：`github-trending/` — GitHub AI 今日最热 Top 10
+- **账号**：`@DubaIGOHGOkTHOk`（老何不会）
+- **首发链接**：`https://x.com/DubaIGOHGOkTHOk/status/2062129953102291358`
+
+### 发布流程
+```bash
+# 1. 绑定浏览器会话（用户已登录 X）
+opencli browser <session> bind
+
+# 2. 发首条推文
+opencli twitter post "<text>" \
+  --window foreground \
+  --site-session persistent \
+  -f yaml
+
+# 3. 逐条回复组成 thread
+opencli twitter reply "<首条URL>" "<text>" \
+  --window foreground \
+  --site-session persistent \
+  -f yaml
+```
+
+### 字符限制
+- **中文推文**：每个 CJK 字符计 2 字，最多 140 汉字（280 加权字符上限）
+- 英文字母/数字/空格计 1 字
+- emoji 计 2 字
+- 超过 280 加权字符时 `tweetButton` 或 `tweetButtonInline` 的 `aria-disabled="true"`
+- 快速估算：中文字符数 × 2 + ASCII 字符数 ≤ 280
+
+### 命令限制
+
+| 命令 | 策略 | 是否可用 | 说明 |
+|------|------|----------|------|
+| `twitter post` | UI | ✅ 可用 | 必须 `--window foreground` |
+| `twitter reply` | UI | ✅ 可用 | 同上，文本太长老会验证失败 |
+| `twitter delete` | UI | ❌ 不可用 | 找不到"More"菜单，适配器 bug |
+| `twitter thread` | COOKIE | ✅ 只读 | 读取已有 thread |
+
+### manual eval （适配器 fallback）
+
+当 `twitter post/reply` 验证失败时，可直接用 browser eval 操作：
+
+```javascript
+// 1. 设置文本
+const tb = document.querySelector('[data-testid=tweetTextarea_0]');
+tb.focus();
+tb.textContent = '';
+document.execCommand('insertText', false, '🔥 推文内容');
+tb.dispatchEvent(new Event('input', {bubbles: true}));
+
+// 2. 点击发布按钮
+const btn = document.querySelector('[data-testid=tweetButton]');
+if (btn && !btn.disabled) btn.click();
+```
+
+### compose button 索引
+- `data-testid=SideNav_NewTweet_Button` — 侧边栏"发帖"按钮
+- `data-testid=tweetButton` — 对话框内的"发帖"按钮（dialog 内）
+- `data-testid=tweetButtonInline` — 主页时间线的内嵌"发帖"按钮
+- 注意：ref 索引在 React 重新渲染后会变化，用 CSS 选择器更稳
+
+### 踩坑记录
+
+| 问题 | 原因 | 解决方案 |
+|------|------|----------|
+| `twitter post` 后台超时 | `--window background` 无法操作 UI | 改用 `--window foreground` |
+| `Tweet button is disabled` | 文本超 280 加权字符 | 缩减到 ≤140 汉字 |
+| `Could not verify reply text` | 回复文本含换行或过长 | 缩短文本 / 用 eval 替代 |
+| contenteditable 换行失效 | `execCommand('insertText')` 处理 `\n` 有误 | 用 `<div>` 包裹第二行 |
+| `twitter delete` 失败 | 适配器找不到菜单选择器 | 改用手动 eval 删除 |
+
+### thread 长度建议
+- **首条推文**：一句话标题 + 指引（如"看 thread 👇"），配图
+- **每条回复**：1-2 个项目，≤ 140 汉字
+- **回复数**：建议 ≤ 10 条，太多会被折叠
+- 推文串的每条回复都是独立的推文，发布后不可批量管理

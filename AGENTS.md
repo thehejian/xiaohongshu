@@ -1,85 +1,80 @@
 # AGENTS.md — 003-Twitter
 
-Social media content farm: markdown articles + PNG cards for Chinese platforms (小红书, 微博).
+Social media content farm: markdown articles + PNG cards for 小红书.
 
-## Content folders
+## Per-content-folder convention
 
-Each content folder (`<topic>-xhs/`) typically contains:
-- `article.md` — XHS publish draft (title ≤20 chars, body ≤950 chars, image mapping)
-- `README.md` — full blog version (publish-ready prose + file manifest + sources)
-- `gen_cards.py` — Python SVG generator, invoked via `python3 gen_cards.py`
-- `*.svg` / `*.png` — card source and output (size depends on style, see below)
+Each `<topic>-xhs/` folder contains:
+- `article.md` — XHS publish draft (title ≤20 chars, body ≤950 chars, no markdown)
+- `README.md` — full blog version with sources
+- `gen_cards.py` — Python SVG generator (stdlib only, no pip deps)
+- `*.svg` + `*.png` — card source and rendered output
 
-Current folders (2026-06):
+Run `python3 gen_cards.py` — it writes `.svg` then calls Inkscape to produce `.png`.
 
-| Folder | Type |
-|--------|------|
-| `bas-coding-eight-honors-xhs/` | 文章 |
-| `cc-switch-xhs/` | 文章 |
-| `codex-plus-plus-xhs/` | 文章 |
-| `coding-plan-xhs/` | 文章 |
-| `github-skills-top10-xhs/` | 排行榜 |
-| `github-skills/` | 排行榜 assets |
-| `github-trending/` | 排行榜 assets |
-| `hermes-xhs/` | 文章 (7 cards) |
-| `karpathy-skills-xhs/` | 文章 |
-| `minimax-m3-xhs/` | 文章 |
-| `nuwa-skill-xhs/` | 文章 |
-| `openrouter-top10/` | 排行榜 |
-| `pi-agent-xhs/` | 文章 |
-| `pua-xhs/` | 文章 |
-| `qwen37-xhs/` | 文章 |
-| `twitter/` | 推文 |
-| `weibo-top10-xhs/` | 排行榜 |
+## Card sizes & palettes
 
-## Workflow
+| Size | Use |
+|------|-----|
+| 1024×1024 | Cover + feature cards |
+| 800×800 | Content cards |
+| 1792×1024 | Banner (微博) |
+
+Palettes:
+- **Light** (preferred): cream `#FAF7F2` → `#F5F0E8` gradient, deep text `#1E293B`, brand accent colors. **No large white rects** — use cream bg directly.
+- **Dark**: `#0B1027` radial bg, for single-product deep dives.
+
+## Workflow & commands
 
 ```
-write article.md + README.md
-  → opencli gemini image "<prompt>" --rt 1:1 (cover/illustration, preferred)
-  → python3 gen_cards.py  (SVG → Inkscape → PNG, for text-layout cards)
-  → lark-cli docs +create/+update + +media-insert × N  (Feishu preview)
+调研 → article.md + README.md
+  → python3 gen_cards.py  (SVG → Inkscape → PNG)
   → git add + commit + push
-  → opencli xiaohongshu publish --draft true  (XHS draft)
-  → user reviews & publishes via creator.xiaohongshu.com
+  → opencli xiaohongshu publish ... --draft true
 ```
 
-## Card sizes & styles
+### XHS publish
+```bash
+opencli xiaohongshu publish "$(cat article.md)" \
+  --title "≤20字标题" \
+  --images "cover.png,card-1.png,card-2.png" \
+  --window foreground \
+  --site-session persistent \
+  -f yaml
+```
+- **No `--topics`**: niche topic names cause publish failure. Put `#话题` in body text instead.
+- **No `--draft`** for direct publish; add `--draft true` for draft.
+- Image paths must be **relative to CWD**.
+- Content is plain text — no markdown (`###`, `---`, `**` render as-is).
 
-| Size | Use case |
-|------|----------|
-| 1024×1024 | XHS square cover, feature cards |
-| 800×800 | Alternate card size (hermes, codex++) |
-| 1792×1024 | Banner (微博/headline) |
-
-Two palettes:
-- **Light** (preferred, XHS-friendly): cream `#FAF7F2` bg, white cards, brand accent colors
-- **Dark**: deep `#0B1027` radial bg, metallic accent, for single-product deep-dives
-
-## Toolchain
-
-| Tool | Purpose | Notes |
-|------|---------|-------|
-| `inkscape` | SVG → PNG rendering | Must use explicit pixel dimensions; `100%` and missing closing quotes → blank images |
-| `opencli` | XHS publish, Gemini image gen | `opencli gemini image "<prompt>" --rt 1:1` for covers/illustrations; publish: `--draft true --window foreground --site-session persistent -f yaml` |
-| `inkscape` | SVG → PNG rendering | Must use explicit pixel dimensions; `100%` and missing closing quotes → blank images || `lark-cli` | Feishu doc mgmt | `+create` / `+update --mode overwrite` / `+media-insert --file` |
-| `python3` | SVG generation, body extraction | No external deps beyond stdlib |
-
-## Constraints
-
-- **Title**: ≤20 Unicode chars (`printf '...' | wc -m`)
-- **Body**: ≤950 chars (XHS hard cap 1000, user prefers 950)
-- **Images**: ≤9 per post, comma-separated relative paths from CWD
-- **Topics**: comma-separated, no `#` prefix
+### Feishu preview
+```bash
+lark-cli docs +create --title "..." --markdown "$(cat README.md)" --as user
+lark-cli docs +media-insert --doc <id> --file ./card.png --as user
+lark-cli docs +update --doc <id> --mode overwrite --markdown "..." --as user
+```
+- `--file` must be a relative path.
+- `+media-insert` always appends; doesn't replace existing images.
+- `+update --mode overwrite` clears everything including media — re-insert all images after.
 
 ## SVG pitfalls (critical)
 
-- `height="{h}>` missing closing `"` → Inkscape outputs blank PNG silently
-- `<rect width="100%">` not supported → use explicit `width="1024"`
-- Verify PNGs after generation: `PIL.Image` → `np.unique(colors)` < 10 → blank
-- **标题文字禁用投影**：`<text>` 上永远不要加 `filter="url(#glow)"` 或 `filter="url(#shadow)"`，读者反馈投影降低文字可读性和高级感。卡片容器的阴影（`<rect>` 上的 shadow）可以保留。
+- `&` in text must be `&amp;` or Inkscape renders blank.
+- `height="{h}>` missing closing `"` → Inkscape silently outputs blank PNG. Use explicit pixel values, never `100%`.
+- **No text glow/shadow**: `<text>` must never carry `filter="url(#glow)"` or `filter="url(#shadow)"`. Rect container shadows are fine.
+- **No `#FFF` on light cards**: light palette must use deep text (`#1E293B`) everywhere. White fill only on dark backgrounds.
+- Use `<tspan x="..." dy="...">` for multiline — `<text>` doesn't support `\n`.
+
+## Constraints
+
+- Title ≤20 Unicode chars (`echo -n '...' | wc -m`).
+- Body ≤950 chars.
+- Images ≤9 per post.
+- Body first line = title (user preference).
+- No timestamps/version numbers in body or cards.
+- **Verify PNGs**: `ls -la *.png` — 1024×1024 <50KB = blank. Use `PIL.Image` + `np.unique(colors)` check if unsure.
 
 ## References
 
-- `MEMORY.md` — exhaustive gotcha collection (opencli/lark-cli/Inkscape/XHS style)
-- `待办.txt` — content backlog + user feedback on card style
+- `MEMORY.md` — exhaustive gotcha collection across 27+ sessions
+- `待办.txt` — content backlog
