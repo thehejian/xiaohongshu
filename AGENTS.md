@@ -77,6 +77,7 @@ Two palettes:
 - `height="{h}>` missing closing `"` → Inkscape outputs blank PNG silently
 - `<rect width="100%">` not supported → use explicit `width="1024"`
 - Verify PNGs after generation: `PIL.Image` → `np.unique(colors)` < 10 → blank
+- **标题文字禁用投影**：`<text>` 上永远不要加 `filter="url(#glow)"` 或 `filter="url(#shadow)"`，读者反馈投影降低文字可读性和高级感。卡片容器的阴影（`<rect>` 上的 shadow）可以保留。
 
 ## References
 

@@ -48,10 +48,6 @@ def card_cover():
     <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
       <feDropShadow dx="0" dy="6" stdDeviation="16" flood-color="#1E293B" flood-opacity="0.10"/>
     </filter>
-    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
   <rect width="1024" height="1024" fill="url(#bg)"/>
 
@@ -60,14 +56,14 @@ def card_cover():
   <circle cx="160" cy="880" r="110" fill="{PINK_LIGHT}" opacity="0.3"/>
   <circle cx="900" cy="850" r="90" fill="{INDIGO_LIGHT}" opacity="0.3"/>
 
-  <rect x="62" y="60" width="900" height="160" rx="40" fill="{WHITE}" filter="url(#shadow)"/>
-  <text x="512" y="120" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="700" fill="{BLUE}">🔌 AI 圈的 USB-C 标准</text>
-  <text x="512" y="190" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="76" font-weight="900" fill="url(#titleG)" filter="url(#glow)">MCP 是什么？</text>
+  <rect x="62" y="40" width="900" height="110" rx="40" fill="{WHITE}" filter="url(#shadow)"/>
+  <text x="512" y="95" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" font-weight="700" fill="{BLUE}">🔌 AI 圈的 USB-C 标准</text>
+  <text x="512" y="230" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="100" font-weight="900" fill="url(#titleG)">MCP 是什么？</text>
 
-  <rect x="112" y="260" width="800" height="80" rx="20" fill="{WHITE}" filter="url(#shadow)"/>
-  <text x="512" y="313" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="36" font-weight="800" fill="{TEXT}">Model Context Protocol 完全解读</text>
+  <rect x="112" y="300" width="800" height="70" rx="20" fill="{WHITE}" filter="url(#shadow)"/>
+  <text x="512" y="345" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="800" fill="{TEXT}">Model Context Protocol 完全解读</text>
 
-  <g transform="translate(112, 380)">
+  <g transform="translate(112, 400)">
     <rect x="0" y="0" width="800" height="560" rx="30" fill="{WHITE}" filter="url(#shadow)"/>
     <text x="400" y="55" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="24" font-weight="700" fill="{TEXT_DIM}">📋 为什么 MCP 刷屏了？</text>
     <line x1="50" y1="80" x2="750" y2="80" stroke="#E2E8F0" stroke-width="1"/>
@@ -175,10 +171,6 @@ def card_2_what():
     <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
       <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#1E293B" flood-opacity="0.08"/>
     </filter>
-    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
   <rect width="800" height="800" fill="url(#bg)"/>
 
@@ -190,7 +182,7 @@ def card_2_what():
 
   <g transform="translate(40, 180)">
     <rect x="0" y="0" width="720" height="170" rx="20" fill="{WHITE}" filter="url(#shadow)"/>
-    <text x="360" y="50" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" font-weight="800" fill="url(#bigG)" filter="url(#glow)">Model Context Protocol</text>
+    <text x="360" y="50" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" font-weight="800" fill="url(#bigG)">Model Context Protocol</text>
     <text x="40" y="95" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="{TEXT}">由 Anthropic 于 2024.11 发布的开源标准</text>
     <text x="40" y="130" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="{TEXT}">JSON-RPC 2.0 协议，统一 AI ↔ 工具 连接</text>
     <text x="40" y="163" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="{TEXT_DIM}">一个协议 = 无限兼容，告别碎片化集成</text>
