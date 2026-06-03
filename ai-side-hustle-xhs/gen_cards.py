@@ -40,15 +40,15 @@ def card(x, y, w, h, color, title, desc, price, icon_text):
     <circle cx="{x + 70}" cy="{y + 70}" r="36" fill="{color}" opacity="0.12"/>
     <text x="{x + 70}" y="{y + 82}" font-size="32" text-anchor="middle" fill="{color}" font-family="PingFang SC, Microsoft YaHei, sans-serif">{icon_text}</text>
     <!-- Title -->
-    <text x="{x + 120}" y="{y + 72}" font-size="36" font-weight="700" fill="{TEXT_DARK}" font-family="PingFang SC, Microsoft YaHei, sans-serif">{title}</text>
+    <text x="{x + 120}" y="{y + 72}" font-size="32" font-weight="700" fill="{TEXT_DARK}" font-family="PingFang SC, Microsoft YaHei, sans-serif">{title}</text>
     <!-- Description -->
-    <text x="{x + 40}" y="{y + 130}" font-size="22" fill="{TEXT_MID}" font-family="PingFang SC, Microsoft YaHei, sans-serif">{desc}</text>
+    <text x="{x + 40}" y="{y + 140}" font-size="20" fill="{TEXT_MID}" font-family="PingFang SC, Microsoft YaHei, sans-serif">{desc}</text>
     <!-- Price tag -->
-    <rect x="{x + 40}" y="{y + h - 80}" width="180" height="44" rx="22" fill="{color}" opacity="0.1"/>
-    <text x="{x + 52}" y="{y + h - 52}" font-size="22" font-weight="600" fill="{color}" font-family="PingFang SC, Microsoft YaHei, sans-serif">{price}</text>
+    <rect x="{x + 40}" y="{y + h - 100}" width="180" height="44" rx="22" fill="{color}" opacity="0.1"/>
+    <text x="{x + 52}" y="{y + h - 72}" font-size="20" font-weight="600" fill="{color}" font-family="PingFang SC, Microsoft YaHei, sans-serif">{price}</text>
     <!-- Bottom tag -->
-    <rect x="{x + w - 170}" y="{y + h - 80}" width="130" height="44" rx="22" fill="{TEXT_DARK}" opacity="0.06"/>
-    <text x="{x + w - 105}" y="{y + h - 52}" font-size="18" text-anchor="middle" fill="{TEXT_MID}" font-family="PingFang SC, Microsoft YaHei, sans-serif">适合新手</text>
+    <rect x="{x + w - 170}" y="{y + h - 100}" width="130" height="44" rx="22" fill="{TEXT_DARK}" opacity="0.06"/>
+    <text x="{x + w - 105}" y="{y + h - 72}" font-size="18" text-anchor="middle" fill="{TEXT_MID}" font-family="PingFang SC, Microsoft YaHei, sans-serif">适合新手</text>
     '''
 
 def cover():
@@ -76,24 +76,24 @@ def cover():
     <circle cx="160" cy="100" r="6" fill="#F59E0B" opacity="0.15"/>
 
     <!-- Title -->
-    <text x="60" y="220" font-size="72" font-weight="800" fill="url(#titleGrad)" font-family="PingFang SC, Microsoft YaHei, sans-serif">AI搞钱</text>
-    <text x="60" y="310" font-size="42" font-weight="600" fill="{TEXT_DARK}" font-family="PingFang SC, Microsoft YaHei, sans-serif">3条普通人能接的路</text>
+    <text x="60" y="200" font-size="72" font-weight="800" fill="url(#titleGrad)" font-family="PingFang SC, Microsoft YaHei, sans-serif">AI搞钱</text>
+    <text x="60" y="285" font-size="40" font-weight="600" fill="{TEXT_DARK}" font-family="PingFang SC, Microsoft YaHei, sans-serif">3条普通人能接的路</text>
 
     <!-- Divider line -->
-    <line x1="60" y1="360" x2="400" y2="360" stroke="#6366F1" stroke-width="4" stroke-linecap="round" opacity="0.3"/>
+    <line x1="60" y1="340" x2="400" y2="340" stroke="#6366F1" stroke-width="4" stroke-linecap="round" opacity="0.3"/>
 
     <!-- 3 Path cards -->
-    {card(60, 400, 280, 260, COLORS["write"], "AI写稿接单", "小红书/公众号代写", "50-300元/篇", "✍️")}
-    {card(380, 400, 280, 260, COLORS["draw"], "AI做头像", "头像/壁纸/表情包", "10-198元/张", "🎨")}
-    {card(700, 400, 280, 260, COLORS["ppt"], "AI做PPT", "汇报/课件/路演", "100-500元/套", "📊")}
+    {card(60, 440, 280, 260, COLORS["write"], "AI写稿接单", "小红书/公众号代写", "50-300元/篇", "✍️")}
+    {card(380, 440, 280, 260, COLORS["draw"], "AI做头像", "头像/壁纸/表情包", "10-198元/张", "🎨")}
+    {card(700, 440, 280, 260, COLORS["ppt"], "AI做PPT", "汇报/课件/路演", "100-500元/套", "📊")}
 
     <!-- Bottom note -->
-    <rect x="60" y="700" width="904" height="80" rx="16" fill="{WHITE}" filter="url(#shadow)"/>
-    <text x="100" y="735" font-size="20" fill="{TEXT_MID}" font-family="PingFang SC, Microsoft YaHei, sans-serif">门槛低 · 靠量积累 · 月入2k-5k不难</text>
-    <text x="100" y="765" font-size="18" fill="{TEXT_LIGHT}" font-family="PingFang SC, Microsoft YaHei, sans-serif">从最顺手的开始，别贪多</text>
+    <rect x="60" y="740" width="904" height="80" rx="16" fill="{WHITE}" filter="url(#shadow)"/>
+    <text x="100" y="775" font-size="20" fill="{TEXT_MID}" font-family="PingFang SC, Microsoft YaHei, sans-serif">门槛低 · 靠量积累 · 月入2k-5k不难</text>
+    <text x="100" y="805" font-size="18" fill="{TEXT_LIGHT}" font-family="PingFang SC, Microsoft YaHei, sans-serif">从最顺手的开始，别贪多</text>
 
     <!-- Footer tags -->
-    <text x="60" y="840" font-size="16" fill="{TEXT_LIGHT}" font-family="PingFang SC, Microsoft YaHei, sans-serif">#AI副业 #搞钱 #自由职业 #AI写稿 #AI绘画 #AI PPT</text>
+    <text x="60" y="880" font-size="16" fill="{TEXT_LIGHT}" font-family="PingFang SC, Microsoft YaHei, sans-serif">#AI副业 #搞钱 #自由职业 #AI写稿 #AI绘画 #AI PPT</text>
   </svg>'''
 
 
@@ -112,31 +112,31 @@ def path_card(path_name, title, desc, price, icon, tips):
     <text x="60" y="110" font-size="48" font-weight="800" fill="{TEXT_DARK}" font-family="PingFang SC, Microsoft YaHei, sans-serif">{title}</text>
 
     <!-- Main icon -->
-    <circle cx="120" cy="260" r="70" fill="{color}" opacity="0.12"/>
-    <text x="120" y="280" font-size="56" text-anchor="middle" font-family="Apple Color Emoji, sans-serif">{icon}</text>
+    <circle cx="120" cy="340" r="70" fill="{color}" opacity="0.12"/>
+    <text x="120" y="360" font-size="56" text-anchor="middle" font-family="Apple Color Emoji, sans-serif">{icon}</text>
 
     <!-- Description -->
-    <text x="230" y="240" font-size="26" font-weight="600" fill="{TEXT_DARK}" font-family="PingFang SC, Microsoft YaHei, sans-serif">{desc}</text>
-    <text x="230" y="280" font-size="20" fill="{TEXT_MID}" font-family="PingFang SC, Microsoft YaHei, sans-serif">接单平台：闲鱼 / 小红书 / 朋友圈</text>
+    <text x="230" y="250" font-size="26" font-weight="600" fill="{TEXT_DARK}" font-family="PingFang SC, Microsoft YaHei, sans-serif">{desc}</text>
+    <text x="230" y="290" font-size="20" fill="{TEXT_MID}" font-family="PingFang SC, Microsoft YaHei, sans-serif">接单平台：闲鱼 / 小红书 / 朋友圈</text>
 
     <!-- Price box -->
-    <rect x="60" y="330" width="300" height="90" rx="16" fill="{color}" opacity="0.1"/>
-    <text x="80" y="365" font-size="18" fill="{color}" font-family="PingFang SC, Microsoft YaHei, sans-serif">定价参考</text>
-    <text x="80" y="405" font-size="36" font-weight="700" fill="{color}" font-family="PingFang SC, Microsoft YaHei, sans-serif">{price}</text>
+    <rect x="60" y="370" width="300" height="90" rx="16" fill="{color}" opacity="0.1"/>
+    <text x="80" y="405" font-size="18" fill="{color}" font-family="PingFang SC, Microsoft YaHei, sans-serif">定价参考</text>
+    <text x="80" y="445" font-size="36" font-weight="700" fill="{color}" font-family="PingFang SC, Microsoft YaHei, sans-serif">{price}</text>
 
     <!-- Tips section -->
-    <rect x="60" y="460" width="904" height="280" rx="16" fill="{WHITE}" filter="url(#shadow)"/>
-    <text x="100" y="510" font-size="24" font-weight="700" fill="{TEXT_DARK}" font-family="PingFang SC, Microsoft YaHei, sans-serif">💡 关键技巧</text>
+    <rect x="60" y="500" width="904" height="280" rx="16" fill="{WHITE}" filter="url(#shadow)"/>
+    <text x="100" y="550" font-size="24" font-weight="700" fill="{TEXT_DARK}" font-family="PingFang SC, Microsoft YaHei, sans-serif">💡 关键技巧</text>
 
     <!-- Tips lines -->
-    {"".join(f'<text x="100" y="{600+i*55}" font-size="22" fill="{TEXT_MID}" font-family="PingFang SC, Microsoft YaHei, sans-serif">• {tip}</text>' for i, tip in enumerate(tips))}
+    {"".join(f'<text x="100" y="{630+i*55}" font-size="22" fill="{TEXT_MID}" font-family="PingFang SC, Microsoft YaHei, sans-serif">• {tip}</text>' for i, tip in enumerate(tips))}
 
     <!-- Bottom note -->
-    <rect x="60" y="780" width="904" height="70" rx="14" fill="{TEXT_DARK}" opacity="0.04"/>
-    <text x="100" y="822" font-size="20" fill="{TEXT_MID}" font-family="PingFang SC, Microsoft YaHei, sans-serif">适合：审美在线 · prompt熟练 · 出图快</text>
+    <rect x="60" y="820" width="904" height="70" rx="14" fill="{TEXT_DARK}" opacity="0.04"/>
+    <text x="100" y="862" font-size="20" fill="{TEXT_MID}" font-family="PingFang SC, Microsoft YaHei, sans-serif">适合：审美在线 · prompt熟练 · 出图快</text>
 
     <!-- Footer -->
-    <text x="60" y="900" font-size="15" fill="{TEXT_LIGHT}" font-family="PingFang SC, Microsoft YaHei, sans-serif">#AI副业 #搞钱 #自由职业</text>
+    <text x="60" y="930" font-size="15" fill="{TEXT_LIGHT}" font-family="PingFang SC, Microsoft YaHei, sans-serif">#AI副业 #搞钱 #自由职业</text>
   </svg>'''
 
 
