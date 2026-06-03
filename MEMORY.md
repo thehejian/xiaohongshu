@@ -557,3 +557,432 @@ if len(np.unique(arr.reshape(-1, arr.shape[-1]), axis=0)) < 10:
 - **保持**：纯奶油底 + 白色卡片 + 简洁文字 + 单一强调色
 - **一张卡片只传达一个信息**，不堆叠
 
+## 14. opencli upload 命令修复（2026-06-02，coding-plan-xhs）
+
+### bug 根因
+- `evaluateWithArgs` 使用 `const` 声明变量注入到 `page.evaluate()`
+- 第二次调用同名字段（如 `markerAttr`）时，`const` 不允许重复声明 → `SyntaxError: Identifier 'markerAttr' has already been declared`
+- 影响范围：所有调用 `uploadFiles()` 的场景（XHS 图片上传、ChatGPT 文件上传等）
+
+### 修复方案
+**文件**: `/opt/homebrew/lib/node_modules/@jackwener/opencli/dist/src/browser/base-page.js`
+
+```diff
+- return `const ${key} = ${JSON.stringify(value)};`;
++ return `var ${key} = ${JSON.stringify(value)};`;
+```
+
+`var` 允许重复声明，不会抛出 SyntaxError。修改后重启 daemon 生效：
+```bash
+kill $(lsof -ti:19825) && opencli doctor
+```
+
+### upload 命令的正确用法（修复后验证通过）
+```bash
+# 先找到 file input
+opencli browser <session> find --css "input[type=file]"
+
+# 上传文件（支持多个，路径需相对 CWD）
+opencli browser <session> upload <ref> file1.png file2.png
+```
+
+### XHS 上传图文流程（验证通过）
+1. 打开 `https://creator.xiaohongshu.com/publish/publish`
+2. 用 `click "div[tabindex]" --nth 1` 切换到"上传图文" tab（2nd tab = 图文）
+3. 用 `find --css "input[type=file]"` 定位图片 file input（accept=.jpg,.jpeg,.png,.webp）
+4. 用 `upload <ref> file1.png file2.png` 上传图片
+5. 用 `fill <ref> "标题"` 填写标题（input[type=text]）
+6. 用 `fill <ref> "正文"` 填写正文（div[contenteditable=true]）
+7. 内容自动保存到草稿箱（无需点击"存为草稿"按钮）
+
+### 注意事项
+- `div[tabindex]` 匹配 4 个 tab：视频/图文/长文/播客，`--nth 1` = 图文
+- 每次 tab 切换会重新渲染 DOM，ref 编号会变，需重新 `find`
+- contenteditable div 的 `fill` 返回 `verified: false` 不影响实际填写
+- XHS 创作平台没有"存为草稿"按钮，所有编辑内容**自动保存为草稿**
+
+### ERR_PROXY_CONNECTION_FAILED
+- 导航到某些 XHS 子页面（如 `/note/manage`）可能触发代理连接错误
+- 错误的 tab 无法恢复，需 `tab close` + `tab new` 重新打开
+- 如果无法恢复，重启 daemon 可解决：`kill $(lsof -ti:19825)` + `opencli doctor`
+
+## 15. coding-plan-xhs 数据源说明
+
+### 信息采集
+- 主站：`https://www.codingplan.fyi/` — 25 大平台对比工具
+- 选型文章：`https://www.codingplan.fyi/articles/plan_comparison_20260519/index.html`
+- 更新日期：2026.5.19
+
+### 核心数据（已验证）
+| 平台 | 评分 | 月费起 | 限购 | 独占模型 |
+|------|------|--------|------|----------|
+| 智谱AI | ★★★★★ | ¥46.55 | ⚠️限购抢购 | GLM-5.1 |
+| MiniMax | ★★★★★ | ¥26.1 | ✅不限购 | M2.7 |
+| 讯飞·星火 | ★★★★★ | ¥39 | ✅不限购 | GLM-5.1（智谱平替） |
+| Kimi | ★★★★☆ | ¥49 | ✅不限购 | K2.6 |
+| 字节·方舟 | ★★★★☆ | ¥36 | ⚠️已限购 | 多模型 |
+| 阿里·百炼 | ★★★★☆ | ¥200 | ⚠️仅Pro | Qwen-3.6-Plus |
+
+### 行业趋势（2026.5）
+- 阿里/字节/腾讯纷纷从 Coding Plan 转向 Token Plan
+- 腾讯已全面下架 Coding Plan
+- GitHub Copilot 2026.6.1 起改为 Token 计费
+- 智谱/字节/阿里三大头部已限购
+
+### 免费资源
+- 小米 MiMo：可领 16 亿 Credits
+- NVIDIA NIM：每分钟 40 次，无 Token 限制
+- 摩尔线程：新用户 30 天免费
+- 商汤·日日新：每 5 小时 1500 次
+
+## 16. 2026-06-02/03 批量生产记录
+
+### 新增内容文件夹
+| 文件夹 | 主题 | 卡片风格 | 状态 |
+|--------|------|----------|------|
+| `lark-cli-xhs/` | 飞书 CLI 介绍 | 浅色 · 飞书蓝 #3370FF | ✅ 已发布 |
+| `opencli-xhs/` | OpenCLI 万物皆可 CLI | 深色 · 紫蓝渐变 #8B5CF6→#3B82F6 | ✅ 已发布 |
+| `cli-anything-xhs/` | CLI-Anything 方法论 | 深色 · 紫蓝渐变 #8B5CF6→#3B82F6 | ✅ 已发布 |
+
+### lark-cli-xhs 要点
+- 标题：`灭霸来了，飞书CLI接管一切`（14 字）
+- 正文 922 字，三个名场面开场
+- 4 张浅色卡片，奶油色 #FAF7F2 背景
+- 飞书文档：https://www.feishu.cn/docx/K7kHdqAjto4IfqxP9iUcBG9fnCh
+
+### opencli-xhs 要点
+- 标题：`OpenCLI 万物皆可 CLI`（14 字）
+- 正文 743 字，四个痛点场景 + 四大核心
+- 4 张深色卡片，深黑 #0A0A14 背景
+- 飞书文档：https://www.feishu.cn/docx/GLPHdFGtto1lydxgiCOc2b8en9g
+
+### cli-anything-xhs 要点
+- 标题：`CLI-Anything 万物皆可命令行`（14 字）
+- 正文 809 字，AI 无法操控软件的痛点切入
+- 4 张深色卡片，11 款软件 + 7 步流水线
+- 飞书文档：https://www.feishu.cn/docx/GUJad2AobotBFfxsAsrcnU4bndh
+
+### 踩坑记录
+
+**1. SVG f-string 中 `}` 转义问题**
+- 在 f-string 中 `{变量}}` 会被解析为 `{变量}` + `}` → 正确
+- 但 `{变量}}+` 中 `}+` 的 `}` 是单独的 → `SyntaxError: f-string: single '}' is not allowed`
+- 修复：在 f-string 中使用 `}}` 表示字面 `}`
+
+**2. SVG 右列文字 x 坐标错误**
+- 2×2 网格布局中，右列 text 的 x 坐标写成和左列一样（如 `x="30"`）
+- 结果右列文字渲染在左列区域，右列显示为空白
+- 修复：右列 text 使用 `x="460"`（左列 30 + 间距 430 + 内边距）
+
+**3. OPEN/CLI 文字重叠**
+- 封面「CLI」字号 160，`letter-spacing="-4"` + `filter="url(#glow)"` 扩展区域大
+- 「OPEN」y=220 被「CLI」y=340 覆盖
+- 修复：OPEN 上移到 y=160，CLI 下移到 y=380
+
+**4. 正文超 950 字问题**
+- 原始体.md 含 `> 2026-06-02 · github.com/...` 元数据行 + 标题重复
+- 小红书实际渲染时元数据行占用大量字符
+- 修复：移除元数据行，精简正文到 <950 字
+
+**5. opencli xiaohongshu publish 图片上传**
+- `Image injection failed: No file input found on page` — 偶发
+- 重试即可解决，或用 `--trace retain-on-failure` 获取调试截图
+- 发布后 status `⚠️ 操作完成，请在浏览器中确认` — 需要浏览器手动确认上传
+- 有时直接返回 `✅ 发布成功` 自动完成
+
+### 标题公式总结
+三种标题风格已验证有效：
+- 灭霸梗：`灭霸来了，飞书CLI接管一切`
+- 口号式：`OpenCLI 万物皆可 CLI`
+- 价值式：`CLI-Anything 万物皆可命令行`
+
+最佳标题长度 12-14 字，控制在 20 字以内即可。
+
+## 17. 2026-06-03 oh-my-openagent (OmO) 生产记录
+
+### 新增内容
+| 文件夹 | 主题 | 卡片风格 | 状态 |
+|--------|------|----------|------|
+| `omo-xhs/` | Oh My OpenAgent — OpenCode 超强插件 | 深色 · 紫橙渐变 #8B5CF6→#F97316 | ✅ 已发布 |
+
+### 内容要点
+- 标题：`OmO 一个命令拉起 AI 团队`（16 字）
+- 正文 774 字，纯文本格式（无 Markdown），无时间信息
+- 主打卖点：11 个 Agent、Team Mode、ultrawork、Anthropic 封杀事件
+- 4 张深色卡片，OmO 品牌色紫橙渐变
+- 飞书文档：https://www.feishu.cn/docx/KCC4djHlVo3Slqxhcrhc0wnpnZe
+
+### 踩坑记录
+
+**1. card-2 右列文字 x 坐标错误（重复问题）**
+- 2×2 网格布局中，右列「ultrawork」「生态兼容」两个面板的 text 写成 `x="25"`（和左列一样）
+- 右列实际应在 `x="455"`（右列起始 430 + 内边距 25）
+- 与 opencli-xhs 完全相同的 Bug，说明 gen_cards.py 的 2×2 布局模板有模式性风险
+
+**2. body.md 中 Markdown 格式问题**
+- 小红书正文是纯文本渲染，不支持 Markdown（`---`、`###`、`**`、`>` 都会显示为原文）
+- 修复：将 body.md 改为纯文本格式，去掉所有 Markdown 装饰
+
+**3. 数据源获取方式**
+- GitHub 页面有时限（`webfetch` 超时）
+- 改用 `curl` + GitHub API 获取 raw README：`curl -sL "https://api.github.com/repos/.../readme" -H "Accept: application/vnd.github.v3.raw"`
+- API 方式更稳定，推荐优先使用
+
+### 新增标题风格
+- 功能概括式：`OmO 一个命令拉起 AI 团队` — 直接说明核心价值
+
+## 18. cc-switch-xhs v3.16.1 更新流程（2026-06-03）
+
+### 本次亮点
+- **首次直接发布（非草稿）**：用户要求 `立即发布`，去掉 `--draft true` 即可
+- **正文第一行 = 标题**：用户偏好标题在正文第一行重复
+- **正文不出现时间信息**：去掉 "v3.16.1"、"23 commits" 等版本/时间信息
+- **全链路零 Bug**：从调研 GitHub → 写文 → SVG 卡片 → Inkscape 渲染 → 飞书更新 → XHS 发布，一次通过
+
+### 卡片更新策略
+- 已有 `gen_cards.py` 的项目，发布版本更新时**直接重写卡片内容**而非新建文件
+- 保持文件名不变（`cc-switch-square.png` 等），仅替换卡片设计——飞书旧图片保留，XHS 上传新图
+- 设计思路：从"产品介绍"转向"版本更新公告"，卡片加红色 `v3.16.1 史诗级更新` badge
+
+### 飞书文档更新流程（已验证高效）
+```
+lark-cli docs +update --doc <id> --mode overwrite --markdown "..."  # 替换全文
+lark-cli docs +media-insert --doc <id> --file card-1.png           # 串行插入图片 × N
+lark-cli docs +fetch --doc <id>                                    # 验证
+```
+- `--mode overwrite` 清空整篇文档重写，适用**内容完全不同**的场景
+- 图片需用 `+media-insert` 重新插入（overwrite 会删除旧 media blocks）
+
+### 发布命令（本次验证通过）
+```bash
+opencli xiaohongshu publish "<正文>" \
+  --title "<≤20字>" \
+  --images "<相对路径,csv>" \
+  --topics "<不含#>" \
+  --window foreground \
+  --site-session persistent \
+  -f yaml
+```
+- 不传 `--draft` 即直接发布
+- 返回 `status: ✅ 发布成功` 含 detail 信息
+
+### 正文要求
+- 第一行放标题（用户偏好）
+- 不出现任何时间、版本号、commit 数
+- 短段落 + emoji 分段 + `·` 列表 + 末尾话题标签
+
+### 正文含换行时传参
+- `opencli xiaohongshu publish` 的 content 参数含换行时，直接用字符串会被 shell 拆成多个参数
+- 正确做法：写入临时文件后 `"$(cat /tmp/body.txt)"` 传递
+
+## 2. SVG 生成 (Python f-string + Inkscape)
+
+### f-string 传颜色变量的陷阱
+- 错误写法：`topic_card(..., "{NVIDIA}", "{NVIDIAS}")` — 外层 f-string 表达式里，`"{NVIDIA}"` 是字面字符串 `{NVIDIA}`，不是变量值
+- 正确写法：`topic_card(..., NVIDIA, NVIDIAS)` — 直接传变量，无引号包裹
+- 后果：Inkscape 读到 `fill="{NVIDIA}"` 视作无效颜色，渲染为黑色块
+
+### SVG 多行文本
+- `<text>` 不支持 `\n` 换行，Inkscape 会忽略
+- 必须用 `<tspan x="..." dy="...">` 元素逐个分行
+
+### 文字大小要求
+- 图片最终在小红书手机端展示，正文文字 font-size 至少 30+，标题至少 40+
+- 1024×1024 画布上 30px 对应手机屏幕约 7-8mm，低于此值难以辨认
+
+## 3. SVG 卡片文字重叠排查 (2026-06-03, ai-side-hustle-xhs)
+
+### 问题
+初次生成 4 张卡片后，飞书预览发现多处文字叠加覆盖，历经 3 轮修复。
+
+### 根因
+写 SVG 时只凭感觉排坐标，没有系统计算每个 text 元素的垂直占用范围。Inkscape 渲染后肉眼检查才发现重叠，返工成本高。
+
+### 解决方案：render 前用 Python 做坐标分析
+
+```python
+def text_extent(y, fontsize):
+    """Approximate text vertical extent. Baseline at y."""
+    top = y - fontsize * 0.25
+    bottom = y + fontsize * 0.75
+    return top, bottom
+
+def circle_extent(cy, r):
+    return cy - r, cy + r
+```
+
+对每个 text 元素计算 `[top, bottom]` 范围，检查相邻元素 gap：
+- 文字 vs 文字：gap ≥ 10px 安全
+- 文字 vs 圆：gap ≥ 15px 安全
+- 文字 vs rect 边界：gap ≥ 6px 安全
+
+### 本次发现的 6 处重叠
+
+| 卡片 | 重叠位置 | 原因 | 修复 |
+|------|---------|------|------|
+| 封面小卡片 | 标题 vs icon 圆 | title y=512, icon cy=510, title 进入圆内 | icon 下移 cy=y+58, 缩小 r=22; title 右移 x=96 (X 轴分离) |
+| 封面底部备注 | 两行文字间距 10px | y=775 和 y=805, fs=20/18 | 第二行下移到 y=748, gap=14px |
+| 路径卡 | desc2 vs icon 圆 | desc2 y=290, icon cy=340, gap 仅 15px | icon 下移 cy=360, desc2→y=258 |
+| 路径卡 | price value vs box 底 | value y=445 fs=36, box 底 460, 超出 4px | box 加高至 120px, value baseline→490 |
+| 路径卡 | tips 第4条 vs box 底 | tip4 y=770, box 底 760, 超出 5px | tips box 加高至 255px |
+| 路径卡 | footer vs bottom note | footer y=900, bottom note 底 860, gap 仅 16px | 保持 (gap>10 安全) |
+
+### 经验总结
+
+1. **先算后画**：写 SVG 前先用 Python 脚本算一遍所有坐标，打印每个元素的 `[top, bottom]` 范围，检查 gap
+2. **留足余量**：文字到底部/边界的 gap 至少 10px，Inkscape 渲染可能有 1-2px 偏差
+3. **X 轴分离优先**：标题和 icon 圆尽量在 X 轴上分离（title x > icon x + icon_r），避免 Y 轴精细调整
+4. **icon 不宜过大**：小卡片 icon r=22 足够，大卡片 r=65 以内，给文字留空间
+5. **tips 区域要预留**：4 条 tips × 45px 行距 = 135px + title 45px + 上下边距 = 至少 240px 高度
+6. **price box 高度**：label + value 至少 100px，value fs=32 时建议 120px
+
+### 文件结构
+```
+ai-side-hustle-xhs/
+├── article.md          # 小红书草稿正文（标题首行 + 正文）
+├── README.md           # 完整版博客文章
+├── gen_cards.py        # SVG→PNG 生成器（含坐标分析逻辑）
+├── ai-side-hustle-square.png   # 封面 (1024×1024)
+├── ai-side-hustle-card-write.png
+├── ai-side-hustle-card-draw.png
+└── ai-side-hustle-card-ppt.png
+```
+
+## 4. 知乎数据采集
+
+### opencli zhihu 热榜
+- `opencli zhihu hot` 需要浏览器登录态（已登录 Chrome），否则返回空数组
+- 替代方案：通过 tophub.today 聚合站获取知乎热榜
+- 搜索（`zhihu search`）同样需登录态，返回 AUTH_REQUIRED
+
+## 5. ai-ppt-tools-xhs 四巨头横评（2026-06-03）
+
+### 项目结构
+```
+ai-ppt-tools-xhs/
+├── article.md          # 小红书草稿正文
+├── README.md           # 完整版博客文章 + 对比表
+├── gen_cards.py        # SVG→PNG 生成器（5 张卡片）
+├── cover.png           # 封面 (1024×1365, 3:4 小红书比例)
+├── card-gamma.png      # Gamma 卡片 (1024×1365)
+├── card-tome.png       # Tome 卡片 (1024×1365)
+├── card-mindshow.png   # MindShow 卡片 (1024×1365)
+├── card-islide.png     # iSlide AI 卡片 (1024×1365)
+```
+
+### 完整工作流
+1. **调研四款工具**：Gamma / Tome / MindShow / iSlide AI
+2. **写 README.md**：每款工具核心能力 + 适用场景 + 价格 + 对比表格
+3. **写 article.md**：小红书草稿（标题首行 + 正文 < 950 字）
+4. **设计 SVG 卡片**：浅色奶油底 + 4 工具品牌色 + 3 区块结构
+5. **Inkscape 渲染**：1024×1365（小红书 3:4 比例）
+6. **飞书文档**：`+create` → `+media-insert × 5`
+7. **XHS 草稿**：`opencli xiaohongshu publish --draft true`
+
+### 三轮迭代修复记录
+
+| 轮次 | 问题 | 修复方案 |
+|------|------|---------|
+| v1 | 文字叠加、内容不饱满 | 每项独立 y 坐标精确计算；3 区块×2-3 条详情；改为 3:4 比例 |
+| v2 | 文字太小看不清楚 | 标题 48→64→80px；列表正文 18→24px；区块标签 16→22px；评分 32→50px |
+| v3 | 仅首图标题需更大 | 封面标题 64→80px，封面工具名 38→44px；单卡保持 64px 不变 |
+
+### 卡片设计要点（浅色四巨头横评）
+```
+底色：#FAF7F2 → #EFF6FF/#F5F3FF/#ECFDF5/#FFFBEB（各工具对应色温）
+强调色：Gamma 蓝#3B82F6 / Tome 紫#8B5CF6 / MindShow 绿#10B981 / iSlide 橙#F59E0B
+结构：大标题 → 副标题 → 色标 tagline → 分隔线 → 3 区块（标签 badge + 项目符号）→ 评分星级 → 推荐标签 → 底部话题
+字号（单卡）：标题 64px / 副标题 32px / tagline 26px / 区块标签 22px / 列表 24px / 评分 50px / 推荐 22px / 底部 20px
+字号（封面）：标题 80px / 副标题 36px / 工具名 44px / 工具标签 20px / 工具描述 20px / 底部说明 24px
+```
+
+### 小红书发布约束（本次验证）
+- **标题 ≤ 20 字符**：`AI做PPT工具四巨头🔥` = 12 字符 ✅
+- **正文 ≤ 950 字**：484 字符 ✅
+- **正文首行 = 标题**：用户偏好，标题在正文第一行重复
+- **正文不含时间**：去掉日期、版本号等时间信息
+- **图片 ≤ 9 张**：5 张 ✅
+- **图片路径相对 CWD**：`cd` 到卡片目录后传相对路径
+
+### 发布命令
+```bash
+cd ai-ppt-tools-xhs
+opencli xiaohongshu publish "<正文>" \
+  --title "AI做PPT工具四巨头🔥" \
+  --images "cover.png,card-gamma.png,card-tome.png,card-mindshow.png,card-islide.png" \
+  --topics "AI工具,PPT,Gamma,Tome,MindShow,iSlide,效率工具" \
+  --draft true \
+  --window foreground \
+  --site-session persistent \
+  -f yaml
+```
+
+### 飞书文档
+- URL：`https://www.feishu.cn/docx/B151dbdP4oMUKJxcZMxcNSw8nGf`
+- 5 张图全部上传成功
+
+### lark-cli 更新
+- 提示 1.0.46 可用，但 npm 上实际最高版本为 1.0.45
+- `npm view @larksuite/cli versions` 确认最新：1.0.42/43/44/45
+- **结论：当前已是最新版，提示为误报**
+
+## 6. ai-drawing-xhs AI 画图工具横评（2026-06-03）
+
+### 项目结构
+```
+ai-drawing-xhs/
+├── article.md          # 小红书草稿正文（标题 9 字 + 正文 454 字）
+├── README.md           # 完整版博客文章
+├── gen_cards.py        # SVG→PNG 生成器（5 张浅色卡片）
+├── ai-drawing-square.png   # 封面 (1024×1024) — 5 工具名列表
+├── ai-drawing-card-1.png   # 横向对比表 (1024×1024)
+├── ai-drawing-card-2.png   # 各工具核心优势 (1024×1024)
+├── ai-drawing-card-3.png   # 综合推荐排名 (1024×1024)
+└── ai-drawing-banner.png   # 总结 Banner (1792×1024)
+```
+
+### 卡片文字大小教训（三轮修复）
+
+| 轮次 | 问题 | 修复 |
+|------|------|------|
+| v1 | 卡片文字太小、内容不饱满 | square 标题 46→56，工具卡片 800→900×90，文字 28→36；banner 标题 80→90，单卡 280×200→320×250 |
+| v2 | 对比表文字溢出列宽 | 列宽重新分配（工具 160 + 价格 220 + 画质 150 + 速度 150 + 上手难度 220），价格文字缩短（"免费+付费 0-30$/月"→"免费~30$/月"），字号 20→18 |
+| v3 | 无（一次通过） | — |
+
+### 对比表列宽设计要点
+- 5 列不宜等宽：价格列需最宽（220px），星级列可窄（150px）
+- 工具名和上手难度列居中（160-220px）
+- 列 x 中心坐标：`[80, 270, 455, 605, 790]`（总计 900px 宽）
+- 文字过大（20px+）时长文本（如"免费+付费 0-30$/月"）必然溢出 180px 列
+- 解决方案：缩短价格文案 + 列宽分配 + 字号 18px 以内
+
+### Banner 卡片自动排列
+- 5 个等宽卡片用 Python 计算位置避免手配坐标：
+  ```python
+  w_c = 320
+  gap = 36
+  x0 = int((1792 - (w_c * 5 + gap * 4)) / 2)
+  for i in range(5):
+      x = x0 + i * (w_c + gap)
+  ```
+- 这样多一张少一张都不用手动调整
+
+### 飞书文档操作经验
+- `docs +update --mode overwrite` 清空文档内容（含 media blocks），**必须重新插入所有图片**
+- 批量插入图片可用 shell 循环，每张串行插入
+- `+media-insert` 的 `--file` 支持**绝对路径**（`$PWD/file.png`），也支持相对路径
+
+### 正文格式严格执行
+- **标题 ≤ 20 字**：`AI画图工具红黑榜` = 9 字 ✓
+- **正文第一行 = 标题**：用户要求标题在正文开头重复
+- **正文不含时间**：去掉日期、版本号等时间信息
+- **正文 ≤ 950 字**：454 字 ✓
+
+### 飞书文档
+- URL：`https://www.feishu.cn/docx/BwgKdGen6oVISPxqXNVc4NRznIh`
+- 5 张图全部上传成功
+
+### XHS 草稿
+- 已保存为草稿，标题「AI画图工具红黑榜」
+- 5 张图片 + 6 个话题标签
+- 待用户去 creator.xiaohongshu.com 审核发布
