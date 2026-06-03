@@ -10,33 +10,31 @@
 
     <!-- Top bar -->
     <rect width="1024" height="140" fill="#F59E0B" opacity="0.08"/>
-    <text x="60" y="70" font-size="22" font-weight="600" fill="#F59E0B" font-family="PingFang SC, Microsoft YaHei, sans-serif">PATH 03</text>
-    <text x="60" y="110" font-size="48" font-weight="800" fill="#1A1A2E" font-family="PingFang SC, Microsoft YaHei, sans-serif">AI做PPT</text>
+    <text x="60" y="60" font-size="20" font-weight="600" fill="#F59E0B" font-family="PingFang SC, Microsoft YaHei, sans-serif">PATH 03</text>
+    <text x="60" y="105" font-size="44" font-weight="800" fill="#1A1A2E" font-family="PingFang SC, Microsoft YaHei, sans-serif">AI做PPT</text>
 
-    <!-- Main icon -->
-    <circle cx="120" cy="340" r="70" fill="#F59E0B" opacity="0.12"/>
-    <text x="120" y="360" font-size="56" text-anchor="middle" font-family="Apple Color Emoji, sans-serif">📊</text>
+    <!-- Icon (left column) -->
+    <circle cx="120" cy="360" r="65" fill="#F59E0B" opacity="0.12"/>
+    <text x="120" y="380" font-size="52" text-anchor="middle" font-family="Apple Color Emoji, sans-serif">📊</text>
 
-    <!-- Description -->
-    <text x="230" y="250" font-size="26" font-weight="600" fill="#1A1A2E" font-family="PingFang SC, Microsoft YaHei, sans-serif">企业汇报/课件/路演</text>
-    <text x="230" y="290" font-size="20" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">接单平台：闲鱼 / 小红书 / 朋友圈</text>
+    <!-- Description (right column) -->
+    <text x="230" y="220" font-size="24" font-weight="600" fill="#1A1A2E" font-family="PingFang SC, Microsoft YaHei, sans-serif">企业汇报/课件/路演</text>
+    <text x="230" y="258" font-size="18" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">接单平台：闲鱼 / 小红书 / 朋友圈</text>
 
     <!-- Price box -->
-    <rect x="60" y="370" width="300" height="90" rx="16" fill="#F59E0B" opacity="0.1"/>
-    <text x="80" y="405" font-size="18" fill="#F59E0B" font-family="PingFang SC, Microsoft YaHei, sans-serif">定价参考</text>
-    <text x="80" y="445" font-size="36" font-weight="700" fill="#F59E0B" font-family="PingFang SC, Microsoft YaHei, sans-serif">100-500元/套</text>
+    <rect x="60" y="400" width="300" height="120" rx="16" fill="#F59E0B" opacity="0.1"/>
+    <text x="80" y="438" font-size="16" fill="#F59E0B" font-family="PingFang SC, Microsoft YaHei, sans-serif">定价参考</text>
+    <text x="80" y="490" font-size="32" font-weight="700" fill="#F59E0B" font-family="PingFang SC, Microsoft YaHei, sans-serif">100-500元/套</text>
 
     <!-- Tips section -->
-    <rect x="60" y="500" width="904" height="280" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
-    <text x="100" y="550" font-size="24" font-weight="700" fill="#1A1A2E" font-family="PingFang SC, Microsoft YaHei, sans-serif">💡 关键技巧</text>
-
-    <!-- Tips lines -->
-    <text x="100" y="630" font-size="22" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">• Gamma / 讯飞智文 10分钟出稿</text><text x="100" y="685" font-size="22" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">• 积累行业模板：科技/教育/金融</text><text x="100" y="740" font-size="22" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">• 改稿控制在2轮内，效率关键</text><text x="100" y="795" font-size="22" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">• 数据可视化能力是加分项</text>
+    <rect x="60" y="540" width="904" height="255" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="100" y="585" font-size="22" font-weight="700" fill="#1A1A2E" font-family="PingFang SC, Microsoft YaHei, sans-serif">💡 关键技巧</text>
+    <text x="100" y="635" font-size="20" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">• Gamma / 讯飞智文 10分钟出稿</text><text x="100" y="680" font-size="20" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">• 积累行业模板：科技/教育/金融</text><text x="100" y="725" font-size="20" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">• 改稿控制在2轮内，效率关键</text><text x="100" y="770" font-size="20" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">• 数据可视化能力是加分项</text>
 
     <!-- Bottom note -->
-    <rect x="60" y="820" width="904" height="70" rx="14" fill="#1A1A2E" opacity="0.04"/>
-    <text x="100" y="862" font-size="20" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">适合：审美在线 · prompt熟练 · 出图快</text>
+    <rect x="60" y="820" width="904" height="60" rx="14" fill="#1A1A2E" opacity="0.04"/>
+    <text x="100" y="858" font-size="18" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">适合：审美在线 · prompt熟练 · 出图快</text>
 
     <!-- Footer -->
-    <text x="60" y="930" font-size="15" fill="#8888A0" font-family="PingFang SC, Microsoft YaHei, sans-serif">#AI副业 #搞钱 #自由职业</text>
+    <text x="60" y="900" font-size="14" fill="#8888A0" font-family="PingFang SC, Microsoft YaHei, sans-serif">#AI副业 #搞钱 #自由职业</text>
   </svg>

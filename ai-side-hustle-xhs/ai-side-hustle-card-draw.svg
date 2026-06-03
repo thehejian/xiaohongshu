@@ -10,33 +10,31 @@
 
     <!-- Top bar -->
     <rect width="1024" height="140" fill="#EC4899" opacity="0.08"/>
-    <text x="60" y="70" font-size="22" font-weight="600" fill="#EC4899" font-family="PingFang SC, Microsoft YaHei, sans-serif">PATH 02</text>
-    <text x="60" y="110" font-size="48" font-weight="800" fill="#1A1A2E" font-family="PingFang SC, Microsoft YaHei, sans-serif">AI做头像定制</text>
+    <text x="60" y="60" font-size="20" font-weight="600" fill="#EC4899" font-family="PingFang SC, Microsoft YaHei, sans-serif">PATH 02</text>
+    <text x="60" y="105" font-size="44" font-weight="800" fill="#1A1A2E" font-family="PingFang SC, Microsoft YaHei, sans-serif">AI做头像定制</text>
 
-    <!-- Main icon -->
-    <circle cx="120" cy="340" r="70" fill="#EC4899" opacity="0.12"/>
-    <text x="120" y="360" font-size="56" text-anchor="middle" font-family="Apple Color Emoji, sans-serif">🎨</text>
+    <!-- Icon (left column) -->
+    <circle cx="120" cy="360" r="65" fill="#EC4899" opacity="0.12"/>
+    <text x="120" y="380" font-size="52" text-anchor="middle" font-family="Apple Color Emoji, sans-serif">🎨</text>
 
-    <!-- Description -->
-    <text x="230" y="250" font-size="26" font-weight="600" fill="#1A1A2E" font-family="PingFang SC, Microsoft YaHei, sans-serif">头像/壁纸/表情包全套</text>
-    <text x="230" y="290" font-size="20" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">接单平台：闲鱼 / 小红书 / 朋友圈</text>
+    <!-- Description (right column) -->
+    <text x="230" y="220" font-size="24" font-weight="600" fill="#1A1A2E" font-family="PingFang SC, Microsoft YaHei, sans-serif">头像/壁纸/表情包全套</text>
+    <text x="230" y="258" font-size="18" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">接单平台：闲鱼 / 小红书 / 朋友圈</text>
 
     <!-- Price box -->
-    <rect x="60" y="370" width="300" height="90" rx="16" fill="#EC4899" opacity="0.1"/>
-    <text x="80" y="405" font-size="18" fill="#EC4899" font-family="PingFang SC, Microsoft YaHei, sans-serif">定价参考</text>
-    <text x="80" y="445" font-size="36" font-weight="700" fill="#EC4899" font-family="PingFang SC, Microsoft YaHei, sans-serif">10-198元/张</text>
+    <rect x="60" y="400" width="300" height="120" rx="16" fill="#EC4899" opacity="0.1"/>
+    <text x="80" y="438" font-size="16" fill="#EC4899" font-family="PingFang SC, Microsoft YaHei, sans-serif">定价参考</text>
+    <text x="80" y="490" font-size="32" font-weight="700" fill="#EC4899" font-family="PingFang SC, Microsoft YaHei, sans-serif">10-198元/张</text>
 
     <!-- Tips section -->
-    <rect x="60" y="500" width="904" height="280" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
-    <text x="100" y="550" font-size="24" font-weight="700" fill="#1A1A2E" font-family="PingFang SC, Microsoft YaHei, sans-serif">💡 关键技巧</text>
-
-    <!-- Tips lines -->
-    <text x="100" y="630" font-size="22" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">• Midjourney v6出图，风格统一</text><text x="100" y="685" font-size="22" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">• prompt模板化，5分钟4张备选</text><text x="100" y="740" font-size="22" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">• 表情包要表情丰富、动作夸张</text><text x="100" y="795" font-size="22" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">• 小红书搜"AI头像定制"需求大</text>
+    <rect x="60" y="540" width="904" height="255" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="100" y="585" font-size="22" font-weight="700" fill="#1A1A2E" font-family="PingFang SC, Microsoft YaHei, sans-serif">💡 关键技巧</text>
+    <text x="100" y="635" font-size="20" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">• Midjourney v6出图，风格统一</text><text x="100" y="680" font-size="20" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">• prompt模板化，5分钟4张备选</text><text x="100" y="725" font-size="20" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">• 表情包要表情丰富、动作夸张</text><text x="100" y="770" font-size="20" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">• 小红书搜"AI头像定制"需求大</text>
 
     <!-- Bottom note -->
-    <rect x="60" y="820" width="904" height="70" rx="14" fill="#1A1A2E" opacity="0.04"/>
-    <text x="100" y="862" font-size="20" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">适合：审美在线 · prompt熟练 · 出图快</text>
+    <rect x="60" y="820" width="904" height="60" rx="14" fill="#1A1A2E" opacity="0.04"/>
+    <text x="100" y="858" font-size="18" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">适合：审美在线 · prompt熟练 · 出图快</text>
 
     <!-- Footer -->
-    <text x="60" y="930" font-size="15" fill="#8888A0" font-family="PingFang SC, Microsoft YaHei, sans-serif">#AI副业 #搞钱 #自由职业</text>
+    <text x="60" y="900" font-size="14" fill="#8888A0" font-family="PingFang SC, Microsoft YaHei, sans-serif">#AI副业 #搞钱 #自由职业</text>
   </svg>
