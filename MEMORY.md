@@ -1360,3 +1360,73 @@ DeepSeek-V4 去年..." \
 4. **SVG 白卡边界**：内容 y 坐标必须 ≤ 白卡 bottom（y=974），footer 在 y=955 安全
 5. **Logo 字典映射**：模型名含特殊字符（`-`、`.`、数字）时必须用显式映射
 6. **覆盖重发流程**：`docs +update --mode overwrite` 清空文档 → 重插全部图片
+
+## 22. hermes-feishu-xhs 项目经验（2026-06-03）
+
+### 项目结构
+```
+hermes-feishu-xhs/
+├── article.md              # 小红书草稿（标题 17 字 + 正文 812 字）
+├── README.md               # 完整博客版
+├── gen_cards.py            # SVG→PNG 生成器（8 张 v3 高饱和全幅渐变卡片）
+├── hermes_logo.json        # Hermes 官方 favicon base64（48×48 → 128×128 LANCZOS 放大）
+├── feishu_logo.json        # 飞书图标 base64（144×145 → 128×128）
+├── hermes-feishu-cover.png # 封面（双 Logo + 🤝 + 安装命令）
+├── hermes-feishu-card-1..7.png  # ①-⑦ 编号卡片
+```
+
+### 卡片设计演进（v1 → v3）
+
+| 版本 | 背景 | Logo | 标题 | 用户反馈 |
+|------|------|------|------|----------|
+| v1（suno-udio 模板） | 米白底+白卡片 | 无 | 普通大小 | ❌ 图不吸引人 |
+| v2（高饱和渐变） | 全幅渐变 | 无 | 140px 大数字 | ❌ 封面缺 logo |
+| v3（双 Logo 封面） | 左紫右蓝渐变 | Hermes+favicon + 飞书官方图标 | 无投影 | ✅ |
+
+### v3 封面设计详解
+```
+布局：                        色彩：
+  [Hermes] ↔ 🤝 ↔ [飞书]     左 → 右：#7C3AED → #3370FF
+     ↓            ↓           文字无投影（glow filter 已移除）
+   "Hermes"    "飞书"          Logo 放在白色圆形背景上（shadow filter）
+     ↓
+  "AI管家 + 飞书后台 = 双剑合璧"
+     ↓
+  ⚡ 一行命令安装
+  curl -fsSL https://...
+     ↓
+  175K+ Stars · MIT · Nous Research
+```
+
+### Logo 获取策略（本次验证）
+- **Hermes**：从 `https://hermes-agent.nousresearch.com/favicon.ico` 下载（48×48 RGBA），用 PIL LANCZOS 放大到 128×128，base64 嵌入 SVG
+- **飞书**：从 `https://p1-hera.feishucdn.com/...` CDN 下载（144×145 RGBA），同样 LANCZOS 放大
+- **Logo 存储**：base64 数据存为 `.json` 文件，`gen_cards.py` 运行时 `json.loads()` 读取，避免 Python 源码中嵌入巨型字符串
+
+### SVG 卡片关键修复（本次踩坑）
+
+**1. 封面文字投影（glow filter）**
+- 症状：用户反馈"文字不需要有投影"
+- 根因：Hermes/飞书/🤝 文字使用了 `filter="url(#glow)"`
+- 修复：删除 `<text>` 上的 `filter="url(#glow)"`，同时删除 `<defs>` 中的 glow 滤镜定义
+- 注意：logo 的白圆底座的 `filter="url(#shadow)"` 保留（这是圆形的阴影，不是文字的）
+
+**2. Logo 白圆底座设计**
+- 每个 logo 放在白色圆形（r=80）上，带轻度阴影
+- 位置：Hermes x=310, 飞书 x=714（对称分布），y=280
+- 图标 128×128，居中显示（x=246/650, y=216）
+
+**3. 双 Logo 布局（cover 专属 vs 编号卡）**
+- cover 用特殊布局（左右对称 + 中间握手）
+- 编号卡保持 v2 全幅渐变 + 大数字风格不变
+- 区分通过 `c["sg"] == "cover"` 条件判断
+
+**4. 封面底部安装命令**
+- `rect x=120, y=780, w=784, h=64` 半透明黑底
+- 命令行黄色文字 `fill="#FDE68A"` 更醒目
+- 安装 badge 在命令上方（y=700）
+
+**5. 卡片设计与前序 patterns**
+- 封面双 logo 让用户一眼看清"这个产品对接了谁"
+- 编号列表 + 统一底部布局（半透明黑卡叠加"底栏"）
+- 每卡一个 emoji 图标作"锚点"，提高信息辨识度
