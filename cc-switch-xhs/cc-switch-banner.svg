@@ -2,21 +2,22 @@
 <defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F3F0E8"/></linearGradient></defs>
 <rect width="1792" height="1024" fill="url(#bgG)"/><circle cx="143.36" cy="81.92" r="60" fill="#E0F2FE" opacity="0.4"/><circle cx="1648.64" cy="122.88" r="50" fill="#EDE9FE" opacity="0.4"/><circle cx="143.36" cy="901.12" r="70" fill="#DBEAFE" opacity="0.3"/><circle cx="1648.64" cy="798.72" r="80" fill="#FFEDD5" opacity="0.3"/>
 
-<text x="896" y="260" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="180" font-weight="900" fill="#1E293B" letter-spacing="-6">CC</text>
-<text x="896" y="440" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="200" font-weight="900" fill="#0EA5E9" letter-spacing="-6">Switch</text>
-<text x="896" y="540" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="34" fill="#64748B">5 个 AI 编程 CLI · 一个 App 统一管理</text>
+<text x="896" y="220" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="160" font-weight="900" fill="#1E293B" letter-spacing="-6">CC</text>
+<text x="896" y="400" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="180" font-weight="900" fill="#0EA5E9" letter-spacing="-6">Switch</text>
 
-<g transform="translate(396, 640)">
-  <rect x="0" y="0" width="1000" height="80" rx="40" fill="#FFFFFF" stroke="#0EA5E9" stroke-width="2"/>
-  <text x="500" y="50" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="30" font-weight="700" fill="#0EA5E9">告别手改 JSON · 托盘秒切 · 开源免费</text>
+<g transform="translate(396, 480)">
+  <rect x="0" y="0" width="1000" height="80" rx="40" fill="#FEE2E2" stroke="#EF4444" stroke-width="2"/>
+  <text x="500" y="50" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="34" font-weight="800" fill="#EF4444">v3.16.1 史诗级更新</text>
 </g>
 
-<g transform="translate(200, 780)">
-  <rect x="0" y="0" width="190" height="48" rx="24" fill="#E0F2FE"/><text x="95" y="32" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" font-weight="600" fill="#0EA5E9">50+ 预设</text>
-  <rect x="220" y="0" width="190" height="48" rx="24" fill="#DBEAFE"/><text x="315" y="32" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" font-weight="600" fill="#3B82F6">托盘秒切</text>
-  <rect x="440" y="0" width="230" height="48" rx="24" fill="#EDE9FE"/><text x="555" y="32" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" font-weight="600" fill="#8B5CF6">MCP / Skills</text>
-  <rect x="700" y="0" width="170" height="48" rx="24" fill="#FFEDD5"/><text x="785" y="32" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" font-weight="600" fill="#F97316">云同步</text>
-  <rect x="900" y="0" width="190" height="48" rx="24" fill="#D1FAE5"/><text x="995" y="32" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" font-weight="600" fill="#10B981">开源免费</text>
+<text x="896" y="640" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="28" fill="#64748B">Codex OAuth 保留 · Chat 路由修复 · 模型目录加固 · 23 commits</text>
+
+<g transform="translate(200, 730)">
+  <rect x="0" y="0" width="240" height="48" rx="24" fill="#E0F2FE"/><text x="120" y="32" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" font-weight="600" fill="#0EA5E9">🔑 OAuth 保留</text>
+  <rect x="280" y="0" width="240" height="48" rx="24" fill="#DBEAFE"/><text x="400" y="32" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" font-weight="600" fill="#3B82F6">🛠️ Chat 路由</text>
+  <rect x="560" y="0" width="240" height="48" rx="24" fill="#EDE9FE"/><text x="680" y="32" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" font-weight="600" fill="#8B5CF6">📂 模型目录</text>
+  <rect x="840" y="0" width="240" height="48" rx="24" fill="#FFEDD5"/><text x="960" y="32" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" font-weight="600" fill="#F97316">🔄 热切换</text>
+  <rect x="1120" y="0" width="240" height="48" rx="24" fill="#D1FAE5"/><text x="1240" y="32" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" font-weight="600" fill="#10B981">🐛 修复</text>
 </g>
 
 <text x="896" y="960" text-anchor="middle" font-family="ui-monospace,monospace" font-size="18" fill="#94A3B8">github.com/farion1231/cc-switch · brew install --cask cc-switch</text>

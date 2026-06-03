@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+  <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#0EA5E9"/>
+    <stop offset="100%" stop-color="#06B6D4"/>
+  </linearGradient>
+  <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#3B82F6"/>
+    <stop offset="100%" stop-color="#0EA5E9"/>
+  </linearGradient>
+  <linearGradient id="warmGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#F97316"/>
+    <stop offset="100%" stop-color="#F59E0B"/>
+  </linearGradient>
+  <linearGradient id="roseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#F43F5E"/>
+    <stop offset="100%" stop-color="#8B5CF6"/>
+  </linearGradient>
+  <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#0F172A" flood-opacity=".06"/>
+  </filter>
+  <filter id="liftShadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#0F172A" flood-opacity=".08"/>
+  </filter>
+  <pattern id="dotGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#E2E8F0" opacity="0.6"/>
+  </pattern>
+  
+</defs>
+<rect width="1024" height="1024" fill="#FFFFFF"/>
+<rect width="1024" height="1024" fill="url(#dotGrid)" opacity="0.4"/>
+
+<!-- Eyebrow -->
+<g transform="translate(56, 56)">
+  <rect x="0" y="0" width="6" height="36" fill="url(#roseGrad)"/>
+  <text x="22" y="16" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, Inter, sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#F43F5E">2026 · CODING PLAN</text>
+  <text x="22" y="34" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#94A3B8">25 PLATFORMS</text>
+</g>
+
+<!-- Hero title -->
+<g transform="translate(56, 160)">
+  <text x="0" y="0"   font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, Inter, sans-serif" font-size="64" font-weight="900" fill="#0F172A" letter-spacing="-2">AI Coding Plan</text>
+  <text x="0" y="72" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, Inter, sans-serif" font-size="80" font-weight="900" fill="url(#tealGrad)" letter-spacing="-3">最强攻略</text>
+</g>
+
+<!-- Price cards -->
+<g transform="translate(56,360)">
+  <rect x="0" y="0" width="430" height="140" rx="16" fill="#FFFFFF" filter="url(#softShadow)"/>
+  <rect x="0" y="0" width="430" height="140" rx="16" fill="none" stroke="#0EA5E9" stroke-opacity="0.3"/>
+  <rect x="0" y="0" width="10" height="140" rx="5" fill="#0EA5E9"/>
+  <text x="30" y="40" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, Inter, sans-serif" font-size="22" font-weight="800" fill="#0F172A">智谱AI</text>
+  <text x="30" y="80" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, Inter, sans-serif" font-size="32" font-weight="900" fill="#0EA5E9">¥46.55/月</text>
+  <text x="30" y="115" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, Inter, sans-serif" font-size="15" font-weight="400" fill="#475569">GLM-5.1 · T0</text>
+</g><g transform="translate(516,360)">
+  <rect x="0" y="0" width="430" height="140" rx="16" fill="#FFFFFF" filter="url(#softShadow)"/>
+  <rect x="0" y="0" width="430" height="140" rx="16" fill="none" stroke="#10B981" stroke-opacity="0.3"/>
+  <rect x="0" y="0" width="10" height="140" rx="5" fill="#10B981"/>
+  <text x="30" y="40" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, Inter, sans-serif" font-size="22" font-weight="800" fill="#0F172A">MiniMax</text>
+  <text x="30" y="80" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, Inter, sans-serif" font-size="32" font-weight="900" fill="#10B981">¥26.1/月</text>
+  <text x="30" y="115" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, Inter, sans-serif" font-size="15" font-weight="400" fill="#475569">M2.7 · 最低价</text>
+</g><g transform="translate(56,530)">
+  <rect x="0" y="0" width="430" height="140" rx="16" fill="#FFFFFF" filter="url(#softShadow)"/>
+  <rect x="0" y="0" width="430" height="140" rx="16" fill="none" stroke="#3B82F6" stroke-opacity="0.3"/>
+  <rect x="0" y="0" width="10" height="140" rx="5" fill="#3B82F6"/>
+  <text x="30" y="40" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, Inter, sans-serif" font-size="22" font-weight="800" fill="#0F172A">讯飞星火</text>
+  <text x="30" y="80" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, Inter, sans-serif" font-size="32" font-weight="900" fill="#3B82F6">¥39/月</text>
+  <text x="30" y="115" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, Inter, sans-serif" font-size="15" font-weight="400" fill="#475569">GLM-5.1 · 不限购</text>
+</g><g transform="translate(516,530)">
+  <rect x="0" y="0" width="430" height="140" rx="16" fill="#FFFFFF" filter="url(#softShadow)"/>
+  <rect x="0" y="0" width="430" height="140" rx="16" fill="none" stroke="#8B5CF6" stroke-opacity="0.3"/>
+  <rect x="0" y="0" width="10" height="140" rx="5" fill="#8B5CF6"/>
+  <text x="30" y="40" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, Inter, sans-serif" font-size="22" font-weight="800" fill="#0F172A">Kimi</text>
+  <text x="30" y="80" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, Inter, sans-serif" font-size="32" font-weight="900" fill="#8B5CF6">¥49/月</text>
+  <text x="30" y="115" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, Inter, sans-serif" font-size="15" font-weight="400" fill="#475569">K2.6 · 多模态</text>
+</g>
+
+<!-- Bottom warning -->
+<g transform="translate(56, 750)">
+  <rect x="0" y="0" width="912" height="52" rx="12" fill="#FFE4E6"/>
+  <text x="456" y="32" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, Inter, sans-serif" font-size="18" font-weight="700" fill="#F43F5E">⚠️ 大厂转 Token Plan · Coding Plan 且买且珍惜</text>
+</g>
+
+<!-- Chips -->
+<g transform="translate(56, 840)">
+  <g transform="translate(0,0)">
+  <rect x="0" y="0" width="88" height="32" rx="16" fill="#F43F5E1A" stroke="#F43F5E" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="44.0" y="21" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, Inter, sans-serif" font-size="13" font-weight="600" fill="#F43F5E">限购预警</text>
+</g>
+  <g transform="translate(140,0)">
+  <rect x="0" y="0" width="102" height="32" rx="16" fill="#10B9811A" stroke="#10B981" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="51.0" y="21" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, Inter, sans-serif" font-size="13" font-weight="600" fill="#10B981">性价比之王</text>
+</g>
+  <g transform="translate(290,0)">
+  <rect x="0" y="0" width="88" height="32" rx="16" fill="#0EA5E91A" stroke="#0EA5E9" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="44.0" y="21" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, Inter, sans-serif" font-size="13" font-weight="600" fill="#0EA5E9">代码T0</text>
+</g>
+  <g transform="translate(430,0)">
+  <rect x="0" y="0" width="88" height="32" rx="16" fill="#3B82F61A" stroke="#3B82F6" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="44.0" y="21" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, Inter, sans-serif" font-size="13" font-weight="600" fill="#3B82F6">免费羊毛</text>
+</g>
+  <g transform="translate(570,0)">
+  <rect x="0" y="0" width="88" height="32" rx="16" fill="#8B5CF61A" stroke="#8B5CF6" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="44.0" y="21" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, Inter, sans-serif" font-size="13" font-weight="600" fill="#8B5CF6">选购指南</text>
+</g>
+</g>
+
+<!-- Footer -->
+<g transform="translate(56, 930)">
+  <text x="0" y="0" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#94A3B8">codingplan.fyi (2026.5.19)</text>
+  <text x="912" y="0" text-anchor="end" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#94A3B8">#CodingPlan #AI编程</text>
+</g>
+</svg>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<defs>
+  <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#7C3AED" stop-opacity=".15"/>
+    <stop offset="50%" stop-color="#0891B2" stop-opacity=".08"/>
+    <stop offset="100%" stop-color="#6366F1" stop-opacity=".15"/>
+  </linearGradient>
+  <linearGradient id="g2" x1="0%" y1="100%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#7C3AED" stop-opacity=".1"/>
+    <stop offset="100%" stop-color="#2563EB" stop-opacity=".05"/>
+  </linearGradient>
+  <linearGradient id="accentBar" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#7C3AED"/>
+    <stop offset="50%" stop-color="#0891B2"/>
+    <stop offset="100%" stop-color="#6366F1"/>
+  </linearGradient>
+  <linearGradient id="accentGold" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#F59E0B"/>
+    <stop offset="100%" stop-color="#D97706"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="6" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity=".3"/>
+  </filter>
+</defs>
+<rect width="800" height="800" fill="#0F0F23" rx="24"/>
+<rect width="800" height="800" fill="url(#g1)"/>
+<text x="400" y="60" text-anchor="middle" fill="url(#accentBar)" font-size="16" font-weight="800" font-family="system-ui,-apple-system,sans-serif">&#128300; 深度观察</text>
+<text x="400" y="130" text-anchor="middle" fill="white" font-size="42" font-weight="800" font-family="system-ui,-apple-system,sans-serif">IDE 三兄弟 fork 链</text>
+<text x="400" y="170" text-anchor="middle" fill="#94A3B8" font-size="16" font-family="system-ui,-apple-system,sans-serif">Kilo Code &#8594; Roo Code &#8594; Cline 同源进化</text>
+<line x1="220" y1="195" x2="580" y2="195" stroke="url(#accentBar)" stroke-width="2" opacity=".4"/><circle cx="400" cy="250" r="24" fill="#2563EB" filter="url(#shadow)"/>
+<text x="400" y="257.7" text-anchor="middle" fill="white" font-size="22" font-weight="700" font-family="system-ui,-apple-system,sans-serif">C</text><text x="400" y="290" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="700" font-family="system-ui,-apple-system,sans-serif">Cline (19.1B)</text><text x="400" y="308" text-anchor="middle" fill="#64748B" font-size="11" font-family="system-ui,-apple-system,sans-serif">&#127919; IDE 自主 Agent 始祖</text><line x1="400" y1="280" x2="200" y2="340" stroke="#64748B" stroke-width="1.5" stroke-dasharray="4,3" opacity=".6"/>
+<line x1="200" y1="290" x2="200" y2="340" stroke="#64748B" stroke-width="1.5" opacity=".6"/><line x1="400" y1="280" x2="600" y2="340" stroke="#64748B" stroke-width="1.5" stroke-dasharray="4,3" opacity=".6"/>
+<line x1="600" y1="290" x2="600" y2="340" stroke="#64748B" stroke-width="1.5" opacity=".6"/><circle cx="200" cy="340" r="24" fill="#059669" filter="url(#shadow)"/>
+<text x="200" y="347.7" text-anchor="middle" fill="white" font-size="22" font-weight="700" font-family="system-ui,-apple-system,sans-serif">K</text><text x="200" y="380" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="700" font-family="system-ui,-apple-system,sans-serif">Kilo Code (136B)</text><text x="200" y="398" text-anchor="middle" fill="#64748B" font-size="11" font-family="system-ui,-apple-system,sans-serif">&#128640; 三端通吃 + Orchestrator</text><text x="200" y="414" text-anchor="middle" fill="#64748B" font-size="11" font-family="system-ui,-apple-system,sans-serif">150万用户 · 800万美金种子轮</text><circle cx="600" cy="340" r="24" fill="#7C3AED" filter="url(#shadow)"/>
+<text x="600" y="347.7" text-anchor="middle" fill="white" font-size="22" font-weight="700" font-family="system-ui,-apple-system,sans-serif">R</text><text x="600" y="380" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="700" font-family="system-ui,-apple-system,sans-serif">Roo Code (20B)</text><text x="600" y="398" text-anchor="middle" fill="#64748B" font-size="11" font-family="system-ui,-apple-system,sans-serif">&#128101; Agent 团队模式</text><text x="600" y="414" text-anchor="middle" fill="#64748B" font-size="11" font-family="system-ui,-apple-system,sans-serif">架构/编码/调试/审查</text><rect x="60" y="460" width="680" height="230" rx="16" fill="#1E1E3A" opacity=".5" filter="url(#shadow)"/>
+<rect x="60" y="460" width="680" height="230" rx="16" fill="none" stroke="url(#accentBar)" stroke-width="1.5" opacity=".3"/><text x="400" y="495" text-anchor="middle" fill="url(#accentGold)" font-size="16" font-weight="800" font-family="system-ui,-apple-system,sans-serif">&#128161; fork 链背后的格局</text><circle cx="80" cy="517" r="4" fill="#7C3AED" opacity=".8"/>
+<text x="95" y="525" fill="#94A3B8" font-size="12" font-family="system-ui,-apple-system,sans-serif">Cline 是始祖，Kilo Code 和 Roo Code 都 fork 自它</text><circle cx="80" cy="549" r="4" fill="#7C3AED" opacity=".8"/>
+<text x="95" y="557" fill="#94A3B8" font-size="12" font-family="system-ui,-apple-system,sans-serif">Kilo Code 走商业化路线，三端通吃 + 融资扩张</text><circle cx="80" cy="581" r="4" fill="#7C3AED" opacity=".8"/>
+<text x="95" y="589" fill="#94A3B8" font-size="12" font-family="system-ui,-apple-system,sans-serif">Roo Code 专注 IDE 插件内的 Agent 团队协作</text><circle cx="80" cy="613" r="4" fill="#7C3AED" opacity=".8"/>
+<text x="95" y="621" fill="#94A3B8" font-size="12" font-family="system-ui,-apple-system,sans-serif">三个项目底层共享大量 DNA，但方向各不相同</text><circle cx="80" cy="645" r="4" fill="#7C3AED" opacity=".8"/>
+<text x="95" y="653" fill="#94A3B8" font-size="12" font-family="system-ui,-apple-system,sans-serif">这是开源生态最典型的进化模式：fork + 差异化</text><circle cx="720" cy="700" r="90" fill="#2563EB" opacity=".04"/>
+<circle cx="80" cy="80" r="70" fill="#059669" opacity=".04"/>
+</svg>

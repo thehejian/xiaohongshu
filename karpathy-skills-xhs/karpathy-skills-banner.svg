@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1792" height="1024" viewBox="0 0 1792 1024">
+<defs>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#FAF7F2"/>
+    <stop offset="100%" stop-color="#F3F0E8"/>
+  </linearGradient>
+  <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#1E40AF"/>
+    <stop offset="100%" stop-color="#3B82F6"/>
+  </linearGradient>
+  <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#10B981"/>
+    <stop offset="100%" stop-color="#34D399"/>
+  </linearGradient>
+  <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+    <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#1E3A8A" flood-opacity=".08"/>
+  </filter>
+</defs>
+
+<rect width="1792" height="1024" fill="url(#bgGrad)"/>
+
+<!-- Decorative dots -->
+<circle cx="80" cy="80" r="4" fill="#1E40AF" opacity="0.3"/>
+<circle cx="130" cy="80" r="4" fill="#10B981" opacity="0.3"/>
+<circle cx="180" cy="80" r="4" fill="#F59E0B" opacity="0.3"/>
+
+<!-- Left content -->
+<g transform="translate(96, 160)">
+  <!-- Eyebrow -->
+  <rect x="0" y="0" width="8" height="48" fill="#1E40AF"/>
+  <text x="28" y="22" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" letter-spacing="4" fill="#1E40AF">ANDREJ KARPATHY · SKILLS</text>
+  <text x="28" y="46" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="14" letter-spacing="2" fill="#64748B">CODING AGENT GUIDELINES · 2026</text>
+
+  <!-- Hero title -->
+  <text x="0" y="200" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="110" font-weight="900" fill="#0F172A" letter-spacing="-3">治好 AI 写代码</text>
+  <text x="0" y="320" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="110" font-weight="900" fill="url(#blueGrad)" letter-spacing="-3">的四大顽疾</text>
+
+  <!-- Subtitle -->
+  <text x="0" y="400" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="28" font-weight="500" fill="#334155">Karpathy 亲测吐槽 · 一份 CLAUDE.md 全治</text>
+
+  <!-- Karpathy quote box -->
+  <g transform="translate(0, 460)">
+    <rect x="0" y="0" width="720" height="160" rx="16" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="6" height="160" rx="3" fill="#1E40AF"/>
+    <text x="32" y="46" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#1E40AF">— ANDREJ KARPATHY</text>
+    <text x="32" y="84" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="500" font-style="italic" fill="#0F172A">"模型替你做错误假设, 然后不假思索</text>
+    <text x="32" y="116" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="500" font-style="italic" fill="#0F172A">地执行 · 100 行的事非写成 1000 行的</text>
+    <text x="32" y="148" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="500" font-style="italic" fill="#0F172A">臃肿架构……"</text>
+  </g>
+
+  <!-- Tags -->
+  <g transform="translate(0, 670)">
+    <g transform="translate(0,0)">
+      <rect x="0" y="0" width="120" height="36" rx="18" fill="#1E40AF" opacity="0.12"/>
+      <text x="60" y="23" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#1E40AF">Claude Code</text>
+    </g>
+    <g transform="translate(136,0)">
+      <rect x="0" y="0" width="80" height="36" rx="18" fill="#10B981" opacity="0.12"/>
+      <text x="40" y="23" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#10B981">Cursor</text>
+    </g>
+    <g transform="translate(232,0)">
+      <rect x="0" y="0" width="70" height="36" rx="18" fill="#F59E0B" opacity="0.12"/>
+      <text x="35" y="23" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#D97706">MIT</text>
+    </g>
+    <g transform="translate(318,0)">
+      <rect x="0" y="0" width="90" height="36" rx="18" fill="#EC4899" opacity="0.12"/>
+      <text x="45" y="23" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#DB2777">开源插件</text>
+    </g>
+  </g>
+</g>
+
+<!-- Right side: 4 principle cards -->
+<g transform="translate(960, 140)">
+  <!-- Card 1 -->
+  <g transform="translate(0, 0)">
+    <rect x="0" y="0" width="740" height="160" rx="16" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="6" height="160" rx="3" fill="#1E40AF"/>
+    <text x="32" y="50" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#1E40AF">01 · PRINCIPLE</text>
+    <text x="32" y="92" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="34" font-weight="800" fill="#0F172A">编码前思考</text>
+    <text x="32" y="132" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" fill="#475569">别假设 · 别藏困惑 · 不确定就问</text>
+  </g>
+
+  <!-- Card 2 -->
+  <g transform="translate(0, 180)">
+    <rect x="0" y="0" width="740" height="160" rx="16" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="6" height="160" rx="3" fill="#10B981"/>
+    <text x="32" y="50" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#10B981">02 · PRINCIPLE</text>
+    <text x="32" y="92" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="34" font-weight="800" fill="#0F172A">简洁优先</text>
+    <text x="32" y="132" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" fill="#475569">200 行能写, 绝不堆 50 行抽象</text>
+  </g>
+
+  <!-- Card 3 -->
+  <g transform="translate(0, 360)">
+    <rect x="0" y="0" width="740" height="160" rx="16" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="6" height="160" rx="3" fill="#F59E0B"/>
+    <text x="32" y="50" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#F59E0B">03 · PRINCIPLE</text>
+    <text x="32" y="92" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="34" font-weight="800" fill="#0F172A">精准修改</text>
+    <text x="32" y="132" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" fill="#475569">只碰必须碰的 · 不顺手优化邻居</text>
+  </g>
+
+  <!-- Card 4 -->
+  <g transform="translate(0, 540)">
+    <rect x="0" y="0" width="740" height="160" rx="16" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="6" height="160" rx="3" fill="#EC4899"/>
+    <text x="32" y="50" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#EC4899">04 · PRINCIPLE</text>
+    <text x="32" y="92" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="34" font-weight="800" fill="#0F172A">目标驱动执行</text>
+    <text x="32" y="132" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" fill="#475569">给标准而非指令 · 看着 AI 闭环达成</text>
+  </g>
+</g>
+
+<!-- Bottom info -->
+<g transform="translate(96, 980)">
+  <text x="0" y="0" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#64748B">▶ /plugin install andrej-karpathy-skills@karpathy-skills</text>
+  <text x="1600" y="0" text-anchor="end" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#64748B">github.com/multica-ai/andrej-karpathy-skills</text>
+</g>
+</svg>

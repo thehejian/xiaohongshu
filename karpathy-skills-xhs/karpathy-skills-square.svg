@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#FAF7F2"/>
+    <stop offset="100%" stop-color="#F3F0E8"/>
+  </linearGradient>
+  <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#1E40AF"/>
+    <stop offset="100%" stop-color="#3B82F6"/>
+  </linearGradient>
+  <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#10B981"/>
+    <stop offset="100%" stop-color="#34D399"/>
+  </linearGradient>
+  <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+    <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#1E3A8A" flood-opacity=".08"/>
+  </filter>
+</defs>
+
+<rect width="1024" height="1024" fill="url(#bgGrad)"/>
+
+<!-- Decorative dots -->
+<circle cx="60" cy="60" r="3" fill="#1E40AF" opacity="0.3"/>
+<circle cx="100" cy="60" r="3" fill="#10B981" opacity="0.3"/>
+<circle cx="140" cy="60" r="3" fill="#F59E0B" opacity="0.3"/>
+
+<!-- Eyebrow -->
+<g transform="translate(80, 120)">
+  <rect x="0" y="0" width="6" height="40" fill="#1E40AF"/>
+  <text x="22" y="20" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#1E40AF">ANDREJ KARPATHY · SKILLS</text>
+  <text x="22" y="40" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#64748B">CODING AGENT GUIDELINES · MIT</text>
+</g>
+
+<!-- Hero title -->
+<g transform="translate(80, 230)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="92" font-weight="900" fill="#0F172A" letter-spacing="-2">治好 AI 写代码</text>
+  <text x="0" y="110" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="92" font-weight="900" fill="url(#blueGrad)" letter-spacing="-2">四大顽疾</text>
+</g>
+
+<!-- Subtitle -->
+<g transform="translate(80, 410)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26" font-weight="500" fill="#334155">Karpathy 亲测吐槽 · 一份 CLAUDE.md 搞定</text>
+</g>
+
+<!-- 4 Principles Cards -->
+<g transform="translate(64, 480)">
+  <!-- Card 1 -->
+  <g transform="translate(0, 0)">
+    <rect x="0" y="0" width="448" height="180" rx="16" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="6" height="180" rx="3" fill="#1E40AF"/>
+    <text x="32" y="50" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#1E40AF">01</text>
+    <text x="32" y="90" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="32" font-weight="800" fill="#0F172A">编码前思考</text>
+    <text x="32" y="130" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" fill="#475569">别假设 · 别藏困惑</text>
+    <text x="32" y="158" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" fill="#475569">不确定就问</text>
+  </g>
+
+  <!-- Card 2 -->
+  <g transform="translate(480, 0)">
+    <rect x="0" y="0" width="448" height="180" rx="16" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="6" height="180" rx="3" fill="#10B981"/>
+    <text x="32" y="50" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#10B981">02</text>
+    <text x="32" y="90" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="32" font-weight="800" fill="#0F172A">简洁优先</text>
+    <text x="32" y="130" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" fill="#475569">200 行能写</text>
+    <text x="32" y="158" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" fill="#475569">绝不堆 50 行抽象</text>
+  </g>
+
+  <!-- Card 3 -->
+  <g transform="translate(0, 204)">
+    <rect x="0" y="0" width="448" height="180" rx="16" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="6" height="180" rx="3" fill="#F59E0B"/>
+    <text x="32" y="50" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#F59E0B">03</text>
+    <text x="32" y="90" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="32" font-weight="800" fill="#0F172A">精准修改</text>
+    <text x="32" y="130" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" fill="#475569">只碰必须碰的</text>
+    <text x="32" y="158" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" fill="#475569">不"顺手优化"邻居</text>
+  </g>
+
+  <!-- Card 4 -->
+  <g transform="translate(480, 204)">
+    <rect x="0" y="0" width="448" height="180" rx="16" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="6" height="180" rx="3" fill="#EC4899"/>
+    <text x="32" y="50" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#EC4899">04</text>
+    <text x="32" y="90" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="32" font-weight="800" fill="#0F172A">目标驱动执行</text>
+    <text x="32" y="130" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" fill="#475569">给标准而非指令</text>
+    <text x="32" y="158" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" fill="#475569">看着 AI 闭环</text>
+  </g>
+</g>
+
+<!-- Bottom info -->
+<g transform="translate(80, 940)">
+  <text x="0" y="0" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#64748B">▶ CLAUDE CODE · CURSOR · MIT 开源</text>
+  <text x="864" y="0" text-anchor="end" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#64748B">github.com/multica-ai</text>
+</g>
+</svg>

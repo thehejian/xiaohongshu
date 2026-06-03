@@ -2,42 +2,38 @@
 <defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F3F0E8"/></linearGradient></defs>
 <rect width="1024" height="1024" fill="url(#bgG)"/><circle cx="81.92" cy="81.92" r="60" fill="#E0F2FE" opacity="0.4"/><circle cx="942.08" cy="122.88" r="50" fill="#EDE9FE" opacity="0.4"/><circle cx="81.92" cy="901.12" r="70" fill="#DBEAFE" opacity="0.3"/><circle cx="942.08" cy="798.72" r="80" fill="#FFEDD5" opacity="0.3"/>
 
-<text x="512" y="90" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="38" font-weight="800" fill="#1E293B">开源免费 · 原生体验</text>
-<text x="512" y="130" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" fill="#64748B">Tauri 2 + Rust · 低内存 · 跨平台</text>
+<text x="512" y="80" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="38" font-weight="800" fill="#1E293B">更多修复 & 支持</text>
 
-<g transform="translate(62, 200)">
-  <rect x="0" y="0" width="430" height="200" rx="18" fill="#FFFFFF" stroke="#0EA5E9" stroke-width="2"/>
-  <text x="215" y="60" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="28" font-weight="700" fill="#0EA5E9">MIT 开源协议</text>
-  <text x="215" y="105" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" fill="#1E293B">永久免费 · 可商用</text>
-  <text x="215" y="140" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">社区贡献 · 持续迭代</text>
-  <text x="215" y="175" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">SQLite 原子写入</text>
-
-  <rect x="470" y="0" width="430" height="200" rx="18" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="2"/>
-  <text x="685" y="60" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="28" font-weight="700" fill="#8B5CF6">云同步</text>
-  <text x="685" y="105" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" fill="#1E293B">Dropbox / iCloud</text>
-  <text x="685" y="140" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">坚果云 / WebDAV</text>
-  <text x="685" y="175" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">换电脑无感迁移</text>
+<g transform="translate(62, 160)">
+  <rect x="0" y="0" width="900" height="90" rx="14" fill="#FFEDD5"/>
+  <text x="30" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="600" fill="#1E293B">Kimi / Moonshot 工具思考历史</text>
+  <text x="30" y="66" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">正确重放 reasoning 与 tool-call 上下文</text>
+  <rect x="850" y="28" width="28" height="32" rx="6" fill="#F97316" opacity="0.2"/>
 </g>
-
-<g transform="translate(62, 460)">
-  <text x="0" y="0" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="700" fill="#1E293B">全平台支持</text>
-  <g transform="translate(0, 30)">
-    <rect x="0" y="0" width="286" height="100" rx="16" fill="#FFFFFF" stroke="#3B82F6" stroke-width="1.5"/>
-    <text x="143" y="44" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#1E293B">macOS</text>
-    <text x="143" y="72" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" fill="#64748B">brew install cc-switch</text>
-    <rect x="307" y="0" width="286" height="100" rx="16" fill="#FFFFFF" stroke="#F97316" stroke-width="1.5"/>
-    <text x="450" y="44" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#1E293B">Windows</text>
-    <text x="450" y="72" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" fill="#64748B">.msi / 便携版</text>
-    <rect x="614" y="0" width="286" height="100" rx="16" fill="#FFFFFF" stroke="#10B981" stroke-width="1.5"/>
-    <text x="757" y="44" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#1E293B">Linux</text>
-    <text x="757" y="72" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" fill="#64748B">.deb / .rpm / AppImage</text>
-  </g>
+<g transform="translate(62, 280)">
+  <rect x="0" y="0" width="900" height="90" rx="14" fill="#EDE9FE"/>
+  <text x="30" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="600" fill="#1E293B">Windows 版本探测修复</text>
+  <text x="30" y="66" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">乱码与误判修复，不再显示"已安装但无法运行"</text>
+  <rect x="850" y="28" width="28" height="32" rx="6" fill="#8B5CF6" opacity="0.2"/>
 </g>
-
+<g transform="translate(62, 400)">
+  <rect x="0" y="0" width="900" height="90" rx="14" fill="#E0F2FE"/>
+  <text x="30" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="600" fill="#1E293B">余额 / Coding Plan 查询</text>
+  <text x="30" y="66" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">按 app 解析凭据，不再跨应用错用</text>
+  <rect x="850" y="28" width="28" height="32" rx="6" fill="#0EA5E9" opacity="0.2"/>
+</g>
+<g transform="translate(62, 520)">
+  <rect x="0" y="0" width="900" height="90" rx="14" fill="#DBEAFE"/>
+  <text x="30" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="600" fill="#1E293B">Codex CLI 发现与模板兜底</text>
+  <text x="30" y="66" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">多平台安装位置 + GPT-5.5 模型兜底</text>
+  <rect x="850" y="28" width="28" height="32" rx="6" fill="#3B82F6" opacity="0.2"/>
+</g>
 <g transform="translate(62, 640)">
-  <rect x="0" y="0" width="900" height="60" rx="14" fill="#E0F2FE"/>
-  <text x="28" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="600" fill="#0EA5E9">brew install --cask cc-switch</text>
-  <text x="700" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">开箱即用</text>
+  <rect x="0" y="0" width="900" height="90" rx="14" fill="#D1FAE5"/>
+  <text x="30" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="600" fill="#1E293B">诊断错误更完整</text>
+  <text x="30" y="66" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">返回含 provider/model/endpoint/错误码的 JSON</text>
+  <rect x="850" y="28" width="28" height="32" rx="6" fill="#10B981" opacity="0.2"/>
 </g>
+<text x="512" y="960" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" fill="#94A3B8">7 个工具统一管理 · MIT 开源 · brew install --cask cc-switch</text>
 
 </svg>

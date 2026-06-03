@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs>
+<linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#0D0D1A"/>
+  <stop offset="100%" stop-color="#0A0A14"/>
+</linearGradient>
+<linearGradient id="accentG" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#8B5CF6"/>
+  <stop offset="100%" stop-color="#F97316"/>
+</linearGradient>
+<linearGradient id="accentG2" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%" stop-color="#8B5CF6"/>
+  <stop offset="100%" stop-color="#06B6D4"/>
+</linearGradient>
+<filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+  <feGaussianBlur stdDeviation="8" result="blur"/>
+  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="shadow">
+  <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.4"/>
+</filter>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1A1A2E" stroke-width="0.5"/>
+</pattern>
+</defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/><rect width="1024" height="1024" fill="url(#grid)"/><circle cx="51.2" cy="51.2" r="122.88" fill="#8B5CF6" opacity="0.08"/><circle cx="972.8" cy="972.8" r="153.6" fill="#F97316" opacity="0.06"/>
+
+<rect x="62" y="50" width="900" height="924" rx="32" fill="#15151F" filter="url(#shadow)" stroke="#27272A" stroke-width="1"/>
+<text x="512" y="110" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="32" font-weight="800" fill="#F5F5F7">核心能力</text>
+
+<g transform="translate(90, 170)">
+  <rect x="0" y="0" width="400" height="180" rx="18" fill="#0A0A14" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="25" y="40" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#C4B5FD">Team Mode</text>
+  <text x="25" y="72" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#A1A1AA">1 主控 + 8 并行成员</text>
+  <text x="25" y="100" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#A1A1AA">hyperplan：5 批评家</text>
+  <text x="25" y="128" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#A1A1AA">security-research</text>
+  <text x="25" y="156" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#A1A1AA">3 猎人 + 2 PoC 并行</text>
+
+  <rect x="430" y="0" width="400" height="180" rx="18" fill="#0A0A14" stroke="#F97316" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="455" y="40" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#F97316">ultrawork</text>
+  <text x="455" y="72" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#A1A1AA">输入 ultrawork / ulw</text>
+  <text x="455" y="100" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#A1A1AA">所有 Agent 激活</text>
+  <text x="455" y="128" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#A1A1AA">不达目标不停止</text>
+  <text x="455" y="156" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#A1A1AA">Ralph 自动循环</text>
+</g>
+
+<g transform="translate(90, 390)">
+  <rect x="0" y="0" width="400" height="180" rx="18" fill="#0A0A14" stroke="#06B6D4" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="25" y="40" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#06B6D4">精准编辑</text>
+  <text x="25" y="72" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#A1A1AA">LINE#ID 哈希锚定</text>
+  <text x="25" y="100" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#A1A1AA">LSP 集成 · AST-Grep</text>
+  <text x="25" y="128" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#A1A1AA">25 种语言模式搜索</text>
+  <text x="25" y="156" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#A1A1AA">IDE 级精度</text>
+
+  <rect x="430" y="0" width="400" height="180" rx="18" fill="#0A0A14" stroke="#10B981" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="455" y="40" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#10B981">生态兼容</text>
+  <text x="455" y="72" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#A1A1AA">Claude Code 全插件兼容</text>
+  <text x="455" y="100" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#A1A1AA">54+ Lifecycle Hooks</text>
+  <text x="455" y="128" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#A1A1AA">内置 MCP 开箱即用</text>
+  <text x="455" y="156" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#A1A1AA">规则注入 AGENTS.md</text>
+</g>
+
+<g transform="translate(90, 620)">
+  <rect x="0" y="0" width="844" height="60" rx="14" fill="#8B5CF6" opacity="0.1"/>
+  <text x="422" y="36" text-anchor="middle" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="18" font-weight="600" fill="#C4B5FD">bunx oh-my-openagent install → ultrawork</text>
+</g>
+
+<text x="512" y="870" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="15" fill="#71717A">开源免费 · SUL-1.0 协议</text>
+
+</svg>

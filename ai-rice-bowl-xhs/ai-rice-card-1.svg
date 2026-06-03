@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F3F0E8"/></linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/><circle cx="81.92" cy="81.92" r="61.44" fill="#E0F2FE" opacity="0.4"/><circle cx="942.08" cy="122.88" r="51.2" fill="#EDE9FE" opacity="0.4"/><circle cx="81.92" cy="901.12" r="71.68" fill="#FFEDD5" opacity="0.3"/><circle cx="942.08" cy="798.72" r="81.92" fill="#D1FAE5" opacity="0.3"/>
+
+<filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+  <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000010"/>
+</filter>
+<filter id="shadow2" x="-5%" y="-5%" width="110%" height="110%">
+  <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00000008"/>
+</filter>
+<rect x="62" y="120" width="900" height="700" rx="28" fill="#FFFFFF" filter="url(#shadow)"/>
+<rect x="62" y="120" width="900" height="110" rx="28" fill="#10A37F"/>
+<rect x="62" y="200" width="900" height="30" rx="0" fill="#10A37F"/>
+<text x="512" y="185" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="42" font-weight="800" fill="#FFFFFF">🤖 ChatGPT</text>
+<g transform="translate(100, 280)">
+  <rect x="0" y="0" width="824" height="220" rx="16" fill="#E6F7F1"/>
+  <text x="40" y="50" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" fill="#1E293B">"我是AI没有物理形态</text>
+  <text x="40" y="90" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" fill="#1E293B">不需要进食</text>
+  <text x="40" y="150" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" fill="#1E293B">但如果按信息处理量算…</text>
+  <text x="40" y="190" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" fill="#1E293B">大概 1000 碗吧 🍚"</text>
+</g>
+<g transform="translate(100, 560)">
+  <rect x="0" y="0" width="824" height="80" rx="16" fill="#FFFFFF" stroke="#10A37F" stroke-width="1.5"/>
+  <text x="412" y="35" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="600" fill="#64748B">滴水不漏，不卑不亢</text>
+  <text x="412" y="63" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#94A3B8">老大哥就是老大哥</text>
+</g>
+<g transform="translate(100, 680)">
+  <rect x="0" y="0" width="180" height="40" rx="20" fill="#E6F7F1" stroke="#10A37F" stroke-width="1.5"/>
+  <text x="90" y="27" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" font-weight="700" fill="#10A37F">🏷️ 官方得体型</text>
+</g>
+
+</svg>

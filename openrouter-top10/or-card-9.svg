@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<defs>
+  <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#7C3AED" stop-opacity=".15"/>
+    <stop offset="50%" stop-color="#0891B2" stop-opacity=".08"/>
+    <stop offset="100%" stop-color="#6366F1" stop-opacity=".15"/>
+  </linearGradient>
+  <linearGradient id="g2" x1="0%" y1="100%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#7C3AED" stop-opacity=".1"/>
+    <stop offset="100%" stop-color="#2563EB" stop-opacity=".05"/>
+  </linearGradient>
+  <linearGradient id="accentBar" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#7C3AED"/>
+    <stop offset="50%" stop-color="#0891B2"/>
+    <stop offset="100%" stop-color="#6366F1"/>
+  </linearGradient>
+  <linearGradient id="accentGold" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#F59E0B"/>
+    <stop offset="100%" stop-color="#D97706"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="6" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity=".3"/>
+  </filter>
+</defs>
+<rect width="800" height="800" fill="#0F0F23" rx="24"/>
+<rect width="800" height="800" fill="url(#g1)"/>
+<text x="400" y="160" text-anchor="middle" fill="white" font-size="36" font-weight="800" font-family="system-ui,-apple-system,sans-serif">OpenRouter</text>
+<text x="400" y="210" text-anchor="middle" fill="url(#accentBar)" font-size="30" font-weight="800" font-family="system-ui,-apple-system,sans-serif">Coding Agents TOP10</text>
+<line x1="260" y1="240" x2="540" y2="240" stroke="url(#accentBar)" stroke-width="2" opacity=".5"/>
+<text x="400" y="290" text-anchor="middle" fill="#94A3B8" font-size="16" font-family="system-ui,-apple-system,sans-serif">数据来源：OpenRouter Leaderboard</text>
+<text x="400" y="320" text-anchor="middle" fill="#64748B" font-size="13" font-family="system-ui,-apple-system,sans-serif">月度 Token 消耗排行 · 实时更新</text><rect x="60" y="380" width="220" height="140" rx="16" fill="#1E1E3A" opacity=".5" filter="url(#shadow)"/>
+<rect x="60" y="380" width="220" height="140" rx="16" fill="none" stroke="#7C3AED" stroke-width="1.5" opacity=".3"/>
+<text x="170" y="415" text-anchor="middle" fill="white" font-size="24" font-family="system-ui,-apple-system,sans-serif">&#128200;</text>
+<text x="170" y="450" text-anchor="middle" fill="#7C3AED" font-size="14" font-weight="700" font-family="system-ui,-apple-system,sans-serif">开源 90% 碾压闭源</text>
+<text x="170" y="475" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="system-ui,-apple-system,sans-serif">9/10 开源，社区驱动创新</text><rect x="300" y="380" width="220" height="140" rx="16" fill="#1E1E3A" opacity=".5" filter="url(#shadow)"/>
+<rect x="300" y="380" width="220" height="140" rx="16" fill="none" stroke="#0891B2" stroke-width="1.5" opacity=".3"/>
+<text x="410" y="415" text-anchor="middle" fill="white" font-size="24" font-family="system-ui,-apple-system,sans-serif">&#128279;</text>
+<text x="410" y="450" text-anchor="middle" fill="#0891B2" font-size="14" font-weight="700" font-family="system-ui,-apple-system,sans-serif">fork 链进化</text>
+<text x="410" y="475" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="system-ui,-apple-system,sans-serif">Cline → Kilo Code / Roo Code</text><rect x="540" y="380" width="220" height="140" rx="16" fill="#1E1E3A" opacity=".5" filter="url(#shadow)"/>
+<rect x="540" y="380" width="220" height="140" rx="16" fill="none" stroke="#059669" stroke-width="1.5" opacity=".3"/>
+<text x="650" y="415" text-anchor="middle" fill="white" font-size="24" font-family="system-ui,-apple-system,sans-serif">&#127758;</text>
+<text x="650" y="450" text-anchor="middle" fill="#059669" font-size="14" font-weight="700" font-family="system-ui,-apple-system,sans-serif">Agent 走出编辑器</text>
+<text x="650" y="475" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="system-ui,-apple-system,sans-serif">通用 Agent 占前 5 中 4 席</text><rect x="240" y="580" width="320" height="48" rx="24" fill="#7C3AED" opacity=".15"/>
+<rect x="240" y="580" width="320" height="48" rx="24" fill="none" stroke="#7C3AED" stroke-width="1.5" opacity=".5"/>
+<text x="400" y="610" text-anchor="middle" fill="#7C3AED" font-size="15" font-weight="700" font-family="system-ui,-apple-system,sans-serif">&#9829; 点赞 + 收藏 ★ 持续更新</text><text x="400" y="670" text-anchor="middle" fill="#334155" font-size="11" font-family="system-ui,-apple-system,sans-serif">#OpenRouter #CodingAgents #AI #开源 #HermesAgent #OpenClaw</text><circle cx="80" cy="700" r="120" fill="#7C3AED" opacity=".04"/>
+<circle cx="720" cy="80" r="100" fill="#0891B2" opacity=".04"/>
+<circle cx="650" cy="650" r="80" fill="#6366F1" opacity=".04"/>
+</svg>

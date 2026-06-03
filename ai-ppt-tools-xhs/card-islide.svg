@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1365" viewBox="0 0 1024 1365" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#FAF7F2"/>
+    <stop offset="100%" stop-color="#FFFBEB"/>
+  </linearGradient>
+  <linearGradient id="ab" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#F59E0B"/>
+    <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.6"/>
+  </linearGradient>
+  <filter id="sh" x="-10%" y="-10%" width="120%" height="120%">
+    <feDropShadow dx="0" dy="6" stdDeviation="14" flood-color="#000" flood-opacity="0.1"/>
+  </filter>
+</defs> <rect width="1024" height="1365" fill="url(#bg)"/> <circle cx="924" cy="100" r="200" fill="#F59E0B" opacity="0.05"/> <circle cx="120" cy="1245" r="150" fill="#F59E0B" opacity="0.04"/> <rect width="1024" height="8" fill="url(#ab)"/> <text x="512.0" y="110" text-anchor="middle" font-size="64" fill="#0F172A" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-weight="800">iSlide AI</text> <text x="512.0" y="160" text-anchor="middle" font-size="32" fill="#64748B" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-weight="500">老牌插件的AI进化</text> <rect x="272.0" y="190" width="480" height="56" rx="28" fill="#F59E0B" opacity="0.08"/>
+<text x="512.0" y="228" text-anchor="middle" font-size="26" fill="#F59E0B" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-weight="700">PowerPoint插件，直接在PPT里用AI</text> <line x1="372.0" y1="260" x2="652.0" y2="260" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.35"/> <rect x="442.0" y="290" width="140" height="42" rx="21" fill="#F59E0B" opacity="0.12"/>
+<text x="512.0" y="319" text-anchor="middle" font-size="22" fill="#F59E0B" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-weight="700">核心能力</text> <circle cx="282.0" cy="362" r="7" fill="#F59E0B" opacity="0.75"/>
+<text x="307.0" y="370" font-size="24" fill="#334155" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-weight="500">PowerPoint插件，无需切换平台</text> <circle cx="282.0" cy="404" r="7" fill="#F59E0B" opacity="0.75"/>
+<text x="307.0" y="412" font-size="24" fill="#334155" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-weight="500">一键换模板、智能排版、图表生成</text> <circle cx="282.0" cy="446" r="7" fill="#F59E0B" opacity="0.75"/>
+<text x="307.0" y="454" font-size="24" fill="#334155" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-weight="500">图标库/素材库/图示库丰富</text> <rect x="442.0" y="479" width="140" height="42" rx="21" fill="#F59E0B" opacity="0.12"/>
+<text x="512.0" y="508" text-anchor="middle" font-size="22" fill="#F59E0B" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-weight="700">适用场景</text> <circle cx="282.0" cy="551" r="7" fill="#F59E0B" opacity="0.75"/>
+<text x="307.0" y="559" font-size="24" fill="#334155" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-weight="500">已经会用PPT，想加速提效</text> <circle cx="282.0" cy="593" r="7" fill="#F59E0B" opacity="0.75"/>
+<text x="307.0" y="601" font-size="24" fill="#334155" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-weight="500">企业级PPT制作 / 标准化输出</text> <rect x="442.0" y="668" width="140" height="42" rx="21" fill="#F59E0B" opacity="0.12"/>
+<text x="512.0" y="697" text-anchor="middle" font-size="22" fill="#F59E0B" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-weight="700">价格</text> <circle cx="282.0" cy="740" r="7" fill="#F59E0B" opacity="0.75"/>
+<text x="307.0" y="748" font-size="24" fill="#334155" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-weight="500">付费订阅制，功能全面</text> <line x1="342.0" y1="887" x2="682.0" y2="887" stroke="#E2E8F0" stroke-width="1.5"/> <text x="512.0" y="942" text-anchor="middle" font-size="50" font-family="sans-serif">★★★★☆</text> <rect x="402.0" y="987" width="220" height="42" rx="21" fill="#F59E0B" opacity="0.1"/>
+<text x="512.0" y="1016" text-anchor="middle" font-size="22" fill="#F59E0B" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-weight="600">老手提效</text> <rect x="342.0" y="1286" width="340" height="48" rx="24" fill="#F59E0B" opacity="0.08"/>
+<text x="512.0" y="1318" text-anchor="middle" font-size="20" fill="#64748B" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-weight="500">#AI工具 #PPT #效率提升</text>
+</svg>

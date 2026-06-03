@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<defs>
+  <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#7C3AED" stop-opacity=".15"/>
+    <stop offset="50%" stop-color="#0891B2" stop-opacity=".08"/>
+    <stop offset="100%" stop-color="#6366F1" stop-opacity=".15"/>
+  </linearGradient>
+  <linearGradient id="g2" x1="0%" y1="100%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#7C3AED" stop-opacity=".1"/>
+    <stop offset="100%" stop-color="#2563EB" stop-opacity=".05"/>
+  </linearGradient>
+  <linearGradient id="accentBar" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#7C3AED"/>
+    <stop offset="50%" stop-color="#0891B2"/>
+    <stop offset="100%" stop-color="#6366F1"/>
+  </linearGradient>
+  <linearGradient id="accentGold" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#F59E0B"/>
+    <stop offset="100%" stop-color="#D97706"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="6" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity=".3"/>
+  </filter>
+</defs>
+<rect width="800" height="800" fill="#0F0F23" rx="24"/>
+<rect width="800" height="800" fill="url(#g1)"/>
+<text x="400" y="120" text-anchor="middle" fill="white" font-size="42" font-weight="800" font-family="system-ui,-apple-system,sans-serif" letter-spacing="1">OpenRouter</text>
+<text x="400" y="170" text-anchor="middle" fill="url(#accentBar)" font-size="36" font-weight="800" font-family="system-ui,-apple-system,sans-serif" letter-spacing="2">Coding Agents TOP10</text>
+<text x="400" y="210" text-anchor="middle" fill="#64748B" font-size="14" font-family="system-ui,-apple-system,sans-serif">月度 Token 消耗排行 · 629B ~ 4.86B</text>
+<line x1="260" y1="235" x2="540" y2="235" stroke="url(#accentBar)" stroke-width="2" opacity=".5"/>
+<text x="400" y="275" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="system-ui,-apple-system,sans-serif">🔥 开源 Agent 霸榜 90% · IDE 插件 vs 通用 Agent</text><rect x="18" y="310" width="140" height="65" rx="12" fill="#7C3AED" opacity=".12"/>
+<rect x="18" y="310" width="140" height="65" rx="12" fill="none" stroke="#7C3AED" stroke-width="1.5" opacity=".3"/>
+<text x="34" y="340" fill="#7C3AED" font-size="22" font-weight="700" font-family="system-ui,-apple-system,sans-serif">1</text>
+<text x="64" y="338" fill="#E2E8F0" font-size="13" font-weight="600" font-family="system-ui,-apple-system,sans-serif">Hermes Agent</text>
+<text x="64" y="358" fill="#7C3AED" font-size="16" font-weight="700" font-family="system-ui,-apple-system,sans-serif">629B</text><rect x="174" y="310" width="140" height="65" rx="12" fill="#0891B2" opacity=".12"/>
+<rect x="174" y="310" width="140" height="65" rx="12" fill="none" stroke="#0891B2" stroke-width="1.5" opacity=".3"/>
+<text x="190" y="340" fill="#0891B2" font-size="22" font-weight="700" font-family="system-ui,-apple-system,sans-serif">2</text>
+<text x="220" y="338" fill="#E2E8F0" font-size="13" font-weight="600" font-family="system-ui,-apple-system,sans-serif">OpenClaw</text>
+<text x="220" y="358" fill="#0891B2" font-size="16" font-weight="700" font-family="system-ui,-apple-system,sans-serif">154B</text><rect x="330" y="310" width="140" height="65" rx="12" fill="#059669" opacity=".12"/>
+<rect x="330" y="310" width="140" height="65" rx="12" fill="none" stroke="#059669" stroke-width="1.5" opacity=".3"/>
+<text x="346" y="340" fill="#059669" font-size="22" font-weight="700" font-family="system-ui,-apple-system,sans-serif">3</text>
+<text x="376" y="338" fill="#E2E8F0" font-size="13" font-weight="600" font-family="system-ui,-apple-system,sans-serif">Kilo Code</text>
+<text x="376" y="358" fill="#059669" font-size="16" font-weight="700" font-family="system-ui,-apple-system,sans-serif">136B</text><rect x="486" y="310" width="140" height="65" rx="12" fill="#D97706" opacity=".12"/>
+<rect x="486" y="310" width="140" height="65" rx="12" fill="none" stroke="#D97706" stroke-width="1.5" opacity=".3"/>
+<text x="502" y="340" fill="#D97706" font-size="22" font-weight="700" font-family="system-ui,-apple-system,sans-serif">4</text>
+<text x="532" y="338" fill="#E2E8F0" font-size="13" font-weight="600" font-family="system-ui,-apple-system,sans-serif">Claude Code</text>
+<text x="532" y="358" fill="#D97706" font-size="16" font-weight="700" font-family="system-ui,-apple-system,sans-serif">56.7B</text><rect x="642" y="310" width="140" height="65" rx="12" fill="#DC2626" opacity=".12"/>
+<rect x="642" y="310" width="140" height="65" rx="12" fill="none" stroke="#DC2626" stroke-width="1.5" opacity=".3"/>
+<text x="658" y="340" fill="#DC2626" font-size="22" font-weight="700" font-family="system-ui,-apple-system,sans-serif">5</text>
+<text x="688" y="338" fill="#E2E8F0" font-size="13" font-weight="600" font-family="system-ui,-apple-system,sans-serif">pi</text>
+<text x="688" y="358" fill="#DC2626" font-size="16" font-weight="700" font-family="system-ui,-apple-system,sans-serif">37.5B</text><text x="400" y="460" text-anchor="middle" fill="#334155" font-size="11" font-family="system-ui,-apple-system,sans-serif">Powered by OpenRouter Leaderboard</text>
+<rect x="300" y="490" width="200" height="40" rx="20" fill="none" stroke="#7C3AED" stroke-width="1.5" opacity=".4"/>
+<text x="400" y="516" text-anchor="middle" fill="#7C3AED" font-size="13" font-weight="600" font-family="system-ui,-apple-system,sans-serif">&#9654; 滑动查看排名</text><circle cx="80" cy="700" r="120" fill="#7C3AED" opacity=".04"/>
+<circle cx="720" cy="100" r="100" fill="#0891B2" opacity=".04"/>
+<circle cx="650" cy="650" r="80" fill="#6366F1" opacity=".04"/>
+</svg>

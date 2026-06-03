@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F3F0E8"/></linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/><circle cx="61.44" cy="61.44" r="60" fill="#F3E8FF" opacity="0.5"/><circle cx="962.56" cy="102.4" r="50" fill="#D1FAE5" opacity="0.4"/><circle cx="61.44" cy="921.6" r="70" fill="#DBEAFE" opacity="0.4"/><circle cx="962.56" cy="870.4" r="80" fill="#FFEDD5" opacity="0.4"/>
+
+<text x="512" y="70" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="34" font-weight="800" fill="#1E293B">各工具核心优势</text>
+
+<g transform="translate(62, 140)">
+  <rect x="0" y="0" width="900" height="140" rx="14" fill="#FFFFFF" stroke="#9B59B6" stroke-width="1.5"/>
+  <rect x="0" y="0" width="8" height="140" rx="4" fill="#9B59B6"/>
+  <text x="30" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#9B59B6">Midjourney</text>
+  <text x="30" y="72" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="600" fill="#1E293B">艺术质感天花板，人像/概念设计最强</text>
+  <text x="30" y="106" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">光影氛围无敌 · 风格统一性好 · 社区生态丰富</text>
+</g>
+<g transform="translate(62, 300)">
+  <rect x="0" y="0" width="900" height="140" rx="14" fill="#FFFFFF" stroke="#10B981" stroke-width="1.5"/>
+  <rect x="0" y="0" width="8" height="140" rx="4" fill="#10B981"/>
+  <text x="30" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#10B981">DALL-E 3</text>
+  <text x="30" y="72" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="600" fill="#1E293B">提示词理解最准，文字渲染最强</text>
+  <text x="30" y="106" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">和 ChatGPT 深度集成 · 英文文字正确率高 · 上手零门槛</text>
+</g>
+<g transform="translate(62, 460)">
+  <rect x="0" y="0" width="900" height="140" rx="14" fill="#FFFFFF" stroke="#3B82F6" stroke-width="1.5"/>
+  <rect x="0" y="0" width="8" height="140" rx="4" fill="#3B82F6"/>
+  <text x="30" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#3B82F6">Stable Diffusion</text>
+  <text x="30" y="72" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="600" fill="#1E293B">完全开源，可本地部署，可定制</text>
+  <text x="30" y="106" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">ControlNet/LoRA 生态 · 模型自由度高 · 需要一定技术</text>
+</g>
+<g transform="translate(62, 620)">
+  <rect x="0" y="0" width="900" height="140" rx="14" fill="#FFFFFF" stroke="#06B6D4" stroke-width="1.5"/>
+  <rect x="0" y="0" width="8" height="140" rx="4" fill="#06B6D4"/>
+  <text x="30" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#06B6D4">Leonardo.ai</text>
+  <text x="30" y="72" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="600" fill="#1E293B">游戏资产生成利器，Web 端好用</text>
+  <text x="30" y="106" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">画风一致性高 · 内置多种模型 · 免费额度充足</text>
+</g>
+<g transform="translate(62, 780)">
+  <rect x="0" y="0" width="900" height="140" rx="14" fill="#FFFFFF" stroke="#F97316" stroke-width="1.5"/>
+  <rect x="0" y="0" width="8" height="140" rx="4" fill="#F97316"/>
+  <text x="30" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#F97316">即梦</text>
+  <text x="30" y="72" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="600" fill="#1E293B">中文理解最好，免费，不需要魔法</text>
+  <text x="30" y="106" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">提示词支持中文 · 人像/国风出色 · 小红书爆款利器</text>
+</g>
+
+</svg>

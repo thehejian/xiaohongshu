@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1024">
+<defs>
+<linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#0D0D1A"/>
+  <stop offset="100%" stop-color="#0A0A14"/>
+</linearGradient>
+<linearGradient id="accentG" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#8B5CF6"/>
+  <stop offset="100%" stop-color="#3B82F6"/>
+</linearGradient>
+<linearGradient id="accentG2" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%" stop-color="#8B5CF6"/>
+  <stop offset="100%" stop-color="#06B6D4"/>
+</linearGradient>
+<filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+  <feGaussianBlur stdDeviation="8" result="blur"/>
+  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="shadow">
+  <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.4"/>
+</filter>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1A1A2E" stroke-width="0.5"/>
+</pattern>
+</defs>
+<rect width="1792" height="1024" fill="url(#bgG)"/><rect width="1792" height="1024" fill="url(#grid)"/><circle cx="89.60000000000001" cy="51.2" r="215.04" fill="#8B5CF6" opacity="0.08"/><circle cx="1702.3999999999999" cy="972.8" r="268.8" fill="#3B82F6" opacity="0.06"/>
+
+<text x="896" y="240" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="48" font-weight="300" fill="#A1A1AA" letter-spacing="3">CLI-ANYTHING</text>
+<text x="896" y="430" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="180" font-weight="900" fill="url(#accentG)" letter-spacing="-6" filter="url(#glow)">万物皆可 CLI</text>
+<text x="896" y="520" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="30" fill="#A1A1AA">让 AI 操控任何软件 · 11 款已武装</text>
+
+<rect x="496" y="580" width="800" height="70" rx="35" fill="none" stroke="url(#accentG2)" stroke-width="2"/>
+<text x="896" y="623" text-anchor="middle" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="24" font-weight="600" fill="#C4B5FD">github.com/CLI-Anything</text>
+
+<g transform="translate(200, 720)">
+  <rect x="0" y="0" width="160" height="40" rx="20" fill="#8B5CF6" opacity="0.15"/><text x="80" y="26" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#8B5CF6">GIMP</text>
+  <rect x="180" y="0" width="160" height="40" rx="20" fill="#3B82F6" opacity="0.15"/><text x="260" y="26" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#3B82F6">Blender</text>
+  <rect x="360" y="0" width="160" height="40" rx="20" fill="#06B6D4" opacity="0.15"/><text x="440" y="26" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#06B6D4">Inkscape</text>
+  <rect x="540" y="0" width="160" height="40" rx="20" fill="#14B8A6" opacity="0.15"/><text x="620" y="26" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#14B8A6">LibreOffice</text>
+  <rect x="720" y="0" width="160" height="40" rx="20" fill="#F97316" opacity="0.15"/><text x="800" y="26" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#F97316">OBS</text>
+  <rect x="900" y="0" width="160" height="40" rx="20" fill="#10B981" opacity="0.15"/><text x="980" y="26" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#10B981">Kdenlive</text>
+  <rect x="1080" y="0" width="160" height="40" rx="20" fill="#8B5CF6" opacity="0.15"/><text x="1160" y="26" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#8B5CF6">Shotcut</text>
+  <rect x="1260" y="0" width="160" height="40" rx="20" fill="#3B82F6" opacity="0.15"/><text x="1340" y="26" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#3B82F6">Sketch</text>
+</g>
+
+<g transform="translate(460, 780)">
+  <rect x="0" y="0" width="160" height="40" rx="20" fill="#06B6D4" opacity="0.15"/><text x="80" y="26" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#06B6D4">OpenScreen</text>
+  <rect x="180" y="0" width="160" height="40" rx="20" fill="#14B8A6" opacity="0.15"/><text x="260" y="26" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#14B8A6">Draw.io</text>
+  <rect x="360" y="0" width="160" height="40" rx="20" fill="#F97316" opacity="0.15"/><text x="440" y="26" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#F97316">Audacity</text>
+  <rect x="540" y="0" width="160" height="40" rx="20" fill="#10B981" opacity="0.15"/><text x="620" y="26" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#10B981">Zoom</text>
+</g>
+
+<text x="896" y="920" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="17" fill="#71717A">1628 项测试 · 100% 通过率 · 7 步构建流水线</text>
+
+</svg>

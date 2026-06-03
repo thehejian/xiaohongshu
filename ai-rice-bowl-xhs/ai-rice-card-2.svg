@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F3F0E8"/></linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/><circle cx="81.92" cy="81.92" r="61.44" fill="#E0F2FE" opacity="0.4"/><circle cx="942.08" cy="122.88" r="51.2" fill="#EDE9FE" opacity="0.4"/><circle cx="81.92" cy="901.12" r="71.68" fill="#FFEDD5" opacity="0.3"/><circle cx="942.08" cy="798.72" r="81.92" fill="#D1FAE5" opacity="0.3"/>
+
+<filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+  <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000010"/>
+</filter>
+<filter id="shadow2" x="-5%" y="-5%" width="110%" height="110%">
+  <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00000008"/>
+</filter>
+<rect x="62" y="120" width="900" height="700" rx="28" fill="#FFFFFF" filter="url(#shadow)"/>
+<rect x="62" y="120" width="900" height="110" rx="28" fill="#CC4C00"/>
+<rect x="62" y="200" width="900" height="30" rx="0" fill="#CC4C00"/>
+<text x="512" y="185" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="42" font-weight="800" fill="#FFFFFF">🤖 Claude</text>
+<g transform="translate(100, 280)">
+  <rect x="0" y="0" width="824" height="220" rx="16" fill="#FFF0E6"/>
+  <text x="40" y="50" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" fill="#1E293B">"抱歉</text>
+  <text x="40" y="90" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" fill="#1E293B">我无法确认自己一天吃几碗饭</text>
+  <text x="40" y="130" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" fill="#1E293B">因为我是AI助手没有实体</text>
+  <text x="40" y="190" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" fill="#1E293B">不过我可以帮你分析一碗饭的营养成分"</text>
+</g>
+<g transform="translate(100, 560)">
+  <rect x="0" y="0" width="824" height="80" rx="16" fill="#FFFFFF" stroke="#CC4C00" stroke-width="1.5"/>
+  <text x="412" y="35" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="600" fill="#64748B">你就说个数会怎样！！</text>
+  <text x="412" y="63" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#94A3B8">过于礼貌以至于有点好笑</text>
+</g>
+<g transform="translate(100, 680)">
+  <rect x="0" y="0" width="180" height="40" rx="20" fill="#FFF0E6" stroke="#CC4C00" stroke-width="1.5"/>
+  <text x="90" y="27" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" font-weight="700" fill="#CC4C00">🏷️ 礼貌过头型</text>
+</g>
+
+</svg>

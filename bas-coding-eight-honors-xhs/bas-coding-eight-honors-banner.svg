@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1792" height="1024" viewBox="0 0 1792 1024">
+<defs>
+  <radialGradient id="bgGrad" cx="50%" cy="30%" r="80%">
+    <stop offset="0%" stop-color="#1E293B"/>
+    <stop offset="100%" stop-color="#070B15"/>
+  </radialGradient>
+  <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F59E0B"/>
+    <stop offset="100%" stop-color="#FBBF24"/>
+  </linearGradient>
+  <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#2563EB"/>
+    <stop offset="100%" stop-color="#3B82F6"/>
+  </linearGradient>
+  <filter id="cardShadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000" flood-opacity=".4"/>
+  </filter>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="6" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#1E293B" stroke-width="0.5" opacity="0.3"/>
+  </pattern>
+</defs>
+<rect width="1792" height="1024" fill="url(#bgGrad)"/>
+<rect width="1792" height="1024" fill="url(#grid)" opacity="0.1"/>
+
+<!-- Decorative -->
+<circle cx="120" cy="120" r="6" fill="#F59E0B" opacity="0.3"/>
+<circle cx="160" cy="120" r="4" fill="#3B82F6" opacity="0.3"/>
+<circle cx="1680" cy="120" r="5" fill="#10B981" opacity="0.3"/>
+
+
+<!-- Eyebrow -->
+<g transform="translate(96, 80)">
+  <rect x="0" y="0" width="8" height="48" fill="#F59E0B"/>
+  <text x="28" y="22" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" letter-spacing="4" fill="#F59E0B">AI CODING ETHICS</text>
+  <text x="28" y="46" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#64748B">VIBE CODING 时代 · 人机协作规范</text>
+</g>
+
+<!-- Hero title -->
+<g transform="translate(96, 200)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="140" font-weight="900" fill="#F8FAFC" letter-spacing="-4">AI 编程</text>
+  <text x="0" y="140" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="140" font-weight="900" fill="url(#goldGrad)" letter-spacing="-4">八荣八耻</text>
+</g>
+
+<!-- Subtitle -->
+<g transform="translate(96, 420)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="28" font-weight="500" fill="#94A3B8">治好人机协作的「默契」</text>
+  <text x="0" y="42" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" fill="#64748B">八条黄金规矩，让 AI 学会"做人"</text>
+</g>
+
+<!-- Quote panel -->
+<g transform="translate(96, 530)">
+  <rect x="0" y="0" width="680" height="130" rx="16" fill="#111827" filter="url(#cardShadow)"/>
+  <rect x="0" y="0" width="680" height="130" rx="16" fill="none" stroke="#1E293B" stroke-width="1"/>
+  <rect x="0" y="0" width="6" height="130" rx="3" fill="#F59E0B"/>
+  <text x="32" y="42" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#F59E0B">— 写在前面</text>
+  <text x="32" y="76" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="500" fill="#F8FAFC">"AI 不是不懂，是没规矩。</text>
+  <text x="32" y="108" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="500" fill="#F8FAFC">八荣八耻，立好规矩，代码质量立竿见影。"</text>
+</g>
+
+<!-- Tags -->
+<g transform="translate(96, 720)">
+  <g transform="translate(0,0)">
+    <rect x="0" y="0" width="110" height="38" rx="19" fill="#F59E0B" opacity="0.1"/>
+    <rect x="0" y="0" width="110" height="38" rx="19" fill="none" stroke="#F59E0B" stroke-width="1" opacity="0.4"/>
+    <text x="55" y="24" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#F59E0B">Claude Code</text>
+  </g>
+  <g transform="translate(126,0)">
+    <rect x="0" y="0" width="90" height="38" rx="19" fill="#3B82F6" opacity="0.1"/>
+    <rect x="0" y="0" width="90" height="38" rx="19" fill="none" stroke="#3B82F6" stroke-width="1" opacity="0.4"/>
+    <text x="45" y="24" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#3B82F6">Cursor</text>
+  </g>
+  <g transform="translate(232,0)">
+    <rect x="0" y="0" width="130" height="38" rx="19" fill="#10B981" opacity="0.1"/>
+    <rect x="0" y="0" width="130" height="38" rx="19" fill="none" stroke="#10B981" stroke-width="1" opacity="0.4"/>
+    <text x="65" y="24" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#10B981">System Prompt</text>
+  </g>
+  <g transform="translate(378,0)">
+    <rect x="0" y="0" width="110" height="38" rx="19" fill="#EC4899" opacity="0.1"/>
+    <rect x="0" y="0" width="110" height="38" rx="19" fill="none" stroke="#EC4899" stroke-width="1" opacity="0.4"/>
+    <text x="55" y="24" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#EC4899">CLAUDE.md</text>
+  </g>
+</g>
+
+
+<!-- Right panel: 8 rules overview -->
+<g transform="translate(960, 80)">
+  <rect x="0" y="0" width="740" height="820" rx="20" fill="#111827" filter="url(#cardShadow)"/>
+  <rect x="0" y="0" width="740" height="820" rx="20" fill="none" stroke="#1E293B" stroke-width="1"/>
+
+  <text x="40" y="50" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" letter-spacing="3" fill="#F59E0B">八荣八耻 · 总览</text>
+  <line x1="40" y1="68" x2="700" y2="68" stroke="#1E293B" stroke-width="1"/>
+
+  <g transform="translate(40, 96)">
+    <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="660" height="64" rx="10" fill="#3B82F6" opacity="0.04"/>
+        <rect x="0" y="0" width="4" height="64" rx="2" fill="#3B82F6"/>
+        <text x="20" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#3B82F6">01</text>
+        <text x="52" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F8FAFC">✓ 认真查阅文档</text>
+        <text x="52" y="52" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" fill="#64748B">✕ 暗猜接口参数</text>
+      </g><g transform="translate(0, 80)">
+        <rect x="0" y="0" width="660" height="64" rx="10" fill="#10B981" opacity="0.04"/>
+        <rect x="0" y="0" width="4" height="64" rx="2" fill="#10B981"/>
+        <text x="20" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#10B981">02</text>
+        <text x="52" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F8FAFC">✓ 寻求确认再执行</text>
+        <text x="52" y="52" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" fill="#64748B">✕ 模糊执行不管后果</text>
+      </g><g transform="translate(0, 160)">
+        <rect x="0" y="0" width="660" height="64" rx="10" fill="#F59E0B" opacity="0.04"/>
+        <rect x="0" y="0" width="4" height="64" rx="2" fill="#F59E0B"/>
+        <text x="20" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#F59E0B">03</text>
+        <text x="52" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F8FAFC">✓ 找人类确认业务</text>
+        <text x="52" y="52" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" fill="#64748B">✕ 自己想象需求</text>
+      </g><g transform="translate(0, 240)">
+        <rect x="0" y="0" width="660" height="64" rx="10" fill="#8B5CF6" opacity="0.04"/>
+        <rect x="0" y="0" width="4" height="64" rx="2" fill="#8B5CF6"/>
+        <text x="20" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#8B5CF6">04</text>
+        <text x="52" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F8FAFC">✓ 复用现有代码</text>
+        <text x="52" y="52" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" fill="#64748B">✕ 创造新接口/轮子</text>
+      </g><g transform="translate(0, 320)">
+        <rect x="0" y="0" width="660" height="64" rx="10" fill="#EC4899" opacity="0.04"/>
+        <rect x="0" y="0" width="4" height="64" rx="2" fill="#EC4899"/>
+        <text x="20" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#EC4899">05</text>
+        <text x="52" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F8FAFC">✓ 主动测试验证</text>
+        <text x="52" y="52" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" fill="#64748B">✕ 跳过验证直接交差</text>
+      </g><g transform="translate(0, 400)">
+        <rect x="0" y="0" width="660" height="64" rx="10" fill="#06B6D4" opacity="0.04"/>
+        <rect x="0" y="0" width="4" height="64" rx="2" fill="#06B6D4"/>
+        <text x="20" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#06B6D4">06</text>
+        <text x="52" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F8FAFC">✓ 遵循代码规范</text>
+        <text x="52" y="52" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" fill="#64748B">✕ 破坏现有架构</text>
+      </g><g transform="translate(0, 480)">
+        <rect x="0" y="0" width="660" height="64" rx="10" fill="#EF4444" opacity="0.04"/>
+        <rect x="0" y="0" width="4" height="64" rx="2" fill="#EF4444"/>
+        <text x="20" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#EF4444">07</text>
+        <text x="52" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F8FAFC">✓ 诚实说不知道</text>
+        <text x="52" y="52" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" fill="#64748B">✕ 假装理解硬撑</text>
+      </g><g transform="translate(0, 560)">
+        <rect x="0" y="0" width="660" height="64" rx="10" fill="#FBBF24" opacity="0.04"/>
+        <rect x="0" y="0" width="4" height="64" rx="2" fill="#FBBF24"/>
+        <text x="20" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#FBBF24">08</text>
+        <text x="52" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F8FAFC">✓ 谨慎重构</text>
+        <text x="52" y="52" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" fill="#64748B">✕ 盲目修改</text>
+      </g>
+  </g>
+</g>
+
+
+<g transform="translate(96, 960)">
+  <text x="0" y="0" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#64748B">▶ 查看完整卡片 · 每张详解一条荣耻规则</text>
+  <text x="1600" y="0" text-anchor="end" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#64748B">beisi-tech.github.io</text>
+</g>
+
+</svg>

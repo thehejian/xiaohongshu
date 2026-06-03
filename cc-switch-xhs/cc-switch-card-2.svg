@@ -2,32 +2,28 @@
 <defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F3F0E8"/></linearGradient></defs>
 <rect width="1024" height="1024" fill="url(#bgG)"/><circle cx="81.92" cy="81.92" r="60" fill="#E0F2FE" opacity="0.4"/><circle cx="942.08" cy="122.88" r="50" fill="#EDE9FE" opacity="0.4"/><circle cx="81.92" cy="901.12" r="70" fill="#DBEAFE" opacity="0.3"/><circle cx="942.08" cy="798.72" r="80" fill="#FFEDD5" opacity="0.3"/>
 
-<text x="512" y="90" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="38" font-weight="800" fill="#1E293B">核心能力</text>
+<text x="512" y="90" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="38" font-weight="800" fill="#1E293B">修复与稳定性</text>
+<text x="512" y="130" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" fill="#64748B">23 commits · 62 files · 尽在 v3.16.1</text>
 
 <g transform="translate(62, 180)">
-  <circle cx="30" cy="30" r="26" fill="none" stroke="#0EA5E9" stroke-width="3"/>
-  <text x="30" y="37" text-anchor="middle" font-family="ui-monospace,monospace" font-size="22" font-weight="800" fill="#0EA5E9">01</text>
-  <text x="80" y="30" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="26" font-weight="700" fill="#1E293B">50+ 供应商预设</text>
-  <text x="80" y="70" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">AWS Bedrock · NVIDIA NIM · 各家中转 · 复制 Key 就能用</text>
+  <rect x="0" y="0" width="900" height="130" rx="16" fill="#FFFFFF" stroke="#0EA5E9" stroke-width="1.5"/>
+  <text x="30" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#0EA5E9">Codex 模型目录</text>
+  <text x="30" y="80" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">不再被静默清空 · 以数据库为真相来源，live 回填/切换/恢复不丢</text>
 </g>
-<g transform="translate(62, 340)">
-  <circle cx="30" cy="30" r="26" fill="none" stroke="#3B82F6" stroke-width="3"/>
-  <text x="30" y="37" text-anchor="middle" font-family="ui-monospace,monospace" font-size="22" font-weight="800" fill="#3B82F6">02</text>
-  <text x="80" y="30" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="26" font-weight="700" fill="#1E293B">托盘秒切换</text>
-  <text x="80" y="70" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">系统托盘一键切换供应商 · Claude Code 支持热切换不重启</text>
+<g transform="translate(62, 330)">
+  <rect x="0" y="0" width="900" height="130" rx="16" fill="#FFFFFF" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="30" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#3B82F6">Chat 工具/插件路由</text>
+  <text x="30" y="80" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">tool_search / 自定义工具完整恢复 · 流式输出原生事件</text>
 </g>
-<g transform="translate(62, 500)">
-  <circle cx="30" cy="30" r="26" fill="none" stroke="#8B5CF6" stroke-width="3"/>
-  <text x="30" y="37" text-anchor="middle" font-family="ui-monospace,monospace" font-size="22" font-weight="800" fill="#8B5CF6">03</text>
-  <text x="80" y="30" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="26" font-weight="700" fill="#1E293B">用量成本追踪</text>
-  <text x="80" y="70" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">跨供应商统计支出 Token · 趋势图表 · 详细请求日志 · 心中有数</text>
+<g transform="translate(62, 480)">
+  <rect x="0" y="0" width="900" height="130" rx="16" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="30" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#8B5CF6">热切换更稳</text>
+  <text x="30" y="80" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">串行锁定 + PROXY_MANAGED 占位符 · 防止配置被覆盖</text>
 </g>
-<g transform="translate(62, 660)">
-  <circle cx="30" cy="30" r="26" fill="none" stroke="#F97316" stroke-width="3"/>
-  <text x="30" y="37" text-anchor="middle" font-family="ui-monospace,monospace" font-size="22" font-weight="800" fill="#F97316">04</text>
-  <text x="80" y="30" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="26" font-weight="700" fill="#1E293B">MCP / Skills 统一</text>
-  <text x="80" y="70" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">所有工具的 MCP 服务 + Prompts · 一个界面管理，不用到处找</text>
+<g transform="translate(62, 630)">
+  <rect x="0" y="0" width="900" height="130" rx="16" fill="#FFFFFF" stroke="#10B981" stroke-width="1.5"/>
+  <text x="30" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#10B981">Claude Desktop 修复</text>
+  <text x="30" y="80" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">官方供应商添加不再报错</text>
 </g>
-<text x="512" y="960" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" fill="#94A3B8">所有功能开源免费 · Tauri 原生 · 跨平台</text>
 
 </svg>

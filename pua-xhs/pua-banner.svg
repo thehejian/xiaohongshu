@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1792" height="1024" viewBox="0 0 1792 1024">
+  <defs>
+    <pattern id="dot" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#0a0a0a" opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <!-- Paper background -->
+  <rect width="1792" height="1024" fill="#fafaf8"/>
+  <rect width="1792" height="1024" fill="url(#dot)"/>
+
+  <!-- Top bar -->
+  <g font-family="'IBM Plex Mono', monospace" font-weight="500">
+    <text x="96" y="100" font-size="22" letter-spacing="3" fill="#FF6B35" font-weight="700">PUA · AI CODING SKILL</text>
+    <text x="96" y="135" font-size="18" letter-spacing="2" fill="#737373">9 BUG VALIDATED · 14 FLAVORS · 11 RUNTIMES · v3.0</text>
+  </g>
+
+  <!-- Top-right corner badge -->
+  <g transform="translate(1696, 80)">
+    <rect x="-100" y="0" width="100" height="36" fill="none" stroke="#0a0a0a" stroke-width="1.5"/>
+    <text x="-50" y="25" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="16" font-weight="600" fill="#0a0a0a" letter-spacing="2">v3.0</text>
+  </g>
+
+  <!-- HERO: PUA (left side) -->
+  <g font-family="'Inter', 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="96" y="520" font-size="380" font-weight="200" fill="#0a0a0a" letter-spacing="-12">PUA</text>
+    <text x="96" y="600" font-size="52" font-weight="300" fill="#0a0a0a" letter-spacing="-0.5">专治 AI 摆烂</text>
+    <text x="96" y="650" font-size="24" font-weight="400" fill="#737373">用大厂 PUA 话术 + 方法论,逼 AI 穷尽所有方案</text>
+    <text x="96" y="685" font-size="24" font-weight="400" fill="#737373">AI 不会被骂哭,但会因为有标准而不摆烂</text>
+  </g>
+
+  <!-- Accent dot -->
+  <circle cx="1000" cy="350" r="18" fill="#FF6B35"/>
+
+  <!-- Right panel: 4 levels matrix -->
+  <g transform="translate(1080, 180)">
+    <text x="0" y="0" font-family="'IBM Plex Mono', monospace" font-size="16" font-weight="600" fill="#FF6B35" letter-spacing="2.5">压力升级 (4 LEVELS)</text>
+    <line x1="0" y1="20" x2="600" y2="20" stroke="#0a0a0a" stroke-width="1.5"/>
+
+    <g transform="translate(0, 80)">
+      <text x="0" y="0" font-family="'Inter', sans-serif" font-size="80" font-weight="200" fill="#0a0a0a" letter-spacing="-2">L1</text>
+      <text x="120" y="-5" font-family="'Inter', sans-serif" font-size="18" font-weight="600" fill="#0a0a0a">温和失望</text>
+      <text x="120" y="22" font-family="'Inter', sans-serif" font-size="15" font-weight="400" fill="#737373">"让我怎么给你打绩效?"</text>
+    </g>
+    <line x1="0" y1="110" x2="600" y2="110" stroke="#0a0a0a" stroke-width="0.5" opacity="0.2"/>
+
+    <g transform="translate(0, 180)">
+      <text x="0" y="0" font-family="'Inter', sans-serif" font-size="80" font-weight="200" fill="#0a0a0a" letter-spacing="-2">L2</text>
+      <text x="120" y="-5" font-family="'Inter', sans-serif" font-size="18" font-weight="600" fill="#0a0a0a">灵魂拷问</text>
+      <text x="120" y="22" font-family="'Inter', sans-serif" font-size="15" font-weight="400" fill="#737373">"底层逻辑?顶层设计?抓手?"</text>
+    </g>
+    <line x1="0" y1="210" x2="600" y2="210" stroke="#0a0a0a" stroke-width="0.5" opacity="0.2"/>
+
+    <g transform="translate(0, 280)">
+      <text x="0" y="0" font-family="'Inter', sans-serif" font-size="80" font-weight="200" fill="#0a0a0a" letter-spacing="-2">L3</text>
+      <text x="120" y="-5" font-family="'Inter', sans-serif" font-size="18" font-weight="600" fill="#0a0a0a">3.25 考核</text>
+      <text x="120" y="22" font-family="'Inter', sans-serif" font-size="15" font-weight="400" fill="#737373">"慎重考虑决定给你 3.25"</text>
+    </g>
+    <line x1="0" y1="310" x2="600" y2="310" stroke="#0a0a0a" stroke-width="0.5" opacity="0.2"/>
+
+    <g transform="translate(0, 380)">
+      <text x="0" y="0" font-family="'Inter', sans-serif" font-size="80" font-weight="200" fill="#FF6B35" letter-spacing="-2">L4</text>
+      <text x="120" y="-5" font-family="'Inter', sans-serif" font-size="18" font-weight="600" fill="#FF6B35">毕业警告</text>
+      <text x="120" y="22" font-family="'Inter', sans-serif" font-size="15" font-weight="400" fill="#737373">"别的模型都能解决"</text>
+    </g>
+  </g>
+
+  <!-- Bottom-left data row -->
+  <g transform="translate(96, 790)" font-family="'Inter', sans-serif">
+    <text x="0" y="0" font-family="'IBM Plex Mono', monospace" font-size="14" font-weight="600" fill="#FF6B35" letter-spacing="2">实测数据</text>
+    <g transform="translate(0, 40)">
+      <rect x="0" y="0" width="200" height="70" fill="none" stroke="#0a0a0a" stroke-width="1.5"/>
+      <text x="20" y="30" font-size="36" font-weight="200" fill="#0a0a0a">+50%</text>
+      <text x="20" y="55" font-size="12" font-weight="500" fill="#737373" letter-spacing="1">SQLite 调试</text>
+    </g>
+    <g transform="translate(220, 40)">
+      <rect x="0" y="0" width="200" height="70" fill="none" stroke="#0a0a0a" stroke-width="1.5"/>
+      <text x="20" y="30" font-size="36" font-weight="200" fill="#0a0a0a">9</text>
+      <text x="20" y="55" font-size="12" font-weight="500" fill="#737373" letter-spacing="1">真实 BUG 验证</text>
+    </g>
+    <g transform="translate(440, 40)">
+      <rect x="0" y="0" width="200" height="70" fill="none" stroke="#0a0a0a" stroke-width="1.5"/>
+      <text x="20" y="30" font-size="36" font-weight="200" fill="#0a0a0a">14</text>
+      <text x="20" y="55" font-size="12" font-weight="500" fill="#737373" letter-spacing="1">大厂味道</text>
+    </g>
+  </g>
+
+  <!-- Install bar -->
+  <g transform="translate(96, 950)">
+    <rect x="0" y="0" width="700" height="44" fill="none" stroke="#0a0a0a" stroke-width="1.5"/>
+    <text x="20" y="29" font-family="'IBM Plex Mono', monospace" font-size="18" font-weight="600" fill="#0a0a0a">$</text>
+    <text x="46" y="29" font-family="'IBM Plex Mono', monospace" font-size="18" fill="#0a0a0a">npx skills add tanweai/pua --skill pua</text>
+  </g>
+
+  <!-- Footer right: hashtags -->
+  <g transform="translate(1080, 985)">
+    <text x="0" y="0" font-family="'IBM Plex Mono', monospace" font-size="14" letter-spacing="2" fill="#737373">#AI编程 #ClaudeCode #Codex</text>
+  </g>
+</svg>

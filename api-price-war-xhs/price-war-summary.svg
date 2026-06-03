@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F3F0E8"/></linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/>
+<circle cx="81.92" cy="81.92" r="61.44" fill="#E0F2FE" opacity="0.4"/><circle cx="942.08" cy="122.88" r="51.2" fill="#EDE9FE" opacity="0.4"/><circle cx="81.92" cy="901.12" r="71.68" fill="#FFEDD5" opacity="0.3"/><circle cx="942.08" cy="798.72" r="81.92" fill="#D1FAE5" opacity="0.3"/>
+
+<filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+  <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000010"/></filter>
+<filter id="shadow2" x="-5%" y="-5%" width="110%" height="110%">
+  <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00000008"/></filter>
+<rect x="62" y="50" width="900" height="924" rx="28" fill="#FFFFFF" filter="url(#shadow)"/>
+<g transform="translate(512, 100)">
+  <text x="0" y="0" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="48" font-weight="900" fill="#1E293B">🎯 终极选择指南</text>
+</g>
+<g transform="translate(100, 180)">
+  <text x="0" y="0" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="800" fill="#1E293B">按需求选模型</text>
+</g>
+<g transform="translate(100, 230)">
+  <rect x="0" y="0" width="824" height="54" rx="14" fill="#DEE3FF"/>
+  <text x="20" y="34" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="800" fill="#4F6EF7">💰 预算有限 → DeepSeek-V4</text>
+  <text x="500" y="34" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" fill="#64748B">每日百万Token仅 ¥2</text>
+</g>
+<g transform="translate(100, 296)">
+  <rect x="0" y="0" width="824" height="54" rx="14" fill="#E0F5EF"/>
+  <text x="20" y="34" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="800" fill="#10A37F">💻 写代码 → GPT-4o</text>
+  <text x="500" y="34" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" fill="#64748B">编程能力无可替代</text>
+</g>
+<g transform="translate(100, 362)">
+  <rect x="0" y="0" width="824" height="54" rx="14" fill="#FFE4CC"/>
+  <text x="20" y="34" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="800" fill="#CC4C00">✍️ 写作/分析 → Claude</text>
+  <text x="500" y="34" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" fill="#64748B">200K上下文+顶级输出质量</text>
+</g>
+<g transform="translate(100, 428)">
+  <rect x="0" y="0" width="824" height="54" rx="14" fill="#FFF0E0"/>
+  <text x="20" y="34" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="800" fill="#FF6A00">🏢 企业部署 → Qwen-Max</text>
+  <text x="500" y="34" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" fill="#64748B">阿里云生态全家桶</text>
+</g>
+<g transform="translate(100, 494)">
+  <rect x="0" y="0" width="824" height="54" rx="14" fill="#E0EEFF"/>
+  <text x="20" y="34" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="800" fill="#4285F4">📄 超长文档 → Gemini</text>
+  <text x="500" y="34" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" fill="#64748B">2M上下文碾压全场</text>
+</g>
+<line x1="100" y1="580" x2="924" y2="580" stroke="#E2E8F0" stroke-width="1"/>
+<g transform="translate(512, 620)">
+  <text x="0" y="0" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="800" fill="#F43F5E">💰 每月费用估算（日均10万Token）</text>
+</g>
+<g transform="translate(100, 670)">
+  <rect x="0" y="0" width="400" height="44" rx="12" fill="#DEE3FF"/><text x="200" y="29" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" font-weight="800" fill="#4F6EF7">DeepSeek:  ¥6/月</text>
+  <rect x="424" y="0" width="400" height="44" rx="12" fill="#FFF0E0"/><text x="624" y="29" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" font-weight="800" fill="#FF6A00">Qwen:  ¥24/月</text>
+</g>
+<g transform="translate(100, 724)">
+  <rect x="0" y="0" width="400" height="44" rx="12" fill="#E0F5EF"/><text x="200" y="29" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" font-weight="800" fill="#10A37F">GPT-4o:  ¥270/月</text>
+  <rect x="424" y="0" width="400" height="44" rx="12" fill="#FFE4CC"/><text x="624" y="29" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" font-weight="800" fill="#CC4C00">Claude:  ¥390/月</text>
+</g>
+<g transform="translate(512, 785)">
+  <rect x="-200" y="0" width="400" height="44" rx="12" fill="#E0EEFF" stroke="#4285F4" stroke-width="1.5"/>
+  <text x="0" y="29" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="800" fill="#4285F4">Gemini:  ¥135/月</text>
+</g>
+<g transform="translate(512, 870)">
+  <rect x="-200" y="0" width="400" height="44" rx="12" fill="#F1F5F9"/>
+  <text x="0" y="29" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" font-weight="800" fill="#F43F5E">🔥 DeepSeek 仅为 GPT-4o 的 1/36</text>
+</g>
+<g transform="translate(512, 955)">
+  <text x="0" y="0" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="14" fill="#94A3B8">#大模型 #API价格 #DeepSeek #Qwen #GPT4o #Claude #Gemini #省钱攻略</text>
+</g>
+
+</svg>

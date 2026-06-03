@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F3F0E8"/></linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/>
+<circle cx="81.92" cy="81.92" r="61.44" fill="#E0F2FE" opacity="0.4"/><circle cx="942.08" cy="122.88" r="51.2" fill="#EDE9FE" opacity="0.4"/><circle cx="81.92" cy="901.12" r="71.68" fill="#FFEDD5" opacity="0.3"/><circle cx="942.08" cy="798.72" r="81.92" fill="#D1FAE5" opacity="0.3"/>
+
+<filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+  <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000010"/></filter>
+<filter id="shadow2" x="-5%" y="-5%" width="110%" height="110%">
+  <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00000008"/></filter>
+<rect x="62" y="50" width="900" height="924" rx="28" fill="#FFFFFF" filter="url(#shadow)"/>
+<rect x="62" y="50" width="900" height="180" rx="28" fill="#4285F4"/>
+<rect x="62" y="200" width="900" height="30" rx="0" fill="#4285F4"/>
+<g transform="translate(100, 90)">
+  <g transform="translate(0, 0)"><rect x="0" y="0" width="52" height="52" rx="12" fill="#4285F4"/><text x="26" y="35" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="14" font-weight="900" fill="#FFF">Ge</text></g>
+  <text x="72" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="32" font-weight="900" fill="#FFF">Gemini 2.0 Pro</text>
+  <text x="72" y="62" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#FFF" opacity="0.85">Google Gemini 2.0</text>
+</g>
+<g transform="translate(512, 90)">
+  <rect x="-80" y="0" width="160" height="36" rx="18" fill="#FFF" opacity="0.25"/>
+  <text x="0" y="26" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="800" fill="#FFF">#长文之王</text>
+</g>
+<g transform="translate(100, 280)">
+  <text x="0" y="0" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="700" fill="#94A3B8">输入价格</text>
+  <text x="0" y="42" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="48" font-weight="900" fill="#4285F4">¥9</text>
+  <text x="0" y="70" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" fill="#64748B">每百万Token</text>
+  
+  <text x="300" y="0" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="700" fill="#94A3B8">输出价格</text>
+  <text x="300" y="42" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="48" font-weight="900" fill="#4285F4">¥36</text>
+  <text x="300" y="70" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" fill="#64748B">每百万Token</text>
+  
+  <text x="600" y="0" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="700" fill="#94A3B8">上下文长度</text>
+  <text x="600" y="42" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="48" font-weight="900" fill="#4285F4">2M</text>
+  <text x="600" y="70" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" fill="#64748B">Token</text>
+</g>
+<line x1="100" y1="400" x2="924" y2="400" stroke="#E2E8F0" stroke-width="1"/>
+<g transform="translate(100, 440)">
+  <rect x="0" y="0" width="824" height="60" rx="14" fill="#E0EEFF"/>
+  <text x="30" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="800" fill="#4285F4">🏆 超长上下文 · 谷歌生态</text>
+</g>
+<g transform="translate(100, 520)">
+  <text x="0" y="0" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="800" fill="#1E293B">核心优势</text>
+  <text x="0" y="32" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">✅ 2M超长上下文（可处理整本书）</text><text x="0" y="68" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">✅ 谷歌生态深度整合</text><text x="0" y="104" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">✅ 性价比高（价格适中）</text><text x="0" y="140" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">✅ 多模态能力强</text>
+</g>
+<g transform="translate(100, 730)">
+  <rect x="0" y="0" width="824" height="90" rx="14" fill="#FEF2F2"/>
+  <rect x="0" y="0" width="12" height="90" rx="6" fill="#EF4444"/>
+  <text x="30" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="800" fill="#DC2626">⚠️ 注意</text>
+  <text x="30" y="66" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#991B1B">中文支持不如国产模型，服务稳定性一般</text>
+</g>
+<g transform="translate(100, 860)">
+  <text x="0" y="0" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="700" fill="#64748B">📄 超长文档扫描神器</text>
+</g>
+<g transform="translate(100, 920)">
+  <text x="0" y="0" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" fill="#94A3B8">#Gemini 2.0 Pro #2.0 #大模型API #价格战</text>
+</g>
+
+</svg>

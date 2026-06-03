@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F3F0E8"/></linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/><circle cx="81.92" cy="81.92" r="60" fill="#E8EEFF" opacity="0.5"/><circle cx="942.08" cy="122.88" r="50" fill="#EDE9FE" opacity="0.4"/><circle cx="81.92" cy="901.12" r="70" fill="#E0F2FE" opacity="0.3"/><circle cx="942.08" cy="798.72" r="80" fill="#FFEDD5" opacity="0.3"/>
+
+<text x="512" y="90" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="38" font-weight="800" fill="#1E293B">一行命令 · 全部场景</text>
+<text x="512" y="130" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" fill="#64748B">lark-cli 覆盖飞书 8 大领域 API</text>
+
+<g transform="translate(62, 175)">
+  <rect x="0" y="0" width="900" height="80" rx="14" fill="#E8EEFF"/>
+  <text x="30" y="36" font-family="ui-monospace,monospace" font-size="20" font-weight="600" fill="#3370FF">calendar</text>
+  <text x="30" y="62" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="600" fill="#1E293B">日历会议</text>
+  <text x="480" y="48" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">+agenda / +create / +freebusy</text>
+</g>
+<g transform="translate(62, 275)">
+  <rect x="0" y="0" width="900" height="80" rx="14" fill="#E0F2FE"/>
+  <text x="30" y="36" font-family="ui-monospace,monospace" font-size="20" font-weight="600" fill="#0EA5E9">im</text>
+  <text x="30" y="62" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="600" fill="#1E293B">即时通讯</text>
+  <text x="480" y="48" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">发消息 + 搜记录 + 群管理</text>
+</g>
+<g transform="translate(62, 375)">
+  <rect x="0" y="0" width="900" height="80" rx="14" fill="#EDE9FE"/>
+  <text x="30" y="36" font-family="ui-monospace,monospace" font-size="20" font-weight="600" fill="#8B5CF6">docs</text>
+  <text x="30" y="62" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="600" fill="#1E293B">云文档</text>
+  <text x="480" y="48" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">创建 / 更新 / 插入图片</text>
+</g>
+<g transform="translate(62, 475)">
+  <rect x="0" y="0" width="900" height="80" rx="14" fill="#FFEDD5"/>
+  <text x="30" y="36" font-family="ui-monospace,monospace" font-size="20" font-weight="600" fill="#F97316">base</text>
+  <text x="30" y="62" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="600" fill="#1E293B">多维表格</text>
+  <text x="480" y="48" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">建表 / 读写 / 公式配置</text>
+</g>
+<g transform="translate(62, 575)">
+  <rect x="0" y="0" width="900" height="80" rx="14" fill="#D1FAE5"/>
+  <text x="30" y="36" font-family="ui-monospace,monospace" font-size="20" font-weight="600" fill="#10B981">mail</text>
+  <text x="30" y="62" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="600" fill="#1E293B">邮箱</text>
+  <text x="480" y="48" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">起草 / 发送 / 收件箱</text>
+</g>
+<g transform="translate(62, 675)">
+  <rect x="0" y="0" width="900" height="80" rx="14" fill="#E8EEFF"/>
+  <text x="30" y="36" font-family="ui-monospace,monospace" font-size="20" font-weight="600" fill="#3370FF">contact</text>
+  <text x="30" y="62" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="600" fill="#1E293B">通讯录</text>
+  <text x="480" y="48" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">搜员工 / 查组织架构</text>
+</g>
+<text x="512" y="840" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" fill="#94A3B8">+ 审批 · 考勤 · 妙记 · 任务 · 画板 · 知识库 · OKR</text>
+<g transform="translate(262, 880)">
+  <rect x="0" y="0" width="500" height="50" rx="25" fill="#3370FF" opacity="0.1"/>
+  <text x="250" y="32" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="600" fill="#3370FF">user / bot 双身份切换 · 自动翻页</text>
+</g>
+
+</svg>

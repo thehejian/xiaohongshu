@@ -1,13 +1,13 @@
-# 小红书草稿 - CC Switch
+# 小红书草稿 - CC Switch v3.16.1
 
-> 统一管理 5 个 AI 编程 CLI 的开源 App
+> Codex OAuth 保留 + Chat 工具路由 + 稳定性大修
 
 ---
 
 ## 📋 标题
 
 ```
-CC Switch 一统 5 个 CLI
+CC Switch 史诗级更新
 ```
 
 ---
@@ -15,33 +15,30 @@ CC Switch 一统 5 个 CLI
 ## 📋 正文（直接复制，小红书自动分段）
 
 ```
-用 Claude Code / Codex / Gemini CLI 写代码的朋友 🙋‍♂️
-想换 API 中转商得手改 JSON
-五个工具配置格式全不一样，切一次找半天
+CC Switch 史诗级更新
 
-CC Switch —— 一个开源 App 统一管理 ✨
+最大的亮点：Codex 官方 OAuth 保留 🔑
 
-🎯 核心能力
-· 一界面管 Claude Code / Codex / Gemini CLI / OpenCode / OpenClaw
-· 50+ 供应商预设，复制 Key 就能用
-· 一键切换 + 统一管理 MCP / Prompts / Skills
-· 托盘秒切，Claude Code 还支持热切换不重启
+以前用第三方 API 会覆盖官方登录态
+现在可以同时保留 OAuth，切供应商不丢登录
+远程操作、官方插件继续用，流量走第三方
 
-💎 三大亮点
-1️⃣ 用量成本追踪 —— 跨供应商统计支出 Token，不怕爆雷
-2️⃣ 云同步 —— Dropbox / iCloud / 坚果云 / WebDAV，换电脑无感
-3️⃣ MIT 开源免费 —— Tauri + Rust 原生，SQLite 原子写入不损坏
+Codex 模型目录不再被静默清空
+Chat 工具/插件路由完整恢复
+本地代理接管更稳，热切换不丢配置
 
-🛒 安装
-brew install --cask cc-switch
-Win/Linux 去 GitHub Releases 下载
+新版还修复了：
+· Claude Desktop 官方供应商添加报错
+· Kimi/Moonshot 工具思考历史规范化
+· Windows 版本探测乱码问题
+· 余额查询跨应用凭据错用
 
-同时用 2 个以上 AI 编程工具？CC Switch 必装
-省下的时间够写 100 个 Bug 😂
+开源免费，brew install --cask cc-switch
 
-你用几个 AI 编程工具？评论区聊聊 👇
+现在支持 7 个 AI 编程 CLI 了
+你用几个？评论区聊聊 👇
 
-#开源工具 #ClaudeCode #AI编程 #Codex #GeminiCLI #开发者工具 #AIAgent
+#开源工具 #CCSwitch #ClaudeCode #AI编程 #Codex #GeminiCLI #开发者工具 #AIAgent
 ```
 
 ---
@@ -61,10 +58,9 @@ Win/Linux 去 GitHub Releases 下载
 
 ```bash
 opencli xiaohongshu publish "<body>" \
-  --title "CC Switch 一统 5 个 CLI" \
+  --title "CC Switch 史诗级更新" \
   --images "cc-switch-square.png,cc-switch-card-1.png,cc-switch-card-2.png,cc-switch-card-3.png" \
-  --topics "开源工具,ClaudeCode,AI编程,Codex,GeminiCLI,开发者工具,AIAgent" \
-  --draft true \
+  --topics "开源工具,CCSwitch,ClaudeCode,AI编程,Codex,GeminiCLI,开发者工具,AIAgent" \
   --window foreground \
   --site-session persistent \
   -f yaml

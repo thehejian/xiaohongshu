@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<defs>
+  <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#7C3AED" stop-opacity=".15"/>
+    <stop offset="50%" stop-color="#0891B2" stop-opacity=".08"/>
+    <stop offset="100%" stop-color="#6366F1" stop-opacity=".15"/>
+  </linearGradient>
+  <linearGradient id="g2" x1="0%" y1="100%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#7C3AED" stop-opacity=".1"/>
+    <stop offset="100%" stop-color="#2563EB" stop-opacity=".05"/>
+  </linearGradient>
+  <linearGradient id="accentBar" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#7C3AED"/>
+    <stop offset="50%" stop-color="#0891B2"/>
+    <stop offset="100%" stop-color="#6366F1"/>
+  </linearGradient>
+  <linearGradient id="accentGold" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#F59E0B"/>
+    <stop offset="100%" stop-color="#D97706"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="6" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity=".3"/>
+  </filter>
+</defs>
+<rect width="800" height="800" fill="#0F0F23" rx="24"/>
+<rect width="800" height="800" fill="url(#g1)"/>
+<text x="400" y="60" text-anchor="middle" fill="url(#accentBar)" font-size="16" font-weight="800" font-family="system-ui,-apple-system,sans-serif">&#128300; 深度观察</text>
+<text x="400" y="140" text-anchor="middle" fill="white" font-size="42" font-weight="800" font-family="system-ui,-apple-system,sans-serif">Agent 走出编辑器</text>
+<text x="400" y="185" text-anchor="middle" fill="#94A3B8" font-size="16" font-family="system-ui,-apple-system,sans-serif">前 5 名里 4 个是通用 Agent（不绑 IDE）</text>
+<line x1="200" y1="215" x2="600" y2="215" stroke="url(#accentBar)" stroke-width="2" opacity=".4"/><rect x="60" y="260" width="320" height="200" rx="16" fill="#1E1E3A" opacity=".5" filter="url(#shadow)"/>
+<rect x="60" y="260" width="320" height="200" rx="16" fill="none" stroke="#D97706" stroke-width="1.5" opacity=".4"/>
+<text x="220" y="295" text-anchor="middle" fill="#D97706" font-size="15" font-weight="700" font-family="system-ui,-apple-system,sans-serif">&#128187; IDE 插件型</text>
+<text x="220" y="315" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="system-ui,-apple-system,sans-serif">Kilo Code · Roo Code · Cline</text><circle cx="80" cy="339" r="3" fill="#D97706"/><text x="95" y="345" fill="#64748B" font-size="11" font-family="system-ui,-apple-system,sans-serif">绑定 VS Code/JetBrains</text><circle cx="80" cy="367" r="3" fill="#D97706"/><text x="95" y="373" fill="#64748B" font-size="11" font-family="system-ui,-apple-system,sans-serif">依赖编辑器生态</text><circle cx="80" cy="395" r="3" fill="#D97706"/><text x="95" y="401" fill="#64748B" font-size="11" font-family="system-ui,-apple-system,sans-serif">深度文件系统集成</text><circle cx="80" cy="423" r="3" fill="#D97706"/><text x="95" y="429" fill="#64748B" font-size="11" font-family="system-ui,-apple-system,sans-serif">1 个上榜 (Kilo Code)</text><rect x="420" y="260" width="320" height="200" rx="16" fill="#1E1E3A" opacity=".5" filter="url(#shadow)"/>
+<rect x="420" y="260" width="320" height="200" rx="16" fill="none" stroke="#7C3AED" stroke-width="1.5" opacity=".4"/>
+<text x="580" y="295" text-anchor="middle" fill="#7C3AED" font-size="15" font-weight="700" font-family="system-ui,-apple-system,sans-serif">&#127758; 通用 Agent</text>
+<text x="580" y="315" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="system-ui,-apple-system,sans-serif">Hermes · OpenClaw · Claude Code · pi</text><circle cx="440" cy="339" r="3" fill="#7C3AED"/><text x="455" y="345" fill="#64748B" font-size="11" font-family="system-ui,-apple-system,sans-serif">跨平台/跨 IDE</text><circle cx="440" cy="367" r="3" fill="#7C3AED"/><text x="455" y="373" fill="#64748B" font-size="11" font-family="system-ui,-apple-system,sans-serif">CLI/API 原生</text><circle cx="440" cy="395" r="3" fill="#7C3AED"/><text x="455" y="401" fill="#64748B" font-size="11" font-family="system-ui,-apple-system,sans-serif">可集成到任意工作流</text><circle cx="440" cy="423" r="3" fill="#7C3AED"/><text x="455" y="429" fill="#64748B" font-size="11" font-family="system-ui,-apple-system,sans-serif">4 个上榜 (前 5 占 4)</text><rect x="60" y="500" width="680" height="180" rx="16" fill="#1E1E3A" opacity=".5" filter="url(#shadow)"/>
+<rect x="60" y="500" width="680" height="180" rx="16" fill="none" stroke="url(#accentBar)" stroke-width="1" opacity=".3"/>
+<text x="400" y="535" text-anchor="middle" fill="url(#accentGold)" font-size="16" font-weight="800" font-family="system-ui,-apple-system,sans-serif">&#128161; 趋势解读</text><circle cx="80" cy="559" r="4" fill="#0891B2" opacity=".8"/>
+<text x="95" y="565" fill="#94A3B8" font-size="12" font-family="system-ui,-apple-system,sans-serif">编码 Agent 的终极形态不是 IDE 插件，而是通用助手</text><circle cx="80" cy="587" r="4" fill="#0891B2" opacity=".8"/>
+<text x="95" y="593" fill="#94A3B8" font-size="12" font-family="system-ui,-apple-system,sans-serif">CLI 原生 + API 优先 = 可嵌入任何开发环境</text><circle cx="80" cy="615" r="4" fill="#0891B2" opacity=".8"/>
+<text x="95" y="621" fill="#94A3B8" font-size="12" font-family="system-ui,-apple-system,sans-serif">Hermes Agent 和 OpenClaw 代表了两种生态路径</text><circle cx="80" cy="643" r="4" fill="#0891B2" opacity=".8"/>
+<text x="95" y="649" fill="#94A3B8" font-size="12" font-family="system-ui,-apple-system,sans-serif">IDE 插件型 Agent 仍有价值，但天花板更低</text><circle cx="720" cy="80" r="90" fill="#7C3AED" opacity=".04"/>
+<circle cx="80" cy="700" r="80" fill="#0891B2" opacity=".04"/>
+</svg>

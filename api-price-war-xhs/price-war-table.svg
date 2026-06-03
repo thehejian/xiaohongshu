@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F3F0E8"/></linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/>
+<circle cx="81.92" cy="81.92" r="61.44" fill="#E0F2FE" opacity="0.4"/><circle cx="942.08" cy="122.88" r="51.2" fill="#EDE9FE" opacity="0.4"/><circle cx="81.92" cy="901.12" r="71.68" fill="#FFEDD5" opacity="0.3"/><circle cx="942.08" cy="798.72" r="81.92" fill="#D1FAE5" opacity="0.3"/>
+
+<filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+  <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000010"/></filter>
+<filter id="shadow2" x="-5%" y="-5%" width="110%" height="110%">
+  <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00000008"/></filter>
+<rect x="62" y="50" width="900" height="924" rx="28" fill="#FFFFFF" filter="url(#shadow)"/>
+<g transform="translate(512, 100)">
+  <text x="0" y="0" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="48" font-weight="900" fill="#1E293B">📊 价格参数全对比</text>
+  <text x="0" y="36" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">每百万Token · 人民币计价</text>
+</g>
+<g transform="translate(60, 170)">
+  <rect x="0" y="0" width="904" height="44" rx="12" fill="#F1F5F9"/>
+  <text x="60" y="38" text-anchor="start" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" font-weight="700" fill="#94A3B8">模型</text><text x="260" y="38" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" font-weight="700" fill="#94A3B8">输入(¥)</text><text x="380" y="38" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" font-weight="700" fill="#94A3B8">输出(¥)</text><text x="500" y="38" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" font-weight="700" fill="#94A3B8">上下文</text><text x="620" y="38" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" font-weight="700" fill="#94A3B8">多模态</text><text x="740" y="38" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" font-weight="700" fill="#94A3B8">核心优势</text>
+</g>
+
+<g transform="translate(60, 240)">
+  <rect x="0" y="0" width="904" height="64" rx="12" fill="#DEE3FF"/>
+  <g transform="translate(10, 6)"><rect x="0" y="0" width="52" height="52" rx="12" fill="#4F6EF7"/><text x="26" y="35" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" font-weight="900" fill="#FFF">DS</text></g>
+  <text x="70" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="800" fill="#1E293B">DeepSeek-V4</text>
+  <text x="260" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="900" fill="#4F6EF7">0.5</text>
+  <text x="380" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="900" fill="#4F6EF7">2</text>
+  <text x="500" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">128K</text>
+  <text x="620" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#4F6EF7">✅</text>
+  <rect x="720" y="12" width="150" height="40" rx="20" fill="#DEE3FF" stroke="#4F6EF7" stroke-width="1.5"/>
+  <text x="795" y="39" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" font-weight="700" fill="#4F6EF7">价格屠夫</text>
+</g>
+<g transform="translate(60, 320)">
+  <rect x="0" y="0" width="904" height="64" rx="12" fill="#FFFFFF"/>
+  <g transform="translate(10, 6)"><rect x="0" y="0" width="52" height="52" rx="12" fill="#FF6A00"/><text x="26" y="35" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="14" font-weight="900" fill="#FFF">通义</text></g>
+  <text x="70" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="800" fill="#1E293B">Qwen-Max</text>
+  <text x="260" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="900" fill="#FF6A00">2</text>
+  <text x="380" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="900" fill="#FF6A00">6</text>
+  <text x="500" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">128K</text>
+  <text x="620" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#FF6A00">✅</text>
+  <rect x="720" y="12" width="150" height="40" rx="20" fill="#FFF0E0" stroke="#FF6A00" stroke-width="1.5"/>
+  <text x="795" y="39" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" font-weight="700" fill="#FF6A00">阿里生态</text>
+</g>
+<g transform="translate(60, 400)">
+  <rect x="0" y="0" width="904" height="64" rx="12" fill="#E0F5EF"/>
+  <g transform="translate(10, 6)"><rect x="0" y="0" width="52" height="52" rx="12" fill="#10A37F"/><text x="26" y="35" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="14" font-weight="900" fill="#FFF">GPT</text></g>
+  <text x="70" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="800" fill="#1E293B">GPT-4o</text>
+  <text x="260" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="900" fill="#10A37F">18</text>
+  <text x="380" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="900" fill="#10A37F">72</text>
+  <text x="500" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">128K</text>
+  <text x="620" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#10A37F">✅</text>
+  <rect x="720" y="12" width="150" height="40" rx="20" fill="#E0F5EF" stroke="#10A37F" stroke-width="1.5"/>
+  <text x="795" y="39" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" font-weight="700" fill="#10A37F">综合最强</text>
+</g>
+<g transform="translate(60, 480)">
+  <rect x="0" y="0" width="904" height="64" rx="12" fill="#FFFFFF"/>
+  <g transform="translate(10, 6)"><rect x="0" y="0" width="52" height="52" rx="12" fill="#CC4C00"/><text x="26" y="35" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="14" font-weight="900" fill="#FFF">Cl</text></g>
+  <text x="70" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="800" fill="#1E293B">Claude 3.5</text>
+  <text x="260" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="900" fill="#CC4C00">22</text>
+  <text x="380" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="900" fill="#CC4C00">108</text>
+  <text x="500" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">200K</text>
+  <text x="620" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#CC4C00">✅</text>
+  <rect x="720" y="12" width="150" height="40" rx="20" fill="#FFE4CC" stroke="#CC4C00" stroke-width="1.5"/>
+  <text x="795" y="39" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" font-weight="700" fill="#CC4C00">长文最优</text>
+</g>
+<g transform="translate(60, 560)">
+  <rect x="0" y="0" width="904" height="64" rx="12" fill="#E0EEFF"/>
+  <g transform="translate(10, 6)"><rect x="0" y="0" width="52" height="52" rx="12" fill="#4285F4"/><text x="26" y="35" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="14" font-weight="900" fill="#FFF">Ge</text></g>
+  <text x="70" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="800" fill="#1E293B">Gemini 2.0</text>
+  <text x="260" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="900" fill="#4285F4">9</text>
+  <text x="380" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="900" fill="#4285F4">36</text>
+  <text x="500" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">2M</text>
+  <text x="620" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#4285F4">✅</text>
+  <rect x="720" y="12" width="150" height="40" rx="20" fill="#E0EEFF" stroke="#4285F4" stroke-width="1.5"/>
+  <text x="795" y="39" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" font-weight="700" fill="#4285F4">超长上下文</text>
+</g>
+<line x1="60" y1="660" x2="964" y2="660" stroke="#E2E8F0" stroke-width="1"/>
+<g transform="translate(512, 710)">
+  <text x="0" y="0" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="900" fill="#F43F5E">💡 省钱公式</text>
+</g>
+<g transform="translate(512, 760)">
+  <rect x="-200" y="-20" width="400" height="80" rx="16" fill="#DEE3FF" stroke="#4F6EF7" stroke-width="1.5"/>
+  <text x="0" y="10" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="800" fill="#4F6EF7">DeepSeek 省 90%</text>
+  <text x="0" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" fill="#64748B">价格仅为 GPT-4o 的 1/36</text>
+</g>
+<g transform="translate(512, 870)">
+  <text x="0" y="0" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="700" fill="#64748B">推荐场景速查</text>
+</g>
+<g transform="translate(80, 910)">
+  <rect x="0" y="0" width="200" height="46" rx="12" fill="#DEE3FF"/><text x="100" y="29" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" font-weight="700" fill="#4F6EF7">日常 → DeepSeek</text>
+  <rect x="210" y="0" width="200" height="46" rx="12" fill="#E0F5EF"/><text x="310" y="29" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" font-weight="700" fill="#10A37F">写代码 → GPT-4o</text>
+  <rect x="420" y="0" width="200" height="46" rx="12" fill="#FFE4CC"/><text x="520" y="29" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" font-weight="700" fill="#CC4C00">长文 → Claude</text>
+  <rect x="630" y="0" width="200" height="46" rx="12" fill="#FFF0E0"/><text x="730" y="29" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" font-weight="700" fill="#FF6A00">企业 → Qwen</text>
+</g>
+<g transform="translate(512, 976)">
+  <rect x="-200" y="-22" width="400" height="44" rx="12" fill="#E0EEFF" stroke="#4285F4" stroke-width="1"/>
+  <text x="0" y="10" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" font-weight="700" fill="#4285F4">超长文档 → Gemini (2M上下文)</text>
+</g>
+
+</svg>

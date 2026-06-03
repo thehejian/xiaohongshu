@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs>
+<linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#0D0D1A"/>
+  <stop offset="100%" stop-color="#0A0A14"/>
+</linearGradient>
+<linearGradient id="accentG" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#8B5CF6"/>
+  <stop offset="100%" stop-color="#3B82F6"/>
+</linearGradient>
+<linearGradient id="accentG2" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%" stop-color="#8B5CF6"/>
+  <stop offset="100%" stop-color="#06B6D4"/>
+</linearGradient>
+<filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+  <feGaussianBlur stdDeviation="8" result="blur"/>
+  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="shadow">
+  <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.4"/>
+</filter>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1A1A2E" stroke-width="0.5"/>
+</pattern>
+</defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/><rect width="1024" height="1024" fill="url(#grid)"/><circle cx="51.2" cy="51.2" r="122.88" fill="#8B5CF6" opacity="0.08"/><circle cx="972.8" cy="972.8" r="153.6" fill="#3B82F6" opacity="0.06"/>
+
+<rect x="62" y="80" width="900" height="864" rx="32" fill="#15151F" filter="url(#shadow)" stroke="#27272A" stroke-width="1"/>
+
+<text x="512" y="160" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="36" fill="#A1A1AA" letter-spacing="3" font-weight="300">OPEN</text>
+<text x="512" y="380" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="160" font-weight="900" fill="url(#accentG)" letter-spacing="-4" filter="url(#glow)">CLI</text>
+<text x="512" y="460" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26" fill="#A1A1AA" letter-spacing="1">让每个网站都拥有 CLI</text>
+
+<rect x="200" y="500" width="624" height="60" rx="30" fill="none" stroke="url(#accentG2)" stroke-width="2"/>
+<text x="512" y="537" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="600" fill="#C4B5FD">npm install -g opencli</text>
+
+<g transform="translate(120, 620)">
+  <rect x="0" y="0" width="180" height="42" rx="21" fill="#8B5CF6" opacity="0.15"/><text x="90" y="27" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#C4B5FD">148+ 适配器</text>
+  <rect x="200" y="0" width="180" height="42" rx="21" fill="#3B82F6" opacity="0.15"/><text x="290" y="27" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#06B6D4">Browser Bridge</text>
+  <rect x="400" y="0" width="180" height="42" rx="21" fill="#14B8A6" opacity="0.15"/><text x="490" y="27" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#14B8A6">AI Agent</text>
+  <rect x="600" y="0" width="180" height="42" rx="21" fill="#F97316" opacity="0.15"/><text x="690" y="27" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#F97316">外部 CLI</text>
+</g>
+
+<text x="512" y="870" text-anchor="middle" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="15" fill="#71717A">github.com/jackwener/opencli</text>
+
+</svg>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<defs>
+  <radialGradient id="bgGrad" cx="50%" cy="30%" r="80%">
+    <stop offset="0%" stop-color="#1E293B"/>
+    <stop offset="100%" stop-color="#070B15"/>
+  </radialGradient>
+  <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F59E0B"/>
+    <stop offset="100%" stop-color="#FBBF24"/>
+  </linearGradient>
+  <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#2563EB"/>
+    <stop offset="100%" stop-color="#3B82F6"/>
+  </linearGradient>
+  <filter id="cardShadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000" flood-opacity=".4"/>
+  </filter>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="6" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#1E293B" stroke-width="0.5" opacity="0.3"/>
+  </pattern>
+</defs>
+<rect width="800" height="800" fill="url(#bgGrad)"/>
+<rect width="800" height="800" fill="url(#grid)" opacity="0.15"/>
+
+<!-- Corner decoration -->
+<circle cx="0" cy="0" r="180" fill="#8B5CF6" opacity="0.04"/>
+<circle cx="800" cy="800" r="200" fill="#F59E0B" opacity="0.04"/>
+
+<!-- Main card -->
+<g transform="translate(32, 32)">
+  <rect x="0" y="0" width="736" height="736" rx="20" fill="#111827" filter="url(#cardShadow)"/>
+  <rect x="0" y="0" width="736" height="736" rx="20" fill="none" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="736" height="6" rx="3" fill="#8B5CF6"/>
+
+  <!-- Number badge -->
+  <g transform="translate(48, 48)">
+    <rect x="0" y="0" width="56" height="56" rx="14" fill="#8B5CF6" opacity="0.12"/>
+    <rect x="0" y="0" width="56" height="56" rx="14" fill="none" stroke="#8B5CF6" stroke-width="1.5" opacity="0.4"/>
+    <text x="28" y="36" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="28" font-weight="800" fill="#8B5CF6">4</text>
+  </g>
+
+  <!-- 荣 label -->
+  <g transform="translate(140, 48)">
+    <text x="0" y="20" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="4" fill="#8B5CF6">第 4 荣</text>
+  </g>
+
+  <!-- Honor section -->
+  <g transform="translate(48, 148)">
+    <rect x="0" y="0" width="48" height="48" rx="24" fill="#10B981" opacity="0.15"/>
+    <text x="24" y="31" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="24">✓</text>
+    <text x="68" y="34" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="36" font-weight="800" fill="#F8FAFC">复用现有代码</text>
+  </g>
+
+  <!-- Arrow divider -->
+  <g transform="translate(328, 240)">
+    <line x1="0" y1="0" x2="80" y2="0" stroke="#1E293B" stroke-width="1.5" stroke-dasharray="4,4"/>
+  </g>
+  <text x="368" y="268" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" fill="#64748B">✕</text>
+  <g transform="translate(328, 284)">
+    <line x1="0" y1="0" x2="80" y2="0" stroke="#1E293B" stroke-width="1.5" stroke-dasharray="4,4"/>
+  </g>
+
+  <!-- Disgrace section -->
+  <g transform="translate(48, 308)">
+    <rect x="0" y="0" width="48" height="48" rx="24" fill="#EF4444" opacity="0.15"/>
+    <text x="24" y="31" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="24">✕</text>
+    <text x="68" y="34" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="36" font-weight="800" fill="#94A3B8" opacity="0.7">创造新接口/轮子</text>
+  </g>
+
+  <!-- Rule tag -->
+  <g transform="translate(48, 664)">
+    <line x1="0" y1="0" x2="640" y2="0" stroke="#1E293B" stroke-width="1"/>
+    <text x="0" y="28" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="500" fill="#64748B">原则 · 以紫为准</text>
+    <text x="640" y="28" text-anchor="end" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" letter-spacing="1" fill="#64748B">04 / 08</text>
+  </g>
+</g>
+</svg>

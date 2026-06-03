@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="60%" stop-color="#0B1027"/>
+      <stop offset="100%" stop-color="#070B1E"/>
+    </radialGradient>
+    <linearGradient id="ali" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6A00"/>
+      <stop offset="100%" stop-color="#FF8C00"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  
+  <circle cx="120" cy="120" r="2" fill="#FF6A00" opacity="0.6"/>
+  <circle cx="680" cy="160" r="1.5" fill="#FF8C00" opacity="0.7"/>
+  <circle cx="80" cy="380" r="1.5" fill="#FF6A00" opacity="0.5"/>
+  <circle cx="720" cy="440" r="2" fill="#FF8C00" opacity="0.6"/>
+  
+  <text x="400" y="380" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="140" font-weight="900" fill="url(#ali)">阿里</text>
+  <text x="400" y="480" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="500" fill="#E0E7FF">三板斧 · 定目标→追过程→拿结果</text>
+  <text x="400" y="540" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" fill="#94A3B8">复盘四步法 · 揪头发升维</text>
+  
+  <g transform="translate(200, 620)">
+    <rect x="0" y="0" width="120" height="42" rx="21" fill="#FF6A00" opacity="0.15" stroke="#FF6A00" stroke-width="1.5"/>
+    <text x="60" y="28" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#FF8C00">闭环思维</text>
+    <rect x="140" y="0" width="120" height="42" rx="21" fill="#FF6A00" opacity="0.15" stroke="#FF6A00" stroke-width="1.5"/>
+    <text x="200" y="28" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#FF8C00">复盘</text>
+    <rect x="280" y="0" width="120" height="42" rx="21" fill="#FF6A00" opacity="0.15" stroke="#FF6A00" stroke-width="1.5"/>
+    <text x="340" y="28" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#FF8C00">定目标</text>
+  </g>
+  
+  <text x="400" y="755" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#475569">PUA Skill · 大厂味道</text>
+</svg>

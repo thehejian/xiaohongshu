@@ -36,7 +36,8 @@ Current folders (2026-06):
 
 ```
 write article.md + README.md
-  → python3 gen_cards.py  (SVG → Inkscape → PNG)
+  → opencli gemini image "<prompt>" --rt 1:1 (cover/illustration, preferred)
+  → python3 gen_cards.py  (SVG → Inkscape → PNG, for text-layout cards)
   → lark-cli docs +create/+update + +media-insert × N  (Feishu preview)
   → git add + commit + push
   → opencli xiaohongshu publish --draft true  (XHS draft)
@@ -60,8 +61,8 @@ Two palettes:
 | Tool | Purpose | Notes |
 |------|---------|-------|
 | `inkscape` | SVG → PNG rendering | Must use explicit pixel dimensions; `100%` and missing closing quotes → blank images |
-| `opencli` | XHS publish | `--draft true --window foreground --site-session persistent -f yaml` |
-| `lark-cli` | Feishu doc mgmt | `+create` / `+update --mode overwrite` / `+media-insert --file` |
+| `opencli` | XHS publish, Gemini image gen | `opencli gemini image "<prompt>" --rt 1:1` for covers/illustrations; publish: `--draft true --window foreground --site-session persistent -f yaml` |
+| `inkscape` | SVG → PNG rendering | Must use explicit pixel dimensions; `100%` and missing closing quotes → blank images || `lark-cli` | Feishu doc mgmt | `+create` / `+update --mode overwrite` / `+media-insert --file` |
 | `python3` | SVG generation, body extraction | No external deps beyond stdlib |
 
 ## Constraints

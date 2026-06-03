@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs>
+<linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#0D0D1A"/>
+  <stop offset="100%" stop-color="#0A0A14"/>
+</linearGradient>
+<linearGradient id="accentG" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#8B5CF6"/>
+  <stop offset="100%" stop-color="#3B82F6"/>
+</linearGradient>
+<linearGradient id="accentG2" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%" stop-color="#8B5CF6"/>
+  <stop offset="100%" stop-color="#06B6D4"/>
+</linearGradient>
+<filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+  <feGaussianBlur stdDeviation="8" result="blur"/>
+  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="shadow">
+  <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.4"/>
+</filter>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1A1A2E" stroke-width="0.5"/>
+</pattern>
+</defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/><rect width="1024" height="1024" fill="url(#grid)"/><circle cx="51.2" cy="51.2" r="122.88" fill="#8B5CF6" opacity="0.08"/><circle cx="972.8" cy="972.8" r="153.6" fill="#3B82F6" opacity="0.06"/>
+
+<rect x="62" y="80" width="900" height="864" rx="32" fill="#15151F" filter="url(#shadow)" stroke="#27272A" stroke-width="1"/>
+
+<text x="512" y="200" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="32" fill="#A1A1AA" letter-spacing="2" font-weight="300">CLI-ANYTHING</text>
+<text x="512" y="380" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="130" font-weight="900" fill="url(#accentG)" letter-spacing="-4" filter="url(#glow)">万物皆可 CLI</text>
+<text x="512" y="460" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26" fill="#A1A1AA">让 AI 操控任何软件</text>
+
+<rect x="200" y="520" width="624" height="60" rx="30" fill="none" stroke="url(#accentG2)" stroke-width="2"/>
+<text x="512" y="557" text-anchor="middle" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="20" font-weight="600" fill="#C4B5FD">11 款软件 · 1628 项测试</text>
+
+<rect x="120" y="620" width="160" height="40" rx="20" fill="#8B5CF6" opacity="0.15"/><text x="200" y="646" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#8B5CF6">GIMP</text>
+<rect x="300" y="620" width="160" height="40" rx="20" fill="#3B82F6" opacity="0.15"/><text x="380" y="646" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#3B82F6">Blender</text>
+<rect x="480" y="620" width="160" height="40" rx="20" fill="#06B6D4" opacity="0.15"/><text x="560" y="646" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#06B6D4">Inkscape</text>
+<rect x="660" y="620" width="160" height="40" rx="20" fill="#14B8A6" opacity="0.15"/><text x="740" y="646" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#14B8A6">LibreOffice</text>
+<rect x="120" y="680" width="160" height="40" rx="20" fill="#F97316" opacity="0.15"/><text x="200" y="706" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#F97316">OBS Studio</text>
+<rect x="300" y="680" width="160" height="40" rx="20" fill="#10B981" opacity="0.15"/><text x="380" y="706" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#10B981">Kdenlive</text>
+<rect x="480" y="680" width="160" height="40" rx="20" fill="#8B5CF6" opacity="0.15"/><text x="560" y="706" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#8B5CF6">Shotcut</text>
+<rect x="660" y="680" width="160" height="40" rx="20" fill="#3B82F6" opacity="0.15"/><text x="740" y="706" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#3B82F6">Sketch</text>
+<rect x="120" y="740" width="160" height="40" rx="20" fill="#06B6D4" opacity="0.15"/><text x="200" y="766" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#06B6D4">OpenScreen</text>
+<rect x="300" y="740" width="160" height="40" rx="20" fill="#14B8A6" opacity="0.15"/><text x="380" y="766" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#14B8A6">Draw.io</text>
+<rect x="480" y="740" width="160" height="40" rx="20" fill="#F97316" opacity="0.15"/><text x="560" y="766" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#F97316">Audacity</text>
+<rect x="660" y="740" width="160" height="40" rx="20" fill="#10B981" opacity="0.15"/><text x="740" y="766" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#10B981">Zoom</text>
+
+<text x="512" y="870" text-anchor="middle" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="15" fill="#71717A">github.com/CLI-Anything</text>
+
+</svg>

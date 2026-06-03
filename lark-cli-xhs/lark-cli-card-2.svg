@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F3F0E8"/></linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/><circle cx="81.92" cy="81.92" r="60" fill="#E8EEFF" opacity="0.5"/><circle cx="942.08" cy="122.88" r="50" fill="#EDE9FE" opacity="0.4"/><circle cx="81.92" cy="901.12" r="70" fill="#E0F2FE" opacity="0.3"/><circle cx="942.08" cy="798.72" r="80" fill="#FFEDD5" opacity="0.3"/>
+
+<text x="512" y="90" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="38" font-weight="800" fill="#1E293B">开发者体验</text>
+<text x="512" y="130" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" fill="#64748B">原生 API 封装 · AI Agent 友好</text>
+
+<g transform="translate(62, 200)">
+  <rect x="0" y="0" width="900" height="160" rx="18" fill="#FFFFFF" stroke="#3370FF" stroke-width="2"/>
+  <text x="30" y="45" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#3370FF">通用 API 调用</text>
+  <text x="30" y="80" font-family="ui-monospace,monospace" font-size="17" fill="#1E293B">lark-cli api GET /open-apis/calendar/v4/calendars</text>
+  <text x="30" y="112" font-family="ui-monospace,monospace" font-size="17" fill="#1E293B">lark-cli api POST /open-apis/im/v1/messages</text>
+  <text x="30" y="144" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" fill="#64748B">免签名 · 免 token 刷新 · 匹配官方 OpenAPI 文档</text>
+</g>
+
+<g transform="translate(62, 400)">
+  <rect x="0" y="0" width="900" height="160" rx="18" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="2"/>
+  <text x="30" y="45" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#8B5CF6">AI Agent Skills</text>
+  <text x="30" y="80" font-family="ui-monospace,monospace" font-size="17" fill="#1E293B">npx skills add larksuite/cli -s lark-calendar -y</text>
+  <text x="30" y="112" font-family="ui-monospace,monospace" font-size="17" fill="#1E293B">npx skills add larksuite/cli -s lark-im -y</text>
+  <text x="30" y="144" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" fill="#64748B">每个 skill 封装领域工作流 · AI 自动学会用飞书</text>
+</g>
+
+<g transform="translate(62, 600)">
+  <rect x="0" y="0" width="900" height="120" rx="18" fill="#FFFFFF" stroke="#0EA5E9" stroke-width="2"/>
+  <text x="30" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#0EA5E9">实用小功能</text>
+  <text x="30" y="75" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#1E293B">--page-all 自动翻页 · --jq JSON 过滤 · --dry-run 预览</text>
+  <text x="30" y="102" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#1E293B">--format pretty / table / csv · --as bot / user 身份切换</text>
+</g>
+
+<g transform="translate(62, 800)">
+  <rect x="0" y="0" width="900" height="60" rx="14" fill="#E8EEFF"/>
+  <text x="28" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="600" fill="#3370FF">npm install -g @larksuiteo/cli</text>
+  <text x="700" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">一行安装 · 开箱即用</text>
+</g>
+
+</svg>

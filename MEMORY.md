@@ -1267,3 +1267,96 @@ P8 收尾 → 金句收尾（记忆点）
 ```
 
 这个结构适用于**工具推荐/教程/经验分享**类内容，内容饱满度刚好填满8页，不会显得空洞。
+
+## 21. api-price-war-xhs 大模型API价格战（2026-06-03）
+
+### 项目结构
+```
+api-price-war-xhs/
+├── article.md              # 小红书草稿正文（标题首行 + 正文 462 字）
+├── README.md               # 完整版文章
+├── gen_cards.py            # SVG→PNG 生成器（8 张浅色卡片）
+├── price-war-cover.png     # 封面 (1024×1024) — 大标题 + 5模型速览
+├── price-war-table.png     # 价格对比表 (1024×1024)
+├── price-war-deepseek.png  # DeepSeek 详情 (1024×1024)
+├── price-war-qwen.png      # Qwen 详情 (1024×1024)
+├── price-war-gpt4o.png     # GPT-4o 详情 (1024×1024)
+├── price-war-claude.png    # Claude 详情 (1024×1024)
+├── price-war-gemini.png    # Gemini 详情 (1024×1024)
+└── price-war-summary.png   # 终极选择指南 (1024×1024)
+```
+
+### 发布数据
+- 标题：`大模型API价格战`（6 字，≤20 ✓）
+- 正文：462 字（≤950 ✓）
+- 图片：8 张（≤9 ✓）
+- 话题：`大模型,API,DeepSeek,Qwen,GPT-4o,Claude,Gemini,价格对比`
+- 发布：✅ 直接发布（非草稿），去掉 `--draft true`
+
+### 踩坑 & 修复
+
+**1. Table 卡片数据行与表头重叠**
+- 行起点 `y = 82 + i * 88`，但表头在 `y=170` → 第2行直接盖在表头上
+- 修复：行起点改为 `y = 240 + i * 80`（表头 y=170 + h=44 + padding 后）
+
+**2. Table 卡片 Logo key 查找失败**
+- `name.lower().split("-")[0].replace("3","").replace("5","").replace("2","")` 
+- "GPT-4o" → `"gpt"` ❌（key 是 `"gpt4o"`）
+- "Claude 3.5" → `"claude "` ❌（尾部空格）
+- "Gemini 2.0" → `"gemini "` ❌（尾部空格）
+- 修复：用显式 `TABLE_LOGO_KEY = {"DeepSeek-V4": "deepseek", ...}` 字典映射
+
+**3. Model 卡片核心优势与警告区间距过紧**
+- 核心优势最后一行 y=540+156=696，警告区 y=700 → 仅 4px 间距
+- 修复：核心优势上移至 y=520，行距 40→36，警告区下移至 y=730
+
+**4. Cover 卡片底部文字出界**
+- Footer 文字在 y=975，但白卡 rect 在 y=50 到 y=974（h=924）→ 文字在白卡外
+- 修复：footer 上移至 y=955，行距 92→86
+
+**5. Cover 标题投影（glow filter）**
+- "大模型"文字使用了 `filter="url(#glow)"`，用户要求去掉
+- 修复：去掉 glow filter，改为普通黑色文字
+
+**6. SVG 卡片含时间戳**
+- Cover 卡片副标题含 "· 2026.06" 时间信息
+- 修复：去掉 SVG 中的时间戳，内容不出现日期/版本
+
+**7. Model 卡片功能点间距压缩**
+- 4 个功能点 + 核心优势标题 + 警告区需紧凑排列
+- 修复：功能点 y 起点 32（原 36）、行距 36（原 40）、全部在 520-696 区间
+
+### 卡片设计要点（浅色价格对比型）
+```
+底色：#FAF7F2 → #F3F0E8 渐变
+白卡：x=62, y=50, w=900, h=924（底部内容必须在 y < 974 以内）
+5 品牌色：DeepSeek 蓝 #4F6EF7 / Qwen 橙 #FF6A00 / GPT-4o 绿 #10A37F / Claude 橙 #CC4C00 / Gemini 蓝 #4285F4
+封面：大标题 88px + 80px，无投影
+对比表：表头 + 表行 + 省钱公式 + 推荐场景，全部在 1024×1024 内紧凑排布
+Model 卡：品牌色顶栏 180px → 价格三列 → 核心优势 → 警告区 → 标签
+```
+
+### 发布命令（本项目的正确写法）
+```bash
+opencli xiaohongshu publish "大模型API价格战
+
+DeepSeek-V4 去年..." \
+  --title "大模型API价格战" \
+  --images "price-war-cover.png,price-war-table.png,..." \
+  --topics "大模型,API,DeepSeek,Qwen,GPT-4o,Claude,Gemini,价格对比" \
+  --window foreground \
+  --site-session persistent \
+  -f yaml
+```
+
+### 飞书文档
+- URL：https://www.feishu.cn/docx/GXIRdu3h0o6nHKxoiBvcYomcnMk
+- 8 张图全部上传成功
+
+### 关键约束（本次验证）
+1. **标题第一行**：正文第一行必须是标题文字
+2. **无时间戳**：SVG 卡片内容、正文都不出现日期/版本号
+3. **直接发布**：去掉 `--draft true` 即直接发布，返回 `status: ✅ 发布成功`
+4. **SVG 白卡边界**：内容 y 坐标必须 ≤ 白卡 bottom（y=974），footer 在 y=955 安全
+5. **Logo 字典映射**：模型名含特殊字符（`-`、`.`、数字）时必须用显式映射
+6. **覆盖重发流程**：`docs +update --mode overwrite` 清空文档 → 重插全部图片
