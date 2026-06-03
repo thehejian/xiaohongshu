@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#1E293B" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <circle cx="80" cy="80" r="70" fill="#FEF3C7" opacity="0.5"/>
+  <circle cx="720" cy="720" r="60" fill="#EDE9FE" opacity="0.3"/>
+
+  <rect x="40" y="40" width="720" height="100" rx="50" fill="#FEF3C7" filter="url(#shadow)"/>
+  <text x="400" y="108" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="48" font-weight="900" fill="#1E293B">🚀 MCP 生态爆发</text>
+
+  <g transform="translate(40, 180)">
+    <rect x="0" y="0" width="720" height="90" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="40" y="55" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" font-weight="800" fill="#1E293B">164M+ 月下载量</text>
+    <text x="680" y="55" text-anchor="end" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" fill="#2563EB">📈 爆炸增长</text>
+    <text x="40" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">Python SDK 月下载量 (2026.04)</text>
+  </g>
+
+  <g transform="translate(40, 295)">
+    <rect x="0" y="0" width="720" height="90" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="40" y="55" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" font-weight="800" fill="#1E293B">10,000+ 服务器</text>
+    <text x="680" y="55" text-anchor="end" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" fill="#059669">🌐 全球覆盖</text>
+    <text x="40" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">覆盖数据库、SaaS、开发工具等</text>
+  </g>
+
+  <g transform="translate(40, 410)">
+    <rect x="0" y="0" width="720" height="90" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="40" y="55" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" font-weight="800" fill="#1E293B">全厂商支持</text>
+    <text x="680" y="55" text-anchor="end" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" fill="#7C3AED">🤝 统一标准</text>
+    <text x="40" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">Anthropic · OpenAI · Google · Microsoft · AWS</text>
+  </g>
+
+  <g transform="translate(40, 525)">
+    <rect x="0" y="0" width="720" height="90" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="40" y="55" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" font-weight="800" fill="#1E293B">SDK 覆盖 4 大语言</text>
+    <text x="680" y="55" text-anchor="end" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" fill="#D97706">💻 全栈可用</text>
+    <text x="40" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">Python · TypeScript · Java · C#</text>
+  </g>
+
+  <g transform="translate(40, 650)">
+    <rect x="0" y="0" width="720" height="100" rx="50" fill="#E0E7FF" stroke="#4F46E5" stroke-width="2"/>
+    <text x="360" y="58" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#4F46E5">已经被捐赠给 Linux 基金会，永不锁死</text>
+  </g>
+</svg>

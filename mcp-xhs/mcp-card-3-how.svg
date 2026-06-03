@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#1E293B" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <circle cx="700" cy="80" r="60" fill="#D1FAE5" opacity="0.5"/>
+  <circle cx="80" cy="720" r="50" fill="#DBEAFE" opacity="0.4"/>
+
+  <rect x="40" y="40" width="720" height="100" rx="50" fill="#D1FAE5" filter="url(#shadow)"/>
+  <text x="400" y="108" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="48" font-weight="900" fill="#1E293B">⚙️ MCP 怎么工作</text>
+
+  <g transform="translate(40, 180)">
+    <rect x="0" y="0" width="720" height="80" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="40" cy="40" r="22" fill="#2563EB"/>
+    <text x="40" y="48" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFF">1</text>
+    <text x="80" y="48" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#1E293B">MCP Host（AI 应用）发起连接</text>
+  </g>
+
+  <g transform="translate(40, 285)">
+    <rect x="0" y="0" width="720" height="80" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="40" cy="40" r="22" fill="#7C3AED"/>
+    <text x="40" y="48" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFF">2</text>
+    <text x="80" y="48" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#1E293B">MCP Client 发现可用工具</text>
+  </g>
+
+  <g transform="translate(40, 390)">
+    <rect x="0" y="0" width="720" height="80" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="40" cy="40" r="22" fill="#EC4899"/>
+    <text x="40" y="48" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFF">3</text>
+    <text x="80" y="48" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#1E293B">MCP Server 暴露工具 &amp; 资源</text>
+  </g>
+
+  <g transform="translate(40, 495)">
+    <rect x="0" y="0" width="720" height="80" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="40" cy="40" r="22" fill="#059669"/>
+    <text x="40" y="48" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFF">4</text>
+    <text x="80" y="48" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#1E293B">LLM 自动选择调用合适工具</text>
+  </g>
+
+  <g transform="translate(40, 600)">
+    <rect x="0" y="0" width="720" height="80" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="40" cy="40" r="22" fill="#D97706"/>
+    <text x="40" y="48" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFF">5</text>
+    <text x="80" y="48" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#1E293B">数据通过 JSON-RPC 双向传输</text>
+  </g>
+
+  <g transform="translate(40, 720)">
+    <rect x="0" y="0" width="720" height="50" rx="25" fill="#DBEAFE"/>
+    <text x="360" y="33" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#2563EB">传输层：stdio / SSE / HTTP 灵活切换</text>
+  </g>
+</svg>

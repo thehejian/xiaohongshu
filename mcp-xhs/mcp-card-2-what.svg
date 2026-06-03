@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+    <linearGradient id="bigG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#1E293B" flood-opacity="0.08"/>
+    </filter>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <circle cx="700" cy="80" r="60" fill="#DBEAFE" opacity="0.4"/>
+  <circle cx="80" cy="720" r="50" fill="#EDE9FE" opacity="0.4"/>
+
+  <rect x="40" y="40" width="720" height="100" rx="50" fill="#DBEAFE" filter="url(#shadow)"/>
+  <text x="400" y="108" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="48" font-weight="900" fill="#1E293B">✅ MCP = AI 的 USB-C</text>
+
+  <g transform="translate(40, 180)">
+    <rect x="0" y="0" width="720" height="170" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="360" y="50" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" font-weight="800" fill="url(#bigG)" filter="url(#glow)">Model Context Protocol</text>
+    <text x="40" y="95" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#1E293B">由 Anthropic 于 2024.11 发布的开源标准</text>
+    <text x="40" y="130" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#1E293B">JSON-RPC 2.0 协议，统一 AI ↔ 工具 连接</text>
+    <text x="40" y="163" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#64748B">一个协议 = 无限兼容，告别碎片化集成</text>
+  </g>
+
+  <g transform="translate(40, 390)">
+    <rect x="0" y="0" width="340" height="160" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="340" height="50" rx="20" fill="#DBEAFE"/>
+    <text x="170" y="33" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#2563EB">&#x1F50C; 统一标准</text>
+    <text x="20" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">一个协议对接所有工具</text>
+    <text x="20" y="110" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">M + N 代替 M×N</text>
+  </g>
+
+  <g transform="translate(420, 390)">
+    <rect x="0" y="0" width="340" height="160" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="340" height="50" rx="20" fill="#EDE9FE"/>
+    <text x="170" y="33" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#7C3AED">🔧 三原语</text>
+    <text x="20" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">Tools · Resources · Prompts</text>
+    <text x="20" y="110" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">覆盖所有交互场景</text>
+  </g>
+
+  <g transform="translate(40, 590)">
+    <rect x="0" y="0" width="340" height="160" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="340" height="50" rx="20" fill="#D1FAE5"/>
+    <text x="170" y="33" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#059669">&#x1F512; 安全可控</text>
+    <text x="20" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">每个工具声明权限和参数</text>
+    <text x="20" y="110" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">模型按规则调用</text>
+  </g>
+
+  <g transform="translate(420, 590)">
+    <rect x="0" y="0" width="340" height="160" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="340" height="50" rx="20" fill="#FCE7F3"/>
+    <text x="170" y="33" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#EC4899">&#x1F310; 厂商中立</text>
+    <text x="20" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">捐赠给 Linux 基金会</text>
+    <text x="20" y="110" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">开放、免费、无锁</text>
+  </g>
+</svg>

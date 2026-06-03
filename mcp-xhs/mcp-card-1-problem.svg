@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#1E293B" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <circle cx="80" cy="80" r="70" fill="#FEE2E2" opacity="0.4"/>
+  <circle cx="720" cy="720" r="60" fill="#E0E7FF" opacity="0.3"/>
+
+  <rect x="40" y="40" width="720" height="100" rx="50" fill="#FEE2E2" filter="url(#shadow)"/>
+  <text x="400" y="108" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="48" font-weight="900" fill="#1E293B">❌ 没有 MCP 的世界</text>
+
+  <g transform="translate(40, 180)">
+    <rect x="0" y="0" width="720" height="110" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="14" height="110" rx="7" fill="#DC2626"/>
+    <text x="40" y="45" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#1E293B">🔧 每个工具都要写自定义集成</text>
+    <text x="40" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="17" fill="#64748B">数据库、API、文件系统…每种对接方式不同</text>
+  </g>
+
+  <g transform="translate(40, 320)">
+    <rect x="0" y="0" width="720" height="110" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="14" height="110" rx="7" fill="#DC2626"/>
+    <text x="40" y="45" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#1E293B">🧩 N × M 维护噩梦</text>
+    <text x="40" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="17" fill="#64748B">N 个模型 × M 个工具 = N×M 个集成</text>
+  </g>
+
+  <g transform="translate(40, 460)">
+    <rect x="0" y="0" width="720" height="110" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="14" height="110" rx="7" fill="#DC2626"/>
+    <text x="40" y="45" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#1E293B">🚫 AI 被隔离在数据孤岛</text>
+    <text x="40" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="17" fill="#64748B">再强的大模型也拿不到实时业务数据</text>
+  </g>
+
+  <g transform="translate(40, 620)">
+    <rect x="0" y="0" width="720" height="60" rx="30" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+    <text x="360" y="38" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#DC2626">每个 AI 项目都在"重复造轮子"</text>
+  </g>
+
+  <g transform="translate(40, 720)">
+    <rect x="0" y="0" width="720" height="50" rx="25" fill="#DBEAFE"/>
+    <text x="360" y="33" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#2563EB">MCP 就是来终结这种混乱的 ✅</text>
+  </g>
+</svg>
