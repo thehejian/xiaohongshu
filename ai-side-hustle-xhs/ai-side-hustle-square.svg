@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+    <rect width="1024" height="1024" fill="#FAF7F2"/>
+    <!-- Subtle gradient overlay -->
+    <defs>
+      <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FAF7F2"/>
+        <stop offset="100%" stop-color="#F3F0E8"/>
+      </linearGradient>
+      <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#6366F1"/>
+        <stop offset="50%" stop-color="#EC4899"/>
+        <stop offset="100%" stop-color="#F59E0B"/>
+      </linearGradient>
+      
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#1E1E3C" flood-opacity="0.06"/>
+    </filter>
+    
+    </defs>
+    <rect width="1024" height="1024" fill="url(#bgGrad)"/>
+
+    <!-- Top decorative dots -->
+    <circle cx="100" cy="100" r="6" fill="#6366F1" opacity="0.15"/>
+    <circle cx="130" cy="100" r="6" fill="#EC4899" opacity="0.15"/>
+    <circle cx="160" cy="100" r="6" fill="#F59E0B" opacity="0.15"/>
+
+    <!-- Title -->
+    <text x="60" y="220" font-size="72" font-weight="800" fill="url(#titleGrad)" font-family="PingFang SC, Microsoft YaHei, sans-serif">AI搞钱</text>
+    <text x="60" y="310" font-size="42" font-weight="600" fill="#1A1A2E" font-family="PingFang SC, Microsoft YaHei, sans-serif">3条普通人能接的路</text>
+
+    <!-- Divider line -->
+    <line x1="60" y1="360" x2="400" y2="360" stroke="#6366F1" stroke-width="4" stroke-linecap="round" opacity="0.3"/>
+
+    <!-- 3 Path cards -->
+    
+    <!-- Card background -->
+    <rect x="60" y="400" width="280" height="260" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <!-- Left color bar -->
+    <rect x="60" y="400" width="8" height="260" rx="4" fill="#6366F1"/>
+    <!-- Icon circle -->
+    <circle cx="130" cy="470" r="36" fill="#6366F1" opacity="0.12"/>
+    <text x="130" y="482" font-size="32" text-anchor="middle" fill="#6366F1" font-family="PingFang SC, Microsoft YaHei, sans-serif">✍️</text>
+    <!-- Title -->
+    <text x="180" y="472" font-size="36" font-weight="700" fill="#1A1A2E" font-family="PingFang SC, Microsoft YaHei, sans-serif">AI写稿接单</text>
+    <!-- Description -->
+    <text x="100" y="530" font-size="22" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">小红书/公众号代写</text>
+    <!-- Price tag -->
+    <rect x="100" y="580" width="180" height="44" rx="22" fill="#6366F1" opacity="0.1"/>
+    <text x="112" y="608" font-size="22" font-weight="600" fill="#6366F1" font-family="PingFang SC, Microsoft YaHei, sans-serif">50-300元/篇</text>
+    <!-- Bottom tag -->
+    <rect x="170" y="580" width="130" height="44" rx="22" fill="#1A1A2E" opacity="0.06"/>
+    <text x="235" y="608" font-size="18" text-anchor="middle" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">适合新手</text>
+    
+    
+    <!-- Card background -->
+    <rect x="380" y="400" width="280" height="260" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <!-- Left color bar -->
+    <rect x="380" y="400" width="8" height="260" rx="4" fill="#EC4899"/>
+    <!-- Icon circle -->
+    <circle cx="450" cy="470" r="36" fill="#EC4899" opacity="0.12"/>
+    <text x="450" y="482" font-size="32" text-anchor="middle" fill="#EC4899" font-family="PingFang SC, Microsoft YaHei, sans-serif">🎨</text>
+    <!-- Title -->
+    <text x="500" y="472" font-size="36" font-weight="700" fill="#1A1A2E" font-family="PingFang SC, Microsoft YaHei, sans-serif">AI做头像</text>
+    <!-- Description -->
+    <text x="420" y="530" font-size="22" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">头像/壁纸/表情包</text>
+    <!-- Price tag -->
+    <rect x="420" y="580" width="180" height="44" rx="22" fill="#EC4899" opacity="0.1"/>
+    <text x="432" y="608" font-size="22" font-weight="600" fill="#EC4899" font-family="PingFang SC, Microsoft YaHei, sans-serif">10-198元/张</text>
+    <!-- Bottom tag -->
+    <rect x="490" y="580" width="130" height="44" rx="22" fill="#1A1A2E" opacity="0.06"/>
+    <text x="555" y="608" font-size="18" text-anchor="middle" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">适合新手</text>
+    
+    
+    <!-- Card background -->
+    <rect x="700" y="400" width="280" height="260" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <!-- Left color bar -->
+    <rect x="700" y="400" width="8" height="260" rx="4" fill="#F59E0B"/>
+    <!-- Icon circle -->
+    <circle cx="770" cy="470" r="36" fill="#F59E0B" opacity="0.12"/>
+    <text x="770" y="482" font-size="32" text-anchor="middle" fill="#F59E0B" font-family="PingFang SC, Microsoft YaHei, sans-serif">📊</text>
+    <!-- Title -->
+    <text x="820" y="472" font-size="36" font-weight="700" fill="#1A1A2E" font-family="PingFang SC, Microsoft YaHei, sans-serif">AI做PPT</text>
+    <!-- Description -->
+    <text x="740" y="530" font-size="22" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">汇报/课件/路演</text>
+    <!-- Price tag -->
+    <rect x="740" y="580" width="180" height="44" rx="22" fill="#F59E0B" opacity="0.1"/>
+    <text x="752" y="608" font-size="22" font-weight="600" fill="#F59E0B" font-family="PingFang SC, Microsoft YaHei, sans-serif">100-500元/套</text>
+    <!-- Bottom tag -->
+    <rect x="810" y="580" width="130" height="44" rx="22" fill="#1A1A2E" opacity="0.06"/>
+    <text x="875" y="608" font-size="18" text-anchor="middle" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">适合新手</text>
+    
+
+    <!-- Bottom note -->
+    <rect x="60" y="700" width="904" height="80" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="100" y="735" font-size="20" fill="#4A4A68" font-family="PingFang SC, Microsoft YaHei, sans-serif">门槛低 · 靠量积累 · 月入2k-5k不难</text>
+    <text x="100" y="765" font-size="18" fill="#8888A0" font-family="PingFang SC, Microsoft YaHei, sans-serif">从最顺手的开始，别贪多</text>
+
+    <!-- Footer tags -->
+    <text x="60" y="840" font-size="16" fill="#8888A0" font-family="PingFang SC, Microsoft YaHei, sans-serif">#AI副业 #搞钱 #自由职业 #AI写稿 #AI绘画 #AI PPT</text>
+  </svg>
