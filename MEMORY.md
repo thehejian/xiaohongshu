@@ -2230,3 +2230,128 @@ adhd-ai-v2-xhs/
 - 末尾话题标签 ✓
 - 图片 4 张（浅色）/ 4 张（深色）✓
 
+## 34. ai-soul-interview-xhs — AI灵魂拷问实验（2026-06-04）
+
+### 项目结构
+```
+ai-soul-interview-xhs/
+├── article.md              # 小红书草稿（标题 10 字 + 正文 351 字）
+├── README.md               # 完整博客版
+├── gen_cards.py            # SVG→PNG 生成器（4 张浅色中文 + 4 张深色英文）
+├── card-cover.png          # 浅色封面 (1024×1024) — AI灵魂拷问 120px
+├── card-1.png              # 浅色30天流程 (1024×1024)
+├── card-2.png              # 浅色深度对比 (1024×1024)
+├── card-3.png              # 浅色潜意识白皮书 (1024×1024)
+├── card-cover-dark.png     # 深色封面 (1024×1024) — AI SOUL INTERVIEW
+├── card-1-dark.png         # 深色30天流程 (1024×1024)
+├── card-2-dark.png         # 深色深度对比 (1024×1024)
+└── card-3-dark.png         # 深色潜意识白皮书 (1024×1024)
+```
+
+### 发布数据
+- 小红书：✅ 暂存成功（草稿箱），标题「AI灵魂拷问30天」（10字），正文 351 字，4 张浅色中文卡
+- Twitter：✅ 已发布 https://x.com/DubaIGOHGOkTHOk/status/2062784967135137811，4 张深色英文卡
+- 飞书文档：https://www.feishu.cn/docx/NrEOd7s8io7MDCxyzLacSsyWnhg
+
+### 卡片样式最终规范（本轮用户反复确认）
+
+**浅色卡片（中文，小红书用）：**
+```
+底色：#FAF7F2 → #F5F0E8 渐变（或纯色）
+结构：外层白卡 rect (rx=36) + 内部 item rects（rx=16, opacity=0.08）
+文字定位：绝对居中（text-anchor="middle" + 精确基线计算）
+字号：封面 120px，内容卡标题 40-48px，描述 22-34px
+颜色：#1E293B（主）+ 品牌色：蓝#2563EB / 紫#7C3AED / 粉#EC4899 / 绿#059669 / 橙#D97706
+禁止：白色文字（#FFF）、灰色文字、任何 filter/投影/阴影
+删除：大标题、"30天流程"等 section 标题、评论区扣灵魂等底部 CTA
+```
+
+**深色卡片（英文，Twitter 用）：**
+```
+底色：#070717 径向渐变
+外卡：#111130 (rx=36)，item rects 同色 opacity=0.12
+文字：#E2E8F0（主）+ 高亮色：蓝#60A5FA / 紫#A78BFA / 粉#F472B6 / 绿#34D399 / 橙#FBBF24
+禁止：黑色、深灰色、暗色文字
+```
+**垂直居中算法（cv2）：**
+```python
+def v1(ry, rh, fs):           # 单行居中
+    return ry + rh // 2 + int(fs * 0.35)
+
+def v2(ry, rh, fs1, fs2, g=10):  # 双行居中（标题+描述）
+    tv = int(0.75 * fs1) + g + int(0.75 * fs2)
+    vt = ry + (rh - tv) // 2
+    return vt + int(0.7 * fs1), vt + int(0.75 * fs1) + g + int(0.7 * fs2)
+```
+
+### 关键踩坑 & 修复
+
+**1. Twitter compose page IPv6 block（最严重的阻塞）**
+- 症状：`https://x.com/compose/post` 返回 `<body><pre>IPv6</pre></body>` — 页面空白
+- 根因：X.com 对 headless/automated 浏览器的 compose 页面做了 CDN/IP 检测
+- 修复过程（3 轮）：
+  - v1：改变 COMPOSE_URL 为 `https://x.com/home` → 文本输入+图片上传成功，但提交检测超时
+  - v2：改 submitTweet 检测逻辑（检查 composer 可见性而非文本）→ 提交后 composer 元素从 DOM 移除，检测通过
+  - v3：最终修复组合（见以下代码）
+- 最终 adapter 修改：
+  ```javascript
+  // 使用 homepage + 点击侧边栏 Post 按钮打开 compose dialog
+  const COMPOSE_URL = 'https://x.com';
+  await page.goto(COMPOSE_URL, { waitUntil: 'load', settleMs: 2500 });
+  await page.wait({ selector: '[data-testid="SideNav_NewTweet_Button"]', timeout: 15 });
+  await page.evaluate(`document.querySelector('[data-testid="SideNav_NewTweet_Button"]')?.click()`);
+  await page.wait({ selector: '[data-testid="tweetTextarea_0"]', timeout: 15 });
+  ```
+
+**2. Browser session 管理**
+- `--site-session persistent` 的 session 容易 stale（多次失败后）→ 需要 `opencli daemon restart` 恢复
+- `--site-session ephemeral` 每次都创建新 session，但可能触发 x.com IPv6 检测
+- 推荐策略：先用 ephemeral foreground 测试，成功后用 persistent 保持
+- `opencli doctor` 确认 Extension connected 后再执行发布命令
+
+**3. Twitter 发布无草稿模式**
+- `opencli twitter post` 没有 `--draft` 参数，发布即公开
+- 用户要求"保存到草稿箱"时无法直接满足
+- 替代方案：用 browser eval 填充 compose 页面但不点击 Post
+
+**4. opencli gemini image 持续不可用**
+- 本次 4 次尝试全部返回 `status: ⚠️ no-images`
+- 与本项目前 3 次（opencut-xhs/mcp-xhs/ai-graveyard-xhs）现象完全一致
+- 结论：`opencli gemini image` 不应作为封面主要生成方式，SVG gen_cards.py 是唯一可靠方案
+
+**5. 小红书 publish 必须 foreground + ephemeral**
+- `--window background` 报 `Image injection failed: No file input found on page`
+- `--site-session persistent` 在 daemon restart 后报 `stale page identity`
+- 最终成功参数：`--window foreground --site-session ephemeral --keep-tab true`
+- 注意：foreground + ephemeral 每次打开新浏览器窗口，用户需确认登录态
+
+### 发布命令（本轮验证）
+```bash
+# 小红书草稿
+opencli xiaohongshu publish "AI灵魂拷问30天\n\n正文..." \
+  --title "AI灵魂拷问30天" \
+  --images "ai-soul-interview-xhs/card-cover.png,ai-soul-interview-xhs/card-1.png,..." \
+  --draft true \
+  --window foreground \
+  --site-session ephemeral \
+  -f yaml
+
+# Twitter 发布
+opencli twitter post "推文内容" \
+  --images "...card-cover-dark.png,...card-1-dark.png,..." \
+  --window foreground \
+  --site-session persistent \
+  -f yaml
+```
+
+### 正文字数验证方法
+```bash
+echo -n "正文内容" | wc -m  # 简单准确
+```
+
+### 飞书文档更新（3轮）
+- v1：`+create` 含完整正文 + 后插 4 张图
+- v2：`+update --mode overwrite` 换正文 + 重插 4 张图
+- v3：`+update --mode overwrite` 换简版正文（含浅色/深色章节）+ 重插 8 张图
+- 教训：每次 overwrite 都需重插全部图片，效率低，适合内容完全不同的场景
+

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+    <linearGradient id="titleG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <text x="512" y="400" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="72" font-weight="900" fill="#1E293B">英伟达GTC首秀</text>
+  <text x="512" y="520" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="88" font-weight="900" fill="url(#titleG)">开源桌面Agent</text>
+   <text x="512" y="640" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="36" font-weight="600" fill="#64748B">Hermes Desktop Beta · MIT</text>
+  <text x="512" y="950" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#2563EB">一行命令安装 → curl -fsSL hermes-agent.nousresearch.com/install.sh | bash</text>
+</svg>

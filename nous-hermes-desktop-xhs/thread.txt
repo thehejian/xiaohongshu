@@ -1,0 +1,53 @@
+Jensen Huang just debuted Hermes Desktop on stage at GTC.
+
+An open-source desktop agent that lives in your background, not in a browser tab.
+
+Here's why it matters ↓
+
+---
+
+Hermes Desktop is NOT a chatbot wrapper.
+
+It's an autonomous agent that:
+• Runs 24/7 on your machine
+• Remembers everything across sessions
+• Talks to 13+ platforms (Telegram, Slack, Discord, WhatsApp...)
+• Schedules tasks in natural language
+• Spawns sub-agents for parallel work
+• Sandboxes code in Docker/SSH/Modal
+
+MIT licensed. One-line install.
+
+---
+
+The GTC demo hit different.
+
+Jensen said: "Analyze this week's GitHub trends, generate a report, and post it to team Slack."
+
+20 seconds later it was done — live on stage.
+
+---
+
+The "AI islands" problem is real.
+
+A chatbot here, a coding copilot there, a drawing tool somewhere else.
+
+None of them talk to each other.
+None of them remember yesterday.
+None of them work while you sleep.
+
+Hermes Desktop is the first real attempt to solve this at the OS level.
+
+---
+
+curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
+
+That's it. No signup. No credit card. MIT open source.
+
+---
+
+The era of passive chatbots is over.
+
+Desktop agents that work for you — not the other way around — are here.
+
+And Jensen just gave it his biggest stage.

@@ -295,6 +295,22 @@ if (btn && !btn.disabled) btn.click();
 ### 网络问题
 - GitHub push 失败（`Failed to connect` / `HTTP2 framing error`）→ retry 即可
 
+### compose 页面 IPv6 屏蔽（2026-06-04 修复）
+- `https://x.com/compose/post` 被 X.com CDN/IP 检测屏蔽 → 返回 `<pre>IPv6</pre>` 空白页
+- **修复方案**：导航到 `https://x.com` 首页 → 点击 `[data-testid="SideNav_NewTweet_Button"]` → 用模态对话框发帖
+- submit 检测适配：模态关闭后 composer 从 DOM 移除，检查 `boxes.length > 0`（可见性）而非仅检查文本内容
+- 此修复已验证通过
+
+### Twitter 无草稿模式
+- `opencli twitter post` 没有 `--draft` 参数，发布即公开
+- 用户要求"暂存为草稿"时无法满足
+
+### browser session 管理
+- `--site-session persistent` 的 session 容易 stale（多次失败后），需 `opencli daemon restart` 恢复
+- `--site-session ephemeral` 可能触发 IPv6 检测
+- 推荐策略：ephemeral foreground 测试通过后，用 persistent 保持
+- 执行发布前必须 `opencli doctor` 确认 Extension connected
+
 ## 八、参考文献
 - `小红书生产流水线大纲.md` — XHS 完整流水线（含卡片设计语言、爆款写作）
 - `MEMORY.md` #32 — AI老人语录红利项目经验（Twitter 单条发布验证）
