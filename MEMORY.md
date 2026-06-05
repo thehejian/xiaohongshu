@@ -2493,3 +2493,127 @@ PPT 制作 → Gamma（描述即生成）
 4. **Twitter 单条推文 + 4 图是可靠模式**：无需 thread，信息密度高即可
 5. **XHS 草稿发布参数组合**：`--draft true --window foreground --site-session persistent -f yaml`
 
+## 38. grok-civilization-collapse — Grok AI 模拟文明崩溃（2026-06-05）
+
+### 项目结构
+```
+grok-civilization-collapse/
+├── article.md              # 小红书草稿（标题 19 字 + 正文 892 字）
+├── tweet.md                # Twitter 推文（英文，~280 字符）
+├── doc-content.md          # 飞书文档正文
+├── index.html              # HTML 卡片模板（Swiss 风格）
+├── gen_dark_cards.py       # PIL 深色卡片生成器
+├── output/
+│   ├── card-cn-01.png      # 中文浅色封面 (1080×1440)
+│   ├── card-cn-02.png      # 中文浅色 - 崩溃不是意外
+│   ├── card-cn-03.png      # 中文浅色 - 技术爆炸=加速灭亡
+│   ├── card-cn-04.png      # 中文浅色 - 扁平社会存活3倍长
+│   ├── en-dark-01.png      # 英文深色封面 (1080×1440)
+│   ├── en-dark-02.png      # 英文深色 - Collapse Is Inevitable
+│   ├── en-dark-03.png      # 英文深色 - Tech Boom = Faster Death
+│   └── en-dark-04.png      # 英文深色 - Flat Societies Survive 3x Longer
+└── preview-full.png        # 全页预览
+```
+
+### 发布数据
+- **小红书草稿**：✅ 暂存成功（草稿箱），标题「Grok AI 模拟文明崩溃」（19 字），正文 892 字，4 张浅色卡
+- **Twitter**：❌ `Tweet button is disabled or not found` — 浏览器未登录/页面未加载，需手动发布
+- **飞书文档**：https://kcn2x4k2r5fn.feishu.cn/docx/HVBud2G7RowUMFx1hhccXqVinTc（8 张图全部上传成功）
+
+### 内容要点
+- **主题**：Grok AI 模拟整个文明兴衰，发现文明崩溃是数学必然
+- **核心发现**：
+  1. 文明崩溃不是意外，而是必然（平均周期 300-500 年）
+  2. 资源陷阱无法逃脱（消耗 > 再生）
+  3. 技术爆炸 = 加速灭亡（反直觉）
+  4. 扁平社会存活 3 倍长（但难抗危机）
+- **调性**：小红书走"情绪共鸣 + 利他价值"，Twitter 走"认知颠覆 + 观点输出"
+
+### 关键踩坑 & 修复
+
+**1. 飞书文档 overwrite 后图片丢失（最严重）**
+- 症状：`+update --mode overwrite` 后 `+fetch` 返回的 markdown 中 `<image token=""/>` 为空
+- 根因：`overwrite` 模式清空整个文档（包括 media blocks），但 `+media-insert` 的 token 绑定失效
+- **修复方案**：
+  - **方案 A（推荐）**：先 `+create` 创建空文档 → 串行 `+media-insert` 插入所有图片 → 再 `+update --mode append` 写入正文
+  - **方案 B**：用 `v2 API` 的 `+create --content` 创建含正文的文档 → 再 `+media-insert` 插入图片
+  - **绝对避免**：`+create` 含正文 + `+media-insert` → `+update --mode overwrite`（token 会丢失）
+- 教训：`overwrite` 是破坏性操作，图片必须后插
+
+**2. 深色卡片 AI 生成文字模糊/缺失**
+- 症状：Kolors AI 生成的深色卡片文字经常模糊、变形或缺失
+- 根因：AI 图像模型不擅长渲染精确文字
+- **修复方案**：改用 PIL (Pillow) 直接渲染文字
+  ```python
+  from PIL import Image, ImageDraw, ImageFont
+  img = Image.new("RGB", (1080, 1440), (11, 16, 39))  # #0B1027
+  draw = ImageDraw.Draw(img)
+  draw.text((x, y), "文字内容", fill=(248, 250, 252), font=font)
+  ```
+- 配色：背景 `#0B1027`，文字 `#F8FAFC`，强调条 `#38BDF8`
+- 字体：Helvetica/Noto Sans SC，标题 100px，副标题 48px
+
+**3. Twitter 发布按钮不可用**
+- 症状：`Tweet button is disabled or not found`
+- 根因：浏览器未登录 Twitter / 页面未完全加载 / session stale
+- **排查步骤**：
+  1. `opencli doctor` 确认 Extension connected
+  2. `opencli browser <session> open "https://x.com"` 手动检查登录态
+  3. 如未登录，在浏览器中手动登录
+  4. 重试 `opencli twitter post`
+- **备选方案**：手动发布（复制文案 + 上传图片）
+
+**4. 浏览器扩展未连接**
+- 症状：`Browser Bridge extension not connected`
+- 修复：`opencli daemon restart` → `opencli doctor` 确认
+- 如仍失败，需手动检查 Chrome 扩展是否启用
+
+**5. 小红书草稿发布成功**
+- 命令：`opencli xiaohongshu publish --draft true --window foreground --site-session persistent -f yaml`
+- 返回：`- status: ✅ 暂存成功`
+- 图片路径：必须相对 CWD（`./output/card-cn-01.png`）
+
+### 卡片设计最终规范（本轮验证）
+
+**浅色卡片（中文，小红书用）：**
+```
+底色：#FAF7F2（纯色，无渐变）
+文字：#1E293B（深灰）+ 品牌强调色 #FF6B35（橙色）
+字号：标题 110-140px，副标题 88px
+布局：Flex 居中，绝对水平和垂直居中
+禁止：白色文字、灰色文字、投影/阴影/滤镜
+```
+
+**深色卡片（英文，Twitter 用）：**
+```
+底色：#0B1027（深蓝，纯色无渐变）
+文字：#F8FAFC（白色）+ 强调条 #38BDF8（天蓝）
+字号：标题 100-110px，副标题 48px
+布局：Flex 居中，绝对水平和垂直居中
+生成方式：PIL 直接渲染（不可用 AI 生成）
+禁止：黑色、深灰色、暗色文字
+```
+
+### 推文内容（Twitter — 待手动发布）
+```
+Grok AI ran a civilization collapse simulation. Every single civilization collapsed after 300-500 years. Tech acceleration = faster death. Flat societies survive 3x longer but can't handle crises. Collapse isn't an accident—it's inevitable. AI is our civilization mirror. #GrokAI #AI
+```
+- 字符数：~280 加权字符（符合上限）
+- 图片：4 张深色英文卡片
+
+### 小红书正文（article.md）
+- 标题：`Grok AI 模拟文明崩溃：人类未来会怎样？`（19 字）
+- 正文：892 字（≤950 ✓）
+- 首行即标题 ✓
+- 无时间戳 ✓
+- 纯文本格式 ✓
+- 4 张浅色中文卡片 ✓
+
+### 经验总结
+
+1. **飞书文档图片插入顺序至关重要**：先插图片后写正文，或先用 v2 API 创建再插图片
+2. **深色文字卡片必须用 PIL 渲染**：AI 图像模型不靠谱
+3. **Twitter 发布前必须确认登录态**：`opencli browser open "https://x.com"` 手动检查
+4. **小红书草稿发布参数固定组合**：`--draft true --window foreground --site-session persistent -f yaml`
+5. **双语言卡片尺寸统一**：1080×1440 (3:4)，与小红书规范一致
+

@@ -295,6 +295,24 @@ opencli browser <session> click '[data-testid="tweetButton"]'
 
 ### 故障处理 fallback
 
+#### Twitter 发布按钮不可用（2026-06-05 grok-civilization-collapse 验证）
+- **症状**：`Tweet button is disabled or not found`
+- **根因**：浏览器未登录 Twitter / 页面未完全加载 / session stale
+- **排查步骤**：
+  1. `opencli doctor` 确认 Extension connected
+  2. `opencli browser <session> open "https://x.com"` 手动检查登录态
+  3. 如未登录，在浏览器中手动登录
+  4. 重试 `opencli twitter post`
+- **备选方案**：手动发布（复制文案 + 上传图片）
+
+#### 深色卡片文字渲染（2026-06-05 grok-civilization-collapse 验证）
+- **AI 生成图片（Kolors 等）文字经常模糊或缺失** — 不可靠用于文字卡片
+- **推荐方案**：PIL (Pillow) 直接渲染文字，确保 100% 清晰
+- **生成脚本**：`gen_dark_cards.py` — Python PIL 生成深色卡片
+- **配色**：背景 `#0B1027`，文字 `#F8FAFC`，强调条 `#38BDF8`
+- **字体**：Helvetica/Noto Sans SC，标题 100px，副标题 48px
+- **尺寸**：1080×1440 (3:4)
+
 #### 超时处理
 - `twitter/post` 内部超时 60s，不支持 `--timeout` 参数
 - 重试方法：`--window foreground --site-session persistent --keep-tab true` + 多次重试
