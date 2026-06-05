@@ -2355,3 +2355,23 @@ echo -n "正文内容" | wc -m  # 简单准确
 - v3：`+update --mode overwrite` 换简版正文（含浅色/深色章节）+ 重插 8 张图
 - 教训：每次 overwrite 都需重插全部图片，效率低，适合内容完全不同的场景
 
+## 10. Nous Hermes Desktop — 2026-06-05
+
+### 内容要点
+- **主题**: Hermes Desktop Beta 公测 + Jensen GTC 首秀
+- **卡片风格**: 浅色中文（奶油渐变） + 深色英文（径向渐变）
+- **字数**: 标题 20 字 ✓，正文 885 字 ✓（含换行），Twitter 主推文 62 字符（87 加权）
+
+### SVG 实坑
+- **`&middot;` 和 `&rarr;` 不是 XML 实体**：HTML 的 `&middot;`（·）和 `&rarr;`（→）在 SVG/XML 中不是标准实体。Inkscape 会报 `parser error : Entity 'middot' not defined` 并渲染为空白。必须用 Unicode 字符 `·` (U+00B7) 和 `→` (U+2192) 直接写入 f-string。
+- **卡片的副标题行用 `·` 分隔比 `|` 更优雅**，但必须用 Python Unicode 字面量而非 HTML entity。
+
+### 发布验证
+- XHS 草稿: `--draft true` + `--window foreground` + `--site-session persistent` 成功保存
+- Twitter: 直接发布成功，无 draft 模式。用户要求"保存到草稿箱"目前无法满足（opencli twitter post 无 --draft）
+- 飞书文档：先 `+create` 再 `+media-insert` × 8 张图，无需 overwrite
+
+### 流程改进建议
+- 对于含 SVG 实体的场景，生成后先跑 `xmllint --noout *.svg` 或直接检查 Inkscape 输出是否有 parser error
+- Twitter 主推文应控制在 60-80 中文字符（120-160 weighted），留余量给 emoji 和空格
+

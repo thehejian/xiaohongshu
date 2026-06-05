@@ -97,6 +97,7 @@ def check_char_count(text):
 - 保留核心亮点最多 3 个，每条一句话
 - 选 1 张封面 + 2-3 张内容卡
 - 删 XHS 引导语（"评论区聊聊""宝子们""亲测"）
+- **SVG 中禁止 HTML entity**（如 `&middot;`）— 改用 Unicode 字面量
 - 用 `\n` 换行营造呼吸感
 
 ## 六、发布命令
