@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FAF7F2"/>
+      <stop offset="100%" style="stop-color:#F5F0E8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1024" height="8" fill="#E85D04"/>
+  <rect x="0" y="1016" width="1024" height="8" fill="#E85D04"/>
+  <text x="80" y="140" font-family="Noto Sans SC, sans-serif" font-size="28" fill="#64748B">02</text>
+  <text x="80" y="200" font-family="Noto Sans SC, sans-serif" font-size="56" font-weight="bold" fill="#1E293B">慢的三大优势</text>
+  <line x1="80" y1="240" x2="400" y2="240" stroke="#D97706" stroke-width="4" stroke-linecap="round"/>
+  <rect x="80" y="300" width="864" height="120" rx="16" fill="#FFF" opacity="0.5"/>
+  <circle cx="120" cy="360" r="10" fill="#E85D04"/>
+  <text x="150" y="340" font-family="Noto Sans SC, sans-serif" font-size="36" font-weight="bold" fill="#1E293B">噪音过滤器</text>
+  <text x="150" y="390" font-family="Noto Sans SC, sans-serif" font-size="26" fill="#64748B">自动避开90%的泡沫信息</text>
+  <rect x="80" y="440" width="864" height="120" rx="16" fill="#FFF" opacity="0.5"/>
+  <circle cx="120" cy="500" r="10" fill="#E85D04"/>
+  <text x="150" y="480" font-family="Noto Sans SC, sans-serif" font-size="36" font-weight="bold" fill="#1E293B">深度壁垒</text>
+  <text x="150" y="530" font-family="Noto Sans SC, sans-serif" font-size="26" fill="#64748B">一个工具跑出10个作品 > 蜻蜓点水20个工具</text>
+  <rect x="80" y="580" width="864" height="120" rx="16" fill="#FFF" opacity="0.5"/>
+  <circle cx="120" cy="640" r="10" fill="#E85D04"/>
+  <text x="150" y="620" font-family="Noto Sans SC, sans-serif" font-size="36" font-weight="bold" fill="#1E293B">底层能力</text>
+  <text x="150" y="670" font-family="Noto Sans SC, sans-serif" font-size="26" fill="#64748B">Prompt工程·数据思维·问题拆解</text>
+  <text x="80" y="830" font-family="Noto Sans SC, sans-serif" font-size="28" fill="#D97706">快的人在追热点，慢的人在看本质</text>
+  <text x="964" y="974" font-family="Noto Sans SC, sans-serif" font-size="22" fill="#64748B" text-anchor="end">3/4</text>
+</svg>

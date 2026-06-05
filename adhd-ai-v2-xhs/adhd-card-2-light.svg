@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+<rect width="800" height="800" fill="#FAF7F2"/>
+
+<text x="400" y="200" text-anchor="middle" dominant-baseline="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="40" font-weight="600" fill="#1E293B" letter-spacing="4">解</text>
+<text x="400" y="260" text-anchor="middle" dominant-baseline="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="40" font-weight="600" fill="#1E293B" letter-spacing="4">药</text>
+<text x="400" y="380" text-anchor="middle" dominant-baseline="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="96" font-weight="900" fill="#F59E0B" letter-spacing="-2">3个</text>
+<text x="400" y="500" text-anchor="middle" dominant-baseline="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="48" font-weight="700" fill="#1E293B">减少AI切换频率</text>
+
+</svg>

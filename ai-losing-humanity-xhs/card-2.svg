@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F5F0E8"/>
+</linearGradient><linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#2563EB"/><stop offset="100%" stop-color="#3B82F6"/>
+</linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#bg)"/>
+<text x="80" y="280" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="120" font-weight="900" fill="url(#accent)" letter-spacing="-3">情绪</text>
+<text x="80" y="440" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="120" font-weight="900" fill="url(#accent)" letter-spacing="-3">扁平化</text>
+<rect x="80" y="500" width="80" height="4" rx="2" fill="#2563EB" opacity=".5"/>
+<text x="80" y="580" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#1E293B">你正在模仿AI的冷漠理性</text>
+<text x="80" y="650" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26" font-weight="500" fill="#1E293B">不再愤怒 · 不再激动 · 不再难过</text>
+<text x="80" y="720" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="28" font-weight="900" fill="#DC2626">是AI把你的情绪抹平了</text>
+</svg>

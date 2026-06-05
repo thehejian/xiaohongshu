@@ -191,7 +191,62 @@ Twitter 发布复用 XHS 生成的卡片，但部分场景需要独立生成：
 - `twitter delete` 找不到菜单选择器 → 手动 eval 替代
 - React 重新渲染后 ref 编号变化 → 用 CSS 选择器代替 ref
 
+### 首次发布故障处理（2026-06-05 验证）
+
+**场景：** `twitter post` 一直返回 `This operation was aborted`
+
+**根因：** 没有绑定浏览器 session，adapter 无法定位已登录 tab
+
+**修复流程：**
+```bash
+# 1. 绑定已有登录态 tab
+opencli browser <session> bind
+
+# 2. 导航到发帖页
+opencli browser <session> open "https://x.com/compose/post"
+
+# 3. 正常发布
+opencli twitter post "<text>" --images "..." -f yaml
+```
+- 绑定后**不要**传 `--window foreground`（与绑定 session 冲突）
+
+**场景：** `twitter reply` 返回 `Could not verify reply text in the composer after typing`
+
+**根因：** compose 页面已关闭或 textarea 选择器不匹配
+
+**替代方案（eval fallback）：**
+```bash
+# 导航到 tweet 页
+opencli browser <session> open "https://x.com/.../status/<id>"
+
+# 用 eval 找到并点击回复按钮
+opencli browser <session> eval 'document.querySelector(\'[data-testid="reply"]\').click()'
+
+# 等待输入框出现，插入文本
+opencli browser <session> eval '
+  const tb = document.querySelector(\'[data-testid="tweetTextarea_0"]\');
+  if (tb) { tb.focus(); document.execCommand("insertText", false, "回复内容"); }
+'
+
+# 点击发布
+opencli browser <session> click '[data-testid="tweetButton"]'
+```
+
+### 卡片样式规范（2026-06-05 新增）
+- 深色卡片（英文，Twitter 用）：底色 `#0A0A14`，亮色文字（`#F5F5F7`/`#C4B5FD`/`#67E8F9`/`#FCD34D`/`#F472B6`）
+- 禁止黑色/深灰色/暗色文字，必须用高亮浅色系
+- 绝对居中、无阴影、无标题栏、无底部文字
+- 与 XHS 浅色卡片共用 `gen_cards.py`（light + dark 两组函数）
+
 ### 故障处理 fallback
+
+#### 超时处理
+- `twitter/post` 内部超时 60s，不支持 `--timeout` 参数
+- 重试方法：`--window foreground --site-session persistent --keep-tab true` + 多次重试
+- 也可用 `OPENCLI_BROWSER_COMMAND_TIMEOUT=180` 环境变量（但偶现 `aborted` 错误）
+- **先确认登录状态**：`opencli twitter profile` 验证后再发帖
+
+#### 备用发帖方案
 当 `twitter post/reply` 验证失败时，直接用 browser eval 操作：
 ```javascript
 const tb = document.querySelector('[data-testid=tweetTextarea_0]');

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F3F0E8"/></linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/><circle cx="81.92" cy="81.92" r="60" fill="#E0F2FE" opacity="0.4"/><circle cx="942.08" cy="122.88" r="50" fill="#EDE9FE" opacity="0.4"/><circle cx="81.92" cy="901.12" r="70" fill="#DBEAFE" opacity="0.3"/><circle cx="942.08" cy="798.72" r="80" fill="#FFEDD5" opacity="0.3"/>
+
+<text x="512" y="90" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="38" font-weight="800" fill="#1E293B">进阶玩法</text>
+<text x="512" y="130" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" fill="#64748B">开发者的完整工具箱</text>
+
+<g transform="translate(62, 180)">
+  <rect x="0" y="0" width="430" height="200" rx="16" fill="#FFFFFF" stroke="#0EA5E9" stroke-width="1.5"/>
+  <text x="30" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="700" fill="#0EA5E9">REST API</text>
+  <text x="30" y="75" font-family="ui-monospace,monospace" font-size="16" fill="#64748B">curl http://localhost:11434</text>
+  <text x="30" y="75" font-family="ui-monospace,monospace" font-size="16" fill="#64748B">curl http://localhost:11434</text>
+  <text x="30" y="105" font-family="ui-monospace,monospace" font-size="16" fill="#64748B">  /api/generate \</text>
+  <text x="30" y="135" font-family="ui-monospace,monospace" font-size="16" fill="#64748B">  -d '{"model":"qwen2.5:7b",</text>
+  <text x="30" y="165" font-family="ui-monospace,monospace" font-size="16" fill="#64748B">  "prompt":"Hello"}'</text>
+</g>
+<g transform="translate(532, 180)">
+  <rect x="0" y="0" width="430" height="200" rx="16" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="30" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="700" fill="#8B5CF6">Python SDK</text>
+  <text x="30" y="75" font-family="ui-monospace,monospace" font-size="16" fill="#64748B">import ollama</text>
+  <text x="30" y="105" font-family="ui-monospace,monospace" font-size="16" fill="#64748B">response = ollama.chat(</text>
+  <text x="30" y="135" font-family="ui-monospace,monospace" font-size="16" fill="#64748B">  model='qwen2.5:7b',</text>
+  <text x="30" y="165" font-family="ui-monospace,monospace" font-size="16" fill="#64748B">  messages=[{'role':'user',</text>
+  <text x="30" y="195" font-family="ui-monospace,monospace" font-size="16" fill="#64748B">  'content':'你好'}])</text>
+</g>
+
+<g transform="translate(62, 420)">
+  <rect x="0" y="0" width="900" height="120" rx="16" fill="#FFFFFF" stroke="#10B981" stroke-width="1.5"/>
+  <text x="30" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="700" fill="#10B981">Web UI：Open WebUI</text>
+  <text x="30" y="75" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" fill="#64748B">docker run -d -p 3000:8080 ghcr.io/open-webui/open-webui:main</text>
+  <text x="30" y="105" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">然后浏览器打开 http://localhost:3000 — 媲美 ChatGPT 的界面</text>
+</g>
+
+<g transform="translate(62, 580)">
+  <rect x="0" y="0" width="900" height="120" rx="16" fill="#FFFFFF" stroke="#F97316" stroke-width="1.5"/>
+  <text x="30" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="700" fill="#F97316">IDE 集成</text>
+  <text x="30" y="75" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" fill="#64748B">Continue.dev + Ollama = VS Code/Cursor 内本地 AI 编程助手</text>
+  <text x="30" y="105" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">配置一行 baseUrl: http://localhost:11434 即可</text>
+</g>
+
+<g transform="translate(62, 740)">
+  <rect x="0" y="0" width="900" height="70" rx="14" fill="#E0F2FE"/>
+  <text x="40" y="32" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="600" fill="#0EA5E9">⚡ 性能调优</text>
+  <text x="40" y="60" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">export OLLAMA_NUM_PARALLEL=4  ·  OLLAMA_MAX_LOADED_MODELS=2  ·  关闭后台应用释放内存</text>
+</g>
+
+<text x="512" y="960" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="14" fill="#94A3B8">ollama.com · python SDK: pip install ollama</text>
+
+</svg>

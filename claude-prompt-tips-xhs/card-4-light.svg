@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<rect width="1024" height="1024" fill="#FAF7F2"/>
+<g transform="translate(512,512)">
+<text x="0" y="-50" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="44" font-weight="900" fill="#1E293B" text-anchor="middle" dominant-baseline="middle" letter-spacing="-0.5">和 Claude 交流</text>
+<text x="0" y="50" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="44" font-weight="900" fill="#D97706" text-anchor="middle" dominant-baseline="middle" letter-spacing="-0.5">就像和一流顾问合作</text>
+<text x="0" y="150" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="500" fill="#475569" text-anchor="middle" dominant-baseline="middle">交付质量 ≈ 输入的上下文质量</text>
+<text x="0" y="200" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="500" fill="#475569" text-anchor="middle" dominant-baseline="middle">越具体的框架 → 越精准的输出</text>
+<text x="0" y="250" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="500" fill="#475569" text-anchor="middle" dominant-baseline="middle">越明确的约束 → 越少的意外</text>
+</g>
+</svg>

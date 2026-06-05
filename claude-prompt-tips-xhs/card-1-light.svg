@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<rect width="1024" height="1024" fill="#FAF7F2"/>
+<g transform="translate(512,512)">
+<text x="0" y="-50" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="72" font-weight="900" fill="#1E293B" text-anchor="middle" dominant-baseline="middle" letter-spacing="-1">Claude 高阶</text>
+<text x="0" y="50" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="72" font-weight="900" fill="#D97706" text-anchor="middle" dominant-baseline="middle" letter-spacing="-1">提示词 8 招</text>
+</g>
+</svg>

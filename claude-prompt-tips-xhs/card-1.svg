@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F5F0E8"/>
+</linearGradient>
+<linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#D97706"/><stop offset="100%" stop-color="#F59E0B"/>
+</linearGradient>
+<filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+<feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#1E293B" flood-opacity=".06"/>
+</filter>
+</defs>
+<rect width="1024" height="1024" fill="url(#bg)"/>
+<circle cx="80" cy="80" r="4" fill="#2563EB" opacity=".25"/>
+<circle cx="130" cy="80" r="4" fill="#059669" opacity=".25"/>
+<circle cx="180" cy="80" r="4" fill="#D97706" opacity=".25"/>
+<g transform="translate(80,140)">
+<rect x="0" y="0" width="6" height="36" rx="3" fill="#D97706"/>
+<text x="22" y="18" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#D97706">PROMPT ENGINEERING</text>
+<text x="22" y="36" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#64748B">8 ADVANCED PATTERNS FOR CLAUDE</text>
+</g>
+<g transform="translate(80,260)">
+<text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="96" font-weight="900" fill="#1E293B" letter-spacing="-2">Claude高阶</text>
+<text x="0" y="115" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="96" font-weight="900" fill="url(#accentGrad)" letter-spacing="-2">提示词8招</text>
+</g>
+<g transform="translate(80,460)">
+<rect x="0" y="0" width="120" height="4" rx="2" fill="#D97706" opacity=".6"/>
+<text x="0" y="40" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="24" font-weight="500" fill="#475569">可直接复制的高级模板</text>
+<text x="0" y="78" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="24" font-weight="500" fill="#475569">低门槛 · 高传播 · 即用即生效</text>
+</g>
+<g transform="translate(80,600)">
+<rect x="0" y="0" width="864" height="220" rx="20" fill="#FFF" filter="url(#shadow)"/>
+<text x="40" y="48" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#D97706">8 条速览</text>
+<text x="40" y="92" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="600" fill="#1E293B">结构标签法 · 反向追问法 · 思考链法</text>
+<text x="40" y="130" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="600" fill="#1E293B">角色锚定法 · 示例驱动法 · 输出锁定法</text>
+<text x="40" y="168" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="600" fill="#1E293B">对抗审查法 · 知识边界法</text>
+</g>
+<g transform="translate(80,930)">
+<text font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#64748B">anthropic.com · claude prompt patterns</text>
+</g>
+</svg>

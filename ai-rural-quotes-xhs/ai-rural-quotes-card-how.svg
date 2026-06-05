@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+    <rect width="1024" height="1024" fill="#FAF7F2"/>
+    <defs>
+      
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#1E1E3C" flood-opacity="0.06"/>
+    </filter>
+    
+    </defs>
+
+    <rect width="1024" height="140" fill="#059669" opacity="0.08"/>
+    <text x="60" y="60" font-size="20" font-weight="600" fill="#059669" font-family="PingFang SC, Microsoft YaHei, sans-serif">CARD 02</text>
+    <text x="60" y="105" font-size="44" font-weight="800" fill="#1E293B" font-family="PingFang SC, Microsoft YaHei, sans-serif">AI怎么做 5分钟/条</text>
+
+    <rect x="60" y="170" width="904" height="380" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="90" y="215" font-size="22" font-weight="700" fill="#1E293B" font-family="PingFang SC, Microsoft YaHei, sans-serif">全流程</text>
+
+    <!-- Step 1 -->
+    <text x="90" y="270" font-size="20" font-weight="600" fill="#B45309" font-family="PingFang SC, Microsoft YaHei, sans-serif">01 文案 - DeepSeek/Claude</text>
+    <text x="90" y="300" font-size="18" fill="#475569" font-family="PingFang SC, Microsoft YaHei, sans-serif">50-80字农村语录，模仿老人说话风格</text>
+
+    <!-- Step 2 -->
+    <text x="90" y="355" font-size="20" font-weight="600" fill="#059669" font-family="PingFang SC, Microsoft YaHei, sans-serif">02 配音 - 11Labs/火山引擎</text>
+    <text x="90" y="385" font-size="18" fill="#475569" font-family="PingFang SC, Microsoft YaHei, sans-serif">中老年男声/女声，接地气（不用标准播音腔）</text>
+
+    <!-- Step 3 -->
+    <text x="90" y="440" font-size="20" font-weight="600" fill="#78350F" font-family="PingFang SC, Microsoft YaHei, sans-serif">03 素材 - 免费素材/AI生图</text>
+    <text x="90" y="470" font-size="18" fill="#475569" font-family="PingFang SC, Microsoft YaHei, sans-serif">农村实拍：田野/老屋/农具，风格统一</text>
+
+    <!-- Step 4 -->
+    <text x="90" y="525" font-size="20" font-weight="600" fill="#B45309" font-family="PingFang SC, Microsoft YaHei, sans-serif">04 剪辑 - 剪映一键成片</text>
+    <text x="90" y="555" font-size="18" fill="#475569" font-family="PingFang SC, Microsoft YaHei, sans-serif">文案+配音+背景乐+字幕，5分钟一条</text>
+
+    <rect x="60" y="580" width="904" height="120" rx="14" fill="#059669" opacity="0.06"/>
+    <text x="100" y="625" font-size="20" font-weight="700" fill="#059669" font-family="PingFang SC, Microsoft YaHei, sans-serif">关键技巧</text>
+    <text x="100" y="660" font-size="18" fill="#475569" font-family="PingFang SC, Microsoft YaHei, sans-serif">• 语录要有"反差感"：先情绪张力，再用道理收尾</text>
+    <text x="100" y="690" font-size="18" fill="#475569" font-family="PingFang SC, Microsoft YaHei, sans-serif">• 封面大字标题 + 老人头像（免费素材库有）</text>
+
+    <text x="60" y="800" font-size="14" fill="#94A3B8" font-family="PingFang SC, Microsoft YaHei, sans-serif">#AI视频 #剪映 #AI配音 #视频号创作</text>
+  </svg>

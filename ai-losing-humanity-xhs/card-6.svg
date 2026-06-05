@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs><radialGradient id="bg" cx="50%" cy="50%" r="70%">
+    <stop offset="0%" stop-color="#141C3A"/><stop offset="100%" stop-color="#0B1027"/>
+</radialGradient><linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#93C5FD"/><stop offset="100%" stop-color="#60A5FA"/>
+</linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#bg)"/>
+<text x="80" y="280" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="90" font-weight="900" fill="url(#accent)" letter-spacing="-2">EMOTIONAL</text>
+<text x="80" y="400" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="90" font-weight="900" fill="url(#accent)" letter-spacing="-2">FLATTENING</text>
+<rect x="80" y="460" width="80" height="3" rx="1.5" fill="#60A5FA" opacity=".5"/>
+<text x="80" y="540" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="28" font-weight="400" fill="#FFFFFF">You mimic AI's cold rationality</text>
+<text x="80" y="600" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="22" font-weight="400" fill="#93C5FD">No anger  ·  No outrage  ·  No sadness</text>
+<text x="80" y="670" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="22" font-weight="400" fill="#FFFFFF">Not maturity — neural atrophy</text>
+</svg>

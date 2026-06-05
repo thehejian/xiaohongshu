@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#2D1B69"/>
+      <stop offset="100%" stop-color="#1F1250"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <circle cx="100" cy="100" r="120" fill="#2D1B69" opacity="0.4"/>
+  <circle cx="700" cy="700" r="100" fill="#2D1B69" opacity="0.3"/>
+  <text x="400" y="390" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="120" font-weight="900" fill="#C4B5FD">AI</text>
+  <text x="400" y="490" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="42" font-weight="800" fill="#FFFFFF">You Are a Team of One</text>
+</svg>

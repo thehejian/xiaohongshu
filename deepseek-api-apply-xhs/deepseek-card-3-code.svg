@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#1E293B" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <circle cx="80" cy="80" r="60" fill="#D1FAE5" opacity="0.5"/>
+  <circle cx="720" cy="700" r="50" fill="#DBEAFE" opacity="0.4"/>
+
+  <rect x="40" y="40" width="720" height="100" rx="50" fill="#D1FAE5" filter="url(#shadow)"/>
+  <text x="400" y="108" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="48" font-weight="900" fill="#1E293B">Step 3 开始调用</text>
+
+  <g transform="translate(40, 180)">
+    <rect x="0" y="0" width="720" height="50" rx="12" fill="#D1FAE5"/>
+    <text x="30" y="33" font-family="ui-monospace, monospace" font-size="18" font-weight="700" fill="#059669">$ cURL 版本</text>
+  </g>
+
+  <g transform="translate(40, 240)">
+    <rect x="0" y="0" width="720" height="200" rx="16" fill="#1E293B" filter="url(#shadow)"/>
+    <text x="24" y="32" font-family="ui-monospace, monospace" font-size="14" fill="#E2E8F0">curl https://api.deepseek.com/v1/chat/completions \</text>
+    <text x="24" y="60" font-family="ui-monospace, monospace" font-size="14" fill="#94A3B8">  -H "Content-Type: application/json" \</text>
+    <text x="24" y="88" font-family="ui-monospace, monospace" font-size="14" fill="#94A3B8">  -H "Authorization: Bearer sk-..." \</text>
+    <text x="24" y="116" font-family="ui-monospace, monospace" font-size="14" fill="#E2E8F0">  -d '{"model": "deepseek-chat",</text>
+    <text x="36" y="144" font-family="ui-monospace, monospace" font-size="14" fill="#E2E8F0">"messages": [{"role": "user", "content": "你好"}]}'</text>
+  </g>
+
+  <g transform="translate(40, 460)">
+    <rect x="0" y="0" width="720" height="50" rx="12" fill="#DBEAFE"/>
+    <text x="30" y="33" font-family="ui-monospace, monospace" font-size="18" font-weight="700" fill="#2563EB">$ Python 版本</text>
+  </g>
+
+  <g transform="translate(40, 520)">
+    <rect x="0" y="0" width="720" height="230" rx="16" fill="#1E293B" filter="url(#shadow)"/>
+    <text x="24" y="36" font-family="ui-monospace, monospace" font-size="15" fill="#6EE7B7">from openai import OpenAI</text>
+    <text x="24" y="72" font-family="ui-monospace, monospace" font-size="15" fill="#E2E8F0">client = OpenAI(</text>
+    <text x="40" y="104" font-family="ui-monospace, monospace" font-size="15" fill="#FCD34D">api_key="sk-...",</text>
+    <text x="40" y="136" font-family="ui-monospace, monospace" font-size="15" fill="#FCD34D">base_url="https://api.deepseek.com/v1"</text>
+    <text x="24" y="168" font-family="ui-monospace, monospace" font-size="15" fill="#E2E8F0">)</text>
+    <text x="24" y="200" font-family="ui-monospace, monospace" font-size="15" fill="#6EE7B7"># 兼容 OpenAI SDK！</text>
+  </g>
+</svg>

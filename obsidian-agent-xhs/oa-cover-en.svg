@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#141B33"/>
+      <stop offset="100%" stop-color="#0B1027"/>
+    </radialGradient>
+    <linearGradient id="titleG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="50%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#F472B6"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="16" flood-color="#000" flood-opacity="0.30"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <circle cx="120" cy="120" r="140" fill="#1E3A5F" opacity="0.3"/>
+  <circle cx="880" cy="180" r="100" fill="#3B1F6E" opacity="0.3"/>
+  <circle cx="160" cy="880" r="110" fill="#5F1E4A" opacity="0.2"/>
+  <circle cx="900" cy="850" r="90" fill="#1E3A5F" opacity="0.2"/>
+  <rect x="62" y="40" width="900" height="110" rx="40" fill="#1A2340" filter="url(#shadow)"/>
+  <text x="512" y="95" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" font-weight="700" fill="#60A5FA">🧠 Your Second Brain Just Got a Brain</text>
+  <text x="512" y="230" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="80" font-weight="900" fill="url(#titleG)">Obsidian + AI</text>
+  <text x="512" y="330" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="52" font-weight="900" fill="url(#titleG)">Overhyped or Underrated?</text>
+  <rect x="162" y="380" width="700" height="70" rx="20" fill="#1A2340" filter="url(#shadow)"/>
+  <text x="512" y="426" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" font-weight="800" fill="#E2E8F0">The real story behind the hype</text>
+  <g transform="translate(112, 490)">
+    <rect x="0" y="0" width="800" height="440" rx="30" fill="#1A2340" filter="url(#shadow)"/>
+    <text x="400" y="50" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#8892B0">Why now? 4 signals converging</text>
+    <line x1="50" y1="75" x2="750" y2="75" stroke="#2A3A5F" stroke-width="1"/>
+    <g transform="translate(40, 100)">
+      <rect x="0" y="0" width="340" height="70" rx="16" fill="#1E3A5F"/>
+      <text x="170" y="30" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#60A5FA">CLI Released</text>
+      <text x="170" y="57" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="15" fill="#8892B0">54x faster than grep</text>
+    </g>
+    <g transform="translate(420, 100)">
+      <rect x="0" y="0" width="340" height="70" rx="16" fill="#3B1F6E"/>
+      <text x="170" y="30" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#A78BFA">MCP Bridges</text>
+      <text x="170" y="57" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="15" fill="#8892B0">Native vault access</text>
+    </g>
+    <g transform="translate(40, 200)">
+      <rect x="0" y="0" width="340" height="70" rx="16" fill="#1E4A3A"/>
+      <text x="170" y="30" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#34D399">Agents Read</text>
+      <text x="170" y="57" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="15" fill="#8892B0">Humans write, AI reads</text>
+    </g>
+    <g transform="translate(420, 200)">
+      <rect x="0" y="0" width="340" height="70" rx="16" fill="#5F1E4A"/>
+      <text x="170" y="30" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#F472B6">Ecosystem Boom</text>
+      <text x="170" y="57" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="15" fill="#8892B0">6+ plugins, growing fast</text>
+    </g>
+    <rect x="100" y="310" width="600" height="50" rx="25" fill="#60A5FA" opacity="0.15"/>
+    <text x="400" y="342" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" font-weight="700" fill="#60A5FA">AI shouldn't chat in your notes — it should serve them</text>
+    <text x="400" y="400" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" font-weight="700" fill="#A78BFA">Obsidian isn't replaced — it's unlocked 🔓</text>
+  </g>
+  <text x="512" y="990" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#60A5FA">#Obsidian #AIAgent #SecondBrain #PKM</text>
+</svg>

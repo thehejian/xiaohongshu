@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><radialGradient id="bgG" cx="50%" cy="50%" r="75%"><stop offset="0%" stop-color="#131945"/><stop offset="100%" stop-color="#0B1027"/></radialGradient></defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/>
+
+<filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+  <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#00000040"/></filter>
+<filter id="shadow2" x="-5%" y="-5%" width="110%" height="110%">
+  <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#00000030"/></filter>
+<rect x="62" y="40" width="900" height="944" rx="28" fill="#1A2048" filter="url(#shadow)"/>
+<g transform="translate(512, 85)">
+  <text x="0" y="0" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="52" font-weight="900" fill="#FFFFFF">📊 六小虎全景对比</text>
+  <text x="0" y="50" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="700" fill="#60A5FA">一图看懂六家公司格局 · 2026年5月</text>
+</g>
+
+<g transform="translate(80, 175)">
+  <rect x="0" y="0" width="864" height="135" rx="20" fill="#1E3A5F" stroke="#60A5FA" stroke-width="1" filter="url(#shadow2)"/>
+  <text x="30" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="800" fill="#FCD34D">🔥 关键趋势</text>
+  <text x="30" y="74" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#CBD5E1">• 智谱 / MiniMax 已上市，估值分化明显</text>
+  <text x="30" y="102" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#CBD5E1">• 月之暗面 / 阶跃星辰 / 零一万物 冲刺IPO中</text>
+  <text x="30" y="130" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#CBD5E1">• 百川差异化走医疗赛道，长期价值待验证</text>
+</g>
+
+<g transform="translate(80, 340)">
+  <rect x="0" y="0" width="864" height="36" rx="12" fill="#222A55"/>
+  <text x="24" y="25" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" font-weight="700" fill="#94A3B8">公司</text>
+  <text x="158" y="25" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" font-weight="700" fill="#94A3B8">路线</text>
+  <text x="340" y="25" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" font-weight="700" fill="#94A3B8">估值/市值</text>
+  <text x="750" y="25" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" font-weight="700" fill="#94A3B8">上市状态</text>
+</g>
+
+
+<g transform="translate(80, 370)">
+  <rect x="0" y="0" width="864" height="60" rx="14" fill="#1A2048" stroke="#60A5FA" stroke-width="1" filter="url(#shadow2)"/>
+  <rect x="0" y="0" width="6" height="60" rx="3" fill="#60A5FA"/>
+  <text x="22" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">智谱 AI</text>
+  <rect x="150" y="14" width="100" height="34" rx="17" fill="#1E3A5F"/>
+  <text x="200" y="37" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="14" font-weight="700" fill="#60A5FA">政企B端</text>
+  <text x="340" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="900" fill="#60A5FA">4400亿港元</text>
+  <rect x="650" y="14" width="180" height="34" rx="17" fill="#1E3A5F"/>
+  <text x="740" y="37" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">港股上市</text>
+</g>
+<g transform="translate(80, 444)">
+  <rect x="0" y="0" width="864" height="60" rx="14" fill="#1A2048" stroke="#A78BFA" stroke-width="1" filter="url(#shadow2)"/>
+  <rect x="0" y="0" width="6" height="60" rx="3" fill="#A78BFA"/>
+  <text x="22" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">MiniMax</text>
+  <rect x="150" y="14" width="100" height="34" rx="17" fill="#2E1A5E"/>
+  <text x="200" y="37" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="14" font-weight="700" fill="#A78BFA">全球化C端</text>
+  <text x="340" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="900" fill="#A78BFA">2500亿港元</text>
+  <rect x="650" y="14" width="180" height="34" rx="17" fill="#2E1A5E"/>
+  <text x="740" y="37" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">港股上市</text>
+</g>
+<g transform="translate(80, 518)">
+  <rect x="0" y="0" width="864" height="60" rx="14" fill="#1A2048" stroke="#FCD34D" stroke-width="1" filter="url(#shadow2)"/>
+  <rect x="0" y="0" width="6" height="60" rx="3" fill="#FCD34D"/>
+  <text x="22" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">月之暗面</text>
+  <rect x="150" y="14" width="100" height="34" rx="17" fill="#5C4A1A"/>
+  <text x="200" y="37" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="14" font-weight="700" fill="#FCD34D">C端入口</text>
+  <text x="340" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="900" fill="#FCD34D">200亿美元</text>
+  <rect x="650" y="14" width="180" height="34" rx="17" fill="#5C4A1A"/>
+  <text x="740" y="37" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Pre-IPO</text>
+</g>
+<g transform="translate(80, 592)">
+  <rect x="0" y="0" width="864" height="60" rx="14" fill="#1A2048" stroke="#34D399" stroke-width="1" filter="url(#shadow2)"/>
+  <rect x="0" y="0" width="6" height="60" rx="3" fill="#34D399"/>
+  <text x="22" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">百川智能</text>
+  <rect x="150" y="14" width="100" height="34" rx="17" fill="#1A3D2A"/>
+  <text x="200" y="37" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="14" font-weight="700" fill="#34D399">医疗垂类</text>
+  <text x="340" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="900" fill="#34D399">200亿人民币</text>
+  <rect x="650" y="14" width="180" height="34" rx="17" fill="#1A3D2A"/>
+  <text x="740" y="37" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">计划2027</text>
+</g>
+<g transform="translate(80, 666)">
+  <rect x="0" y="0" width="864" height="60" rx="14" fill="#1A2048" stroke="#F472B6" stroke-width="1" filter="url(#shadow2)"/>
+  <rect x="0" y="0" width="6" height="60" rx="3" fill="#F472B6"/>
+  <text x="22" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">零一万物</text>
+  <rect x="150" y="14" width="100" height="34" rx="17" fill="#4A1A33"/>
+  <text x="200" y="37" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="14" font-weight="700" fill="#F472B6">出海+B端</text>
+  <text x="340" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="900" fill="#F472B6">10亿美元</text>
+  <rect x="650" y="14" width="180" height="34" rx="17" fill="#4A1A33"/>
+  <text x="740" y="37" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Pre-IPO</text>
+</g>
+<g transform="translate(80, 740)">
+  <rect x="0" y="0" width="864" height="60" rx="14" fill="#1A2048" stroke="#FB923C" stroke-width="1" filter="url(#shadow2)"/>
+  <rect x="0" y="0" width="6" height="60" rx="3" fill="#FB923C"/>
+  <text x="22" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">阶跃星辰</text>
+  <rect x="150" y="14" width="100" height="34" rx="17" fill="#4A2A1A"/>
+  <text x="200" y="37" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="14" font-weight="700" fill="#FB923C">端侧多模态</text>
+  <text x="340" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="900" fill="#FB923C">200亿人民币</text>
+  <rect x="650" y="14" width="180" height="34" rx="17" fill="#4A2A1A"/>
+  <text x="740" y="37" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">冲刺IPO</text>
+</g>
+
+<g transform="translate(512, 970)">
+  <text x="0" y="0" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="14" fill="#64748B">数据来源：公开财报/融资信息 · 市值截至2026.5.13</text>
+</g>
+
+</svg>

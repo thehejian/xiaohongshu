@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F5F0E8"/>
+</linearGradient>
+<linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#D97706"/><stop offset="100%" stop-color="#F59E0B"/>
+</linearGradient>
+<filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+<feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#1E293B" flood-opacity=".08"/>
+</filter>
+</defs>
+<rect width="1024" height="1024" fill="url(#bg)"/>
+<g transform="translate(80,140)">
+<rect x="0" y="0" width="6" height="36" rx="3" fill="#D97706"/>
+<text x="22" y="18" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#D97706">SUMMARY</text>
+<text x="22" y="36" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#64748B">PUTTING IT ALL TOGETHER</text>
+</g>
+<g transform="translate(80,280)">
+<text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="44" font-weight="900" fill="#1E293B" letter-spacing="-1">和 Claude 交流</text>
+<text x="0" y="60" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="44" font-weight="900" fill="url(#accentGrad)" letter-spacing="-1">就像和一流顾问合作</text>
+</g>
+<g transform="translate(80,420)">
+<line x1="0" y1="0" x2="100" y2="0" stroke="#D97706" stroke-width="3" opacity=".5"/>
+</g>
+<g transform="translate(80,480)">
+<text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="600" fill="#475569">交付质量 ≈ 输入的上下文质量</text>
+<text x="0" y="50" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="600" fill="#475569">越具体的框架 → 越精准的输出</text>
+<text x="0" y="100" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="600" fill="#475569">越明确的约束 → 越少的意外</text>
+</g>
+<g transform="translate(64,600)">
+<rect x="0" y="0" width="896" height="200" rx="20" fill="#FFF" filter="url(#shadow)"/>
+<text x="40" y="48" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#D97706">8 条模板速查</text>
+<text x="40" y="92" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" fill="#1E293B">01 结构标签法 · 02 反向追问法 · 03 思考链法 · 04 角色锚定法</text>
+<text x="40" y="130" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" fill="#1E293B">05 示例驱动法 · 06 输出锁定法 · 07 对抗审查法 · 08 知识边界法</text>
+<text x="40" y="175" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="13" fill="#64748B">挑 3 条最契合你场景的，明天就开始用</text>
+</g>
+<g transform="translate(80,930)">
+<text font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#64748B">claude prompt patterns · #Claude #Prompt工程</text>
+</g>
+</svg>

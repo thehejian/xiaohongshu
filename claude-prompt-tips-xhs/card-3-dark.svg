@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<rect width="1024" height="1024" fill="#0B1027"/>
+
+<g transform="translate(122,332)">
+<rect x="0" y="0" width="340" height="280" rx="20" fill="#151B3A"/>
+<rect x="0" y="0" width="6" height="280" rx="3" fill="#3B82F6"/>
+<text x="36" y="70" font-family="Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#3B82F6">05</text>
+<text x="36" y="120" font-family="Inter, Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="#F8FAFC">Few-Shot</text>
+<text x="36" y="165" font-family="Inter, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#94A3B8">Give examples first</text>
+</g>
+<g transform="translate(502,332)">
+<rect x="0" y="0" width="340" height="280" rx="20" fill="#151B3A"/>
+<rect x="0" y="0" width="6" height="280" rx="3" fill="#10B981"/>
+<text x="36" y="70" font-family="Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#10B981">06</text>
+<text x="36" y="120" font-family="Inter, Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="#F8FAFC">JSON Lock</text>
+<text x="36" y="165" font-family="Inter, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#94A3B8">Lock output format</text>
+</g>
+<g transform="translate(122,652)">
+<rect x="0" y="0" width="340" height="280" rx="20" fill="#151B3A"/>
+<rect x="0" y="0" width="6" height="280" rx="3" fill="#F97316"/>
+<text x="36" y="70" font-family="Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#F97316">07</text>
+<text x="36" y="120" font-family="Inter, Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="#F8FAFC">Adversarial</text>
+<text x="36" y="165" font-family="Inter, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#94A3B8">Let AI critique you</text>
+</g>
+<g transform="translate(502,652)">
+<rect x="0" y="0" width="340" height="280" rx="20" fill="#151B3A"/>
+<rect x="0" y="0" width="6" height="280" rx="3" fill="#EC4899"/>
+<text x="36" y="70" font-family="Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#EC4899">08</text>
+<text x="36" y="120" font-family="Inter, Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="#F8FAFC">Know Limits</text>
+<text x="36" y="165" font-family="Inter, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#94A3B8">Say I don't know</text>
+</g>
+</svg>

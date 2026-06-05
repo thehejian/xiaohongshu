@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F5F0E8"/></linearGradient><linearGradient id="bg-dark" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0B1027"/><stop offset="100%" stop-color="#151B3D"/></linearGradient></defs>
+<rect width="1080" height="1080" fill="url(#bg)"/>
+<rect x="0" y="0" width="1080" height="8" fill="#002FA7"/>
+<!-- Decorative code-like lines -->
+<g opacity="0.06" stroke="#1E293B" stroke-width="2">
+<line x1="100" y1="120" x2="280" y2="120"/><line x1="100" y1="150" x2="340" y2="150"/><line x1="100" y1="180" x2="200" y2="180"/>
+<line x1="800" y1="840" x2="980" y2="840"/><line x1="800" y1="870" x2="920" y2="870"/><line x1="800" y1="900" x2="960" y2="900"/>
+</g>
+<circle cx="150" cy="150" r="60" fill="none" stroke="#002FA7" stroke-width="1" opacity="0.08"/>
+<circle cx="930" cy="930" r="80" fill="none" stroke="#002FA7" stroke-width="1" opacity="0.08"/>
+<!-- Role badge -->
+<rect x="420" y="120" width="240" height="48" rx="24" fill="#002FA7" opacity="0.10"/>
+<text x="540" y="152" text-anchor="middle" font-family="STHeitiTC-Medium,sans-serif" font-size="26" fill="#002FA7" letter-spacing="4">ROLE 02</text>
+<!-- Main title -->
+<text x="540" y="400" text-anchor="middle" font-family="STHeitiTC-Medium,Heiti TC,PingFang SC,sans-serif" font-size="120" font-weight="700" fill="#1E293B">代码审查员</text>
+<text x="540" y="540" text-anchor="middle" font-family="STHeitiTC-Medium,Heiti TC,PingFang SC,sans-serif" font-size="120" font-weight="500" fill="#002FA7">Bug 猎手</text>
+<rect x="340" y="590" width="400" height="3" fill="#002FA7" opacity="0.25"/>
+<!-- Description -->
+<text x="540" y="680" text-anchor="middle" font-family="STHeitiTC-Medium,Heiti TC,PingFang SC,sans-serif" font-size="36" fill="#64748B">揪出隐藏 Bug · 提升代码质量</text>
+<text x="540" y="730" text-anchor="middle" font-family="STHeitiTC-Medium,Heiti TC,PingFang SC,sans-serif" font-size="30" fill="#94A3B8">代码审查效率提升 300%</text>
+</svg>

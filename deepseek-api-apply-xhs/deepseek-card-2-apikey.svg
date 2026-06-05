@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#1E293B" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <circle cx="700" cy="80" r="60" fill="#EDE9FE" opacity="0.5"/>
+  <circle cx="80" cy="720" r="50" fill="#DBEAFE" opacity="0.4"/>
+
+  <rect x="40" y="40" width="720" height="100" rx="50" fill="#EDE9FE" filter="url(#shadow)"/>
+  <text x="400" y="108" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="48" font-weight="900" fill="#1E293B">Step 2 创建 API Key</text>
+
+  <g transform="translate(40, 180)">
+    <rect x="0" y="0" width="720" height="140" rx="24" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="16" height="140" rx="8" fill="#7C3AED"/>
+    <text x="40" y="50" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" font-weight="700" fill="#1E293B">🗝️ 找到 API Keys</text>
+    <text x="40" y="90" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" fill="#1E293B">左侧导航栏 → API Keys</text>
+    <text x="40" y="120" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#64748B">点击「+ Create API key」按钮</text>
+  </g>
+
+  <g transform="translate(40, 360)">
+    <rect x="0" y="0" width="720" height="140" rx="24" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="16" height="140" rx="8" fill="#EC4899"/>
+    <text x="40" y="50" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" font-weight="700" fill="#1E293B">📝 填写信息</text>
+    <text x="40" y="90" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" fill="#1E293B">给密钥取个名字（随意）</text>
+    <text x="40" y="120" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#64748B">例如：my-dev-key</text>
+  </g>
+
+  <g transform="translate(40, 540)">
+    <rect x="0" y="0" width="720" height="200" rx="24" fill="#FEE2E2" filter="url(#shadow)" stroke="#DC2626" stroke-width="2"/>
+    <text x="360" y="50" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" font-weight="700" fill="#DC2626">⚠️ 关键！只显示一次</text>
+    <text x="360" y="100" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" fill="#1E293B">创建成功后密钥一次性显示</text>
+    <text x="360" y="140" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" fill="#1E293B">关掉就再也看不到了！</text>
+    <text x="360" y="180" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#DC2626">👉 立刻复制保存！</text>
+  </g>
+</svg>

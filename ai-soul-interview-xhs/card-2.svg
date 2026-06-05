@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FAF7F2"/><stop offset="1" stop-color="#F5F0E8"/></linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#g)"/>
+<circle cx="80" cy="80" r="200" fill="#7C3AED" opacity=".04"/>
+<circle cx="944" cy="964" r="240" fill="#2563EB" opacity=".04"/>
+<rect x="62" y="60" width="900" height="904" rx="36" fill="#FFFFFF"/>
+<rect x="132" y="236" width="760" height="160" rx="16" fill="#2563EB" opacity=".08" />
+<text x="322" y="327" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#2563EB">MBTI</text>
+<text x="492" y="331" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" fill="#1E293B">15分钟</text>
+<text x="632" y="331" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" fill="#1E293B">表面标签</text>
+<rect x="132" y="432" width="760" height="160" rx="16" fill="#D97706" opacity=".08" />
+<text x="322" y="523" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#D97706">塔罗牌</text>
+<text x="492" y="527" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" fill="#1E293B">30分钟</text>
+<text x="632" y="527" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" fill="#1E293B">模棱两可</text>
+<rect x="132" y="628" width="760" height="160" rx="16" fill="#7C3AED" opacity=".10" stroke="#7C3AED" stroke-width="2"/>
+<text x="322" y="723" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="44" font-weight="900" fill="#7C3AED">AI灵魂拷问</text>
+<text x="492" y="727" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" fill="#1E293B">30天</text>
+<text x="632" y="727" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" fill="#1E293B">潜意识层</text>
+</svg>

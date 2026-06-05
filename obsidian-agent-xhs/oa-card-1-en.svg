@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#141B33"/>
+      <stop offset="100%" stop-color="#0B1027"/>
+    </radialGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000" flood-opacity="0.30"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <circle cx="700" cy="80" r="60" fill="#3B1F6E" opacity="0.4"/>
+  <circle cx="80" cy="720" r="50" fill="#1E3A5F" opacity="0.4"/>
+  <rect x="40" y="40" width="720" height="100" rx="50" fill="#1E3A5F" filter="url(#shadow)"/>
+  <text x="400" y="108" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="44" font-weight="900" fill="#E2E8F0">Agents Read, Humans Write</text>
+  <g transform="translate(40, 180)">
+    <rect x="0" y="0" width="720" height="130" rx="20" fill="#1A2340" filter="url(#shadow)"/>
+    <text x="360" y="40" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="24" font-weight="800" fill="#60A5FA">The Golden Rule</text>
+    <text x="40" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#E2E8F0">AI reads your vault for context</text>
+    <text x="40" y="110" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#E2E8F0">But never writes into it</text>
+    <text x="40" y="125" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="14" fill="#8892B0">— Greg Isenberg / InternetVin</text>
+  </g>
+  <g transform="translate(40, 340)">
+    <rect x="0" y="0" width="340" height="180" rx="20" fill="#1A2340" filter="url(#shadow)"/>
+    <text x="20" y="35" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#34D399">/my-world</text>
+    <text x="20" y="70" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#8892B0">AI reads your vault</text>
+    <text x="20" y="95" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#8892B0">to understand who you are</text>
+  </g>
+  <g transform="translate(420, 340)">
+    <rect x="0" y="0" width="340" height="180" rx="20" fill="#1A2340" filter="url(#shadow)"/>
+    <text x="20" y="35" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#F472B6">/today</text>
+    <text x="20" y="70" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#8892B0">AI pulls context from</text>
+    <text x="20" y="95" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#8892B0">today's notes and tasks</text>
+  </g>
+  <g transform="translate(40, 550)">
+    <rect x="0" y="0" width="340" height="180" rx="20" fill="#1A2340" filter="url(#shadow)"/>
+    <text x="20" y="35" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#A78BFA">/close</text>
+    <text x="20" y="70" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#8892B0">Auto-saves session context</text>
+    <text x="20" y="95" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#8892B0">back to your vault</text>
+  </g>
+  <g transform="translate(420, 550)">
+    <rect x="0" y="0" width="340" height="180" rx="20" fill="#1A2340" filter="url(#shadow)"/>
+    <text x="20" y="35" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#F59E0B">/trace</text>
+    <text x="20" y="70" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#8892B0">Trace back your</text>
+    <text x="20" y="95" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#8892B0">chain of thought</text>
+  </g>
+</svg>

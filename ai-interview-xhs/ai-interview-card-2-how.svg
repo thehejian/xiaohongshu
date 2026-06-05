@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#1E293B" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <circle cx="80" cy="80" r="60" fill="#D1FAE5" opacity="0.5"/>
+  <circle cx="720" cy="700" r="50" fill="#EDE9FE" opacity="0.4"/>
+
+  <rect x="40" y="40" width="720" height="100" rx="50" fill="#D1FAE5" filter="url(#shadow)"/>
+  <text x="400" y="108" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="52" font-weight="900" fill="#1E293B">⚡ 如何开始？</text>
+
+  <g transform="translate(40, 170)">
+    <rect x="0" y="0" width="720" height="85" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="85" height="85" rx="20" fill="#2563EB"/>
+    <text x="42" y="54" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="30" font-weight="800" fill="#1E293B">1</text>
+    <text x="105" y="54" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#1E293B">选模型：GPT-4o / Claude / DeepSeek</text>
+  </g>
+
+  <g transform="translate(40, 275)">
+    <rect x="0" y="0" width="720" height="85" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="85" height="85" rx="20" fill="#7C3AED"/>
+    <text x="42" y="54" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="30" font-weight="800" fill="#1E293B">2</text>
+    <text x="105" y="54" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#1E293B">写 prompt：设定角色和面试规则</text>
+  </g>
+
+  <g transform="translate(40, 380)">
+    <rect x="0" y="0" width="720" height="85" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="85" height="85" rx="20" fill="#EC4899"/>
+    <text x="42" y="54" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="30" font-weight="800" fill="#1E293B">3</text>
+    <text x="105" y="54" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#1E293B">一问一答：模拟真实面试节奏</text>
+  </g>
+
+  <g transform="translate(40, 485)">
+    <rect x="0" y="0" width="720" height="85" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="85" height="85" rx="20" fill="#059669"/>
+    <text x="42" y="54" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="30" font-weight="800" fill="#1E293B">4</text>
+    <text x="105" y="54" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#1E293B">追问深挖：AI 会根据回答调整</text>
+  </g>
+
+  <g transform="translate(40, 590)">
+    <rect x="0" y="0" width="720" height="85" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="85" height="85" rx="20" fill="#D97706"/>
+    <text x="42" y="54" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="30" font-weight="800" fill="#1E293B">5</text>
+    <text x="105" y="54" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#1E293B">复盘反馈：让 AI 输出结构化总结</text>
+  </g>
+
+  <g transform="translate(40, 710)">
+    <rect x="0" y="0" width="720" height="56" rx="28" fill="#DBEAFE"/>
+    <text x="360" y="37" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#2563EB">5 步搞定，就是这么简单</text>
+  </g>
+</svg>

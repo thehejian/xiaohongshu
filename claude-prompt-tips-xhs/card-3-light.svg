@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<rect width="1024" height="1024" fill="#FAF7F2"/>
+
+<g transform="translate(122,332)">
+<rect x="0" y="0" width="340" height="280" rx="20" fill="#FFFFFF"/>
+<rect x="0" y="0" width="6" height="280" rx="3" fill="#2563EB"/>
+<text x="36" y="70" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#2563EB">05</text>
+<text x="36" y="120" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="30" font-weight="800" fill="#1E293B">示例驱动法</text>
+<text x="36" y="165" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="500" fill="#475569">Few-Shot 最稳</text>
+</g>
+<g transform="translate(502,332)">
+<rect x="0" y="0" width="340" height="280" rx="20" fill="#FFFFFF"/>
+<rect x="0" y="0" width="6" height="280" rx="3" fill="#059669"/>
+<text x="36" y="70" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#059669">06</text>
+<text x="36" y="120" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="30" font-weight="800" fill="#1E293B">输出锁定法</text>
+<text x="36" y="165" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="500" fill="#475569">JSON 一步到位</text>
+</g>
+<g transform="translate(122,652)">
+<rect x="0" y="0" width="340" height="280" rx="20" fill="#FFFFFF"/>
+<rect x="0" y="0" width="6" height="280" rx="3" fill="#EA580C"/>
+<text x="36" y="70" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#EA580C">07</text>
+<text x="36" y="120" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="30" font-weight="800" fill="#1E293B">对抗审查法</text>
+<text x="36" y="165" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="500" fill="#475569">主动让 AI 挑刺</text>
+</g>
+<g transform="translate(502,652)">
+<rect x="0" y="0" width="340" height="280" rx="20" fill="#FFFFFF"/>
+<rect x="0" y="0" width="6" height="280" rx="3" fill="#DB2777"/>
+<text x="36" y="70" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#DB2777">08</text>
+<text x="36" y="120" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="30" font-weight="800" fill="#1E293B">知识边界法</text>
+<text x="36" y="165" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="500" fill="#475569">不知道就说不知道</text>
+</g>
+</svg>

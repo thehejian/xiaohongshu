@@ -2042,3 +2042,123 @@ video-elderly-quotes-xhs/
 4. **卡片设计**：浅色奶油底 + 4 个步骤卡片 + 文字对称分布，无重叠问题
 5. **内容定位**：微信视频号 + 中老年流量赛道，属于"信息差红利"类内容
 
+## 35. 合集型文章卡片设计规范（ai-tools-xhs）
+
+### 内容密度要求
+- **卡片不能只有大标题**：用户明确要求"体现具体内容"，每张卡片必须有具体的工具名 + 简短点评
+- **每张卡片 3-6 个具体条目**，使用 3×2 网格布局或垂直列表
+- **分类标题 + 具体条目**的组合结构（如"🎨 生图类"下罗列 Leonardo.ai, Playground 等）
+
+### 浅色/深色卡片的语言规则
+- **浅色卡片 → 中文**：奶油底 `#FAF7F2` → `#F5F0E8` 渐变，深色文字 `#1E293B`
+- **深色卡片 → 英文**：深蓝底 `#0B1027`，白色/浅色文字 `#FFFFFF`
+- 两条规则**不可混用**：浅色用英文或深色用中文都会造成风格不一致
+
+### 视觉限制严格执行
+- **无投影/阴影**：`<text>` 不得使用 `filter="url(#glow)"` 或 `filter="url(#shadow)"`
+- **浅色卡无白色或灰色文字**：仅用 `#1E293B` 级深色
+- **深色卡无黑色或暗色文字**：仅用 `#FFFFFF` 或高亮色（如 `#FFD700`）
+- **文字不重叠、不溢出**：预先计算 y 偏移量，控制每张卡片条目数（6条以内/卡）
+
+### SVG 特殊字符
+- `&` 在 SVG text 中必须写作 `&amp;`，否则 Inkscape 报 `xmlParseEntityRef: no name`
+- 中文字符串中避免使用 `&`，如 `"Free & Open"` 改为 `"Free and Open"`
+
+### 首图/顶栏设计
+- **标题条**：橙色 `#E85D04` 圆角矩形 + 白色文字，位于卡片顶部
+- **标题条高度 100px**，字体 32-36px，下方标注页码
+- 标题条下方 10px 间距开始排具体内容
+
+## 36. 完整内容流水线执行要点
+
+### 人工审核断点
+- **飞书文档审核是强制断点**：在发布前必须创建/更新飞书文档 + 插入全部图片
+- 用户审核确认后才执行多平台分发
+- 文档更新用 `--mode overwrite` 后必须重新插入所有图片
+
+### Twitter 发布注意
+- `twitter/post` 内部超时 60s，用 `--window foreground --site-session persistent` + 重试解决
+- 先用简单短推文测试连接，再发带4张图的正式推文
+- **不用 `--timeout` 参数**（不支持），用 `OPENCLI_BROWSER_COMMAND_TIMEOUT` 环境变量
+- 发帖失败时先检查 `opencli twitter profile` 确认登录状态
+
+### 小红书草稿
+- **图片路径必须是相对 CWD 的相对路径**：`./ai-tools-xhs/card-light-1.png` 格式
+- 工作目录为项目根目录时，用 `./ai-tools-xhs/` 前缀的子目录路径
+- 绝对路径报 `Image file not found`
+- `--draft true` 保存草稿，返回值 `✅ 暂存成功` 即为成功
+
+## 33. adhd-ai-v2-xhs 与AI共事ADHD效应（2026-06-05）
+
+### 项目结构
+```
+adhd-ai-v2-xhs/
+├── article.md              # 小红书草稿（标题 18 字 + 正文 440 字）
+├── README.md               # 完整博客版 + 飞书链接
+├── gen_cards.py            # SVG→PNG 生成器（4 浅色中文 + 4 深色英文）
+├── adhd-cover-light/dark.png     # Cover (1024×1024)
+├── adhd-card-1-light/dark.png    # 后果卡 (800×800)
+├── adhd-card-2-light/dark.png    # 解决方案卡 (800×800)
+└── adhd-banner-light/dark.png    # 收尾金句卡 (800×800)
+```
+
+### 发布数据
+- 小红书：✅ 暂存成功（草稿箱），标题 18 字，正文 440 字，4 张浅色卡
+- Twitter：✅ 主推文已发布（`https://x.com/DubaIGOHGOkTHOk/status/2062736962189197349`），4 张深色卡
+- Twitter Thread：❌ `reply` 命令频繁失败，未完成推文串发布
+- 飞书文档：`https://www.feishu.cn/docx/K32odQUN4oEMaUxA6tbcqKY0ni7`
+
+### 卡片设计新规范（大标题爆款型 + 严格约束）
+
+本次根据用户要求严格执行了全新的卡片样式规范：
+
+**1. 浅色卡片（中文）规则：**
+```
+底色：#FAF7F2（纯色，无渐变）
+文字定位：绝对居中 x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+字号：封面 100-110px，内容卡 68-80px
+颜色：深色 #1E293B + 品牌色（#E63E6B / #0D9488 / #F59E0B / #8B5CF6）
+扁平化：无任何阴影/投影/滤镜
+简洁：无标题栏、无底部文字、无辅助说明（仅保留核心大标题）
+约束：字不能重叠、不能溢出、不能用白色/灰色文字
+```
+
+**2. 深色卡片（英文）规则：**
+```
+底色：#0A0A14（纯色，无渐变）
+文字：亮色系（#F5F5F7 / #C4B5FD / #67E8F9 / #FCD34D / #F472B6）
+与浅色相同的绝对居中、无阴影、无标题、无底部文字
+禁止：黑色、深灰色、暗色/泥泞色文字
+```
+
+**3. 解决方案必须是核心焦点：**
+- 4 张卡片中必须有一张专门突出解决方案（"3个解药"/"3 Antidotes"）
+- 解决方案卡的文字最大、最醒目（96px 超大字号 + 金色/琥珀色强调）
+- 该卡排在第三张（封面→问题→解决方案→行动号召）
+
+### Twitter 发布故障记录
+
+**问题 1：`twitter post` 返回 `This operation was aborted`**
+- 根因：浏览器 session 未绑定，adapter 无法控制已有登录态页面
+- 修复流程：
+  1. `opencli browser <session> bind` — 绑定当前已登录 Twitter 的 tab
+  2. `opencli browser <session> open "https://x.com/compose/post"` — 导航到发帖页
+  3. `opencli twitter post "<text>" --images "..." -f yaml` — 成功
+- 经验：使用 binding 之前不要传 `--window foreground`（会与已有 session 冲突）
+
+**问题 2：`twitter reply` 返回 `Could not verify reply text in the composer`**
+- 根因：compose 页面已在前一步被关闭，或 textarea 选择器不匹配
+- 尝试方案：navigate 到 tweet 页面后重试 → 仍然失败
+- 未解决：最终未完成 thread 发布
+- 替代方案：使用 browser eval 手动操作（见流水线 fallback 节）
+
+### 内容规范执行检查
+- 标题 ≤ 20 字：`与AI共事 = ADHD？越用越机器` = 18 ✓
+- 正文 ≤ 950 字：440 ✓
+- 首行即标题：正文第一行是标题文字 ✓
+- 无时间戳 ✓
+- 纯文本格式 ✓
+- 短段落 + emoji 分段 ✓
+- 末尾话题标签 ✓
+- 图片 4 张（浅色）/ 4 张（深色）✓
+

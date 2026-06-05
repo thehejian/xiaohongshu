@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <circle cx="80" cy="80" r="60" fill="#DBEAFE" opacity="0.5"/>
+  <circle cx="720" cy="720" r="60" fill="#FEE2E2" opacity="0.4"/>
+
+  <rect x="40" y="40" width="720" height="100" rx="50" fill="#FEE2E2"/>
+  <text x="400" y="110" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="48" font-weight="900" fill="#DC2626">💀 三大死因</text>
+
+  <g transform="translate(40, 175)">
+    <rect x="0" y="0" width="720" height="155" rx="20" fill="#F5F0E8"/>
+    <rect x="0" y="0" width="14" height="155" rx="7" fill="#DC2626"/>
+    <text x="40" y="48" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="800" fill="#DC2626">死因 1：薄包装，没护城河</text>
+    <text x="40" y="88" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#64748B">套壳 GPT API + 漂亮 UI = 你的全部竞争力</text>
+    <text x="40" y="118" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#64748B">大模型一迭代，你的存在理由就少一分</text>
+    <text x="40" y="148" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#64748B">写作、图像、聊天 — 这三个赛道死得最多</text>
+  </g>
+
+  <g transform="translate(40, 360)">
+    <rect x="0" y="0" width="720" height="155" rx="20" fill="#F5F0E8"/>
+    <rect x="0" y="0" width="14" height="155" rx="7" fill="#7C3AED"/>
+    <text x="40" y="48" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="800" fill="#7C3AED">死因 2：商业化失败</text>
+    <text x="40" y="88" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#64748B">免费获客 → 烧钱运营 → 无法变现</text>
+    <text x="40" y="118" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#64748B">陪伴类 AI 尤其惨：流量高、留存低、转化更低</text>
+    <text x="40" y="148" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#64748B">2025 年至少 8 个 AI 陪伴产品集中阵亡</text>
+  </g>
+
+  <g transform="translate(40, 545)">
+    <rect x="0" y="0" width="720" height="155" rx="20" fill="#F5F0E8"/>
+    <rect x="0" y="0" width="14" height="155" rx="7" fill="#EC4899"/>
+    <text x="40" y="48" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="800" fill="#EC4899">死因 3：大厂收缩时被放弃</text>
+    <text x="40" y="88" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#64748B">字节关停十余款应用，百度清理工具产品</text>
+    <text x="40" y="118" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#64748B">OpenAI 砍掉 Sora，阿里关停鹿班</text>
+    <text x="40" y="148" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#64748B">做减法正在取代做加法成为主旋律</text>
+  </g>
+
+  <g transform="translate(40, 730)">
+    <rect x="0" y="0" width="720" height="40" rx="20" fill="#FEE2E2"/>
+    <text x="360" y="27" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="700" fill="#DC2626">没有护城河的产品，终将成为 AI 时代的墓碑</text>
+  </g>
+</svg>

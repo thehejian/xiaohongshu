@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#1E293B" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <circle cx="700" cy="100" r="60" fill="#FEF3C7" opacity="0.5"/>
+  <circle cx="80" cy="720" r="70" fill="#FCE7F3" opacity="0.3"/>
+
+  <rect x="40" y="40" width="720" height="100" rx="50" fill="#FEF3C7" filter="url(#shadow)"/>
+  <text x="400" y="108" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="48" font-weight="900" fill="#1E293B">💰 价格参考</text>
+
+  <g transform="translate(40, 180)">
+    <rect x="0" y="0" width="720" height="200" rx="24" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="360" y="50" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#1E293B">DeepSeek-V3</text>
+    <text x="360" y="95" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" fill="#64748B">输入：¥1 / 百万 tokens</text>
+    <text x="360" y="130" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" fill="#64748B">输出：¥2 / 百万 tokens</text>
+    <text x="360" y="175" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#059669">性价比之王</text>
+  </g>
+
+  <g transform="translate(40, 420)">
+    <rect x="0" y="0" width="720" height="200" rx="24" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="360" y="50" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#1E293B">DeepSeek-R1</text>
+    <text x="360" y="95" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" fill="#64748B">输入：¥4 / 百万 tokens</text>
+    <text x="360" y="130" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" fill="#64748B">输出：¥16 / 百万 tokens</text>
+    <text x="360" y="175" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#7C3AED">推理能力强悍</text>
+  </g>
+
+  <g transform="translate(40, 660)">
+    <rect x="0" y="0" width="720" height="100" rx="50" fill="#D1FAE5" stroke="#059669" stroke-width="2"/>
+    <text x="360" y="58" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="24" font-weight="800" fill="#059669">比 GPT-4o 便宜 10-20 倍</text>
+  </g>
+</svg>

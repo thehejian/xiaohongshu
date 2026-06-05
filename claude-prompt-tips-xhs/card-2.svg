@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F5F0E8"/>
+</linearGradient>
+<filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+<feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#1E293B" flood-opacity=".06"/>
+</filter>
+</defs>
+<rect width="1024" height="1024" fill="url(#bg)"/>
+<g transform="translate(64,60)">
+<rect x="0" y="0" width="6" height="32" rx="3" fill="#D97706"/>
+<text x="22" y="14" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#D97706">PATTERNS 01-04</text>
+<text x="22" y="32" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#64748B">前 4 招 · 基础必学</text>
+</g>
+<g transform="translate(64,120)">
+<g transform="translate(0,0)">
+<rect x="0" y="0" width="400" height="196" rx="16" fill="#FFF" filter="url(#shadow)"/>
+<rect x="0" y="0" width="6" height="196" rx="3" fill="#2563EB"/>
+<text x="32" y="48" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#2563EB">01</text>
+<text x="32" y="96" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="30" font-weight="800" fill="#1E293B">结构标签法</text>
+<text x="32" y="134" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="17" font-weight="500" fill="#475569">用 XML 标签划边界</text>
+<text x="32" y="168" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" fill="#64748B"><task>/<context>/<format></text>
+</g>
+<g transform="translate(432,0)">
+<rect x="0" y="0" width="400" height="196" rx="16" fill="#FFF" filter="url(#shadow)"/>
+<rect x="0" y="0" width="6" height="196" rx="3" fill="#059669"/>
+<text x="32" y="48" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#059669">02</text>
+<text x="32" y="96" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="30" font-weight="800" fill="#1E293B">反向追问法</text>
+<text x="32" y="134" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="17" font-weight="500" fill="#475569">先澄清再回答</text>
+<text x="32" y="168" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" fill="#64748B">先问 3 个问题再输出</text>
+</g>
+<g transform="translate(0,220)">
+<rect x="0" y="0" width="400" height="196" rx="16" fill="#FFF" filter="url(#shadow)"/>
+<rect x="0" y="0" width="6" height="196" rx="3" fill="#D97706"/>
+<text x="32" y="48" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#D97706">03</text>
+<text x="32" y="96" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="30" font-weight="800" fill="#1E293B">思考链法</text>
+<text x="32" y="134" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="17" font-weight="500" fill="#475569">逐步推理 标注依据</text>
+<text x="32" y="168" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" fill="#64748B">每一步都可见</text>
+</g>
+<g transform="translate(432,220)">
+<rect x="0" y="0" width="400" height="196" rx="16" fill="#FFF" filter="url(#shadow)"/>
+<rect x="0" y="0" width="6" height="196" rx="3" fill="#DB2777"/>
+<text x="32" y="48" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#DB2777">04</text>
+<text x="32" y="96" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="30" font-weight="800" fill="#1E293B">角色锚定法</text>
+<text x="32" y="134" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="17" font-weight="500" fill="#475569">越具体越强大</text>
+<text x="32" y="168" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" fill="#64748B">公司+年限+性格</text>
+</g>
+</g>
+<g transform="translate(64,930)">
+<text font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#64748B">claude prompt patterns · 复制即用</text>
+</g>
+</svg>

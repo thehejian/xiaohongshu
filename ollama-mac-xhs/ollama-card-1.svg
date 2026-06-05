@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F3F0E8"/></linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/><circle cx="81.92" cy="81.92" r="60" fill="#E0F2FE" opacity="0.4"/><circle cx="942.08" cy="122.88" r="50" fill="#EDE9FE" opacity="0.4"/><circle cx="81.92" cy="901.12" r="70" fill="#DBEAFE" opacity="0.3"/><circle cx="942.08" cy="798.72" r="80" fill="#FFEDD5" opacity="0.3"/>
+
+<text x="512" y="90" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="38" font-weight="800" fill="#1E293B">什么是 Ollama？</text>
+<text x="512" y="130" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" fill="#64748B">本地大模型的「Docker」</text>
+
+<g transform="translate(62, 180)">
+  <rect x="0" y="0" width="900" height="340" rx="18" fill="#FFFFFF" stroke="#0EA5E9" stroke-width="2"/>
+  <text x="40" y="50" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#0EA5E9">核心特点</text>
+
+  <g transform="translate(30, 90)">
+    <circle cx="16" cy="16" r="12" fill="#10B981"/><text x="45" y="22" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="600" fill="#1E293B">一行命令安装部署</text>
+  </g>
+  <g transform="translate(30, 140)">
+    <circle cx="16" cy="16" r="12" fill="#10B981"/><text x="45" y="22" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="600" fill="#1E293B">Apple Metal GPU 原生加速</text>
+  </g>
+  <g transform="translate(30, 190)">
+    <circle cx="16" cy="16" r="12" fill="#10B981"/><text x="45" y="22" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="600" fill="#1E293B">100+ 开源模型随便选</text>
+  </g>
+  <g transform="translate(30, 240)">
+    <circle cx="16" cy="16" r="12" fill="#10B981"/><text x="45" y="22" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="600" fill="#1E293B">内置 REST API，随时调用</text>
+  </g>
+  <g transform="translate(30, 290)">
+    <circle cx="16" cy="16" r="12" fill="#10B981"/><text x="45" y="22" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="600" fill="#1E293B">完全离线，数据不出本机</text>
+  </g>
+</g>
+
+<g transform="translate(62, 560)">
+  <rect x="0" y="0" width="900" height="200" rx="16" fill="#DBEAFE"/>
+  <text x="40" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="700" fill="#3B82F6">适合场景</text>
+  <text x="40" y="80" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" fill="#1E293B">· 编程助手 (CodeGemma / DeepSeek-Coder)</text>
+  <text x="40" y="115" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" fill="#1E293B">· 文档总结 (Qwen 2.5 / Llama 3)</text>
+  <text x="40" y="150" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" fill="#1E293B">· 本地 RAG 知识库 (ollama + Chroma)</text>
+  <text x="40" y="185" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" fill="#1E293B">· 私有数据处理 · 敏感信息零泄露</text>
+</g>
+
+<text x="512" y="960" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="14" fill="#94A3B8">ollama.com · GitHub 95K+ Stars · MIT 开源</text>
+
+</svg>

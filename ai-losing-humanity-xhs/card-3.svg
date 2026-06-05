@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F5F0E8"/>
+</linearGradient><linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#059669"/><stop offset="100%" stop-color="#10B981"/>
+</linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#bg)"/>
+<text x="80" y="280" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="120" font-weight="900" fill="url(#accent)" letter-spacing="-3">AI支配</text>
+<text x="80" y="430" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="120" font-weight="900" fill="url(#accent)" letter-spacing="-3">你的作息</text>
+<rect x="80" y="490" width="80" height="4" rx="2" fill="#059669" opacity=".5"/>
+<text x="80" y="570" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#1E293B">凌晨2点的日报不是自由</text>
+<text x="80" y="650" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="44" font-weight="900" fill="#DC2626">是牢笼</text>
+<text x="80" y="720" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26" font-weight="500" fill="#1E293B">AI排任务 · AI催回复 · AI追进度</text>
+</svg>

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en" data-accent="lemon-green">
+<head>
+  <meta charset="utf-8">
+  <title>Codex Plugin Deep Dive - Dark Mode</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap">
+  <style>
+    /* Swiss International — Dark Mode (English) */
+    :root, [data-accent="lemon-green"] {
+      --paper: #0B1027;
+      --ink: #F8FAFC;
+      --grey-1: #1E293B;
+      --grey-2: #334155;
+      --grey-3: #94A3B8;
+      --accent: #C5E803;
+      --accent-on: #0B1027;
+    }
+    :root {
+      --sans: "Inter", "Helvetica Neue", Helvetica, sans-serif;
+      --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Consolas, monospace;
+    }
+    *,*::before,*::after { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: #1a1a1a;
+      font-family: var(--sans);
+      color: var(--ink);
+      -webkit-font-smoothing: antialiased;
+      padding: 32px;
+    }
+    .poster {
+      position: relative;
+      width: 1080px;
+      height: 1080px;
+      background: var(--paper);
+      color: var(--ink);
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .content {
+      text-align: center;
+      padding: 60px;
+    }
+    .h-hero {
+      font-family: var(--sans);
+      font-weight: 200;
+      font-size: 180px;
+      line-height: 1.02;
+      letter-spacing: -.02em;
+      margin: 0;
+      color: var(--ink);
+    }
+    .h-statement {
+      font-family: var(--sans);
+      font-weight: 200;
+      font-size: 140px;
+      line-height: 1.05;
+      letter-spacing: -.015em;
+      margin: 0;
+      color: var(--ink);
+    }
+    .h-xl {
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 100px;
+      line-height: 1.08;
+      letter-spacing: -.01em;
+      margin: 0;
+      color: var(--ink);
+    }
+    .accent-bar {
+      width: 120px;
+      height: 6px;
+      background: var(--accent);
+      margin: 0 auto 40px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Card 5: Cover EN -->
+  <section class="poster" id="en-cover">
+    <div class="content">
+      <div class="accent-bar"></div>
+      <h1 class="h-statement">Codex Plugin<br>Deep Dive</h1>
+    </div>
+  </section>
+</body>
+</html>

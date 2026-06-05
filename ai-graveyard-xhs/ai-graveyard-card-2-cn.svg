@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <circle cx="700" cy="80" r="60" fill="#EDE9FE" opacity="0.5"/>
+  <circle cx="80" cy="720" r="70" fill="#FEE2E2" opacity="0.4"/>
+
+  <rect x="40" y="40" width="720" height="100" rx="50" fill="#EDE9FE"/>
+  <text x="400" y="110" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="48" font-weight="900" fill="#1E293B">🇨🇳 国产阵亡名单</text>
+
+  <g transform="translate(40, 170)">
+    <rect x="0" y="0" width="345" height="130" rx="16" fill="#F5F0E8"/>
+    <rect x="0" y="0" width="345" height="6" rx="3" fill="#DC2626"/>
+    <text x="20" y="42" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#1E293B">冒泡鸭</text>
+    <text x="200" y="42" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#DC2626">阶跃星辰</text>
+    <text x="20" y="72" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#64748B">600万下载 · AI陪伴标杆</text>
+    <text x="20" y="100" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#64748B">2025.11 关停</text>
+  </g>
+
+  <g transform="translate(415, 170)">
+    <rect x="0" y="0" width="345" height="130" rx="16" fill="#F5F0E8"/>
+    <rect x="0" y="0" width="345" height="6" rx="3" fill="#7C3AED"/>
+    <text x="20" y="42" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#1E293B">鹿班</text>
+    <text x="200" y="42" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#7C3AED">阿里</text>
+    <text x="20" y="72" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#64748B">电商AI设计平台</text>
+    <text x="20" y="100" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#64748B">2025.6 停服</text>
+  </g>
+
+  <g transform="translate(40, 325)">
+    <rect x="0" y="0" width="345" height="130" rx="16" fill="#F5F0E8"/>
+    <rect x="0" y="0" width="345" height="6" rx="3" fill="#EC4899"/>
+    <text x="20" y="42" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#1E293B">腾讯智影</text>
+    <text x="200" y="42" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#EC4899">腾讯</text>
+    <text x="20" y="72" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#64748B">AI视频 + 数字人</text>
+    <text x="20" y="100" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#64748B">2025.6 清空用户数据</text>
+  </g>
+
+  <g transform="translate(415, 325)">
+    <rect x="0" y="0" width="345" height="130" rx="16" fill="#F5F0E8"/>
+    <rect x="0" y="0" width="345" height="6" rx="3" fill="#2563EB"/>
+    <text x="20" y="42" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#1E293B">小悟空</text>
+    <text x="200" y="42" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#2563EB">字节</text>
+    <text x="20" y="72" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#64748B">200+AI工具 · 200万下载</text>
+    <text x="20" y="100" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#64748B">2025 整合下架</text>
+  </g>
+
+  <g transform="translate(40, 480)">
+    <rect x="0" y="0" width="345" height="130" rx="16" fill="#F5F0E8"/>
+    <rect x="0" y="0" width="345" height="6" rx="3" fill="#059669"/>
+    <text x="20" y="42" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#1E293B">奇域AI</text>
+    <text x="200" y="42" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#059669">小红书</text>
+    <text x="20" y="72" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#64748B">国风AI绘图</text>
+    <text x="20" y="100" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#64748B">2025.6 版权诉讼下关停</text>
+  </g>
+
+  <g transform="translate(415, 480)">
+    <rect x="0" y="0" width="345" height="130" rx="16" fill="#F5F0E8"/>
+    <rect x="0" y="0" width="345" height="6" rx="3" fill="#D97706"/>
+    <text x="20" y="42" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#1E293B">Wow AI</text>
+    <text x="200" y="42" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#D97706">美团</text>
+    <text x="20" y="72" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#64748B">AI聊天App</text>
+    <text x="20" y="100" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#64748B">2025.12 关服</text>
+  </g>
+
+  <g transform="translate(40, 640)">
+    <rect x="0" y="0" width="720" height="120" rx="20" fill="#F5F0E8"/>
+    <text x="360" y="42" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#64748B">还有这些也凉了</text>
+    <line x1="60" y1="62" x2="660" y2="62" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="360" y="92" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#64748B">XEVA · 异世界回响 · 腾讯翻译君 · 讯飞写作 · Lumi噜米 · 百度脑图</text>
+  </g>
+</svg>

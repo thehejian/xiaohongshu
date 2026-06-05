@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<rect width="1024" height="1024" fill="#0B1027"/>
+<g transform="translate(512,512)">
+<text x="0" y="-50" font-family="Inter, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#F8FAFC" text-anchor="middle" dominant-baseline="middle" letter-spacing="-0.5">Talk to Claude</text>
+<text x="0" y="50" font-family="Inter, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#F59E0B" text-anchor="middle" dominant-baseline="middle" letter-spacing="-0.5">like a top consultant</text>
+<text x="0" y="150" font-family="Inter, Helvetica, Arial, sans-serif" font-size="22" font-weight="500" fill="#94A3B8" text-anchor="middle" dominant-baseline="middle">Output quality ≈ Context quality</text>
+<text x="0" y="200" font-family="Inter, Helvetica, Arial, sans-serif" font-size="22" font-weight="500" fill="#94A3B8" text-anchor="middle" dominant-baseline="middle">Specific framework → Precise output</text>
+<text x="0" y="250" font-family="Inter, Helvetica, Arial, sans-serif" font-size="22" font-weight="500" fill="#94A3B8" text-anchor="middle" dominant-baseline="middle">Clear constraints → Fewer surprises</text>
+</g>
+</svg>

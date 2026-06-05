@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><radialGradient id="g" cx="50%" cy="50%" r="70%"><stop offset="0" stop-color="#0B0B20"/><stop offset="1" stop-color="#070717"/></radialGradient></defs>
+<rect width="1024" height="1024" fill="url(#g)"/>
+<circle cx="80" cy="80" r="200" fill="#A78BFA" opacity=".06"/>
+<circle cx="944" cy="964" r="240" fill="#60A5FA" opacity=".06"/>
+<rect x="52" y="50" width="920" height="924" rx="36" fill="#111130"/>
+<rect x="112" y="172" width="800" height="140" rx="16" fill="#60A5FA" opacity="0.12"/>
+<text x="512" y="239" text-anchor="middle" font-family="Inter, SF Pro Display, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="800" fill="#60A5FA">CRACK DEFENSES</text>
+<text x="512" y="263" text-anchor="middle" font-family="Inter, SF Pro Display, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="500" fill="#E2E8F0">Gentle questions lower your guard</text>
+<rect x="112" y="352" width="800" height="140" rx="16" fill="#A78BFA" opacity="0.12"/>
+<text x="512" y="419" text-anchor="middle" font-family="Inter, SF Pro Display, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="800" fill="#A78BFA">FIND GAPS</text>
+<text x="512" y="443" text-anchor="middle" font-family="Inter, SF Pro Display, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="500" fill="#E2E8F0">AI contrasts your contradictions</text>
+<rect x="112" y="532" width="800" height="140" rx="16" fill="#F472B6" opacity="0.12"/>
+<text x="512" y="599" text-anchor="middle" font-family="Inter, SF Pro Display, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="800" fill="#F472B6">TRACE ROOTS</text>
+<text x="512" y="623" text-anchor="middle" font-family="Inter, SF Pro Display, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="500" fill="#E2E8F0">Back to childhood and trauma</text>
+<rect x="112" y="712" width="800" height="140" rx="16" fill="#34D399" opacity="0.12"/>
+<text x="512" y="779" text-anchor="middle" font-family="Inter, SF Pro Display, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="800" fill="#34D399">REBUILD</text>
+<text x="512" y="803" text-anchor="middle" font-family="Inter, SF Pro Display, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="500" fill="#E2E8F0">Reshape self-awareness from scratch</text>
+</svg>

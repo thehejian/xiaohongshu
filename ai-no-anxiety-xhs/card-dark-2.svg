@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1792" height="1024" viewBox="0 0 1792 1024">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#111827"/>
+      <stop offset="100%" style="stop-color:#0B1027"/>
+    </radialGradient>
+  </defs>
+  <rect width="1792" height="1024" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1792" height="6" fill="#F59E0B"/>
+  <text x="100" y="140" font-family="Inter, sans-serif" font-size="28" fill="#94A3B8">01</text>
+  <text x="100" y="200" font-family="Inter, sans-serif" font-size="56" font-weight="bold" fill="#FFFFFF">The Truth About</text>
+  <text x="100" y="270" font-family="Inter, sans-serif" font-size="56" font-weight="bold" fill="#F59E0B">AI Anxiety</text>
+  <line x1="100" y1="320" x2="420" y2="320" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+  <text x="100" y="430" font-family="Inter, sans-serif" font-size="36" fill="#FFFFFF">Reading 100 AI articles a day</text>
+  <text x="100" y="490" font-family="Inter, sans-serif" font-size="36" fill="#FFFFFF">Bookmarking 50 tools</text>
+  <text x="100" y="550" font-family="Inter, sans-serif" font-size="36" fill="#FFFFFF">Buying 3 courses</text>
+  <text x="100" y="640" font-family="Inter, sans-serif" font-size="36" font-weight="bold" fill="#F59E0B">And feeling even more anxious</text>
+  <line x1="100" y1="710" x2="1692" y2="710" stroke="#1E293B" stroke-width="2"/>
+  <text x="100" y="790" font-family="Inter, sans-serif" font-size="28" fill="#94A3B8">90% of AI news means nothing 3 months later</text>
+  <text x="100" y="850" font-family="Inter, sans-serif" font-size="28" fill="#94A3B8">Your anxiety drains more energy than AI ever will</text>
+  <text x="1732" y="974" font-family="Inter, sans-serif" font-size="22" fill="#94A3B8" text-anchor="end">2/4</text>
+</svg>

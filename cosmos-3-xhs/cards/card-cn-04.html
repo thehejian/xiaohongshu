@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;900&family=Noto+Sans+SC:wght@200;300;400;500;600;700;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  body{background:#1a1a1a;font-family:'Inter','Noto Sans SC',sans-serif;display:flex;justify-content:center;align-items:center;min-height:100vh}
+  .card{width:1024px;height:1024px;background:linear-gradient(180deg,#FAF7F2 0%,#F5F0E8 100%);position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:center;align-items:center}
+  .accent-bar{position:absolute;top:0;left:0;right:0;height:8px;background:#002FA7}
+  .kicker{font-family:'IBM Plex Mono',monospace;font-size:18px;letter-spacing:0.25em;text-transform:uppercase;color:#737373;margin-bottom:32px}
+  .title{font-family:'Noto Sans SC','Inter',sans-serif;font-size:72px;font-weight:900;line-height:1.25;color:#0A0A0A;text-align:center;letter-spacing:-0.01em}
+  .title .accent{color:#002FA7}
+  .partners{display:flex;flex-wrap:wrap;justify-content:center;gap:16px 20px;margin-top:48px}
+  .partner{font-family:'Noto Sans SC',sans-serif;font-size:20px;color:#5F6D78;font-weight:500;padding:10px 20px;border:1px solid #E5E5E3;border-radius:6px;background:#F0F0EE}
+  .quote{font-family:'Noto Sans SC',sans-serif;font-size:28px;color:#002FA7;font-weight:600;margin-top:48px;text-align:center;line-height:1.4}
+  .subline{position:absolute;bottom:64px;left:64px;right:64px;display:flex;justify-content:space-between;align-items:flex-end;border-top:1px solid #D4D4D2;padding-top:24px}
+  .subline .left{font-family:'IBM Plex Mono',monospace;font-size:14px;color:#737373;letter-spacing:0.15em;text-transform:uppercase}
+  .subline .right{font-family:'Noto Sans SC',sans-serif;font-size:20px;color:#737373;font-weight:500}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="accent-bar"></div>
+  <p class="kicker">ECOSYSTEM · OPEN SOURCE</p>
+  <h1 class="title">
+    生态已起来<br>
+    <span class="accent">开源可用</span>
+  </h1>
+  <div class="partners">
+    <span class="partner">Agile Robots</span>
+    <span class="partner">1X Technologies</span>
+    <span class="partner">Figure AI</span>
+    <span class="partner">General Motors</span>
+    <span class="partner">Uber</span>
+    <span class="partner">Toyota Research</span>
+  </div>
+  <p class="quote">「当别人还在收集数据时，<br>它已经在生成世界。」</p>
+  <div class="subline">
+    <span class="left">HUGGING FACE · OPENMDW 1.1</span>
+    <span class="right">立即体验 → build.nvidia.com</span>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+NVIDIA Cosmos 3 不是升级，是范式转移。
+
+7项榜单第一，包括VANTAGE-Bench、TAR、Physics-IQ、R-Bench、PAI-Bench。这不是刷榜，是碾压。
+
+---
+
+Cosmos 3 是全球首个「推理+世界生成+动作生成」全能模型。
+
+基于 Mixture-of-Transformers，先推理物理规律，再生成结果。
+
+它像人类一样：先想，再做。
+
+---
+
+它能生成机器人动作数据——关节角度、夹爪位置、轨迹点。
+
+它能模拟物理世界、预测未来状态。
+
+它能生成合成视频，覆盖你根本采不到的极端场景。
+
+---
+
+做机器人/自动驾驶的人都懂：长尾场景是噩梦。
+
+暴雨天行人突然冲出、机器人被卡住——真实数据采不到，纯仿真物理不准。
+
+Cosmos 3 直接生成这些场景的合成数据。
+
+---
+
+生态已经起来了：
+
+Agile Robots
+1X Technologies
+Figure AI
+General Motors
+Uber
+Toyota Research Institute
+
+都在用。
+
+---
+
+OpenMDW 1.1 开源许可，Hugging Face 直接下载。
+
+当别人还在收集数据时，它已经在生成世界。
+
+---
+
+这不是工具升级。
+
+这是物理AI的操作系统。

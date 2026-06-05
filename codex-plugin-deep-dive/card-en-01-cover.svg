@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F5F0E8"/></linearGradient><linearGradient id="bg-dark" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0B1027"/><stop offset="100%" stop-color="#151B3D"/></linearGradient></defs>
+<rect width="1080" height="1080" fill="url(#bg-dark)"/>
+<rect x="0" y="0" width="1080" height="8" fill="#C5E803"/>
+<circle cx="160" cy="920" r="160" fill="none" stroke="#C5E803" stroke-width="1.5" opacity="0.10"/>
+<circle cx="160" cy="920" r="200" fill="none" stroke="#C5E803" stroke-width="0.8" opacity="0.06"/>
+<circle cx="920" cy="160" r="100" fill="none" stroke="#C5E803" stroke-width="1" opacity="0.08"/>
+<rect x="60" y="60" width="200" height="4" fill="#C5E803" opacity="0.3"/>
+<text x="540" y="380" text-anchor="middle" font-family="Inter,Helvetica Neue,sans-serif" font-size="136" font-weight="200" fill="#F8FAFC" letter-spacing="-2">Codex</text>
+<text x="540" y="520" text-anchor="middle" font-family="Inter,Helvetica Neue,sans-serif" font-size="136" font-weight="200" fill="#C5E803" letter-spacing="-2">Plugin</text>
+<text x="540" y="570" text-anchor="middle" font-family="Inter,Helvetica Neue,sans-serif" font-size="60" font-weight="300" fill="#CBD5E1" letter-spacing="6" text-transform="uppercase">DEEP DIVE</text>
+<rect x="360" y="620" width="360" height="3" fill="#C5E803" opacity="0.4"/>
+<text x="540" y="720" text-anchor="middle" font-family="Inter,Helvetica Neue,sans-serif" font-size="32" font-weight="300" fill="#64748B">Every Role, Explained</text>
+<text x="540" y="H-60" text-anchor="middle" font-family="Inter,monospace" font-size="18" fill="#475569" letter-spacing="4" text-transform="uppercase">DEV EFFICIENCY · AI</text>
+</svg>

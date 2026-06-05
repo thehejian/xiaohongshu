@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F3F0E8"/></linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/><circle cx="81.92" cy="81.92" r="60" fill="#E0F2FE" opacity="0.4"/><circle cx="942.08" cy="122.88" r="50" fill="#EDE9FE" opacity="0.4"/><circle cx="81.92" cy="901.12" r="70" fill="#DBEAFE" opacity="0.3"/><circle cx="942.08" cy="798.72" r="80" fill="#FFEDD5" opacity="0.3"/>
+
+<text x="512" y="80" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="38" font-weight="800" fill="#1E293B">模型推荐 · 按配置选</text>
+<text x="512" y="120" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" fill="#64748B">你的 MacBook 能跑多大模型？</text>
+
+<g transform="translate(62, 150)">
+  <rect x="0" y="0" width="900" height="50" rx="10" fill="#0EA5E9"/>
+  <text x="40" y="33" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="700" fill="#fff">Mac 配置</text>
+  <text x="310" y="33" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="700" fill="#fff">推荐模型</text>
+  <text x="760" y="33" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="700" fill="#fff">速度参考</text>
+</g>
+<g transform="translate(62, 260)">
+  <rect x="0" y="0" width="900" height="60" rx="10" fill="#E0F2FE"/>
+  <text x="40" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="600" fill="#1E293B">M1/M2 8GB</text>
+  <text x="310" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#1E293B">Qwen 2.5:1.5b / Phi-4-mini</text>
+  <text x="760" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="600" fill="#0EA5E9">15-30 tok/s</text>
+</g>
+<g transform="translate(62, 370)">
+  <rect x="0" y="0" width="900" height="60" rx="10" fill="#DBEAFE"/>
+  <text x="40" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="600" fill="#1E293B">M1/M2 16GB</text>
+  <text x="310" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#1E293B">Qwen 2.5:7b / Llama 3.2:8b</text>
+  <text x="760" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="600" fill="#0EA5E9">25-40 tok/s</text>
+</g>
+<g transform="translate(62, 480)">
+  <rect x="0" y="0" width="900" height="60" rx="10" fill="#EDE9FE"/>
+  <text x="40" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="600" fill="#1E293B">M1 Pro/Max 16GB</text>
+  <text x="310" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#1E293B">DeepSeek-R1:14b / Qwen 2.5:14b</text>
+  <text x="760" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="600" fill="#0EA5E9">15-25 tok/s</text>
+</g>
+<g transform="translate(62, 590)">
+  <rect x="0" y="0" width="900" height="60" rx="10" fill="#FFEDD5"/>
+  <text x="40" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="600" fill="#1E293B">M2 Ultra / M3 Max</text>
+  <text x="310" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#1E293B">Qwen 2.5:32b / Llama 3.3:70b</text>
+  <text x="760" y="36" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="600" fill="#0EA5E9">8-20 tok/s</text>
+</g>
+<g transform="translate(62, 770)">
+  <rect x="0" y="0" width="900" height="80" rx="14" fill="#FFEDD5"/>
+  <text x="30" y="35" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="700" fill="#F97316">💡 选购建议</text>
+  <text x="30" y="65" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" fill="#64748B">16GB 内存是分水岭：以上跑 7B 以下跑 1.5B · Qwen 2.5 系列性价比最高</text>
+</g>
+<text x="512" y="960" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="14" fill="#94A3B8">速度仅供参考，实际取决于内存带宽和模型量化级别</text>
+
+</svg>

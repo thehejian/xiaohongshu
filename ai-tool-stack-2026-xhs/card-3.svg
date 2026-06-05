@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+<rect width="800" height="800" fill="#0B1027"/>
+<text x="400" y="90" text-anchor="middle" dominant-baseline="central" fill="#F1F5F9" font-size="44" font-weight="800" font-family="system-ui,-apple-system,sans-serif">2026 AI Tool Stack</text>
+<text x="400" y="130" text-anchor="middle" dominant-baseline="central" fill="#94A3B8" font-size="16" font-weight="500" font-family="system-ui,-apple-system,sans-serif">7 大分类 · 全景图</text>
+<rect x="80" y="180" width="200" height="100" rx="16" fill="#1E293B"/>
+<text x="180" y="215" text-anchor="middle" fill="#F1F5F9" font-size="24" font-weight="700" font-family="system-ui,-apple-system,sans-serif">写作</text>
+<text x="180" y="245" text-anchor="middle" fill="#94A3B8" font-size="14" font-weight="500" font-family="system-ui,-apple-system,sans-serif">Claude · ChatGPT</text>
+<rect x="300" y="180" width="200" height="100" rx="16" fill="#1E293B"/>
+<text x="400" y="215" text-anchor="middle" fill="#F1F5F9" font-size="24" font-weight="700" font-family="system-ui,-apple-system,sans-serif">搜索</text>
+<text x="400" y="245" text-anchor="middle" fill="#94A3B8" font-size="14" font-weight="500" font-family="system-ui,-apple-system,sans-serif">Perplexity · Copilot</text>
+<rect x="520" y="180" width="200" height="100" rx="16" fill="#1E293B"/>
+<text x="620" y="215" text-anchor="middle" fill="#F1F5F9" font-size="24" font-weight="700" font-family="system-ui,-apple-system,sans-serif">生图</text>
+<text x="620" y="245" text-anchor="middle" fill="#94A3B8" font-size="14" font-weight="500" font-family="system-ui,-apple-system,sans-serif">Midjourney · Firefly</text>
+<rect x="80" y="300" width="200" height="100" rx="16" fill="#1E293B"/>
+<text x="180" y="335" text-anchor="middle" fill="#F1F5F9" font-size="24" font-weight="700" font-family="system-ui,-apple-system,sans-serif">视频</text>
+<text x="180" y="365" text-anchor="middle" fill="#94A3B8" font-size="14" font-weight="500" font-family="system-ui,-apple-system,sans-serif">Veo 3 · 可灵 AI</text>
+<rect x="300" y="300" width="200" height="100" rx="16" fill="#1E293B"/>
+<text x="400" y="335" text-anchor="middle" fill="#F1F5F9" font-size="24" font-weight="700" font-family="system-ui,-apple-system,sans-serif">PPT</text>
+<text x="400" y="365" text-anchor="middle" fill="#94A3B8" font-size="14" font-weight="500" font-family="system-ui,-apple-system,sans-serif">Gamma · Tome</text>
+<rect x="520" y="300" width="200" height="100" rx="16" fill="#1E293B"/>
+<text x="620" y="335" text-anchor="middle" fill="#F1F5F9" font-size="24" font-weight="700" font-family="system-ui,-apple-system,sans-serif">音乐</text>
+<text x="620" y="365" text-anchor="middle" fill="#94A3B8" font-size="14" font-weight="500" font-family="system-ui,-apple-system,sans-serif">Suno · ElevenLabs</text>
+<rect x="80" y="420" width="200" height="100" rx="16" fill="#1E293B"/>
+<text x="180" y="455" text-anchor="middle" fill="#F1F5F9" font-size="24" font-weight="700" font-family="system-ui,-apple-system,sans-serif">转录</text>
+<text x="180" y="485" text-anchor="middle" fill="#94A3B8" font-size="14" font-weight="500" font-family="system-ui,-apple-system,sans-serif">Notta</text>
+<rect x="300" y="420" width="200" height="100" rx="16" fill="#1E293B"/>
+<text x="400" y="455" text-anchor="middle" fill="#F1F5F9" font-size="24" font-weight="700" font-family="system-ui,-apple-system,sans-serif">编程</text>
+<text x="400" y="485" text-anchor="middle" fill="#94A3B8" font-size="14" font-weight="500" font-family="system-ui,-apple-system,sans-serif">Claude Code · Codex</text>
+<rect x="520" y="420" width="200" height="100" rx="16" fill="#1E293B"/>
+<text x="620" y="455" text-anchor="middle" fill="#F1F5F9" font-size="24" font-weight="700" font-family="system-ui,-apple-system,sans-serif">IDE</text>
+<text x="620" y="485" text-anchor="middle" fill="#94A3B8" font-size="14" font-weight="500" font-family="system-ui,-apple-system,sans-serif">Cursor · Windsurf</text>
+<text x="400" y="570" text-anchor="middle" dominant-baseline="central" fill="#F1F5F9" font-size="26" font-weight="700" font-family="system-ui,-apple-system,sans-serif">查资料 → Perplexity</text>
+<text x="400" y="610" text-anchor="middle" dominant-baseline="central" fill="#F1F5F9" font-size="26" font-weight="700" font-family="system-ui,-apple-system,sans-serif">写长文 → Claude</text>
+<text x="400" y="650" text-anchor="middle" dominant-baseline="central" fill="#F1F5F9" font-size="26" font-weight="700" font-family="system-ui,-apple-system,sans-serif">做图片 → Midjourney</text>
+<text x="400" y="690" text-anchor="middle" dominant-baseline="central" fill="#F1F5F9" font-size="26" font-weight="700" font-family="system-ui,-apple-system,sans-serif">做视频 → Veo 3</text>
+<rect x="200" y="730" width="400" height="40" rx="20" fill="#1E293B"/>
+<text x="400" y="755" text-anchor="middle" dominant-baseline="central" fill="#F1F5F9" font-size="16" font-weight="600" font-family="system-ui,-apple-system,sans-serif">工具选对 · 效率翻倍</text>
+</svg>

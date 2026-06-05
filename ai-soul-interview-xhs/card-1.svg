@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FAF7F2"/><stop offset="1" stop-color="#F5F0E8"/></linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#g)"/>
+<circle cx="80" cy="80" r="200" fill="#7C3AED" opacity=".04"/>
+<circle cx="944" cy="964" r="240" fill="#2563EB" opacity=".04"/>
+<rect x="62" y="60" width="900" height="904" rx="36" fill="#FFFFFF"/>
+<rect x="132" y="142" width="760" height="152" rx="16" fill="#2563EB" opacity="0.08"/>
+<text x="512" y="216" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="40" font-weight="800" fill="#2563EB">1  拆防御</text>
+<text x="512" y="246" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26" font-weight="500" fill="#1E293B">温和问题让你放松警惕</text>
+<rect x="132" y="338" width="760" height="152" rx="16" fill="#7C3AED" opacity="0.08"/>
+<text x="512" y="412" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="40" font-weight="800" fill="#7C3AED">2  追矛盾</text>
+<text x="512" y="442" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26" font-weight="500" fill="#1E293B">对比前后不一致的陈述</text>
+<rect x="132" y="534" width="760" height="152" rx="16" fill="#EC4899" opacity="0.08"/>
+<text x="512" y="608" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="40" font-weight="800" fill="#EC4899">3  挖根源</text>
+<text x="512" y="638" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26" font-weight="500" fill="#1E293B">追到童年·家庭·创伤层</text>
+<rect x="132" y="730" width="760" height="152" rx="16" fill="#059669" opacity="0.08"/>
+<text x="512" y="804" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="40" font-weight="800" fill="#059669">4  重建</text>
+<text x="512" y="834" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26" font-weight="500" fill="#1E293B">重构自我认知</text>
+</svg>

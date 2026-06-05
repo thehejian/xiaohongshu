@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FAF7F2"/><stop offset="1" stop-color="#F5F0E8"/></linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#g)"/>
+<circle cx="80" cy="80" r="200" fill="#7C3AED" opacity=".04"/>
+<circle cx="944" cy="964" r="240" fill="#2563EB" opacity=".04"/>
+<rect x="62" y="60" width="900" height="904" rx="36" fill="#FFFFFF"/>
+<rect x="102" y="128" width="820" height="128" rx="16" fill="#2563EB" opacity="0.08"/>
+<text x="512" y="189" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="34" font-weight="800" fill="#2563EB">高频词云</text>
+<text x="512" y="216" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="500" fill="#1E293B">应该 · 别人 · 不敢 · 等以后</text>
+<rect x="102" y="288" width="820" height="128" rx="16" fill="#7C3AED" opacity="0.08"/>
+<text x="512" y="349" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="34" font-weight="800" fill="#7C3AED">核心矛盾</text>
+<text x="512" y="376" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="500" fill="#1E293B">理想 vs 现实的差距在哪里</text>
+<rect x="102" y="448" width="820" height="128" rx="16" fill="#EC4899" opacity="0.08"/>
+<text x="512" y="509" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="34" font-weight="800" fill="#EC4899">防御模式</text>
+<text x="512" y="536" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="500" fill="#1E293B">你用什么方式逃避自己</text>
+<rect x="102" y="608" width="820" height="128" rx="16" fill="#D97706" opacity="0.08"/>
+<text x="512" y="669" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="34" font-weight="800" fill="#D97706">底层信念</text>
+<text x="512" y="696" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="500" fill="#1E293B">童年种下的那些真理</text>
+<rect x="102" y="768" width="820" height="128" rx="16" fill="#059669" opacity="0.08"/>
+<text x="512" y="829" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="34" font-weight="800" fill="#059669">重建路径</text>
+<text x="512" y="856" text-anchor="middle" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" font-weight="500" fill="#1E293B">从认知到行动的具体步骤</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#F2EDFE"/>
+      <stop offset="100%" stop-color="#EDE9FE"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <circle cx="100" cy="100" r="120" fill="#DDD6FE" opacity="0.3"/>
+  <circle cx="700" cy="700" r="100" fill="#DDD6FE" opacity="0.25"/>
+  <text x="400" y="400" text-anchor="middle" font-family="ui-sans-serif, PingFang SC, -apple-system, sans-serif" font-size="96" font-weight="900" fill="#7C3AED">AI</text>
+  <text x="400" y="480" text-anchor="middle" font-family="ui-sans-serif, PingFang SC, -apple-system, sans-serif" font-size="42" font-weight="800" fill="#1E293B">一个人就是一个团队</text>
+</svg>

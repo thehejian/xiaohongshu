@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><radialGradient id="bgG" cx="50%" cy="50%" r="75%"><stop offset="0%" stop-color="#131945"/><stop offset="100%" stop-color="#0B1027"/></radialGradient></defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/>
+
+<filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+  <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#00000040"/></filter>
+<filter id="shadow2" x="-5%" y="-5%" width="110%" height="110%">
+  <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#00000030"/></filter>
+<rect x="62" y="40" width="900" height="944" rx="28" fill="#1A2048" filter="url(#shadow)"/>
+<rect x="62" y="40" width="900" height="175" rx="28" fill="#2E1A5E"/>
+<rect x="62" y="190" width="900" height="25" fill="#2E1A5E"/>
+<rect x="62" y="40" width="12" height="175" rx="6" fill="#A78BFA"/>
+
+<g transform="translate(100, 72)">
+  <rect x="0" y="0" width="64" height="64" rx="16" fill="#222A55"/>
+  <text x="32" y="44" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="34" font-weight="900" fill="#A78BFA">M</text>
+  <text x="84" y="34" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="42" font-weight="900" fill="#FFFFFF">MiniMax</text>
+  <text x="84" y="64" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" font-weight="600" fill="#FFFFFF" opacity="0.8">稀宇科技</text>
+</g>
+<g transform="translate(512, 76)">
+  <rect x="-155" y="0" width="310" height="40" rx="20" fill="#222A55"/>
+  <text x="0" y="27" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" font-weight="800" fill="#A78BFA">闫俊杰（前商汤）</text>
+</g>
+<g transform="translate(512, 128)">
+  <rect x="-140" y="0" width="280" height="30" rx="15" fill="#222A55"/>
+  <text x="0" y="21" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="14" font-weight="700" fill="#94A3B8">2021成立 · 2026.1港股上市</text>
+</g>
+
+<g transform="translate(80, 258)">
+  <text x="0" y="0" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" font-weight="700" fill="#94A3B8">估值</text>
+  <text x="0" y="58" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="72" font-weight="900" fill="#A78BFA">~2500亿</text>
+  <text x="0" y="88" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="600" fill="#94A3B8">港元（约¥2200亿）</text>
+</g>
+
+<g transform="translate(80, 388)">
+  <text x="0" y="0" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">📊 核心指标</text>
+</g>
+<line x1="80" y1="415" x2="944" y2="415" stroke="#222A55" stroke-width="1"/>
+
+
+<g transform="translate(80, 460)">
+  <text x="0" y="0" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" font-weight="700" fill="#94A3B8">全球用户</text>
+  <text x="340" y="0" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="900" fill="#A78BFA" text-anchor="end">2.36亿+</text>
+</g>
+<g transform="translate(80, 516)">
+  <text x="0" y="0" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" font-weight="700" fill="#94A3B8">企业客户</text>
+  <text x="340" y="0" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="900" fill="#A78BFA" text-anchor="end">214,000+</text>
+</g>
+<g transform="translate(80, 572)">
+  <text x="0" y="0" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" font-weight="700" fill="#94A3B8">2025前三季收入</text>
+  <text x="340" y="0" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="900" fill="#A78BFA" text-anchor="end">$5,343万</text>
+</g>
+<g transform="translate(80, 628)">
+  <text x="0" y="0" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="17" font-weight="700" fill="#94A3B8">毛利率</text>
+  <text x="340" y="0" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="900" fill="#A78BFA" text-anchor="end">23.3%</text>
+</g>
+
+<line x1="80" y1="680" x2="944" y2="680" stroke="#222A55" stroke-width="1"/>
+
+<g transform="translate(80, 686)">
+  <text x="0" y="0" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">✨ 核心看点</text>
+</g>
+<text x="80" y="700" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" fill="#CBD5E1">✦  港股上市，全球AGI第一股</text><text x="80" y="740" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" fill="#CBD5E1">✦  Talkie全球AI伴侣头部应用</text><text x="80" y="780" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" fill="#CBD5E1">✦  海外收入占比超70%</text><text x="80" y="820" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" fill="#CBD5E1">✦  全模态：文本/语音/视频/音乐</text>
+
+<g transform="translate(512, 882)">
+  <rect x="-215" y="-22" width="430" height="56" rx="28" fill="#222A55" stroke="#A78BFA" stroke-width="2" filter="url(#shadow2)"/>
+  <text x="0" y="18" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="800" fill="#A78BFA">🏷️  全球化多模态 · AGI领跑者</text>
+</g>
+
+<g transform="translate(512, 970)">
+  <text x="0" y="0" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="14" fill="#64748B">#MiniMax #AI六小虎 #大模型 #国产AI</text>
+</g>
+
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#1E293B" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <circle cx="80" cy="80" r="60" fill="#DBEAFE" opacity="0.5"/>
+  <circle cx="700" cy="120" r="50" fill="#EDE9FE" opacity="0.4"/>
+  <circle cx="120" cy="700" r="70" fill="#FCE7F3" opacity="0.3"/>
+
+  <rect x="40" y="40" width="720" height="100" rx="50" fill="#DBEAFE" filter="url(#shadow)"/>
+    <text x="400" y="108" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="48" font-weight="900" fill="#1E293B">Step 1 注册 &amp; 登录</text>
+
+  <g transform="translate(40, 180)">
+    <rect x="0" y="0" width="720" height="160" rx="24" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="16" height="160" rx="8" fill="#2563EB"/>
+    <text x="40" y="50" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" font-weight="700" fill="#1E293B">🌐 打开官网</text>
+    <rect x="40" y="70" width="640" height="60" rx="12" fill="#DBEAFE"/>
+    <text x="360" y="108" text-anchor="middle" font-family="ui-monospace, monospace" font-size="26" font-weight="700" fill="#1D4ED8">platform.deepseek.com</text>
+    <text x="40" y="135" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="17" fill="#DC2626" font-weight="600">⚠️ 是 platform 不是 chat！</text>
+  </g>
+
+  <g transform="translate(40, 380)">
+    <rect x="0" y="0" width="720" height="160" rx="24" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="16" height="160" rx="8" fill="#7C3AED"/>
+    <text x="40" y="50" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" font-weight="700" fill="#1E293B">✉️ 注册 / 登录</text>
+    <text x="40" y="90" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" fill="#1E293B">点击右上角 Sign Up → 邮箱注册</text>
+    <text x="40" y="125" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" fill="#1E293B">支持邮箱验证码，无需翻墙</text>
+  </g>
+
+  <g transform="translate(40, 580)">
+    <rect x="0" y="0" width="720" height="160" rx="24" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="16" height="160" rx="8" fill="#059669"/>
+    <text x="40" y="50" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" font-weight="700" fill="#1E293B">🎁 免费额度</text>
+    <text x="40" y="95" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#059669">新用户赠送 500 万 tokens</text>
+    <text x="40" y="130" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#64748B">有效期 30 天 · 够玩很久了</text>
+  </g>
+</svg>

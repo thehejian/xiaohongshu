@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+<rect width="800" height="800" fill="#0B1027"/>
+<text x="400" y="120" text-anchor="middle" dominant-baseline="central" fill="#F1F5F9" font-size="40" font-weight="800" font-family="system-ui,-apple-system,sans-serif">Image &amp; Video</text>
+<text x="400" y="170" text-anchor="middle" dominant-baseline="central" fill="#94A3B8" font-size="18" font-weight="500" font-family="system-ui,-apple-system,sans-serif">图像 · 视频</text>
+<rect x="100" y="220" width="600" height="100" rx="16" fill="#1E293B"/>
+<text x="140" y="260" fill="#F1F5F9" font-size="28" font-weight="700" font-family="system-ui,-apple-system,sans-serif">Midjourney</text>
+<text x="140" y="295" fill="#94A3B8" font-size="16" font-weight="500" font-family="system-ui,-apple-system,sans-serif">审美天花板 · 艺术感</text>
+<rect x="100" y="340" width="600" height="100" rx="16" fill="#1E293B"/>
+<text x="140" y="380" fill="#F1F5F9" font-size="28" font-weight="700" font-family="system-ui,-apple-system,sans-serif">Firefly</text>
+<text x="140" y="415" fill="#94A3B8" font-size="16" font-weight="500" font-family="system-ui,-apple-system,sans-serif">商业合规 · PS 集成</text>
+<rect x="100" y="460" width="600" height="100" rx="16" fill="#1E293B"/>
+<text x="140" y="500" fill="#F1F5F9" font-size="28" font-weight="700" font-family="system-ui,-apple-system,sans-serif">Veo 3</text>
+<text x="140" y="535" fill="#94A3B8" font-size="16" font-weight="500" font-family="system-ui,-apple-system,sans-serif">Google · 最强视频生成</text>
+<rect x="100" y="580" width="600" height="100" rx="16" fill="#1E293B"/>
+<text x="140" y="620" fill="#F1F5F9" font-size="28" font-weight="700" font-family="system-ui,-apple-system,sans-serif">可灵 AI</text>
+<text x="140" y="655" fill="#94A3B8" font-size="16" font-weight="500" font-family="system-ui,-apple-system,sans-serif">快手 · 中文最强 · 便宜</text>
+<text x="400" y="730" text-anchor="middle" dominant-baseline="central" fill="#F1F5F9" font-size="40" font-weight="800" font-family="system-ui,-apple-system,sans-serif">PPT · 演示</text>
+<rect x="100" y="760" width="600" height="30" rx="15" fill="#1E293B"/>
+<text x="140" y="775" fill="#F1F5F9" font-size="14" font-weight="600" font-family="system-ui,-apple-system,sans-serif">Gamma · 描述即生成 · 颜值高</text>
+</svg>
