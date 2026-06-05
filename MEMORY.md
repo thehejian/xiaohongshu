@@ -2617,3 +2617,39 @@ Grok AI ran a civilization collapse simulation. Every single civilization collap
 4. **小红书草稿发布参数固定组合**：`--draft true --window foreground --site-session persistent -f yaml`
 5. **双语言卡片尺寸统一**：1080×1440 (3:4)，与小红书规范一致
 
+## 6. codex-plugin-deep-dive (2026-06-04)
+
+### 卡片字体踩坑
+- **macOS 系统字体路径**：`/System/Library/Fonts/Helvetica.ttc` 和 `PingFang.ttc` 不一定直接存在
+- **可用中文字体**：`/System/Library/Fonts/STHeiti Medium.ttc`（中英文都支持）和 `Hiragino Sans GB.ttc`
+- PIL `ImageFont.truetype()` 字回退到 DejaVu Sans 时中文显示为乱码
+- 生成后必须 `ls -la` 验证文件大小：PIL 乱码时中文卡仅 6-15 KB，正常渲染 ≥30 KB
+
+### PIL 生成卡片太单薄
+- PIL + 纯色背景 + 两行文字 → 用户反馈"太单调"
+- 纯 PIL 卡片 1080×1080 仅 6-40 KB，缺乏装饰元素
+- **推荐方案**：SVG + Inkscape 生成丰富卡片（710-777 KB），含：
+  - 渐变背景
+  - 装饰圆/网格/线条（opacity 0.04-0.12）
+  - Role 编号徽章
+  - 多级文字（标题 120-164px + 副标题 80-100px + 描述 30-40px）
+  - 强调色横线/竖线分隔
+
+### 卡片丰富度设计原则
+- **必须含装饰元素**：纯文字 = 单调，需加背景渐变、几何装饰、多级字号
+- **每张卡一个主题**：Role 编号 + 大标题 + 副标题 + 一句话描述
+- **文件大小指标**：1080×1080 丰富卡片应在 700-800 KB，< 100 KB 肯定太单薄
+- **中文卡片首选 SVG + Inkscape**（PIL 难以做出复杂排版）
+- 对简单英文卡（纯文字、无中文）PIL 仍可用
+
+### Twitter 回复踩坑
+- **emoji 导致 reply 验证失败**：`1/4 🏗` 中的 emoji 可能导致 `Could not verify reply text in the composer`
+- **解决方案**：用 ASCII 符号替代 emoji（`->` 代替 `→`，去掉 emoji）
+- **回复间隔**：主推文后至少 sleep 3s 再 reply
+- 主推文带 4 张图正常，回复不需要带图
+
+### opencli doctor 最佳实践
+- 发布失败时先运行 `opencli doctor` 确认 `Extension: connected`
+- daemon 可能已运行但 extension 未连接 → 需手动连或重试
+- 运行 doctor 后再试 publish，成功率显著提升
+

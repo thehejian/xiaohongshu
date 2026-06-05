@@ -241,11 +241,22 @@ opencli browser <session> click '[data-testid="tweetButton"]'
 - 解决方案：使用单行英文/短中文句，避免换行
 - 实测成功率：英文单行 100% > 中文单行 80% > 多行中文 0%
 
-**2. 需要 inter-tweet 延时**
+**2. Emoji 导致 reply 验证失败（2026-06-04 codex-plugin-deep-dive 验证）**
+- `1/4 🏗` 等 emoji 字符可能导致 verification 失败
+- 解决方案：用 ASCII 符号替代（`->` 代替 `→`，去掉 emoji）
+
+**3. 需要 inter-tweet 延时**
 - 主推文发布后不能立即 reply
-- 首条 reply 至少等 60 秒（给 Twitter 处理推文并渲染回复按钮的时间）
-- 后续每条 reply 之间间隔 20-30 秒
-- 不足时返回 `Reply button is disabled or not found`
+- 首条 reply 至少等 3 秒（实测 `sleep 3` 足够，不一定要 60s）
+- 不足时返回 `Could not verify reply text in the composer after typing`
+- 推荐：`sleep 3` 后重试即成功
+
+**4. Thread 暂未完整发布时的处理**
+- 当 thread 中途被打断（如主推文已发但 reply 未完成），下次会话可继续：
+  ```bash
+  opencli twitter reply "<已有主推文url>" "<下一条内容>" --window foreground -f yaml
+  ```
+- 无需重新发主推文
 
 **3. 推荐 Thread 发布节奏**
 ```
