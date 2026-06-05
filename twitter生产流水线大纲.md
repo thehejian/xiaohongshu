@@ -109,6 +109,8 @@ opencli twitter post "<text>" \
   --site-session persistent \
   -f yaml
 ```
+- `\n` 在 text 中直接支持换行，无需特殊处理
+- 图片路径相对 CWD，最多 4 张
 
 ### Thread 推文串
 ```bash
@@ -211,9 +213,9 @@ if (btn && !btn.disabled) btn.click();
 ### 网络问题
 - GitHub push 失败（`Failed to connect` / `HTTP2 framing error`）→ retry 即可
 
-## 十、参考文献
+## 八、参考文献
 - `小红书生产流水线大纲.md` — XHS 完整流水线（含卡片设计语言、爆款写作）
-- `MEMORY.md` #28-#30 — Twitter 发布详细踩坑记录
+- `MEMORY.md` #32 — AI老人语录红利项目经验（Twitter 单条发布验证）
 - `batch_post_twitter.py` — 批量发布脚本（37 topic）
 - `post_remaining.sh` — 剩余 topic shell 发布脚本
 - `twitter/twitter-publish-workflow.md` — 原始 Twitter 发布工作流

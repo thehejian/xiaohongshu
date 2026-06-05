@@ -2001,3 +2001,44 @@ emoji：大 emoji 在标题上方（🎯⚡🔥💰）
 - 8 张卡片全部上传成功
 - X/Twitter Thread：已准备（主推文 + 续推文），待用户确认发布
 
+## 32. video-elderly-quotes-xhs AI老人语录红利（2026-06-05）
+
+### 项目结构
+```
+video-elderly-quotes-xhs/
+├── article.md                  # 小红书草稿（标题 10 字 + 正文）
+├── README.md                   # 完整博客版 + 变现方式
+├── gen_cards.py                # SVG→PNG 生成器（3 张浅色卡片）
+├── ai-elderly-cover.png        # 封面 (1024×1024) — GPT+MJ+BGM+分发 4步
+├── ai-elderly-workflow.png     # 4步套路拆解 (1024×1024)
+└── ai-elderly-money.png        # 4种变现方式 (1024×1024)
+```
+
+### 发布数据
+- 小红书：⚠️ 浏览器待确认（未自动完成，需手动点发布）
+- Twitter：✅ 成功 — https://x.com/DubaIGOHGOkTHOk/status/2062491514408947760
+- 图片：3 张（封面 + 工作流 + 变现）
+
+### 内容要点
+- 主题：微信视频号 AI 老人语录红利（GPT 模写莫言体 + AI 头像 + 慢 BGM）
+- 目标人群：45-65 岁中老年人，对人生哲理类内容有天然信任感
+- 核心卖点：GPT+Midjourney+剪映，新手 1 小时上手
+
+### Twitter 发布验证
+- 命令：`opencli twitter post` + 3 张图片 → 一次成功，无故障
+- 字符数：178 加权字符（< 280 ✓），含中文 + ASCII + #Tag
+- 换行：`\n` 在 text 中的换行正常渲染
+- 图片：3 张 1024×1024 PNG（610KB + 141KB + 113KB），无尺寸/分辨率问题
+
+### 小红书发布状态
+- `opencli xiaohongshu publish` 返回 `⚠️ 操作完成，请在浏览器中确认`
+- 与之前某些项目的 `✅ 发布成功` 或 `✅ 暂存成功` 不同
+- 需要用户手动在浏览器中点确认（发布页已打开，图片已上传）
+
+### 本会话经验
+1. **Twitter 单条发布工作流可靠**：使用 `opencli twitter post` + `--window foreground --site-session persistent -f yaml` 稳定成功
+2. **XHS publish 状态多样**：返回值有 `✅ 发布成功`、`✅ 暂存成功`、`⚠️ 操作完成，请在浏览器中确认` 三种，后一种需用户手动操作
+3. **3 张图片适配两种平台**：小红书用 3 张，Twitter 用同样的 3 张（≤4 上限）
+4. **卡片设计**：浅色奶油底 + 4 个步骤卡片 + 文字对称分布，无重叠问题
+5. **内容定位**：微信视频号 + 中老年流量赛道，属于"信息差红利"类内容
+

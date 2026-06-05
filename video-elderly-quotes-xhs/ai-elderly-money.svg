@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+    <rect width="1024" height="1024" fill="#FAF7F2"/>
+    <defs>
+      
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#1E1E3C" flood-opacity="0.06"/>
+    </filter>
+    
+    </defs>
+
+    <!-- Top bar -->
+    <rect width="1024" height="140" fill="#D97706" opacity="0.08"/>
+    <text x="60" y="60" font-size="20" font-weight="600" fill="#D97706" font-family="PingFang SC, Microsoft YaHei, sans-serif">MONEY</text>
+    <text x="60" y="105" font-size="44" font-weight="800" fill="#1E293B" font-family="PingFang SC, Microsoft YaHei, sans-serif">4种变现方式</text>
+
+    <!-- Method 1 -->
+    <rect x="60" y="180" width="904" height="90" rx="14" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="110" cy="225" r="24" fill="#7C3AED" opacity="0.12"/>
+    <text x="110" y="232" font-size="20" text-anchor="middle" fill="#7C3AED" font-family="PingFang SC, Microsoft YaHei, sans-serif">1</text>
+    <text x="150" y="218" font-size="22" font-weight="700" fill="#1E293B" font-family="PingFang SC, Microsoft YaHei, sans-serif">视频号带货</text>
+    <text x="150" y="252" font-size="18" fill="#475569" font-family="PingFang SC, Microsoft YaHei, sans-serif">挂图书 / 保健品 / 养生品链接，佣金5-20%</text>
+
+    <!-- Method 2 -->
+    <rect x="60" y="290" width="904" height="90" rx="14" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="110" cy="335" r="24" fill="#E11D48" opacity="0.12"/>
+    <text x="110" y="342" font-size="20" text-anchor="middle" fill="#E11D48" font-family="PingFang SC, Microsoft YaHei, sans-serif">2</text>
+    <text x="150" y="328" font-size="22" font-weight="700" fill="#1E293B" font-family="PingFang SC, Microsoft YaHei, sans-serif">引流私域</text>
+    <text x="150" y="362" font-size="18" fill="#475569" font-family="PingFang SC, Microsoft YaHei, sans-serif">引导加微信，卖课程 / 社群会员，99-499元/人</text>
+
+    <!-- Method 3 -->
+    <rect x="60" y="400" width="904" height="90" rx="14" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="110" cy="445" r="24" fill="#D97706" opacity="0.12"/>
+    <text x="110" y="452" font-size="20" text-anchor="middle" fill="#D97706" font-family="PingFang SC, Microsoft YaHei, sans-serif">3</text>
+    <text x="150" y="438" font-size="22" font-weight="700" fill="#1E293B" font-family="PingFang SC, Microsoft YaHei, sans-serif">流量主收益</text>
+    <text x="150" y="472" font-size="18" fill="#475569" font-family="PingFang SC, Microsoft YaHei, sans-serif">视频号广告分成，万次播放30-80元</text>
+
+    <!-- Method 4 -->
+    <rect x="60" y="510" width="904" height="90" rx="14" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="110" cy="555" r="24" fill="#0D9488" opacity="0.12"/>
+    <text x="110" y="562" font-size="20" text-anchor="middle" fill="#0D9488" font-family="PingFang SC, Microsoft YaHei, sans-serif">4</text>
+    <text x="150" y="548" font-size="22" font-weight="700" fill="#1E293B" font-family="PingFang SC, Microsoft YaHei, sans-serif">做号转手</text>
+    <text x="150" y="582" font-size="18" fill="#475569" font-family="PingFang SC, Microsoft YaHei, sans-serif">做出粉丝量后卖号，1-5万元/号</text>
+
+    <!-- Tips section -->
+    <rect x="60" y="630" width="904" height="180" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="100" y="670" font-size="22" font-weight="700" fill="#1E293B" font-family="PingFang SC, Microsoft YaHei, sans-serif">实操建议</text>
+    <text x="100" y="710" font-size="18" fill="#475569" font-family="PingFang SC, Microsoft YaHei, sans-serif">每天发3-5条，测试哪类语录数据好</text>
+    <text x="100" y="740" font-size="18" fill="#475569" font-family="PingFang SC, Microsoft YaHei, sans-serif">同一段话换不同头像/BGM发布</text>
+    <text x="100" y="770" font-size="18" fill="#475569" font-family="PingFang SC, Microsoft YaHei, sans-serif">不要直接写莫言说，用一位老人说避免侵权</text>
+    <text x="100" y="800" font-size="18" fill="#475569" font-family="PingFang SC, Microsoft YaHei, sans-serif">评论区用小号互动大师说得对</text>
+
+    <!-- Footer -->
+    <text x="60" y="880" font-size="14" fill="#94A3B8" font-family="PingFang SC, Microsoft YaHei, sans-serif">#AI副业 #微信视频号 #AI语录 #中老年流量 #搞钱</text>
+  </svg>

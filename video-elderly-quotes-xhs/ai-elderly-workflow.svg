@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+    <rect width="1024" height="1024" fill="#FAF7F2"/>
+    <defs>
+      
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#1E1E3C" flood-opacity="0.06"/>
+    </filter>
+    
+    </defs>
+
+    <!-- Top bar -->
+    <rect width="1024" height="140" fill="#7C3AED" opacity="0.08"/>
+    <text x="60" y="60" font-size="20" font-weight="600" fill="#7C3AED" font-family="PingFang SC, Microsoft YaHei, sans-serif">STEP BY STEP</text>
+    <text x="60" y="105" font-size="44" font-weight="800" fill="#1E293B" font-family="PingFang SC, Microsoft YaHei, sans-serif">完整套路拆解</text>
+
+    <!-- Step 1 -->
+    <rect x="60" y="170" width="904" height="120" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="60" y="170" width="8" height="120" rx="4" fill="#7C3AED"/>
+    <text x="100" y="210" font-size="22" font-weight="700" fill="#1E293B" font-family="PingFang SC, Microsoft YaHei, sans-serif">01 GPT模写莫言体</text>
+    <text x="100" y="245" font-size="18" fill="#475569" font-family="PingFang SC, Microsoft YaHei, sans-serif">投喂5-10篇莫言/余华语录，GPT模仿风范输出15-30字哲理金句</text>
+    <text x="100" y="275" font-size="16" fill="#94A3B8" font-family="PingFang SC, Microsoft YaHei, sans-serif">关键：短小精悍，适合视频展示</text>
+
+    <!-- Step 2 -->
+    <rect x="60" y="310" width="904" height="120" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="60" y="310" width="8" height="120" rx="4" fill="#E11D48"/>
+    <text x="100" y="350" font-size="22" font-weight="700" fill="#1E293B" font-family="PingFang SC, Microsoft YaHei, sans-serif">02 AI生成老人头像</text>
+    <text x="100" y="385" font-size="18" fill="#475569" font-family="PingFang SC, Microsoft YaHei, sans-serif">Midjourney生成慈眉善目老人形象，真实到中老年用户以为是真人</text>
+    <text x="100" y="415" font-size="16" fill="#94A3B8" font-family="PingFang SC, Microsoft YaHei, sans-serif">关键：不同视频换不同头像，避免被识别</text>
+
+    <!-- Step 3 -->
+    <rect x="60" y="450" width="904" height="120" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="60" y="450" width="8" height="120" rx="4" fill="#D97706"/>
+    <text x="100" y="490" font-size="22" font-weight="700" fill="#1E293B" font-family="PingFang SC, Microsoft YaHei, sans-serif">03 配慢节奏BGM</text>
+    <text x="100" y="525" font-size="18" fill="#475569" font-family="PingFang SC, Microsoft YaHei, sans-serif">抒情钢琴曲或古筝二胡，节奏舒缓，音量偏低不盖过语音</text>
+    <text x="100" y="555" font-size="16" fill="#94A3B8" font-family="PingFang SC, Microsoft YaHei, sans-serif">关键：中老年偏好舒缓怀旧风格</text>
+
+    <!-- Step 4 -->
+    <rect x="60" y="590" width="904" height="120" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="60" y="590" width="8" height="120" rx="4" fill="#0D9488"/>
+    <text x="100" y="630" font-size="22" font-weight="700" fill="#1E293B" font-family="PingFang SC, Microsoft YaHei, sans-serif">04 视频号精准分发</text>
+    <text x="100" y="665" font-size="18" fill="#475569" font-family="PingFang SC, Microsoft YaHei, sans-serif">算法触达45-65岁人群，社交裂变转发率极高</text>
+    <text x="100" y="695" font-size="16" fill="#94A3B8" font-family="PingFang SC, Microsoft YaHei, sans-serif">关键：一条爆了持续推流3-7天</text>
+
+    <!-- Bottom insight -->
+    <rect x="60" y="740" width="904" height="80" rx="16" fill="#7C3AED" opacity="0.08"/>
+    <text x="100" y="775" font-size="20" font-weight="600" fill="#7C3AED" font-family="PingFang SC, Microsoft YaHei, sans-serif">情感共鸣 + 权威背书 = 高转发</text>
+    <text x="100" y="805" font-size="18" fill="#475569" font-family="PingFang SC, Microsoft YaHei, sans-serif">长辈以为是"莫言本人语录"，天然可信</text>
+
+    <!-- Footer -->
+    <text x="60" y="880" font-size="14" fill="#94A3B8" font-family="PingFang SC, Microsoft YaHei, sans-serif">#AI副业 #微信视频号 #AI语录 #中老年流量 #搞钱</text>
+  </svg>
