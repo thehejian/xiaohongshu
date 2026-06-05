@@ -232,6 +232,33 @@ opencli browser <session> eval '
 opencli browser <session> click '[data-testid="tweetButton"]'
 ```
 
+### Thread 回复踩坑（2026-06-05 obsidian-agent-xhs 验证）
+
+**1. 多行中文回复失败**
+- `twitter reply` 对多行中文文本（含换行符）经常失败
+- 错误信息：`Could not verify reply text in the composer after typing`
+- 解决方案：使用单行英文/短中文句，避免换行
+- 实测成功率：英文单行 100% > 中文单行 80% > 多行中文 0%
+
+**2. 需要 inter-tweet 延时**
+- 主推文发布后不能立即 reply
+- 首条 reply 至少等 60 秒（给 Twitter 处理推文并渲染回复按钮的时间）
+- 后续每条 reply 之间间隔 20-30 秒
+- 不足时返回 `Reply button is disabled or not found`
+
+**3. 推荐 Thread 发布节奏**
+```
+主推文 post（带图）
+  → sleep 60s
+  → reply #2（英文单行）
+  → sleep 30s  
+  → reply #3（英文/中文单行）
+  → sleep 20s
+  → reply #4（英文单行）
+```
+- 每条保持独立完整的观点
+- 有换行/中文长句的场景用 browser eval fallback
+
 ### 卡片样式规范（2026-06-05 新增）
 - 深色卡片（英文，Twitter 用）：底色 `#0A0A14`，亮色文字（`#F5F5F7`/`#C4B5FD`/`#67E8F9`/`#FCD34D`/`#F472B6`）
 - 禁止黑色/深灰色/暗色文字，必须用高亮浅色系

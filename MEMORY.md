@@ -1060,7 +1060,75 @@ suno-udio-music-xhs/
 - 状态：✅ 暂存成功（草稿箱）
 - 飞书文档：https://www.feishu.cn/docx/SKaJdXspJoByACxyi4ocB49Vnyg
 
-## 3. 小红书卡片设计 (XHS 风格)
+## 21. Obsidian + AI Agent 双语言卡片项目（2026-06-05）
+
+### 项目结构
+```
+obsidian-agent-xhs/
+├── article.md              # 小红书草稿（标题 15 字 + 正文 639 字）
+├── README.md               # 完整博客版
+├── gen_cards.py            # SVG 生成器（8 张卡片：4 中文浅色 + 4 英文深色）
+├── oa-cover-zh.png/svg     # 中文封面 (1024×1024)
+├── oa-card-1-zh.png/svg    # 中文痛点卡
+├── oa-card-2-zh.png/svg    # 中文解决方案卡
+├── oa-card-3-zh.png/svg    # 中文数据卡
+├── oa-cover-en.png/svg     # 英文封面 (1024×1024)
+├── oa-card-1-en.png/svg    # 英文哲学卡
+├── oa-card-2-en.png/svg    # 英文架构卡
+└── oa-card-3-en.png/svg    # 英文结论卡
+```
+
+### 内容规划（8 张卡）
+**中文 4 张（浅色奶油底 #FAF7F2）：**
+- 封面：大标题 "Obsidian + AI 真有搞头" + 四大信号
+- 卡1：死笔记痛点（写了5000条没人读、AI碰不到、插件各自为政）
+- 卡2：AI管家方案（Agents Read理念 + CLI/MCP/QMD/生态四件套）
+- 卡3：三组数据（54x CLI速度、60%+ Token节省、6+插件）
+
+**英文 4 张（深色 #0B1027/141B33）：**
+- 封面：Overhyped or Underrated? + 4 signals
+- 卡1：Agents Read, Humans Write 哲学 + 4 slash commands
+- 卡2：How It Works — CLI + MCP + QMD 三件套
+- 卡3：The Verdict — 4 conclusions
+
+### 经验教训
+
+**1. Twitter reply 多行中文策略**
+- `opencli twitter reply` 对多行中文文本经常返回 `Could not verify reply text in the composer after typing`
+- 解决方案：用单行英文/中文短句，不要用换行
+- 实测：短英文单行成功率 100%，中文单行也 OK，多行中文失败
+- 需要发长内容时：先发短英文，再用 browser eval 操作
+
+**2. Twitter reply 需要延时**
+- 连续发 reply 需要间隔至少 20-30 秒，否则 composer 页面可能尚未准备好
+- 首条 reply 尤其需要更多时间（post 后 tweet 需要时间发布）
+- 推荐间隔：首条 reply 等待 60 秒，后续每条 20-30 秒
+
+**3. XHS `--topics` 对 niche 主题必须省略**
+- Obsidian/AI Agent 被系统判定为 niche，attach topic 时 "no real topic entity appeared"
+- 解决方案：body 末尾用 `#话题` 标签替代 `--topics`，不传 `--topics` 参数
+
+**4. 双语言卡片设计模式**
+- 同一主题用浅色/深色两套卡片，分别用于不同平台（XHS 浅色中文 / Twitter 深色英文）
+- 一套 gen_cards.py 同时生成 light + dark 两组函数，共享颜色变量
+- 内容对应但不完全相同：中文走痛点→方案→数据线，英文走哲学→架构→结论线
+
+**5. 中/英文封面区别**
+- 中文封面：大字标题（96px + 64px），更情绪化，有 hashtag
+- 英文封面：略小节标题（80px + 52px），更理性，突出 "Overhyped or Underrated?" 的争议感
+- 深色封面用 `#1A2340` 色块代替白色卡片，避免浅色在深底上突兀
+
+### 飞书文档
+- URL: https://www.feishu.cn/docx/NgY3dZPhmoJTOsxKSOWcW9MRnEg
+- 8 张图全部上传成功（2 封面 + 6 卡片）
+
+### 发布状态
+- XHS 草稿：✅ 已保存，标题「Obsidian+AI真有搞头」，4 张中文浅色图
+- Twitter 主推文：✅ 已发布，4 张英文深色图（仅发主推文，不发推文串）
+
+### 关键教训（2026-06-05 用户确认）
+- **Twitter 只发主推文，不发推文串**：用户明确要求只发单条推文+4图，超出内容不切 Thread
+- **XHS `--topics` 对 niche 主题必须省略**：Obsidian/AI Agent 无法匹配话题实体
 
 ### 2026-06-03 经验总结
 
