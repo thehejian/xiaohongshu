@@ -10,25 +10,24 @@ W, H = 800, 800
 FONT = "system-ui,-apple-system,sans-serif"
 
 def render():
-    # Card 0: Light, Chinese — Writing & Search
-    # 深字：#1E293B, 浅灰描述：#475569, 背景：#FAF7F2
+    # Card 0: Dark, English — Writing & Search
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}">
-<rect width="{W}" height="{H}" fill="#FAF7F2"/>
-<text x="{W//2}" y="120" text-anchor="middle" dominant-baseline="central" fill="#1E293B" font-size="40" font-weight="800" font-family="{FONT}">写作 · 对话</text>
-<text x="{W//2}" y="170" text-anchor="middle" dominant-baseline="central" fill="#64748B" font-size="18" font-weight="500" font-family="{FONT}">Writing &amp; Chat</text>
-<rect x="100" y="220" width="600" height="100" rx="16" fill="#fff"/>
-<text x="140" y="260" fill="#1E293B" font-size="28" font-weight="700" font-family="{FONT}">Claude Sonnet 4.6</text>
-<text x="140" y="295" fill="#64748B" font-size="16" font-weight="500" font-family="{FONT}">长文写作 · 深度分析 · 长文天花板</text>
-<rect x="100" y="340" width="600" height="100" rx="16" fill="#fff"/>
-<text x="140" y="380" fill="#1E293B" font-size="28" font-weight="700" font-family="{FONT}">ChatGPT</text>
-<text x="140" y="415" fill="#64748B" font-size="16" font-weight="500" font-family="{FONT}">日常问答 · 插件生态最全</text>
-<text x="{W//2}" y="500" text-anchor="middle" dominant-baseline="central" fill="#1E293B" font-size="40" font-weight="800" font-family="{FONT}">AI 搜索</text>
-<rect x="100" y="550" width="600" height="100" rx="16" fill="#fff"/>
-<text x="140" y="590" fill="#1E293B" font-size="28" font-weight="700" font-family="{FONT}">Perplexity</text>
-<text x="140" y="625" fill="#64748B" font-size="16" font-weight="500" font-family="{FONT}">答案带来源 · 研究神器</text>
-<rect x="100" y="670" width="600" height="100" rx="16" fill="#fff"/>
-<text x="140" y="710" fill="#1E293B" font-size="28" font-weight="700" font-family="{FONT}">Copilot</text>
-<text x="140" y="745" fill="#64748B" font-size="16" font-weight="500" font-family="{FONT}">办公生态 · Microsoft</text>
+<rect width="{W}" height="{H}" fill="#0B1027"/>
+<text x="{W//2}" y="120" text-anchor="middle" dominant-baseline="central" fill="#F1F5F9" font-size="40" font-weight="800" font-family="{FONT}">Writing &amp; Search</text>
+<text x="{W//2}" y="170" text-anchor="middle" dominant-baseline="central" fill="#94A3B8" font-size="18" font-weight="500" font-family="{FONT}">写作 · 对话</text>
+<rect x="100" y="220" width="600" height="100" rx="16" fill="#1E293B"/>
+<text x="140" y="260" fill="#F1F5F9" font-size="28" font-weight="700" font-family="{FONT}">Claude Sonnet 4.6</text>
+<text x="140" y="295" fill="#94A3B8" font-size="16" font-weight="500" font-family="{FONT}">Long-form Writing · Deep Analysis</text>
+<rect x="100" y="340" width="600" height="100" rx="16" fill="#1E293B"/>
+<text x="140" y="380" fill="#F1F5F9" font-size="28" font-weight="700" font-family="{FONT}">ChatGPT</text>
+<text x="140" y="415" fill="#94A3B8" font-size="16" font-weight="500" font-family="{FONT}">Daily Q&amp;A · Full Plugin Ecosystem</text>
+<text x="{W//2}" y="500" text-anchor="middle" dominant-baseline="central" fill="#F1F5F9" font-size="40" font-weight="800" font-family="{FONT}">AI Search</text>
+<rect x="100" y="550" width="600" height="100" rx="16" fill="#1E293B"/>
+<text x="140" y="590" fill="#F1F5F9" font-size="28" font-weight="700" font-family="{FONT}">Perplexity</text>
+<text x="140" y="625" fill="#94A3B8" font-size="16" font-weight="500" font-family="{FONT}">Answers with Sources · Research</text>
+<rect x="100" y="670" width="600" height="100" rx="16" fill="#1E293B"/>
+<text x="140" y="710" fill="#F1F5F9" font-size="28" font-weight="700" font-family="{FONT}">Copilot</text>
+<text x="140" y="745" fill="#94A3B8" font-size="16" font-weight="500" font-family="{FONT}">Office Ecosystem · Microsoft</text>
 </svg>'''
     with open(f'{OUT}/card-0.svg', 'w') as f:
         f.write(svg)
@@ -58,31 +57,31 @@ def render():
     with open(f'{OUT}/card-1.svg', 'w') as f:
         f.write(svg)
 
-    # Card 2: Light, Chinese — Audio & Music + Coding
+    # Card 2: Dark, English — Audio & Music + Coding
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}">
-<rect width="{W}" height="{H}" fill="#FAF7F2"/>
-<text x="{W//2}" y="120" text-anchor="middle" dominant-baseline="central" fill="#1E293B" font-size="40" font-weight="800" font-family="{FONT}">音频 · 音乐 · 编程</text>
-<text x="{W//2}" y="170" text-anchor="middle" dominant-baseline="central" fill="#64748B" font-size="18" font-weight="500" font-family="{FONT}">Audio · Music · Coding</text>
-<rect x="100" y="220" width="600" height="80" rx="16" fill="#fff"/>
-<text x="140" y="250" fill="#1E293B" font-size="26" font-weight="700" font-family="{FONT}">Suno AI</text>
-<text x="140" y="280" fill="#64748B" font-size="14" font-weight="500" font-family="{FONT}">人人可写歌 · AI 音乐生成</text>
-<rect x="100" y="310" width="600" height="80" rx="16" fill="#fff"/>
-<text x="140" y="340" fill="#1E293B" font-size="26" font-weight="700" font-family="{FONT}">ElevenLabs</text>
-<text x="140" y="370" fill="#64748B" font-size="14" font-weight="500" font-family="{FONT}">配音天花板 · 语音合成</text>
-<rect x="100" y="400" width="600" height="80" rx="16" fill="#fff"/>
-<text x="140" y="430" fill="#1E293B" font-size="26" font-weight="700" font-family="{FONT}">Notta</text>
-<text x="140" y="460" fill="#64748B" font-size="14" font-weight="500" font-family="{FONT}">会议转录 · 实时转写</text>
-<rect x="100" y="490" width="600" height="80" rx="16" fill="#fff"/>
-<text x="140" y="520" fill="#1E293B" font-size="26" font-weight="700" font-family="{FONT}">Claude Code</text>
-<text x="140" y="550" fill="#64748B" font-size="14" font-weight="500" font-family="{FONT}">最稳 · 复杂项目 · AI Agent</text>
-<rect x="100" y="580" width="600" height="80" rx="16" fill="#fff"/>
-<text x="140" y="610" fill="#1E293B" font-size="26" font-weight="700" font-family="{FONT}">Codex</text>
-<text x="140" y="640" fill="#64748B" font-size="14" font-weight="500" font-family="{FONT}">OpenAI · 浏览器控制</text>
-<rect x="100" y="670" width="600" height="80" rx="16" fill="#fff"/>
-<text x="140" y="700" fill="#1E293B" font-size="26" font-weight="700" font-family="{FONT}">Cursor</text>
-<text x="140" y="730" fill="#64748B" font-size="14" font-weight="500" font-family="{FONT}">VS Code fork · 集成好</text>
+<rect width="{W}" height="{H}" fill="#0B1027"/>
+<text x="{W//2}" y="120" text-anchor="middle" dominant-baseline="central" fill="#F1F5F9" font-size="40" font-weight="800" font-family="{FONT}">Audio · Music · Coding</text>
+<text x="{W//2}" y="170" text-anchor="middle" dominant-baseline="central" fill="#94A3B8" font-size="18" font-weight="500" font-family="{FONT}">音频 · 音乐 · 编程</text>
+<rect x="100" y="220" width="600" height="80" rx="16" fill="#1E293B"/>
+<text x="140" y="250" fill="#F1F5F9" font-size="26" font-weight="700" font-family="{FONT}">Suno AI</text>
+<text x="140" y="280" fill="#94A3B8" font-size="14" font-weight="500" font-family="{FONT}">Everyone Can Write Songs</text>
+<rect x="100" y="310" width="600" height="80" rx="16" fill="#1E293B"/>
+<text x="140" y="340" fill="#F1F5F9" font-size="26" font-weight="700" font-family="{FONT}">ElevenLabs</text>
+<text x="140" y="370" fill="#94A3B8" font-size="14" font-weight="500" font-family="{FONT}">Voice Synthesis · Top Quality</text>
+<rect x="100" y="400" width="600" height="80" rx="16" fill="#1E293B"/>
+<text x="140" y="430" fill="#F1F5F9" font-size="26" font-weight="700" font-family="{FONT}">Notta</text>
+<text x="140" y="460" fill="#94A3B8" font-size="14" font-weight="500" font-family="{FONT}">Meeting Transcription · Real-time</text>
+<rect x="100" y="490" width="600" height="80" rx="16" fill="#1E293B"/>
+<text x="140" y="520" fill="#F1F5F9" font-size="26" font-weight="700" font-family="{FONT}">Claude Code</text>
+<text x="140" y="550" fill="#94A3B8" font-size="14" font-weight="500" font-family="{FONT}">Most Stable · Complex Projects</text>
+<rect x="100" y="580" width="600" height="80" rx="16" fill="#1E293B"/>
+<text x="140" y="610" fill="#F1F5F9" font-size="26" font-weight="700" font-family="{FONT}">Codex</text>
+<text x="140" y="640" fill="#94A3B8" font-size="14" font-weight="500" font-family="{FONT}">OpenAI · Browser Control</text>
+<rect x="100" y="670" width="600" height="80" rx="16" fill="#1E293B"/>
+<text x="140" y="700" fill="#F1F5F9" font-size="26" font-weight="700" font-family="{FONT}">Cursor</text>
+<text x="140" y="730" fill="#94A3B8" font-size="14" font-weight="500" font-family="{FONT}">VS Code Fork · Best Integration</text>
 <rect x="100" y="760" width="600" height="30" rx="15" fill="#1E293B"/>
-<text x="140" y="775" fill="#F1F5F9" font-size="14" font-weight="600" font-family="{FONT}">Windsurf · AI 编程 · Cline 同厂</text>
+<text x="140" y="775" fill="#F1F5F9" font-size="14" font-weight="600" font-family="{FONT}">Windsurf · AI Coding · Cline Team</text>
 </svg>'''
     with open(f'{OUT}/card-2.svg', 'w') as f:
         f.write(svg)

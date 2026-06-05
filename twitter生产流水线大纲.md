@@ -266,6 +266,33 @@ opencli browser <session> click '[data-testid="tweetButton"]'
 - 绝对居中、无阴影、无标题栏、无底部文字
 - 与 XHS 浅色卡片共用 `gen_cards.py`（light + dark 两组函数）
 
+**合集型内容卡片密度规范（2026-06-05 ai-tool-stack-2026-xhs 验证）：**
+- 每张卡片必须有具体条目（工具名 + 简短点评），不能只有大标题
+- 每张卡片 4-7 个具体条目，使用垂直列表或 2×2 网格布局
+- 条目太多时拆分为多张卡片（每张 3-6 条），共 4 张
+- 浅色/深色语言规则不可混用：浅色=中文/小红书，深色=英文/Twitter
+
+### 单条推文 + 4 图发布模式（2026-06-05 验证）
+- **适用场景**：合集型/清单型内容，信息密度高，无需 thread
+- **推文内容**：控制在 60-80 中文字符（120-160 加权），远低于 280 上限
+- **图片数量**：4 张深色英文卡片（800×800）
+- **发布命令**：
+  ```bash
+  opencli twitter post "<text>" \
+    --images "card-0.png,card-1.png,card-2.png,card-3.png" \
+    --window foreground \
+    --site-session persistent \
+    -f yaml
+  ```
+- **优势**：无需 thread 发布，无需延时，一次成功率高
+- **推文示例**：
+  ```
+  2026 AI 工具清单｜只会 ChatGPT 不够了
+
+  🧵 7 大分类，15+ 工具，选对效率翻倍
+  ```
+  （29 中文字符 + 空格/emoji ≈ 76 加权字符）
+
 ### 故障处理 fallback
 
 #### 超时处理
