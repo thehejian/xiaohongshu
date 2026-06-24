@@ -1,0 +1,1 @@
+Screen print card. Bungee jumper silhouetted against mountain river (Queenstown). Hobbiton round door with garden. "皇后镇蹦极 霍比屯" theme. Adventure and fantasy. Bold flat shapes. Halftone. Cream #FAF7F2, text #1E293B.

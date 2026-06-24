@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+    <stop offset="0%" stop-color="#FAF7F2"/>
+    <stop offset="100%" stop-color="#F5F0E8"/>
+  </radialGradient>
+  <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%"><feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#1E293B" flood-opacity="0.08"/></filter>
+</defs>
+<rect width="1024" height="1024" fill="url(#bg)"/>
+<circle cx="80" cy="80" r="100" fill="#FEE2E2" opacity="0.15"/>
+<circle cx="924" cy="924" r="130" fill="#FEF3C7" opacity="0.12"/>
+
+<rect x="62" y="30" width="900" height="80" rx="35" fill="#FFFFFF" filter="url(#shadow)"/>
+<text x="512" y="80" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="30" font-weight="800" fill="#1E293B">🚨 F组死亡之榜 · 出线形势</text>
+
+<rect x="62" y="140" width="900" height="350" rx="24" fill="#FFFFFF" filter="url(#shadow)"/>
+
+<g transform="translate(82, 160)">
+  <rect x="0" y="0" width="860" height="55" rx="12" fill="#F1F5F9"/>
+  <text x="20" y="35" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#1E293B">排名</text>
+  <text x="200" y="35" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#1E293B">球队</text>
+  <text x="500" y="35" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#1E293B">赛果</text>
+  <text x="740" y="35" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#1E293B">状态</text>
+</g>
+
+<g transform="translate(82, 230)">
+  <text x="20" y="35" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="800" fill="#10B981">1</text>
+  <text x="200" y="35" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="700" fill="#1E293B">瑞典</text>
+  <text x="500" y="35" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#64748B">5-1 胜突尼斯</text>
+  <rect x="720" y="10" width="80" height="28" rx="14" fill="#D1FAE5"/>
+  <text x="760" y="30" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="16" font-weight="700" fill="#10B981">出线在望</text>
+</g>
+
+<g transform="translate(82, 290)">
+  <text x="20" y="35" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="800" fill="#F59E0B">2</text>
+  <text x="200" y="35" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="700" fill="#1E293B">日本</text>
+  <text x="500" y="35" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#64748B">2-2 平荷兰</text>
+  <rect x="720" y="10" width="80" height="28" rx="14" fill="#FEF3C7"/>
+  <text x="760" y="30" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="16" font-weight="700" fill="#F59E0B">还有机会</text>
+</g>
+
+<g transform="translate(82, 350)">
+  <text x="20" y="35" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="800" fill="#F59E0B">3</text>
+  <text x="200" y="35" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="700" fill="#1E293B">荷兰</text>
+  <text x="500" y="35" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#64748B">2-2 平日本</text>
+  <rect x="720" y="10" width="80" height="28" rx="14" fill="#FEF3C7"/>
+  <text x="760" y="30" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="16" font-weight="700" fill="#F59E0B">还有机会</text>
+</g>
+
+<g transform="translate(82, 410)">
+  <text x="20" y="35" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="800" fill="#DC2626">4</text>
+  <text x="200" y="35" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="700" fill="#1E293B">突尼斯</text>
+  <text x="500" y="35" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#64748B">1-5 负瑞典</text>
+  <rect x="720" y="10" width="100" height="28" rx="14" fill="#FEE2E2"/>
+  <text x="770" y="30" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="16" font-weight="700" fill="#DC2626">基本告别</text>
+</g>
+
+<!-- Next matches -->
+<g transform="translate(62, 530)">
+  <rect x="0" y="0" width="900" height="100" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+  <text x="30" y="40" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#1E293B">剩余赛程</text>
+  <text x="30" y="75" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#64748B">第2场：日本 vs 突尼斯（⚔️ 背水一战）</text>
+  <text x="560" y="75" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#64748B">第3场：荷兰 vs 突尼斯（💀 凶多吉少）</text>
+</g>
+
+<rect x="62" y="670" width="900" height="70" rx="20" fill="#FEE2E2" stroke="#DC2626" stroke-width="1.5" stroke-dasharray="6,3"/>
+<text x="512" y="705" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="26" font-weight="800" fill="#DC2626">晋级希望：一行白鹭上青天</text>
+<text x="512" y="735" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#64748B">——远走高飞，明年再来 🛫</text>
+
+<rect x="312" y="800" width="400" height="50" rx="25" fill="#DC2626"/>
+<text x="512" y="833" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#FFF">关注我 · 看更多世界杯名场面</text>
+
+<text x="512" y="920" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#64748B">❤️ 点赞  ⭐ 收藏  🔄 转发</text>
+<line x1="80" y1="960" x2="944" y2="960" stroke="#E2E8F0" stroke-width="1"/>
+<text x="512" y="990" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#94A3B8">#突尼斯 #世界杯 #2026世界杯 #死亡之组 #足球段子</text>
+</svg>

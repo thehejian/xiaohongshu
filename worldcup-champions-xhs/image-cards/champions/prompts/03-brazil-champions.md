@@ -1,0 +1,1 @@
+Brazilian soccer legend Pele celebrating with the World Cup trophy, wearing yellow Brazil jersey, crowd cheering in background, confetti falling, iconic football moment, photorealistic, high detail, sports photography style, NO text or labels anywhere in the image

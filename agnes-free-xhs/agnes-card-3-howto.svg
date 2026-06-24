@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#1E293B" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <circle cx="80" cy="80" r="70" fill="#D1FAE5" opacity="0.4"/>
+  <circle cx="720" cy="720" r="60" fill="#EDE9FE" opacity="0.3"/>
+
+  <rect x="40" y="40" width="720" height="100" rx="50" fill="#D1FAE5" filter="url(#shadow)"/>
+  <text x="400" y="108" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="48" font-weight="900" fill="#1E293B">&#x1F4CB; 一分钟上手</text>
+
+  <g transform="translate(40, 175)">
+    <rect x="0" y="0" width="720" height="55" rx="14" fill="#DBEAFE"/>
+    <text x="360" y="36" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#2563EB">1. 注册获取 API Key</text>
+  </g>
+
+  <g transform="translate(40, 250)">
+    <rect x="0" y="0" width="720" height="200" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="40" y="40" font-family="monospace" font-size="16" font-weight="700" fill="#1E293B"># curl 直接调用</text>
+    <text x="40" y="70" font-family="monospace" font-size="14" fill="#64748B">curl https://apihub.agnes-ai.com/v1/images/generations \</text>
+    <text x="40" y="95" font-family="monospace" font-size="14" fill="#64748B">  -H "Authorization: Bearer $AGNES_KEY" \</text>
+    <text x="40" y="120" font-family="monospace" font-size="14" fill="#64748B">  -d '{"model":"agnes-image-2.1-flash",</text>
+    <text x="40" y="145" font-family="monospace" font-size="14" fill="#64748B">        "prompt":"a cat wearing sunglasses",</text>
+    <text x="40" y="170" font-family="monospace" font-size="14" fill="#64748B">        "n":1,"size":"1024x1024"}'</text>
+  </g>
+
+  <g transform="translate(40, 480)">
+    <rect x="0" y="0" width="720" height="140" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="40" y="35" font-family="monospace" font-size="16" font-weight="700" fill="#1E293B"># Python (OpenAI SDK)</text>
+    <text x="40" y="65" font-family="monospace" font-size="14" fill="#64748B">from openai import OpenAI</text>
+    <text x="40" y="90" font-family="monospace" font-size="14" fill="#64748B">client = OpenAI(</text>
+    <text x="40" y="115" font-family="monospace" font-size="14" fill="#64748B">    base_url="https://apihub.agnes-ai.com/v1",</text>
+    <text x="40" y="140" font-family="monospace" font-size="14" fill="#64748B">    api_key="sk-...")</text>
+  </g>
+
+  <g transform="translate(40, 650)">
+    <rect x="0" y="0" width="340" height="100" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="340" height="40" rx="16" fill="#D1FAE5"/>
+    <text x="170" y="27" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#059669">&#x1F3C3; 速度快</text>
+    <text x="170" y="75" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#1E293B">1-2 秒出图</text>
+  </g>
+
+  <g transform="translate(420, 650)">
+    <rect x="0" y="0" width="340" height="100" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="340" height="40" rx="16" fill="#EDE9FE"/>
+    <text x="170" y="27" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#7C3AED">&#x1F3B5; 质量高</text>
+    <text x="170" y="75" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#1E293B">吊打 DALL-E 3</text>
+  </g>
+
+  <g transform="translate(40, 770)">
+    <rect x="0" y="0" width="720" height="20" rx="10" fill="#FEF3C7"/>
+    <text x="360" y="15" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#D97706">完全免费 · 无需信用卡 · 注册即用</text>
+  </g>
+</svg>

@@ -1,112 +1,96 @@
 # AGENTS.md — 003-Twitter
 
-Social media content farm: markdown articles + PNG cards for 小红书, reposted to X/Twitter.
+Social media content farm: markdown articles + PNG cards for 小红书, reposted to X/Twitter @DubaIGOHGOkTHOk.
 
-## Per-content-folder convention
+## ⚠️ 硬规则
 
-Each `<topic>-xhs/` folder contains:
-- `article.md` — XHS publish draft (title ≤20 chars, body ≤950 chars, no markdown)
-- `README.md` — full blog version with sources
-- `gen_cards.py` — Python SVG generator (stdlib only, no pip deps)
-- `*.svg` + `*.png` — card source and rendered output
+- **Agent 不得执行任何 Twitter 发布命令**（`opencli twitter post`、browser 手动操作）。只准备文案，通知用户手动发送。
+- 小红书发布前必须先飞书预览审核。
 
-Run `python3 gen_cards.py` — it writes `.svg` then calls Inkscape to produce `.png`.
+## Per-content-folder
 
-Non-xhs directories also exist — `twitter/`, `github-skills/`, `github-trending/`, `openrouter-top10/`, `codex-plugin-deep-dive/`, `grok-civilization-collapse/`. They use different card generation approaches (Puppeteer, HTML→PNG, etc.).
+`<topic>-xhs/` contains:
+- `article.md` — title (first line, ≤20 chars), body (≤950 chars, plain text, no markdown)
+- `README.md`, `gen_cards.py` (Route A/SVG), or `image-cards/<slug>/` (Route B/AI)
+
+## Two image generation routes
+
+| Route | When | How |
+|-------|------|-----|
+| **A: SVG + Inkscape** | Data/rankings/infographics | `python3 gen_cards.py` → .svg → Inkscape auto-converts to .png |
+| **B: AI photorealistic + Pillow** | Travel/sports/people (default) | Agnes API (curl) + Pillow overlays Chinese text |
+
+**Decision**: If user calls output "not attractive", switch routes. Don't grind the same route.
+
+### Route B critical gotchas
+- **No hex color codes in prompts** (`#FAF7F2` → AI renders as text). Use natural language ("cream background").
+- **No `Chinese text` in prompt** → AI renders garbled characters. Generate pure image, overlay text with Pillow.
+- **SSL failure** (Python 3.14): use `curl -s --max-time 300 -d @/tmp/payload.json` instead of `requests`.
+- **Specify ethnicity explicitly** in prompts — AI defaults to East Asian faces.
+- **Content safety**: avoid `colonial`, `flag`, `drape`, `poor`, `slum`, `refugee`, `conflict`, `war` (non-sports context) → 400 errors.
+- **Cover first** (no ref image), then cards 2+ with cover as `--image` ref for style consistency.
+- **Pillow font**: `/System/Library/Fonts/STHeiti Medium.ttc`. Center text via `textbbox`.
+
+### Route A (SVG) gotchas
+- `&` → `&amp;`, `height="{h}>` missing `"` → blank PNG. No `rect width="100%"` (use explicit px).
+- `letter-spacing` + CJK chars → squares. `<50KB .png` = blank; 1024×1024 >400KB normal.
 
 ## Card sizes & palettes
 
 | Size | Use |
 |------|-----|
 | 1024×1024 | Cover + feature cards |
-| 800×800 | Content cards |
-| 1792×1024 | Banner (微博) |
+| 800×800 | Content cards (legacy) |
+| 1792×1024 | Banner (微博/头条) |
 
-Palettes:
-- **Light** (preferred): cream `#FAF7F2` → `#F5F0E8` gradient, deep text `#1E293B`, brand accent colors. **No large white rects** — use cream bg directly.
-- **Dark**: `#0B1027` radial bg, for single-product deep dives.
+Light (XHS default): cream `#FAF7F2` bg, text `#1E293B`. **No `#FFF`.**
+Dark (Twitter/English): `#0B1027` bg, text `#F8FAFC`.
 
 ## 小红书 publish
 
 ```bash
 opencli xiaohongshu publish "$(cat article.md)" \
   --title "≤20字标题" \
-  --images "cover.png,card-1.png,card-2.png" \
-  --window foreground \
-  --site-session persistent \
-  -f yaml
+  --images "cover.png,card-1.png" \
+  --window foreground --site-session persistent --draft true -f yaml
 ```
-- **No `--topics`** for niche topics (causes publish failure). Put `#话题` in body text instead. Use common tags or omit entirely.
-- **No `--draft`** for direct publish; add `--draft true` for draft.
-- Image paths must be **relative to CWD**.
-- Content is plain text — no markdown (`###`, `---`, `**` render as-is).
-- Body first line = title (user preference).
-- Content with newlines: `"$(cat /tmp/body.txt)"` to avoid shell splitting.
-- Each `--draft true` creates a NEW draft, never overwrites old ones.
+- **No `--topics`** (niche topic attach fails) → `#话题` in body only
+- `--draft true` = new draft each time (never overwrites; accumulates)
+- Images paths **relative to CWD**. Body plain text only, first line = title.
 
-## X/Twitter publish
+## X/Twitter publish (reference only — agent does not execute)
 
 ```bash
-opencli twitter post "<text>" \
-  --images "img1.png,img2.png,img3.png,img4.png" \
-  --window foreground \
-  --site-session persistent \
-  -f yaml
+opencli twitter post "<text>" --images "i1.png,i2.png,i3.png,i4.png" --window foreground -f yaml
 ```
-- **Max 4 images**.
-- **280 weighted characters** (CJK=2, ASCII=1, emoji=2). ~140 max Chinese chars.
-- Text supports `\n` for line breaks.
-- Must use `--window foreground` (background can't interact with UI).
-- For threads: `opencli twitter reply <url> "<text>"`.
-- Use `batch_post_twitter.py` or `post_remaining.sh` for bulk posting (2min interval).
+- Max 4 images. ~140 Chinese chars (CJK=2, ASCII=1, emoji=2). No threads (user preference).
+- 120s interval between batch posts. X.com often blocked by proxy — user's network issue.
 
-### XHS→Twitter adaptation
-- Compress ~950 chars XHS body to ≤280 weighted chars.
-- Select 2-4 best cards (square/cover + content cards).
-- Drop XHS colloquialisms ("姐妹们", "评论区聊聊"), use Twitter short-hand.
-- 2-4 hashtags at end.
+## 今日头条 publish
+
+See `今日头条生产流水线大纲.md`. Browser-based via `opencli browser`. Key diffs from XHS: ≤30 char title, ≤2500 char body, form selectors differ (`div[contenteditable=true]`).
 
 ## Feishu preview
 
 ```bash
 lark-cli docs +create --title "..." --markdown "$(cat README.md)" --as user
 lark-cli docs +media-insert --doc <id> --file ./card.png --as user
-lark-cli docs +update --doc <id> --mode overwrite --markdown "..." --as user
 ```
-- `--file` must be a relative path.
-- `+media-insert` always appends; doesn't replace existing images.
-- `+update --mode overwrite` clears everything including media — re-insert all images after.
-- Markdown must not contain H1 (title is the doc title).
-- `+create`/`+media-insert` return `doc_id`; use `+fetch` to verify image token count.
+- `+update --mode overwrite` clears everything (incl. media) — re-insert all images after.
+- Markdown must not contain H1. `--file` must be relative.
 
-## SVG pitfalls (critical)
+## `opencli upload` markerAttr bug
 
-- `&` in text must be `&amp;` or Inkscape renders blank.
-- `height="{h}>` missing closing `"` → Inkscape silently outputs blank PNG. Use explicit pixel values, never `100%`.
-- **No text glow/shadow**: `<text>` must never carry `filter="url(#glow)"` or `filter="url(#shadow)"`. Rect container shadows are fine only if explicitly asked.
-- **No `#FFF` on light cards**: light palette must use deep text (`#1E293B`) everywhere. White fill only on dark backgrounds.
-- Use `<tspan x="..." dy="...">` for multiline — `<text>` doesn't support `\n`.
-- `letter-spacing` + CJK chars ("评测", "发布") causes squares in Inkscape. Use English for small labels.
-- SVG f-string: use `}}` for literal `}`.
-
-## Card design rules
-
-- **先算后画**: Pre-compute text extents in Python (`text_extent(y, fontsize)`), check gap ≥ 10px between elements.
-- `<text>` y is baseline, not visual center. Single-line offset ≈ `fontsize * 0.15`.
-- X-axis separation preferred over Y-axis stacking for text vs icon.
-- **Always generate cover in gen_cards.py** — `opencli gemini image` is unreliable, returns `no-images` frequently.
-- Verify PNGs immediately: `ls -la *.png` — 1024×1024 <50KB = blank. Use `PIL.Image` + `np.unique(colors)` if unsure.
+`const markerAttr` in `base-page.js:381,630` → duplicate declaration. Fix: change both `const`→`var`, restart daemon.
 
 ## Constraints
 
-- Title ≤20 Unicode chars (`echo -n '...' | wc -m`).
-- Body ≤950 chars (XHS hard limit 1000).
-- Images ≤9 per XHS post, ≤4 per Twitter post.
-- No timestamps/version numbers in body or cards.
+- Title ≤20 Unicode chars (`echo -n '...' | wc -m`). Body ≤950 (XHS), ≤2500 (头条).
+- Images ≤9 per XHS, ≤4 per Twitter. No timestamps/version numbers in body or cards.
 
 ## References
 
-- `MEMORY.md` — exhaustive gotcha collection across 30+ sessions
-- `小红书生产流水线大纲.md` — full pipeline spec with all card style variants
-- `batch_post_twitter.py` — Python batch Twitter poster (37 topics)
-- `待办.txt` — content backlog
+- `MEMORY.md` — 400+ line gotcha collection across 30+ sessions
+- `小红书生产流水线大纲.md` — full XHS pipeline with prompt templates
+- `今日头条生产流水线大纲.md` — 头条 selector-by-selector workflow
+- `twitter生产流水线大纲.md` — Twitter adaptor quirks & selector refs

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
+  <rect width="1024" height="1024" fill="#FAF7F2"/>
+  <text x="512" y="80" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="32" fill="#1E293B" font-weight="bold">其他冠军国家</text>
+  <line x1="250" y1="100" x2="774" y2="100" stroke="#B8860B" stroke-width="2"/>
+  <text x="512" y="190" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="60" fill="#2563EB" font-weight="bold">3</text>
+  <text x="512" y="230" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="22" fill="#1E293B">阿根廷</text>
+  <text x="512" y="270" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="18" fill="#94A3B8">1978 1986马拉多纳 2022梅西</text>
+  <line x1="200" y1="310" x2="824" y2="310" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="280" y="390" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="60" fill="#DC2626" font-weight="bold">2</text>
+  <text x="280" y="430" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="20" fill="#1E293B">法国</text>
+  <text x="280" y="460" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="16" fill="#94A3B8">1998齐达内 2018姆巴佩</text>
+  <text x="744" y="390" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="60" fill="#B8860B" font-weight="bold">2</text>
+  <text x="744" y="430" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="20" fill="#1E293B">乌拉圭</text>
+  <text x="744" y="460" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="16" fill="#94A3B8">1930首届 1950</text>
+  <line x1="200" y1="510" x2="824" y2="510" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="280" y="590" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="60" fill="#DC2626" font-weight="bold">1</text>
+  <text x="280" y="630" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="20" fill="#1E293B">英格兰</text>
+  <text x="280" y="660" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="16" fill="#94A3B8">1966 唯一一次</text>
+  <text x="744" y="590" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="60" fill="#B8860B" font-weight="bold">1</text>
+  <text x="744" y="630" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="20" fill="#1E293B">西班牙</text>
+  <text x="744" y="660" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="16" fill="#94A3B8">2010传控王朝</text>
+</svg>

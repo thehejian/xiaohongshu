@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F5F0E8"/></linearGradient></defs>
+<rect width="800" height="800" fill="url(#bgG)"/><circle cx="64.0" cy="64.0" r="60" fill="#E0F2FE" opacity="0.4"/><circle cx="736.0" cy="96.0" r="50" fill="#EDE9FE" opacity="0.4"/><circle cx="64.0" cy="704.0" r="70" fill="#DBEAFE" opacity="0.3"/><circle cx="736.0" cy="624.0" r="80" fill="#FFEDD5" opacity="0.3"/>
+
+<text x="400" y="80" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="34" font-weight="800" fill="#1E293B">荒诞花钱指南</text>
+<text x="400" y="120" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" fill="#64748B">限定100年花完 · 每天2.18亿</text>
+
+<g transform="translate(40, 170)">
+  <rect x="0" y="0" width="720" height="100" rx="16" fill="#FFFFFF" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="30" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="700" fill="#3B82F6">终极买房 🏠</text>
+  <text x="30" y="75" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">每天买2套1亿豪宅 · 连买100年</text>
+  <text x="660" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="700" fill="#3B82F6">×2</text>
+</g>
+
+<g transform="translate(40, 290)">
+  <rect x="0" y="0" width="720" height="100" rx="16" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="30" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="700" fill="#8B5CF6">全员红包 🧧</text>
+  <text x="30" y="75" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">给全中国14亿人每人发5700块</text>
+  <text x="660" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="700" fill="#8B5CF6">14亿</text>
+</g>
+
+<g transform="translate(40, 410)">
+  <rect x="0" y="0" width="720" height="100" rx="16" fill="#FFFFFF" stroke="#F97316" stroke-width="1.5"/>
+  <text x="30" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="700" fill="#F97316">疯狂购物 🛒</text>
+  <text x="30" y="75" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">每秒必须花2500元 · 呼吸停顿就失败</text>
+  <text x="660" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="700" fill="#F97316">⚡</text>
+</g>
+
+<g transform="translate(40, 530)">
+  <rect x="0" y="0" width="720" height="100" rx="16" fill="#FFFFFF" stroke="#10B981" stroke-width="1.5"/>
+  <text x="30" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="700" fill="#10B981">超级尾款人 💳</text>
+  <text x="30" y="75" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">24小时不停地刷卡 · 每秒刷25次</text>
+  <text x="660" y="38" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="700" fill="#10B981">💸</text>
+</g>
+
+<text x="400" y="720" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#94A3B8">富豪的快乐 我们根本想象不到</text>
+
+</svg>

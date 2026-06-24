@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="40%" r="75%">
+    <stop offset="0%" stop-color="#141B33"/>
+    <stop offset="100%" stop-color="#0B1027"/>
+  </radialGradient>
+  <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+    <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000" flood-opacity="0.30"/>
+  </filter>
+</defs>
+<rect width="1024" height="1024" fill="url(#bg)"/>
+<circle cx="80" cy="80" r="100" fill="#1E3A5F" opacity="0.3"/>
+<circle cx="924" cy="924" r="90" fill="#3B1F6E" opacity="0.3"/>
+<rect x="40" y="30" width="944" height="90" rx="30" fill="#1A2340" filter="url(#shadow)"/>
+<text x="512" y="85" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="36" font-weight="900" fill="#E2E8F0">Input a Name, 6 Agents Go to Work</text>
+<g transform="translate(40, 155)">
+  <g transform="translate(0,0)">
+  <rect x="0" y="0" width="434" height="140" rx="16" fill="#1A2340" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="8" height="140" rx="4" fill="#DC2626"/>
+  <text x="30" y="40" font-family="ui-monospace, SF Mono, monospace" font-size="16" font-weight="700" fill="#DC2626">AGENT 01</text>
+  <text x="30" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#E2E8F0">Writings</text>
+  <text x="30" y="115" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#8892B0">All books, essays, papers</text>
+</g>
+<g transform="translate(450,0)">
+  <rect x="0" y="0" width="434" height="140" rx="16" fill="#1A2340" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="8" height="140" rx="4" fill="#A855F7"/>
+  <text x="30" y="40" font-family="ui-monospace, SF Mono, monospace" font-size="16" font-weight="700" fill="#A855F7">AGENT 02</text>
+  <text x="30" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#E2E8F0">Conversations</text>
+  <text x="30" y="115" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#8892B0">Podcasts, interviews, talks</text>
+</g>
+<g transform="translate(0,160)">
+  <rect x="0" y="0" width="434" height="140" rx="16" fill="#1A2340" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="8" height="140" rx="4" fill="#F59E0B"/>
+  <text x="30" y="40" font-family="ui-monospace, SF Mono, monospace" font-size="16" font-weight="700" fill="#F59E0B">AGENT 03</text>
+  <text x="30" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#E2E8F0">Social Media</text>
+  <text x="30" y="115" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#8892B0">Tweets, blogs, short-form</text>
+</g>
+<g transform="translate(450,160)">
+  <rect x="0" y="0" width="434" height="140" rx="16" fill="#1A2340" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="8" height="140" rx="4" fill="#06B6D4"/>
+  <text x="30" y="40" font-family="ui-monospace, SF Mono, monospace" font-size="16" font-weight="700" fill="#06B6D4">AGENT 04</text>
+  <text x="30" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#E2E8F0">Outside Views</text>
+  <text x="30" y="115" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#8892B0">Critics, reviews, observers</text>
+</g>
+<g transform="translate(0,320)">
+  <rect x="0" y="0" width="434" height="140" rx="16" fill="#1A2340" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="8" height="140" rx="4" fill="#10B981"/>
+  <text x="30" y="40" font-family="ui-monospace, SF Mono, monospace" font-size="16" font-weight="700" fill="#10B981">AGENT 05</text>
+  <text x="30" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#E2E8F0">Decisions</text>
+  <text x="30" y="115" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#8892B0">Key choices &amp; turning points</text>
+</g>
+<g transform="translate(450,320)">
+  <rect x="0" y="0" width="434" height="140" rx="16" fill="#1A2340" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="8" height="140" rx="4" fill="#F97316"/>
+  <text x="30" y="40" font-family="ui-monospace, SF Mono, monospace" font-size="16" font-weight="700" fill="#F97316">AGENT 06</text>
+  <text x="30" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#E2E8F0">Timeline</text>
+  <text x="30" y="115" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#8892B0">Life milestones &amp; evolution</text>
+</g>
+</g>
+<g transform="translate(40, 660)">
+  <rect x="0" y="0" width="944" height="60" rx="30" fill="#1E3A5F" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="472" y="39" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#60A5FA">6 streams, each archived — then unified refinement</text>
+</g>
+<g transform="translate(40, 750)">
+  <rect x="0" y="0" width="944" height="160" rx="20" fill="#1A2340" filter="url(#shadow)"/>
+  <text x="472" y="40" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#8892B0">Then triple verification filters every insight</text>
+  <line x1="40" y1="60" x2="904" y2="60" stroke="#2A3A5F" stroke-width="1"/>
+  <g transform="translate(30, 80)">
+    <rect x="0" y="0" width="270" height="35" rx="17" fill="#1E4A3A"/>
+    <text x="135" y="24" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#34D399">3/3 = Mental Model</text>
+  </g>
+  <g transform="translate(330, 80)">
+    <rect x="0" y="0" width="270" height="35" rx="17" fill="#3B1F6E"/>
+    <text x="135" y="24" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#A78BFA">2/3 = Observation</text>
+  </g>
+  <g transform="translate(630, 80)">
+    <rect x="0" y="0" width="270" height="35" rx="17" fill="#5F1E4A"/>
+    <text x="135" y="24" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#F472B6">1/3 = Discard</text>
+  </g>
+</g>
+<text x="512" y="1000" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" font-weight="500" fill="#8892B0">github.com/alchaincyf/nuwa-skill</text>
+</svg>

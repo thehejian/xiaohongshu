@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs>
+<radialGradient id="bgG" cx="50%" cy="50%" r="70%">
+<stop offset="0%" stop-color="#151B3A"/>
+<stop offset="100%" stop-color="#0B1027"/>
+</radialGradient>
+</defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/>
+
+<text x="512" y="80" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="40" font-weight="900" fill="#F8FAFC">三大可能原因</text>
+<text x="512" y="120" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" fill="#94A3B8">社区分析 + 行业推测</text>
+
+<g transform="translate(62, 170)">
+<rect x="0" y="0" width="900" height="190" rx="16" fill="#2D1B69" stroke="#7C3AED" stroke-width="1"/>
+<circle cx="55" cy="50" r="22" fill="#7C3AED" opacity="0.3"/>
+<text x="55" y="57" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" font-weight="800" fill="#7C3AED">01</text>
+<text x="100" y="55" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="28" font-weight="800" fill="#F8FAFC">成本优化</text>
+<text x="40" y="100" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" font-weight="500" fill="#94A3B8">小模型路由替代主力模型</text>
+<text x="40" y="145" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="20" fill="#7C3AED" opacity="0.8">降低推理成本牺牲质量</text>
+</g>
+<g transform="translate(62, 390)">
+<rect x="0" y="0" width="900" height="190" rx="16" fill="#3D2A10" stroke="#F97316" stroke-width="1"/>
+<circle cx="55" cy="50" r="22" fill="#F97316" opacity="0.3"/>
+<text x="55" y="57" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" font-weight="800" fill="#F97316">02</text>
+<text x="100" y="55" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="28" font-weight="800" fill="#F8FAFC">量化压缩</text>
+<text x="40" y="100" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" font-weight="500" fill="#94A3B8">过度量化损失模型精度</text>
+<text x="40" y="145" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="20" fill="#F97316" opacity="0.8">响应快了但智商降了</text>
+</g>
+<g transform="translate(62, 610)">
+<rect x="0" y="0" width="900" height="190" rx="16" fill="#3D1A1A" stroke="#EF4444" stroke-width="1"/>
+<circle cx="55" cy="50" r="22" fill="#EF4444" opacity="0.3"/>
+<text x="55" y="57" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" font-weight="800" fill="#EF4444">03</text>
+<text x="100" y="55" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="28" font-weight="800" fill="#F8FAFC">Safety 过激</text>
+<text x="40" y="100" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" font-weight="500" fill="#94A3B8">新安全机制误杀正常输出</text>
+<text x="40" y="145" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="20" fill="#EF4444" opacity="0.8">生成内容被过度过滤</text>
+</g>
+<text x="512" y="960" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="14" fill="#94A3B8" opacity="0.5">Anthropic 尚未正面回应</text>
+
+</svg>

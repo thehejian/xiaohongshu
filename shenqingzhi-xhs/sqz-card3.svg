@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="overlay" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#000" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.65"/>
+    </linearGradient>
+    <filter id="stroke">
+      <feMorphology operator="dilate" radius="3" in="SourceAlpha" result="expanded"/>
+      <feFlood flood-color="#000" flood-opacity="1" result="colored"/>
+      <feComposite operator="in" in="colored" in2="expanded" result="stroked"/>
+      <feMerge><feMergeNode in="stroked"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <image href="sqz-card-3_raw.png" x="0" y="0" width="1024" height="1024" preserveAspectRatio="xMidYMid slice"/>
+  <rect x="0" y="0" width="1024" height="1024" fill="url(#overlay)"/>
+</svg><text x="60" y="120" fill="#A8BACB" font-family="Source Han Serif SC" font-size="48" font-weight="700" filter="url(#stroke)">英雄末路</text><line x1="60" y1="160" x2="964" y2="160" stroke="#A8BACB" stroke-opacity="0.4" stroke-width="1.5"/><text x="60" y="190" fill="#8A9EB2" font-family="Source Han Serif SC" font-size="32" font-weight="400" filter="url(#stroke)">前废帝猜忌四朝元老</text><text x="60" y="236" fill="#8A9EB2" font-family="Source Han Serif SC" font-size="32" font-weight="400" filter="url(#stroke)">称病不出仍被赐死</text><text x="60" y="282" fill="#8A9EB2" font-family="Source Han Serif SC" font-size="32" font-weight="400" filter="url(#stroke)">八十岁被逼饮鸩而亡</text><text x="60" y="328" fill="#8A9EB2" font-family="Source Han Serif SC" font-size="32" font-weight="400" filter="url(#stroke)">预见了自己的结局</text><text x="60" y="374" fill="#8A9EB2" font-family="Source Han Serif SC" font-size="32" font-weight="400" filter="url(#stroke)">刘宋一代军神落幕</text><text x="944" y="984" fill="#8A9EB2" font-family="Source Han Serif SC" font-size="18" font-weight="300" text-anchor="end" opacity="0.5">card3</text>

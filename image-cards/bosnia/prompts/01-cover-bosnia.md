@@ -1,0 +1,1 @@
+Screen print poster art cover. Mostar's Stari Most (old bridge) arching over turquoise river. A diver jumping off the bridge. Ottoman minaret and Catholic bell tower side by side. Football with Bosnia flag. Bold flat shapes. Halftone. Cream #FAF7F2, text #1E293B. "波黑" and "欧洲的伤疤与玫瑰" text.

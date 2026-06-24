@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+    <stop offset="0%" stop-color="#FAF7F2"/>
+    <stop offset="100%" stop-color="#F5F0E8"/>
+  </radialGradient>
+  <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%"><feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#1E293B" flood-opacity="0.08"/></filter>
+</defs>
+<rect width="1024" height="1024" fill="url(#bg)"/>
+<circle cx="80" cy="80" r="80" fill="#FEF3C7" opacity="0.2"/>
+<circle cx="924" cy="924" r="120" fill="#FEE2E2" opacity="0.15"/>
+
+<rect x="62" y="30" width="900" height="80" rx="35" fill="#FFFFFF" filter="url(#shadow)"/>
+<text x="512" y="80" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="30" font-weight="800" fill="#1E293B">🎭 赛后发布会 · 年度迷惑剧情</text>
+
+<!-- Reporter Q -->
+<g transform="translate(62, 150)">
+  <rect x="0" y="0" width="520" height="65" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+  <text x="30" y="28" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" font-weight="600" fill="#64748B">📰 记者</text>
+  <text x="30" y="52" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" fill="#1E293B">为什么你儿子在酒店跟球迷打架？</text>
+</g>
+
+<!-- Lamouchi A -->
+<g transform="translate(420, 245)">
+  <rect x="0" y="0" width="542" height="65" rx="16" fill="#FEE2E2" stroke="#DC2626" stroke-width="1"/>
+  <text x="512" y="28" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" font-weight="600" fill="#DC2626">🎙️ 拉穆希</text>
+  <text x="512" y="52" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" font-weight="600" fill="#DC2626">他是在写毕业论文！跟球队无关！</text>
+</g>
+
+<!-- Reporter Q2 -->
+<g transform="translate(62, 340)">
+  <rect x="0" y="0" width="450" height="65" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+  <text x="30" y="28" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" font-weight="600" fill="#64748B">📰 记者</text>
+  <text x="30" y="52" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" fill="#1E293B">论文写完了吗？他在队里什么职务？</text>
+</g>
+
+<!-- Lamouchi A2 -->
+<g transform="translate(320, 435)">
+  <rect x="0" y="0" width="642" height="65" rx="16" fill="#FEE2E2" stroke="#DC2626" stroke-width="1"/>
+  <text x="622" y="28" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" font-weight="600" fill="#DC2626">🎙️ 拉穆希</text>
+  <text x="622" y="52" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" font-weight="600" fill="#DC2626">没有职务！不参与选拔！关你啥事！！！</text>
+</g>
+
+<!-- Reporter Q3 -->
+<g transform="translate(62, 530)">
+  <rect x="0" y="0" width="380" height="65" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+  <text x="30" y="28" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" font-weight="600" fill="#64748B">📰 记者</text>
+  <text x="30" y="52" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" fill="#1E293B">为什么打人？</text>
+</g>
+
+<!-- Lamouchi A3 - big anger -->
+<g transform="translate(260, 625)">
+  <rect x="0" y="0" width="702" height="80" rx="16" fill="#DC2626" filter="url(#shadow)"/>
+  <text x="682" y="35" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="800" fill="#FFF">🎙️ 拉穆希</text>
+  <text x="682" y="65" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="700" fill="#FFF">关 你 啥 事 ！ ！ ！</text>
+</g>
+
+<rect x="62" y="750" width="900" height="70" rx="20" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="512" y="785" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="800" fill="#F59E0B">论文还没交，爹的工作先交了 💀</text>
+<text x="512" y="815" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#64748B">世界杯年度最离谱剧情，没有之一</text>
+
+<rect x="312" y="870" width="400" height="50" rx="25" fill="#DC2626"/>
+<text x="512" y="903" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#FFF">下翻 → 后面怎么走</text>
+<line x1="80" y1="960" x2="944" y2="960" stroke="#E2E8F0" stroke-width="1"/>
+<text x="512" y="990" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#94A3B8">#突尼斯 #世界杯迷惑行为 #足球段子 #教练下课</text>
+</svg>

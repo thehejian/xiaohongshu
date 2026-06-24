@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F0EBE0"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9331C"/>
+      <stop offset="100%" stop-color="#E05530"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect x="40" y="40" width="72" height="72" rx="36" fill="url(#bar)"/>
+  <text x="76" y="88" text-anchor="middle" font-family="serif" font-size="36" fill="#FAF7F2" font-weight="bold">3</text>
+  <text x="140" y="85" font-family="serif" font-size="32" fill="#1E293B" font-weight="bold">三长制</text>
+  <text x="700" y="85" text-anchor="end" font-family="sans-serif" font-size="20" fill="#94A3B8">486 AD</text>
+  <line x1="40" y1="110" x2="760" y2="110" stroke="#E5DFD0" stroke-width="1"/>
+  <text x="40" y="170" font-family="serif" font-size="24" fill="#475569">豪强把持户籍人口，</text>
+  <text x="40" y="210" font-family="serif" font-size="24" fill="#475569">朝廷收不上税。</text>
+  <text x="40" y="270" font-family="serif" font-size="24" fill="#475569">五家设一邻长，</text>
+  <text x="40" y="310" font-family="serif" font-size="24" fill="#475569">五邻设一里长，</text>
+  <text x="40" y="350" font-family="serif" font-size="24" fill="#475569">五里设一党长。</text>
+  <text x="40" y="410" font-family="serif" font-size="24" fill="#475569">负责编户籍、催赋税、</text>
+  <text x="40" y="450" font-family="serif" font-size="24" fill="#475569">管生产、维持治安。</text>
+  <rect x="40" y="500" width="720" height="80" rx="8" fill="#FDF5F0" stroke="#C9331C" stroke-width="1.5"/>
+  <text x="400" y="550" text-anchor="middle" font-family="serif" font-size="26" fill="#C9331C" font-weight="bold">国家权力，直达基层</text>
+  <text x="400" y="720" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#B0A898">文明太后改革系列</text>
+</svg>

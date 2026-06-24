@@ -1,0 +1,3 @@
+Nuwa — distill any great mind into a runnable AI Skill. Input a name, 6 agents research + 3-layer verification + 5-layer cognitive OS. Jobs, Musk, Munger, Feynman, 13 ready. npx skills add alchaincyf/nuwa-skill. 22K Stars, MIT.
+
+#NUWA #AIAgent #CognitiveOS #OpenSource

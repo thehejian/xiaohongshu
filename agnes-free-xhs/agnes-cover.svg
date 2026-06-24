@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F0EAE0"/>
+    </radialGradient>
+    <linearGradient id="titleG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="16" flood-color="#1E293B" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+
+  <circle cx="120" cy="120" r="140" fill="#DBEAFE" opacity="0.4"/>
+  <circle cx="880" cy="180" r="100" fill="#EDE9FE" opacity="0.4"/>
+  <circle cx="160" cy="880" r="110" fill="#FCE7F3" opacity="0.3"/>
+  <circle cx="900" cy="850" r="90" fill="#E0E7FF" opacity="0.3"/>
+
+  <rect x="62" y="40" width="900" height="110" rx="40" fill="#FFFFFF" filter="url(#shadow)"/>
+  <text x="512" y="95" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" font-weight="700" fill="#2563EB">🔥 AI 绘画免费时代来了</text>
+  <text x="512" y="230" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="100" font-weight="900" fill="url(#titleG)">Agnes AI</text>
+  <text x="512" y="310" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="48" font-weight="900" fill="#1E293B">免费了！</text>
+
+  <rect x="112" y="360" width="800" height="70" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+  <text x="512" y="405" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#1E293B">最强生图 API 全面免费开放</text>
+
+  <g transform="translate(112, 470)">
+    <rect x="0" y="0" width="800" height="490" rx="30" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="400" y="55" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#64748B">🎉 不用绑卡 不限额 即开即用</text>
+    <line x1="50" y1="80" x2="750" y2="80" stroke="#E2E8F0" stroke-width="1"/>
+
+    <g transform="translate(40, 105)">
+      <rect x="0" y="0" width="340" height="100" rx="16" fill="#DBEAFE"/>
+      <text x="170" y="40" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#2563EB">100% 免费</text>
+      <text x="170" y="72" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#1D4ED8">无需绑定信用卡</text>
+    </g>
+    <g transform="translate(420, 105)">
+      <rect x="0" y="0" width="340" height="100" rx="16" fill="#EDE9FE"/>
+      <text x="170" y="40" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#7C3AED">1-2 秒出图</text>
+      <text x="170" y="72" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#7C3AED">比 DALL-E 快 10 倍</text>
+    </g>
+
+    <g transform="translate(40, 235)">
+      <rect x="0" y="0" width="340" height="100" rx="16" fill="#D1FAE5"/>
+      <text x="170" y="40" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#059669">OpenAI 兼容</text>
+      <text x="170" y="72" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#059669">一行代码迁移</text>
+    </g>
+    <g transform="translate(420, 235)">
+      <rect x="0" y="0" width="340" height="100" rx="16" fill="#FCE7F3"/>
+      <text x="170" y="40" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#EC4899">中文友好</text>
+      <text x="170" y="72" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#EC4899">中文理解远超同行</text>
+    </g>
+
+    <text x="400" y="390" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#64748B">AI 绘画从此不用再烧钱</text>
+
+    <rect x="200" y="420" width="400" height="50" rx="25" fill="#E0E7FF"/>
+    <text x="400" y="452" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#4F46E5">agnes-ai.com</text>
+  </g>
+
+  <text x="512" y="990" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#2563EB">#AgnesAI #AI绘画 #免费API #生图工具 #AIGC</text>
+</svg>

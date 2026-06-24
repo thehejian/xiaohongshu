@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#1E293B" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <circle cx="700" cy="80" r="60" fill="#D1FAE5" opacity="0.5"/>
+  <circle cx="80" cy="720" r="50" fill="#DBEAFE" opacity="0.4"/>
+
+  <rect x="40" y="40" width="720" height="100" rx="50" fill="#D1FAE5" filter="url(#shadow)"/>
+  <text x="400" y="108" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="48" font-weight="900" fill="#1E293B">&#x1F914; 为什么这么做？</text>
+
+  <g transform="translate(40, 175)">
+    <rect x="0" y="0" width="720" height="100" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="40" cy="50" r="24" fill="#2563EB"/>
+    <text x="40" y="58" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#FFF">1</text>
+    <text x="80" y="45" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#1E293B">人口仅6.5万</text>
+    <text x="80" y="78" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="17" fill="#64748B">海岛县，位置偏远，人口持续外流</text>
+  </g>
+
+  <g transform="translate(40, 305)">
+    <rect x="0" y="0" width="720" height="100" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="40" cy="50" r="24" fill="#7C3AED"/>
+    <text x="40" y="58" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#FFF">2</text>
+    <text x="80" y="45" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#1E293B">每年仅300毕业生</text>
+    <text x="80" y="78" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="17" fill="#64748B">生源连年下降，学校难以为继</text>
+  </g>
+
+  <g transform="translate(40, 435)">
+    <rect x="0" y="0" width="720" height="100" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="40" cy="50" r="24" fill="#D97706"/>
+    <text x="40" y="58" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#FFF">3</text>
+    <text x="80" y="45" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#1E293B">稳住生源是关键</text>
+    <text x="80" y="78" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="17" fill="#64748B">取消选拔=告诉家长孩子有学上</text>
+  </g>
+
+  <g transform="translate(40, 565)">
+    <rect x="0" y="0" width="720" height="100" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="40" cy="50" r="24" fill="#059669"/>
+    <text x="40" y="58" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#FFF">4</text>
+    <text x="80" y="45" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#1E293B">不是一时兴起</text>
+    <text x="80" y="78" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="17" fill="#64748B">官方：破解人口小县教育难题</text>
+  </g>
+
+  <g transform="translate(40, 700)">
+    <rect x="0" y="0" width="720" height="70" rx="35" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+    <text x="360" y="44" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#D97706">被"逼"出来的改革，也是务实的改革</text>
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+Screen print card. Masgouf grilled fish on fire, Kurdish mountain landscape, tea glasses on a Baghdad street. "美食 库尔德 茶馆" theme. Warm tones. Bold flat shapes. Halftone. Cream #FAF7F2, text #1E293B.

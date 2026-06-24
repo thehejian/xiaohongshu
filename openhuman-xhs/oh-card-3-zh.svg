@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+<linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+  <stop offset="0%" stop-color="#FAF7F2"/>
+  <stop offset="100%" stop-color="#F5F0E8"/>
+</linearGradient>
+<linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#3B82F6"/>
+  <stop offset="100%" stop-color="#2563EB"/>
+</linearGradient>
+<linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%" stop-color="#DC2626"/>
+  <stop offset="100%" stop-color="#F87171"/>
+</linearGradient>
+</defs>
+<rect width="1024" height="1024" fill="url(#bgGrad)"/>
+<circle cx="0" cy="0" r="300" fill="#3B82F6" opacity="0.04"/>
+<circle cx="1024" cy="1024" r="400" fill="#DC2626" opacity="0.03"/>
+
+<g transform="translate(64, 80)">
+  <rect x="0" y="0" width="6" height="32" fill="#3B82F6"/>
+  <text x="20" y="18" font-family="Inter, SF Pro, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#3B82F6">OPENHUMAN</text>
+  <text x="20" y="32" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="10" fill="#94A3B8">STREAMING</text>
+</g>
+
+<g transform="translate(64, 180)">
+  <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="48" font-weight="900" fill="#1E293B" letter-spacing="-2">流式动画驱动</text>
+  <text x="0" y="50" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" fill="#475569">WebSocket 实时推流, 端到端延迟 &lt;50ms</text>
+</g>
+
+<g transform="translate(64, 360)">
+  <text x="0" y="0" font-family="Inter, SF Pro, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#3B82F6">TTS LIP SYNC</text>
+  <rect x="0" y="20" width="896" height="100" rx="10" fill="white" opacity="0.5"/>
+  <rect x="0" y="20" width="896" height="100" rx="10" fill="none" stroke="#3B82F6" stroke-width="1.5" opacity="0.4"/>
+  <text x="24" y="55" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#1E293B">TTS 文本转语音 → 自动生成唇形动画</text>
+  <text x="24" y="90" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="15" fill="#475569">52 FACS blendshape 实时驱动, 口型自然</text>
+</g>
+
+<g transform="translate(64, 520)">
+  <rect x="0" y="20" width="896" height="100" rx="10" fill="white" opacity="0.5"/>
+  <rect x="0" y="20" width="896" height="100" rx="10" fill="none" stroke="#DC2626" stroke-width="1.5" opacity="0.4"/>
+  <text x="24" y="55" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#1E293B">动作捕捉实时推流</text>
+  <text x="24" y="90" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="15" fill="#475569">16-bit 量化关节数据, 带宽节省 50%</text>
+</g>
+
+<g transform="translate(64, 680)">
+  <text x="0" y="0" font-family="Inter, SF Pro, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#7C3AED">ANIMATION GRAPH</text>
+  <rect x="0" y="20" width="896" height="80" rx="10" fill="white" opacity="0.5"/>
+  <rect x="0" y="20" width="896" height="80" rx="10" fill="none" stroke="#7C3AED" stroke-width="1.5" opacity="0.4"/>
+  <g transform="translate(24, 30)">
+    <text x="0" y="0" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#1E293B">idle  ⇄  talk  ⇄  gesture  状态机无缝切换</text>
+    <text x="0" y="30" font-family="PingFang SC, Heiti SC, STHeiti, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="14" fill="#475569">自动过渡, 无需开发者管理动画状态</text>
+  </g>
+</g>
+
+<g transform="translate(64, 840)">
+  <rect x="0" y="0" width="896" height="72" rx="10" fill="white" opacity="0.65"/>
+  <rect x="0" y="0" width="896" height="72" rx="10" fill="none" stroke="#059669" stroke-width="2" opacity="0.6"/>
+  <text x="24" y="30" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="13" fill="#94A3B8">STREAMING CLIENT</text>
+  <text x="24" y="58" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="18" font-weight="600" fill="#059669">new StreamingClient({ url: "wss://..." })</text>
+</g>
+
+<g transform="translate(64,984)">
+  <text x="0" y="0" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" fill="#94A3B8">CARD 04/04</text>
+  <text x="960" y="0" text-anchor="end" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" fill="#94A3B8">openhuman.ai</text>
+</g>
+</svg>

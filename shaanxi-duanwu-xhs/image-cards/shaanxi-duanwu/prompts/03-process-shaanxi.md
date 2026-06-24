@@ -1,0 +1,1 @@
+A close-up of a large ring-shaped fried dough pastry with a hole in the center, golden crispy texture, being held by a hand, traditional Chinese folk craft, photorealistic, high detail, macro food photography, warm lighting, NO text or labels or words anywhere in the image

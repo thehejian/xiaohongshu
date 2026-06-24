@@ -1,0 +1,1 @@
+A vintage world map of the Caribbean with Curacao highlighted in a small circle, a football with a giant "7-1" score in bold red next to Germany and Curacao flags, poster style screen-print with flat color blocks and halftone textures, cream colored background, dark navy Chinese text labels, elegant infographic style, Chinese title text "库拉索 被德国7-1的那个岛"

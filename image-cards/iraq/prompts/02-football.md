@@ -1,0 +1,1 @@
+Screen print card. Football player silhouette in Iraq green jersey holding Asian Cup trophy. Celebration scene with crowd. "2007亚洲杯冠军 尤尼斯举杯" theme. Bold flat shapes. Halftone textures. Cream background #FAF7F2, deep text #1E293B.

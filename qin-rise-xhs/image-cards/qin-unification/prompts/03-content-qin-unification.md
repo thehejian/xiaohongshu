@@ -1,0 +1,1 @@
+Ancient Chinese capital city with grand palace architecture, Qin dynasty style, massive stone walls and black-golden roofed buildings, imperial procession, dramatic cloudy sky, warm amber light, epic cinematic view, sense of power and majesty, traditional Chinese architectural aesthetic, grand wide shot

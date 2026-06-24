@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#1E293B" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <circle cx="700" cy="80" r="60" fill="#D1FAE5" opacity="0.5"/>
+  <circle cx="80" cy="720" r="50" fill="#FEE2E2" opacity="0.4"/>
+
+  <rect x="40" y="40" width="720" height="100" rx="50" fill="#EDE9FE" filter="url(#shadow)"/>
+  <text x="400" y="108" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="48" font-weight="900" fill="#1E293B">&#x1F91E; 争议与思考</text>
+
+  <g transform="translate(40, 175)">
+    <rect x="0" y="0" width="340" height="170" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="340" height="40" rx="20" fill="#D1FAE5"/>
+    <text x="170" y="27" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#059669">&#x1F44D; 支持方</text>
+    <text x="20" y="70" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">减轻初中升学焦虑</text>
+    <text x="20" y="95" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">给每个孩子成长机会</text>
+    <text x="20" y="120" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">小县城就该因地制宜</text>
+    <text x="20" y="145" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">教育是为培养不是筛选</text>
+  </g>
+
+  <g transform="translate(420, 175)">
+    <rect x="0" y="0" width="340" height="170" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="340" height="40" rx="20" fill="#FEE2E2"/>
+    <text x="170" y="27" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#DC2626">&#x1F44E; 反对方</text>
+    <text x="20" y="70" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">没有选拔质量如何保</text>
+    <text x="20" y="95" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">高中内部分层是问题</text>
+    <text x="20" y="120" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">其他地区能复制吗</text>
+    <text x="20" y="145" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">公平和质量如何兼得</text>
+  </g>
+
+  <g transform="translate(40, 380)">
+    <rect x="0" y="0" width="720" height="90" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="40" y="35" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#1E293B">&#x1F4A1; 深度思考</text>
+    <text x="40" y="72" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#64748B">在大城市，中考是资源分配机制。在6.5万人的海岛县，</text>
+    <text x="40" y="97" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#64748B">强行搞选拔才是真正的资源浪费。</text>
+  </g>
+
+  <g transform="translate(40, 505)">
+    <rect x="0" y="0" width="340" height="110" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="340" height="40" rx="16" fill="#DBEAFE"/>
+    <text x="170" y="27" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#2563EB">&#x1F30D; 能推广吗</text>
+    <text x="20" y="70" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">取决于人口和教育资源</text>
+    <text x="20" y="95" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">大城市未必适用</text>
+  </g>
+
+  <g transform="translate(420, 505)">
+    <rect x="0" y="0" width="340" height="110" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="340" height="40" rx="16" fill="#EDE9FE"/>
+    <text x="170" y="27" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#7C3AED">&#x1F3AF; 核心结论</text>
+    <text x="20" y="70" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">能因地制宜就是进步</text>
+    <text x="20" y="95" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">没有标准答案</text>
+  </g>
+
+  <g transform="translate(40, 650)">
+    <rect x="0" y="0" width="720" height="100" rx="50" fill="#D1FAE5" stroke="#059669" stroke-width="2"/>
+    <text x="360" y="45" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#059669">教育的本质不是筛选</text>
+    <text x="360" y="80" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="800" fill="#059669">是培养</text>
+  </g>
+
+  <g transform="translate(40, 770)">
+    <rect x="0" y="0" width="720" height="20" rx="10" fill="#DBEAFE"/>
+    <text x="360" y="15" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#2563EB">你觉得这样的改革好吗？评论区聊聊</text>
+  </g>
+</svg>

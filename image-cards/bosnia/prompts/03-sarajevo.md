@@ -1,0 +1,1 @@
+Screen print card. Sarajevo skyline with mosque minaret, Catholic bell tower, and Orthodox church dome in one line. Ottoman bazaar street. "东西方文明的岔路口 四教共存" theme. Bold flat shapes. Halftone. Cream #FAF7F2, text #1E293B.

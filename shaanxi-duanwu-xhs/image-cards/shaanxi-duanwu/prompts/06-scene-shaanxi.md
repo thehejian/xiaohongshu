@@ -1,0 +1,1 @@
+A traditional Chinese village scene during Dragon Boat Festival, wheat harvest season, elders preparing ring-shaped pastries, children playing with colorful silk strings, warm sunset golden hour, photorealistic, high detail, cultural documentary photography style, NO text or labels or words anywhere in the image

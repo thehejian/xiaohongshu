@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs>
+<radialGradient id="bgG" cx="50%" cy="50%" r="70%">
+<stop offset="0%" stop-color="#151B3A"/>
+<stop offset="100%" stop-color="#0B1027"/>
+</radialGradient>
+</defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/>
+
+<circle cx="512" cy="512" r="320" fill="none" stroke="#7C3AED" stroke-width="1" opacity="0.15"/>
+<circle cx="512" cy="512" r="220" fill="none" stroke="#7C3AED" stroke-width="0.5" opacity="0.1" stroke-dasharray="6,6"/>
+<text x="512" y="380" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="100" font-weight="900" fill="#F8FAFC" letter-spacing="-3">Claude 4.8</text>
+<text x="512" y="500" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="100" font-weight="900" fill="#F97316" letter-spacing="-3">降智争议</text>
+<rect x="320" y="550" width="384" height="3" rx="1.5" fill="#7C3AED" opacity="0.6"/>
+<text x="512" y="600" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="32" font-weight="600" fill="#94A3B8">用户集体吐槽质量下降</text>
+<text x="512" y="650" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="28" font-weight="500" fill="#94A3B8">GPT-5 已全面反超</text>
+<g transform="translate(512, 750)">
+<rect x="-120" y="-28" width="240" height="56" rx="28" fill="#7C3AED" opacity="0.2" stroke="#7C3AED" stroke-width="1"/>
+<text x="0" y="6" text-anchor="middle" font-family="Inter,Helvetica,Arial,sans-serif" font-size="18" font-weight="700" fill="#7C3AED">SWE-bench ▼ 5.5%</text>
+</g>
+<text x="512" y="960" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="14" fill="#94A3B8" opacity="0.5">#Claude #GPT5 #AI竞争</text>
+
+</svg>

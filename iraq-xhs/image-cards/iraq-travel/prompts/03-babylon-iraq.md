@@ -1,0 +1,1 @@
+Ancient Babylon ruins with the Ishtar Gate blue glazed bricks reconstruction, ziggurat of Babylon in the desert, Mesopotamian ancient civilization, poster style, cream colored background, dark navy Chinese text labels, Chinese title "巴比伦 两河文明"

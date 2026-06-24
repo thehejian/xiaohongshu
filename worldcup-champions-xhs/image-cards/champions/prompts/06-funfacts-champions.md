@@ -1,0 +1,1 @@
+A collage of World Cup moments, fans celebrating, flags waving, stadium panorama, football in foreground, diverse nations represented, vibrant colors, photorealistic, high detail, magazine style photography, NO text or labels anywhere in the image

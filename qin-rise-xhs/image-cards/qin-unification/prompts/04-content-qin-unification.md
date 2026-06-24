@@ -1,0 +1,1 @@
+Ancient Chinese scene of Shang Yang presenting bamboo scrolls to Qin Xiaogong in a grand hall, political reform and law, warm candlelight illuminating ancient scrolls with Chinese characters, dramatic chiaroscuro lighting, traditional Chinese architecture interior, serious and transformative atmosphere, painterly historical style

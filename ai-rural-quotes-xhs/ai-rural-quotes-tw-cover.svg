@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+    <rect width="1024" height="1024" fill="#0B1027"/>
+    <defs>
+      <radialGradient id="radial" cx="50%" cy="40%" r="60%">
+        <stop offset="0%" stop-color="#1E1B4B"/>
+        <stop offset="100%" stop-color="#0B1027"/>
+      </radialGradient>
+      <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#F59E0B"/>
+        <stop offset="50%" stop-color="#10B981"/>
+        <stop offset="100%" stop-color="#8B5CF6"/>
+      </linearGradient>
+      
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="16" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+    
+    </defs>
+    <rect width="1024" height="1024" fill="url(#radial)"/>
+
+    <circle cx="100" cy="80" r="5" fill="#F59E0B" opacity="0.2"/>
+    <circle cx="120" cy="75" r="3" fill="#10B981" opacity="0.2"/>
+    <circle cx="140" cy="80" r="5" fill="#8B5CF6" opacity="0.2"/>
+
+    <text x="60" y="180" font-size="72" font-weight="800" fill="url(#titleGrad)" font-family="Inter, Helvetica, sans-serif">AI RURAL</text>
+    <text x="60" y="260" font-size="72" font-weight="800" fill="url(#titleGrad)" font-family="Inter, Helvetica, sans-serif">QUOTES</text>
+
+    <line x1="60" y1="310" x2="350" y2="310" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+
+    <text x="60" y="370" font-size="28" font-weight="600" fill="#F1F5F9" font-family="Inter, Helvetica, sans-serif">WeChat Video Channel Goldmine</text>
+    <text x="60" y="415" font-size="22" fill="#94A3B8" font-family="Inter, Helvetica, sans-serif">Millions of Views · AI-Generated · Ad Revenue</text>
+
+    <rect x="60" y="480" width="904" height="90" rx="14" fill="#FFFFFF" opacity="0.06" filter="url(#shadow)"/>
+    <text x="80" y="520" font-size="26" font-weight="700" fill="#F59E0B" font-family="Inter, Helvetica, sans-serif">10K views = $4-12 USD</text>
+    <text x="80" y="555" font-size="18" fill="#94A3B8" font-family="Inter, Helvetica, sans-serif">1M views = $400-1,100 · Post 3/day = $1,500+/mo</text>
+
+    <rect x="60" y="610" width="280" height="48" rx="24" fill="#F59E0B" opacity="0.12"/>
+    <text x="100" y="642" font-size="18" font-weight="600" fill="#F59E0B" font-family="Inter, Helvetica, sans-serif">Elder traffic</text>
+
+    <rect x="360" y="610" width="260" height="48" rx="24" fill="#10B981" opacity="0.12"/>
+    <text x="400" y="642" font-size="18" font-weight="600" fill="#10B981" font-family="Inter, Helvetica, sans-serif">AI batch</text>
+
+    <rect x="640" y="610" width="220" height="48" rx="24" fill="#8B5CF6" opacity="0.12"/>
+    <text x="670" y="642" font-size="18" font-weight="600" fill="#8B5CF6" font-family="Inter, Helvetica, sans-serif">Ads share</text>
+
+    <text x="60" y="740" font-size="16" fill="#64748B" font-family="Inter, Helvetica, sans-serif">#WeChat #VideoChannel #AIsidehustle #ContentCreator</text>
+  </svg>

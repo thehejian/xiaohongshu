@@ -1,0 +1,1 @@
+Futuristic AI data center with glowing blue neural network streams, OpenAI logo inspired abstract light patterns, deep blue and purple color palette, digital data flow visualization, cyberpunk aesthetic, holographic interface elements, dramatic backlighting, cinematic tech documentary style, 8k detail, clean and modern composition

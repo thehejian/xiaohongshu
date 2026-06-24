@@ -4,3 +4,16 @@
 
 # Temp/backup
 *_raw.png
+*.backup
+
+# Images (don't push to GitHub)
+*.png
+*.jpg
+*.jpeg
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Output dirs
+agnes-video-output/

@@ -1,0 +1,1 @@
+Abstract visualization of a glowing brain network with neural connections firing, representing AI reasoning and reduced hallucinations, clean medical-scientific aesthetic, blue and purple neural pathways on dark background, synapse-like light particles, precision and accuracy concept, futuristic neuroscience visualization, dramatic volumetric lighting

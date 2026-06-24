@@ -1,0 +1,1 @@
+Perito Moreno Glacier wide landscape in Patagonia Argentina, massive blue-white ice wall rising from turquoise lake water, small ice chunks floating, snowy Andes peaks in background, bright sunny day with blue sky, natural light, photorealistic landscape photography style, high detail, NO text or labels or words anywhere in the image

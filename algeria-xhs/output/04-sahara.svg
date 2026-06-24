@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+    <stop offset="0%" stop-color="#FAF7F2"/>
+    <stop offset="100%" stop-color="#F5F0E8"/>
+  </radialGradient>
+  <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%"><feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#1E293B" flood-opacity="0.08"/></filter>
+</defs>
+<rect width="1024" height="1024" fill="url(#bg)"/>
+<circle cx="80" cy="80" r="100" fill="#FEF9E7" opacity="0.15"/>
+<circle cx="924" cy="924" r="130" fill="#E8F5E9" opacity="0.12"/>
+
+<rect x="62" y="30" width="900" height="80" rx="35" fill="#FFFFFF" filter="url(#shadow)"/>
+<text x="512" y="80" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="30" font-weight="800" fill="#1E293B">🏔 撒哈拉 · 阿尔及利亚的沙漠</text>
+
+<rect x="62" y="140" width="900" height="350" rx="24" fill="#FFFFFF" filter="url(#shadow)"/>
+
+<g transform="translate(82, 160)">
+  <rect x="0" y="0" width="860" height="55" rx="12" fill="#FEF9E7"/>
+  <text x="430" y="35" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#D4A843">塔西利恩阿耶 · 世界遗产</text>
+</g>
+
+<g transform="translate(82, 235)">
+  <text x="0" y="30" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#64748B">🏔 全球最美沙漠段 · 没有之一</text>
+  <text x="0" y="65" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#64748B">🏳 史前岩画 · 一万年前的人类印记</text>
+  <text x="0" y="100" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#64748B">🏬 沙漠玫瑰石 · 大自然的鬼斧神工</text>
+  <text x="0" y="135" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#64748B">🌌 星空密集到让人失语</text>
+  <text x="0" y="170" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#64748B">🎥 海市蜃楼 · 沙漠里的幻觉</text>
+  <text x="0" y="205" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#64748B">🏔 绵延沙丘 · 黄昏光影绝美</text>
+</g>
+
+<g transform="translate(62, 540)">
+  <rect x="0" y="0" width="900" height="90" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+  <text x="30" y="35" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#1E293B">📍 地理位置</text>
+  <text x="30" y="72" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#64748B">阿尔及利亚 · 非洲面积最大国家 · 撒哈拉占总面积80%</text>
+</g>
+
+<g transform="translate(62, 660)">
+  <rect x="0" y="0" width="900" height="90" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+  <text x="30" y="35" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#1E293B">👥 当地人这样说</text>
+  <text x="30" y="72" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#64748B">"阿尔及利亚的撒哈拉，才是真正的撒哈拉"</text>
+</g>
+
+<rect x="62" y="790" width="900" height="70" rx="20" fill="#FEF9E7" stroke="#D4A843" stroke-width="1.5"/>
+<text x="512" y="825" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="800" fill="#D4A843">此生必去 · 阿尔及利亚</text>
+
+<rect x="312" y="890" width="400" height="50" rx="25" fill="#006633"/>
+<text x="512" y="923" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#FFF">点赞收藏 · 下次出发</text>
+
+<text x="512" y="970" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#64748B">❤️ 点赞  ⭐ 收藏  🔄 转发</text>
+<line x1="80" y1="990" x2="944" y2="990" stroke="#E2E8F0" stroke-width="1"/>
+<text x="512" y="1020" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#94A3B8">#撒哈拉沙漠 #阿尔及利亚 #北非旅行 #塔西利恩阿耶 #小众旅行地</text>
+</svg>

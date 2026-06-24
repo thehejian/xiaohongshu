@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs>
+<radialGradient id="bgG" cx="50%" cy="50%" r="70%">
+<stop offset="0%" stop-color="#151B3A"/>
+<stop offset="100%" stop-color="#0B1027"/>
+</radialGradient>
+</defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/>
+
+<text x="512" y="120" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="44" font-weight="900" fill="#F8FAFC">意味着什么？</text>
+
+<g transform="translate(62, 200)">
+<rect x="0" y="0" width="900" height="140" rx="16" fill="#1A183A" stroke="#7C3AED" stroke-width="1"/>
+<circle cx="40" cy="45" r="18" fill="#7C3AED" opacity="0.3"/>
+<text x="40" y="52" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="20" font-weight="800" fill="#7C3AED">1</text>
+<text x="75" y="50" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="26" font-weight="700" fill="#F8FAFC">用户开始回流 GPT-5</text>
+<text x="40" y="95" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="20" font-weight="500" fill="#94A3B8">重度编程用户迁移，Claude Pro 订阅可能下滑</text>
+</g>
+
+<g transform="translate(62, 370)">
+<rect x="0" y="0" width="900" height="140" rx="16" fill="#1A183A" stroke="#F97316" stroke-width="1"/>
+<circle cx="40" cy="45" r="18" fill="#F97316" opacity="0.3"/>
+<text x="40" y="52" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="20" font-weight="800" fill="#F97316">2</text>
+<text x="75" y="50" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="26" font-weight="700" fill="#F8FAFC">Anthropic 信任度下降</text>
+<text x="40" y="95" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="20" font-weight="500" fill="#94A3B8">不透明的降质操作引发开发者信任危机</text>
+</g>
+
+<g transform="translate(62, 540)">
+<rect x="0" y="0" width="900" height="140" rx="16" fill="#1A183A" stroke="#10B981" stroke-width="1"/>
+<circle cx="40" cy="45" r="18" fill="#10B981" opacity="0.3"/>
+<text x="40" y="52" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="20" font-weight="800" fill="#10B981">3</text>
+<text x="75" y="50" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="26" font-weight="700" fill="#F8FAFC">AI 没有永远的王者</text>
+<text x="40" y="95" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="20" font-weight="500" fill="#94A3B8">赛道竞争激烈，今天领先明天可能被反超</text>
+</g>
+
+<g transform="translate(120, 760)">
+<rect x="0" y="0" width="784" height="80" rx="40" fill="none" stroke="#7C3AED" stroke-width="1.5" stroke-dasharray="8,4"/>
+<text x="392" y="46" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" font-weight="600" fill="#7C3AED" opacity="0.8">永远不要对任何一个模型产生依赖</text>
+</g>
+
+<text x="512" y="960" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="14" fill="#94A3B8" opacity="0.5">#Claude #GPT5 #AI竞争</text>
+
+</svg>

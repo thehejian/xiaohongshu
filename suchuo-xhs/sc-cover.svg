@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="overlay" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#000" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.65"/>
+    </linearGradient>
+    <filter id="stroke">
+      <feMorphology operator="dilate" radius="3" in="SourceAlpha" result="expanded"/>
+      <feFlood flood-color="#000" flood-opacity="1" result="colored"/>
+      <feComposite operator="in" in="colored" in2="expanded" result="stroked"/>
+      <feMerge><feMergeNode in="stroked"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <image href="sc-cover_raw.png" x="0" y="0" width="1024" height="1024" preserveAspectRatio="xMidYMid slice"/>
+  <rect x="0" y="0" width="1024" height="1024" fill="url(#overlay)"/>
+</svg><text x="512" y="280" fill="#E8D5A0" font-family="Source Han Serif SC" font-size="72" font-weight="700" text-anchor="middle" filter="url(#stroke)">苏绰</text><text x="512" y="350" fill="#C9B87A" font-family="Source Han Serif SC" font-size="36" font-weight="400" text-anchor="middle" filter="url(#stroke)">六条诏书定乾坤</text><line x1="362" y1="380" x2="662" y2="380" stroke="#C9B87A" stroke-opacity="0.5" stroke-width="1.5"/><text x="512" y="700" fill="#B8A76A" font-family="Source Han Serif SC" font-size="24" font-weight="300" text-anchor="middle" opacity="0.7">宇文泰的萧何·北周奠基人</text><text x="512" y="740" fill="#B8A76A" font-family="Source Han Serif SC" font-size="20" font-weight="300" text-anchor="middle" opacity="0.5">一篇文章撑起一个帝国</text>

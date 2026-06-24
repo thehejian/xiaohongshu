@@ -1,0 +1,1 @@
+Two football teams on a pitch, one big and strong team in red facing a small underdog team in blue, dramatic contrast in size and presence, emotional tension, stadium crowd in background, golden hour lighting, photorealistic sports photography, high detail, NO text or labels or words anywhere in the image

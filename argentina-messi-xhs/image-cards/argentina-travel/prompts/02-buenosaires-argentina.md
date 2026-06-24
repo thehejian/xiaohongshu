@@ -1,0 +1,1 @@
+Colorful La Boca neighborhood in Buenos Aires, brightly painted corrugated iron houses in red blue yellow, cobblestone street, a few old classic cars parked, cloudy blue sky, European-descended Argentinian locals walking, natural daylight, photorealistic street photography style, high detail, NO text or labels or words anywhere in the image

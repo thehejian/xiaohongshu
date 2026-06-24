@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F5F0E8"/></linearGradient></defs>
+<rect width="800" height="800" fill="url(#bgG)"/><circle cx="64.0" cy="64.0" r="60" fill="#D1FAE5" opacity="0.3"/><circle cx="736.0" cy="96.0" r="50" fill="#FEF3C7" opacity="0.3"/><circle cx="64.0" cy="704.0" r="70" fill="#FEE2E2" opacity="0.2"/><circle cx="736.0" cy="624.0" r="80" fill="#D1FAE5" opacity="0.2"/>
+
+<text x="400" y="65" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="34" font-weight="800" fill="#1E293B">从皇马青训到国门</text>
+<text x="400" y="105" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">Luca Zidane 足球生涯时间线</text>
+
+<g transform="translate(40, 150)">
+  <rect x="0" y="0" width="720" height="130" rx="16" fill="#FFFFFF" stroke="#006233" stroke-width="1.5"/>
+  <text x="30" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="700" fill="#006233">2004 - 2018</text>
+  <text x="30" y="72" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="600" fill="#1E293B">皇马青训营</text>
+  <text x="30" y="100" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" fill="#64748B">6岁加入，从卡斯蒂利亚到一线队</text>
+</g>
+
+<g transform="translate(40, 300)">
+  <rect x="0" y="0" width="720" height="130" rx="16" fill="#FFFFFF" stroke="#D4A843" stroke-width="1.5"/>
+  <text x="30" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="700" fill="#D4A843">2019 - 2024</text>
+  <text x="30" y="72" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="600" fill="#1E293B">西班牙二级联赛历练</text>
+  <text x="30" y="100" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" fill="#64748B">桑坦德 · 巴列卡诺 · 埃瓦尔 · 格拉纳达</text>
+</g>
+
+<g transform="translate(40, 450)">
+  <rect x="0" y="0" width="720" height="130" rx="16" fill="#FFFFFF" stroke="#D32F2F" stroke-width="1.5"/>
+  <text x="30" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="700" fill="#D32F2F">2025.9</text>
+  <text x="30" y="72" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="600" fill="#1E293B">转籍阿尔及利亚</text>
+  <text x="30" y="100" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" fill="#64748B">FIFA批准 · 首次入选国家队集训名单</text>
+</g>
+
+<g transform="translate(40, 600)">
+  <rect x="0" y="0" width="720" height="130" rx="16" fill="#FFFFFF" stroke="#006233" stroke-width="1.5"/>
+  <text x="30" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="700" fill="#006233">2026.5.31</text>
+  <text x="30" y="72" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="600" fill="#1E293B">入选世界杯大名单</text>
+  <text x="30" y="100" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" fill="#64748B">时隔12年，阿尔及利亚重返世界杯</text>
+</g>
+
+</svg>

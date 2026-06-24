@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+    <rect width="1024" height="1024" fill="#0B1027"/>
+    <defs>
+      <radialGradient id="radial" cx="50%" cy="30%" r="55%">
+        <stop offset="0%" stop-color="#1E1B4B"/>
+        <stop offset="100%" stop-color="#0B1027"/>
+      </radialGradient>
+      
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="16" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+    
+    </defs>
+    <rect width="1024" height="1024" fill="url(#radial)"/>
+
+    <rect width="1024" height="120" fill="#8B5CF6" opacity="0.06"/>
+    <text x="60" y="50" font-size="16" font-weight="600" fill="#8B5CF6" font-family="Inter, Helvetica, sans-serif">CARD 03</text>
+    <text x="60" y="90" font-size="36" font-weight="800" fill="#F1F5F9" font-family="Inter, Helvetica, sans-serif">Revenue Breakdown</text>
+
+    <rect x="60" y="155" width="430" height="120" rx="14" fill="#F59E0B" opacity="0.08"/>
+    <text x="90" y="195" font-size="16" fill="#F59E0B" font-family="Inter, Helvetica, sans-serif">PER 10K VIEWS</text>
+    <text x="90" y="250" font-size="34" font-weight="800" fill="#F59E0B" font-family="Inter, Helvetica, sans-serif">$4-12 USD</text>
+
+    <rect x="530" y="155" width="434" height="120" rx="14" fill="#10B981" opacity="0.08"/>
+    <text x="560" y="195" font-size="16" fill="#10B981" font-family="Inter, Helvetica, sans-serif">PER 1M VIEWS</text>
+    <text x="560" y="250" font-size="34" font-weight="800" fill="#10B981" font-family="Inter, Helvetica, sans-serif">$400-1,100</text>
+
+    <rect x="60" y="310" width="904" height="170" rx="14" fill="#FFFFFF" opacity="0.05" filter="url(#shadow)"/>
+    <text x="90" y="355" font-size="20" font-weight="700" fill="#F1F5F9" font-family="Inter, Helvetica, sans-serif">Operating Model</text>
+    <text x="90" y="395" font-size="18" fill="#94A3B8" font-family="Inter, Helvetica, sans-serif">• Post 3 videos/day, 2-5M monthly views</text>
+    <text x="90" y="428" font-size="18" fill="#94A3B8" font-family="Inter, Helvetica, sans-serif">• Steady account: $400-1,100/mo</text>
+    <text x="90" y="461" font-size="18" fill="#94A3B8" font-family="Inter, Helvetica, sans-serif">• One viral hit (1M+) = instant $1,100+</text>
+
+    <rect x="60" y="515" width="904" height="170" rx="12" fill="#FFFFFF" opacity="0.03"/>
+    <text x="100" y="560" font-size="20" font-weight="700" fill="#8B5CF6" font-family="Inter, Helvetica, sans-serif">Why Enter Now</text>
+    <text x="100" y="600" font-size="18" fill="#94A3B8" font-family="Inter, Helvetica, sans-serif">• Platform traffic support for new creators</text>
+    <text x="100" y="635" font-size="18" fill="#94A3B8" font-family="Inter, Helvetica, sans-serif">• Rural quote niche is not saturated</text>
+    <text x="100" y="670" font-size="18" fill="#94A3B8" font-family="Inter, Helvetica, sans-serif">• AI batch = 1 person runs 10 accounts</text>
+
+    <text x="60" y="770" font-size="14" fill="#64748B" font-family="Inter, Helvetica, sans-serif">#AIsidehustle #MakeMoneyOnline #WeChat</text>
+  </svg>

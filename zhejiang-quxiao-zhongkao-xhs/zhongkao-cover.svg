@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F0EAE0"/>
+    </radialGradient>
+    <linearGradient id="titleG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="16" flood-color="#1E293B" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+
+  <circle cx="120" cy="120" r="140" fill="#DBEAFE" opacity="0.4"/>
+  <circle cx="880" cy="180" r="100" fill="#D1FAE5" opacity="0.4"/>
+  <circle cx="160" cy="880" r="110" fill="#FEF3C7" opacity="0.3"/>
+  <circle cx="900" cy="850" r="90" fill="#EDE9FE" opacity="0.3"/>
+
+  <rect x="62" y="40" width="900" height="110" rx="40" fill="#FFFFFF" filter="url(#shadow)"/>
+  <text x="512" y="95" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="26" font-weight="700" fill="#2563EB">&#x1F4F0; 冲上热搜的教育改革</text>
+  <text x="512" y="220" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="96" font-weight="900" fill="url(#titleG)">取消中考选拔</text>
+  <text x="512" y="300" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="48" font-weight="900" fill="#1E293B">全员直升高中</text>
+
+  <rect x="112" y="350" width="800" height="70" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+  <text x="512" y="395" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#1E293B">浙江舟山嵊泗县·人口仅6.5万</text>
+
+  <g transform="translate(112, 460)">
+    <rect x="0" y="0" width="800" height="500" rx="30" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="400" y="55" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#64748B">&#x1F4AC; 一石激起千层浪</text>
+    <line x1="50" y1="80" x2="750" y2="80" stroke="#E2E8F0" stroke-width="1"/>
+
+    <g transform="translate(40, 105)">
+      <rect x="0" y="0" width="340" height="100" rx="16" fill="#DBEAFE"/>
+      <text x="170" y="40" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#2563EB">取消分数线</text>
+      <text x="170" y="72" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#1D4ED8">普高100%直升</text>
+    </g>
+    <g transform="translate(420, 105)">
+      <rect x="0" y="0" width="340" height="100" rx="16" fill="#D1FAE5"/>
+      <text x="170" y="40" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#059669">300人/年</text>
+      <text x="170" y="72" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#059669">全县初中毕业生</text>
+    </g>
+
+    <g transform="translate(40, 235)">
+      <rect x="0" y="0" width="340" height="100" rx="16" fill="#FEF3C7"/>
+      <text x="170" y="40" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#D97706">2025年启动</text>
+      <text x="170" y="72" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#D97706">改革已实施一年</text>
+    </g>
+    <g transform="translate(420, 235)">
+      <rect x="0" y="0" width="340" height="100" rx="16" fill="#EDE9FE"/>
+      <text x="170" y="40" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#7C3AED">因地制宜</text>
+      <text x="170" y="72" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#7C3AED">破解人口小县难题</text>
+    </g>
+
+    <text x="400" y="390" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#64748B">教育的本质不是筛选，是培养</text>
+
+    <rect x="200" y="425" width="400" height="50" rx="25" fill="#DBEAFE"/>
+    <text x="400" y="457" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#2563EB">你觉得这模式能推广吗？</text>
+  </g>
+
+  <text x="512" y="990" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#2563EB">#浙江 #取消中考 #全员直升 #教育改革 #嵊泗</text>
+</svg>

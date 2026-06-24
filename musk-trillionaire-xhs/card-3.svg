@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F5F0E8"/></linearGradient></defs>
+<rect width="800" height="800" fill="url(#bgG)"/><circle cx="64.0" cy="64.0" r="60" fill="#E0F2FE" opacity="0.4"/><circle cx="736.0" cy="96.0" r="50" fill="#EDE9FE" opacity="0.4"/><circle cx="64.0" cy="704.0" r="70" fill="#DBEAFE" opacity="0.3"/><circle cx="736.0" cy="624.0" r="80" fill="#FFEDD5" opacity="0.3"/>
+
+<text x="400" y="100" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="40" font-weight="900" fill="#1E293B">🤔 灵魂拷问</text>
+
+<text x="400" y="220" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="26" font-weight="700" fill="#1E293B">给你 2.18亿 单日额度</text>
+<text x="400" y="270" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="26" font-weight="700" fill="#1E293B">第一天你怎么花？</text>
+
+<g transform="translate(80, 340)">
+  <rect x="0" y="0" width="640" height="60" rx="30" fill="#E0F2FE"/>
+  <text x="320" y="38" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="600" fill="#0EA5E9">评论区写出你的方案</text>
+</g>
+
+<g transform="translate(80, 440)">
+  <rect x="0" y="0" width="640" height="60" rx="30" fill="#FFEDD5"/>
+  <text x="320" y="38" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="600" fill="#F97316">点赞最高的送虚拟豪宅🏠</text>
+</g>
+
+<g transform="translate(80, 540)">
+  <rect x="0" y="0" width="640" height="60" rx="30" fill="#EDE9FE"/>
+  <text x="320" y="38" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="600" fill="#8B5CF6">转发到闺蜜群一起做梦</text>
+</g>
+
+<text x="400" y="700" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="36">💰💭✨</text>
+
+<text x="400" y="770" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" fill="#94A3B8">收藏 = 今晚就暴富 ✓</text>
+
+</svg>

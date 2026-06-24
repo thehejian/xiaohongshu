@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#1E293B" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <circle cx="80" cy="80" r="70" fill="#FEE2E2" opacity="0.4"/>
+  <circle cx="720" cy="720" r="60" fill="#E0E7FF" opacity="0.3"/>
+
+  <rect x="40" y="40" width="720" height="100" rx="50" fill="#FEE2E2" filter="url(#shadow)"/>
+  <text x="400" y="108" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="48" font-weight="900" fill="#1E293B">🔥 刚刚官宣免费</text>
+
+  <g transform="translate(40, 180)">
+    <rect x="0" y="0" width="720" height="140" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="360" y="45" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#2563EB">Agnes AI 全面免费开放</text>
+    <text x="40" y="85" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#1E293B">模型：agnes-image-2.1-flash</text>
+    <text x="40" y="118" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" fill="#64748B">所有用户直接白嫖，无需任何条件</text>
+  </g>
+
+  <g transform="translate(40, 355)">
+    <rect x="0" y="0" width="340" height="160" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="340" height="50" rx="20" fill="#D1FAE5"/>
+    <text x="170" y="33" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#059669">&#x2705; 不绑卡</text>
+    <text x="20" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">注册即用</text>
+    <text x="20" y="110" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">零门槛上手</text>
+  </g>
+
+  <g transform="translate(420, 355)">
+    <rect x="0" y="0" width="340" height="160" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="340" height="50" rx="20" fill="#DBEAFE"/>
+    <text x="170" y="33" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#2563EB">&#x26A1; 不限量</text>
+    <text x="20" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">无请求数限制</text>
+    <text x="20" y="110" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">随意调用</text>
+  </g>
+
+  <g transform="translate(40, 550)">
+    <rect x="0" y="0" width="340" height="160" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="340" height="50" rx="20" fill="#EDE9FE"/>
+    <text x="170" y="33" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#7C3AED">&#x1F504; OpenAI 兼容</text>
+    <text x="20" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">改一行 base_url</text>
+    <text x="20" y="110" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">无需改代码</text>
+  </g>
+
+  <g transform="translate(420, 550)">
+    <rect x="0" y="0" width="340" height="160" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="340" height="50" rx="20" fill="#FCE7F3"/>
+    <text x="170" y="33" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#EC4899">&#x1F3AF; 高清输出</text>
+    <text x="20" y="80" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">1024x1024 原图</text>
+    <text x="20" y="110" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">无水印无压缩</text>
+  </g>
+
+  <g transform="translate(40, 740)">
+    <rect x="0" y="0" width="720" height="40" rx="20" fill="#FEF3C7"/>
+    <text x="360" y="27" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" font-weight="700" fill="#D97706">趁还没限流，赶紧注册</text>
+  </g>
+</svg>

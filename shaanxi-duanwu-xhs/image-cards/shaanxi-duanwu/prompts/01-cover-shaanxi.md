@@ -1,0 +1,1 @@
+A large ring-shaped golden brown Chinese pastry called Qu Lian Mo hanging on a colorful silk string around a child's neck, traditional Chinese festival atmosphere, rustic kitchen background with wheat flour and dough, photorealistic, high detail, food photography style, warm natural lighting, NO text or labels or words anywhere in the image

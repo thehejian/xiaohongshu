@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+    <stop offset="0%" stop-color="#FAF7F2"/>
+    <stop offset="100%" stop-color="#F5F0E8"/>
+  </radialGradient>
+  <linearGradient id="titleG" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#DC2626"/>
+    <stop offset="50%" stop-color="#EF4444"/>
+    <stop offset="100%" stop-color="#DC2626"/>
+  </linearGradient>
+  <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%"><feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#1E293B" flood-opacity="0.08"/></filter>
+</defs>
+<rect width="1024" height="1024" fill="url(#bg)"/>
+<circle cx="80" cy="80" r="140" fill="#FEE2E2" opacity="0.15"/>
+<circle cx="924" cy="924" r="180" fill="#FEF3C7" opacity="0.12"/>
+<circle cx="80" cy="924" r="80" fill="#D1FAE5" opacity="0.1"/>
+<circle cx="924" cy="80" r="60" fill="#FEE2E2" opacity="0.08"/>
+<rect x="62" y="40" width="900" height="80" rx="40" fill="#FFFFFF" filter="url(#shadow)"/>
+<text x="512" y="90" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="24" font-weight="700" fill="#DC2626">⚽ 2026世界杯 · F组首轮</text>
+
+<text x="512" y="240" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="100" font-weight="900" fill="url(#titleG)">5-1</text>
+<text x="512" y="310" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="28" font-weight="600" fill="#64748B">瑞典 vs 突尼斯</text>
+
+<rect x="262" y="350" width="500" height="60" rx="30" fill="#FEE2E2" stroke="#DC2626" stroke-width="1.5"/>
+<text x="512" y="389" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="28" font-weight="800" fill="#DC2626">主教练拉穆希 · 一场下课</text>
+
+<text x="512" y="460" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#64748B">世界杯史上第4位赛中遭解雇的主帅</text>
+<text x="512" y="500" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" fill="#94A3B8">前面3位都在1998年 · 拉老师一把拉回2026</text>
+
+<rect x="312" y="560" width="400" height="50" rx="25" fill="#DC2626"/>
+<text x="512" y="593" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#FFF">下翻 → 到底有多惨</text>
+
+<rect x="62" y="680" width="900" height="200" rx="24" fill="#FFFFFF" filter="url(#shadow)"/>
+<g transform="translate(82, 700)">
+  <rect x="0" y="0" width="860" height="60" rx="12" fill="#FEE2E2"/>
+  <text x="430" y="38" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#DC2626">赛前热身：比利时 5-0 突尼斯</text>
+  <text x="430" y="80" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#64748B">正赛：瑞典 5-1 突尼斯 → 两场丢10球</text>
+  <text x="430" y="116" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#64748B">前5场执教：1胜4负，唯一赢的是海地</text>
+  <text x="430" y="152" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="16" fill="#94A3B8">拉穆希（赛前）：没事，热热身而已 → 赛后：（沉默）</text>
+</g>
+<line x1="80" y1="960" x2="944" y2="960" stroke="#E2E8F0" stroke-width="1"/>
+<text x="512" y="990" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#94A3B8">#突尼斯 #世界杯 #2026世界杯 #足球 #瑞典 #足坛趣闻 #教练下课</text>
+</svg>

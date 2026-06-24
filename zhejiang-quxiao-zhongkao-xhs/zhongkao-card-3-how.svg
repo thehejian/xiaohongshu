@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#1E293B" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <circle cx="80" cy="80" r="70" fill="#D1FAE5" opacity="0.4"/>
+  <circle cx="720" cy="720" r="60" fill="#EDE9FE" opacity="0.3"/>
+
+  <rect x="40" y="40" width="720" height="100" rx="50" fill="#FEF3C7" filter="url(#shadow)"/>
+  <text x="400" y="108" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="48" font-weight="900" fill="#1E293B">&#x1F3EB; 具体怎么操作？</text>
+
+  <g transform="translate(40, 175)">
+    <rect x="0" y="0" width="720" height="80" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="40" cy="40" r="22" fill="#2563EB"/>
+    <text x="40" y="48" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFF">1</text>
+    <text x="80" y="48" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#1E293B">参加全省统一中考</text>
+  </g>
+
+  <g transform="translate(40, 280)">
+    <rect x="0" y="0" width="720" height="80" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="40" cy="40" r="22" fill="#7C3AED"/>
+    <text x="40" y="48" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFF">2</text>
+    <text x="80" y="48" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#1E293B">取消普高录取分数线</text>
+  </g>
+
+  <g transform="translate(40, 385)">
+    <rect x="0" y="0" width="720" height="80" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="40" cy="40" r="22" fill="#059669"/>
+    <text x="40" y="48" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFF">3</text>
+    <text x="80" y="48" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#1E293B">通过学业水平考试即升学</text>
+  </g>
+
+  <g transform="translate(40, 490)">
+    <rect x="0" y="0" width="720" height="80" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="40" cy="40" r="22" fill="#D97706"/>
+    <text x="40" y="48" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFF">4</text>
+    <text x="80" y="48" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#1E293B">高一结束自主选方向</text>
+  </g>
+
+  <g transform="translate(40, 610)">
+    <rect x="0" y="0" width="340" height="140" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="340" height="40" rx="16" fill="#DBEAFE"/>
+    <text x="170" y="27" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#2563EB">&#x2714;&#xFE0F; 不变的是</text>
+    <text x="20" y="70" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">&#x2022; 中考仍然正常进行</text>
+    <text x="20" y="95" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">&#x2022; 教学大纲不变</text>
+    <text x="20" y="120" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">&#x2022; 高考升学路径不变</text>
+  </g>
+
+  <g transform="translate(420, 610)">
+    <rect x="0" y="0" width="340" height="140" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="340" height="40" rx="16" fill="#D1FAE5"/>
+    <text x="170" y="27" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#059669">&#x1F195; 变的是</text>
+    <text x="20" y="70" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">&#x2022; 取消分数线门槛</text>
+    <text x="20" y="95" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">&#x2022; 不再一考定去向</text>
+    <text x="20" y="120" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="16" fill="#64748B">&#x2022; 赋予学生更多选择权</text>
+  </g>
+
+  <g transform="translate(40, 775)">
+    <rect x="0" y="0" width="720" height="20" rx="10" fill="#EDE9FE"/>
+    <text x="360" y="15" text-anchor="middle" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#7C3AED">一场考试不再决定一个孩子的命运</text>
+  </g>
+</svg>

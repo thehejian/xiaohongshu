@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs>
+<linearGradient id="bgG" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#FAF7F2"/>
+<stop offset="100%" stop-color="#F0EBE3"/>
+</linearGradient>
+</defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/>
+
+<text x="512" y="70" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="36" font-weight="900" fill="#1E293B">一周时间 完整闭环</text>
+<text x="512" y="105" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="20" fill="#64748B">Anthropic从封禁者到被封禁者</text>
+
+<g transform="translate(62, 140)">
+<rect x="0" y="0" width="900" height="110" rx="16" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+<text x="40" y="45" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="28" font-weight="800" fill="#DC2626">封别人 → 自己被封</text>
+<text x="40" y="85" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="18" fill="#64748B">2025年9月封杀中国实体 → 2026年6月被美国禁</text>
+</g>
+
+<g transform="translate(62, 280)">
+<rect x="0" y="0" width="900" height="110" rx="16" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+<text x="40" y="45" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="28" font-weight="800" fill="#EA580C">偷偷降智 → 公开道歉</text>
+<text x="40" y="85" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="18" fill="#64748B">24小时滑跪认错，改为可见降级通知</text>
+</g>
+
+<g transform="translate(62, 420)">
+<rect x="0" y="0" width="900" height="110" rx="16" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="1"/>
+<text x="40" y="45" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="28" font-weight="800" fill="#7C3AED">安全卫士 → 安全隐患</text>
+<text x="40" y="85" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="18" fill="#64748B">拒绝修漏洞被举报，从监管者变被监管者</text>
+</g>
+
+<g transform="translate(62, 560)">
+<rect x="0" y="0" width="900" height="120" rx="16" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+<text x="40" y="45" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" font-weight="700" fill="#059669">💡 启示</text>
+<text x="40" y="80" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="20" font-weight="600" fill="#1E293B">AI圈没有永远的王者</text>
+<text x="40" y="110" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="18" fill="#64748B">今天你封别人，明天就轮到你</text>
+</g>
+
+<text x="512" y="960" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="14" fill="#64748B" opacity="0.5">AI圈哪有永远的赢家</text>
+
+</svg>

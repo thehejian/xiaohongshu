@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
+  <rect width="1024" height="1024" fill="#FAF7F2"/>
+  <text x="512" y="90" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="32" fill="#1E293B" font-weight="bold">并列第二：德国 &amp; 意大利</text>
+  <line x1="200" y1="110" x2="824" y2="110" stroke="#B8860B" stroke-width="2"/>
+  <text x="280" y="200" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="80" fill="#1E293B" font-weight="bold">4</text>
+  <text x="280" y="230" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="20" fill="#94A3B8">德国</text>
+  <text x="744" y="200" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="80" fill="#059669" font-weight="bold">4</text>
+  <text x="744" y="230" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="20" fill="#94A3B8">意大利</text>
+  <text x="280" y="300" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="18" fill="#1E293B">1954 1974 1990 2014</text>
+  <text x="744" y="300" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="18" fill="#1E293B">1934 1938 1982 2006</text>
+  <text x="512" y="370" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="16" fill="#94A3B8">---</text>
+  <text x="512" y="430" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="20" fill="#1E293B">德国：2014年7:1巴西</text>
+  <text x="512" y="540" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="20" fill="#1E293B">意大利：4次冠军但2018/2022缺席</text>
+</svg>

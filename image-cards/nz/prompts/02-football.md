@@ -1,0 +1,1 @@
+Screen print card. All Whites players in white jerseys. 2010 World Cup group stage "三场平局 不败回家" theme. Haka silhouette. Bold flat shapes. Halftone. Cream #FAF7F2, text #1E293B.

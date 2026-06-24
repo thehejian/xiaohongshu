@@ -1,0 +1,1 @@
+Futuristic calendar interface showing June 2026 with a glowing target date around June 25, price tag icons floating in digital space, OpenAI brand colors, launch countdown concept, holographic UI elements, deep blue background with purple accents, clean tech presentation style, dramatic spotlight effect on the date

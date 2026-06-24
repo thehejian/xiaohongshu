@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F5F0E8"/></linearGradient></defs>
+<rect width="800" height="800" fill="url(#bgG)"/><circle cx="64.0" cy="64.0" r="60" fill="#E0F2FE" opacity="0.4"/><circle cx="736.0" cy="96.0" r="50" fill="#EDE9FE" opacity="0.4"/><circle cx="64.0" cy="704.0" r="70" fill="#DBEAFE" opacity="0.3"/><circle cx="736.0" cy="624.0" r="80" fill="#FFEDD5" opacity="0.3"/>
+
+<text x="400" y="80" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="34" font-weight="800" fill="#1E293B">数字对比 · 万亿有多离谱</text>
+
+<g transform="translate(40, 130)">
+  <rect x="0" y="0" width="720" height="160" rx="18" fill="#FFFFFF" stroke="#0EA5E9" stroke-width="2"/>
+  <text x="360" y="40" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="26" font-weight="700" fill="#0EA5E9">打工人 vs 马斯克</text>
+  <line x1="60" y1="60" x2="660" y2="60" stroke="#E0F2FE" stroke-width="2"/>
+  <text x="40" y="100" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="600" fill="#1E293B">月薪2万</text>
+  <text x="40" y="135" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="600" fill="#1E293B">年薪24万</text>
+  <text x="500" y="100" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" fill="#64748B">×</text>
+  <text x="520" y="135" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="28" font-weight="900" fill="#EF4444">3325万年</text>
+</g>
+
+<g transform="translate(40, 320)">
+  <rect x="0" y="0" width="720" height="140" rx="18" fill="#FFFFFF" stroke="#F59E0B" stroke-width="2"/>
+  <text x="360" y="38" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="700" fill="#F59E0B">横向对比</text>
+  <line x1="60" y1="50" x2="660" y2="50" stroke="#FEF3C7" stroke-width="2"/>
+  <text x="40" y="85" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">北京猿人</text>
+  <text x="200" y="85" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="600" fill="#1E293B">约50万年前</text>
+  <circle cx="180" cy="78" r="4" fill="#F59E0B"/>
+  <text x="40" y="120" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">恐龙灭绝</text>
+  <text x="200" y="120" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="600" fill="#1E293B">约6600万年前</text>
+  <circle cx="180" cy="113" r="4" fill="#F59E0B"/>
+</g>
+
+<text x="400" y="540" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" font-weight="700" fill="#1E293B">你需要从恐龙灭绝后的</text>
+<text x="400" y="580" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="36" font-weight="900" fill="#EF4444">第3000万年开始打工</text>
+<text x="400" y="630" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">不吃不喝加班到现在</text>
+
+<text x="400" y="720" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" fill="#94A3B8">一图看懂万亿有多夸张</text>
+
+</svg>

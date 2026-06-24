@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+    <rect width="1024" height="1024" fill="#0B1027"/>
+    <defs>
+      <radialGradient id="radial" cx="50%" cy="30%" r="55%">
+        <stop offset="0%" stop-color="#1E1B4B"/>
+        <stop offset="100%" stop-color="#0B1027"/>
+      </radialGradient>
+      
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="16" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+    
+    </defs>
+    <rect width="1024" height="1024" fill="url(#radial)"/>
+
+    <rect width="1024" height="120" fill="#10B981" opacity="0.06"/>
+    <text x="60" y="50" font-size="16" font-weight="600" fill="#10B981" font-family="Inter, Helvetica, sans-serif">CARD 02</text>
+    <text x="60" y="90" font-size="36" font-weight="800" fill="#F1F5F9" font-family="Inter, Helvetica, sans-serif">AI Pipeline: 5 min/video</text>
+
+    <rect x="60" y="155" width="904" height="380" rx="14" fill="#FFFFFF" opacity="0.05" filter="url(#shadow)"/>
+    <text x="90" y="195" font-size="20" font-weight="700" fill="#F1F5F9" font-family="Inter, Helvetica, sans-serif">Full Workflow</text>
+
+    <text x="90" y="245" font-size="18" font-weight="600" fill="#F59E0B" font-family="Inter, Helvetica, sans-serif">01 Script — DeepSeek/Claude</text>
+    <text x="90" y="272" font-size="16" fill="#94A3B8" font-family="Inter, Helvetica, sans-serif">50-80 char quote, elder speech style</text>
+
+    <text x="90" y="322" font-size="18" font-weight="600" fill="#10B981" font-family="Inter, Helvetica, sans-serif">02 Voice — 11Labs/Volc Engine</text>
+    <text x="90" y="349" font-size="16" fill="#94A3B8" font-family="Inter, Helvetica, sans-serif">Elder male/female voice, natural tone</text>
+
+    <text x="90" y="399" font-size="18" font-weight="600" fill="#8B5CF6" font-family="Inter, Helvetica, sans-serif">03 Footage — Free stock/AI gen</text>
+    <text x="90" y="426" font-size="16" fill="#94A3B8" font-family="Inter, Helvetica, sans-serif">Rural scenes: fields, old houses, tools</text>
+
+    <text x="90" y="476" font-size="18" font-weight="600" fill="#F59E0B" font-family="Inter, Helvetica, sans-serif">04 Edit — CapCut 1-tap export</text>
+    <text x="90" y="503" font-size="16" fill="#94A3B8" font-family="Inter, Helvetica, sans-serif">Script + voice + BGM + subs = done</text>
+
+    <rect x="60" y="570" width="904" height="100" rx="12" fill="#10B981" opacity="0.06"/>
+    <text x="100" y="610" font-size="18" font-weight="700" fill="#10B981" font-family="Inter, Helvetica, sans-serif">Pro Tips</text>
+    <text x="100" y="643" font-size="16" fill="#94A3B8" font-family="Inter, Helvetica, sans-serif">• Quotes need emotional tension + payoff</text>
+    <text x="100" y="668" font-size="16" fill="#94A3B8" font-family="Inter, Helvetica, sans-serif">• Big text cover + elder avatar image</text>
+
+    <text x="60" y="770" font-size="14" fill="#64748B" font-family="Inter, Helvetica, sans-serif">#AIvideo #CapCut #AIVoiceover #WeChatCreator</text>
+  </svg>

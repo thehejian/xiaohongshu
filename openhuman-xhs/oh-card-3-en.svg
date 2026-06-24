@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+<radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
+  <stop offset="0%" stop-color="#141B3D"/>
+  <stop offset="100%" stop-color="#0B1027"/>
+</radialGradient>
+<linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#A855F7"/>
+  <stop offset="100%" stop-color="#22D3EE"/>
+</linearGradient>
+<linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%" stop-color="#EF4444"/>
+  <stop offset="100%" stop-color="#FCA5A5"/>
+</linearGradient>
+<filter id="glow">
+  <feGaussianBlur stdDeviation="3" result="blur"/>
+  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+<rect width="1024" height="1024" fill="url(#bgGrad)"/>
+<circle cx="0" cy="0" r="250" fill="#A855F7" opacity="0.08"/>
+<circle cx="1024" cy="1024" r="350" fill="#22D3EE" opacity="0.06"/>
+
+<g transform="translate(64, 80)">
+  <rect x="0" y="0" width="6" height="32" fill="#22D3EE"/>
+  <text x="20" y="18" font-family="Inter, SF Pro, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#22D3EE">OPENHUMAN</text>
+  <text x="20" y="32" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="10" fill="#64748B">STREAMING</text>
+</g>
+
+<g transform="translate(64, 180)">
+  <text x="0" y="0" font-family="Inter, SF Pro, Helvetica Neue, Arial, sans-serif" font-size="44" font-weight="900" fill="#F1F5F9" letter-spacing="-2">Real-time Streaming</text>
+  <text x="0" y="48" font-family="Inter, SF Pro, Helvetica Neue, Arial, sans-serif" font-size="22" fill="#94A3B8">WebSocket-driven animation, &lt;50ms latency</text>
+</g>
+
+<g transform="translate(64, 360)">
+  <text x="0" y="0" font-family="Inter, SF Pro, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#22D3EE">TTS LIP SYNC</text>
+  <rect x="0" y="20" width="896" height="100" rx="10" fill="#1E2952" opacity="0.6"/>
+  <rect x="0" y="20" width="896" height="100" rx="10" fill="none" stroke="#22D3EE" stroke-width="1" opacity="0.5"/>
+  <text x="24" y="55" font-family="Inter, SF Pro, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" fill="#F1F5F9">AI TTS → Automatic Lip Sync</text>
+  <text x="24" y="90" font-family="Inter, SF Pro, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#94A3B8">52 FACS blendshapes driven in real time</text>
+</g>
+
+<g transform="translate(64, 520)">
+  <text x="0" y="0" font-family="Inter, SF Pro, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#EF4444">MOCAP</text>
+  <rect x="0" y="20" width="896" height="100" rx="10" fill="#1E2952" opacity="0.6"/>
+  <rect x="0" y="20" width="896" height="100" rx="10" fill="none" stroke="#EF4444" stroke-width="1" opacity="0.5"/>
+  <text x="24" y="55" font-family="Inter, SF Pro, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" fill="#F1F5F9">MoCap Streaming</text>
+  <text x="24" y="90" font-family="Inter, SF Pro, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#94A3B8">16-bit quantized joint data, 50% bandwidth saving</text>
+</g>
+
+<g transform="translate(64, 680)">
+  <text x="0" y="0" font-family="Inter, SF Pro, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#A855F7">ANIMATION GRAPH</text>
+  <rect x="0" y="20" width="896" height="80" rx="10" fill="#1E2952" opacity="0.6"/>
+  <rect x="0" y="20" width="896" height="80" rx="10" fill="none" stroke="#A855F7" stroke-width="1" opacity="0.5"/>
+  <g transform="translate(24, 30)">
+    <text x="0" y="0" font-family="Inter, SF Pro, Helvetica Neue, Arial, sans-serif" font-size="16" fill="#F1F5F9">idle  ⇄  talk  ⇄  gesture  state machine</text>
+    <text x="0" y="30" font-family="Inter, SF Pro, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#94A3B8">Seamless transitions, no manual state management</text>
+  </g>
+</g>
+
+<g transform="translate(64, 840)">
+  <rect x="0" y="0" width="896" height="72" rx="10" fill="#1E2952" opacity="0.7"/>
+  <rect x="0" y="0" width="896" height="72" rx="10" fill="none" stroke="#22C55E" stroke-width="1.5" opacity="0.6"/>
+  <text x="24" y="30" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="13" fill="#64748B">STREAMING CLIENT</text>
+  <text x="24" y="58" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="18" font-weight="600" fill="#22C55E">new StreamingClient({ url: "wss://..." })</text>
+</g>
+
+<g transform="translate(64,984)">
+  <text x="0" y="0" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" fill="#64748B">CARD 04/04</text>
+  <text x="960" y="0" text-anchor="end" font-family="SF Mono, JetBrains Mono, IBM Plex Mono, Menlo, Consolas, monospace" font-size="11" fill="#64748B">openhuman.ai</text>
+</g>
+</svg>

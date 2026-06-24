@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs>
+<radialGradient id="bgG" cx="50%" cy="50%" r="70%">
+<stop offset="0%" stop-color="#151B3A"/>
+<stop offset="100%" stop-color="#0B1027"/>
+</radialGradient>
+</defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/>
+
+<text x="512" y="80" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="40" font-weight="900" fill="#F8FAFC">用户体感崩塌</text>
+<text x="512" y="120" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" fill="#94A3B8">Reddit / Twitter 用户集体吐槽</text>
+
+<g transform="translate(62, 180)">
+<rect x="0" y="0" width="900" height="200" rx="18" fill="#3D1A1A" stroke="#EF4444" stroke-width="1" opacity="0.9"/>
+<rect x="0" y="0" width="6" height="200" rx="3" fill="#EF4444"/>
+<text x="40" y="60" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="36" font-weight="800" fill="#F8FAFC">代码生成退化</text>
+<text x="40" y="110" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="24" font-weight="500" fill="#94A3B8">500行→反复修正3轮</text>
+<text x="40" y="160" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="16" fill="#EF4444" opacity="0.7">用户 AB 测试：4.7 明显优于 4.8</text>
+</g>
+<g transform="translate(62, 420)">
+<rect x="0" y="0" width="900" height="200" rx="18" fill="#3D2A10" stroke="#F97316" stroke-width="1" opacity="0.9"/>
+<rect x="0" y="0" width="6" height="200" rx="3" fill="#F97316"/>
+<text x="40" y="60" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="36" font-weight="800" fill="#F8FAFC">逻辑推理变弱</text>
+<text x="40" y="110" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="24" font-weight="500" fill="#94A3B8">多步任务自相矛盾</text>
+<text x="40" y="160" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="16" fill="#F97316" opacity="0.7">用户 AB 测试：4.7 明显优于 4.8</text>
+</g>
+<g transform="translate(62, 660)">
+<rect x="0" y="0" width="900" height="200" rx="18" fill="#3D2F10" stroke="#F59E0B" stroke-width="1" opacity="0.9"/>
+<rect x="0" y="0" width="6" height="200" rx="3" fill="#F59E0B"/>
+<text x="40" y="60" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="36" font-weight="800" fill="#F8FAFC">长篇偏离主题</text>
+<text x="40" y="110" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="24" font-weight="500" fill="#94A3B8">>2000 token 开始胡言</text>
+<text x="40" y="160" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="16" fill="#F59E0B" opacity="0.7">用户 AB 测试：4.7 明显优于 4.8</text>
+</g>
+<text x="512" y="960" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="14" fill="#94A3B8" opacity="0.5">来源: Reddit r/ClaudeAI, Twitter #ClaudeDecline</text>
+
+</svg>

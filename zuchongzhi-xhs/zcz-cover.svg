@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="overlay" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#000" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.65"/>
+    </linearGradient>
+    <filter id="stroke">
+      <feMorphology operator="dilate" radius="3" in="SourceAlpha" result="expanded"/>
+      <feFlood flood-color="#000" flood-opacity="1" result="colored"/>
+      <feComposite operator="in" in="colored" in2="expanded" result="stroked"/>
+      <feMerge><feMergeNode in="stroked"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <image href="zcz-cover_raw.png" x="0" y="0" width="1024" height="1024" preserveAspectRatio="xMidYMid slice"/>
+  <rect x="0" y="0" width="1024" height="1024" fill="url(#overlay)"/>
+</svg><text x="512" y="280" fill="#B8D4E3" font-family="Source Han Serif SC" font-size="72" font-weight="700" text-anchor="middle" filter="url(#stroke)">祖冲之</text><text x="512" y="350" fill="#8BB8D0" font-family="Source Han Serif SC" font-size="36" font-weight="400" text-anchor="middle" filter="url(#stroke)">领先世界千年的天才</text><line x1="312" y1="380" x2="712" y2="380" stroke="#8BB8D0" stroke-opacity="0.5" stroke-width="1.5"/><text x="512" y="700" fill="#6FA0BA" font-family="Source Han Serif SC" font-size="24" font-weight="300" text-anchor="middle" opacity="0.7">π=3.1415926…·大明历·指南车</text><text x="512" y="740" fill="#6FA0BA" font-family="Source Han Serif SC" font-size="20" font-weight="300" text-anchor="middle" opacity="0.5">南朝的科学丰碑</text>

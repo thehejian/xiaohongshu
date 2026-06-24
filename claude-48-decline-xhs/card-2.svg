@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs>
+<radialGradient id="bgG" cx="50%" cy="50%" r="70%">
+<stop offset="0%" stop-color="#151B3A"/>
+<stop offset="100%" stop-color="#0B1027"/>
+</radialGradient>
+</defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/>
+
+<text x="512" y="80" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="40" font-weight="900" fill="#F8FAFC">GPT-5 反超</text>
+<text x="512" y="120" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" fill="#94A3B8">关键编程基准对比</text>
+
+<g transform="translate(62, 180)">
+<rect x="0" y="0" width="900" height="60" rx="10" fill="#2D1B69"/>
+<text x="40" y="38" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="20" font-weight="700" fill="#94A3B8">基准测试</text>
+<text x="330" y="38" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="20" font-weight="700" fill="#F97316">Claude 4.8</text>
+<text x="530" y="38" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="20" font-weight="700" fill="#10B981">GPT-5</text>
+<text x="750" y="38" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="20" font-weight="700" fill="#94A3B8">差距</text>
+</g>
+
+<g transform="translate(62, 260)">
+<rect x="0" y="0" width="900" height="70" rx="10" fill="#1A183A"/>
+<text x="40" y="44" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" font-weight="600" fill="#F8FAFC">SWE-bench Verified</text>
+<text x="330" y="44" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" font-weight="700" fill="#F97316">58.2%</text>
+<text x="530" y="44" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" font-weight="700" fill="#10B981">63.7%</text>
+<text x="740" y="44" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" font-weight="700" fill="#EF4444">-5.5%</text>
+</g>
+
+<g transform="translate(62, 350)">
+<rect x="0" y="0" width="900" height="70" rx="10" fill="#1A183A"/>
+<text x="40" y="44" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" font-weight="600" fill="#F8FAFC">HumanEval+</text>
+<text x="330" y="44" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" font-weight="700" fill="#F97316">86.4%</text>
+<text x="530" y="44" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" font-weight="700" fill="#10B981">91.2%</text>
+<text x="740" y="44" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" font-weight="700" fill="#EF4444">-4.8%</text>
+</g>
+
+<g transform="translate(62, 440)">
+<rect x="0" y="0" width="900" height="70" rx="10" fill="#1A183A"/>
+<text x="40" y="44" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" font-weight="600" fill="#F8FAFC">LiveCodeBench v3</text>
+<text x="330" y="44" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" font-weight="700" fill="#F97316">54.1%</text>
+<text x="530" y="44" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" font-weight="700" fill="#10B981">61.8%</text>
+<text x="740" y="44" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" font-weight="700" fill="#EF4444">-7.7%</text>
+</g>
+
+<g transform="translate(62, 580)">
+<rect x="0" y="0" width="900" height="140" rx="16" fill="#3D2A10" stroke="#F97316" stroke-width="1"/>
+<text x="30" y="40" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="22" font-weight="700" fill="#F97316">💡 半年前 Claude 还是编程王者</text>
+<text x="30" y="80" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="19" font-weight="500" fill="#94A3B8">Claude 3.5 Sonnet 曾连续 6 个月霸榜</text>
+<text x="30" y="115" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="19" font-weight="500" fill="#94A3B8">如今 GPT-5 在所有编程基准上完成反超</text>
+</g>
+
+<text x="512" y="960" text-anchor="middle" font-family="PingFang SC,Heiti SC,STHeiti,Hiragino Sans GB,Microsoft YaHei,sans-serif" font-size="14" fill="#94A3B8" opacity="0.5">数据来源: SWE-bench, HumanEval, LiveCodeBench 2026-06</text>
+
+</svg>

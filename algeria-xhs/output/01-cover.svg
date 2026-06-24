@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+    <stop offset="0%" stop-color="#FAF7F2"/>
+    <stop offset="100%" stop-color="#F5F0E8"/>
+  </radialGradient>
+  <linearGradient id="titleG" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#006633"/>
+    <stop offset="50%" stop-color="#00884A"/>
+    <stop offset="100%" stop-color="#006633"/>
+  </linearGradient>
+  <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%"><feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#1E293B" flood-opacity="0.08"/></filter>
+</defs>
+<rect width="1024" height="1024" fill="url(#bg)"/>
+<circle cx="80" cy="80" r="140" fill="#E8F5E9" opacity="0.15"/>
+<circle cx="924" cy="924" r="180" fill="#FEF9E7" opacity="0.12"/>
+<circle cx="80" cy="924" r="80" fill="#FEE2E2" opacity="0.1"/>
+<circle cx="924" cy="80" r="60" fill="#E8F5E9" opacity="0.08"/>
+<rect x="62" y="40" width="900" height="80" rx="40" fill="#FFFFFF" filter="url(#shadow)"/>
+<text x="512" y="90" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="28" font-weight="700" fill="#006633">🏆 阿尔及利亚 · 北非雄狮</text>
+
+<rect x="112" y="170" width="800" height="120" rx="20" fill="#E8F5E9" stroke="#006633" stroke-width="1.5"/>
+<text x="512" y="215" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="52" font-weight="900" fill="url(#titleG)">🧡 足球 · 沙漠 · 地中海</text>
+<text x="512" y="270" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#64748B">一个被严重低估的北非宝藏国家</text>
+
+<rect x="212" y="330" width="600" height="50" rx="25" fill="#006633"/>
+<text x="512" y="363" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#FFF">下翻  →  足球篇</text>
+
+<rect x="62" y="420" width="900" height="400" rx="24" fill="#FFFFFF" filter="url(#shadow)"/>
+<g transform="translate(82, 440)">
+  <text x="0" y="35" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#1E293B">本期内容速览</text>
+
+  <rect x="0" y="60" width="400" height="50" rx="12" fill="#E8F5E9"/>
+  <text x="200" y="92" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" font-weight="700" fill="#006633">🏀 足球</text>
+
+  <rect x="420" y="60" width="440" height="50" rx="12" fill="#FEF9E7"/>
+  <text x="640" y="92" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" font-weight="700" fill="#D4A843">🌍 旅行</text>
+
+  <text x="0" y="150" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#64748B">· 2014世界杯差点掀翻德国</text>
+  <text x="0" y="185" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#64748B">· 2019非洲杯冠军 · 马赫雷斯</text>
+  <text x="0" y="220" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#64748B">· 齐达内的根在阿尔及利亚</text>
+  <text x="0" y="260" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#64748B">· 白城阿尔及尔 · 卡斯巴老城</text>
+  <text x="0" y="295" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#64748B">· 撒哈拉 · 塔西利恩阿耶</text>
+  <text x="0" y="330" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#64748B">· 古罗马遗址 · 古斯古斯</text>
+</g>
+<line x1="80" y1="960" x2="944" y2="960" stroke="#E2E8F0" stroke-width="1"/>
+<text x="512" y="990" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#94A3B8">#阿尔及利亚 #北非旅行 #足球 #撒哈拉 #小众旅行地</text>
+</svg>

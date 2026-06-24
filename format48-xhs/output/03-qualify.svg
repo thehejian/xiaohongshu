@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
+  <rect width="1024" height="1024" fill="#FAF7F2"/>
+  <text x="512" y="90" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="32" fill="#1E293B" font-weight="bold">晋级规则</text>
+  <line x1="300" y1="110" x2="724" y2="110" stroke="#B8860B" stroke-width="2"/>
+
+  <text x="512" y="200" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="26" fill="#059669" font-weight="bold">12个小组前两名</text>
+  <text x="512" y="235" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="60" fill="#059669" font-weight="bold">24 队</text>
+  <line x1="462" y1="270" x2="562" y2="310" stroke="#1E293B" stroke-width="3"/>
+
+  <text x="512" y="360" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="26" fill="#2563EB" font-weight="bold">+ 8个成绩最好的小组第三</text>
+  <text x="512" y="395" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="60" fill="#2563EB" font-weight="bold">8 队</text>
+  <line x1="462" y1="430" x2="562" y2="470" stroke="#1E293B" stroke-width="3"/>
+
+  <rect x="312" y="480" width="400" height="80" rx="15" fill="#B8860B"/>
+  <text x="512" y="525" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="36" fill="#FFFFFF" font-weight="bold">32 强淘汰赛</text>
+
+  <text x="512" y="680" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="18" fill="#94A3B8">小组第三之间比积分、净胜球、进球数</text>
+  <text x="512" y="715" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="18" fill="#94A3B8">取前8名进入淘汰赛</text>
+</svg>

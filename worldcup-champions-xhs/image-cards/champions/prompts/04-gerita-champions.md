@@ -1,0 +1,1 @@
+Two iconic football moments side by side, Germany team lifting trophy in 2014 and Italy team lifting trophy in 2006, stadium celebrations, confetti, photorealistic sports photography, high detail, NO text or labels anywhere in the image

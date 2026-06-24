@@ -1,0 +1,1 @@
+A row of golden trophies on a pedestal, eight different styled trophies representing World Cup winners, dramatic museum lighting, golden reflections, dark background, photorealistic, high detail, product photography style, NO text or labels anywhere in the image

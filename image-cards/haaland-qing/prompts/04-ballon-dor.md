@@ -1,0 +1,1 @@
+Screen print card. Haaland silhouette wearing Qing dynasty mandarin official robe and hat, holding a golden Ballon d'Or trophy. Funny mashup of modern football and ancient Chinese court. "明年金球奖穿清朝官服领奖" text. Bold flat shapes. Halftone. Cream #FAF7F2, text #1E293B.

@@ -1,0 +1,1 @@
+Argentinian asado barbecue close-up shot, large juicy beef steaks and sausages on a wooden grill over glowing charcoal embers, smoke rising, rustic outdoor setting, Chimichurri sauce on the side, warm golden hour lighting, photorealistic food photography style, high detail, NO text or labels or words anywhere in the image

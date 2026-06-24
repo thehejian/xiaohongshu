@@ -1,0 +1,1 @@
+Screen print card. Ancient Babylon ruins with Ishtar Gate lion mural. Mesopotamian ziggurat silhouette. "巴比伦 汉谟拉比 两河流域" theme. Warm earth and blue. Bold flat shapes. Halftone. Cream #FAF7F2, text #1E293B.

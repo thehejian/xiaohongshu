@@ -1,0 +1,1 @@
+Abstract visualization of massive data streams and documents flowing into a glowing AI core, representing 1.5 million token context window, deep space blue background with golden data particles, futuristic interface showing text documents being processed, volumetric light rays, sci-fi data visualization style, wide cinematic composition

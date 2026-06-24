@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
+  <rect width="1024" height="1024" fill="#FAF7F2"/>
+  <text x="512" y="80" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="32" fill="#1E293B" font-weight="bold">冠军次数排行榜</text>
+  <line x1="250" y1="100" x2="774" y2="100" stroke="#B8860B" stroke-width="2"/>
+  <text x="160" y="200" font-family="PingFang SC, Heiti SC, sans-serif" font-size="20" fill="#1E293B">巴西</text>
+<rect x="280" y="175" width="560" height="30" rx="6" fill="#059669" opacity="0.85"/>
+<text x="850" y="198" font-family="PingFang SC, Heiti SC, sans-serif" font-size="22" fill="#1E293B" font-weight="bold">5</text>
+<text x="160" y="255" font-family="PingFang SC, Heiti SC, sans-serif" font-size="20" fill="#1E293B">德国</text>
+<rect x="280" y="230" width="460" height="30" rx="6" fill="#1E293B" opacity="0.85"/>
+<text x="750" y="253" font-family="PingFang SC, Heiti SC, sans-serif" font-size="22" fill="#1E293B" font-weight="bold">4</text>
+<text x="160" y="310" font-family="PingFang SC, Heiti SC, sans-serif" font-size="20" fill="#1E293B">意大利</text>
+<rect x="280" y="285" width="460" height="30" rx="6" fill="#059669" opacity="0.85"/>
+<text x="750" y="308" font-family="PingFang SC, Heiti SC, sans-serif" font-size="22" fill="#1E293B" font-weight="bold">4</text>
+<text x="160" y="365" font-family="PingFang SC, Heiti SC, sans-serif" font-size="20" fill="#1E293B">阿根廷</text>
+<rect x="280" y="340" width="360" height="30" rx="6" fill="#2563EB" opacity="0.85"/>
+<text x="650" y="363" font-family="PingFang SC, Heiti SC, sans-serif" font-size="22" fill="#1E293B" font-weight="bold">3</text>
+<text x="160" y="420" font-family="PingFang SC, Heiti SC, sans-serif" font-size="20" fill="#1E293B">法国</text>
+<rect x="280" y="395" width="260" height="30" rx="6" fill="#DC2626" opacity="0.85"/>
+<text x="550" y="418" font-family="PingFang SC, Heiti SC, sans-serif" font-size="22" fill="#1E293B" font-weight="bold">2</text>
+<text x="160" y="475" font-family="PingFang SC, Heiti SC, sans-serif" font-size="20" fill="#1E293B">乌拉圭</text>
+<rect x="280" y="450" width="260" height="30" rx="6" fill="#B8860B" opacity="0.85"/>
+<text x="550" y="473" font-family="PingFang SC, Heiti SC, sans-serif" font-size="22" fill="#1E293B" font-weight="bold">2</text>
+<text x="160" y="530" font-family="PingFang SC, Heiti SC, sans-serif" font-size="20" fill="#1E293B">英格兰</text>
+<rect x="280" y="505" width="160" height="30" rx="6" fill="#DC2626" opacity="0.85"/>
+<text x="450" y="528" font-family="PingFang SC, Heiti SC, sans-serif" font-size="22" fill="#1E293B" font-weight="bold">1</text>
+<text x="160" y="585" font-family="PingFang SC, Heiti SC, sans-serif" font-size="20" fill="#1E293B">西班牙</text>
+<rect x="280" y="560" width="160" height="30" rx="6" fill="#B8860B" opacity="0.85"/>
+<text x="450" y="583" font-family="PingFang SC, Heiti SC, sans-serif" font-size="22" fill="#1E293B" font-weight="bold">1</text>
+
+  <text x="512" y="820" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="16" fill="#94A3B8">截至2026年，共22届世界杯</text>
+</svg>

@@ -1,0 +1,1 @@
+A pristine white sand beach with crystal clear turquoise water, palm trees on Klein Curacao island, a small sailboat on the horizon, snorkeling spot, poster style screen-print with flat color blocks and halftone textures, cream colored background, dark navy Chinese text labels, Chinese title "加勒比海滩"

@@ -1,0 +1,1 @@
+An Afro-Caribbean Curacao national football team player in blue jersey standing proud on a football pitch with the Caribbean sea and sunset behind, holding a flag, emotional moment of a small island nation at World Cup, poster style screen-print with flat color blocks and halftone textures, cream colored background, dark navy Chinese text labels, Chinese title "7比1 也是胜利"

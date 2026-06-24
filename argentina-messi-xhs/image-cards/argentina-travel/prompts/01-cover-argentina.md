@@ -1,0 +1,1 @@
+Lionel Messi close-up portrait in Argentina blue and white jersey, celebrating after scoring, holding three fingers up for hat-trick, intense emotion on his face, 2026 World Cup stadium atmosphere, natural lighting, photorealistic, high detail, news photography style, NO text or labels or words anywhere in the image

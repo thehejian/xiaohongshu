@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#F0EAE0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <text x="512" y="100" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="30" fill="#1E293B" font-weight="bold">亚洲区 2026 出线名单</text>
+  <line x1="150" y1="120" x2="874" y2="120" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="150" y="200" font-family="PingFang SC, Heiti SC, sans-serif" font-size="22" fill="#059669">日本 ✅</text>
+<text x="370" y="200" font-family="PingFang SC, Heiti SC, sans-serif" font-size="18" fill="#94A3B8">—— 赢了西班牙德国</text>
+<text x="150" y="248" font-family="PingFang SC, Heiti SC, sans-serif" font-size="22" fill="#059669">韩国 ✅</text>
+<text x="370" y="248" font-family="PingFang SC, Heiti SC, sans-serif" font-size="18" fill="#94A3B8">—— 干翻葡萄牙</text>
+<text x="150" y="296" font-family="PingFang SC, Heiti SC, sans-serif" font-size="22" fill="#059669">伊朗 ✅</text>
+<text x="370" y="296" font-family="PingFang SC, Heiti SC, sans-serif" font-size="18" fill="#94A3B8">—— 跟葡萄牙五五开</text>
+<text x="150" y="344" font-family="PingFang SC, Heiti SC, sans-serif" font-size="22" fill="#059669">沙特 ✅</text>
+<text x="370" y="344" font-family="PingFang SC, Heiti SC, sans-serif" font-size="18" fill="#94A3B8">—— 爆冷阿根廷</text>
+<text x="150" y="392" font-family="PingFang SC, Heiti SC, sans-serif" font-size="22" fill="#059669">澳大利亚 ✅</text>
+<text x="370" y="392" font-family="PingFang SC, Heiti SC, sans-serif" font-size="18" fill="#94A3B8">—— 稳定出线</text>
+<text x="150" y="440" font-family="PingFang SC, Heiti SC, sans-serif" font-size="22" fill="#059669">卡塔尔 ✅</text>
+<text x="370" y="440" font-family="PingFang SC, Heiti SC, sans-serif" font-size="18" fill="#94A3B8">—— 主场表现还行</text>
+<text x="150" y="488" font-family="PingFang SC, Heiti SC, sans-serif" font-size="22" fill="#059669">伊拉克 ✅</text>
+<text x="370" y="488" font-family="PingFang SC, Heiti SC, sans-serif" font-size="18" fill="#94A3B8">—— 也进了</text>
+<text x="150" y="536" font-family="PingFang SC, Heiti SC, sans-serif" font-size="22" fill="#059669">印尼 ✅</text>
+<text x="370" y="536" font-family="PingFang SC, Heiti SC, sans-serif" font-size="18" fill="#94A3B8">—— ？？？他们也进了</text>
+<text x="150" y="584" font-family="PingFang SC, Heiti SC, sans-serif" font-size="22" fill="#DC2626">国足 ❌</text>
+<text x="370" y="584" font-family="PingFang SC, Heiti SC, sans-serif" font-size="18" fill="#94A3B8">—— 亚洲8.5个名额都没捞到</text>
+<text x="512" y="662" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="20" fill="#1E293B" font-style="italic">"国足：我早说了亚洲区很强，8.5个名额都不够分"</text>
+
+</svg>
