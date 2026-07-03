@@ -1,0 +1,1 @@
+Screen-print scene of a siege, Khitan army surrounding a Chinese city, the general fighting desperately inside, reinforcements visible on the horizon but too far away, text overlay '幽州之围' in bold title, subtitle '契丹围攻幽州 · 苦撑待援 · 主力来不及赶到', 1:1 square

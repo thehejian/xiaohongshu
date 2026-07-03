@@ -1,0 +1,1 @@
+Screen-print portrait of a young Chinese emperor in battle armor, dynamic and ambitious expression, holding a spear pointing forward, a map of China behind him half conquered, Five Dynasties period, text overlay '郭荣' in bold title, subtitle '如果多活十年 · 历史将彻底不同', 1:1 square

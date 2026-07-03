@@ -1,0 +1,1 @@
+Screen-print absurd scene of court officials lining up before the emperor holding surgical knives, new officials castrating themselves before taking office, the most bizarre selection system in Chinese history, text overlay '自宫当官' in bold title, subtitle '想当官先阉自己 · 南汉朝廷变太监俱乐部', 1:1 square

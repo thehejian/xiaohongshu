@@ -1,0 +1,1 @@
+Screen-print symbolic image of a sword rusting on an opera stage, a crown lying beside a theater mask, the paradox of a man who could conquer all enemies but not his own weakness, text overlay '成也英雄 · 败也戏子' in bold title, subtitle '能打败所有的敌人 · 最终败给了自己的爱好', 1:1 square

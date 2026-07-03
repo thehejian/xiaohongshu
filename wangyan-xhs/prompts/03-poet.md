@@ -1,0 +1,1 @@
+Screen-print scene of a king composing poetry in a magnificent palace garden surrounded by courtesans and musicians, the refined elegance of a talented poet who happened to be an emperor, text overlay '词人皇帝' in bold title, subtitle '才华横溢的词人 · 错生帝王家的文艺青年', 1:1 square

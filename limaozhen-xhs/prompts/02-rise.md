@@ -1,0 +1,1 @@
+Screen-print scene of a common soldier rising through the ranks on a battlefield, being promoted in front of the emperor for bravery, the humble beginning of the future king of Qi, text overlay '起家' in bold title, subtitle '普通士兵镇压黄巢立功 · 被唐僖宗赐名李茂贞', 1:1 square

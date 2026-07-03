@@ -1,0 +1,1 @@
+Screen-print final scene of an empty crumbling house, a single ray of light illuminating a drowning man in an old bathtub, three empty sacks beside the tub, gold coins scattered on the floor, the family's last treasure lost, a tragic ironic end, warm fading amber light, Latin American magical realism, text overlay '布恩迪亚家的最后一点钱' in bold title, subtitle '被这个不成器的长孙彻底断送', 1:1 square

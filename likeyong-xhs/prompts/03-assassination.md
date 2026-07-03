@@ -1,0 +1,1 @@
+Screen-print dramatic scene of a nighttime assassination attempt, a general escaping through a window while assassins storm a banquet hall, swords and spilled wine, betrayal and desperation, text overlay '朱李恩怨' in bold title, subtitle '朱温设宴暗杀 · 李克用侥幸逃出 · 从此势不两立', 1:1 square

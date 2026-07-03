@@ -1,0 +1,1 @@
+Screen-print dramatic mountain pass scene: a narrow gorge between steep cliffs, an ancient pass fortress at the mouth of the valley, the historic eastern gate of the Qin kingdom, text overlay '函谷关' in bold title, subtitle '一夫当关万夫莫开 · 老子在此写下道德经', 1:1 square

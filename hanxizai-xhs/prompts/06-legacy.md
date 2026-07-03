@@ -1,0 +1,1 @@
+Screen-print symbolic scene of an empty wine cup and a lute on a scholar's desk, the famous painting that made him immortal, the art that outlived the kingdom he served, text overlay '千年夜宴' in bold title, subtitle '一幅夜宴图让他名垂千古 · 南唐亡了他还在画里喝酒', 1:1 square

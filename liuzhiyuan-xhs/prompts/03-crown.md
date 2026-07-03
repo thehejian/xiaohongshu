@@ -1,0 +1,1 @@
+Screen-print scene of a new emperor being crowned in Taiyuan, while Khitan armies occupy the Central Plains, a strategic move to establish power away from the chaos, text overlay '太原称帝' in bold title, subtitle '契丹灭后晋 · 刘知远在太原称帝 · 建立后汉', 1:1 square

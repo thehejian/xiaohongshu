@@ -1,0 +1,1 @@
+Screen-print scene of a young man being raised by a foster father, learning governance and military strategy, the foster father's natural sons looking at him with jealousy, a delicate balance between gratitude and survival, text overlay '寄人篱下' in bold title, subtitle '杨行密的儿子们容不下他 · 转交徐温抚养 · 改名徐知诰', 1:1 square

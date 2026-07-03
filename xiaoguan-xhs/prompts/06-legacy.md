@@ -1,0 +1,1 @@
+Screen-print symbolic scene of an ancient arrowhead half-buried in the sand and a flourishing green field behind the fortress, the transition from war to peace that the pass has seen over two millennia, text overlay '千年萧关' in bold title, subtitle '消失在大漠中的雄关 · 北方边防最古老的见证者', 1:1 square

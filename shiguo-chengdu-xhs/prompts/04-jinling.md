@@ -1,0 +1,1 @@
+Screen-print scene of an imperial city on the Yangtze River, the majestic gates of Jinling, palaces and pavilions that housed the most powerful of the southern kingdoms, text overlay '金陵' in bold title, subtitle '六朝古都 · 南唐在此创造了文化巅峰', 1:1 square

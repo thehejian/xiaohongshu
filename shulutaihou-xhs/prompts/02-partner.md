@@ -1,0 +1,1 @@
+Screen-print dramatic scene of a Khitan empress in full armor riding beside her husband the emperor across the steppe, two equal partners conquering the northern frontier, the founding of a dynasty, text overlay '契丹开国' in bold title, subtitle '陪阿保机打天下 · 辽国有一半是她的', 1:1 square

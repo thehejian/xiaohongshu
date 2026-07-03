@@ -1,0 +1,1 @@
+Screen-print bird's eye view of a map showing the Guanzhong region with its four passes, an arrow pointing from the south through Wu Pass directly to Chang'an, the easiest route into the heart of Shaanxi, text overlay '最脆弱的关口' in bold title, subtitle '相比函谷关天险 · 武关更容易被攻破', 1:1 square

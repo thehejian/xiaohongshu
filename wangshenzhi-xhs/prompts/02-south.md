@@ -1,0 +1,1 @@
+Screen-print scene of a long march of soldiers and settlers moving south through mountain passes, entering the wild and undeveloped land of Fujian, the beginning of civilization in a frontier region, text overlay '南下入闽' in bold title, subtitle '从河南固始一路南下 · 福建从蛮荒之地开始蜕变', 1:1 square

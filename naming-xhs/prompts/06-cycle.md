@@ -1,0 +1,1 @@
+Screen-print conceptual design of a cyclical wheel of names, Jose Arcadios on one side Aurelianos on the other, spinning through generations, the last baby with a pig's tail falling off the wheel into ants marching below, the cycle finally broken, Latin American magical realism, text overlay '布恩迪亚家族的轮回' in bold title, subtitle '七个世代 · 两个名字 · 一个宿命', 1:1 square

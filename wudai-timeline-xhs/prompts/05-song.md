@@ -1,0 +1,1 @@
+Screen-print scene of a timeline reaching the year 960, a golden robe being placed over a general's shoulders at dawn in a military camp, the peaceful start of a new era of Chinese history, text overlay '北宋建立' in bold title, subtitle '960赵匡胤开启宋朝 · 逐一统一各国', 1:1 square

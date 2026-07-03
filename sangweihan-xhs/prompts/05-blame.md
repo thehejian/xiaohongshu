@@ -1,0 +1,1 @@
+Screen-print scene of a historian pointing an accusing finger at a frightened advisor, the judgment of history weighing on a man who made a terrible deal, text overlay '千古骂名' in bold title, subtitle '被历史骂了几百年 · 一个谋士的抉择影响四百年国运', 1:1 square

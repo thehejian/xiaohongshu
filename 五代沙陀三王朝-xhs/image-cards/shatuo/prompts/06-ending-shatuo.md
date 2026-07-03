@@ -1,0 +1,1 @@
+Screen-print summary scene of a family tree showing Li Siyuan's circle, Shi Jingtang as son-in-law, Liu Zhiyuan as subordinate, three crowns linked by marriage, crimson, gold and navy palette, halftone print grain, text overlay '沙陀军事集团内部权力轮换' in bold title, subtitle '全是李嗣源家族的亲戚圈 · 草原出身中原称帝', 1:1 square

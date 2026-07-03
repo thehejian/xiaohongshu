@@ -1,0 +1,1 @@
+Screen-print portrait of a bizarre young king on his throne surrounded entirely by eunuchs, no normal officials in sight, the only court in history run by castrated men, text overlay '刘鋹' in bold title, subtitle '想当官先自宫 · 史上最荒唐的皇帝', 1:1 square

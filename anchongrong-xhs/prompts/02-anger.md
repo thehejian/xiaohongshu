@@ -1,0 +1,1 @@
+Screen-print scene of a general disgustedly throwing down a diplomatic letter from the Khitan court, his officers watching in silence, the shame of serving a puppet emperor who calls a foreign ruler father, text overlay '羞与为伍' in bold title, subtitle '最恨石敬瑭向契丹称臣的窝囊样 · 每封契丹来信都让他暴怒', 1:1 square

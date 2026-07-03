@@ -1,0 +1,1 @@
+Screen-print dramatic collage of four moments in history — an emperor being killed, a dynasty collapsing, Khitan horsemen pouring through mountain passes, a yellow robe being raised, the four most pivotal moments of the Five Dynasties era, text overlay '四大节度使之乱' in bold title, subtitle '四次兵变 · 改变了中国历史的走向', 1:1 square

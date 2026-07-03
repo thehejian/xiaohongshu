@@ -1,0 +1,1 @@
+Screen-print dramatic collage of five men from rags to imperial robes — a servant, a thief, an orphan, a criminal, a shepherd — each transformed from the lowest of society to emperors sitting on thrones, text overlay '从奴隶到皇帝' in bold title, subtitle '五代十国产的逆袭传奇 · 五个底层出身的开国皇帝', 1:1 square

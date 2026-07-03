@@ -1,0 +1,1 @@
+Screen-print scene of an ancient gypsy lying in bed with eyes closed, apparently dead, then suddenly opening his eyes with a mysterious smile, sitting up, surrounded by shocked family members, warm candlelight, dramatic astonished expressions, Latin American magical realism, text overlay '受不了死亡的无聊' in bold title, subtitle '死了 · 又活过来了 · 谁都不认识了但记得老朋友', 1:1 square

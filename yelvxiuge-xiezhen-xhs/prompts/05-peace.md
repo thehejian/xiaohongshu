@@ -1,0 +1,1 @@
+Screen-print scene of a Khitan general and a Song envoy signing a peace treaty, the long war finally ending, the mountains of Yanyun standing in the background, text overlay '百年和平' in bold title, subtitle '雍熙北伐后辽由守转攻 · 宋不敢再北伐 · 换来百年和平', 1:1 square

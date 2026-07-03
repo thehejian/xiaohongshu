@@ -1,0 +1,1 @@
+Screen-print poignant scene of an execution in Chengdu, the minister kneeling with a calm expression, the news of his death spreading like wildfire causing rebellions across the empire, text overlay '成都被斩' in bold title, subtitle '在成都被处死 · 后唐由盛转衰的转折点', 1:1 square

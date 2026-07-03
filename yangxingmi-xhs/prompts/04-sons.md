@@ -1,0 +1,1 @@
+Screen-print scene of a king surrounded by too many sons, twenty plus princes vying for attention, the seeds of future chaos in an excess of heirs, text overlay '二十多个儿子' in bold title, subtitle '太能生了 · 儿子太多反而成了祸根 · 死后大权旁落', 1:1 square

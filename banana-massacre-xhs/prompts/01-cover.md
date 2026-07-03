@@ -1,0 +1,1 @@
+Screen-print dramatic scene of a crowd of workers gathered at a train station under a dark stormy sky, a military officer on top of a train reading a decree, in the distance machine guns aimed at the crowd, looming catastrophe, intense tension, Latin American magical realism, text overlay '香蕉公司大屠杀' in bold title, subtitle '三千多人 · 三十六节车厢 · 被历史抹去的一天', 1:1 square

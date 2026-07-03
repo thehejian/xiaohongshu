@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a dying emperor on his bed, whispering to his son to keep peace with neighbors, a flourishing realm at sunset, the fragility of legacy, text overlay '临终嘱托' in bold title, subtitle '和邻国搞好关系不要轻易用兵 · 可惜儿孙没听 · 南唐四十年的繁荣是他打的底子', 1:1 square

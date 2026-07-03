@@ -1,0 +1,1 @@
+Screen-print symbolic scene of four city gates standing side by side, each leading to a different kingdom, the competing capitals that defined an age of division, text overlay '四城争辉' in bold title, subtitle '繁华成都 · 精致杭州 · 文华金陵 · 富庶广州', 1:1 square

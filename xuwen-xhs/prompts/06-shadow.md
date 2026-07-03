@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a man standing in the shadows while his protege stands in the light, the quiet satisfaction of building something that outlasts your own name, text overlay '影子' in bold title, subtitle '甘愿当影子把聚光灯留给养子 · 不想当皇帝的人成就了最好的皇帝', 1:1 square

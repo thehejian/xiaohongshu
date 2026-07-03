@@ -1,0 +1,1 @@
+Screen-print scene of a ruler building a new capital in the Lingnan region, tropical vegetation, the Pearl River delta, the founding of a Southern dynasty in a distant land, text overlay '岭南立国' in bold title, subtitle '接管岭南称帝建立南汉 · 天高皇帝远 · 中原战乱管不到', 1:1 square

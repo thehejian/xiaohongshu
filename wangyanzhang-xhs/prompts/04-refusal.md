@@ -1,0 +1,1 @@
+Screen-print dramatic scene of a captured general kneeling before a victorious enemy emperor, the enemy offering a golden crown and a high official's robe, the general turning his face away in refusal, text overlay '宁死不降' in bold title, subtitle '李存勖亲自劝降许以高官厚禄 · 他拒绝了', 1:1 square

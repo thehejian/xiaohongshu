@@ -1,0 +1,1 @@
+Screen-print dramatic scene of a hero tied to five horses pulling in different directions on a vast execution ground, the horses straining but unable to move him, his muscles bulging with divine strength, text overlay '五马分尸' in bold title, subtitle '五匹马拉了半天拉不动 · 神力的尽头 · 是人心', 1:1 square

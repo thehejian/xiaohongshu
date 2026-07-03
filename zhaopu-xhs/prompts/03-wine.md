@@ -1,0 +1,1 @@
+Screen-print scene of a drinking party between an emperor and his former military comrades, cups of wine being exchanged, a political masterstroke disguised as friendship, text overlay '杯酒释兵权' in bold title, subtitle '赵普幕后操盘 · 一顿酒让功臣交出兵权', 1:1 square

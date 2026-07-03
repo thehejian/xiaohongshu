@@ -1,0 +1,1 @@
+Screen-print scene of an aging emperor looking at his dissolute young son with worry, the son surrounded by wine and entertainment, the tragedy of succession looming, text overlay '选错继承人' in bold title, subtitle '传位幼子王衍 · 荒淫无度不理朝政 · 前蜀只传一代', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of a Khitan envoy and a Northern Han general exchanging gifts in a tent, the uneasy alliance between a Chinese kingdom and the steppe empire, text overlay '依附契丹' in bold title, subtitle '认辽帝为叔岁岁进贡换军事保护', 1:1 square

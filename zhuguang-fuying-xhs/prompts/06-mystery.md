@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a candle burning down to its last flicker in a dark room, the truth forever lost in the shadows of history, the unanswered question that haunts Chinese historiography, text overlay '千古之谜' in bold title, subtitle '烛光斧影 · 一千年来没有答案的悬案', 1:1 square

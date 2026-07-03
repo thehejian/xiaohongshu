@@ -1,0 +1,1 @@
+Screen-print portrait of a Chinese emperor with a rough peasant's face but wearing scholar's robes, a book in one hand and a sword in the other, Chengdu's pagodas visible behind, text overlay '王建' in bold title, subtitle '文盲开国 · 文化治国 · 儿子败国', 1:1 square

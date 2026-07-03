@@ -1,0 +1,1 @@
+Screen-print scene of an abandoned military camp with massive stone mortars left idle, haunting atmosphere, empty stockades, the horror of what happened here implied through shadows, text overlay '绝粮' in bold title, subtitle '军队从不带粮草 · 以人为食 · 人性的深渊', 1:1 square

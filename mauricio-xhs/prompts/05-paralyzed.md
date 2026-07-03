@@ -1,0 +1,1 @@
+Screen-print heartbroken scene of a paralyzed young man lying in a dark room staring at the ceiling, his body broken but his eyes still filled with love, no butterflies anywhere, just a single faded yellow wing on his pillow, a lifetime of waiting ahead, Latin American magical realism, text overlay '他瘫痪在床' in bold title, subtitle '唯一让他撑下去的是对梅梅的思念', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of executioners approaching the bound hero, who allows them to sever his tendons before the horses finally pull, a moment of tragic surrender, accepting death to end the agony of betrayal, text overlay '自断筋脉' in bold title, subtitle '让刽子手先挑断手筋脚筋 · 才被车裂 · 英雄的最后一刻', 1:1 square

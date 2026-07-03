@@ -1,0 +1,1 @@
+Screen-print scene of a siege of Taiyuan, the city walls holding firm against repeated assaults, the most well-fortified city of the Five Dynasties era, text overlay '太原坚城' in bold title, subtitle '太原是五代最难攻的城市 · 北汉靠它撑了二十八年', 1:1 square

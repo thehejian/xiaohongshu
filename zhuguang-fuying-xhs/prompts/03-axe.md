@@ -1,0 +1,1 @@
+Screen-print mysterious scene of an axe striking the ground in a candlelit room, shadows on the wall cast by two struggling figures, the chilling moment captured only by the silent witnesses outside, text overlay '斧声' in bold title, subtitle '宫人们听到斧子戳击地面的声音', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a map of northern China with sixteen strategic cities being cut away by a giant scissor, the Great Wall passes falling into foreign hands, the Central Plains exposed, a dragon weeping blood over the map, ancient Chinese artistic style, text overlay '燕云十六州割让契丹' in bold title, subtitle '一割就是四百年 · 北宋始终没拿回来', 1:1 square

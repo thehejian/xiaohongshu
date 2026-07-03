@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a sturdy bridge that was well built but whose inheritors let it crumble, spanning a great river, the foundation solid but the superstructure rotting, text overlay '根基与继承' in bold title, subtitle '如果不是儿子不争气 · 也许统一南方的就是杨家而不是赵宋', 1:1 square

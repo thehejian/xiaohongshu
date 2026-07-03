@@ -1,0 +1,1 @@
+Screen-print dramatic scene of Khitan cavalry pouring through a northern pass, the sixteen prefectures falling, the emperor standing helpless at his palace gate watching the invasion unfold, text overlay '契丹南下' in bold title, subtitle '石敬瑭引契丹大军压境 · 李从珂根本挡不住', 1:1 square

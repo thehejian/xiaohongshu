@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1024" height="12" fill="#E8655A"/>
+
+  <text x="80" y="300" font-family="'PingFang SC','STHeiti',sans-serif" font-size="44" fill="#94A3B8" letter-spacing="3">SKILL 02</text>
+
+  <text x="80" y="460" font-family="'PingFang SC','STHeiti',sans-serif" font-size="76" font-weight="900" fill="#1E293B" letter-spacing="2">figma</text>
+
+  <rect x="80" y="520" width="120" height="8" fill="#E8655A"/>
+
+  <text x="80" y="620" font-family="'PingFang SC','STHeiti',sans-serif" font-size="36" fill="#64748B" letter-spacing="1">读文件 · 取组件 · 导出切图</text>
+  <text x="80" y="680" font-family="'PingFang SC','STHeiti',sans-serif" font-size="28" fill="#94A3B8">设计系统管理 · 开发交付</text>
+
+  <text x="942" y="980" text-anchor="end" font-family="sans-serif" font-size="14" fill="#E2E8F0">3/6</text>
+</svg>

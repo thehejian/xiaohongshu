@@ -1,0 +1,1 @@
+Developer's desk setup with a terminal window showing 'curl -fsSL https://opencode.ai/install | bash' command being typed, modern minimal desk with coding accessories, dark cozy atmosphere, code editor aesthetic, text overlay '一行命令安装' in bold, subtitle 'curl -fsSL https://opencode.ai/install | bash', 1:1 square format, clean developer lifestyle style

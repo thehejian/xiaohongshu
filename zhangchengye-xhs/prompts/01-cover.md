@@ -1,0 +1,1 @@
+Screen-print portrait of a dignified eunuch court official in simple but clean robes, holding a scroll of accounts, the only honest treasurer in the Five Dynasties, the most respected eunuch in Chinese history, text overlay '张承业' in bold title, subtitle '后唐亚父 · 五代最好的太监', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of a great hall in Fengxiang where civil examinations are being held, a small independent kingdom conducting its own government affairs, the court of the King of Qi in miniature, text overlay '小朝廷' in bold title, subtitle '在凤翔设官署开科取士 · 一个独立的小朝廷', 1:1 square

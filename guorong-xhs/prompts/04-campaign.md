@@ -1,0 +1,1 @@
+Screen-print scene of the emperor leading a northern campaign, his army approaching the Great Wall, reclaimed cities falling one after another, hope glimmering for unification, text overlay '北伐契丹' in bold title, subtitle '收复瀛州莫州 · 眼看就要攻下幽州 · 突然病倒了', 1:1 square

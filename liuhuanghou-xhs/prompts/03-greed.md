@@ -1,0 +1,1 @@
+Screen-print tense scene of an empress clutching a jewelry box while a distressed minister begs her for money, soldiers behind her starving, the refusal that doomed a dynasty, text overlay '不给钱' in bold title, subtitle '大臣请她拿钱搞赏军队她说孤儿寡母靠什么活', 1:1 square

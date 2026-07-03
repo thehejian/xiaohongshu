@@ -1,0 +1,1 @@
+Screen-print portrait of a suspicious Chinese emperor holding the imperial jade seal, firelight reflecting in his eyes, a tense expression, behind him shadows of betrayal, Five Dynasties period, text overlay '李从珂' in bold title, subtitle '猜忌 · 自焚 · 传国玉玺失踪', 1:1 square

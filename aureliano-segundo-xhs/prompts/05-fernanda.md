@@ -1,0 +1,1 @@
+Screen-print portrait of a beautiful but stern Mestiza Latina woman in an ornate European gown, standing in a dark colonial house filled with crucifixes and religious icons, a single ray of light illuminating her cold beautiful face, dramatic contrast, Gothic Latin American atmosphere, text overlay '女王中的女王' in elegant gold title, subtitle '费尔南达·德尔·卡皮奥 · 把家变成修道院', 1:1 square

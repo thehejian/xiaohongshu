@@ -1,0 +1,1 @@
+Screen-print scene of a scholar and his emperor looking at a map of the lost north, both knowing the dream of northern expedition is impossible, the frustration of unrealized ambition, text overlay '北伐未遂' in bold title, subtitle '才华横溢想北伐中原 · 南唐皇帝一个比一个保守', 1:1 square

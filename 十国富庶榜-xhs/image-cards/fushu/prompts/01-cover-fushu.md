@@ -1,0 +1,1 @@
+Screen-print ranking poster of three ancient Chinese kingdoms, gold coins and silk cascading down, a podium with first-second-third places, southern Chinese landscape of rivers and mountains, limited color palette of crimson, gold, and deep teal, halftone textures, text overlay '十国富庶排行榜吴越最有钱' in bold title, subtitle '吴越第一 · 南唐第二 · 闽国第三', 1:1 square

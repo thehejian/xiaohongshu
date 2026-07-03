@@ -1,0 +1,1 @@
+Screen-print scene of a young Mestiza Latina woman lying peacefully in bed, a newborn baby wrapped in white cloth beside her, candlelight flickering in the dim room, tragic beautiful atmosphere, a life fading as another enters the world, Latin American magical realism, warm fading amber light, text overlay '乌尔苏拉担心了一个世纪的事' in bold title, subtitle '猪尾巴的孩子 · 布恩迪亚家的终结', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print dark scene of a palace court with torture instruments and poison cups, the emperor's paranoia visible, the dark side of Southern Han rule, text overlay '酷刑' in bold title, subtitle '对大臣极端不信任 · 酷刑毒杀 · 江山越稳人心越怕', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print intimidating scene of a group of heavily armored elite soldiers standing in formation, their faces hidden behind helmets, the notorious private army that terrorized officials and emperors alike, text overlay '魏博牙兵' in bold title, subtitle '长安天子魏博牙兵 · 五代最嚣张的军队', 1:1 square

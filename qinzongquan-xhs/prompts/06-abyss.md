@@ -1,0 +1,1 @@
+Screen-print symbolic scene of darkness over the Central Plains, a skull on a desolate field, the question of what happens when power has no limits, text overlay '人性之暗' in bold title, subtitle '当权力不受任何制约 · 人可以变成什么样子 · 草芥都太轻了', 1:1 square

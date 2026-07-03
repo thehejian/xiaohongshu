@@ -1,0 +1,1 @@
+Screen-print darkly humorous scene of an assortment of imperial crowns, a dagger, a wine cup, a torch, and a rope arranged like a game show, the most dangerous job in Chinese history, text overlay '五代皇帝死法' in bold title, subtitle '皇帝届最高危职业 · 十四个死了九个', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print portrait of a Chinese king in peaceful times, gentle and wise expression, holding a scroll of territory surrender document, behind him a prosperous city of Hangzhou without war, text overlay '钱弘俶' in bold title, subtitle '纳土归宋 · 和平亡国', 1:1 square

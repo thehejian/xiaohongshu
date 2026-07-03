@@ -1,0 +1,1 @@
+Screen-print portrait of a Chinese emperor kneeling before a younger Khitan emperor, receiving a crown while giving away a map of northern China, shame and ambition mixed on his face, text overlay '石敬瑭' in bold title, subtitle '儿皇帝 · 燕云十六州 · 四百年之债', 1:1 square

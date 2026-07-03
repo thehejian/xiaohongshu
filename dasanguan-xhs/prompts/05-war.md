@@ -1,0 +1,1 @@
+Screen-print scene of a Ming dynasty battlefield at the mountain pass, cannon fire and traditional weapons clashing at the ridgeline, the pass continuing to serve as a defensive position through the ages, text overlay '千年防线' in bold title, subtitle '从三国到明清 · 大散关守卫关中两千年', 1:1 square

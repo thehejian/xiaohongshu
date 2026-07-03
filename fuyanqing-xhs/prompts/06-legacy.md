@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a general's portrait with three empress crowns above it, the unique legacy of a man who never wore a crown but fathered three queens, text overlay '岳父巅峰' in bold title, subtitle '一辈子没当皇帝 · 三个女儿都当了皇后', 1:1 square

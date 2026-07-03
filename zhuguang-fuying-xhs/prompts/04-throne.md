@@ -1,0 +1,1 @@
+Screen-print dramatic scene of a younger brother emerging from a chamber with an imperial jade seal in his hands at dawn, the emperor's body lying still behind him, the transfer of power completed in a single night, text overlay '登基' in bold title, subtitle '天亮后赵匡胤驾崩 · 赵光义拿着玉玺登基称帝', 1:1 square

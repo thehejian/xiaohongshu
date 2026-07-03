@@ -1,0 +1,1 @@
+Screen-print scene of an elderly Mestiza Latina woman making small animal-shaped candies by hand at a wooden table, colorful sugar figures of fish and birds around her, children gathered watching, warm tropical kitchen sunlight, cheerful bustling atmosphere, rich warm colors, Latin American magical realism, text overlay '小糖鸡小糖鱼' in bold title, subtitle '这项生意养活了全家几十口人', 1:1 square

@@ -1,0 +1,1 @@
+Magical realism scene of 17 ghostly young Mestizo Latino men with brown skin and the same ash-cross mark on their foreheads walking through a misty cemetery, tragic and beautiful, Latin American gothic atmosphere, text overlay '17个儿子' in white title, subtitle '一夜之间 · 全部被杀', 1:1 square

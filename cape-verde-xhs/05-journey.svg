@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#0B1628"/>
+  <rect x="0" y="0" width="1024" height="12" fill="#D4A843"/>
+
+  <text x="512" y="200" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="36" font-weight="700" fill="#D4A843" letter-spacing="6">JOURNEY</text>
+
+  <rect x="80" y="240" width="304" height="6" fill="#D4A843"/>
+  <rect x="640" y="240" width="304" height="6" fill="#D4A843"/>
+
+  <text x="512" y="360" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" letter-spacing="4">从182到68</text>
+
+  <line x1="300" y1="420" x2="724" y2="420" stroke="#D4A843" stroke-width="2"/>
+
+  <text x="512" y="510" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="26" fill="#8899AA" letter-spacing="2">2000年 FIFA 排名第 182 位</text>
+  <text x="512" y="570" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="26" fill="#8899AA" letter-spacing="2">2026年 跃升至第 68 位</text>
+
+  <rect x="250" y="640" width="524" height="4" fill="#D4A843"/>
+
+  <text x="512" y="710" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="26" fill="#FFFFFF" letter-spacing="2">青训体系每年输送球员赴葡萄牙</text>
+  <text x="512" y="760" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="26" fill="#FFFFFF" letter-spacing="2">小镇足球撑起国家队</text>
+
+  <text x="942" y="980" text-anchor="end" font-family="sans-serif" font-size="14" fill="#1A2A40">SCREEN 5/6</text>
+</svg>

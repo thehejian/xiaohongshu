@@ -1,0 +1,1 @@
+Gaming keyboard close-up with hands, 'Win + Space' key combination highlighted with glowing effect on the keyboard, gaming RGB lighting, dramatic angle, text overlay 'Step 3: 游戏时切输入法' in bold green Chinese title, subtitle '按 Win+空格 切换到英语键盘' in white, small instruction text '切换到EN后游戏就不卡了', 1:1 square format, keyboard cinematic photography style

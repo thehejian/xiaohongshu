@@ -1,0 +1,1 @@
+Screen-print scene of a rebel army marching to war, banners raised high, the general leading from the front, but behind him a Khitan cavalry force appears on the horizon to support the enemy, text overlay '起兵' in bold title, subtitle '你石敬瑭靠契丹当皇帝 · 我为什么不能靠我的士兵当皇帝', 1:1 square

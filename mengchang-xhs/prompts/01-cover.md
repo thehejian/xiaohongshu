@@ -1,0 +1,1 @@
+Screen-print portrait of a scholarly yet dissipated king wearing ornate robes, holding a brush and red paper behind him, a pair of spring couplets on pillars, text overlay '孟昶' in bold title, subtitle '发明春联的男人 · 后蜀末代皇帝 · 十四万人齐解甲', 1:1 square

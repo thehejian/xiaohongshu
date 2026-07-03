@@ -1,0 +1,1 @@
+Screen-print scene of a general declaring himself emperor in Chengdu, taking advantage of the chaos in the Central Plains, a calculated gamble that paid off, text overlay '称帝' in bold title, subtitle '后唐内乱中原自顾不暇 · 抓住机会在成都称帝', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of a southern king on a diplomatic visit to the Song capital Kaifeng, carrying tribute chests and gifts, the Song emperor receiving him with courtesy but also showing military might, text overlay '朝见赵匡胤' in bold title, subtitle '主动去开封朝见赵匡胤 · 看看大宋的军事实力 · 更加恭顺', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a broken crown and an empty throne in a dark hall, a cautionary tale of what happens when a ruler chooses sleep over duty, text overlay '睡王' in bold title, subtitle '整天睡觉的皇帝 · 最后死在了睡梦中 · 辽国最荒唐的统治者', 1:1 square

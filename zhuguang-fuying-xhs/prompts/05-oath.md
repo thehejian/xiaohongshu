@@ -1,0 +1,1 @@
+Screen-print scene of an old empress dowager on her deathbed making her son promise to pass the throne to his brother, the mysterious golden cabinet oath that conveniently appeared after the emperor's death, text overlay '金匮之盟' in bold title, subtitle '杜太后遗命传弟不传子 · 但盟约在赵匡胤生前从未公开', 1:1 square

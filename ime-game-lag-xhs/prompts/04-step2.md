@@ -1,0 +1,1 @@
+Windows settings screenshot style showing keyboard preferences or advanced keyboard settings, a dropdown or toggle being set to change default input method to English keyboard, clean Windows 11 UI, visual guide style, text overlay 'Step 2: 切换默认输入法' in bold blue Chinese title, subtitle '把美式键盘设为默认输入法' in white, 1:1 square format, tutorial style

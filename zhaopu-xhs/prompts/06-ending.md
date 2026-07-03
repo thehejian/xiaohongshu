@@ -1,0 +1,1 @@
+Screen-print symbolic image of a closed book of the Analects and a broken sword beside it, the end of an era of military strongmen and the beginning of civil governance, text overlay '终结乱世' in bold title, subtitle '五代十国八十年乱世 · 被一个只读半部论语的人终结了', 1:1 square

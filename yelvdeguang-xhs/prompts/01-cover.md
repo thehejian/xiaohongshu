@@ -1,0 +1,1 @@
+Screen-print portrait of a Khitan emperor in fur and gold, a map of northern China behind him with the sixteen prefectures marked, a wolf and a dragon symbolically united, powerful steppe warrior with a strategist's eyes, text overlay '耶律德光' in bold title, subtitle '契丹雄主 · 燕云十六州的收割者', 1:1 square

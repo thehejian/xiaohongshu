@@ -1,0 +1,1 @@
+Screen-print dramatic scene of a young mechanic falling from a roof as a bullet strikes, yellow butterflies scattering in panic, their wings separating in all directions as if wounded too, a rifle muzzle flash in the darkness, the moment love is shattered, Latin American magical realism, text overlay '子弹打穿了他的脊椎' in bold title, subtitle '从此瘫痪在床 · 黄蝴蝶也消失了', 1:1 square

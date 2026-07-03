@@ -1,0 +1,1 @@
+Screen-print symbolic scene showing Fujian's transformation from wilderness to a land of culture and prosperity, using split imagery of before and after, libraries and ports replacing forests and marshes, text overlay '海滨邹鲁' in bold title, subtitle '钱鏐建设了杭州 · 王审知建设了福建 · 乱世中还有别的活法', 1:1 square

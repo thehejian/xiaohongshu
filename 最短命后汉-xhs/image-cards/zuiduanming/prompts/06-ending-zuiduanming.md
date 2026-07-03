@@ -1,0 +1,1 @@
+Screen-print summary scene of a timeline showing four years, two fallen crowns, a broken hourglass, Qin dynasty and Sui dynasty shadows in background for comparison, aged gold and dark navy palette, text overlay '最短命的统一王朝' in bold title, subtitle '后汉四年 · 秦朝十五年 · 隋朝三十七年', 1:1 square

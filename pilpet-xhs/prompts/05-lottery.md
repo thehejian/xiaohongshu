@@ -1,0 +1,1 @@
+Screen-print scene of a warm generous woman selling lottery tickets in a decaying tropical town, secretly giving money to help a stern aristocratic rival (her love rival), her kindness glowing despite poverty, the contrast between her sunny nature and the town's decay, Latin American magical realism, text overlay '暗中接济情敌' in bold title, subtitle '因为那是奥雷里亚诺第二的家人', 1:1 square

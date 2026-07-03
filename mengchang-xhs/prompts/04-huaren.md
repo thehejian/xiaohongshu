@@ -1,0 +1,1 @@
+Screen-print scene of a beautiful consort writing a poem in a royal palace, tears on her face, fourteen thousand soldiers laying down their weapons outside the city walls, the fall of a kingdom, text overlay '花蕊夫人' in bold title, subtitle '十四万人齐解甲更无一个是男儿 · 花蕊夫人的绝命诗', 1:1 square

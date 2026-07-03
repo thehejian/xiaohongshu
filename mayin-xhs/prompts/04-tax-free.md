@@ -1,0 +1,1 @@
+Screen-print scene of a bustling market in Hunan with no tax collectors, merchants freely trading, a rare sight in any era, the prosperity of a trade-friendly kingdom, text overlay '免税' in bold title, subtitle '免除湖南百姓商税鼓励贸易 · 楚国军队不强但经济有声有色', 1:1 square

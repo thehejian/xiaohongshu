@@ -1,0 +1,1 @@
+Screen-print portrait of a wily old warlord in Tang-style armor and official robes, the independent king of the Guanzhong region, a weathered face that survived forty years of chaos, text overlay '李茂贞' in bold title, subtitle '岐王 · 关西四十年不倒的生存大师', 1:1 square

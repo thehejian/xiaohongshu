@@ -1,0 +1,1 @@
+Screen-print timeline showing flower ci poetry flowing from the Huajian school through Song dynasty masters, Liu Yong, Su Shi, Li Qingzhao emerging from the same garden, classical aesthetic atmosphere, teal and rose gold palette, text overlay '花间影响宋词三百年' in bold title, subtitle '柳永苏轼李清照 · 全是花间这个词渣堆里长出来的', 1:1 square

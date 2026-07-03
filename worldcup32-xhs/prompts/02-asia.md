@@ -1,0 +1,1 @@
+Football stadium scene showing several Asian national teams' flags including Japan, Iran, Australia, Saudi Arabia, UAE, Iraq/others, representing the Asian qualified teams, stadium celebration, text overlay '亚洲6强出炉' in bold title, subtitle '日本 · 伊朗 · 澳大利亚 · 沙特 · 阿联酋 · 伊拉克' in white, 1:1 square, sports style

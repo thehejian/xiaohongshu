@@ -1,0 +1,1 @@
+Screen-print tense scene of generals kneeling before the emperor, their faces filled with fear and anxiety, the moment when the wine turned cold and the true purpose of the banquet was revealed, text overlay '跪地求活路' in bold title, subtitle '功臣们吓坏了跪地流泪求赵匡胤指条活路', 1:1 square

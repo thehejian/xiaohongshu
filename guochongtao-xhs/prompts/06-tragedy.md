@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a broken seal and a torn official document floating in the wind, the tragedy of merit becoming a death sentence, text overlay '功高被戮' in bold title, subtitle '不是贪官不是叛将 · 只是功高盖主而被害', 1:1 square

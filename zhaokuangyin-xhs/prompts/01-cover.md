@@ -1,0 +1,1 @@
+Screen-print portrait of a Chinese ruler in a golden robe, a calm and dignified expression, behind him a camp at daybreak, the peaceful start of a new era, Song dynasty founding's dignified moment, text overlay '赵匡胤' in bold title, subtitle '最温柔的政变 · 陈桥兵变黄袍加身', 1:1 square

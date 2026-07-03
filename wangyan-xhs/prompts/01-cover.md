@@ -1,0 +1,1 @@
+Screen-print portrait of a pale scholar-like king in extravagant robes with a wine cup, surrounded by servant girls, the poet king of Shu who preferred parties over ruling, text overlay '王衍' in bold title, subtitle '前蜀末代皇帝 · 诗词很好当皇帝很糟', 1:1 square

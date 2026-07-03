@@ -1,0 +1,1 @@
+Screen-print scene of a strategist presenting a scroll to an emperor, the emperor reading with great interest, a map of conquest marked with arrows pointing south, text overlay '献平边策' in bold title, subtitle '先易后难先南后北先弱后强 · 改变历史进程的战略', 1:1 square

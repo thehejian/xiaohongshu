@@ -1,0 +1,1 @@
+Screen-print illustration of a young Mestiza Latina woman leading a group across a mountain jungle, carrying a baby on her back, strong determined face, alongside her husband, tropical green landscape, epic journey feeling, warm golden and green tones, Latin American magical realism, text overlay '两年翻山越岭' in bold title, subtitle '建立马孔多的那批人里有她', 1:1 square

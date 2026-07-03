@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a scroll map of a unified China, the blueprint for ending centuries of division, the man who drew the map never saw it completed, text overlay '统一蓝图' in bold title, subtitle '没活着看到天下统一但蓝图铺平了统一的路', 1:1 square

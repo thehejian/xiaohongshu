@@ -1,0 +1,1 @@
+Screen-print scene of a brave general leading cavalry in battle, the fierce warrior who earned his reputation on the battlefield, not just a lucky father but a capable military commander, text overlay '名将' in bold title, subtitle '后唐名将出身将门 · 能征善战的猛人', 1:1 square

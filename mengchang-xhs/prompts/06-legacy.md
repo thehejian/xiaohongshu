@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a red spring couplet hanging on a stone monument, the legacy of a king who gave China a tradition that lasts over a thousand years, text overlay '孟昶的遗产' in bold title, subtitle '一副春联流传千年 · 一个矛盾的有趣灵魂', 1:1 square

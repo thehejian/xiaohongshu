@@ -1,0 +1,1 @@
+Screen-print scene of an elderly eunuch on his deathbed, the young emperor kneeling beside him weeping, the passing of the last honest man in the Later Tang court, text override '亚父之死' in bold title, subtitle '张承业死后后唐财政混乱加速灭亡', 1:1 square

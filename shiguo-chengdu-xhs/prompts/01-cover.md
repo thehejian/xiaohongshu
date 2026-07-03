@@ -1,0 +1,1 @@
+Screen-print poster-style collage of four magnificent ancient Chinese cities — Chengdu with its Jin River, Hangzhou with West Lake, Jinling with its Qinhuai River, Guangzhou with its Pearl River port — the four great capitals of the southern kingdoms, text overlay '十国都城' in bold title, subtitle '成都·杭州·金陵·广州 · 四城争辉', 1:1 square

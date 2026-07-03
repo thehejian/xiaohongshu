@@ -1,0 +1,1 @@
+Screen-print scene of Han soldiers marching triumphantly through a mountain pass, their flags bearing the Han character, the future founder of the Han dynasty entering the heart of the Qin empire, text overlay '刘邦入关' in bold title, subtitle '避开函谷关主力 · 翻越武关直取咸阳', 1:1 square

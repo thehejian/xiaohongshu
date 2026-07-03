@@ -1,0 +1,1 @@
+A wrinkled brown-skinned hand writing on yellowed parchment with an old quill pen, dim candlelight, vintage desk with military medals and a faded uniform hanging behind, melancholic literary atmosphere, text overlay '一个人不是在该死的时候死' in calligraphy, subtitle '而是在能死的时候死' in gold, 1:1 square

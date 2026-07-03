@@ -1,0 +1,1 @@
+Screen-print scene of a clean government hall, eunuchs and performers being dismissed from the palace, a taxation document being simplified, reformed governance, text overlay '改革' in bold title, subtitle '裁撤宦官和伶人 · 减轻赋税与民休息 · 吏治清明', 1:1 square

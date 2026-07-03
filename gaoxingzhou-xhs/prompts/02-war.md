@@ -1,0 +1,1 @@
+Screen-print scene of a battle against Khitan cavalry, a veteran general commanding troops on the northern frontier, the final stand of the Later Jin dynasty, text overlay '抗契丹' in bold title, subtitle '后晋时期率军北上抗击契丹 · 后晋最后的支柱', 1:1 square

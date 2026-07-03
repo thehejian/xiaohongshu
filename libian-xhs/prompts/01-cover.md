@@ -1,0 +1,1 @@
+Screen-print portrait of an orphan-become-emperor, dignified and kind-faced, wearing simple robes without excessive ornament, a scroll of governance in hand, the Southern Tang founder's humble wisdom visible, text overlay '李昪' in bold title, subtitle '六岁丧父七岁丧母 · 流浪孤儿到开国皇帝', 1:1 square

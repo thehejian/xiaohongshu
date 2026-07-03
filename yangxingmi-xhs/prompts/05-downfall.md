@@ -1,0 +1,1 @@
+Screen-print scene of the king's son being a corrupt and wasteful ruler, concubines and wine, while a shadowy advisor (Xu Wen) seizes power behind the throne, the dynasty crumbling from within, text overlay '败家子' in bold title, subtitle '儿子杨渥荒淫残暴 · 权臣徐温架空杨氏 · 打下的江山被败光', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of an imperial court, a young emperor tearing up a Khitan diplomatic letter, his ministers shocked and scared, the emperor's eyes blazing with defiance, the boldest moment in Later Jin history, text overlay '拒绝称臣' in bold title, subtitle '石敬瑭认契丹当爹建国 · 儿子继位后第一件事就是拒绝称臣', 1:1 square

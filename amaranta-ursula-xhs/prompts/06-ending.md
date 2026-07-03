@@ -1,0 +1,1 @@
+Screen-print scene of a solitary young man standing in an empty doorway, staring at a massive cyclone consuming the town in golden dust, everything dissolving into wind, the final disappearance of Macondo, dramatic golden apocalyptic light, poetic end of an era, Latin American magical realism, text overlay '马孔多被飓风抹去了' in bold title, subtitle '她走后 · 什么都没留下', 1:1 square

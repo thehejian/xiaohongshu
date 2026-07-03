@@ -1,0 +1,1 @@
+Screen-print scene of Hangzhou's prosperity after peaceful unification, West Lake with pagodas, markets bustling, no war damage, the payoff of a wise decision, text overlay '人间天堂' in bold title, subtitle '北宋经济文化中心南移杭州 · 人间天堂的繁荣是和平换来的', 1:1 square

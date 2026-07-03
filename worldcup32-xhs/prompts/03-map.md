@@ -1,0 +1,1 @@
+World map showing the 32 qualified nations highlighted in different colors across continents, with Asia region zoomed in showing Japan, Iran, Australia, Saudi Arabia, UAE and one more, South Korea marked in gray as eliminated, clean infographic style, text overlay '32强分布' in title, subtitle '亚洲6席 · 韩国出局', 1:1 square, world map infographic style

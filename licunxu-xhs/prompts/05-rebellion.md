@@ -1,0 +1,1 @@
+Screen-print scene of a rebellion inside the palace gates, the emperor hit by an arrow, staggering alone with no one to support him, the grand hall now empty and cold, text overlay '兴教门之变' in bold title, subtitle '被叛军流箭射中 · 身边连一个忠臣都没有 · 死于自己的最爱', 1:1 square

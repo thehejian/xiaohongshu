@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a gate that has been breached open, representing the lesson of Wu Pass — even the strongest fortress cannot save a kingdom that has lost the people's support, text overlay '天险不如人心' in bold title, subtitle '再险要的关隘 · 也会被人从背后绕过去', 1:1 square

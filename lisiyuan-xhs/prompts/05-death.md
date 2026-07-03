@@ -1,0 +1,1 @@
+Screen-print scene of an old emperor lying sick in bed, heartbroken from his son's rebellion and death, fading away with a sigh, a realm that was stable now at risk, text overlay '哀伤而终' in bold title, subtitle '李从荣谋反被处死 · 嗣源悲伤过度 · 一病不起', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of a son (Meng Chang) ruling even better than the father, Chengdu at its peak of prosperity, the golden age of Later Shu, the father's foundation allowing the son to flourish, text overlay '青出于蓝' in bold title, subtitle '儿子孟昶比他干得更好 · 在位三十多年 · 锦城成了乐园', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of a bizarre court where all officials are eunuchs, the emperor surrounded by castrated attendants, the strangest governance system in Chinese history, text overlay '宦官治国' in bold title, subtitle '刘鋹更荒唐 · 想当官先自宫 · 几十年的繁华换来个笑话般的结局', 1:1 square

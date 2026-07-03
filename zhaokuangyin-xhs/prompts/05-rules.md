@@ -1,0 +1,1 @@
+Screen-print scene of an emperor giving orders to his army not to enter the city, discipline and restraint, the difference between this founding and all the others of the Five Dynasties, text overlay '不杀士大夫' in bold title, subtitle '定下祖训不杀士大夫 · 宋朝三百年的政治生态从此不同', 1:1 square

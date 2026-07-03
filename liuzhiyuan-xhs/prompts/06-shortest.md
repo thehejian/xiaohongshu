@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a candle that burned too briefly, the shortest dynasty marker on a timeline, an empire that lasted less than four years, the fragility of power in chaotic times, text overlay '最短的朝代' in bold title, subtitle '后汉传两代 · 加起来不到四年 · 五代中最短的朝代', 1:1 square

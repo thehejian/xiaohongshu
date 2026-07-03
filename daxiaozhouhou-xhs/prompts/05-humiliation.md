@@ -1,0 +1,1 @@
+Screen-print tense scene of a beautiful woman being summoned by armed guards into a grand palace, looking back with tears at her powerless husband, the humiliation that overshadowed the rest of her life, text overlay '被辱' in bold title, subtitle '小周后被宋太宗强召入宫 · 李煜无力反抗', 1:1 square

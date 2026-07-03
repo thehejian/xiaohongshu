@@ -1,0 +1,1 @@
+Screen-print scene of a deposed emperor and his wife being escorted by Song soldiers, the Southern Tang palace behind them in flames, the fall of a kingdom and the end of a love story, text overlay '亡国' in bold title, subtitle '南唐亡国李煜和小周后被押送汴京', 1:1 square

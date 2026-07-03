@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a single chrysanthemum flower blooming amid ruins and smoke, the poem he wrote as a young man now a prophecy fulfilled and broken, text overlay '菊与血' in bold title, subtitle '一部用血写完的最长的诗 · 冲天香阵 · 身首异处', 1:1 square

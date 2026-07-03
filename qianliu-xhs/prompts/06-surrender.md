@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a king on his deathbed telling his descendants to surrender peacefully when a true emperor appears, generations later a prince kneeling before the Song emperor, peaceful unification, text overlay '纳土归宋' in bold title, subtitle '如遇真命天子不要抵抗 · 孙子主动归顺赵匡胤 · 刀剑不如眼光', 1:1 square

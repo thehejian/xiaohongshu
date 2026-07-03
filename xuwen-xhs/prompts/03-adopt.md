@@ -1,0 +1,1 @@
+Screen-print touching scene of an older man teaching a young orphan boy how to read and govern, the orphan rescued from the battlefield becoming a prince, the mentorship that created an emperor, text overlay '培养养子' in bold title, subtitle '从战场上捡来孤儿徐知诰 · 精心培养 · 教他读书治国带兵', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print portrait of a massive Tang dynasty general holding an enormous iron hammer, a battlefield commander with a strategist's eyes, the fortress of Later Tang's military power, text overlay '周德威' in bold title, subtitle '吾有德威犹有长城也', 1:1 square

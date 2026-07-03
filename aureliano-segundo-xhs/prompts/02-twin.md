@@ -1,0 +1,1 @@
+Screen-print illustration of two identical twin Mestizo Latino boys around age 10, one mischievous and grinning, one serious and thoughtful, swapping their clothes in a sunlit colonial courtyard, palm trees in background, warm tropical colors, magical realism style, text overlay '双胞胎' in bold title, subtitle '奥雷里亚诺第二 · 何塞·阿尔卡蒂奥第二 · 谁是谁', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of three beautiful young women in ceremonial attire, each destined for greatness, the daughters who would become empresses of different dynasties, text overlay '三后' in bold title, subtitle '大女儿嫁柴荣和赵匡胤 · 二女儿嫁柴荣 · 三女儿嫁赵光义', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print portrait of a scholarly strategist in simple official robes, a scroll map of China unrolled in front of him, the architect of a grand unification plan, text overlay '王朴' in bold title, subtitle '柴荣首席谋士 · 平边策定统一路线', 1:1 square

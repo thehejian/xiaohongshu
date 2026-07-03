@@ -1,0 +1,1 @@
+Screen-print scene of a young girl being sold into the palace, a performer's daughter entering the imperial court through the servant's gate, the humble beginning of a future empress, text overlay '入宫' in bold title, subtitle '卖艺人的女儿从小被卖入宫中当侍女', 1:1 square

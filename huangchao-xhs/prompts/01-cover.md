@@ -1,0 +1,1 @@
+Screen-print dramatic portrait of a rebel leader wearing yellow imperial robes, holding a sword and a chrysanthemum flower, the Tang capital Chang'an visible behind him in flames and golden light, text overlay '黄巢' in bold title, subtitle '待到秋来九月八 · 满城尽带黄金甲', 1:1 square

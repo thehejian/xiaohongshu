@@ -1,0 +1,1 @@
+Screen-print dark scene of an old emperor being stabbed by his biological son, the ultimate irony of the adoptive father tradition — the real son killing the father for favoring an adopted heir, text overlay '血的教训' in bold title, subtitle '朱温想传位给养子 · 亲儿子急了夜里把爹捅死', 1:1 square

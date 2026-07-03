@@ -1,0 +1,1 @@
+Screen-print scene of a wild Colombian carnival party, champagne bottles flying, confetti everywhere, a handsome Mestizo Latino man laughing with a bottle in each hand, women dancing in colorful dresses, music instruments, bold bright colors, chaotic joyful atmosphere, Latin American magical realism, text overlay '狂欢三天三夜' in bold red title, subtitle '香槟从窗户往外流', 1:1 square

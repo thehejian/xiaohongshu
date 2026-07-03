@@ -1,0 +1,1 @@
+Screen-print scene of a king prostrating before a Khitan emperor, calling him father, the shame of the puppet ruler and the advisor standing nearby, text overlay '儿皇帝' in bold title, subtitle '石敬瑭认契丹皇帝为父 · 桑维翰是幕后推手', 1:1 square

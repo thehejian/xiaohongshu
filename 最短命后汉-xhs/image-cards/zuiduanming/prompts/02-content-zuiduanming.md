@@ -1,0 +1,1 @@
+Screen-print scene of a Tang dynasty general crowning himself emperor in Taiyuan city, soldiers kneeling before a makeshift throne, autumn wind blowing fallen leaves, ancient Chinese northern fortress city, halftone textures, limited color palette of dark navy and aged gold, text overlay '刘知远太原称帝' in bold title, subtitle '趁契丹灭后晋 · 起兵不到一年登基', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print portrait of a Chinese emperor in shadow, half his face visible, a strategist's calculating gaze, the shortest dynasty in the background like a fading painting, Five Dynasties period, text overlay '刘知远' in bold title, subtitle '在位不到一年 · 存在感最低的皇帝', 1:1 square

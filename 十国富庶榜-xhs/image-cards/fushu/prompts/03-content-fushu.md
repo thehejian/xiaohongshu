@@ -1,0 +1,1 @@
+Screen-print scene of Jinling city (Nanjing) at night, lanterns and silk shops, Yangtze river boats, second place silver medal, rich artistic atmosphere, crimson and amber palette, halftone print grain, text overlay '第二名南唐文化最盛' in bold title, subtitle '丝绸盐铁漕运垄断 · 金陵繁华冠江南', 1:1 square

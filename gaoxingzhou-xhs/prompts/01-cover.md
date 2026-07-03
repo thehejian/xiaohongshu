@@ -1,0 +1,1 @@
+Screen-print portrait of an elderly white-haired general in Song dynasty robes, a kind weathered face that has seen everything, six different dynasties reflected in his eyes, text overlay '高行周' in bold title, subtitle '五代活化石 · 从后梁活到北宋见过所有皇帝', 1:1 square

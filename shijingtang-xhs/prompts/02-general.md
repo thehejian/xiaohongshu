@@ -1,0 +1,1 @@
+Screen-print scene of a capable general commanding troops on a battlefield, respected and feared, Later Tang military campaign, the height of his career before everything changed, text overlay '沙陀名将' in bold title, subtitle '李嗣源的女婿 · 能征善战 · 功高震主', 1:1 square

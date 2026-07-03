@@ -1,0 +1,1 @@
+Screen-print scene of a general watching the Khitan invasion from a distance, choosing not to fight but to wait, a chess player thinking several moves ahead, strategic patience, text overlay '忍' in bold title, subtitle '石敬瑭死后看着后晋被契丹玩弄 · 心里清楚这朝廷撑不久', 1:1 square

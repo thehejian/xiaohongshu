@@ -1,0 +1,1 @@
+Screen-print scene of soldiers draping a yellow robe over a surprised general at dawn in a military camp, the architect of the coup watching from the shadows, the birth of a dynasty, text overlay '陈桥兵变' in bold title, subtitle '赵普一手策划 · 黄袍加身定乾坤', 1:1 square

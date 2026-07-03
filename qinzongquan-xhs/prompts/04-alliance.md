@@ -1,0 +1,1 @@
+Screen-print scene of allied armies marching together from different directions, united against a common monster, a rare moment of cooperation in this chaotic era, text overlay '围攻' in bold title, subtitle '各路诸侯联合围攻 · 他被朱温击败擒获 · 斩首长安', 1:1 square

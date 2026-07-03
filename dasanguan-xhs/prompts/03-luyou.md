@@ -1,0 +1,1 @@
+Screen-print scene of a Song dynasty general standing on the fortress wall looking north, autumn wind blowing through his armor and his horse's mane, the sorrow of a divided nation captured in a poetic moment, text overlay '铁马秋风' in bold title, subtitle '陆游名句 · 宋金对峙时期大散关是西部边境', 1:1 square

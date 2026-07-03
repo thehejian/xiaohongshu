@@ -1,0 +1,1 @@
+Screen-print scene of Li Cunxu holding a bow and arrow, standing victorious on a battlefield, fallen enemy banners behind him, dramatic sky, crimson and gold palette, halftone print textures, text overlay '李存勖灭梁建后唐' in bold title, subtitle '沙陀第一朝 · 三矢复仇统一北方', 1:1 square

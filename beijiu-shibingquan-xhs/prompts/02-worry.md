@@ -1,0 +1,1 @@
+Screen-print scene of an emperor looking somber over his wine cup while his generals celebrate around him, the heavy burden of power visible on his face, text overlay '皇帝的烦恼' in bold title, subtitle '我没你们当不了皇帝但我当了整晚睡不着', 1:1 square

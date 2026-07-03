@@ -1,0 +1,1 @@
+Screen-print dramatic battle scene of Cao Cao's army fighting Ma Chao at Tong Pass, the warlord cutting his beard and abandoning his robe to escape, chaos on the battlefield by the Yellow River, text overlay '曹马大战' in bold title, subtitle '曹操与马超激战潼关 · 割须弃袍差点丧命', 1:1 square

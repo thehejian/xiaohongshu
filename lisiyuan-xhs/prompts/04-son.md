@@ -1,0 +1,1 @@
+Screen-print scene of a pampered arrogant prince looking down on everyone, guards and servants fearing him, the emperor watching helplessly with worry, father-son tragedy brewing, text overlay '不肖子' in bold title, subtitle '儿子李从荣骄横跋扈 · 宽厚的父亲管不住自己的骨肉', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print epic scene of a complete timeline from 907 to 979 with all dynasties and kingdoms shown, the eight decades of chaos finally converging into a unified Song empire, text overlay '八十年终归一统' in bold title, subtitle '979灭北汉十国全灭 · 五代十国画上句号', 1:1 square

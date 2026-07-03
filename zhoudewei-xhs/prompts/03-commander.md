@@ -1,0 +1,1 @@
+Screen-print scene of a general training and organizing troops, turning a ragtag collection of soldiers into a disciplined army, the backbone of Later Tang's military might, text overlay '整军' in bold title, subtitle '能把各路杂牌军整合成能打硬仗的队伍 · 后唐军队真正的核心', 1:1 square

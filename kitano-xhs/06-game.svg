@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#F5F0E1"/>
+  <line x1="0" y1="100" x2="1024" y2="100" stroke="#D4C9B0" stroke-width="1"/>
+  <line x1="0" y1="200" x2="1024" y2="200" stroke="#D4C9B0" stroke-width="1"/>
+  <line x1="0" y1="300" x2="1024" y2="300" stroke="#D4C9B0" stroke-width="1"/>
+  <line x1="0" y1="400" x2="1024" y2="400" stroke="#D4C9B0" stroke-width="1"/>
+  <line x1="0" y1="500" x2="1024" y2="500" stroke="#D4C9B0" stroke-width="1"/>
+  <line x1="0" y1="600" x2="1024" y2="600" stroke="#D4C9B0" stroke-width="1"/>
+  <line x1="0" y1="700" x2="1024" y2="700" stroke="#D4C9B0" stroke-width="1"/>
+  <line x1="0" y1="800" x2="1024" y2="800" stroke="#D4C9B0" stroke-width="1"/>
+  <line x1="80" y1="0" x2="80" y2="1024" stroke="#E8B4B4" stroke-width="2"/>
+
+  <rect x="100" y="130" width="200" height="40" rx="4" fill="#FFE066" opacity="0.4"/>
+  <text x="100" y="160" font-family="'STHeiti','PingFang SC',sans-serif" font-size="24" fill="#DC2626" font-weight="700">游戏篇</text>
+
+  <text x="512" y="280" text-anchor="middle" font-family="'STHeiti','PingFang SC',sans-serif" font-size="42" font-weight="700" fill="#1E293B" letter-spacing="2">北野武的挑战状</text>
+
+  <text x="512" y="380" text-anchor="middle" font-family="'STHeiti','PingFang SC',sans-serif" font-size="22" fill="#475569">史上最反人类的鬼畜游戏</text>
+
+  <g transform="translate(120, 440)">
+    <rect x="0" y="0" width="784" height="8" fill="#FFE066" opacity="0.5"/>
+    <text x="20" y="50" font-family="'STHeiti','PingFang SC',sans-serif" font-size="28" fill="#DC2626" font-weight="600">⏱  等一小时不能操作，动了重开</text>
+  </g>
+
+  <g transform="translate(120, 520)">
+    <rect x="0" y="0" width="784" height="8" fill="#FFE066" opacity="0.5"/>
+    <text x="20" y="50" font-family="'STHeiti','PingFang SC',sans-serif" font-size="28" fill="#1E293B" font-weight="600">☀  隐藏结局要卡带暴晒、泡水、冷冻</text>
+  </g>
+
+  <g transform="translate(120, 600)">
+    <rect x="0" y="0" width="784" height="8" fill="#FFE066" opacity="0.5"/>
+    <text x="20" y="50" font-family="'STHeiti','PingFang SC',sans-serif" font-size="28" fill="#DC2626" font-weight="600">☎  发售当天收到400+投诉</text>
+  </g>
+
+  <text x="512" y="740" text-anchor="middle" font-family="'STHeiti','PingFang SC',sans-serif" font-size="20" fill="#94A3B8">开发团队集体离职 · 游戏区顶级鬼畜素材</text>
+
+  <text x="942" y="960" text-anchor="end" font-family="sans-serif" font-size="14" fill="#D4C9B0">NOTE 6/6</text>
+</svg>

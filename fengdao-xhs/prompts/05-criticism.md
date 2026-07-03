@@ -1,0 +1,1 @@
+Screen-print scene of a historian writing at his desk with a critical expression, the book title '新五代史' visible, the official standing in the shadows of judgment, text overlay '欧阳修的批判' in bold title, subtitle '礼义廉耻国之四维 · 四维不张国乃灭亡', 1:1 square

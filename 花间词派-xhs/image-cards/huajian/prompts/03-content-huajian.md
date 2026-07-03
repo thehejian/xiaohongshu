@@ -1,0 +1,1 @@
+Screen-print dual scene: Wei Zhuang in chancellor official robe reviewing documents by day, then writing love poems under moonlight at night, a Sichuan garden pavilion, aged gold and navy palette, halftone print grain, text overlay '韦庄白天宰相晚上词人' in bold title, subtitle '未老莫还乡 · 还乡须断肠', 1:1 square

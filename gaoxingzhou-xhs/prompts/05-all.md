@@ -1,0 +1,1 @@
+Screen-print scene of an old soldier looking at portraits of past emperors on a wall — Zhu Wen, Li Cunxu, Shi Jingtang, Liu Zhiyuan, Guo Wei, Chai Rong, Zhao Kuangyin — all the rulers he served under, text overlay '见过所有皇帝' in bold title, subtitle '朱温李存勖石敬瑭刘知远郭威柴荣赵匡胤 · 全见过', 1:1 square

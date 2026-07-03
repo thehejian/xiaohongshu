@@ -1,0 +1,1 @@
+Comedic Japanese game show style scene showing a absurd video game challenge, a Famicom cartridge being baked in the sun and dunked in water, confused player, ridiculous game design parody, text overlay '北野武的挑战状' in retro game title style, subtitle '等一小时不能动 · 卡带泡水晒太阳 · 史上最反人类游戏', 1:1 square format, retro video game aesthetic

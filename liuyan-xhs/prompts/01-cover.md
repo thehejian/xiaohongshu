@@ -1,0 +1,1 @@
+Screen-print portrait of a Southern Chinese emperor sitting in a tropical palace, palm trees outside, a dragon throne but a cruel look in his eyes, the strange mix of culture and cruelty, text overlay '刘龑' in bold title, subtitle '南汉开国 · 飞龙在天 · 子孙败光', 1:1 square

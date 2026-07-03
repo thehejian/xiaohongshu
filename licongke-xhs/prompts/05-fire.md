@@ -1,0 +1,1 @@
+Screen-print scene of a lone figure carrying the imperial jade seal climbing a tower, flames rising below, the last emperor of Later Tang choosing to burn rather than surrender, text overlay '玄武楼自焚' in bold title, subtitle '抱着传国玉玺爬上玄武楼 · 一把火烧了个干净', 1:1 square

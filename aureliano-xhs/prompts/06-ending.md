@@ -1,0 +1,1 @@
+A lone Mestizo Latino man with brown skin standing under a massive ancient tree looking out at an endless plain, golden sunset, wind blowing through the grass, solitary and epic atmosphere, cinematic composition, text overlay '百年孤独' in bold title, subtitle '奥雷里亚诺上校 · 马孔多的最后一颗星辰', 1:1 square

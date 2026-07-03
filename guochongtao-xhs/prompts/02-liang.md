@@ -1,0 +1,1 @@
+Screen-print scene of a massive naval battle on the Yellow River, Minister Guo directing the campaign from a command ship, the Liang capital falling in the distance, text overlay '灭后梁' in bold title, subtitle '幕后总策划 · 后勤调配粮草制定灭梁战略', 1:1 square

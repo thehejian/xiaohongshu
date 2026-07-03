@@ -1,0 +1,1 @@
+Screen-print epic scene of three Turkic warrior-kings standing side by side in armor, a草原 horse herd behind them, ancient Chinese imperial city in background, sunset sky, halftone textures, limited color palette of deep teal, burnt orange, and aged gold, text overlay '后唐后晋后汉都是沙陀人建的' in bold title, subtitle '西突厥后裔 · 五代占了三个王朝', 1:1 square

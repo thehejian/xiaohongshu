@@ -1,0 +1,1 @@
+Screen-print touching scene of a dying general holding his young son's hand and placing it in the eunuch's hand, the solemn moment of trust between a dying father and a loyal servant, text overlay '托孤' in bold title, subtitle '李克用临终把儿子托付给张承业', 1:1 square

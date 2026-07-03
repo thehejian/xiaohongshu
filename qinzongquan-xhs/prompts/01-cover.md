@@ -1,0 +1,1 @@
+Screen-print portrait of a dark warlord with a terrifying face, surrounded by destruction and skulls, no emperor's robe but a general's armor stained dark, the cruelest man of late Tang, text overlay '秦宗权' in bold title, subtitle '比朱温残暴十倍 · 杀人为食', 1:1 square

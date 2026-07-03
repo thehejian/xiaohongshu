@@ -1,0 +1,1 @@
+Screen-print symbolic image of a northern fortress being absorbed into a united China, the last independent kingdom falling, the end of fragmentation, text overlay '北汉' in bold title, subtitle '十国中唯一北方政权 · 靠辽国撑了二十八年 · 它的灭亡终结了五代十国', 1:1 square

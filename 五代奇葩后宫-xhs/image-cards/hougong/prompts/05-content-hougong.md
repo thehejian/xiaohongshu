@@ -1,0 +1,1 @@
+Screen-print scene of two sisters facing each other, one sick in bed, one holding hands with a poet emperor, divided love, Southern Tang palace garden, rose gold and deep navy palette, halftone textures, text overlay '大周后小周后姐妹争夫' in bold title, subtitle '南唐后主李煜 · 一首词害了两个女人', 1:1 square

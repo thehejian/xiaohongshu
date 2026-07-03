@@ -1,0 +1,1 @@
+Screen-print portrait of a Chinese emperor in plain simple robes, no gold or jewels, a sparrow tattoo visible on his neck, humble and wise expression, Five Dynasties period, text overlay '郭威' in bold title, subtitle '郭雀儿 · 五代最节俭的皇帝', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of an old fortune teller woman reading cards for a young man in a humble room, her wrinkled hands revealing the future, candles flickering, mysterious symbols in the air, the woman's eyes holding ancient knowledge, timeless atmosphere, Latin American magical realism, text overlay '她从不进布恩迪亚家的大门' in bold title, subtitle '活了一百多岁 · 在一张吊床上安静离开', 1:1 square

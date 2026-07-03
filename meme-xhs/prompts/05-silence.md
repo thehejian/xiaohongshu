@@ -1,0 +1,1 @@
+Screen-print haunting scene of a young woman in a nun's habit sitting motionless by a window, her eyes open but empty, a piano in the corner gathering dust, her mouth closed in a permanent silence, surrounded by cold gray walls, a single tear on her cheek, Latin American magical realism, text overlay '她再也不说话了' in bold title, subtitle '不是说不了 · 是不想跟这个世界说了', 1:1 square

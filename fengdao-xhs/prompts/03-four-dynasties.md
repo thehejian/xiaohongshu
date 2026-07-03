@@ -1,0 +1,1 @@
+Screen-print scene of the same old official bowing respectfully before four different emperors in four different dynasties' robes, each emperor looking different, but the official remains the same steady figure, text overlay '事四朝' in bold title, subtitle '后唐 · 后晋 · 契丹 · 后汉 · 后周 · 每朝都是宰相', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print dramatic scene of soldiers dragging a corrupt military governor out of his office, replacing him with another, the revolving door of puppet rulers controlled by the same armed force, text overlay '废立节度使' in bold title, subtitle '谁给钱多就拥护谁谁扣军饷就杀谁', 1:1 square

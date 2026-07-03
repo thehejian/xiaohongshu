@@ -1,0 +1,1 @@
+Screen-print scene of a painter secretly sketching a grand party from behind a screen, the host drinking and laughing with guests, unaware he is being observed for a political report, text overlay '夜宴图' in bold title, subtitle '李煜派顾闳中画下韩熙载的夜宴实况', 1:1 square

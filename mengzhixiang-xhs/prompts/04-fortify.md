@@ -1,0 +1,1 @@
+Screen-print scene of city walls being built and reinforced around Chengdu, workers and soldiers strengthening defenses, the vision of making Sichuan impregnable, text overlay '守蜀' in bold title, subtitle '广修城墙加固蜀中防线 · 鼓励农桑稳定经济 · 吸纳中原文人', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a timeline showing four explosive moments, starting with violence and ending in a peaceful wine party, the arc of military rebellions from cruelty to sophistication, text overlay '一乱终一统' in bold title, subtitle '从杀皇帝到黄袍加身 · 四次变乱终结五代开启宋朝', 1:1 square

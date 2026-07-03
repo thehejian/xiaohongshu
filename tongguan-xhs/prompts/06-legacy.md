@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a castle that has stood at the river bend for two thousand years, battle scars from every major war in Chinese history visible on its walls, the eternal guardian of the Central Plains, text overlay '千年潼关' in bold title, subtitle '三国 · 安史之乱 · 黄巢 · 李自成 · 抗战 · 两千年站在最前线', 1:1 square

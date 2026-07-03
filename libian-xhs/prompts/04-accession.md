@@ -1,0 +1,1 @@
+Screen-print scene of a wise ruler receiving the imperial seal from a deposed dynasty's representatives, but treating the former royal family with respect instead of killing them, a rare moment of mercy in a brutal era, text overlay '禅让' in bold title, subtitle '逼迫杨吴皇帝禅让 · 但没有羞辱杨家人 · 给了优厚待遇', 1:1 square

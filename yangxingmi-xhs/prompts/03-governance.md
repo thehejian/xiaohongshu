@@ -1,0 +1,1 @@
+Screen-print scene of a king governing a prosperous region, farmers working in fields, rivers filled with boats, the Yangtze economy thriving under wise policies, text overlay '保境安民' in bold title, subtitle '占领长江中下游最富庶的地区 · 与民休息 · 左右逢源', 1:1 square

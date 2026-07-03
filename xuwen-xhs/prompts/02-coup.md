@@ -1,0 +1,1 @@
+Screen-print dramatic scene of generals overthrowing a corrupt young ruler, the tyrant being removed from the throne, a new puppet being installed, the mechanics of power in a military regime, text overlay '废君' in bold title, subtitle '杨渥荒淫残暴 · 徐温联合诸将杀渥立傀儡 · 大权从此入手', 1:1 square

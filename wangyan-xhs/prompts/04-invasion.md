@@ -1,0 +1,1 @@
+Screen-print scene of enemy armies marching through mountain passes into Shu territory while the king is still partying in his palace, the shock of invasion hitting the pleasure capital, text overlay '兵临城下' in bold title, subtitle '后唐大军压境 · 王衍还在喝酒写诗', 1:1 square

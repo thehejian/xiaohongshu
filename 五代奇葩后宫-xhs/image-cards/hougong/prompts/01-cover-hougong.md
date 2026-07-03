@@ -1,0 +1,1 @@
+Screen-print poster of four ancient Chinese palace women in traditional dress, each in a different pose expressing sorrow and drama, palace hall background with red pillars, limited color palette of crimson, rose gold, and deep navy, halftone textures, text overlay '五代后宫比宫斗剧还狗血' in bold title, subtitle '刘皇后 · 冯皇后 · 花蕊夫人 · 大小周后', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print epic scene of a massive Khitan army crossing the Great Wall through the newly acquired passes, descending into the Central Plains, the gates of China finally open to the northern horsemen, text overlay '南下中原' in bold title, subtitle '石重贵想反抗 · 直接率军南下灭后晋 · 穿上汉家皇帝的龙袍', 1:1 square

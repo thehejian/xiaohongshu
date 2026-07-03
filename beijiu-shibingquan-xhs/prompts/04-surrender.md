@@ -1,0 +1,1 @@
+Screen-print scene of generals presenting their military seals to the emperor, voluntarily surrendering their commands, the peaceful transfer of power without a single drop of blood, text overlay '交出兵权' in bold title, subtitle '第二天功臣们纷纷称病辞职 · 不流一滴血', 1:1 square

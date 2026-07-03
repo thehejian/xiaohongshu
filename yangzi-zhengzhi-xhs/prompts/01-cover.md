@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a general presenting a young warrior to an emperor on his deathbed, the torch of power being passed to an adopted son instead of a blood heir, text overlay '养子政治' in bold title, subtitle '血缘不如能力 · 五代流行的继承策略', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of an emperor and his advisor reviewing documents late into the night, the candle burning low, the trust between a king and his wisest counselor, text overlay '君臣' in bold title, subtitle '柴荣对王朴言听计从 · 有他在不用担心朝政', 1:1 square

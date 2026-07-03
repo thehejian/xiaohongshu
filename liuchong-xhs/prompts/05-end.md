@@ -1,0 +1,1 @@
+Screen-print scene of the Song emperor Taizong personally leading the final assault on Taiyuan, the last Northern Han emperor kneeling in surrender, the end of an era, text overlay '十国终焉' in bold title, subtitle '979年宋太宗亲征太原 · 北汉灭亡十国时代终结', 1:1 square

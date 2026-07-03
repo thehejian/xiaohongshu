@@ -1,0 +1,1 @@
+Screen-print scene of rain suddenly stopping on a tropical town, sun breaking through dark clouds for the first time in years, a devastated muddy landscape with collapsed houses, dead trees, people emerging from doors like survivors of a flood, dazed and changed, Latin American magical realism, text overlay '第四年第十一个月零两天' in bold title, subtitle '雨停了 · 但马孔多已经回不去了', 1:1 square

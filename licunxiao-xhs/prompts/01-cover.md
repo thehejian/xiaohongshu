@@ -1,0 +1,1 @@
+Screen-print portrait of a muscular Tang dynasty general wielding an enormous iron spear, five horses pulling in different directions behind him in a dramatic scene, superhuman strength and tragic fate, text overlay '李存孝' in bold title, subtitle '王不过项 · 将不过李', 1:1 square

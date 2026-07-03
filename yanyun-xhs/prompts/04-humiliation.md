@@ -1,0 +1,1 @@
+Screen-print scene of a Chinese emperor in dragon robe kneeling to a younger Khitan emperor in fur and gold, performing the ritual of a son to a father, onlookers showing expressions of shock and shame, the Great Wall visible in the background being handed over, ancient Chinese painting style, text overlay '儿皇帝' in bold title, subtitle '石敬瑭认耶律德光当爹 · 三件事一件比一件离谱', 1:1 square

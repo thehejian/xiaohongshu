@@ -1,0 +1,1 @@
+Screen-print tense scene of a sick empress in bed discovering her husband and younger sister together in the garden outside her window, the moment of betrayal that broke her heart, text overlay '背叛' in bold title, subtitle '大周后病中 · 妹妹和姐夫暗生情愫', 1:1 square

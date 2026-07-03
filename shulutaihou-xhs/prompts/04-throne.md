@@ -1,0 +1,1 @@
+Screen-print tense court scene of a mother forcing the crown prince to leave, the elder son being exiled to a distant land, the younger son being crowned, a mother's ruthless political calculation overriding natural order, text overlay '废长立幼' in bold title, subtitle '逼走大儿子耶律倍 · 立小儿子耶律德光为帝', 1:1 square

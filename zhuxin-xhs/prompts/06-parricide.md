@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a dragon robe falling to the ground, a shattered crown, a knife stained with blood on a palace floor, the emperor's own son standing in shadow, tragedy of betrayal, text overlay '弑父' in bold title, subtitle '最后被亲生儿子刺杀 · 死在最信任的儿子手里', 1:1 square

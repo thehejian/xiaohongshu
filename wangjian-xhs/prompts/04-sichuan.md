@@ -1,0 +1,1 @@
+Screen-print scene of a prosperous Sichuan basin, farmers in terraced fields, merchants on the streets of Chengdu, a well-governed land behind mountain barriers, text overlay '天府之国' in bold title, subtitle '轻徭薄赋百姓安居乐业 · 天险加善治 · 最安定富庶的地方', 1:1 square

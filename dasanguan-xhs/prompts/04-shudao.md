@@ -1,0 +1,1 @@
+Screen-print scene of an ancient plank road clinging to a cliff face near the fortress, the engineering marvel of the Shu Road system that connected Sichuan with the Central Plains, text overlay '古蜀道' in bold title, subtitle '陈仓道与褒斜道的西端分岔点 · 进出秦岭南北的关键', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print haunting scene of a Chinese emperor kneeling and paying respects to a younger foreign ruler, the ceremony of becoming a son to a father emperor, courtiers looking away in shame, text overlay '儿皇帝' in bold title, subtitle '认小十岁的耶律德光当爹 · 割十六州 · 年贡三十万匹', 1:1 square

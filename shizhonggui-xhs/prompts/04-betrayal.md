@@ -1,0 +1,1 @@
+Screen-print scene of betrayal, Chinese generals bowing to Khitan commanders, selling out their country, the emperor receiving news of treason with a look of despair, text overlay '叛徒' in bold title, subtitle '杜重威等人投降契丹 · 后晋防线崩溃 · 最坚固的堡垒从内部被攻破', 1:1 square

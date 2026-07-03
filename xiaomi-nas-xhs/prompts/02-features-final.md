@@ -1,0 +1,1 @@
+Minimal style tech feature card, dark navy gradient background (#0F172A to #1E293B), three feature items stacked vertically with thin gold accent bars on left side, text: '开箱即用的家庭存储中心' as title, item 1 '预装硬盘套装 — 开箱通电即用，无需选硬盘型号', item 2 '米家App一键操控 — 手机完成管理，不需电脑配置', item 3 '去极客化设计 — 为家庭用户打造，不折腾Docker', clean sophisticated design, no people no photos, 1:1 square

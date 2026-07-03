@@ -1,0 +1,1 @@
+Screen-print scene of soldiers standing guard on a fortress wall overlooking a wide river, sandbags stacked at the battlement, the ancient pass serving its final military purpose on the river frontier, text overlay '抗战' in bold title, subtitle '日军占据山西后隔河对峙多年未能突破潼关', 1:1 square

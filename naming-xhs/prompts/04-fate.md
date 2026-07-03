@@ -1,0 +1,1 @@
+Screen-print scene of two paths intertwining, a giant man walking toward destruction (blood, guns, fire) and a thin man walking toward solitude (books, stars, silence), both paths lead to the same end, destiny as a loop, Latin American magical realism, text overlay '阿尔卡蒂奥们走向毁灭' in bold title, subtitle '奥雷里亚诺们走向孤僻 · 都是布恩迪亚', 1:1 square

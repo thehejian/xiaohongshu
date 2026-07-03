@@ -1,0 +1,1 @@
+Screen-print scene of elite palace guards training in formation, the creation of the strongest army of the Five Dynasties, discipline and strength, the foundation of a rising dynasty, text overlay '殿前军' in bold title, subtitle '五代最强的一支军队 · 后周逐渐有了统一气象', 1:1 square

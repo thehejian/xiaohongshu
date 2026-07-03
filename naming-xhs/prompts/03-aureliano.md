@@ -1,0 +1,1 @@
+Screen-print split portrait of three men with the same surname, one in military uniform at war, one deciphering ancient scrolls, one tied to a tree, all thin introspective types, Mestizo Latinos, sharing the same haunted expression, Latin American magical realism, text overlay '奥雷里亚诺' in bold title, subtitle '瘦小内向 · 沉默专注 · 心里装着秘密', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print portrait of a Chinese king in dignified robes, standing on a hill overlooking a growing port city with ships at anchor, pagodas rising, a scroll of city plans in his hand, text overlay '王审知' in bold title, subtitle '开闽王 · 福建文明的奠基人', 1:1 square

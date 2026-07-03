@@ -1,0 +1,1 @@
+Screen-print dark scene of servants being dragged away by guards while the drunken emperor watches indifferently, the terror of living under a ruler who kills for entertainment, text overlay '暴君' in bold title, subtitle '酒后杀人如麻 · 宫中人人自危', 1:1 square

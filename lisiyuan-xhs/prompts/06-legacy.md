@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a gentle emperor's legacy fading like morning mist, compared to the harsh sunlight of later reigns, a peaceful era in the middle of chaos, text overlay '小康之治' in bold title, subtitle '五代乱世中 · 能守住人性底线的皇帝真的太少了', 1:1 square

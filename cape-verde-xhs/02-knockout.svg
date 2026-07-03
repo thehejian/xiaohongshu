@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#0B1628"/>
+  <rect x="0" y="0" width="1024" height="12" fill="#D4A843"/>
+
+  <rect x="80" y="160" width="864" height="200" fill="#D4A843"/>
+  <text x="512" y="270" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="56" font-weight="900" fill="#0B1628" letter-spacing="4">淘汰赛</text>
+  <text x="512" y="330" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="28" fill="#0B1628" font-weight="700">世界杯 16 强</text>
+
+  <text x="512" y="460" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="32" fill="#FFFFFF" letter-spacing="2">小组赛力压对手</text>
+  <text x="512" y="520" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="32" fill="#FFFFFF" letter-spacing="2">非洲小国的历史性突破</text>
+
+  <rect x="250" y="600" width="524" height="4" fill="#D4A843"/>
+
+  <text x="512" y="680" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="24" fill="#8899AA" letter-spacing="2">世预赛淘汰喀麦隆出线</text>
+  <text x="512" y="730" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="24" fill="#8899AA" letter-spacing="2">FIFA排名：182 → 68</text>
+
+  <text x="942" y="980" text-anchor="end" font-family="sans-serif" font-size="14" fill="#1A2A40">SCREEN 2/6</text>
+</svg>

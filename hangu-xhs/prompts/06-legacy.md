@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a bronze war chariot and a bamboo scroll lying side by side at a mountain pass, military power and philosophical wisdom coexisting at this historic gateway, text overlay '文武双关' in bold title, subtitle '一座军事要塞 · 也是一座文化圣地', 1:1 square

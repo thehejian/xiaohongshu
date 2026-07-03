@@ -1,0 +1,1 @@
+Minimal style tech pricing card, dark navy gradient background (#0F172A to #1E293B), three price tiers stacked vertically each with colored left border, text: '版本与价格' as title, tier 1 amber '4TB 入门版 2299元 原价3499', tier 2 blue '8TB 进阶版 2899元 原价4499', tier 3 green '16TB 专业版 4699元 原价6999', subtitle '双盘位 · 出厂预装硬盘 · 众筹到手价', clean sophisticated design, no people, 1:1 square

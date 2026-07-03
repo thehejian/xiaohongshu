@@ -1,0 +1,1 @@
+Screen-print poignant scene of a lady secretly bowing to a portrait hidden in a chamber, a candle flickering, the forbidden act of remembering a lost love, text overlay '张仙' in bold title, subtitle '偷偷挂孟昶画像祭拜骗赵匡胤说是送子张仙', 1:1 square

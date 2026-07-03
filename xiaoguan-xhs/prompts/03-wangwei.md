@@ -1,0 +1,1 @@
+Screen-print scene of a Tang dynasty poet standing on a watchtower looking north at the endless Gobi desert, a rider disappearing into the horizon carrying military dispatches, the melancholy of the frontier, text overlay '萧关逢候骑' in bold title, subtitle '王维诗中的苍茫边塞 · 萧关之外即大漠', 1:1 square

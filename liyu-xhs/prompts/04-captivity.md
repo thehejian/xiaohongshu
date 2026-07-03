@@ -1,0 +1,1 @@
+Screen-print scene of a captive emperor sitting alone in a rundown courtyard in the north, writing poetry on a scrap of paper, looking south toward his lost kingdom, autumn leaves falling, text overlay '故国不堪回首' in bold title, subtitle '剪不断理还乱 · 问君能有几多愁恰似一江春水向东流', 1:1 square

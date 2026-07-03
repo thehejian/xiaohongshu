@@ -1,0 +1,1 @@
+Screen-print scene of a loyal general being pushed aside by corrupt court officials, the emperor listening to flatterers while the enemy approaches, the agony of watching your kingdom rot from within, text overlay '奸臣当道' in bold title, subtitle '后梁末帝信任奸臣 · 他被排挤出朝廷 · 明知大势已去仍然死战', 1:1 square

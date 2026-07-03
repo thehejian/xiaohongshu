@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#0B1628"/>
+  <rect x="0" y="0" width="1024" height="12" fill="#D4A843"/>
+
+  <rect x="80" y="220" width="864" height="260" fill="#D4A843"/>
+  <text x="512" y="340" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="44" font-weight="900" fill="#0B1628" letter-spacing="4">这就是足球</text>
+  <text x="512" y="410" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="30" fill="#0B1628" letter-spacing="4">最迷人的样子</text>
+
+  <text x="512" y="560" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="26" fill="#FFFFFF" letter-spacing="2">不只豪门争霸</text>
+  <text x="512" y="620" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="26" fill="#FFFFFF" letter-spacing="2">也看小国圆梦</text>
+
+  <line x1="300" y1="700" x2="724" y2="700" stroke="#D4A843" stroke-width="2"/>
+
+  <text x="512" y="760" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="22" fill="#8899AA" letter-spacing="2">为佛得角喝彩</text>
+
+  <text x="942" y="980" text-anchor="end" font-family="sans-serif" font-size="14" fill="#1A2A40">SCREEN 6/6</text>
+</svg>

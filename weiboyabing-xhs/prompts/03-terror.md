@@ -1,0 +1,1 @@
+Screen-print tense scene of a newly arrived imperial official bowing nervously before a group of armed soldiers, offering gifts to win their favor, the humiliating ritual of a central government official buying off his own guards, text overlay '送礼' in bold title, subtitle '中央派来的节度使上任前先给牙兵送礼', 1:1 square

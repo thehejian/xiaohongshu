@@ -1,0 +1,1 @@
+Screen-print scene of a young scholar dying at his desk surrounded by scrolls, a life cut short at forty-five, the unfinished work of a brilliant mind, text overlay '英年早逝' in bold title, subtitle '四十五岁去世 · 柴荣临死感叹王朴在我不至于这么累', 1:1 square

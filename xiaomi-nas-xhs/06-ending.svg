@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1024" height="6" fill="url(#accent)"/>
+
+  <rect x="60" y="200" width="904" height="560" rx="24" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+  <rect x="60" y="200" width="904" height="6" rx="3" fill="url(#accent)"/>
+
+  <text x="512" y="330" text-anchor="middle" font-family="'PingFang SC', sans-serif" font-size="48" font-weight="700" fill="#F59E0B" letter-spacing="6">Xiaomi 智能存储</text>
+  <text x="512" y="410" text-anchor="middle" font-family="'PingFang SC', sans-serif" font-size="36" fill="#FFFFFF" letter-spacing="4">家庭私有云新选择</text>
+
+  <line x1="380" y1="460" x2="644" y2="460" stroke="#334155" stroke-width="1"/>
+
+  <g transform="translate(150, 510)">
+    <text x="0" y="0" font-family="'PingFang SC', sans-serif" font-size="22" fill="#F59E0B">—</text>
+    <text x="28" y="0" font-family="'PingFang SC', sans-serif" font-size="22" fill="#CBD5E1">4TB 2299元起，预装硬盘开箱即用</text>
+  </g>
+  <g transform="translate(150, 560)">
+    <text x="0" y="0" font-family="'PingFang SC', sans-serif" font-size="22" fill="#60A5FA">—</text>
+    <text x="28" y="0" font-family="'PingFang SC', sans-serif" font-size="22" fill="#CBD5E1">米家App操控，全家老少都能用</text>
+  </g>
+  <g transform="translate(150, 610)">
+    <text x="0" y="0" font-family="'PingFang SC', sans-serif" font-size="22" fill="#34D399">—</text>
+    <text x="28" y="0" font-family="'PingFang SC', sans-serif" font-size="22" fill="#CBD5E1">已开启预约，各大电商平台可下单</text>
+  </g>
+
+  <rect x="340" y="680" width="344" height="48" rx="24" fill="url(#accent)"/>
+  <text x="512" y="712" text-anchor="middle" font-family="'PingFang SC', sans-serif" font-size="20" fill="#FFFFFF" font-weight="600" letter-spacing="2">你会入手吗？评论区聊聊</text>
+
+  <text x="942" y="980" text-anchor="end" font-family="'PingFang SC', sans-serif" font-size="16" fill="#334155">6 / 6</text>
+</svg>

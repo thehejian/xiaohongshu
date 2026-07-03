@@ -1,0 +1,1 @@
+Screen-print portrait of a Chinese king from humble origins, rough-hewn features, a salt merchant's tough hands, standing on the Yangtze River delta looking out over his hard-won territory, text overlay '杨行密' in bold title, subtitle '36人起家 · 吴国奠基人', 1:1 square

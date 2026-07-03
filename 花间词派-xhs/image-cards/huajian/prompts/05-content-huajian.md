@@ -1,0 +1,1 @@
+Screen-print split scene: top half shows war and fire in the Central Plains, bottom half shows peaceful Chengdu with poets drinking and writing, contrast between chaos and culture, crimson and teal palette, halftone textures, text overlay '中原打仗四川偏安出文人' in bold title, subtitle '乱世出文人 · 战火越猛诗词越好', 1:1 square

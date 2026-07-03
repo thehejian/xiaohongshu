@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a crumbling fortress in the Guanzhong plains, the legacy of an independent kingdom that outlasted most dynasties of its era, text overlay '岐国' in bold title, subtitle '没有称帝但当了四十年土皇帝 · 比很多五代朝代都长', 1:1 square

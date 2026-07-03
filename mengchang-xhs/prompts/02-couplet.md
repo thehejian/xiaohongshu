@@ -1,0 +1,1 @@
+Screen-print scene of a king writing calligraphy on red paper scrolls at New Year, the first spring couplet in Chinese history being created, a court official holding ink, text overlay '第一副春联' in bold title, subtitle '新年纳余庆嘉节号长春 · 中国最早的春联', 1:1 square

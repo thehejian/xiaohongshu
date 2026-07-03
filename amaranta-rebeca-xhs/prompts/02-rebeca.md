@@ -1,0 +1,1 @@
+Screen-print scene of a young pale Mestiza Latina girl with tangled hair and haunted eyes, secretly eating earth from the garden wall, a small cloth bag of bones beside her, her expression desperate and secretive, dark colonial corner, tragic vulnerable atmosphere, Latin American magical realism, text overlay '蕾贝卡' in bold gold title, subtitle '带着父母的骨殖来的孤儿 · 紧张就吃泥土', 1:1 square

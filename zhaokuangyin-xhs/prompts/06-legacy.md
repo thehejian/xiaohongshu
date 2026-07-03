@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a transition, darkness turning to light, a map of China slowly being unified, the Five Dynasties fading into the Song, not by cruelty but by restraint, text overlay '终结五代' in bold title, subtitle '五代十国从未有过这样的开国 · 靠克制和规矩结束乱世', 1:1 square

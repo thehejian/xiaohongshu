@@ -1,0 +1,1 @@
+Screen-print scene of Empress Feng giving birth on a harsh northern road, wrapped in rags, soldiers escorting her north, snow falling, tragic atmosphere, crimson and navy palette, halftone print grain, text overlay '冯皇后城破被掳路上生子' in bold title, subtitle '石重贵最有骨气 · 皇后却受尽屈辱', 1:1 square

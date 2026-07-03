@@ -1,0 +1,1 @@
+Screen-print scene of a foreign emperor uncomfortably sitting on a Chinese dragon throne in Kaifeng, fanning himself from the heat, surrounded by Han officials who serve him reluctantly, a conqueror who can't adapt to the conquered land, text overlay '水土不服' in bold title, subtitle '在中原待不习惯 · 春天太热水土不服 · 不到半年就北撤了', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of a regent refusing the imperial throne offered by his subordinates, choosing to remain in the shadows rather than risk the instability of usurpation, restraint in the face of ultimate temptation, text overlay '拒绝称帝' in bold title, subtitle '知道自己称帝风险太大 · 选择最稳妥的方案 · 让养子去完成', 1:1 square

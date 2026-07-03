@@ -1,0 +1,1 @@
+Screen-print scene of a king bowing respectfully toward the north, sending tribute to the Central Plains court while maintaining his own kingdom's autonomy, wise diplomacy over war, text overlay '保境安民' in bold title, subtitle '始终尊奉中原为正朔 · 不打仗也能守住江山', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of a dying general's final moment, the iron spear planted in the ground beside him, a leopard's skin hanging nearby as a symbol of his famous words, text overlay '豹死留皮' in bold title, subtitle '人死留名 · 五代不缺精明人 · 缺的是明知道赢不了还拼到最后一刻的人', 1:1 square

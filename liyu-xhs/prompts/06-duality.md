@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a brush and a crown lying side by side, one worn from use and the other pristine, the two identities of the same man, a poet who happened to be a king, text overlay '词帝' in bold title, subtitle '他不是好皇帝 · 甚至不是合格的皇帝 · 但他用亡国换来了永恒的诗人地位', 1:1 square

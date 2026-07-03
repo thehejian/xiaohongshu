@@ -1,0 +1,1 @@
+Screen-print symbolic image of a single clean official robe hanging among a display of warriors' armor in a dim hall, an honest man standing out in an age of chaos, text overlay '五代风骨' in bold title, subtitle '一个太监比所有军阀都有骨气', 1:1 square

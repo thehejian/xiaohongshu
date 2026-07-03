@@ -1,0 +1,1 @@
+Screen-print dramatic scene of a Chinese army crossing mountain passes into the Shu kingdom, the general leading the invasion conquering Shu in just seventy days, text overlay '七十天平蜀' in bold title, subtitle '六万大军七十天灭前蜀 · 五代最精彩的军事行动', 1:1 square

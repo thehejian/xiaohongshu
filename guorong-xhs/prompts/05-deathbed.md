@@ -1,0 +1,1 @@
+Screen-print poignant scene of a young emperor lying sick in bed, maps of unfinished campaigns on the wall, a hand reaching for a spear but too weak to hold it, ambition defeated by illness, text overlay '天不假年' in bold title, subtitle '三十九岁病逝开封 · 临终托孤给赵匡胤 · 结果被黄袍加身', 1:1 square

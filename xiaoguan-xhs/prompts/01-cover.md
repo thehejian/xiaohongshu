@@ -1,0 +1,1 @@
+Screen-print expansive scene of a lonely fortress on the northern frontier, Great Wall ridges stretching across the hills, a solitary beacon tower on the desolate steppe, text overlay '萧关' in bold title, subtitle '关中北大门 · 汉唐防御匈奴的最前线', 1:1 square

@@ -1,0 +1,1 @@
+Exciting World Cup trophy scene with bright lights and celebration, silhouettes of football players celebrating, confetti in the air, representing the excitement of the upcoming World Cup, text overlay '2026 美加墨世界杯' in gold title, subtitle '32强集结 · 全新篇章' in white, 1:1 square, celebratory sports style

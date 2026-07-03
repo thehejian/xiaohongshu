@@ -1,0 +1,1 @@
+Screen-print scene of a once-wild man now quietly repairing a house during endless rain, hammering a roof tile, his wife watching from a window, a moment of reflection and regret, the rain forcing him to confront his past, Latin American magical realism, text overlay '奥雷里亚诺第二被困在家里' in bold title, subtitle '哪儿也去不了 · 只能面对这个破败的家', 1:1 square

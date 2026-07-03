@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a long scroll showing a timeline of the Five Dynasties, with the same military unit appearing at every turning point, the hidden hand behind the chaos, text overlay '百年牙兵' in bold title, subtitle '一百多年废立十几个节度使 · 几乎成了魏博的土皇帝', 1:1 square

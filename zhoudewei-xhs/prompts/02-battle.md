@@ -1,0 +1,1 @@
+Screen-print epic battle scene of a massive cavalry charge, Chinese soldiers overwhelming the enemy, the tide of war turning at Baixiang, Later Tang's greatest victory, text overlay '柏乡大捷' in bold title, subtitle '以少胜多大破后梁主力 · 为后唐灭梁打开了胜利之门', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print solemn scene of an emperor on his deathbed, giving instructions for a paper coffin and earthenware burial, minimal ceremony, a ruler who wanted nothing in death as in life, text overlay '纸衣瓦棺' in bold title, subtitle '我死后用纸衣瓦棺下葬 · 不要铺张 · 一个皇帝的遗言', 1:1 square

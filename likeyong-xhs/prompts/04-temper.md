@@ -1,0 +1,1 @@
+Screen-print scene of an aging general raging drunk in his hall, smashing cups, terrified attendants hiding, firelight casting long shadows, a man tormented by his own temper, text overlay '暴烈' in bold title, subtitle '酒后杀人 · 连最忠诚的部下也提心吊胆 · 英雄的暗面', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of a carpenter working with wood in a workshop, turning into a soldier marching with an army, the transformation from craftsman to general, text overlay '木匠从军' in bold title, subtitle '河南鄢陵人 · 年轻时是个木匠 · 黄巢起义让他从军', 1:1 square

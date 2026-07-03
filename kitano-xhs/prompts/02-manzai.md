@@ -1,0 +1,1 @@
+Japanese comedy duo performing on a vintage TV show stage in the 1980s, one comedian (Kitano as Beat Takeshi) going completely off-script doing absurd physical comedy, chaotic energy, retro TV cameras, Showa era Japanese TV studio, text overlay '漫才时代' in Japanese pop style, subtitle 'TWO BEAT 疯狂整活 · 反复复读粗口 · 节目被停播', 1:1 square format, retro Japanese television style

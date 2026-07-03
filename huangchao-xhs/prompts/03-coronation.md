@@ -1,0 +1,1 @@
+Screen-print scene of a rebel emperor on a grand throne inside the Hanyuan Palace of Chang'an, golden dragon throne, but the palace halls filled with looters and chaos outside, the dream of ruling crumbling fast, text overlay '登基' in bold title, subtitle '含元殿登基建立大齐 · 但部下烧杀抢掠 · 没有格局的胜利', 1:1 square

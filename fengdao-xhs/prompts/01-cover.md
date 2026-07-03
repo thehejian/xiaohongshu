@@ -1,0 +1,1 @@
+Screen-print portrait of an elderly Chinese official in simple scholar's robes, a wise and slightly mischievous expression, holding a scroll in one hand and a cup of tea in the other, multiple imperial seals of different dynasties arrayed behind him, text overlay '冯道' in bold title, subtitle '四朝十帝 · 官场不倒翁', 1:1 square

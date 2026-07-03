@@ -1,0 +1,1 @@
+Screen-print dramatic scene of a young mechanic falling from a roof, a rifle muzzle flash in the darkness, his body suspended mid-air with a look of shock, a young woman's silhouette in the doorway crying out, the moment of love destroyed by violence, Latin American magical realism, text overlay '马乌里肖被击中了' in bold title, subtitle '从此瘫痪在床 · 靠着对梅梅的思念活了一辈子', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print epic battle scene of Chinese soldiers repelling Khitan cavalry at the border, the emperor himself overseeing the defense, a rare victory against the northern invaders, text overlay '击退契丹' in bold title, subtitle '耶律德光率军南下 · 石重贵亲自督战 · 击退了契丹的第一次进攻', 1:1 square

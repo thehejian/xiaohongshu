@@ -1,0 +1,1 @@
+Screen-print dramatic scene of a massive tidal wave crashing against a newly built seawall, workers and soldiers holding the line, the king commanding the defense, the birth of the Qiantang River seawall, text overlay '钱王射潮' in bold title, subtitle '修筑钱塘江海堤 · 制服潮水 · 保江南百姓平安', 1:1 square

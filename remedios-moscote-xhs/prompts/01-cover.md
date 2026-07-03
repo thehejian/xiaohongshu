@@ -1,0 +1,1 @@
+Screen-print portrait of a young innocent Mestizo Latina girl with a sweet round face, wearing a simple floral dress and holding a rag doll, a delicate special sash around her waist, golden light surrounding her like a halo, innocent and pure, Latin American magical realism, text overlay '蕾梅黛丝·摩斯科特' in bold title, subtitle '奥雷里亚诺上校一生最爱的女人 · 死的时候还是个孩子', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of a determined prince raising his banner in Taiyuan, the imperial city of the Northern Han being established, the last holdout against the Central Plains, text overlay '太原称帝' in bold title, subtitle '郭威灭后汉后刘崇在太原称帝延续汉祚', 1:1 square

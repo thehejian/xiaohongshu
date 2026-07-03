@@ -1,0 +1,1 @@
+Screen-print scene of a young scholar sitting at a desk day after day writing on an iron inkstone, the surface of the inkstone worn through from years of grinding ink, even the iron couldn't withstand his determination, text overlay '铁砚磨穿' in bold title, subtitle '读书把铁砚磨穿了 · 刻苦到极致的天才', 1:1 square

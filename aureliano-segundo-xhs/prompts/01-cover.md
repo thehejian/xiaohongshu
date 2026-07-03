@@ -1,0 +1,1 @@
+Screen-print poster of a handsome Mestizo Latino man in his 40s, smiling roguishly, wearing a rumpled white linen suit and a Panama hat tilted to the side, standing in front of a chaotic carnival scene, bold red and yellow color palette, tropical Latin American magical realism, text overlay '奥雷里亚诺第二' in bold black serif title, subtitle '双胞胎·狂欢·财富·悲剧', 1:1 square

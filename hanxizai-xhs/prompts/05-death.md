@@ -1,0 +1,1 @@
+Screen-print solemn scene of an empty courtyard in the Han residence, the master having passed away peacefully before the kingdom fell, a dignified end avoiding the shame of defeat, text overlay '先走一步' in bold title, subtitle '南唐灭亡前韩熙载先去世了不用看亡国之辱', 1:1 square

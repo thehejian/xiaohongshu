@@ -1,0 +1,1 @@
+Screen-print intimate banquet scene with generals drinking and laughing, the emperor proposing a toast, behind the warmth a subtle threat in his words, the art of disarming power through friendship, text overlay '杯酒释兵权' in bold title, subtitle '不杀功臣 · 一杯酒化解了所有兵权 · 五代独一份', 1:1 square

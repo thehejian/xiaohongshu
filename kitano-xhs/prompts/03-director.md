@@ -1,0 +1,1 @@
+Cinematic scene of a film director behind a camera on a movie set, dramatic lighting, film clapperboard, Japanese film crew, moody artistic atmosphere, black and white aesthetic with pops of color, text overlay '电影导演' in Japanese style, subtitle '《凶暴的男人》《花火》《菊次郎的夏天》', 1:1 square format, cinematic Japanese film set photography

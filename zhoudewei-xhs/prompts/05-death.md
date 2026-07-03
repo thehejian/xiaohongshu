@@ -1,0 +1,1 @@
+Screen-print poignant scene of a great general falling in battle, surrounded by enemies, his iron hammer on the ground beside him, the loss that changed the course of Later Tang, text overlay '战死' in bold title, subtitle '在乱军之中战死 · 他的死对后唐是沉重打击', 1:1 square

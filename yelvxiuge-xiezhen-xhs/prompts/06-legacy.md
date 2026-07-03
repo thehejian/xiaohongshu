@@ -1,0 +1,1 @@
+Screen-print symbolic image of two heroic Khitan warriors fading into the northern mist, their legend lasting forever, the greatest generals the Liao dynasty ever produced, text overlay '辽国双璧' in bold title, subtitle '同年离世 · 辽国再无如此名将', 1:1 square

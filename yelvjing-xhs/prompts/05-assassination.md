@@ -1,0 +1,1 @@
+Screen-print tense scene of assassins creeping toward the sleeping emperor's chamber at night, knives drawn, the moment of reckoning arriving in the darkness, text overlay '弑君' in bold title, subtitle '近侍忍无可忍 · 趁他醉酒熟睡时联手刺杀', 1:1 square

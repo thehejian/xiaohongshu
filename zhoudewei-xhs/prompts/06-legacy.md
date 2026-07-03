@@ -1,0 +1,1 @@
+Screen-print symbolic scene of an empty suit of armor standing on a hill, looking out over a battlefield long gone quiet, a name that deserves to be remembered among the greatest, text overlay '名将' in bold title, subtitle '后唐名将名单第一行永远是周德威 · 五代最能打的统帅之一', 1:1 square

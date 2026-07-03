@@ -1,0 +1,1 @@
+Screen-print dramatic scene of soldiers draping a yellow imperial robe over a general at a military camp, the general's hands raised in protest, soldiers kneeling in submission, dawn breaking over the camp, text overlay '陈桥兵变' in bold title, subtitle '走到开封城外的陈桥驿 · 黄袍被披在身上 · 被迫当了皇帝', 1:1 square

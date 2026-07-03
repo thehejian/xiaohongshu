@@ -1,0 +1,1 @@
+Screen-print scene of a wise general kneeling before a new emperor at each dynasty change, his head bowed in submission, the art of survival through changing regimes, text overlay '识时务' in bold title, subtitle '经历六个朝代 · 每次改朝换代他都第一个表示效忠', 1:1 square

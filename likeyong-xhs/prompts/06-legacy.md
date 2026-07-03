@@ -1,0 +1,1 @@
+Screen-print symbolic scene of an old warrior's tomb overlooking a northern pass, a single red banner fluttering in the wind, the Great Wall in distant mist, a lone eagle circling, text overlay '未竟之业' in bold title, subtitle '他没看到朱温灭亡 · 但儿子替他完成了使命 · 异族将领 · 大唐最后的忠诚', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print conceptual design of a book that reads itself, the first page glowing with the ice scene, the last page dissolving into hurricane wind, all the pages in between one long inevitable story being told by a ghost, Latin American magical realism, text overlay '不用读第二遍' in bold title, subtitle '第一遍就够了 · 无论读多少遍结局都不会变', 1:1 square

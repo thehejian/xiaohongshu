@@ -1,0 +1,1 @@
+Screen-print symbolic scene of two jade hairpins lying on a wooden floor, one broken in two, the twin tragedies of two sisters who loved the same man, text overlay '姐妹同悲' in bold title, subtitle '一个被爱人背叛含恨而死一个为国仇家恨殉情而亡', 1:1 square

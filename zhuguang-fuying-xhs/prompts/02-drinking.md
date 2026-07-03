@@ -1,0 +1,1 @@
+Screen-print scene of two brothers drinking face to face in a candlelit private chamber, snow piling up outside the window, tension in the air despite the wine and warmth, text overlay '兄弟对饮' in bold title, subtitle '大雪纷飞屏退左右 · 兄弟俩闭门对饮', 1:1 square

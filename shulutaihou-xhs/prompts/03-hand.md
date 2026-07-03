@@ -1,0 +1,1 @@
+Screen-print shocking symbolic scene of a severed hand placed inside a royal coffin, a Khitan queen staring emotionlessly as the coffin lid closes, great hall full of terrified ministers, the ultimate act of devotion and intimidation, text overlay '断腕' in bold title, subtitle '砍下右手放进阿保机棺材 · 对自己都这么狠谁敢不服', 1:1 square

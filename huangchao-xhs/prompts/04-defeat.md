@@ -1,0 +1,1 @@
+Screen-print scene of a defeated rebel leader in a mountain valley, surrounded by enemies, his armor torn, a last stand in the wilderness of Mount Tai, the dream of golden armor reduced to broken steel, text overlay '狼虎谷' in bold title, subtitle '兵败退到泰山狼虎谷 · 被外甥所杀', 1:1 square

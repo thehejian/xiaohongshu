@@ -1,0 +1,1 @@
+Screen-print scene of an old statesman distributing food to starving refugees, tax documents being simplified, agricultural reforms in action, the practical side of governance in chaotic times, text overlay '办实事' in bold title, subtitle '减轻赋税劝课农桑赈济灾民 · 五代靠他维持基本运转', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a Khitan emperor dying on the northern road, his army carrying his body back to the steppe, the sixteen prefectures now firmly in Liao hands, a two-hundred-year strategic advantage secured, text overlay '北归' in bold title, subtitle '死在北归路上 · 让辽国从草原部落变成有战略眼光的北方王朝 · 红利吃了两百年', 1:1 square

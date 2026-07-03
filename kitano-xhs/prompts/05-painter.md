@@ -1,0 +1,1 @@
+Artist's studio with colorful paintings on easels, Takeshi Kitano's distinct colorful art style, bright and whimsical paintings with flowers and faces, messy creative studio space, Japanese artist atmosphere, text overlay '北野武的画' in artistic style, subtitle '不仅是导演，还是画家', 1:1 square format, colorful artistic studio photography

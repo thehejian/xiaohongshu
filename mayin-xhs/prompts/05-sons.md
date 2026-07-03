@@ -1,0 +1,1 @@
+Screen-print scene of multiple princes fighting each other for the throne, a kingdom tearing itself apart from within, the king's many sons locked in civil war, text overlay '儿子太多' in bold title, subtitle '几十个儿子为争王位自相残杀 · 内斗十几年 · 被南唐趁机灭掉', 1:1 square

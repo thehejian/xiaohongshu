@@ -1,0 +1,1 @@
+Screen-print massive battlefield scene of Chinese soldiers charging against northern invaders, the emperor himself leading the cavalry, Gaoping battle turning point, smoke and banners everywhere, text overlay '高平之战' in bold title, subtitle '北汉勾结契丹来犯 · 劣势兵力大胜 · 一战打出后周威名', 1:1 square

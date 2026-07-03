@@ -1,0 +1,1 @@
+Screen-print scene of Buddhist temples being dismantled, bronze Buddha statues being melted down, workers casting coins from the metal, radical reform of religion for national strength, text overlay '灭佛' in bold title, subtitle '拆毁寺院三万所 · 铜佛熔了铸钱 · 僧尼还俗务农', 1:1 square

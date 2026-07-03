@@ -1,0 +1,1 @@
+Screen-print scene of a defeated general's last stand, his army broken, surrounded by Khitan and Later Jin forces, but his eyes still fierce, a man who knew he might lose but chose to fight anyway, text overlay '败而不悔' in bold title, subtitle '高估了自己的实力 · 兵败被杀 · 但他用死证明了自己不是空喊', 1:1 square

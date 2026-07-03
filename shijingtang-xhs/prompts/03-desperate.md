@@ -1,0 +1,1 @@
+Screen-print scene of a cornered general making a fateful decision late at night, writing a letter to the Khitans, maps of sixteen prefectures on the table, knowing the price but seeing no other path, text overlay '铤而走险' in bold title, subtitle '李从珂逼到绝路 · 决定向契丹求援 · 开出天价条件', 1:1 square

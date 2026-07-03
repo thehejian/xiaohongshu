@@ -1,0 +1,1 @@
+Screen-print poetic scene of an old sage riding a water buffalo toward a mountain pass, the gatekeeper bowing respectfully asking him to write down his wisdom, the moment the Tao Te Ching was created, text overlay '老子出关' in bold title, subtitle '关令尹喜请老子留书 · 五千言道德经诞生于此', 1:1 square

@@ -1,0 +1,1 @@
+Split screen comparison showing ComfyUI node workflow on one side vs simple text-to-image on the other, illustrating the difference between node-based and simple interfaces, dark mode UI aesthetic, text overlay '节点 vs 一键' in title, subtitle 'ComfyUI vs WebUI · 灵活 vs 简单' in white, 1:1 square, UI comparison style

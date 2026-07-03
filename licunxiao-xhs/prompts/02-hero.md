@@ -1,0 +1,1 @@
+Screen-print scene of a young teenage warrior charging alone into a massive enemy formation on horseback, two spare horses following behind him, enemies scattering in fear, raw superhuman combat power, text overlay '十三太保' in bold title, subtitle '带着两匹备用马冲锋 · 单人冲阵无人能挡 · 李克用的神级养子', 1:1 square

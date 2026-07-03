@@ -1,0 +1,1 @@
+Screen-print scene of a narrow pass between green mountains in southern Shaanxi, an ancient fortress perched on the hillside guarding the southern approach to Guanzhong, text overlay '武关' in bold title, subtitle '关中南大门 · 被攻破次数最多的雄关', 1:1 square

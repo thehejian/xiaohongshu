@@ -1,0 +1,1 @@
+Screen-print symbolic contrast between the bloody coups of the Five Dynasties and the peaceful wine party of the Song, a timeline showing the old pattern of violence ending at this banquet table, text overlay '温柔终结' in bold title, subtitle '没有阴谋没有暗杀没有流血 · 就是一顿酒', 1:1 square

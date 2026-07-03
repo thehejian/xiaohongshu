@@ -1,0 +1,1 @@
+Screen-print scene of an old empress dowager leading troops into battle, her white hair flowing under a war helmet, a mother determined to install her third son as emperor, the final desperate gamble for power, text overlay '最后的反抗' in bold title, subtitle '为了三儿子率兵出征 · 被孙子击败 · 软禁至死', 1:1 square

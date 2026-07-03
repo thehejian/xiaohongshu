@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a once prosperous kingdom being offered up to the Song emperor, treasures piled high, the final surrender of Southern Han, text overlay '狗血结局' in bold title, subtitle '刘龑打下基业 · 子孙败光 · 繁荣了几十年的岭南只留下一地狗血', 1:1 square

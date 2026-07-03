@@ -1,0 +1,1 @@
+Coding interface showing AI integration with multiple model providers logos visible in a panel - Claude, GPT, Gemini icons, dropdown menu showing 75+ model options, dark modern UI design, clean developer tools aesthetic, text overlay '支持75+模型' in bold, subtitle 'Claude · GPT · Gemini · 免费模型 · 本地模型', 1:1 square format, modern UI style

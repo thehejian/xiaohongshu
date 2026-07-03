@@ -1,0 +1,1 @@
+Screen-print scene of a captured petulant king kneeling before the Song emperor, looking pathetic and ridiculous, the Song emperor laughing and dismissing him as harmless, text overlay '宋太祖' in bold title, subtitle '赵匡胤：这个废物留着也没用', 1:1 square

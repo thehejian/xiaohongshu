@@ -1,0 +1,1 @@
+Screen-print tense scene of two generals glaring at each other across a court hall, the emperor on his throne watching suspiciously, one general kneeling but with hidden ambition, the atmosphere crackling with distrust, text overlay '猜忌' in bold title, subtitle '最忌惮姐夫石敬瑭 · 想削权又不敢太急 · 两头不讨好', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of a calculating Khitan general studying a map in his command tent, surrounded by advisors, the architect of the defensive strategy, text overlay '军师' in bold title, subtitle '耶律斜轸北院枢密使 · 瓦桥关一战成名', 1:1 square

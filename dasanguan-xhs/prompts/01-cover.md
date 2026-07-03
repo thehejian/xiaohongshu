@@ -1,0 +1,1 @@
+Screen-print dramatic scene of a mountain pass fortress perched high on a rocky ridge in the Qinling mountains, clouds swirling around the peaks, the western gateway to the Guanzhong plains, text overlay '大散关' in bold title, subtitle '铁马秋风 · 诸葛亮五次北伐没攻破的雄关', 1:1 square

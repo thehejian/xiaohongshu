@@ -1,0 +1,1 @@
+Screen-print symbolic scene of an empty throne surrounded by eunuch robes, the absurd legacy of the strangest court in Chinese imperial history, text overlay '奇葩皇帝' in bold title, subtitle '三千年帝王史独此一家想当官先自宫', 1:1 square

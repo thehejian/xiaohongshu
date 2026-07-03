@@ -1,0 +1,1 @@
+Screen-print symbolic scene comparing two emperors side by side, one with his potential realized, the other becoming the Song founder, an alternate history where a great emperor lived longer, text overlay '最有资格说如果' in bold title, subtitle '甚至比赵匡胤更适合当开国皇帝 · 雄才大略又宅心仁厚', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print portrait of a one-eyed Chinese general in dark armor, lion-like presence, riding a black horse, carrying a banner with the character '晋', northern landscape of Shanxi, dramatic clouds, Five Dynasties period, text overlay '李克用' in bold title, subtitle '独眼飞虎 · 沙陀枭雄', 1:1 square

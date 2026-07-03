@@ -1,0 +1,1 @@
+Screen-print scene of a ragged young man leading a small band of 36 men through the marshes of Huainan, starting from nothing, the first spark of what would become a kingdom, text overlay '草莽起家' in bold title, subtitle '庐州合肥穷苦农家 · 贩私盐为生 · 三十六人小队起家', 1:1 square

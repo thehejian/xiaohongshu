@@ -1,0 +1,1 @@
+Screen-print step diagram showing four sequential panels: a suspicious emperor killing officials, a general marching south, soldiers rebelling and crowning him, the new emperor entering the capital, numbered 1-2-3-4, crimson navy gold palette, text overlay '五代兵变四步模板' in bold title, subtitle '猜忌→逼反→哗变→取代 · 四步走流程', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print epic scene of a formidable fortress sitting at the bend of the mighty Yellow River, mountains rising behind it, the river forming a natural moat in front, text overlay '潼关' in bold title, subtitle '中国最险要的关隘 · 黄河在此拐了个弯', 1:1 square

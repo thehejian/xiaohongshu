@@ -1,0 +1,1 @@
+Screen-print scene of the gates of Chang'an, a cage with a prisoner inside being delivered to the capital, soldiers surrounding, the end of a reign of terror, text overlay '伏法' in bold title, subtitle '被押送长安处死 · 但中原并未因此迎来和平', 1:1 square

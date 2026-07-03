@@ -1,0 +1,1 @@
+Screen-print dramatic scene of a general shouting to his troops, his words echoing across the military camp like thunder, soldiers stirred by his speech that exposes the truth of power, text overlay '天子宁有种耶' in bold title, subtitle '皇帝难道是天生注定的吗 · 一句话喊出了五代最硬核的政治逻辑', 1:1 square

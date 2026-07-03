@@ -1,0 +1,1 @@
+Screen-print symbolic scene of an old warlord holding both a sword and a peace treaty, the dual tools of survival in an age of chaos, knowing when to fight and when to submit, text overlay '四十年不倒' in bold title, subtitle '谁强依附谁谁弱欺负谁 · 凤翔易守难攻百姓支持', 1:1 square

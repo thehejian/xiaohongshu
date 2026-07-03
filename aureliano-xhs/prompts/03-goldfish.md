@@ -1,0 +1,1 @@
+An old Mestizo Latino man with brown skin sitting alone in a dim workshop, making tiny gold fish sculptures by candlelight, piles of gold fish around him, melancholic warm lighting, vintage Latin American atmosphere, text overlay '小金鱼' in gold title, subtitle '做好融掉 · 融了重做 · 循环一生', 1:1 square

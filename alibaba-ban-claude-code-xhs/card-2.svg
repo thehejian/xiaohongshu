@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F3F0E8"/></linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/><circle cx="81.92" cy="81.92" r="60" fill="#FEE2E2" opacity="0.5"/><circle cx="942.08" cy="122.88" r="50" fill="#DBEAFE" opacity="0.5"/><circle cx="81.92" cy="901.12" r="70" fill="#FFEDD5" opacity="0.4"/><circle cx="942.08" cy="798.72" r="80" fill="#EDE9FE" opacity="0.4"/>
+
+<text x="512" y="80" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="38" font-weight="800" fill="#1E293B">为什么是红线？</text>
+<text x="512" y="120" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" fill="#64748B">AI 编程工具的安全风险拆解</text>
+
+<g transform="translate(62, 160)">
+<rect x="0" y="0" width="900" height="140" rx="16" fill="#FFFFFF" stroke="#EF4444" stroke-width="1.5"/>
+<rect x="20" y="20" width="40" height="40" rx="20" fill="#EF4444"/>
+<text x="40" y="45" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">1</text>
+<text x="80" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#1E293B">代码级后门</text>
+<text x="25" y="80" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">Claude Code 直接接触企业私有代码，一旦植入后门等于给攻击者开了内网权限</text>
+</g>
+<g transform="translate(62, 330)">
+<rect x="0" y="0" width="900" height="140" rx="16" fill="#FFFFFF" stroke="#F97316" stroke-width="1.5"/>
+<rect x="20" y="20" width="40" height="40" rx="20" fill="#F97316"/>
+<text x="40" y="45" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">2</text>
+<text x="80" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#1E293B">供应链攻击</text>
+<text x="25" y="80" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">AI 模型下发恶意指令 → 本地 Agent 执行 → 传统杀毒无法拦截</text>
+</g>
+<g transform="translate(62, 500)">
+<rect x="0" y="0" width="900" height="140" rx="16" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5"/>
+<rect x="20" y="20" width="40" height="40" rx="20" fill="#F59E0B"/>
+<text x="40" y="45" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">3</text>
+<text x="80" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#1E293B">数据泄露风险</text>
+<text x="25" y="80" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">代码助手读取全部项目文件，核心算法/密钥/配置面临泄密</text>
+</g>
+<g transform="translate(62, 670)">
+<rect x="0" y="0" width="900" height="140" rx="16" fill="#FFFFFF" stroke="#3B82F6" stroke-width="1.5"/>
+<rect x="20" y="20" width="40" height="40" rx="20" fill="#3B82F6"/>
+<text x="40" y="45" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">4</text>
+<text x="80" y="40" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#1E293B">行业连锁反应</text>
+<text x="25" y="80" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">阿里打响第一枪，其他大厂大概率跟进 AI 工具安全审查</text>
+</g>
+<text x="512" y="960" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" fill="#94A3B8">企业级 AI 工具安全审查从加分项变成必选项</text>
+
+</svg>

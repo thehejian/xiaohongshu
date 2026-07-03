@@ -1,0 +1,1 @@
+Screen-print dramatic scene of cavalry battles on the northern plains, the fortress walls under siege by steppe nomads, arrows flying from both sides, the frontline of the agricultural vs nomadic conflict, text overlay '前线' in bold title, subtitle '农耕文明对抗游牧铁骑的最前沿', 1:1 square

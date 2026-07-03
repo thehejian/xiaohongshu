@@ -1,0 +1,1 @@
+Screen-print symbolic image of a poet's brush lying on an imperial throne, the brush more powerful than the crown yet unable to save a kingdom, text overlay '错生帝王家' in bold title, subtitle '如果生在太平年 · 他会是个好诗人', 1:1 square

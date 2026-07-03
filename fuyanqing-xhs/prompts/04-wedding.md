@@ -1,0 +1,1 @@
+Screen-print grand scene of a wedding procession, the general's daughter marrying an emperor, the political marriage that connected the most powerful men of the era, text overlay '嫁女' in bold title, subtitle '女儿们嫁给了柴荣赵匡胤赵光义三个皇帝', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a fertile basin surrounded by mountains, protected from the storms outside, the geography that made a kingdom possible, text overlay '盆地战略' in bold title, subtitle '后蜀的核心竞争力不是军队是盆地 · 选对位置本身就是战略眼光', 1:1 square

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F3F0E8"/></linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/><circle cx="81.92" cy="81.92" r="60" fill="#FEE2E2" opacity="0.5"/><circle cx="942.08" cy="122.88" r="50" fill="#DBEAFE" opacity="0.5"/><circle cx="81.92" cy="901.12" r="70" fill="#FFEDD5" opacity="0.4"/><circle cx="942.08" cy="798.72" r="80" fill="#EDE9FE" opacity="0.4"/>
+
+<text x="512" y="85" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="38" font-weight="800" fill="#1E293B">事件全貌</text>
+<text x="512" y="125" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" fill="#64748B">来源：科创板日报 · 阿里内部人士确认</text>
+
+<g transform="translate(62, 170)">
+<rect x="0" y="0" width="900" height="120" rx="14" fill="#FFFFFF" stroke="#EF4444" stroke-width="1.5"/>
+<rect x="0" y="0" width="5" height="120" rx="2.5" fill="#EF4444"/>
+<text x="30" y="35" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="700" fill="#EF4444">事件</text>
+<text x="100" y="35" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#1E293B">2026.07.03</text>
+<text x="30" y="70" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" fill="#64748B">阿里内部通知，全体员工卸载 Claude Code</text>
+<circle cx="30" cy="95" r="5" fill="#EF4444" opacity="0.3"/>
+</g>
+<g transform="translate(62, 320)">
+<rect x="0" y="0" width="900" height="120" rx="14" fill="#FFFFFF" stroke="#F97316" stroke-width="1.5"/>
+<rect x="0" y="0" width="5" height="120" rx="2.5" fill="#F97316"/>
+<text x="30" y="35" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="700" fill="#F97316">原因</text>
+<text x="100" y="35" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#1E293B">植入后门风险</text>
+<text x="30" y="70" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" fill="#64748B">被曝存在代码级安全漏洞，列入高风险名单</text>
+<circle cx="30" cy="95" r="5" fill="#F97316" opacity="0.3"/>
+</g>
+<g transform="translate(62, 470)">
+<rect x="0" y="0" width="900" height="120" rx="14" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5"/>
+<rect x="0" y="0" width="5" height="120" rx="2.5" fill="#F59E0B"/>
+<text x="30" y="35" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="700" fill="#F59E0B">范围</text>
+<text x="100" y="35" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#1E293B">Anthropic 全线产品</text>
+<text x="30" y="70" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" fill="#64748B">Sonnet / Opus / Fable / Claude Code 全部禁用</text>
+<circle cx="30" cy="95" r="5" fill="#F59E0B" opacity="0.3"/>
+</g>
+<g transform="translate(62, 620)">
+<rect x="0" y="0" width="900" height="120" rx="14" fill="#FFFFFF" stroke="#3B82F6" stroke-width="1.5"/>
+<rect x="0" y="0" width="5" height="120" rx="2.5" fill="#3B82F6"/>
+<text x="30" y="35" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" font-weight="700" fill="#3B82F6">替代</text>
+<text x="100" y="35" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#1E293B">Qoder</text>
+<text x="30" y="70" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="19" fill="#64748B">阿里云自研编程助手，承接内部流量</text>
+<circle cx="30" cy="95" r="5" fill="#3B82F6" opacity="0.3"/>
+</g>
+<text x="512" y="960" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" fill="#94A3B8">7月10日起正式生效</text>
+
+</svg>

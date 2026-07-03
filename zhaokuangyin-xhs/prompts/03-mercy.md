@@ -1,0 +1,1 @@
+Screen-print scene of a new emperor meeting the old court officials, the former prime minister questioning him angrily, the emperor in tears apologizing, a bloodless transfer of power with dignity maintained on both sides, text overlay '善待前朝' in bold title, subtitle '严令不得惊扰百姓不得伤害幼帝 · 秋毫无犯 · 对后周皇室极好', 1:1 square

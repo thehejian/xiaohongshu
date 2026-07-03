@@ -1,0 +1,1 @@
+Screen-print devastating scene of a Chinese minister ceding a map of sixteen prefectures to a Khitan envoy, handing over the strategic barrier that protected the Central Plains for a thousand years, text overlay '割让燕云' in bold title, subtitle '向契丹借兵的代价 · 割让燕云十六州', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a long train with closed cattle cars departing into a blood-red sunset, the train tracks disappearing into the sea, a single hand reaching through a gap in the car before being pulled back, the ocean waves washing over the tracks, Latin American magical realism, text overlay '三十六节车厢' in bold title, subtitle '三千多具尸体被拉到海边倒进了海里', 1:1 square

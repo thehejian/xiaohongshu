@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a single lightning bolt illuminating the dark sky of an era, the words '天子宁有种耶' written across the clouds, illuminating the brutal truth of the Five Dynasties, text overlay '照亮乱世的话' in bold title, subtitle '这句话像闪电照亮了五代最黑暗的政治逻辑 · 从朱温到赵匡胤没人能反驳', 1:1 square

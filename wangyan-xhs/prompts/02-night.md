@@ -1,0 +1,1 @@
+Screen-print scene of a king secretly sneaking out of the palace in commoner clothes at night with a group of friends, heading to the pleasure districts of Chengdu, the emperor who loved freedom more than duty, text overlay '微服夜游' in bold title, subtitle '不务正业的皇帝 · 天天出宫鬼混', 1:1 square

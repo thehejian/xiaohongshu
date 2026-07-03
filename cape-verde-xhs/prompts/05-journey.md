@@ -1,0 +1,1 @@
+Football scene on a dusty pitch by the ocean in Cape Verde, young players of African Portuguese heritage training with a simple worn football, sunset lighting, ocean background, raw football passion in a developing nation, text overlay '从182到68' in bold gold title, subtitle 'FIFA排名跃升 · 青训改变命运' in white, 1:1 square format, cinematic documentary style

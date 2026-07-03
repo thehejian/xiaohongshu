@@ -1,0 +1,1 @@
+Screen-print heart-wrenching scene of a young woman dying in her husband's arms, her eyes closing peacefully despite the pain, her husband's face twisted in silent grief, a sad quiet room, a single candle, the innocent girl leaving the world too soon, Latin American magical realism, text overlay '她在奥雷里亚诺怀里死去' in bold title, subtitle '肚子里还怀着孩子', 1:1 square

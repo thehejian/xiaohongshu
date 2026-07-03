@@ -1,0 +1,1 @@
+Screen-print scene of a literary salon in Chengdu, eighteen poets gathered in a garden pavilion, scrolls of ci poetry hanging, a book titled Huajian Ji on display, deep teal and rose gold palette, halftone textures, text overlay '花间集十八词人五百首' in bold title, subtitle '前蜀成都文化沙龙 · 情歌创作天团', 1:1 square

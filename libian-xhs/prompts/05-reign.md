@@ -1,0 +1,1 @@
+Screen-print scene of a frugal emperor in a simple hall, no gold vessels, modest meals, scholars and students flourishing under his patronage, the golden age of Southern Tang culture, text overlay '仁政' in bold title, subtitle '减赋税奖农耕兴学校 · 大臣都不好意思穿太华丽 · 十国中最繁荣的文化', 1:1 square

@@ -1,0 +1,1 @@
+Minimal style tech advice card, dark navy gradient background (#0F172A to #1E293B), three recommendation blocks stacked vertically each with colored accent, text: '购买建议' as title, block 1 amber '推荐：小米全家桶用户 — 手机+摄像头+电视联动体验极佳', block 2 blue '推荐：普通家庭用户 — 手机空间不够·云盘太贵·监控没地存', block 3 gray '慎重：数码极客-Docker玩家 — 系统封闭，建议选绿联群晖', clean sophisticated design, no people, 1:1 square

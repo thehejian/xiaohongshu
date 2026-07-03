@@ -1,0 +1,1 @@
+Screen-print scene of a young one-eyed warrior fighting on horseback in a massive battle against the Huang Chao rebellion, single eye glowing with fierce determination, thousands of soldiers behind him, Tang dynasty battlefield, text overlay '飞虎子' in bold title, subtitle '十五岁领兵 · 替大唐镇压黄巢 · 战功卓著', 1:1 square

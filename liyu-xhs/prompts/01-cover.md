@@ -1,0 +1,1 @@
+Screen-print portrait of a melancholy Chinese emperor in scholar's robes, holding a wine cup and a brush, tears on his face, a scroll of poetry beside him, the contrast between imperial crown and poet's soul, text overlay '李煜' in bold title, subtitle '千古词帝 · 被皇位耽误的诗人', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print tense scene of Tang emperor being held in Fengxiang under the warlord's control, a puppet emperor and his powerful guardian, text overlay '挟天子' in bold title, subtitle '朱温劫昭宗到洛阳 · 李茂贞就把皇帝控制在凤翔', 1:1 square

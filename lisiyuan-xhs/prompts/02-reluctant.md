@@ -1,0 +1,1 @@
+Screen-print scene of soldiers kneeling before a hesitant general, offering him the imperial robe, the general refusing with raised hands but the crowd insisting, reluctant leadership, text overlay '被迫登基' in bold title, subtitle '士兵哗变拥立 · 他一开始不想接 · 是被人硬推上去的', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene inside a humble palace room, plain cloth curtains, no golden vessels, the emperor eating simple food with soldiers, breaking down golden vessels for military funding, text overlay '节俭' in bold title, subtitle '寝宫用布帘 · 金银器皿熔掉充军费 · 与士兵同食', 1:1 square

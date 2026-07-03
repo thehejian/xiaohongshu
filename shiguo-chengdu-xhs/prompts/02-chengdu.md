@@ -1,0 +1,1 @@
+Screen-print scene of a prosperous walled city beneath snow-capped mountains, the Jin River flowing past, peaceful gardens and lively markets within the walls of Chengdu, text overlay '成都' in bold title, subtitle '天府之国的安逸 · 前蜀后蜀的都城', 1:1 square

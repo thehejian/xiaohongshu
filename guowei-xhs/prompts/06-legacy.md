@@ -1,0 +1,1 @@
+Screen-print symbolic image of a simple clay urn beside a golden crown, the contrast between absolute power and absolute simplicity, a legacy of virtue in a brutal era, text overlay '乱世中的清流' in bold title, subtitle '乱世英雄常有 · 能克制自己的英雄不常有', 1:1 square

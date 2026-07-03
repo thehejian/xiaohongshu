@@ -1,0 +1,1 @@
+Screen-print scene of an abandoned ancient pass gradually being overtaken by nature, the crumbling walls visible near a modern town, the old pass replaced by a new road elsewhere, text overlay '废弃' in bold title, subtitle '东汉后黄河改道 · 函谷关失去军事价值被潼关取代', 1:1 square

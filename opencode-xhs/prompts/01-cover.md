@@ -1,0 +1,1 @@
+Modern terminal interface with code editor aesthetic, dark theme, green text on black background resembling a coding terminal, Matrix-style vibe, command prompt with auto-completion, clean developer tools aesthetic, text overlay 'opencode' in bold green terminal font, subtitle '开源AI编程助手' in white, bottom text '终端原生 · 多模型 · 隐私优先', 1:1 square format, coding terminal cinematic style

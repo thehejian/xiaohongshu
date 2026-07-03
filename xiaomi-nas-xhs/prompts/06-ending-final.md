@@ -1,0 +1,1 @@
+Minimal style tech ending CTA card, dark navy gradient background (#0F172A to #1E293B), centered text layout, text: 'Xiaomi 智能存储' in gold as title, subtitle '家庭私有云新选择', three bullet points '4TB 2299元起，预装硬盘开箱即用', '米家App操控，全家老少都能用', '已开启预约，各大电商平台可下单', bottom CTA button text '你会入手吗？评论区聊聊', clean sophisticated, no people, 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of a general being congratulated by courtiers, scrolls with emperor names displayed on a wall showing his sons-in-law: 柴荣赵匡胤赵光义, the unique family that connected two dynasties, text overlay '一家三后' in bold title, subtitle '五代到北宋的权力更替体现在符家的女婿名单上', 1:1 square

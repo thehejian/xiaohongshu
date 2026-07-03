@@ -1,0 +1,1 @@
+Screen-print portrait of an elderly but fierce Tang general holding a massive iron spear, gray hair and beard, battle scars on his face, a lone defiant figure against a burning battlefield, text overlay '王彦章' in bold title, subtitle '王铁枪 · 豹死留皮人死留名', 1:1 square

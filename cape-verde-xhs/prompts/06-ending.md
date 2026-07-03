@@ -1,0 +1,1 @@
+Beautiful wide panoramic shot of Cape Verde coastline with ocean waves, golden sunset over the Atlantic, peaceful and emotional atmosphere, a simple football goal silhouette on the beach, warm golden hour lighting, no people visible, text overlay '这就是足球最迷人的样子' in elegant white title, subtitle '不只豪门争霸 · 也看小国圆梦' in gold, 1:1 square format, cinematic emotional style

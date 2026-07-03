@@ -1,0 +1,1 @@
+Screen-print epic scene of ancient armies marching toward a narrow mountain pass, the Qin army defending from above, the allied forces of six kingdoms being stopped at the natural barrier, text overlay '六国攻秦' in bold title, subtitle '六国合纵每次打到函谷关就打不动了', 1:1 square

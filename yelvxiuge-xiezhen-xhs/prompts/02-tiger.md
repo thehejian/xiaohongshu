@@ -1,0 +1,1 @@
+Screen-print dramatic battle scene of a Khitan cavalry charge routing a much larger Song army, a general on horseback leading the charge, the might of the Khitan tiger unleashed, text overlay '契丹之虎' in bold title, subtitle '耶律休哥高梁河大败宋太宗 · 赵光义坐驴车逃跑', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a scholar in official robes standing where a general once stood, the shift from military rule to civil governance, the legacy of the wine party that changed China, text overlay '重文轻武' in bold title, subtitle '杯酒释兵权定下宋朝三百年文官治国基调', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of the Ming dynasty fortress in its prime, massive brick walls and watchtowers guarding the river crossing, the largest and most heavily fortified pass in Chinese history, text overlay '明代雄关' in bold title, subtitle '明代全国最大的军事要塞 · 城墙包砖极其坚固', 1:1 square

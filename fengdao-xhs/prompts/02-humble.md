@@ -1,0 +1,1 @@
+Screen-print scene of a humble peasant boy studying under a tree with a borrowed book, his family farming in the background, the beginning of a scholar's journey from nothing, text overlay '农家子' in bold title, subtitle '出身农家 · 凭能力和人品一路升到宰相', 1:1 square

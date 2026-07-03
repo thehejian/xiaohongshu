@@ -1,0 +1,1 @@
+Screen-print humorous scene of a king bowing to envoys from four different kingdoms simultaneously, gifts being sent in all directions, the art of pleasing everyone, text overlay '谁都不得罪' in bold title, subtitle '向后唐称臣也向吴国称臣 · 给楚国进贡也给前蜀送礼 · 见谁都鞠躬', 1:1 square

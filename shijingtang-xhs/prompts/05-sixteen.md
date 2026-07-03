@@ -1,0 +1,1 @@
+Screen-print scene of a map of China with the northern sixteen prefectures torn away, the Great Wall passes owned by Khitan horsemen, the Central Plains vulnerable and exposed for centuries, text overlay '燕云十六州' in bold title, subtitle '一割就是四百年 · 北宋始终没能收复 · 直到朱元璋', 1:1 square

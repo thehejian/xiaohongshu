@@ -1,0 +1,1 @@
+Minimal style tech feature list card, dark navy gradient background (#0F172A to #1E293B), four numbered feature items stacked vertically, text: '四大核心功能' as title, item 1 golden '01 手机相册自动备份 — 原图无损，AI智能分类生成家庭相册', item 2 blue '02 米家生态深度联动 — 摄像头录像自动保存，免云存储会员', item 3 green '03 家庭影音娱乐中心 — 4K原画电视直接放，无广告不限速', item 4 purple '04 隐私与安全保障 — 数据存家里硬盘，物理隔绝公有云', clean sophisticated, 1:1 square

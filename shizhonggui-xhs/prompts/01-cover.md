@@ -1,0 +1,1 @@
+Screen-print portrait of a Chinese emperor standing defiantly on a city wall, refusing to bow to a Khitan messenger, a torn document at his feet, young and fierce expression, text overlay '石重贵' in bold title, subtitle '称孙可以 · 称臣不行', 1:1 square

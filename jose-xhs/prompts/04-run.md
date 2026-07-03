@@ -1,0 +1,1 @@
+Screen-print scene of an enormous teenage boy running away from home, following a colorful gypsy caravan, his parents calling after him, his huge frame towering over the gypsies, excitement and adventure in his eyes, dusty road at sunset, Latin American magical realism, text overlay '大儿子跟吉普赛人跑了' in bold title, subtitle '身材巨大力大无穷 · 浑身刺青回来', 1:1 square

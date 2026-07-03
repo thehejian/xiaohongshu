@@ -1,0 +1,1 @@
+Screen-print atmospheric scene of a snow-covered Song palace at night, candlelight flickering in an isolated chamber, two silhouettes visible through the paper window, the night that changed the course of Chinese history, text overlay '烛光斧影' in bold title, subtitle '宋朝第一大悬案 · 雪夜弑兄还是自然死亡', 1:1 square

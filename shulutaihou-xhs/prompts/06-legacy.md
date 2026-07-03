@@ -1,0 +1,1 @@
+Screen-print symbolic image of a strong female silhouette standing tall against the northern sky, the legacy of the Khitan empire's most powerful woman, text overlay '铁腕太后' in bold title, subtitle '执掌辽国三十余年 · 中国历史上最强悍的女性统治者', 1:1 square

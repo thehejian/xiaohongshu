@@ -1,0 +1,1 @@
+Screen-print scene of Guangzhou port with ships from Southeast Asia, international merchants trading, a cosmopolitan port city under Southern Han, text overlay '海上贸易' in bold title, subtitle '开科取士发展海上贸易 · 广州成了繁荣的国际港口', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print tense scene of a minister being arrested by imperial guards in a government office, accusations of rebellion being read aloud, the tragedy of a loyal subject being destroyed by slander, text overlay '功高震主' in bold title, subtitle '被诬告谋反 · 李存勖听信谗言下令处死', 1:1 square

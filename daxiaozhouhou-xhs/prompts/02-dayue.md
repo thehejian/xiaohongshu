@@ -1,0 +1,1 @@
+Screen-print romantic scene of an emperor and his empress playing music together in a moonlit chamber, he on the flute she on the pipa, the harmonious and talented couple before tragedy struck, text overlay '琴瑟和鸣' in bold title, subtitle '大周后精通音律 · 和李煜恩爱无比', 1:1 square

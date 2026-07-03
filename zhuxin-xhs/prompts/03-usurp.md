@@ -1,0 +1,1 @@
+Screen-print dramatic scene of a Tang dynasty emperor being forced to abdicate by armored generals, an ornate palace hall, the empire's final moment, a weeping court, text overlay '篡唐' in bold title, subtitle '朱温杀了唐昭宗和唐哀帝 · 全忠其实一点也不忠', 1:1 square

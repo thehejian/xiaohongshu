@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs><linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF7F2"/><stop offset="100%" stop-color="#F3F0E8"/></linearGradient></defs>
+<rect width="1024" height="1024" fill="url(#bgG)"/><circle cx="81.92" cy="81.92" r="60" fill="#FEE2E2" opacity="0.5"/><circle cx="942.08" cy="122.88" r="50" fill="#DBEAFE" opacity="0.5"/><circle cx="81.92" cy="901.12" r="70" fill="#FFEDD5" opacity="0.4"/><circle cx="942.08" cy="798.72" r="80" fill="#EDE9FE" opacity="0.4"/>
+
+<text x="512" y="80" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="38" font-weight="800" fill="#1E293B">影响与启示</text>
+<text x="512" y="120" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="22" fill="#64748B">不止是一家公司的决策</text>
+
+<g transform="translate(62, 170)">
+<rect x="0" y="0" width="430" height="200" rx="16" fill="#FFFFFF" stroke="#EF4444" stroke-width="1.5"/>
+<text x="215" y="50" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="25" font-weight="700" fill="#EF4444">Qoder 接盘</text>
+<text x="215" y="90" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">阿里云编程助手</text>
+<text x="215" y="125" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">承接全部内部流量</text>
+<text x="215" y="160" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">国产替代再下一城</text>
+</g>
+
+<g transform="translate(532, 170)">
+<rect x="0" y="0" width="430" height="200" rx="16" fill="#FFFFFF" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="215" y="50" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="25" font-weight="700" fill="#3B82F6">行业连锁反应</text>
+<text x="215" y="90" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">其他大厂跟进审查</text>
+<text x="215" y="125" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">AI 工具安全标准</text>
+<text x="215" y="160" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">可能加速出台</text>
+</g>
+
+<g transform="translate(62, 400)">
+<rect x="0" y="0" width="430" height="200" rx="16" fill="#FFFFFF" stroke="#F97316" stroke-width="1.5"/>
+<text x="215" y="50" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="25" font-weight="700" fill="#F97316">开发者影响</text>
+<text x="215" y="90" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">阿里系员工立即切换</text>
+<text x="215" y="125" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">外部用户评估风险</text>
+<text x="215" y="160" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">多云工具链成趋势</text>
+</g>
+
+<g transform="translate(532, 400)">
+<rect x="0" y="0" width="430" height="200" rx="16" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="1.5"/>
+<text x="215" y="50" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="25" font-weight="700" fill="#8B5CF6">长远趋势</text>
+<text x="215" y="90" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">AI 工具安全审查</text>
+<text x="215" y="125" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">从加分项变必选项</text>
+<text x="215" y="160" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="18" fill="#64748B">安全大于效率</text>
+</g>
+
+<g transform="translate(62, 660)">
+<rect x="0" y="0" width="900" height="70" rx="35" fill="#FEE2E2" stroke="#EF4444" stroke-width="1"/>
+<text x="450" y="44" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#EF4444">AI 工具好用重要，安全更重要</text>
+</g>
+
+<text x="512" y="960" text-anchor="middle" font-family="ui-sans-serif,-apple-system,sans-serif" font-size="16" fill="#94A3B8">#阿里 #ClaudeCode #AI安全 #Qoder</text>
+
+</svg>

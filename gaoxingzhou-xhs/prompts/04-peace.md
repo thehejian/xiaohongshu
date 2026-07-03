@@ -1,0 +1,1 @@
+Screen-print scene of an elderly general surrounded by his children and grandchildren in a peaceful garden, the reward for outliving an era of bloodshed and chaos, text overlay '善终' in bold title, subtitle '被赵匡胤封为魏国公 · 七十多岁儿孙满堂安然离世', 1:1 square

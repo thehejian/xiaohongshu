@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a king walking away from his crown into a peaceful sunset, facing history's judgment, the crown on the ground replaced by a scholar's book, text overlay '明智还是软弱' in bold title, subtitle '投降比死更需要勇气 · 因为你要面对后世的骂名 · 他选择了百姓', 1:1 square

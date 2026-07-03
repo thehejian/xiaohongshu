@@ -1,0 +1,1 @@
+A solitary Mestizo Latino soldier with brown skin on horseback riding across a vast empty battlefield, dark clouds gathering overhead, dramatic lighting, oil painting style with Latin American warm earth tones, text overlay '32场起义' in bold, subtitle '全部失败 · 从未放弃', 1:1 square

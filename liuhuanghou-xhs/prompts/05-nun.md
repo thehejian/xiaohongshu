@@ -1,0 +1,1 @@
+Screen-print scene of a former empress in a simple nun's robe praying in a temple, the wealth and power stripped away, the tragic end of a greedy heart, text overlay '削发为尼' in bold title, subtitle '亡国后逃到寺庙当尼姑 · 被新皇帝绞死', 1:1 square

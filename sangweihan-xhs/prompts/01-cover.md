@@ -1,0 +1,1 @@
+Screen-print portrait of a gaunt scholar with intense eyes holding a brush and a map, the strategist who sold his soul for a kingdom, the most hated advisor in Chinese history, text overlay '桑维翰' in bold title, subtitle '铁砚磨穿的谋士 · 割让燕云十六州的推手', 1:1 square

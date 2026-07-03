@@ -1,0 +1,1 @@
+Data visualization style card showing impressive open source metrics, large numbers '160K ⭐' and '7.5M 🧑‍💻' and '900 👥' displayed prominently, modern dark design with glow effects, GitHub contribution graph aesthetic, text overlay '开源社区' in bold, subtitle '160K GitHub星星 · 每月750万开发者 · 900+贡献者', 1:1 square format, data visualization style

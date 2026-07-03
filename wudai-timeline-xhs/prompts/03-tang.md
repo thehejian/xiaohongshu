@@ -1,0 +1,1 @@
+Screen-print dramatic scene of a timeline marker shifting from Later Liang to Later Tang, a sequence of rulers shown in quick succession: Li Cunxu, Li Siyuan, Li Congke, text overlay '后唐' in bold title, subtitle '923李存勖灭梁 · 926兵变 · 石敬瑭引契丹灭唐', 1:1 square

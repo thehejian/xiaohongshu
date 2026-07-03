@@ -1,0 +1,1 @@
+Screen-print symbolic scene of an ancient tree standing tall through storms, its roots deep and branches wide, surviving where weaker trees fell, text overlay '活得久就是本事' in bold title, subtitle '在乱世中活得久本身就是最大的本事', 1:1 square

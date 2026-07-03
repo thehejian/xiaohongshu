@@ -1,0 +1,1 @@
+Screen-print ceremony scene of a former king kneeling before the Song emperor, formally surrendering his kingdom's seal and maps, the Song court receiving, a peaceful transfer of power, text overlay '献土' in bold title, subtitle '没有流血 · 没有屠城 · 杭州躲过了最残酷的战火', 1:1 square

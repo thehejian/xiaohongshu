@@ -1,0 +1,1 @@
+Dramatic football scene showing a devastated South Korean player sitting on the pitch after a failed qualification match, stadium lights, emotional moment, dark rainy atmosphere, text overlay '韩国无缘2026世界杯' in bold title, subtitle '连续两届未能出线' in white, 1:1 square, sports documentary style, Korean players in red jerseys

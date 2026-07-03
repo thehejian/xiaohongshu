@@ -1,0 +1,1 @@
+Screen-print scene of a petty criminal escaping from jail, joining a military unit, the transformation from rogue to soldier in late Tang chaos, the raw beginnings of a founding king, text overlay '贩私盐起家' in bold title, subtitle '河南舞阳人 · 年轻时是个无赖 · 从囚犯到小兵到节度使', 1:1 square

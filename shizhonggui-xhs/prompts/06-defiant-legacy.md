@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a man standing alone against a vast northern wind, never bending, a beacon of defiance in a sea of compliance, text overlay '骨气' in bold title, subtitle '他不是最有能力的皇帝 · 但他是五代唯一硬刚契丹的皇帝 · 不跪的人太少', 1:1 square

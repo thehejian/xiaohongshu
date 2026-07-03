@@ -1,0 +1,1 @@
+Screen-print scene of a giant tattooed man marrying a pale intense woman in a tropical house, a disapproving mother-in-law watching with folded arms, the couple defiant, the house shaking under the weight of his presence, passionate forbidden romance atmosphere, Latin American magical realism, text overlay '娶了养女蕾贝卡' in bold title, subtitle '气得乌尔苏拉差点赶他出门 · 成了最有钱的人之一', 1:1 square

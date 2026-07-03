@@ -1,0 +1,1 @@
+Screen-print symbolic scene of autumn wind blowing through an empty mountain pass today, the fortress walls in ruins but the mountain peaks still standing guard, the eternal landscape outlasting the empires that fought for it, text overlay '大散关怀古' in bold title, subtitle '关城倾圮山势依旧 · 铁马秋风已成诗篇', 1:1 square

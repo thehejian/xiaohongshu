@@ -1,0 +1,1 @@
+Screen-print scene of an elderly general on a black horse charging into an army of younger soldiers, wielding an iron spear that looks too heavy for any man to lift, raw courage and defiance, text overlay '王铁枪' in bold title, subtitle '一百多斤的铁枪 · 每次冲锋扛着上阵 · 敌人听到马蹄声就想跑', 1:1 square

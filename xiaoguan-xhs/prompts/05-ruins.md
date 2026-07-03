@@ -1,0 +1,1 @@
+Screen-print scene of a crumbling fortress wall in an empty valley, sheep grazing around the ruins, the once-formidable pass now just another part of the peaceful landscape, text overlay '遗迹' in bold title, subtitle '黄土残墙大漠孤烟 · 今日宁夏固原境内的遗址', 1:1 square

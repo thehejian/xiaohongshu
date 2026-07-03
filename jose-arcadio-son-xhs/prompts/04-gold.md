@@ -1,0 +1,1 @@
+Screen-print scene of a man frantically digging under floorboards in a dusty abandoned room, finding three heavy sacks of gold coins, his eyes lit up with greed, golden treasure spilling out, dust motes dancing in the light, crumbling walls around him, dramatic warm lighting, Latin American magical realism, text overlay '挖出三袋金币' in bold title, subtitle '乌尔苏拉藏了一辈子的家底', 1:1 square

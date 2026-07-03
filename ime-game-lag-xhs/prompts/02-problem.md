@@ -1,0 +1,1 @@
+Gameplay screen showing CS2 or Valorant with stuttering effect visualized, frame time graph showing spikes, a ghostly Windows IME keyboard icon hovering in corner as the culprit, dramatic gaming atmosphere with dark background, red alert style, text overlay '罪魁祸首：微软拼音输入法' in bold red Chinese title, subtitle '后台偷偷吃性能，游戏帧率直接崩' in white, 1:1 square format, gaming monitor POV style

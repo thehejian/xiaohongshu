@@ -1,0 +1,1 @@
+Screen-print portrait of a Khitan emperor in disheveled imperial robes, half-asleep on his throne, a wine cup in hand, the only emperor in history known for sleeping too much, text overlay '辽穆宗' in bold title, subtitle '外号睡王的皇帝 · 一天到晚睡大觉', 1:1 square

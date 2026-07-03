@@ -1,0 +1,1 @@
+Screen-print scene of an elderly Gabriel Garcia Marquez at his typewriter, pages scattered around him, the first sentence and last sentence of Cien Anos de Soledad visible on a single page, the old gypsy Melquiades standing behind him whispering, Latin American magical realism, text overlay '马尔克斯说' in bold title, subtitle '找到开头以后就知道这本书写完了', 1:1 square

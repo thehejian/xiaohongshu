@@ -1,0 +1,1 @@
+Screen-print scene of an old woman Ursula holding a newborn baby, her face full of worry, family members crowded around, the baby's foot visible wrapped in cloth, a sense of dread about what name to give him, candlelight flickering, Latin American magical realism, text overlay '千万别叫他奥雷里亚诺或何塞·阿尔卡蒂奥' in bold title, subtitle '叫别的吧 · 但最后还是没躲过', 1:1 square

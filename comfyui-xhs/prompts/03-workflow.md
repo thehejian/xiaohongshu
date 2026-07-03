@@ -1,0 +1,1 @@
+Abstract visualization of a connected node network, colorful glowing nodes linked by flowing lines, representing a neural network or workflow pipeline, dark background with neon blue/purple/pink connections, tech visualization aesthetic, text overlay '工作流可视化' in bold title, subtitle '每一步都精确可控' in white, 1:1 square, tech abstract style

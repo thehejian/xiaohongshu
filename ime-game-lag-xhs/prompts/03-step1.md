@@ -1,0 +1,1 @@
+Windows settings interface screenshot style showing Language and Region settings panel, a hand clicking 'Add a language' button, clean modern Windows 11 UI style, English (United States) being selected, step-by-step visual guide, text overlay 'Step 1: 添加英语键盘' in bold Chinese title, smaller subtitle '设置 → 时间和语言 → 语言和区域 → 添加语言' in white, 1:1 square format, UI tutorial style

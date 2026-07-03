@@ -1,0 +1,1 @@
+Screen-print touching scene of a dying old general holding his adopted son's hand, passing on his legacy to the young warrior who would continue his cause, text overlay '托付' in bold title, subtitle '李克用临终把儿子托给义子 · 李存勖灭梁称帝', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of a banquet in a fortress hall, a Chu king raising his cup to toast, Qin soldiers suddenly surrounding the table, the moment of betrayal that ended an alliance, text overlay '诱捕楚怀王' in bold title, subtitle '秦昭王在武关设宴诱捕楚怀王 · 楚国从此一蹶不振', 1:1 square

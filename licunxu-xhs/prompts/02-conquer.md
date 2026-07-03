@@ -1,0 +1,1 @@
+Screen-print epic battle scene of a young general leading a cavalry charge through enemy lines, dragon banner waving, overwhelming victory, the annihilation of Later Liang, text overlay '灭梁' in bold title, subtitle '替父报仇 · 攻入开封 · 活捉朱温后人 · 建立后唐', 1:1 square

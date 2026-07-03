@@ -1,0 +1,1 @@
+Screen-print portrait of a beautiful Tang-style lady holding a brush, a poem scroll beside her, the most famous female poet of the Five Dynasties era, graceful yet sorrowful expression, text overlay '花蕊夫人' in bold title, subtitle '十四万人齐解甲更无一个是男儿', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of two identical Mestizo Latino boys age 10, same face, swapping their clothes and laughing in a colonial courtyard, their mother standing confused in the background unable to tell them apart, warm tropical light, mischievous yet mysterious atmosphere, Latin American magical realism, text overlay '连亲妈都分不清' in bold title, subtitle '不断交换身份 · 活成对方的人生', 1:1 square

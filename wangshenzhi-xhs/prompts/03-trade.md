@@ -1,0 +1,1 @@
+Screen-print scene of construction in a medieval Chinese port, ships arriving from Southeast Asia, merchants trading in the harbor, warehouses and docks being built, the birth of maritime trade, text overlay '海上贸易' in bold title, subtitle '福州泉州成了港口重镇 · 万商云集 · 海上丝绸之路的起点', 1:1 square

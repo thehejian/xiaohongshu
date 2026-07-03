@@ -1,0 +1,1 @@
+Dark comedy scene inspired by Takeshi Kitano's master's funeral (master was cremated), a comedian giving a speech at a traditional Japanese funeral podium, absurdist atmosphere, mourners in black, ironic mood, anime-style dramatic clouds, text overlay '师傅被烧死，他在葬礼上说' in bold, punchline subtitle '火葬场应该给打折吧', 1:1 square format, dark comedy anime style

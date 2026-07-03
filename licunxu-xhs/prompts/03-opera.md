@@ -1,0 +1,1 @@
+Screen-print scene inside an ancient Chinese palace hall transformed into a theater, a man in luxurious robes on a decorated stage, court musicians and performers gathered, the atmosphere of a royal entertainment, text overlay '李天下' in bold title, subtitle '皇帝给自己取艺名 · 和戏子同吃同住 · 封伶人当大官', 1:1 square

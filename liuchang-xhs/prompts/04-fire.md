@@ -1,0 +1,1 @@
+Screen-print scene of a king setting fire to his own palace before surrendering, flames rising behind him as he walks away, scorched earth out of spite, text overlay '焚宫' in bold title, subtitle '投降前一把火烧了宫殿 · 不能留给宋朝人', 1:1 square

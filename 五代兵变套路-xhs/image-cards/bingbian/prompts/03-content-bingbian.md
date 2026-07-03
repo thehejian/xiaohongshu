@@ -1,0 +1,1 @@
+Screen-print scene of Zhao Kuangyin in golden yellow robe, surrounded by kneeling soldiers at Chenqiao post station, dawn sky with omens, crimson and gold palette, halftone dot textures, text overlay '赵匡胤陈桥兵变黄袍加身' in bold title, subtitle '公元960年 · 十年后同款剧本重演', 1:1 square

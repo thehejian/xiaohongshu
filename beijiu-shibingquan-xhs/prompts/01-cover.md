@@ -1,0 +1,1 @@
+Screen-print dramatic scene of an emperor hosting a banquet for his generals in a grand hall, wine cups raised in a toast, tension hidden beneath the smiles, the most famous drinking party in Chinese history, text overlay '杯酒释兵权' in bold title, subtitle '一顿酒终结了五代八十年乱世', 1:1 square

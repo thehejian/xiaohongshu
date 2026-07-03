@@ -1,0 +1,1 @@
+Screen-print scene of a bustling port city with foreign ships at anchor, merchants from across the seas trading in the markets of Guangzhou, the international face of the Ten Kingdoms, text overlay '广州' in bold title, subtitle '海上丝绸之路的明珠 · 南汉的国际商港', 1:1 square

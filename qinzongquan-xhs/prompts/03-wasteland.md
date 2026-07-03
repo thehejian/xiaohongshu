@@ -1,0 +1,1 @@
+Screen-print scene of an entire region turned into wasteland, empty villages, abandoned fields, not a single living soul visible, the aftermath of a warlord's reign, text overlay '赤地千里' in bold title, subtitle '他的地盘上赤地千里无复人烟 · 最繁华的地区变成地狱', 1:1 square

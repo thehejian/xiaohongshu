@@ -1,0 +1,1 @@
+Screen-print symbolic image of a man's silhouette against a four-hundred-year timeline, the price of one decision echoing across centuries, a heavy historical judgment, text overlay '四百年之债' in bold title, subtitle '一个人为了活命 · 让整个中原付出了四百年的代价', 1:1 square

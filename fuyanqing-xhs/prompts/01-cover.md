@@ -1,0 +1,1 @@
+Screen-print portrait of a robust dignified general in fine official robes, three empress crowns floating above him, the proud father-in-law of three emperors, text overlay '符彦卿' in bold title, subtitle '三个女儿都当了皇后 · 岳父界的天花板', 1:1 square

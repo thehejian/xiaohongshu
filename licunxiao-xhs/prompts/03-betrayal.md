@@ -1,0 +1,1 @@
+Screen-print scene of a jealous brother whispering slander in a commander's ear, the heroic general being accused and unable to defend himself, political intrigue and betrayal among family, text overlay '猜忌' in bold title, subtitle '义兄李存信嫉妒战功 · 不断在李克用面前说坏话 · 逼到走投无路', 1:1 square

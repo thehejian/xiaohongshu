@@ -1,0 +1,1 @@
+Stylized Japanese scene showing the duality of life, a man walking two paths simultaneously - one serious and artistic, one joyful and carefree, split composition, Japanese aesthetic with cherry blossom petals, warm nostalgic lighting, text overlay '滚烫的人生' in bold calligraphy, subtitle '虽然辛苦，我还是会选择那种滚烫的人生', 1:1 square format, artistic Japanese style

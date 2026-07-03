@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#FAF7F2"/>
+  <rect x="0" y="0" width="1024" height="6" fill="#B91C1C"/>
+
+  <rect x="60" y="120" width="904" height="720" rx="16" fill="#FFFFFF" opacity="0.88"/>
+  <rect x="60" y="120" width="904" height="6" rx="3" fill="#B91C1C"/>
+
+  <text x="80" y="180" font-family="sans-serif" font-size="18" fill="#B91C1C" font-weight="700" letter-spacing="2">历史脉络</text>
+
+  <text x="512" y="280" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="44" font-weight="700" fill="#1E293B" letter-spacing="4">怎么来的</text>
+  <line x1="350" y1="310" x2="674" y2="310" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <text x="512" y="410" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="24" fill="#64748B" letter-spacing="1">黄巢起义 → 唐朝中央崩溃</text>
+  <text x="512" y="460" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="24" fill="#64748B" letter-spacing="1">节度使割据 → 朱温灭唐建梁</text>
+  <text x="512" y="510" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="24" fill="#64748B" letter-spacing="1">谁都不服谁 → 各自称帝称王</text>
+
+  <line x1="200" y1="560" x2="824" y2="560" stroke="#E2E8F0" stroke-width="1"/>
+
+  <text x="512" y="640" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="44" font-weight="700" fill="#1E293B" letter-spacing="4">怎么没的</text>
+  <line x1="350" y1="670" x2="674" y2="670" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <text x="512" y="760" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="24" fill="#64748B" letter-spacing="1">赵匡胤陈桥兵变 → 北宋建立 → 逐个消灭各国</text>
+
+  <text x="942" y="980" text-anchor="end" font-family="sans-serif" font-size="14" fill="#E2E8F0">4/6</text>
+</svg>

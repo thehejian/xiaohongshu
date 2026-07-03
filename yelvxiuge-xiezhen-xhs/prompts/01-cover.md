@@ -1,0 +1,1 @@
+Screen-print epic portrait of two Khitan generals standing side by side on a battlefield, one with a tiger-like fierce expression and heavy armor, the other with a wolf-like cunning gaze and lighter armor, two legendary brothers-in-arms of the Khitan empire, text overlay '耶律休哥·耶律斜轸' in bold title, subtitle '契丹双子星 · 一虎一狼 · 大宋的噩梦', 1:1 square

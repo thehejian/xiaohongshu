@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a wine cup being offered to a poet on a summer night, fireflies in the dark, the Qixi festival atmosphere, but the cup holds poison, a birthday turned into a death day, text overlay '七夕赐死' in bold title, subtitle '小楼昨夜又东风 · 故国不堪回首月明中 · 触怒赵光义', 1:1 square

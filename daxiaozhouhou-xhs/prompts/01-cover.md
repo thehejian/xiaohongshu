@@ -1,0 +1,1 @@
+Screen-print portrait of two beautiful Tang-style sisters standing together, one gazing at the viewer with a musical pipa in hand, the other looking downward with a flower in her hair, the tragic beauties of Southern Tang, text overlay '大小周后' in bold title, subtitle '嫁给同一个男人的亲姐妹 · 都活成了悲剧', 1:1 square

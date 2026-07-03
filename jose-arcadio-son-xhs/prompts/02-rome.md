@@ -1,0 +1,1 @@
+Screen-print scene of a young Mestizo Latino man in a cassock standing in front of St Peter's Basilica in Rome, looking conflicted, gambling dice visible in one hand hidden behind his back, holy book in the other, split between piety and debauchery, dramatic European light, Latin American magical realism, text overlay '去罗马当教皇？' in bold title, subtitle '他在欧洲学会了赌博和挥霍', 1:1 square

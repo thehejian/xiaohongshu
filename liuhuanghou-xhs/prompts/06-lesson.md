@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a broken treasure chest and a fallen crown on the floor, jewels scattered, the cost of greed in an age of chaos, text overlay '抠门亡国' in bold title, subtitle '后唐不是被敌人打垮的是被一个女人抠垮的', 1:1 square

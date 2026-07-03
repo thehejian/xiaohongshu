@@ -1,0 +1,1 @@
+Screen-print scene of a king receiving tribute from a neighbor and then pretending to forget to return the favor, a cheeky survival strategy, text overlay '赖账大师' in bold title, subtitle '向各国要赏赐拿到手就赖着不还 · 打他不划算留着没威胁', 1:1 square

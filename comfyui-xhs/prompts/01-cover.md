@@ -1,0 +1,1 @@
+Modern dark UI screenshot of ComfyUI node-based workflow interface, interconnected colorful nodes with lines showing the Stable Diffusion generation pipeline, a complex but organized network of processing blocks, dark theme with vibrant node colors, text overlay 'ComfyUI' in bold white title, subtitle '节点式AI绘画工作流' in light blue, 1:1 square, UI screenshot style

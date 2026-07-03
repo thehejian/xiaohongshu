@@ -1,0 +1,1 @@
+Screen-print poignant scene of a dying general on his deathbed, handing three arrows to his young son, the son kneeling with a solemn face, a window showing dawn breaking over the battlefield, text overlay '三支箭的遗命' in bold title, subtitle '给朱温报仇 · 灭刘仁恭 · 逐契丹 · 儿子替我完成', 1:1 square

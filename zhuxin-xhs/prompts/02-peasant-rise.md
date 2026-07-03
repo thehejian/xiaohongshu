@@ -1,0 +1,1 @@
+Screen-print scene of a ragged young man joining a massive peasant rebellion army, worn clothes and desperate eyes, torches and chaos in background, rising from nothing, Five Dynasties period, text overlay '草根崛起' in bold title, subtitle '从乞丐到黄巢义军将领 · 乱世给了每个人机会', 1:1 square

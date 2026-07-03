@@ -1,0 +1,1 @@
+Screen-print scene of Hangzhou's city construction, pagodas rising, canals being dug, the West Lake being dredged, a vision of urban planning unfolding across the landscape, text overlay '建造天堂' in bold title, subtitle '疏浚西湖 · 修建苏州杭州城 · 人间天堂的底子是他打的', 1:1 square

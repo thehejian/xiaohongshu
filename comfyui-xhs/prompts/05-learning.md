@@ -1,0 +1,1 @@
+Abstract learning curve visualization, a steep mountain path with a person climbing, reaching the top where a bright light and creative tools await, representing the journey of mastering a complex tool, text overlay '熬过前三天' in bold title, subtitle '你会发现新世界' in white, 1:1 square, motivational creative style

@@ -1,0 +1,1 @@
+Screen-print scene of a beautiful lady and her emperor husband in a lavish Shu palace garden, the good times of the Later Shu kingdom, a love story in a doomed kingdom, text overlay '后蜀' in bold title, subtitle '孟昶的宠妃 · 两人在后蜀度过了最快乐的时光', 1:1 square

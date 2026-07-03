@@ -1,0 +1,1 @@
+Screen-print scene of a new ruler (Li Bian) ascending the throne, the foundation laid by his foster father allowing him to build a great kingdom, passing the torch without bloodshed, text overlay '完美的接力' in bold title, subtitle '养子建立南唐 · 没有徐温就没有后来的南唐', 1:1 square

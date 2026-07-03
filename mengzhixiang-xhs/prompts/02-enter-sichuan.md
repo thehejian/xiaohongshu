@@ -1,0 +1,1 @@
+Screen-print scene of a general leading an army through the treacherous mountain roads into Sichuan, crossing plank roads on cliff faces, the gateway to a promised land, text overlay '入蜀' in bold title, subtitle '李存勖派他入蜀平乱 · 带着家眷和亲信入驻成都', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of the king bowing respectfully toward the north while his own kingdom flourishes behind him, a diplomatic balance between independence and humility, text overlay '尊奉中原' in bold title, subtitle '从不称帝 · 闽中能独立于乱世靠的是和中原搞好关系', 1:1 square

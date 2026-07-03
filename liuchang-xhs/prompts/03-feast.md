@@ -1,0 +1,1 @@
+Screen-print scene of an extravagant palace banquet with the king feasting while messengers arrive with news of Song invasion, the last days of Nan Han, text overlay '醉生梦死' in bold title, subtitle '宋朝大军南下 · 刘鋹还在吃喝玩乐', 1:1 square

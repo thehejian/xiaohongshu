@@ -1,0 +1,1 @@
+Screen-print scene of a half-empty palace treasury, starving soldiers at the gate while richly dressed performers feast inside, inequity between military and entertainers, a kingdom rotting from within, text overlay '荒政' in bold title, subtitle '士兵吃不饱 · 伶人挥金如土 · 功臣被排挤 · 小人占朝堂', 1:1 square

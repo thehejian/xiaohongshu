@@ -1,0 +1,1 @@
+Screen-print scene of West Lake in Hangzhou, a grand palace treasury overflowing with gold, first place gold medal, peaceful prosperous kingdom, deep teal and gold palette, halftone textures, text overlay '第一名吴越国富甲天下' in bold title, subtitle '钱氏善事中原修海塘 · 府库比北宋朝廷还充实', 1:1 square

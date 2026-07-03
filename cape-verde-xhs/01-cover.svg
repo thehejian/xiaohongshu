@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#0B1628"/>
+  <rect x="0" y="0" width="1024" height="12" fill="#D4A843"/>
+
+  <text x="512" y="280" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="56" font-weight="900" fill="#FFFFFF" letter-spacing="4">佛得角</text>
+  <text x="512" y="360" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="40" font-weight="700" fill="#D4A843" letter-spacing="6">历史首次</text>
+  <text x="512" y="440" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="48" font-weight="900" fill="#FFFFFF" letter-spacing="4">世界杯淘汰赛</text>
+
+  <line x1="300" y1="500" x2="724" y2="500" stroke="#D4A843" stroke-width="4"/>
+
+  <text x="512" y="580" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="24" fill="#8899AA" letter-spacing="4">50万人口 · 非洲岛国 · 蓝鲨</text>
+
+  <rect x="310" y="680" width="404" height="56" fill="#D4A843"/>
+  <text x="512" y="717" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="26" fill="#0B1628" font-weight="900" letter-spacing="2">美加墨世界杯 · 2026</text>
+
+  <text x="942" y="980" text-anchor="end" font-family="sans-serif" font-size="14" fill="#1A2A40">SCREEN 1/6</text>
+</svg>

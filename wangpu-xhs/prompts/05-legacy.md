@@ -1,0 +1,1 @@
+Screen-print scene of Song armies marching south to conquer the southern kingdoms, following the exact route Wang Pu had drawn on his map years earlier, text overlay '路线图' in bold title, subtitle '赵匡胤全盘继承王朴战略 · 北宋统一按他的路线走', 1:1 square

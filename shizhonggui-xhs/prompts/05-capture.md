@@ -1,0 +1,1 @@
+Screen-print scene of a captured Chinese emperor being led away in chains by Khitan soldiers, Kaifeng's gates behind him, the price of defiance paid in full, text overlay '被俘' in bold title, subtitle '开封被攻破 · 封为负义侯 · 押送到契丹建州', 1:1 square

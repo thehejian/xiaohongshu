@@ -1,0 +1,1 @@
+Screen-print symbolic scene of an old iron spear rusting on a hill, the sunset casting long shadows, a lone flag still standing, the idea that some things are worth dying for even when the cause is lost, text overlay '忠义' in bold title, subtitle '他用死证明了一件事 · 乱世中依然有值得坚守的东西', 1:1 square

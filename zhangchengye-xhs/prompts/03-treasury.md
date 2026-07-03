@@ -1,0 +1,1 @@
+Screen-print scene of a eunuch counting coins in a treasury, stacks of gold and silver neatly arranged, the financial backbone of an empire he managed without stealing a single coin, text overlay '管钱' in bold title, subtitle '后唐大管家每一分钱都用刀刃上自己不贪一分', 1:1 square

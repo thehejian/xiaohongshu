@@ -1,0 +1,1 @@
+Screen-print scene of a Khitan emperor receiving a kneeling Chinese general, the map of sixteen prefectures being presented as tribute, the great exchange of power and territory between two civilizations, text overlay '燕云十六州' in bold title, subtitle '石敬瑭求援 · 拿到燕云十六州等于在大门口挂上一把锁', 1:1 square

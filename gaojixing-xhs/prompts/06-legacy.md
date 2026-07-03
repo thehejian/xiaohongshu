@@ -1,0 +1,1 @@
+Screen-print symbolic scene of an ant surviving safely between the feet of giant elephants, the small kingdom that lasted forty years through pure political instinct, text overlay '四十年的奇迹' in bold title, subtitle '在狼群中苟活四十年 · 不是靠武力 · 是精确的政治嗅觉', 1:1 square

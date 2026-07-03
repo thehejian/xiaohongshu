@@ -1,0 +1,1 @@
+Screen-print portrait of a powerful regent sitting behind a curtain, a young puppet emperor on the throne in front of him, the shadow ruler who held real power without the title, text overlay '徐温' in bold title, subtitle '影子皇帝 · 不想当皇帝的掌权者', 1:1 square

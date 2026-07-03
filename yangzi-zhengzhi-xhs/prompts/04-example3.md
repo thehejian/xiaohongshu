@@ -1,0 +1,1 @@
+Screen-print scene of an old regent (Xu Wen) teaching a young orphan (Li Bian) how to read, the rescued boy who would grow up to found the great Southern Tang kingdom, text overlay '徐温·李昪' in bold title, subtitle '徐温收养孤儿精心培养 · 李昪后来建立南唐', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print epic scene of a massive rebel army marching from Shandong all the way to Guangzhou and turning back north, a river of humanity sweeping across the map of China, torches and banners at night, text overlay '冲天' in bold title, subtitle '从山东到广州再从广州回师北上 · 四年攻入长安', 1:1 square

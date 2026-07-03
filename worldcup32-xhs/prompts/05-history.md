@@ -1,0 +1,1 @@
+Historic World Cup moments collage showing Korea's 2002 semi-final run and 2010 round of 16, nostalgic sepia-toned memories fading to gray, representing the decline of Korean football, text overlay '2002四强 → 连续缺席' in title, subtitle '韩国足球的黄金时代已过？' in white, 1:1 square, nostalgic sports documentary style

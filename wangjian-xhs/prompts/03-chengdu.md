@@ -1,0 +1,1 @@
+Screen-print scene of a new emperor in Chengdu's palace, surrounded by scholars and books, the founding of a cultural refuge for those fleeing central China's wars, text overlay '成都称帝' in bold title, subtitle '收留中原逃难文人 · 刻印典籍兴办学校 · 蜀中文化从此繁荣', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene showing 907 to 923, a Tang palace being replaced by a Liang banner, the end of the great Tang dynasty and the beginning of chaos, text overlay '后梁' in bold title, subtitle '907朱温灭唐建后梁 · 五代开始', 1:1 square

@@ -1,0 +1,1 @@
+Split screen showing two coding terminal sessions running side by side, both with active AI agents working on different files, multitasking visual, dark terminal theme, code scrolling in both windows, text overlay '多会话并行' in bold, subtitle '同时开多个Agent干活 · 互不干扰', 1:1 square format, coding terminal split screen style

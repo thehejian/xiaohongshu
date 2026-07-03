@@ -1,0 +1,1 @@
+Screen-print tense scene of men escaping through a mountain pass at dawn, roosters crowing around them, guards opening the gate begrudgingly, the famous chicken-and-dog trick, text overlay '鸡鸣狗盗' in bold title, subtitle '孟尝君靠门客装鸡叫骗开关门逃出秦国', 1:1 square

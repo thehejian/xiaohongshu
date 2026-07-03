@@ -1,0 +1,1 @@
+Screen-print summary scene of a soldier's hand holding a imperial seal, an army camp behind, emperor's palace in distance, the chain of military power, crimson gold dark navy palette, halftone print grain, text overlay '谁掌握禁军谁当皇帝' in bold title, subtitle '五代是兵变的时代 · 枪杆子里出政权', 1:1 square

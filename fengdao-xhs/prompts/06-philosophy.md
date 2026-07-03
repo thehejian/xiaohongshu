@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a sturdy old tree standing in a storm, wolves and tigers prowling at its base but unable to knock it down, a single lantern illuminating its trunk, text overlay '狼虎丛中立身' in bold title, subtitle '在乱世中活下去并做实事 · 是不是比抱着道德自尽更有意义', 1:1 square

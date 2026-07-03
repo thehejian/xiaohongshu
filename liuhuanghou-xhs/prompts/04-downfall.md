@@ -1,0 +1,1 @@
+Screen-print chaotic scene of a battlefield with the emperor being shot by arrows, the empire collapsing around him, the result of an army that was never paid, text overlay '兵变' in bold title, subtitle '士兵没拿到赏钱纷纷投降叛军 · 李存勖被射杀', 1:1 square

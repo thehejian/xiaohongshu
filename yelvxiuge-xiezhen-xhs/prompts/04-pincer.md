@@ -1,0 +1,1 @@
+Screen-print epic battle scene of two Khitan armies converging from north and south, crushing a Song army in a pincer movement, the peak of Khitan-Song warfare, text overlay '雍熙北伐' in bold title, subtitle '南北夹击大败曹彬 · 宋军主力溃不成军', 1:1 square

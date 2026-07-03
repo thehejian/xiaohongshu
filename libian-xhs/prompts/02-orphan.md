@@ -1,0 +1,1 @@
+Screen-print poignant scene of a small orphan boy wandering alone on a road, ragged and starving, until a general's army finds him and takes him in, the turning point of a life, text overlay '流浪孤儿' in bold title, subtitle '六岁丧父七岁丧母流落濠州 · 杨行密发现他收为养子', 1:1 square

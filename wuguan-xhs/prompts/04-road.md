@@ -1,0 +1,1 @@
+Screen-print scene of an ancient road winding through the mountains, traces of centuries of travelers carved into the stone, the Shangwu ancient road that connected the Central Plains with Guanzhong, text overlay '商於古道' in bold title, subtitle '历代文人过武关留下无数诗篇 · 马蹄声中的千年古道', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of a drunken emperor partying alone in the palace at night, surrounded by empty wine jugs, the solitary debauchery of a king who lost interest in ruling, text overlay '醉生梦死' in bold title, subtitle '不理朝政 · 每天关在宫里喝酒', 1:1 square

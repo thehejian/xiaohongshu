@@ -1,0 +1,1 @@
+Screen-print scene of a warm earthy woman and a large man dancing in a rustic house, their passion creating magical sparks around them, animals outside multiplying miraculously, cows giving twin calves, chickens laying double eggs, abundance and joy overflowing, Latin American magical realism, text overlay '佩特拉·科特斯' in bold title, subtitle '一团火 · 她的爱让牲口疯狂繁殖', 1:1 square

@@ -1,0 +1,1 @@
+Modern minimal desktop application window floating above a laptop, showing the OpenCode desktop app interface, sleek dark mode design, coding interface with file tree and terminal, premium software product shot, text overlay '桌面端App' in bold, subtitle 'macOS · Windows · Linux', 1:1 square format, clean software product style

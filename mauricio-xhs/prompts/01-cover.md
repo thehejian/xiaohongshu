@@ -1,0 +1,1 @@
+Screen-print portrait of a handsome Mestizo Latino young man with mechanic's hands, covered in engine grease, surrounded by a swirling cloud of bright yellow butterflies, their wings forming a halo around his face, warm golden light, romantic, magical, Latin American magical realism, text overlay '马乌里肖·巴比洛尼亚' in bold title, subtitle '身上总沾着机油和汗味 · 有黄色蝴蝶的男人', 1:1 square

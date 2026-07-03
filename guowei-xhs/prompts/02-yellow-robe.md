@@ -1,0 +1,1 @@
+Screen-print scene of soldiers draping a yellow robe over a surprised general's shoulders, reluctant emperor being pushed to power, echoes of history repeating, text overlay '黄袍加身' in bold title, subtitle '被部下黄袍加身 · 赵匡胤后来学的就是他', 1:1 square

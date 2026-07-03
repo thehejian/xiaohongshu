@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a three-stage cycle: a rough stone, a polished gem, then shattered pieces, the pattern of founding brilliance and inherited decay, text overlay '轮回' in bold title, subtitle '文盲开国文化治国儿子败国 · 五代十国很多国家的轮回', 1:1 square

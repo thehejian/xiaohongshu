@@ -1,0 +1,1 @@
+Screen-print scene of tea being loaded onto boats on a Hunan river, trade routes heading north, the economy of a kingdom built on a leaf, text overlay '茶叶换天下' in bold title, subtitle '向中原卖茶叶换物资和铜钱 · 在中原开设邸店 · 赚得盆满钵满', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print dramatic scene of an emperor fleeing on horseback, a soldier's blade raised behind him, desperate escape, wounded horse, crimson red dominates, dark shadows, halftone print grain, text overlay '逃跑被随从一刀砍死' in bold title, subtitle '刘承祐兵败逃亡 · 亲兵倒戈取其首级', 1:1 square

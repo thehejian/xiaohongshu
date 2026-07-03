@@ -1,0 +1,1 @@
+Screen-print scene of a desolate military camp with empty supply carts, soldiers looking starving and desperate, a stone mortar abandoned on the ground, the horror implied through atmosphere, dark and grim, text overlay '残暴' in bold title, subtitle '军粮不足 · 竟用人肉充饥 · 人性在乱世中消失殆尽', 1:1 square

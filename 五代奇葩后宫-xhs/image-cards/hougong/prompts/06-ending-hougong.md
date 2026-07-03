@@ -1,0 +1,1 @@
+Screen-print summary scene of scattered jewelry and broken palace ornaments on a dark floor, four fading portraits of palace women, a poetic scroll torn in half, crimson and dark navy, halftone textures, text overlay '没有宫斗剧的精致只有乱世血泪' in bold title, subtitle '五代后宫的每一个女人都是时代的牺牲品', 1:1 square

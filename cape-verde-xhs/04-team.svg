@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#0B1628"/>
+  <rect x="0" y="0" width="1024" height="12" fill="#D4A843"/>
+
+  <text x="512" y="200" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="36" font-weight="700" fill="#D4A843" letter-spacing="6">THE TEAM</text>
+
+  <rect x="80" y="240" width="304" height="6" fill="#D4A843"/>
+  <rect x="640" y="240" width="304" height="6" fill="#D4A843"/>
+
+  <text x="512" y="360" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="56" font-weight="900" fill="#FFFFFF" letter-spacing="6">蓝鲨</text>
+  <text x="512" y="430" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="28" fill="#8899AA" letter-spacing="4">Tubarões Azuis</text>
+
+  <line x1="300" y1="490" x2="724" y2="490" stroke="#D4A843" stroke-width="2"/>
+
+  <text x="512" y="580" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="26" fill="#FFFFFF" letter-spacing="2">球员多出生在欧洲</text>
+  <text x="512" y="630" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="26" fill="#FFFFFF" letter-spacing="2">海外侨民比本土人口还多</text>
+  <text x="512" y="680" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="26" fill="#FFFFFF" letter-spacing="2">却选择为祖国而战</text>
+
+  <rect x="250" y="760" width="524" height="4" fill="#D4A843"/>
+
+  <text x="512" y="800" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="20" fill="#8899AA">"全球佛得角人成长的象征" · 总统内韦斯</text>
+
+  <text x="942" y="980" text-anchor="end" font-family="sans-serif" font-size="14" fill="#1A2A40">SCREEN 4/6</text>
+</svg>

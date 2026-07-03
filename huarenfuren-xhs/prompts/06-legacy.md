@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a lotus flower blooming alone in a storm, a brush and poem scroll beside it, the legacy of a poet who outlived her kingdom, text overlay '乱世花蕊' in bold title, subtitle '美貌是幸运也是不幸 · 诗留千年人已逝', 1:1 square

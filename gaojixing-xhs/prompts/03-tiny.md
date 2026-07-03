@@ -1,0 +1,1 @@
+Screen-print scene of a tiny kingdom on a map, squeezed between four larger states like Wu, Chu, Later Tang, and Former Shu, the precarious geography of survival, text overlay '三州之地' in bold title, subtitle '只有三个州的地盘 · 谁路过都能揍一顿 · 大约等于一个地级市', 1:1 square

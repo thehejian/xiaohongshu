@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a scale weighing a newborn baby against a capable warrior, the warrior outweighing the baby, the brutal practicality of an age where survival trumped bloodline, text overlay '能力至上' in bold title, subtitle '在乱世血缘不如能力 · 谁能带大家活下去谁就是继承人', 1:1 square

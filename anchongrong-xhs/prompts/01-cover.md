@@ -1,0 +1,1 @@
+Screen-print portrait of a fierce general in full battle armor, holding a spear, his mouth open as if shouting a challenge, a banner behind him with the character '反', text overlay '安重荣' in bold title, subtitle '天子宁有种耶 · 兵强马壮者为之尔', 1:1 square

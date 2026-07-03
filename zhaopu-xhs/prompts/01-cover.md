@@ -1,0 +1,1 @@
+Screen-print portrait of a shrewd and weathered strategist in Song dynasty official robes, a half scroll of the Analects of Confucius in his hand, the architect who ended the era of warlords, text overlay '赵普' in bold title, subtitle '半部论语治天下 · 终结五代乱世的人', 1:1 square

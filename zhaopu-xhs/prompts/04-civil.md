@@ -1,0 +1,1 @@
+Screen-print scene of a scholar-politician reading from a small book while governing, civil officials replacing military generals in the administration of the empire, the pivot that changed Chinese political history, text overlay '文官治国' in bold title, subtitle '半部论语就够了 · 用文人取代武将管天下', 1:1 square

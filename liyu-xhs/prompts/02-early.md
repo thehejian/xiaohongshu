@@ -1,0 +1,1 @@
+Screen-print scene inside a classical Chinese palace hall, poetry scrolls and musical instruments on elegant tables, a young man in luxurious robes composing verses, court atmosphere of refinement and art, elegant scrolls on the walls, text overlay '红锦地衣' in bold title, subtitle '前期写宫廷享乐 · 笙箫吹断水云间 · 盛世江南', 1:1 square

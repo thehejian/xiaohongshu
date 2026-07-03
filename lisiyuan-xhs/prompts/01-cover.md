@@ -1,0 +1,1 @@
+Screen-print portrait of an older Chinese emperor in simple robes, wise and kind face, no golden crown, minimal palace decorations, a ruler who never wanted power, Five Dynasties period, text overlay '李嗣源' in bold title, subtitle '五代少有的好皇帝 · 不想当皇帝的皇帝', 1:1 square

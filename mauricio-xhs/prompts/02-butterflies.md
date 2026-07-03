@@ -1,0 +1,1 @@
+Screen-print romantic scene of a young mechanic and a pretty woman meeting secretly in a tropical garden, surrounded by a cloud of luminous yellow butterflies, their hands touching, the butterflies dancing around them like messengers of love, stolen glances, Latin American magical realism, text overlay '他去到哪里黄蝴蝶就跟到哪里' in bold title, subtitle '一道移动的光 · 她看到蝴蝶就知道他在附近', 1:1 square

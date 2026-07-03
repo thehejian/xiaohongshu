@@ -1,0 +1,1 @@
+Screen-print split scene of a man dying alone in a dark room (face peaceful, no butterflies) and a woman in a convent turning in her sleep (a single yellow butterfly landing on her windowsill), two souls connected across distance in their final moment, bittersweet, Latin American magical realism, text overlay '他死的时候没有蝴蝶' in bold title, subtitle '而在千里之外的修道院里 · 梅梅翻了个身', 1:1 square

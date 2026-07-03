@@ -1,0 +1,1 @@
+Screen-print scene of an aged emperor in corrupt decadence, women in silk around him, a dark palace chamber dimly lit, signs of moral decay and paranoia on the emperor's face, Five Dynasties period, text overlay '荒淫' in bold title, subtitle '连儿媳都要轮流侍寝 · 晚年的朱温彻底放纵', 1:1 square

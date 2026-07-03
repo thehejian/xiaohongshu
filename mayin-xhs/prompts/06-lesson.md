@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a strong tree with a rotten core, healthy on the outside but hollow inside, the fragility of good governance undermined by bad succession, text overlay '管理好儿子' in bold title, subtitle '不打仗也能致富 · 但管不好儿子一切都是白搭', 1:1 square

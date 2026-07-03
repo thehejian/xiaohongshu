@@ -1,0 +1,1 @@
+Screen-print dramatic scene of a beautiful consort reciting a poem before an emperor in the Song palace, her eyes blazing with defiance, the emperor stunned by her words and courage, text overlay '质问' in bold title, subtitle '赵匡胤问后蜀为何亡 · 她当场吟诗震惊全场', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print symbolic scene of armor being laid down and official robes being picked up, the end of an era where soldiers ruled and scholars obeyed, text overlay '武人政治的终结' in bold title, subtitle '杯酒释兵权终结了八十年无法统一的根本原因', 1:1 square

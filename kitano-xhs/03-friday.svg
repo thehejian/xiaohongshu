@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#F5F0E1"/>
+  <line x1="0" y1="100" x2="1024" y2="100" stroke="#D4C9B0" stroke-width="1"/>
+  <line x1="0" y1="200" x2="1024" y2="200" stroke="#D4C9B0" stroke-width="1"/>
+  <line x1="0" y1="300" x2="1024" y2="300" stroke="#D4C9B0" stroke-width="1"/>
+  <line x1="0" y1="400" x2="1024" y2="400" stroke="#D4C9B0" stroke-width="1"/>
+  <line x1="0" y1="500" x2="1024" y2="500" stroke="#D4C9B0" stroke-width="1"/>
+  <line x1="0" y1="600" x2="1024" y2="600" stroke="#D4C9B0" stroke-width="1"/>
+  <line x1="0" y1="700" x2="1024" y2="700" stroke="#D4C9B0" stroke-width="1"/>
+  <line x1="0" y1="800" x2="1024" y2="800" stroke="#D4C9B0" stroke-width="1"/>
+  <line x1="80" y1="0" x2="80" y2="1024" stroke="#E8B4B4" stroke-width="2"/>
+
+  <rect x="100" y="130" width="200" height="40" rx="4" fill="#FFE066" opacity="0.4"/>
+  <text x="100" y="160" font-family="'STHeiti','PingFang SC',sans-serif" font-size="24" fill="#DC2626" font-weight="700">暴力篇</text>
+
+  <text x="512" y="300" text-anchor="middle" font-family="'STHeiti','PingFang SC',sans-serif" font-size="48" font-weight="700" fill="#1E293B" letter-spacing="2">Friday 袭击事件</text>
+
+  <text x="150" y="420" font-family="'STHeiti','PingFang SC',sans-serif" font-size="26" fill="#475569">狗仔围堵划伤女友</text>
+  <text x="150" y="470" font-family="'STHeiti','PingFang SC',sans-serif" font-size="26" fill="#475569">北野武带11名粉丝组成"北野军团"</text>
+  <text x="150" y="520" font-family="'STHeiti','PingFang SC',sans-serif" font-size="26" fill="#475569">冲进编辑部打砸，灭火器乱喷</text>
+
+  <!-- red underline -->
+  <line x1="150" y1="610" x2="580" y2="610" stroke="#DC2626" stroke-width="3"/>
+
+  <text x="150" y="600" font-family="'STHeiti','PingFang SC',sans-serif" font-size="28" fill="#DC2626" font-weight="700">12名工作人员受伤</text>
+
+  <text x="512" y="750" text-anchor="middle" font-family="'STHeiti','PingFang SC',sans-serif" font-size="22" fill="#94A3B8">全员判6个月 · 广告全下架 · 事业崩盘</text>
+
+  <text x="942" y="960" text-anchor="end" font-family="sans-serif" font-size="14" fill="#D4C9B0">NOTE 3/6</text>
+</svg>

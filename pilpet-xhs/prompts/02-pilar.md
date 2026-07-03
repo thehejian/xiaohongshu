@@ -1,0 +1,1 @@
+Screen-print scene of a passionate encounter between a dark-haired fortune teller woman and a giant tattooed man in a candlelit room, playing cards scattered on the floor, a line of destiny connecting them, intimate and mysterious atmosphere, Latin American magical realism, text overlay '庇拉尔·特尔内拉' in bold title, subtitle '靠算卦为生 · 布恩迪亚家两代人的血脉都来自她', 1:1 square

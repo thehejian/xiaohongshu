@@ -1,0 +1,1 @@
+Screen-print tragic yet poetic scene of a beautiful woman falling in a palace garden, an arrow through her heart, the Song emperor's brother standing with a bow in the distance, text overlay '香消玉殒' in bold title, subtitle '两种结局皆悲剧 · 被赵光义射杀或郁郁而终', 1:1 square

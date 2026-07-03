@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#0B1628"/>
+  <rect x="0" y="0" width="1024" height="12" fill="#D4A843"/>
+
+  <text x="512" y="200" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="36" font-weight="700" fill="#D4A843" letter-spacing="6">ABOUT</text>
+
+  <rect x="80" y="240" width="304" height="6" fill="#D4A843"/>
+  <rect x="640" y="240" width="304" height="6" fill="#D4A843"/>
+
+  <text x="512" y="340" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="48" font-weight="900" fill="#FFFFFF" letter-spacing="4">佛得角共和国</text>
+  <text x="512" y="400" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="22" fill="#8899AA" letter-spacing="2">República de Cabo Verde</text>
+
+  <line x1="300" y1="450" x2="724" y2="450" stroke="#D4A843" stroke-width="2"/>
+
+  <g transform="translate(100, 500)">
+    <text x="0" y="0" font-family="'PingFang SC','STHeiti',sans-serif" font-size="40" fill="#D4A843" font-weight="900">50万</text>
+    <text x="130" y="0" font-family="'PingFang SC','STHeiti',sans-serif" font-size="22" fill="#FFFFFF">人口</text>
+  </g>
+  <g transform="translate(100, 580)">
+    <text x="0" y="0" font-family="'PingFang SC','STHeiti',sans-serif" font-size="40" fill="#D4A843" font-weight="900">10</text>
+    <text x="60" y="0" font-family="'PingFang SC','STHeiti',sans-serif" font-size="22" fill="#FFFFFF">个火山岛</text>
+  </g>
+  <g transform="translate(100, 660)">
+    <text x="0" y="0" font-family="'PingFang SC','STHeiti',sans-serif" font-size="40" fill="#D4A843" font-weight="900">普拉亚</text>
+    <text x="200" y="0" font-family="'PingFang SC','STHeiti',sans-serif" font-size="22" fill="#FFFFFF">首都</text>
+  </g>
+  <g transform="translate(100, 740)">
+    <text x="0" y="0" font-family="'PingFang SC','STHeiti',sans-serif" font-size="40" fill="#D4A843" font-weight="900">大西洋</text>
+    <text x="240" y="0" font-family="'PingFang SC','STHeiti',sans-serif" font-size="22" fill="#FFFFFF">西非500km</text>
+  </g>
+
+  <text x="942" y="980" text-anchor="end" font-family="sans-serif" font-size="14" fill="#1A2A40">SCREEN 3/6</text>
+</svg>

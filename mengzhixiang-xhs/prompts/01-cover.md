@@ -1,0 +1,1 @@
+Screen-print portrait of a Chinese emperor standing at a mountain pass looking into the Sichuan basin, the fertile land spread before him like a treasure, a strategic vision in his eyes, text overlay '孟知祥' in bold title, subtitle '入蜀三年称帝 · 后蜀奠基人', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print portrait of a determined military ruler in armor standing on the walls of Taiyuan, the mountains of Shanxi behind him, the founder of the only northern kingdom among the Ten Kingdoms, text overlay '刘崇' in bold title, subtitle '北汉开国皇帝 · 十国唯北方政权', 1:1 square

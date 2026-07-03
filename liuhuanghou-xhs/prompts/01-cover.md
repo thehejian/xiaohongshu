@@ -1,0 +1,1 @@
+Screen-print portrait of a cold, beautiful empress in elaborate Tang-style imperial robes, jeweled hair ornaments, a calculating yet greedy expression, surrounded by treasure chests in her private chamber, text overlay '刘皇后' in bold title, subtitle '一个抠门皇后搞垮了后唐', 1:1 square

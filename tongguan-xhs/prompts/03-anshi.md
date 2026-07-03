@@ -1,0 +1,1 @@
+Screen-print scene of a massive Tang army being crushed at the gorge, the fortress gates breached, An Lushan's rebel forces pouring through after defeating the imperial defenders, text overlay '哥舒翰之败' in bold title, subtitle '安史之乱 · 唐玄宗逼哥舒翰出战 · 潼关失守长安沦陷', 1:1 square

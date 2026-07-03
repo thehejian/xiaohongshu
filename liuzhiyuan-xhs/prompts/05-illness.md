@@ -1,0 +1,1 @@
+Screen-print scene of an emperor collapsing from illness shortly after his coronation, the realm still unstable, a child heir too young to rule, the dynasty already on borrowed time, text overlay '天不假年' in bold title, subtitle '称帝不到一年病逝 · 留下风雨飘摇的朝廷和年幼的儿子', 1:1 square

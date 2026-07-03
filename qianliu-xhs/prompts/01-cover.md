@@ -1,0 +1,1 @@
+Screen-print portrait of a Chinese king in simple but dignified robes, holding a scroll of city plans, behind him the skyline of Hangzhou with pagodas and the West Lake, peaceful and prosperous, text overlay '钱鏐' in bold title, subtitle '杭州奠基人 · 人间天堂的缔造者', 1:1 square

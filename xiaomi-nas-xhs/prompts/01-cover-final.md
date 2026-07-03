@@ -1,0 +1,1 @@
+Minimal style tech product card, dark navy gradient background (#0F172A to #1E293B), premium golden text in center reading 'Xiaomi 智能存储' and '小米首款NAS', subtitle '2026.06.24 正式发布 开启预约', price tag '4TB 套装 2299元起' at bottom, clean sophisticated design, no people no photos, flat design typography-focused layout, high-end product launch aesthetic, 1:1 square format

@@ -1,0 +1,1 @@
+Screen-print scene of a king making a difficult decision in his study late at night, his grandfather's portrait on the wall (Qian Liu), maps of thirteen prefectures spread on the table, the weight of history on his shoulders, text overlay '纳土归宋' in bold title, subtitle '主动献出吴越十三州八十六县 · 用和平换百姓平安', 1:1 square

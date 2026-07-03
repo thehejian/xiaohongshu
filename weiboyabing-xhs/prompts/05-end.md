@@ -1,0 +1,1 @@
+Screen-print scene of a Song emperor hosting a grand banquet for his former generals, cups raised in a toast, the peaceful dismantling of the old military order, text overlay '杯酒释兵权' in bold title, subtitle '赵匡胤一顿酒彻底瓦解了五代武人政治', 1:1 square

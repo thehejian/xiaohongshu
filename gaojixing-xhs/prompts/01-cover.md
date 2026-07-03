@@ -1,0 +1,1 @@
+Screen-print portrait of a humble-looking Chinese ruler in simple clothes, bowing politely in all four directions, a tiny kingdom on a map between giants, survival through humility, text overlay '高季兴' in bold title, subtitle '夹缝中的生存大师 · 三州之地苟四十年', 1:1 square

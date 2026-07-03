@@ -1,0 +1,1 @@
+Screen-print scene of a Turkic tribe migrating from the western steppes to northern China, warriors on horseback with banners, passing through the Great Wall pass, dramatic landscape, dark navy and amber palette, halftone dots, text overlay '西突厥沙陀人迁入中原' in bold title, subtitle '唐朝后期落脚山西代北 · 从草原到中原', 1:1 square

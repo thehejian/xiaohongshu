@@ -1,0 +1,1 @@
+Screen-print atmospheric portrait of a Khitan empress dowager in elaborate ceremonial headdress and robes, standing beside a throne with a cold determined gaze, a symbol of absolute power and ruthlessness, the iron lady of Liao dynasty, text overlay '述律太后' in bold title, subtitle '砍手陪葬的铁腕太后 · 辽国真正的主人', 1:1 square

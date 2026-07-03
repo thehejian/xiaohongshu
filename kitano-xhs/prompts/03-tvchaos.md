@@ -1,0 +1,1 @@
+Absurdist Japanese comedy scene referencing a famous variety show moment, a drunk comedian on a late night TV show pulling down his pants, shocked studio audience, TV crew panicking, on-air chaos, vintage Japanese television aesthetic, text overlay '醉酒脱裤 · 直播掐信号' in wild Japanese style, subtitle '日本电视史上经典失控名场面', 1:1 square format, chaotic retro TV style

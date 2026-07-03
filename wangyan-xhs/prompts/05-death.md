@@ -1,0 +1,1 @@
+Screen-print scene of former king being executed during a hunt, arrows flying toward him and his family, the end of a poet-emperor at the hands of a warlord, text overlay '围猎处死' in bold title, subtitle '李存勖围猎时把王衍一家全部处死', 1:1 square

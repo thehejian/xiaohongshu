@@ -1,0 +1,1 @@
+Screen-print dramatic scene of a young emperor drunkenly drawing his sword on a defenseless old eunuch, the eunuch standing unflinching before the blade, a queen rushing to intervene, text overlay '拔剑相向' in bold title, subtitle '李存勖醉酒要钱不给拔剑要杀张承业', 1:1 square

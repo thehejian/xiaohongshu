@@ -1,0 +1,1 @@
+Screen-print close-up portrait of a Tang dynasty general in iron armor, golden chrysanthemum motif on his cape, surrounded by the chrysanthemum poem characters floating in the air like golden petals, text overlay '满城尽带黄金甲' in bold title, subtitle '一个盐贩的诗 · 改变了一个王朝', 1:1 square

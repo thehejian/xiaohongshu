@@ -1,0 +1,1 @@
+Screen-print scene of a captive king being escorted north by Song soldiers, the Shu kingdom behind him disappearing in mist, a weary face of a fallen emperor, text overlay '投降' in bold title, subtitle '公元965年后蜀灭亡 · 孟昶被押送汴京 · 七天后暴死', 1:1 square

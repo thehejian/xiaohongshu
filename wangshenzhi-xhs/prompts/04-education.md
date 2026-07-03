@@ -1,0 +1,1 @@
+Screen-print scene of a school being opened, scholars from central China arriving to teach, local children and adults studying, the cultural transformation of a frontier land, text overlay '兴学' in bold title, subtitle '兴办学校请中原学者任教 · 海滨邹鲁的美誉根是他扎下的', 1:1 square

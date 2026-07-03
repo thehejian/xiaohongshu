@@ -1,0 +1,1 @@
+Screen-print scene of a young boy touching a block of ice for the first time, his father beside him with wonder in his eyes, gypsy camp in the background, the ice glowing like a diamond, the whole world expanding in that moment, Latin American magical realism, text overlay '这是我们时代最伟大的发明' in bold title, subtitle '一个原始小镇的人第一次见到冰', 1:1 square

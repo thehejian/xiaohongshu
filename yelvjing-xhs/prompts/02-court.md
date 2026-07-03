@@ -1,0 +1,1 @@
+Screen-print scene of court officials arriving at the palace for morning audience, finding the throne empty and the emperor still asleep in his chambers, frustrated ministers waiting in vain, text overlay '不上朝' in bold title, subtitle '大臣来上朝皇帝在睡觉 · 一连几天不上朝是常态', 1:1 square

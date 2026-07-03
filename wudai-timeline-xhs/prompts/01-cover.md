@@ -1,0 +1,1 @@
+Screen-print grand symbolic scene of a winding river splitting into branches then rejoining, representing the chaotic stream of Chinese history from Tang to Song, text overlay '五代十国' in bold title, subtitle '八十年八个朝代 · 一条线看完', 1:1 square

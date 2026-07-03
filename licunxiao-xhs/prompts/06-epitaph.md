@@ -1,0 +1,1 @@
+Screen-print symbolic scene of a giant iron spear standing alone on a battlefield at sunset, a warrior's helmet on the ground, the legendary comparison to Xiang Yu, text overlay '将不过李' in bold title, subtitle '打不过敌人是能力问题 · 搞不过人心才是真正的悲剧', 1:1 square

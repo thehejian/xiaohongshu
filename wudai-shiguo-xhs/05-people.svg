@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#FAF7F2"/>
+  <rect x="0" y="0" width="1024" height="6" fill="#B91C1C"/>
+
+  <rect x="60" y="120" width="904" height="720" rx="16" fill="#FFFFFF" opacity="0.88"/>
+  <rect x="60" y="120" width="904" height="6" rx="3" fill="#B91C1C"/>
+
+  <text x="80" y="180" font-family="sans-serif" font-size="18" fill="#B91C1C" font-weight="700" letter-spacing="2">关键人物</text>
+
+  <text x="512" y="280" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="44" font-weight="700" fill="#1E293B" letter-spacing="4">三个关键人物</text>
+  <line x1="350" y1="310" x2="674" y2="310" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <g transform="translate(100, 370)">
+    <text x="0" y="0" font-family="'PingFang SC','STHeiti',sans-serif" font-size="24" fill="#B91C1C" font-weight="700">朱温</text>
+    <text x="120" y="0" font-family="'PingFang SC','STHeiti',sans-serif" font-size="22" fill="#64748B">灭唐建后梁，开启了五代</text>
+  </g>
+  <g transform="translate(100, 450)">
+    <text x="0" y="0" font-family="'PingFang SC','STHeiti',sans-serif" font-size="24" fill="#B91C1C" font-weight="700">柴荣</text>
+    <text x="120" y="0" font-family="'PingFang SC','STHeiti',sans-serif" font-size="22" fill="#64748B">后周世宗，差点统一，英年早逝</text>
+  </g>
+  <g transform="translate(100, 530)">
+    <text x="0" y="0" font-family="'PingFang SC','STHeiti',sans-serif" font-size="24" fill="#B91C1C" font-weight="700">赵匡胤</text>
+    <text x="120" y="0" font-family="'PingFang SC','STHeiti',sans-serif" font-size="22" fill="#64748B">黄袍加身，建立北宋，统一天下</text>
+  </g>
+
+  <line x1="100" y1="610" x2="924" y2="610" stroke="#E2E8F0" stroke-width="1"/>
+
+  <text x="512" y="670" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="24" fill="#64748B" letter-spacing="1">五代最牛的是后周柴荣</text>
+  <text x="512" y="720" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="24" fill="#64748B" letter-spacing="1">可惜老天没给他时间</text>
+
+  <rect x="250" y="780" width="524" height="4" fill="#B91C1C" opacity="0.3"/>
+
+  <text x="512" y="820" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="20" fill="#94A3B8">如果柴荣多活十年，可能就没有宋朝了</text>
+
+  <text x="942" y="980" text-anchor="end" font-family="sans-serif" font-size="14" fill="#E2E8F0">5/6</text>
+</svg>

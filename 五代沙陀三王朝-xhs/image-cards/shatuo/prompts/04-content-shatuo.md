@@ -1,0 +1,1 @@
+Screen-print scene of Shi Jingtang kneeling before a Khitan emperor, offering a map of the Sixteen Prefectures, humiliation and betrayal, crimson and dark navy palette, halftone dot textures, text overlay '石敬瑭建后晋割燕云' in bold title, subtitle '沙陀第二朝 · 儿皇帝割地求援', 1:1 square

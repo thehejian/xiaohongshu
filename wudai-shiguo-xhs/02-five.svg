@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#FAF7F2"/>
+  <rect x="0" y="0" width="1024" height="6" fill="#B91C1C"/>
+
+  <rect x="60" y="120" width="904" height="720" rx="16" fill="#FFFFFF" opacity="0.88"/>
+  <rect x="60" y="120" width="904" height="6" rx="3" fill="#B91C1C"/>
+
+  <text x="80" y="180" font-family="sans-serif" font-size="18" fill="#B91C1C" font-weight="700" letter-spacing="2">五代</text>
+
+  <text x="512" y="260" text-anchor="middle" font-family="'PingFang SC','STHeiti',sans-serif" font-size="44" font-weight="700" fill="#1E293B" letter-spacing="6">梁唐晋汉周</text>
+  <line x1="300" y1="290" x2="724" y2="290" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <g transform="translate(100, 340)">
+    <rect x="0" y="0" width="6" height="50" fill="#B91C1C"/>
+    <text x="24" y="22" font-family="'PingFang SC','STHeiti',sans-serif" font-size="26" fill="#1E293B" font-weight="700">后梁 907-923</text>
+    <text x="24" y="46" font-family="'PingFang SC','STHeiti',sans-serif" font-size="18" fill="#94A3B8">朱温 · 17年</text>
+  </g>
+  <g transform="translate(100, 420)">
+    <rect x="0" y="0" width="6" height="50" fill="#B91C1C"/>
+    <text x="24" y="22" font-family="'PingFang SC','STHeiti',sans-serif" font-size="26" fill="#1E293B" font-weight="700">后唐 923-936</text>
+    <text x="24" y="46" font-family="'PingFang SC','STHeiti',sans-serif" font-size="18" fill="#94A3B8">李存勖 · 14年</text>
+  </g>
+  <g transform="translate(100, 500)">
+    <rect x="0" y="0" width="6" height="50" fill="#B91C1C"/>
+    <text x="24" y="22" font-family="'PingFang SC','STHeiti',sans-serif" font-size="26" fill="#1E293B" font-weight="700">后晋 936-947</text>
+    <text x="24" y="46" font-family="'PingFang SC','STHeiti',sans-serif" font-size="18" fill="#94A3B8">石敬瑭 · 12年</text>
+  </g>
+  <g transform="translate(100, 580)">
+    <rect x="0" y="0" width="6" height="50" fill="#B91C1C"/>
+    <text x="24" y="22" font-family="'PingFang SC','STHeiti',sans-serif" font-size="26" fill="#1E293B" font-weight="700">后汉 947-950</text>
+    <text x="24" y="46" font-family="'PingFang SC','STHeiti',sans-serif" font-size="18" fill="#94A3B8">刘知远 · 4年</text>
+  </g>
+  <g transform="translate(100, 660)">
+    <rect x="0" y="0" width="6" height="50" fill="#B91C1C"/>
+    <text x="24" y="22" font-family="'PingFang SC','STHeiti',sans-serif" font-size="26" fill="#1E293B" font-weight="700">后周 951-960</text>
+    <text x="24" y="46" font-family="'PingFang SC','STHeiti',sans-serif" font-size="18" fill="#94A3B8">郭威/柴荣 · 10年</text>
+  </g>
+
+  <text x="942" y="980" text-anchor="end" font-family="sans-serif" font-size="14" fill="#E2E8F0">2/6</text>
+</svg>

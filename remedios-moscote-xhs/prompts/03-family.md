@@ -1,0 +1,1 @@
+Screen-print warm scene of a young bride helping her mother-in-law in a chaotic tropical kitchen, laughing and cooking, the whole Buendia family smiling around her, she brings light and happiness wherever she goes, even the stern grandmother softens, Latin American magical realism, text overlay '全家人喜欢她' in bold title, subtitle '连阿玛兰塔都喜欢她 · 但她却要杀她', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print dramatic scene of Song armies breaking through the gates of Jinling, the Southern Tang palace falling, the poet-emperor watching his kingdom collapse in flames, text overlay '国破' in bold title, subtitle '赵匡胤攻破金陵 · 李煜投降被俘到汴京 · 好个翰林学士', 1:1 square

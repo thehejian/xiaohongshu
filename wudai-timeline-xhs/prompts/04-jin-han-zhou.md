@@ -1,0 +1,1 @@
+Screen-print scene of a timeline showing the rapid succession of Later Jin, Later Han and Later Zhou, the shortest dynasties in Chinese history changing hands in rapid fire, text overlay '后晋·后汉·后周' in bold title, subtitle '936石敬瑭 · 947刘知远 · 951郭威 · 十一年换三朝', 1:1 square

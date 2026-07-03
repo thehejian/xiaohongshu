@@ -1,0 +1,1 @@
+Screen-print scene of a great emperor (Chai Rong) looking at a portrait of his adoptive father (Guo Wei), the bond between a childless ruler and his capable adopted heir, text overlay '郭威·柴荣' in bold title, subtitle '郭威无子收养柴荣 · 柴荣成了五代最有作为的皇帝', 1:1 square

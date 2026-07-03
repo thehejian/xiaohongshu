@@ -1,0 +1,1 @@
+Screen-print portrait of a young Chinese emperor in battle armor holding a spear with one hand and a theater mask with the other, split personality of warrior and actor, Five Dynasties period, text overlay '李存勖' in bold title, subtitle '战神与戏子 · 同一个人', 1:1 square

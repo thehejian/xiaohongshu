@@ -1,0 +1,1 @@
+Screen-print summary scene of a map of southern China with ten small kingdoms, each marked with a coin icon, the north shown in war flames, contrast between war and prosperity, aged gold and dark navy palette, text overlay '十国虽小比中原活得滋润' in bold title, subtitle '五代打仗 · 十国搞钱', 1:1 square

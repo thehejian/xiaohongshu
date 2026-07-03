@@ -1,0 +1,1 @@
+Screen-print scene of Song armies conquering the southern kingdoms one by one, the campaign map showing the systematic unification following the grand strategy, text overlay '统一天下' in bold title, subtitle '先南后北逐一扫平各国终结五代十国', 1:1 square

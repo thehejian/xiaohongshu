@@ -1,0 +1,1 @@
+Screen-print scene of an official pretending to be drunk at a banquet, a servant helping him stand, the performance of debauchery designed to avoid political responsibility, text overlay '装醉避祸' in bold title, subtitle '南唐快亡了韩熙载不愿当宰相故意装堕落', 1:1 square

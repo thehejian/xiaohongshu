@@ -1,0 +1,1 @@
+Screen-print scene of a Song emperor smashing a jewel-encrusted chamber pot in fury, the smashed treasure scattered on the floor, a lesson about luxury and ruin, text overlay '七宝尿壶' in bold title, subtitle '尿壶都用七宝装饰 · 赵匡胤：奢侈至此不亡才怪', 1:1 square

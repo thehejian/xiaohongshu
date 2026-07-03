@@ -1,0 +1,1 @@
+Dramatic scene referencing a life-changing motorcycle accident, abstract visual of shattered glass and motion blur, recovery and rebirth symbolism, a man walking away from wreckage into light, Japanese aesthetic, cinematic dramatic lighting, text overlay '1994年 · 车祸重生' in elegant title style, subtitle '脸上植入钢板 · 出院继续拍电影', 1:1 square format, dramatic cinematic art style

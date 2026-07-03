@@ -1,0 +1,1 @@
+Screen-print scene of a former servant being promoted by his master (Zhu Wen), from house slave to military commander, the most unlikely rise to power, text overlay '从家奴到国王' in bold title, subtitle '朱温的家奴 · 被提拔为将领 · 占据了荆州', 1:1 square

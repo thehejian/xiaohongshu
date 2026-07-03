@@ -1,0 +1,1 @@
+Screen-print scene of a military coup, a general leading troops into the capital to overthrow the young emperor, the palace gates being forced open, a new ruler rising through violence, text overlay '夺位' in bold title, subtitle '李嗣源死后从厚继位 · 想削从珂的权 · 结果被反杀', 1:1 square

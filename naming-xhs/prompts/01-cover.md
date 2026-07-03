@@ -1,0 +1,1 @@
+Screen-print design showing two nameplates side by side, '何塞·阿尔卡蒂奥' and '奥雷里亚诺', each with ghostly portraits of characters sharing that name, a family tree connecting them in a loop, antique parchment texture, Latin American magical realism, text overlay '布恩迪亚家族的命名密码' in bold title, subtitle '来来回回就俩名字 · 同样的名字同样的命运', 1:1 square

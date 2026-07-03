@@ -1,0 +1,1 @@
+Screen-print scene of a Han dynasty emperor inspecting the northern border from a hilltop fortress, rows of soldiers standing guard, the vast grassland stretching northward beyond the walls, text overlay '汉武巡边' in bold title, subtitle '汉武帝多次出巡萧关视察边防', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print scene of a young Khitan prince learning Chinese writing and military strategy from Han tutors, the blending of two cultures in one man, a steppe warrior who understood the Central Plains better than most Chinese, text overlay '通汉学' in bold title, subtitle '精通汉语和汉文化 · 深知中原分裂是契丹的天赐良机', 1:1 square

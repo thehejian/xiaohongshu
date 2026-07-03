@@ -1,0 +1,1 @@
+Screen-print portrait of a refined scholar-official hosting a grand night banquet, surrounded by musicians and dancers, his expression revealing hidden sadness beneath the revelry, text overlay '韩熙载' in bold title, subtitle '夜宴图主角 · 南唐最后的体面人', 1:1 square

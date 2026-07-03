@@ -1,0 +1,1 @@
+Screen-print scene of Shu Han armies camped below a towering mountain pass, Zhuge Liang sitting in his tent looking at a map of the impassable fortress ahead, the frustration of a genius strategist stopped by geography, text overlay '北伐' in bold title, subtitle '诸葛亮五次北伐始终没能攻克大散关', 1:1 square

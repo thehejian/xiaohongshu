@@ -1,0 +1,1 @@
+Screen-print scene of a serious young man with intense eyes meeting a little girl for the first time, she holds a doll, he looks stunned, as if struck by lightning, her father a government official stands nearby, the moment love is born at first sight, Latin American magical realism, text overlay '奥雷里亚诺见到她的第一眼' in bold title, subtitle '不是因为美 · 是因为她太干净了', 1:1 square

@@ -1,0 +1,1 @@
+Screen-print portrait of a dignified minister in official robes standing beside an emperor seated on a war throne, the architect of Later Tang's greatest victories, text overlay '郭崇韬' in bold title, subtitle '后唐第一名相 · 灭梁平蜀的幕后统帅', 1:1 square

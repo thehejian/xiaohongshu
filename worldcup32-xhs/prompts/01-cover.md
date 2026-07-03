@@ -1,0 +1,1 @@
+Epic World Cup stadium scene with 32 national flags flying in a row, dramatic sunset sky, stadium floodlights, international football atmosphere, text overlay '2026 世界杯 32强' in bold golden title, subtitle '韩国无缘 · 亚洲6席出炉' in white, 1:1 square, cinematic sports style

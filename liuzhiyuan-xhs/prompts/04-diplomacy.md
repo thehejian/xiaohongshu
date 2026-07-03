@@ -1,0 +1,1 @@
+Screen-print scene of the emperor performing diplomatic rituals, outwardly bowing to Khitan envoys while secretly building Chinese strength, a careful balancing act between survival and dignity, text overlay '阳奉阴违' in bold title, subtitle '表面向契丹称臣稳住对方 · 暗中收拢中原人心', 1:1 square

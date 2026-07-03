@@ -1,0 +1,1 @@
+Screen-print dramatic portrait of a Chinese emperor in dragon robe with a scarred, intimidating face, surrounded by battlefield scenes, a city burning in background, a beggar's bowl on a throne beside him, yellow dragon robe stained with blood, Five Dynasties period atmosphere, text overlay '朱温' in bold title, subtitle '从乞丐到皇帝 · 从英雄到恶魔', 1:1 square
