@@ -1,0 +1,1 @@
+Screen-print poster art. 1024×1024 square. Dark navy background. Simplified map silhouette of Cape Verde islands in bright blue. Large bold numbers: "53万" and "1st" in golden yellow. Title "人口53万 首次世界杯" at top in cream. Bullet points: "西非岛国 人口53万", "历史首次晋级世界杯", "全队身价不如梅西一条腿", "小组赛零封西班牙". Halftone texture. Infographic poster style.

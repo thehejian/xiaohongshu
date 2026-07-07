@@ -1,0 +1,1 @@
+Screen-print poster art. 1024×1024 square. Dark background. Messi silhouette in Argentina stripes celebrating, arm raised. Large golden number "20" floating above as background element. Title "29分钟 梅西第20球" at top in cream. Text below: "挑射破门 世界杯历史第一人". Argentina light blue glow. Halftone texture. Sports poster.

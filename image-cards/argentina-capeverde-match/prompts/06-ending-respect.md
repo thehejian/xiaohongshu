@@ -1,0 +1,1 @@
+Screen-print poster art. 1024×1024 square. Dark navy background fading to black. Stadium floodlights fading at top. A small Cape Verde flag silhouette centered. Title "虽败犹荣" in large cream font. Subtitle below in golden text: "53万人的岛国 让全世界记住了他们的名字". Bottom line in small cream: "Respect ❤️". Minimalist emotional poster composition.

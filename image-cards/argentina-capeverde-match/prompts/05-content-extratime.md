@@ -1,0 +1,1 @@
+Screen-print poster art. 1024×1024 square. Dark dramatic background. A glowing scoreboard-style display showing "2-2" in large bold numbers. Title "加时赛 佛得角又扳平" in cream at top. Text below: "两次落后两次扳平", "卫冕冠军被逼到极限", "最终2-3惜败". Cape Verde blue and Argentina light blue mixing. Halftone texture. Cinematic poster style.
