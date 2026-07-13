@@ -476,10 +476,61 @@ agene-image-2.1-flash 模型可以直出中文文字。"No Chinese text in promp
 ### baoyu-xhs-images skill 流程不适用于快速出图
 三步流程（分析→确认→生成）对文字卡片类内容过度设计。实际效果：prompt 文件写完后因现场调整作废，分析内容与最终成片无关。简单产品发布直接写 prompt 生成即可。
 
-### 内容类型决定工具链
+### 内容类型决定工具链（更新：2026-07-07）
 - 产品发布/视觉封面 → AI 生图直出中文
-- 知识卡片/流程/对比/数据 → SVG
+- **知识卡片/流程/对比/数据 → SVG 或 AI notion 风格**
 - 混合型 → AI 封面 + SVG 内容页
+
+### 风格选择比工具链选择更重要（2026-07-07 新增）
+同一套 Agnes API 不同 style 效果天差地别。选择不对等于白做一轮。
+
+| 内容类型 | 有效的风格 | 无效的风格 |
+|---------|-----------|-----------|
+| 历史人物故事（商鞅变法逻辑链） | bold 红黑人物场景 | 抽象齿轮/链条（被要求重做） |
+| 制度对比分析（郡县vs分封） | **notion** 白底手绘对比图 | bold 黑底人物场景（被要求重做） |
+
+关键原则：
+- **notion风格 = 知识卡片/制度对比的首选**：白底手绘线稿，左右对比/时间线结构清晰，视觉"聪明"，适合文字密集的制度分析
+- **bold/screen-print风格 = 历史人物故事**：黑底红橙，戏剧冲突强，适合有人物有情节的叙事
+- **抽象隐喻（齿轮/链条/箭头）在AI图里不好看**：用户明确要求"全部是古代人"——历史内容一定要有人物
+- 匹配 baoyu-xhs-images 的 Auto-Selection 表的信号是对的：knowledge/concept → notion；editorial/cinematic → screen-print
+
+### 一轮通过的预期不现实（2026-07-07 新增）
+每篇配图平均需要 1-2 轮返工。用户在见到图之前无法准确表达风格偏好。预算好返工时间：
+- 第一轮：按直觉选风格（通常是 bold/screen-print）
+- 用户反馈后换风格（notion 或其他）
+- 改 prompt + 重新生成 + 飞书新建文档
+
+### screen-print 成为首选风格（2026-07-07 确认）
+用户明确确认 screen-print（暖米白底 + 绛红/深蓝双色调，vintage 海报感）为后续首选风格。此前尝试的 notion 白底手绘被否决。结论：
+- **历史制度分析 → screen-print**（暖米白底，vintage 海报，绛红/深蓝双色调）
+- **所有新 topic 默认用 screen-print**，不主动推荐其他风格
+- screen-print prompt 核心要素：warm cream paper background, dark navy and crimson duotone, halftone texture, bold condensed font, vintage poster feel
+
+### screen-print + ref 超时问题
+- 部分 prompt 带 `--ref` 时 Agnes API 响应极慢（>120s 甚至 >180s）
+- 修复：不带 ref 重试即可成功（风格一致性靠 prompt 本身的详细描述保证，不是必须靠 ref）
+- 如果 timeout：先不带 `--ref` 重试那张
+
+### 超时规律观察（2026-07-07）
+| 批次 | 风格 | ref | 结果 | 差异分析 |
+|------|------|-----|------|---------|
+| 户籍 02/05/06 | screen-print | 带 ref | 成功 | prompt 较简洁 |
+| 户籍 03/04 | screen-print | 带 ref | 超时 >180s | prompt 有多个元素+复杂场景描述 |
+| 户籍 03/04 重试 | screen-print | 无 ref | 成功 | 去掉 ref 后通过 |
+| 军功爵 02-06 | screen-print | 带 ref | 全部一次过 | prompt 也复杂，但通过了 |
+
+结论：超时不像是 prompt 复杂度的系统性问题，更可能是 Agnes API 服务端偶发负载导致。**不是每次带 ref 都会超时，同一批里有的过有的不过就是证据。** 策略：
+1. 默认带 ref 生成
+2. 超时后不带 ref 重试那张
+3. 不要因为一次超时就不带 ref 重试整批
+
+### notion 风格 prompt 要点
+- 不要写 `#` 色号，用自然语言（"warm cream background"）
+- 描述具体构图（"Split-screen comparison. Left side: ... Right side: ..."）
+- 明确中文文字位置和内容（"Chinese title 'xxx' in clean sans-serif at top"）
+- 保持 Minimalist/clean 关键词
+- 手绘线稿风格比实景渲染更适合知识内容
 
 ## 六、古道项目复盘教训（2026-07-03）
 

@@ -1,84 +1,84 @@
 # AGENTS.md — 003-Twitter
 
-Social media content farm: XHS articles + PNG cards for @DubaIGOHGOkTHOk.
+Social media content farm: XHS image-card articles (+ Twitter/X text) for @DubaIGOHGOkTHOk.
 
 ## Hard rules
 
-- **Never execute any Twitter/X post command** — prepare text, tell user to send manually
-- XHS publish requires Feishu preview + user approval first
-- `.png` files are gitignored; don't commit them
-- Complete 1 topic fully (article → images → feishu → draft) before switching
+- **Never execute Twitter/X post commands** — prepare text, user sends manually
+- XHS: Feishu preview + user approval, THEN save draft (never auto-publish)
+- `.png`/`.jpg`/`.jpeg` gitignored — don't commit images
+- Finish one topic fully (article → 6 images → feishu preview → xhs draft) before switching
 
-## PATH + API keys
+## Setup
 
-`opencli` + `lark-cli` in `/opt/homebrew/bin/`. Always `export PATH="/opt/homebrew/bin:$PATH"` first.
+```bash
+export PATH="/opt/homebrew/bin:$PATH"
+source ~/.baoyu-skills/.env      # provides AGNES_API_KEY (image gen needs this)
+```
 
-Agnes API key: `source ~/.baoyu-skills/.env` (stores `AGNES_API_KEY`).
+## Folder layout
 
-`bun` may not be on PATH; use `npx -y bun` to run baoyu-image-gen scripts.
+- `*-xhs/` (375): legacy SVG+Inkscape pipeline — `article.md`, `gen_cards.py`, `prompts/`
+- `image-cards/<topic>/` (89): CURRENT pipeline — `article.md`, `prompts/*.md`, `01-cover.png`…`06-*.png`
+
+**Only create new topics under `image-cards/<topic>/`.**
 
 ## XHS article (`article.md`)
 
-- Title: line 1, ≤20 CJK chars. Verify: `python3 -c "print(len('$(head -1 article.md)'.strip()))"`
-- Body: plain text (no markdown), first line = title, ≤950 chars
+- Line 1 = title, ≤20 CJK chars. Verify:
+  ```bash
+  python3 -c "print(len('$(head -1 article.md)'.strip()))"
+  ```
+- Body: plain text (no markdown), ≤950 chars
 - Tags: `#话题` at end of body. **Never** `--topics` flag
-- Source material from 史记/资治通鉴 in modern language — no 古文 quotes
+- Source material from 史记/资治通鉴 — no 古文 quotes
 - **Never include `#渤海小吏` tag**
+- Exactly 6 image cards per topic
 
-## Image pipeline
+## Image pipeline (Agnes screen-print)
 
-Route: `baoyu-xhs-images` skill → `baoyu-image-gen` skill, provider `agnes`, model `agnes-image-2.1-flash`
+Style (confirmed 2026-07-07): warm cream paper background, navy/crimson/gold duotone, halftone texture, vintage poster feel, bold condensed Chinese font, ancient Chinese people in scenes (never abstract metaphors), 3:4 (720×1280). No hex colors in prompts (write "cream background"); specify East-Asian people explicitly.
 
-1. Write `article.md`
-2. Run `baoyu-xhs-images` — writes `analysis.md` + `outline.md` + `prompts/`
-3. Generate cover (image 01) **without** `--ref` first
-4. Generate images 02+ with image 01 as `--ref` for style consistency
-5. Chinese text rendered in Agnes prompts directly — no Pillow overlay
+Workflow:
+1. Write `article.md`, then 6 prompts `prompts/01-cover.md`…`06-*.md` (Chinese text directly — no Pillow overlay).
+2. Generate cover 01 **without** ref; 02–06 **with** image 01 as `--ref` for style consistency.
+3. Use Agnes `agnes-image-2.1-flash` via curl (Python 3.14 SSL fails → curl only). Payload `{model, prompt, n:1, size:"720x1280"}`; for 02+ add `"image":"data:image/png;base64,<b64 of 01-cover.png>"`. Write JSON to `/tmp/payload.json`, then `curl -d @/tmp/payload.json`.
 
-Style: `screen-print` poster art (flat color blocks, halftone grain, duotone pair). Color palette depends on topic (historical: 黑金/crimson/cream; modern: varies).
-Canvas: 3:4 portrait via `--ar 3:4` (baoyu-xhs-images default). 1:1 square also works for simpler layouts.
+**Gotcha — cover filename MUST be `01-cover.png`.** The ref step reads `01-cover.png`; a different name (e.g. `01-cover-chencang.png`) silently skips ref and breaks style consistency.
 
-⚠️ `--image` parameter must be an **exact filename**, not a glob pattern like `$i-*.png` — the shell won't expand it before the file exists, resulting in literal `*-` in the filename.
+**Gotcha — Agnes `content_policy_violation`.** Avoid `colonial`, `slum`, `war`, `refugee`. Chinese harem/seductive scenes are also blocked: `楚宫美人` / `后宫` / `harem` / reclining-in-harem prompts get rejected (returns empty URL). Rephrase to neutral (e.g. "耽于安乐，忘了身后是战场"). Always check the raw response for `content_policy_violation` and reword when URL is empty.
 
-**Two folder patterns coexist:**
-- Old: `*-xhs/` (~375 dirs) — with `gen_cards.py`, prompts/, overlay scripts
-- New: `image-cards/<topic>/` (~32 dirs) — with `article.md`, `prompts/*.md`, `analysis.md`, `outline.md`, images
+(Legacy scripts `_gen_runner.py` / `batch_gen.py` target `*-xhs/` at 1024×1024 and read the key from `~/.hermes/config.yaml` — NOT for the image-cards Agnes flow.)
 
-Prefer `image-cards/<topic>/` for new topics.
+## Feishu preview (account: qcnh2b60jsx1)
 
-When using `baoyu-xhs-images`, the prompts follow the screen-print prompt template from `references/workflows/prompt-assembly.md`:
-- Core Principles (flat color blocks, symbolic shapes, negative space)
-- Color Rules (2-5 flat colors max, duotone pair)
-- Text Style (integrated, bold condensed, stencil-cut)
-- Composition (geometric framing, no outlines)
-
-The EXTEND.md at `.baoyu-skills/baoyu-xhs-images/EXTEND.md` pins preferred backend to `baoyu-image-gen`.
-
-## Feishu preview
+Feishu CLI now uses a **self-built app `cli_aadef45343f91cc3`** (user 何健) on tenant **qcnh2b60jsx1.feishu.cn**. The old shared app "Feishu CLI-[mac][pi]" has NO permission on this tenant.
 
 ```bash
-lark-cli docs +create --title "标题" --content "$(cat article.md)" --doc-format markdown --as user --format json
-lark-cli docs +media-insert --doc <token> --file ./image.png --as user
+lark-cli docs +create --title "<title>" --content "$(cat article.md)" --doc-format markdown --as user --format json
+lark-cli docs +media-insert --doc <token> --file ./01-cover.png --as user
 ```
 
-- `--file` must be **relative** from CWD (cd into image dir first)
-- Cannot change title after creation; create new doc if title needs changing
-- Insert images **sequentially** (parallel triggers 429 rate limit)
-- `--command overwrite` clears all media — re-insert everything. Safer to just create a new doc.
+- `--file` must be **relative** from CWD (cd into topic dir first)
+- Insert images **sequentially** (parallel → 429)
+- Cannot change title after creation; make a new doc if title changes
+- Re-login when token expires: `lark-cli auth login --no-wait --json --domain all` → `lark-cli auth qrcode --output qr.png <verification_url>` (show user) → after user authorizes, `lark-cli auth login --device-code <code>`
 
-## XHS publish
+## XHS publish (draft only)
 
 ```bash
 opencli xiaohongshu publish "$(cat article.md)" \
   --title "$(head -1 article.md)" \
-  --images "cover.png,card-1.png,..." \
+  --images "01-cover.png,02-*.png,..." \
   --window foreground --site-session persistent --draft true --format yaml
 ```
 
-- Default timeout is 60s. If it fails: `export OPENCLI_BROWSER_COMMAND_TIMEOUT=180000` and retry (no `--timeout` flag)
-- Browser freeze recovery: `pkill -f "Google Chrome"` + `opencli daemon restart`
+- Max **9 images** per draft (a 12-image post failed)
+- `--draft true` creates a NEW draft each run — drafts accumulate; `opencli xiaohongshu draft-clear` clears ALL drafts (use only when intentional)
+- Default timeout 60s → `export OPENCLI_BROWSER_COMMAND_TIMEOUT=180000` if slow
+- Extension must be connected; if "Image injection failed: No file input found on page", navigate browser to the 上传图文 tab first, then retry
 
-## Notes
+## References
 
-- `/Volumes/mac_share/` mounted at `/Volumes/mac_share/` (not `/mac_share/`)
-- `MEMORY.md` — long-form gotcha collection (keep as reference for Agnes model quirks, sensitive keywords, workflow edge cases)
+- `MEMORY.md` — exhaustive gotcha collection (legacy SVG pipeline, XHS/Twitter limits, opencli bugs)
+- `.baoyu-skills/baoyu-xhs-images/EXTEND.md` — local pipeline config (currently empty)
