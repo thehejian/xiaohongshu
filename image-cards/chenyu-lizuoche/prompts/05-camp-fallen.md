@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese Han troops attacking the empty Zhao camp from behind while the main Zhao force is drawn away at the river. Ancient Chinese people, period clothing. Charcoal and red duotone. Halftone texture. Chinese title 奇兵端营 in bold condensed font. Subtitle 妙计未用. Vintage poster feel. No outlines. Ample whitespace.

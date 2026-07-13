@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese soldier silhouette in bronze armor holding a spear, a crimson rank badge floating above his head. Dark navy geometric border. Halftone dot texture. Vintage poster feel. Chinese title "砍一颗头升一级" in bold condensed font. Subtitle "你敢不敢". Duotone: dark navy and crimson. No outlines. Keep ample whitespace for text.

@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. A powerful warrior gesturing with open hand, letting a departing figure leave freely through a tent opening. Dark purple and bronze duotone. Halftone texture. Chinese title 放虎归山 in bold condensed font. Subtitle 今天的放走是明天的代价. Vintage poster feel. No outlines. Ample whitespace.

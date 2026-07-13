@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Two ancient Chinese men on a moonlit mountain path, one speaking earnestly with open hands, the other listening with resolve. Reunion under stars. Charcoal and crimson duotone. Halftone texture. Chinese title 月下追韩信 in bold condensed font. Subtitle 国士无双. Vintage poster feel. No outlines. Ample whitespace.

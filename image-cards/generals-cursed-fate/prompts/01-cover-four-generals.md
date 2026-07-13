@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Four ancient Chinese generals in armor standing in a row, each with a different tragic fate symbol behind them. Arrows, sword, shadowy assassin. Deep teal and copper duotone. Halftone texture. Chinese title 战国的名将为什么大多下场凄惨 in bold condensed font. Subtitle 战场无敌朝堂必死. Vintage poster feel. No outlines. Ample whitespace.

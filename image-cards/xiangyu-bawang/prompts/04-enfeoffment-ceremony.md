@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. A grand ceremony with an ancient Chinese warrior handing out seals and maps to kneeling lords one by one. Divided territories on scrolls. Deep navy and gold duotone. Halftone texture. Chinese title 分封十九国 in bold condensed font. Subtitle 用土地换和平. Vintage poster feel. No outlines. Ample whitespace.

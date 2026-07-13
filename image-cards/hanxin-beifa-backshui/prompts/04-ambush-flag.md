@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese elite troops at night pulling down enemy flags and raising Han banners in a captured camp by firelight. Ancient Chinese people, period clothing. Crimson and gold duotone. Halftone texture. Chinese title 奇兵袭营 in bold condensed font. Subtitle 拔旗换汉旗. Vintage poster feel. No outlines. Ample whitespace.

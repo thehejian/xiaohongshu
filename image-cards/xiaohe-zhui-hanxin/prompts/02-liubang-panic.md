@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. An ancient Chinese king sitting slumped in shock, hearing bad news that his chancellor fled. Other soldiers around looking worried. Slate blue and rust duotone. Halftone texture. Chinese title 萧何也跑了 in bold condensed font. Subtitle 刘邦天塌了. Vintage poster feel. No outlines. Ample whitespace.

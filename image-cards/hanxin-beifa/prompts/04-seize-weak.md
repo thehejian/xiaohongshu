@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese Han army swiftly taking a weakly defended northern city, gates open, few defenders. Ancient Chinese people, period clothing. Crimson and navy duotone. Halftone texture. Chinese title 趁虚而下 in bold condensed font. Subtitle 连灭魏代赵. Vintage poster feel. No outlines. Ample whitespace.

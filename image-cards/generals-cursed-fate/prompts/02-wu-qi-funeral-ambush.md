@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese general being shot by arrows inside a grand hall, falling onto a royal corpse. Nobles with bows surrounding him. Slate blue and rust duotone. Halftone texture. Chinese title 吴起被射杀 in bold condensed font. Subtitle 用尸体拉仇人陪葬. Vintage poster feel. No outlines. Ample whitespace.

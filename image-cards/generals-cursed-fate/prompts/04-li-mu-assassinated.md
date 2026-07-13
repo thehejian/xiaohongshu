@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese general in armor being approached by stealthy assassins from behind while looking toward the northern border. Dark clouds overhead. Deep navy and gold duotone. Halftone texture. Chinese title 李牧被冤杀 in bold condensed font. Subtitle 赵国的最后屏障倒了. Vintage poster feel. No outlines. Ample whitespace.

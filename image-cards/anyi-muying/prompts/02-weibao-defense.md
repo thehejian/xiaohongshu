@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese king Wei Bao massing heavy troops at a riverside pass garrison, blocking a Yellow River ford, watchful and defensive. Ancient Chinese people, period clothing. Navy and amber duotone. Halftone texture. Chinese title 魏豹守河 in bold condensed font. Subtitle 死守临晋关. Vintage poster feel. No outlines. Ample whitespace.

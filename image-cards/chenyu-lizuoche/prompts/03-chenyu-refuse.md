@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese scholar-general Chen Yu refusing with a proud scholarly gesture, quoting honorable warfare, dismissing trickery. Ancient Chinese people, period clothing. Teal and cream duotone. Halftone texture. Chinese title 义兵不诈 in bold condensed font. Subtitle 偏要正面碾. Vintage poster feel. No outlines. Ample whitespace.

@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese soldiers with no retreat trapped by a river, fighting ferociously with desperation, weapons raised. Ancient Chinese people, period clothing. Charcoal and red duotone. Halftone texture. Chinese title 置之死地 in bold condensed font. Subtitle 拼死才生. Vintage poster feel. No outlines. Ample whitespace.

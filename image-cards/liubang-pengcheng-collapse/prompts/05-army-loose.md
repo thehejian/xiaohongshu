@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese soldiers of a victorious army lounging, gambling and drinking with no guard posted, camp unguarded and slack. Ancient Chinese people, period clothing. Charcoal and amber duotone. Halftone texture. Chinese title 军心涣散 in bold condensed font. Subtitle 没人戒备. Vintage poster feel. No outlines. Ample whitespace.

@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. An anxious ancient Chinese old strategist urgently raising his jade jue cup as a signal, while the main figure pretends not to see. Tension between advisor and leader. Deep navy and gold duotone. Halftone texture. Chinese title 范增举玦 in bold condensed font. Subtitle 竖子不足与谋. Vintage poster feel. No outlines. Ample whitespace.

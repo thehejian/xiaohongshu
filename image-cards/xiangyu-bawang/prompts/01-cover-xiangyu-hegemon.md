@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. A powerful ancient Chinese warrior in ornate armor standing on a raised platform, looking over many lesser lords bowing below. Deep teal and copper duotone. Halftone texture. Chinese title 项羽分封天下为什么不自己当皇帝 in bold condensed font. Subtitle 不是不想是不能. Vintage poster feel. No outlines. Ample whitespace.

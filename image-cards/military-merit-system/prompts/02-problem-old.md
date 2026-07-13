@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Contrast composition: an ancient Chinese noble on horseback with banner, ignored peasant soldier walking away with empty hands. Dark navy and crimson duotone. Halftone texture. Chinese title "以前 贵族打仗 士兵卖命" in bold condensed font. Subtitle "打完仗 功劳是贵族的". Vintage poster feel. No outlines. Keep ample whitespace for text.

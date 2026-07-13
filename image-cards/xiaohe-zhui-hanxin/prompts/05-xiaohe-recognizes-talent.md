@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. An ancient Chinese chancellor examining grain stores, noticing a subordinate with extraordinary bearing. Recognition moment. Dark purple and bronze duotone. Halftone texture. Chinese title 萧何识货 in bold condensed font. Subtitle 顶级万里之才读得懂顶级之将. Vintage poster feel. No outlines. Ample whitespace.

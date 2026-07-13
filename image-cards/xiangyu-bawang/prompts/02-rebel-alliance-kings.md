@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Many ancient Chinese generals and lords sitting in a council tent, each with different expressions, maps spread on table. Competing interests visible. Slate blue and rust duotone. Halftone texture. Chinese title 十八路诸侯各怀鬼胎 in bold condensed font. Subtitle 大家都是来分战利品的. Vintage poster feel. No outlines. Ample whitespace.

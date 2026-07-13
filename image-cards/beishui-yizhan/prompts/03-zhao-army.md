@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. A vast ancient Chinese army of two hundred thousand massed on a plain facing the river, banners dense, an enemy general watching. Ancient Chinese people, period clothing. Teal and cream duotone. Halftone texture. Chinese title 二十万赵军 in bold condensed font. Subtitle 实力碾压. Vintage poster feel. No outlines. Ample whitespace.

@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese general Chen Yu slain on the battlefield, the unheeded veteran Li Zuoche watching the defeat, a fallen plan scroll. Ancient Chinese people, period clothing. Slate and crimson duotone. Halftone texture. Chinese title 陈馀身死 in bold condensed font. Subtitle 耳旁风误国. Vintage poster feel. No outlines. Ample whitespace.

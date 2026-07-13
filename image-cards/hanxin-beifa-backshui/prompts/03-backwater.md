@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese general Han Xin arraying soldiers with their backs to a river, a line of determined troops with no retreat. Ancient Chinese people, period clothing. Teal and cream duotone. Halftone texture. Chinese title 背水列阵 in bold condensed font. Subtitle 把兵逼上死地. Vintage poster feel. No outlines. Ample whitespace.

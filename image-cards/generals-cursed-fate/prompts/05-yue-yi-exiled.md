@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese general looking back at his homeland from a distant road, traveling alone with a small bag, exiled from his country. Dark purple and bronze duotone. Halftone texture. Chinese title 乐毅流亡他国 in bold condensed font. Subtitle 打下七十城却被猜忌. Vintage poster feel. No outlines. Ample whitespace.

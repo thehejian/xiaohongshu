@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. A wheel of fate showing an ancient Chinese general rising from battlefield victory to glory, then falling to death. Throne and court whispers above. Charcoal and crimson duotone. Halftone texture. Chinese title 名将的宿命诅咒 in bold condensed font. Subtitle 太能打是最大的罪. Vintage poster feel. No outlines. Ample whitespace.

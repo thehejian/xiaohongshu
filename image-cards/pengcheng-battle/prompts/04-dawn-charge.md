@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. At dawn, a column of ancient Chinese Chu cavalry crashing through a sleepy enemy camp gate, riders breaking the line. Ancient Chinese people, period clothing. Crimson and gold duotone. Halftone texture. Chinese title 晨袭彭城 in bold condensed font. Subtitle 一冲就凿穿大营. Vintage poster feel. No outlines. Ample whitespace.

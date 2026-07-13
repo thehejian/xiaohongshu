@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese soldiers and a king greedily seizing chests of gold, silk and treasures inside a captured palace, piles of wealth. Ancient Chinese people, period clothing. Amber and navy duotone. Halftone texture. Chinese title 栽在钱上 in bold condensed font. Subtitle 楚宫财宝尽归他. Vintage poster feel. No outlines. Ample whitespace.
