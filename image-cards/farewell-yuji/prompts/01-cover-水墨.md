@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle colors of crimson and grey, sparse composition with negative space, misty atmosphere. Chinese title 霸王别姬 in calligraphic brush style. Subtitle 虞兮奈何. No heavy outlines. Ample whitespace.

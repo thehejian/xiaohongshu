@@ -1,0 +1,2 @@
+{"error":{"message":"***.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - Error code: 503 - {'detail': 'Service busy (id: req_edc1fa46267a4b6287b8f45800bb4fea)'}","type":"upstream_error","param":"","code":"503"}}
+HTTP_CODE:503

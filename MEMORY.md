@@ -556,3 +556,100 @@ agene-image-2.1-flash 模型可以直出中文文字。"No Chinese text in promp
 ### 流程控制
 - 先做 1 条完整流程验证，再批量做剩下的
 - 参考现有项目代码模式（如 `buendia-tree-xhs/overlay.py`），不走新路
+
+## 七、头条号发布经验（wendi-four-sons 首次实战）
+
+### 成功的工作流
+1. 内容改编：从 XHS 版（~950 字，口语化）改为头条版（~1048 字，偏正式，无标签）
+2. 图片处理：XHS 720×960 (3:4) → PIL resize_with_padding → 封面 1176×500 (2.35:1) + 行内 1280×720 (16:9)
+3. 飞书预览：先建文档让用户审核（虽然这次用户跳过直接说 OK）
+4. 浏览器自动化：`opencli browser session` 系列命令填充 + 发布
+
+### opencli 操作要点
+- `opencli bind` 不存在，改为 `opencli browser session bind`
+- 页面元素定位：用 `state` 获取 DOM 快照，找 `data-opencli-ref` 编号，用编号 `click`/`fill`/`type`
+- `type` 比 `fill` 更适合 contenteditable 编辑器（fill 对 textarea 有效，contenteditable 用 type）
+- **导航离开发布页会丢失全部内容**（头条是 SPA，编辑器状态不持久）
+- 封面上传：先选"单图"radio，再用 `upload "#upload-drag-input" <path>`，但 `#upload-drag-input` 可能消失（显示状态变化），此时改用 `upload "input[type=file]" --nth 1`
+- 行内图上传：点击 toolbar 的 image 按钮（`.syl-toolbar-tool.image`）打开上传抽屉，上传后点 `[data-e2e="imageUploadConfirm-btn"]` 插入
+
+### 发布流程关键点
+1. fill title → type body → upload cover → click "预览并发布" → click "确认发布"
+2. "预览并发布" 和 "确认发布" 是两步——先点预览进入确认页，再点确认真正发布
+3. **SylEditor 工具栏按钮无 title/aria-label**，识别靠 `state` 快照中的 `syl-toolbar-tool image` class
+4. 发布成功后会留在同一 URL（SPA），不跳转，需去 `/profile_v4/manage/content/all` 验证
+5. 发布后文章显示"已发布"和"07-19 19:19"时间戳，可以从详情页拿到 item URL
+
+### 图片生成经验
+- Agnes API 全线 503（Service busy）——无法生图，备选方案是 PIL 处理已有图片
+- 头条图片复用 XHS 图转制可行：PIL `resize_with_padding` 加米白底 `#FAF5EB` 填充空白
+- 封面 2.35:1 用 1176×500，行内 16:9 用 1280×720——发布后显示正常
+- 对比重新生成 6 张 Agnes 图（需 10-30min + 503 风险），PIL 转制只需 2s
+
+### 踩坑记录
+- ❌ 第一次点完"确认发布"后去检查 manage/content，返回时编辑器内容清空（SPA 导航丢失）
+- ❌ `element.click()` (JS eval) 不如 `opencli browser click <ref>` 可靠——前者可能不触发 React 事件
+- ❌ 封面 `#upload-drag-input` 在切换封面模式（单图→无封面→单图）后可能消失，需要重新获取 state
+- ⚠️ 文章保存为草稿是自动的（"草稿保存中..."），但导航离开后草稿不会自动恢复为编辑器内容
+- ⚠️ 标题字数显示"11/30"是 CJK 字符数，不是字节数，与 XHS 行为一致
+
+### 改进建议
+- **发布页导航后内容丢失无法恢复，建议一次性完成所有操作**
+- 首次发布前先用 `opencli browser screenshot` 确认页面状态，避免盲操作
+- 封面图先用 PIL 生成好（2s），不要依赖 Agnes 生图（503 不可控）
+- 行内图可省略——头条文章纯文字也能通过审核，配图只是加分项
+
+## 十二、行内图片插入经验（wendi-four-sons 第二次发布实战）
+
+### 成功的工作流（已验证可插入行内图）
+1. 首次发布的文章无行内图，需重新发布（不可编辑已有文章插入图片）
+2. 正确流程：**先插行内图，再传封面**
+
+### 行内图插入（图片抽屉）
+
+**核心步骤：**
+1. 打开图片抽屉：`[data-e2e=imageToolbar-btn]` 或 `.syl-toolbar-tool.image button`
+2. 点击抽屉内的"本地上传"按钮
+3. 用专用 selector `.upload-btn input[type=file]` 上传所有图片（一次性多选，利用 `multiple=true`）
+4. 等待"已上传 N 张图片"出现
+5. 点击"确定"按钮（`button` 文本含"确定"）插入到光标所在位置
+
+**必须用 `.upload-btn input[type=file]` 而非 `input[type=file]`：**
+- 后者页面中通常有 2 个匹配（封面 + 抽屉），导致上传双倍（6 张变 12 张编辑器元素）
+- `.upload-btn input[type=file]` 只匹配 1 个，恰好是抽屉内的隐藏 input
+- `matches_n: 2 → 12 张`，`matches_n: 1 → 6 张`（编辑器内 12 个 `<img>` 是正常现象——桌面端+移动端双渲染）
+
+### 封面无法通过自动化上传
+- 封面自定义上传的 `#upload-drag-input` 在发布页加载后可能不存在（需先点击覆盖上传图标激活）
+- 即使激活，后续打开图片抽屉后文件 input 数量变化，selector 失效
+- **替代方案：封面作为第一张行内图**（00-cover.jpg 以行内图形式上到正文最前面）
+- 发布后封面区域显示空白（系统自动在正文中取一张作为封面），但正文第一张图就是封面图，效果可接受
+
+### 编辑器内容验证
+- 编辑器内 `<img>` 数量是实际图片数 × 2（桌面端 + 移动端双渲染）
+- 发布后文章中图片以懒加载占位符展示（`data:image/gif;base64`，透明，676×380）
+- 滚动到视口范围内后替换为真实 CDN URL（`p3-sign.toutiaoimg.com/tos-cn-i-*`，1280×720 自然分辨率）
+- 因此用 `editor.querySelectorAll('img').length` 验证得到 12（6 张 × 2）是正常的
+
+### 发布后的验证
+- 发布成功后留在同一 SPA 页面，不跳转
+- 去 `https://www.toutiao.com/article/<id>/` 确认，滚动到正文区域触发懒加载
+- 真实图片 URL 模式：`p3-sign.toutiaoimg.com/tos-cn-i-6w9my0ksvp/` 或 `tos-cn-i-axegupay5k/`
+- 图片尺寸 676×380（显示） / 1280×720（自然），与上传的 16:9 匹配
+
+### 踩坑记录
+- ❌ `input[type=file] --nth 0` 匹配 2 个 input → 6 张图变 12 张编辑器元素
+- ❌ `#upload-drag-input` 在封面未激活时不存在 → upload 报 selector_not_found
+- ❌ 图片抽屉关闭后再打开不会清空之前上传的图片（SPA 状态保持）→ 第二次插入时会累积旧图片
+- ⚠️ 标题支持最多 30 字，正文支持 ≤2500 字（本次正文 1048 字安全）
+- ⚠️ 浏览器标签页状态累积：同一个 tab 内多次导航到发布页，图片抽屉状态不重置 → 需加载 cache-busting URL
+
+### 可靠的操作顺序（已验证）
+1. `open "https://mp.toutiao.com/profile_v4/graphic/publish?t=$(date +%s)"`（cache-busting）
+2. `fill "textarea[placeholder*='文章标题']" "标题"`
+3. `type "[contenteditable=true]" "正文"`
+4. 打开图片抽屉 → 点击"本地上传" → 用 `.upload-btn input[type=file]` 传全部图片 → 点击"确定"
+5. 封面：点击 cover 区域 [+] 图标（有时失败）→ 或干脆跳过，正文第一张图当封面
+6. 点击"预览并发布"（`button` 文本含"预览并发布"）
+7. 点击"确认发布"（`button` 文本含"确认发布"）
+8. 去文章 URL 验证（懒加载，需滚动才显示真实图片）

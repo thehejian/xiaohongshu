@@ -1,0 +1,1 @@
+Woodcut print style, bold black carved lines, stark black and white contrast, rough textured strokes, printed ink effect, flat graphic composition, strong angular lines. Chinese title 霸王别姬 in carved woodblock text. Subtitle 虞兮奈何. No color, pure black ink on rough paper. Ample whitespace.

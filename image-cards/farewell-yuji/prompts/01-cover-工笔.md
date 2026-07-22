@@ -1,0 +1,1 @@
+Meticulous gongbi painting style, fine silk texture, delicate outlined figures filled with rich mineral colors, traditional Chinese palette of cinnabar red, azurite blue, gold leaf accents, classical elegance, no visible brush strokes, smooth refined finish. Chinese title 霸王别姬 in fine regular script. Subtitle 虞兮奈何. Ample whitespace.

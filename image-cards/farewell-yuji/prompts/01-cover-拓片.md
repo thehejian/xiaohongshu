@@ -1,0 +1,1 @@
+Ancient bronze rubbing style, deep black background with golden metallic etched lines, textured like ink on paper from a carved bronze surface, Shaanxi bronze inscription feel, dark earthy tones, gold and dark bronze palette, archaic and solemn. Chinese title 霸王别姬 in ancient bronze inscription script. Subtitle 虞兮奈何. Ample whitespace.

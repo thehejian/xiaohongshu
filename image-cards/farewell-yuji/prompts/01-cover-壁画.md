@@ -1,0 +1,1 @@
+Ancient Chinese Dunhuang mural style, earthen ochre and mineral pigment palette, weathered textured wall surface, faded colored patches, celadon and cinnabar tones, Buddhist fresco composition, layered color washes with visible brush marks. Chinese title 霸王别姬 in ancient seal script. Subtitle 虞兮奈何. Ample whitespace.

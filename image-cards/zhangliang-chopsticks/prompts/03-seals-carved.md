@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese Liu Bang about to agree with the plan, seals being carved on a table, about to make a critical mistake. Ancient Chinese people, period clothing. Teal and cream duotone. Halftone texture. Chinese title 刻印分封 in bold condensed font. Subtitle 差点铸成大错. Vintage poster feel. No outlines. Ample whitespace.
