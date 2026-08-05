@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. Han dynasty period setting with appropriate clothing and architecture. Han feast: dog meat stew, honey-grilled venison, warm wine in bronze vessels. Chinese title '“汉家宴席”' in calligraphic brush style. No heavy outlines.

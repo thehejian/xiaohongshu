@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. Han dynasty period setting with appropriate clothing and architecture. Shen Tujia fighting three bulls in the street with bare hands, crowd amazed. Chinese title '“力士搏牛”' in calligraphic brush style. No heavy outlines.

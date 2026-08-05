@@ -653,3 +653,20 @@ agene-image-2.1-flash 模型可以直出中文文字。"No Chinese text in promp
 6. 点击"预览并发布"（`button` 文本含"预览并发布"）
 7. 点击"确认发布"（`button` 文本含"确认发布"）
 8. 去文章 URL 验证（懒加载，需滚动才显示真实图片）
+
+## 十三、Agnes API 代理问题（2026-07-28）
+
+### 问题
+- `apihub.agnes-ai.com` 返回 HTTP 000（Cloudflare 重置连接），ping 可达但 SSL 握手失败
+- 国内网络对 Cloudflare IP 段有限制，非 API 故障
+
+### 修复
+- 代理：`http://192.168.0.117:10808`
+- `export http_proxy=http://192.168.0.117:10808` 后再运行 gen_one.py
+- lark-cli 不需要代理（飞书可直连）
+
+### 教训
+1. HTTP 000 不一定是服务端挂了——先 curl 测试区分故障 vs 网络阻断
+2. 两个端点都试：`apihub.agnes-ai.com`（Cloudflare）和 `api.agnesai.com`（AWS）
+3. 系统 VPN/TUN 不一定覆盖 API 域名，显式 export http_proxy 最可靠
+4. 快速验证：`curl -sv --connect-timeout 10 https://apihub.agnes-ai.com/v1/models -H "Authorization: Bearer $KEY"`

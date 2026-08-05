@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. Han dynasty period setting with appropriate clothing and architecture. People kneeling to Wang Mang, begging him to accept a higher salary. Chinese title '“万民请愿”' in calligraphic brush style. No heavy outlines.

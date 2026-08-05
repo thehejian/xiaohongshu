@@ -17,3 +17,11 @@ __pycache__/
 
 # Output dirs
 agnes-video-output/
+
+# Logs / temp / payloads (don't push transient artifacts)
+*.log
+_payload_*.json
+*_payload_*.json
+01-response.json
+.feishu_uploaded
+image-cards/*/.feishu_uploaded

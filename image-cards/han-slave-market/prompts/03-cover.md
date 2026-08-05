@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. Han dynasty period setting with appropriate clothing and architecture. Xiongnu war captives being marched into Chang'an, chained, becoming slaves. Chinese title '“匈奴为奴”' in calligraphic brush style. No heavy outlines.
