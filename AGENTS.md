@@ -55,7 +55,7 @@ Primary source hierarchy:
 
 ### Article char count — critical
 
-Target: **750–850 chars** (after stripping spaces/newlines). No 古文 quotes unless asked.
+Target: **~800 chars** (after stripping spaces/newlines), approx 750–900 acceptable. No 古文 quotes unless asked. Do NOT waste time fine-tuning to an exact number — 800左右 is fine. No 后世影响/现代启示 sections.
 
 ```python
 # Verify:
