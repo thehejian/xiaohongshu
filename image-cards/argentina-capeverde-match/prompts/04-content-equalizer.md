@@ -1,0 +1,1 @@
+Screen-print poster art. 1024×1024 square. Dark background with green pitch glow. Cape Verde player silhouette in blue shirt celebrating, arms wide. Title "59分钟 扳平 1-1" in cream at top. Text: "德罗伊·杜阿尔特" in golden yellow, "佛得角没有放弃 全场第一次射正就进球" in cream below. Stadium lights. Halftone texture. Poster style.

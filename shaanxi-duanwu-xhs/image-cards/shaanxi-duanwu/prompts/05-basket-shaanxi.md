@@ -1,0 +1,1 @@
+A basket full of golden ring-shaped Qu Lian Mo pastries stacked together, surrounded by fresh wheat stalks and rice dumplings (zongzi) for contrast, harvest festival atmosphere, photorealistic, high detail, flat lay food photography, natural lighting, NO text or labels or words anywhere in the image

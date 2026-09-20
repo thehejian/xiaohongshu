@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. Imperial palace hall, armored soldiers surrounding a disheveled woman in torn robes, officials watching in silence.

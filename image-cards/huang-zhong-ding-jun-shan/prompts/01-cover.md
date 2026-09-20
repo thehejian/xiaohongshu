@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A tall, slender elderly general in Eastern Han dynasty armor standing before a city gate, looking at approaching banners, loyal submission. Elegant and dignified veteran warrior.

@@ -1,0 +1,1 @@
+A wide shot of a massive World Cup stadium packed with fans from many nations, all wearing different colored jerseys, flags waving, confetti in the air, sunny day, celebrating football's diversity, photorealistic, high detail, wide angle sports photography style, NO text or labels or words anywhere in the image

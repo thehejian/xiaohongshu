@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. Han commoners in hemp short jacket (短褐) with cloth headwrap, period pottery and wooden utensils. Stacks of wooden slips from desert beacon towers revealing frontier life. Chinese title "居延汉简" in calligraphic brush style.

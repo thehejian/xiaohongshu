@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. Ancient wooden plank road through steep mountains being burned and destroyed, soldiers setting fire to the bridge, smoke rising, cutting off access. Dramatic landscape.

@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A bound prisoner in Eastern Han dynasty robes being led through city streets to execution, crowds watching, tragic fate unfolding. Betrayal and its consequences.

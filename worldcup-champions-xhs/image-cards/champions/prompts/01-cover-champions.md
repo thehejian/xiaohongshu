@@ -1,0 +1,1 @@
+The FIFA World Cup trophy sitting on a football pitch at sunset, golden trophy glowing, green grass, dramatic golden hour light, bokeh stadium lights in background, photorealistic, high detail, sports photography, NO text or labels anywhere in the image

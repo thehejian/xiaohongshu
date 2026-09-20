@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A general in Eastern Han dynasty robes struck by an arrow during a siege battle, falling from his horse, soldiers rushing to help. Tragic hero's final moment.

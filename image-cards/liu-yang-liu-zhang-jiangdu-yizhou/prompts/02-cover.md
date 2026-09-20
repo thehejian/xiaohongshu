@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A rebel leader standing on city walls with his own flags raised, declaring independence, armies facing each other across the mountains. Tense standoff.

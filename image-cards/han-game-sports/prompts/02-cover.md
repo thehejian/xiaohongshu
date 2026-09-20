@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. Han dynasty period setting with appropriate clothing and architecture. Han noblemen playing polo on horseback with long-handled mallets. Chinese title '“击鞠争锋”' in calligraphic brush style. No heavy outlines.

@@ -1,0 +1,1 @@
+Ancient Chinese ink wash painting, light color wash, a procession of carriages and horsemen traveling south along a wide river, low clouds over distant mountains, misty and tranquil atmosphere, Three Kingdoms era, political marriage journey

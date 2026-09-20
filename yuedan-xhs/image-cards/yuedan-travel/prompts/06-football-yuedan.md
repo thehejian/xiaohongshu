@@ -1,0 +1,1 @@
+Jordan national football team celebrating on the pitch, Asian Cup 2023 final runner-up, Arab Middle Eastern players in red and white jerseys with Arab fans cheering, Middle Eastern football pride, poster style screen-print with flat color blocks and halftone textures, cream colored background, dark navy Chinese text labels, Chinese title "亚洲杯亚军 约旦足球"

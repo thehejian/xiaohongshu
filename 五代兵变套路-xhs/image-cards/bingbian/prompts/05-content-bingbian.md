@@ -1,0 +1,1 @@
+Screen-print scene of four imperial silhouettes in yellow robes standing in a row, a timeline connecting them from left to right, ancient Chinese palace background, crimson and navy palette, halftone textures, text overlay '四个皇帝同一个模板' in bold title, subtitle '李嗣源·李从珂·郭威·赵匡胤', 1:1 square

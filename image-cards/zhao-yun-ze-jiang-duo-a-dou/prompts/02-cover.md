@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A graceful lady in flowing Eastern Han dynasty robes standing at the bow of a boat, holding a crying baby, looking back at the shore. Poignant departure.

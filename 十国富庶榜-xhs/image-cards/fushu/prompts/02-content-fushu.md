@@ -1,0 +1,1 @@
+Screen-print scene of an ancient Fujian port city, ships loading tea and porcelain, coastal harbor view, third place bronze medal symbol, aged gold and navy palette, halftone textures, text overlay '第三名闽国海上贸易' in bold title, subtitle '王审知开福建 · 茶叶陶瓷丝绸出海', 1:1 square

@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A strategist in Eastern Han dynasty robes presenting three strategic plans to a warlord in a military camp, maps and scrolls on table. Critical decision moment.

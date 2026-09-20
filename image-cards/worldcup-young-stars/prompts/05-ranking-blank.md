@@ -1,0 +1,3 @@
+# 身价榜单底图
+
+Screen-print poster style ranking chart. Cream background #FAF7F2. Vertical numbered list 1 to 5 with geometric badge number frames on left side (blank inside, no numbers, no text). Each rank has abstract player silhouette icon showing diverse races - black African, white European, mixed race clearly distinguishable. Trophy icon at #1 position. Bold geometric borders in coral #E8655A and navy #1E293B. Halftone texture accents. Completely blank space on right side of each rank - absolutely NO text shapes, NO letter forms. Pure blank cream color only. Absolutely NO text, NO letters, NO symbols resembling writing anywhere. Completely clean blank space on right for later text overlay. Keep ample whitespace on right side - pure blank cream color only.

@@ -1,0 +1,1 @@
+Six majestic ancient Chinese imperial figures standing in a row representing six generations of Qin rulers, each in black and golden imperial robes, ancestral temple atmosphere, incense smoke and warm amber light, epic historical mural style, solemn and dignified mood, traditional Chinese painting aesthetic, grand cinematic composition, golden and deep red tones

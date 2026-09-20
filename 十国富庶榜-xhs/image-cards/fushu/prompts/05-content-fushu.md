@@ -1,0 +1,1 @@
+Screen-print scene of two smaller kingdoms, one collecting tolls at a river crossing, one with a southern port, humorous comparison, crimson and navy palette, halftone textures, text overlay '南平南汉各有来钱之道' in bold title, subtitle '南平当倒爷收过路费 · 南汉靠广州港口贸易', 1:1 square

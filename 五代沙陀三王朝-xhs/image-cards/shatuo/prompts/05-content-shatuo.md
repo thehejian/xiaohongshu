@@ -1,0 +1,1 @@
+Screen-print scene of Liu Zhiyuan entering Kaifeng city on horseback, establishing his dynasty, soldiers behind him, smoky sky, aged gold and deep teal palette, halftone textures, text overlay '刘知远建后汉称帝太原' in bold title, subtitle '沙陀第三朝 · 趁契丹退兵入主中原', 1:1 square

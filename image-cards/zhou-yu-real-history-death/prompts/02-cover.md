@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. Intense naval battle on Yangtze River, fire ships crashing into chained war vessels, massive flames engulfing Cao Cao's fleet, soldiers panicking, smoke billowing. Decisive moment of victory.

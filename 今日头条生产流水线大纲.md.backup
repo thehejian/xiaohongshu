@@ -1,0 +1,263 @@
+# 003-Twitter 今日头条内容生产流水线
+
+## 一、项目定位
+- 将本地 `xxx-xhs/` 内容文件夹改编为今日头条爆款文章
+- 标题格式：短标题（≤30字）+ 可选"--今日头条"后缀
+- 正文约 1800-2000 字，短段落 + 口语化叙事 + 思辨结尾
+- 封面 + 3 张行内配图（复用 XHS 生成的图片）
+- 发布平台：`https://mp.toutiao.com` 头条号后台
+
+## 二、核心工具链
+
+| 工具 | 用途 | 关键约束 |
+|------|------|----------|
+| **opencli browser** | 浏览器驱动发布 | `opencli browser <session> bind/eval/click/fill/upload` |
+| **Chrome 扩展** | Browser Bridge 连接 | 每次会话前 `opencli doctor` 确认 |
+| **lark-cli** | 飞书文档预览 | `+create`, `+media-insert`, `+update --mode overwrite` |
+| **Python 3** | 文本处理、JS eval 脚本生成 | 无外部依赖 |
+
+## 三、完整发布流程
+
+### Step 1: 环境准备
+```bash
+# 确保浏览器扩展已连接
+opencli doctor
+
+# 绑定已登录头条号的浏览器 session
+opencli browser <session> bind
+
+# 打开发布页面
+opencli browser <session> open "https://mp.toutiao.com/profile_v4/graphic/publish"
+```
+
+### Step 2: 填写标题
+```bash
+opencli browser <session> fill "textarea[placeholder*=标题]" "标题文字（≤30字）"
+```
+- 硬上限 30 字，超限发布按钮变为 `byte-btn-disabled`
+- 推荐 15-22 字，含悬念/数字/冲突感
+
+### Step 3: 填写正文
+```javascript
+// 用 eval 设置 editor innerHTML
+const editor = document.querySelector('div[contenteditable=true]');
+editor.innerHTML = paragraphs.map(p => `<p>${p}</p>`).join('');
+editor.dispatchEvent(new Event('input', { bubbles: true }));
+```
+- 正文约 1800-2000 字
+- 短段落（1-3 句/段）
+- 口语化叙事，场景开头
+- 思辨/金句收尾
+
+### Step 4: 上传封面
+```bash
+# 1. 点击封面添加区域打开上传面板
+opencli browser <session> eval 'document.querySelector(".article-cover-add").click()'
+
+# 2. 上传封面图片
+opencli browser <session> upload '[data-e2e="image-upload"] input[type=file]' "./xxx-cover.png"
+
+# 3. 确认
+opencli browser <session> click '[data-e2e="imageUploadConfirm-btn"]'
+```
+
+### Step 5: 插入行内图片
+```bash
+# 1. 定位光标到编辑器对应段落
+opencli browser <session> eval '
+  const paras = document.querySelectorAll("div[contenteditable=true] p");
+  const range = document.createRange();
+  range.setStart(paras[N], 0);
+  range.collapse(true);
+  window.getSelection().removeAllRanges();
+  window.getSelection().addRange(range);
+'
+
+# 2. 点击工具栏图片按钮
+opencli browser <session> eval 'document.querySelector(".syl-toolbar-tool.image.static button").click()'
+
+# 3. 上传图片文件
+opencli browser <session> upload '[data-e2e="image-upload"] input[type=file]' "./xxx-card1.png" "./xxx-card2.png" "./xxx-card3.png"
+
+# 4. 确认插入
+opencli browser <session> click '[data-e2e="imageUploadConfirm-btn"]'
+```
+
+### Step 6: 声明
+```bash
+# 勾选"取材网络"
+opencli browser <session> eval 'Array.from(document.querySelectorAll("label")).find(l => l.textContent.includes("取材网络")).click()'
+
+# 勾选"个人观点，仅供参考"
+opencli browser <session> eval 'Array.from(document.querySelectorAll("label")).find(l => l.textContent.includes("个人观点")).click()'
+
+# 验证
+opencli browser <session> eval '
+  Array.from(document.querySelectorAll("input[type=checkbox]"))
+    .map(c => ({text: c.closest("label")?.textContent?.trim()?.slice(0,20), checked: c.checked}))
+    .filter(c => c.text).map(c => c.text + "=" + c.checked).join(" | ")
+'
+```
+
+### Step 7: 发布
+```bash
+# 滚动到底部
+opencli browser <session> scroll down --amount 800
+
+# 点击"预览并发布"
+opencli browser <session> click '[class*="publish-btn-last"]'
+```
+
+**实际发布流程卡在"预览并发布"点击后** — 需要人工介入处理预览弹窗/确认。
+
+### 备选：仅准备草稿
+```bash
+# 所有内容填好后自动保存（页面显示"草稿保存中..."）
+# 用户手动登录头条号草稿箱发布
+# 草稿箱地址：https://mp.toutiao.com/profile_v4/manage/draft
+```
+
+## 四、内容适配规则
+
+### 小红书 → 今日头条 改编策略
+
+| 维度 | 小红书 | 今日头条 |
+|------|--------|----------|
+| 字数 | ≤950 字 | 1800-2000 字 |
+| 标题 | ≤20 字，带 emoji | ≤30 字，悬念/冲突型 |
+| 段落 | 短段落 + emoji 分段 | 短段落，无 emoji |
+| 开头 | 痛点故事/个人经历 | 场景画面/悬念事件 |
+| 语气 | 姐妹/亲测/口语化 | 叙事+思辨，平实不浮夸 |
+| 结尾 | CTA+话题标签 | 金句收尾+历史对比/哲学反思 |
+| 图片 | ≤9 张 | 封面 + 3 张行内图 |
+| 声明 | 无需 | 必须勾选"取材网络"+"个人观点" |
+
+### 今日头条爆款写作公式
+```
+悬念标题（数字/冲突/反常识）
+  ↓
+场景开头（深夜/清晨/战场/皇宫...）
+  ↓
+人物/事件引入（是谁？怎么了？）
+  ↓
+高潮展开（3-4个关键情节，短段落推进）
+  ↓
+转折/结局（历史结局/人物命运）
+  ↓
+思辨金句（拓展到普遍人性/历史规律）
+```
+
+## 五、CSS 选择器速查
+
+| 元素 | 选择器 | 说明 |
+|------|--------|------|
+| 标题输入框 | `textarea[placeholder*=标题]` | 标准 textarea |
+| 正文编辑器 | `div[contenteditable=true]` | innerHTML 直接赋值 |
+| 封面添加区域 | `.article-cover-add` | 点击打开上传面板 |
+| 图片上传文件输入 | `[data-e2e="image-upload"] input[type=file]` | 支持 multiple |
+| 上传确认按钮 | `[data-e2e="imageUploadConfirm-btn"]` | 确定按钮 |
+| 图片工具栏 | `.syl-toolbar-tool.image.static button` | 编辑器内图片插入 |
+| 封面单图 radio | `input[type=radio][value=2]` | 默认选中 |
+| 发布按钮 | `[class*="publish-btn-last"]` | 底部"预览并发布" |
+| 作品声明 checkbox | `label:contains("取材网络")` | 需通过 label 点击 |
+
+## 六、已知坑点（详见 MEMORY.md）
+
+### 草稿持久性
+- 今日头条的自动保存只在同一页面生命周期内有效
+- **导航到草稿箱页面再返回发布页会丢失全部内容**（创建新空白编辑器）
+- 草稿在 draft list 中显示为 `[无标题]`
+- **解决方案：完成所有操作后保持发布页打开，不要导航离开**
+
+### SPA 导航问题
+- 草稿列表中的"编辑"链接是 SPA 路由，不支持 `opencli click` 导航
+- 触发后 URL 不变（仍为 draft 页面 URL）
+- 推荐：避免通过草稿箱操作，直接在发布页完成所有操作
+
+### 发布按钮状态
+- 标题超 30 字 → `byte-btn-disabled` 类出现，按钮不可用
+- 发布按钮需滚动到底部才可见
+- "预览并发布"点击后可能有预览弹窗，需额外确认
+
+### 封面图片
+- 单图/三图/无封面的 radio 选择器
+- 上传后必须点击"确定"按钮关闭面板
+- 刷新页面后封面丢失，需重新上传
+
+### 行内图片
+- 每张上传的图片可能在编辑器中生成 2 个 `<img>` 元素（原因不明）
+- 图片通过工具栏按钮插入到**当前光标位置**
+- 多次插入的图片全部在同一位置（光标位置），需手动拖拽调整
+
+### 声明检查
+- 默认已勾选：头条首发 + 发布得更多收益（同时发布微头条）
+- 必须额外勾选：取材网络 + 个人观点，仅供参考
+- 通过 label 元素点击比直接点击 checkbox 更可靠
+
+### 浏览器稳定性
+- 页面可能因未知原因变为 `about:blank`（疑似发布过程异常）
+- 重启 daemon 后恢复：`opencli daemon restart` + `opencli doctor`
+
+### opencli 适配器限制
+- `opencli toutiao` 只有 `articles` 和 `hot` 命令，**无 `publish` 适配器**
+- 所有发布操作必须通过 `opencli browser` 手动驱动
+
+### 飞书文档与今日头条不互通
+- 飞书文档中的 `<image token="...">` 对今日头条无意义
+- 行内图片必须通过头条编辑器重新上传
+- 图片 token 在 `+update --mode overwrite` 后会失效
+
+## 七、完整操作示例（murongxi-xhs）
+
+```bash
+# 打开发布页
+opencli browser tt open "https://mp.toutiao.com/profile_v4/graphic/publish"
+
+# 填标题
+opencli browser tt fill "textarea[placeholder*=标题]" "抱着亡妻又亲又吻哭不响杀头：最疯纯爱"
+
+# 填正文（Python 生成 JS eval）
+python3 -c "
+import json, subprocess
+paragraphs = ['段落1', '段落2', ...]  # 约 30 段
+html = ''.join(f'<p>{p}</p>' for p in paragraphs)
+js = f\"\"\"const e = document.querySelector('div[contenteditable=true]');
+e.innerHTML = '{html}';
+e.dispatchEvent(new Event('input', {bubbles: true}));\"\"\"
+subprocess.run(['opencli','browser','tt','eval',js])
+"
+
+# 上传封面
+opencli browser tt eval 'document.querySelector(\".article-cover-add\").click()'
+sleep 2
+opencli browser tt upload '[data-e2e=\"image-upload\"] input[type=file]' './mrx-cover.png'
+sleep 2
+opencli browser tt click '[data-e2e=\"imageUploadConfirm-btn\"]'
+
+# 插入行内图（定位光标到第 11 段）
+opencli browser tt eval '
+  const p = document.querySelectorAll(\"div[contenteditable=true] p\")[10];
+  const r = document.createRange(); r.setStart(p,0); r.collapse(true);
+  window.getSelection().removeAllRanges(); window.getSelection().addRange(r);
+'
+opencli browser tt eval 'document.querySelector(\".syl-toolbar-tool.image.static button\").click()'
+sleep 2
+opencli browser tt upload '[data-e2e=\"image-upload\"] input[type=file]' './mrx-card1.png' './mrx-card2.png' './mrx-card3.png'
+sleep 2
+opencli browser tt click '[data-e2e=\"imageUploadConfirm-btn\"]'
+
+# 勾选声明
+opencli browser tt eval 'document.querySelector(\"label:has(input[value=4])\")?.click()'
+opencli browser tt eval 'document.querySelector(\"label:has(input[value=5])\")?.click()'
+
+# 验证
+opencli browser tt eval '
+  Array.from(document.querySelectorAll(\"input[type=checkbox]\"))
+    .filter(c => c.closest(\"label\")).map(c => c.closest(\"label\").textContent.trim().slice(0,20) + \"=\" + c.checked).join(\" | \")
+'
+```
+
+## 八、参考文献
+- `MEMORY.md` #42 — 今日头条发布经验（含完整踩坑记录）
+- `murongxi-xhs/toutiao_inline.md` — 首次适配样本
+- `小红书生产流水线大纲.md` — 小红书完整流水线（图片/XHS 发布参考）

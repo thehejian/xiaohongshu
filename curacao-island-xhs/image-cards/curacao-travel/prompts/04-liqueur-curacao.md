@@ -1,0 +1,1 @@
+A tall blue glass bottle of Blue Curaçao liqueur on a wooden table next to a tropical cocktail glass with orange slice and ice cubes, warm sunset light, turquoise sea visible in background, poster style screen-print with flat color blocks and halftone textures, cream colored background, dark navy Chinese text labels, Chinese title "蓝库拉索酒"

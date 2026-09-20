@@ -1,0 +1,1 @@
+Screen-print poster art. A football stadium at sunset, silhouette of a player with arms wide open. A smaller goalkeeper silhouette in goal below. Warm orange and cream gradient sky. Symbolic and poetic atmosphere. Flat colors, halftone texture. Cream base with warm sunset tones. NO text, NO Chinese characters, NO words, NO letters. Pure visual composition.

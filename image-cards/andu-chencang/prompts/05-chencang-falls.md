@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese attackers bursting through the gates of Chencang city at dawn, a stunned enemy general caught off guard. Ancient Chinese people, period clothing. Crimson and cream duotone. Halftone texture. Chinese title 陈仓城破 in bold condensed font. Subtitle 章邯措手不及. Vintage poster feel. No outlines. Ample whitespace.

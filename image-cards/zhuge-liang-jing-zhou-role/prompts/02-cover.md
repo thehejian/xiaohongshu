@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. Two tall, slender men in Eastern Han dynasty robes sitting face to face by candlelight in an intimate chamber, deep conversation, fish and water bond, trust and mutual understanding.

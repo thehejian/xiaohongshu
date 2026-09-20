@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. A young general in armor lying on deathbed in riverside pavilion, weak but determined, writing final testament with trembling hands, misty river and distant mountains visible. Tragic hero's last moment.

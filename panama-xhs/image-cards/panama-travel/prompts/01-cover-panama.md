@@ -1,0 +1,1 @@
+Panama Canal locks with a massive cargo ship passing through the Miraflores lock system, giant steel gates, tropical sky, poster style screen-print with flat color blocks and halftone textures, cream colored background, dark navy Chinese text labels, Chinese title "巴拿马运河 万吨巨轮坐电梯"

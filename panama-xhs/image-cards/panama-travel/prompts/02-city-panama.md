@@ -1,0 +1,1 @@
+Panama City modern buildings along tropical coast, Central American cityscape view, poster style, cream colored background, dark navy Chinese text labels, Chinese title "巴拿马城"

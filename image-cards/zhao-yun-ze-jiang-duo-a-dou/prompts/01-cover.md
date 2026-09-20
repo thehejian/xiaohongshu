@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. Tall, slender warriors in Eastern Han dynasty robes intercepting a boat on a misty river, soldiers with banners, decisive moment. Elegant and heroic figures.

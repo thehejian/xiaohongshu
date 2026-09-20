@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. Desperate river crossing under arrow rain, a warrior shielding his lord with a horse saddle while rowing frantically, arrows flying everywhere, cavalry charging from behind. Intense life-or-death moment.

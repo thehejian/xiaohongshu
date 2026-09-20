@@ -1,0 +1,1 @@
+Screen-print elegant poster of two ancient Chinese literary figures in Tang dynasty scholar robes, calligraphy brushes and poetry scrolls floating between them, classical Chinese garden with blooming flowers, limited color palette of deep teal, rose gold, and cream, halftone textures, text overlay '花间词派中国最早的文人男团' in bold title, subtitle '温庭筠 · 韦庄 · 十八词人五百情歌', 1:1 square

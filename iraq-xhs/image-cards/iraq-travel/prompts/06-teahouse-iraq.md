@@ -1,0 +1,1 @@
+Arab Iraqi men sitting in a Baghdadi tea house drinking chai from small glasses, warm and friendly atmosphere, traditional Middle Eastern tea culture, poster style, cream colored background, dark navy Chinese text labels, Chinese title "巴格达茶馆 一杯茶的温度"

@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A tall slender warlord in Eastern Han dynasty robes removing his official seal and opening the city gates, another warlord receiving him with mixed emotions, bittersweet surrender, end of an era.

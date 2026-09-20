@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. Han dynasty period setting with appropriate clothing and architecture. Liu Bi's body thrown into the same river as Wu Zixu, moonlight on water. Chinese title '“一江同葬”' in calligraphic brush style. No heavy outlines.

@@ -1,0 +1,1 @@
+Screen print poster art cover. Silhouette of Hobbiton hillside with round door. Southern Alps mountain range. Kiwi bird. All Whites football jersey. "新西兰 中土世界" theme. Bold flat shapes. Halftone. Cream #FAF7F2, text #1E293B. "新西兰——中土世界的正确打开方式" text.

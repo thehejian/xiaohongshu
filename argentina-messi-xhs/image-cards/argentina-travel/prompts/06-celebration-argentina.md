@@ -1,0 +1,1 @@
+Football stadium scene, Argentina vs Algeria World Cup match, Messi in blue white jersey on the pitch, crowded stands, natural daylight, photorealistic sports photography, NO text or labels anywhere

@@ -1,0 +1,1 @@
+水墨画风格，淡宣纸纹理，流动墨韵，疏朗留白，雾气氛围。 lone general on horseback in vast Gobi desert, armor splattered with blood, mountains of enemy dead behind. Title "段颎杀神".

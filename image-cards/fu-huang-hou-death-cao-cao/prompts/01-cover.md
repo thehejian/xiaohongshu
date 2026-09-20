@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. Deep palace chambers at night, a solitary woman in elegant Han dynasty robes writing a secret letter by dim candlelight.

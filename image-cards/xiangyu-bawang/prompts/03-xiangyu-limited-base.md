@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. A lone ancient Chinese general in armor looking at a map that shows his territory is just one part of a vast land. His army camp behind him, limited in size. Dark green and amber duotone. Halftone texture. Chinese title 根基只在楚地 in bold condensed font. Subtitle 嫡系不够凭什么管天下. Vintage poster feel. No outlines. Ample whitespace.

@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese army crossing a narrow mountain pass and deploying along a riverside, a general pointing at the terrain. Ancient Chinese people, period clothing. Amber and navy duotone. Halftone texture. Chinese title 井陉布阵 in bold condensed font. Subtitle 退路就是河水. Vintage poster feel. No outlines. Ample whitespace.

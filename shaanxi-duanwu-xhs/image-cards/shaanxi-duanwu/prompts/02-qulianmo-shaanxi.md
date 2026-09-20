@@ -1,0 +1,1 @@
+A freshly baked golden ring-shaped Qu Lian Mo pastry on a wooden cutting board, surrounded by wheat stalks and flour, rustic Shaanxi countryside kitchen background, warm golden hour lighting, photorealistic food photography, high detail, NO text or labels or words anywhere in the image

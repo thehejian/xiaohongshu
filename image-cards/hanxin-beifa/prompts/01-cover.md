@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese general Han Xin pointing at a campaign map showing a northward sweep of conquests, banners advancing. Ancient Chinese people, period clothing. Deep crimson and gold duotone. Halftone texture. Chinese title 韩信北伐 in bold condensed font. Subtitle 一路如开挂. Vintage poster feel. No outlines. Ample whitespace.

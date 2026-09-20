@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. Three armies surrounding a walled city from different directions, tall slender generals on horseback leading their forces, siege weapons visible, desperate blockade, no escape.

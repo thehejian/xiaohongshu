@@ -1,0 +1,1 @@
+A football stadium with Argentina flag waving in the wind, blue and white colors, trophy on the pitch, dramatic sky, sports event atmosphere, photorealistic, high detail, NO text or labels anywhere

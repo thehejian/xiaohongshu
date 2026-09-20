@@ -1,0 +1,1 @@
+Ancient Chinese ink wash painting, light color wash, a diplomatic boat crossing wide river between two kingdoms, envoy standing on deck with scroll, mountains and willows on riverbanks, Three Kingdoms era, serene and formal atmosphere

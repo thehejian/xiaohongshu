@@ -1,0 +1,1 @@
+Screen-print scene of Empress Liu hiding behind palace curtains ignoring ministers, a stage with actors performing outside, her husband Emperor Li Cunxu with bow and arrow, tragic destiny, crimson and dark gold palette, halftone textures, text overlay '刘皇后贪财善妒害死庄宗' in bold title, subtitle '大臣汇报军情她不理 · 丈夫战败她当尼姑', 1:1 square

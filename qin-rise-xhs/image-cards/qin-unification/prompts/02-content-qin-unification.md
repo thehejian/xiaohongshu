@@ -1,0 +1,1 @@
+Ancient Chinese scene of Qin ancestors breeding horses on the Gansu plateau, Western Zhou dynasty era, a man with horses on vast grassland, traditional Chinese landscape painting style, misty mountains, warm golden hour lighting, historical atmosphere, epic landscape composition, traditional Chinese color palette of ochre and green

@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. Han dynasty period setting with appropriate clothing and architecture. Zhang Anshi's mansion workshop, hundreds of slaves weaving and accounting. Chinese title '“豪奴成市”' in calligraphic brush style. No heavy outlines.

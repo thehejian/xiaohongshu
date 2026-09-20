@@ -1,0 +1,1 @@
+Screen-print scene of a young emperor on throne, three severed official hats on the floor, palace hall with drawn curtains, conspiracy atmosphere, crimson red and dark navy palette, halftone dot patterns, text overlay '十八岁皇帝杀三功臣' in bold title, subtitle '刘承祐听信谗言 · 托孤大臣一日殒命', 1:1 square

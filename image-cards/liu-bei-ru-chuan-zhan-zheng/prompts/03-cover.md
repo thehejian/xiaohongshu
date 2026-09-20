@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A somber surrender scene, a tall slender warlord in plain white robes leading his entourage out of a city gate, another warlord receiving him with mixed emotions, bittersweet victory.

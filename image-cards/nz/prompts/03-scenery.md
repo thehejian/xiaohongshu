@@ -1,0 +1,1 @@
+Screen print card. Milford Sound cliffs rising from dark water. Lake Tekapo's milky blue water with small church. Mountain silhouette. "米尔福德峡湾 特卡波湖 库克山" theme. Blue and green. Bold flat shapes. Halftone. Cream #FAF7F2, text #1E293B.

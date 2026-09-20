@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. Han dynasty period setting with appropriate clothing and architecture. Han marketplace, people openly drinking during the five-day festival. Chinese title '“大酺五日”' in calligraphic brush style. No heavy outlines.

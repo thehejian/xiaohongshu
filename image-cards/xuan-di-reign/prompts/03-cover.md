@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. Han dynasty period setting with appropriate clothing and architecture. Han farmers storing grain in a public granary, officials recording amounts. Chinese title '“常平仓”' in calligraphic brush style. No heavy outlines.

@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Two figures on a chessboard-like landscape. One sits calmly thinking many moves ahead. One charges forward with raw force. The strategic mind vs the warrior. Charcoal and crimson duotone. Halftone texture. Chinese title 一念之差 in bold condensed font. Subtitle 刘邦想三步项羽走一步. Vintage poster feel. No outlines. Ample whitespace.

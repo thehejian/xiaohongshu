@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese official in flowing robes running on a mountain road at night, chasing a figure on horseback under a bright full moon. Determined expression. Deep teal and copper duotone. Halftone texture. Chinese title 萧何月下追韩信 in bold condensed font. Subtitle 全军跑了他不追偏追管仓库的. Vintage poster feel. No outlines. Ample whitespace.

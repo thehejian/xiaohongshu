@@ -1,0 +1,1 @@
+Screen-print portrait of Wen Tingyun sitting at an exam desk, his fingers interlaced in a thinking gesture eight times, an ugly face with bright intelligent eyes, famous poem scroll '小山重叠金明灭' beside him, deep teal and cream palette, halftone textures, text overlay '温庭筠叉手八次成一赋' in bold title, subtitle '丑男才子 · 菩萨蛮后来成甄嬛传插曲', 1:1 square

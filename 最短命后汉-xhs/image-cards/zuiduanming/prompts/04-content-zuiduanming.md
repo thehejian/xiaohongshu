@@ -1,0 +1,1 @@
+Screen-print scene of a military general raising his sword to rebel, army camp at night with torches, soldiers rallying behind him, dramatic lighting, crimson red and amber gold palette, halftone textures, text overlay '郭威被逼起兵反后汉' in bold title, subtitle '皇帝派人来杀他 · 郭威一怒下邺城', 1:1 square

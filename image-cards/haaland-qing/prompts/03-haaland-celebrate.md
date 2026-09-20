@@ -1,0 +1,1 @@
+Screen print card. Haaland silhouette in blue Man City jersey doing his signature celebration pose. His small braid flying in the air behind him. Comical exaggerated braid swing. Bold flat shapes. Halftone. Cream #FAF7F2, text #1E293B. "辫子甩起来 以为要掏折扇" text.

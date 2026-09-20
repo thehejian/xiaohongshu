@@ -1,0 +1,1 @@
+Screen-print dramatic scene of Lady Huarui standing before Emperor Zhao Kuangyin, reciting poetry, defeated Shu soldiers laying down weapons behind her, a single woman more courageous than an army, crimson and amber palette, halftone textures, text overlay '花蕊夫人十四万人齐解甲' in bold title, subtitle '宁无一个是男儿 · 女子比满朝文武有骨气', 1:1 square

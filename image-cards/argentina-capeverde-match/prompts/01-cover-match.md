@@ -1,0 +1,1 @@
+Screen-print sports poster art. 1024×1024 square. Split composition: left half in Argentina light blue and white vertical stripes, right half in Cape Verde dark blue. Bold Chinese title "佛得角差点掀翻阿根廷" in cream block font across bottom. Subtitle "世界杯最燃一战" in smaller golden text below. Stadium floodlights at top fading into dark sky. Halftone grain texture. Dramatic poster style.

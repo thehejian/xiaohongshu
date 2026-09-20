@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. Han dynasty period setting with appropriate clothing and architecture. Forensic examiner documenting wounds on a body in a Han dynasty官府 chamber. ,. Chinese title "汉代法医" in calligraphic brush style.

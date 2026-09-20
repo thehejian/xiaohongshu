@@ -1,0 +1,1 @@
+A little child wearing a large ring-shaped pastry around their neck on a colorful silk string, laughing and biting into it, traditional Chinese festival scene, rural Shaanxi background with wheat fields, warm sunlight, photorealistic lifestyle photography, high detail, NO text or labels or words anywhere in the image

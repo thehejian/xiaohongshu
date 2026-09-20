@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A welcoming ceremony at mountain pass, one warlord greeting another with banners and troops, both smiling but suspicious. Ironic meeting of future enemies.

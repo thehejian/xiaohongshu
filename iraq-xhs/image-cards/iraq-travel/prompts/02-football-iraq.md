@@ -1,0 +1,1 @@
+Iraqi football team celebrating with the 2007 Asian Cup trophy, Arab Middle Eastern players in green jerseys holding the trophy high, joyful celebration, poster style, cream colored background, dark navy Chinese text labels, Chinese title "2007亚洲杯冠军"

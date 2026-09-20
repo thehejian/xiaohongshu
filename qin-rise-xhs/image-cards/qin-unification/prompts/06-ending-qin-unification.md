@@ -1,0 +1,1 @@
+Epic scene of Qin Shi Huang's unification, the first emperor standing before his unified kingdom, vast Chinese landscape with the Great Wall in distance, grand imperial ceremony, golden sunlight breaking through clouds, black and gold imperial banners, moment of triumph, majestic and victorious atmosphere, cinematic epic wide shot, traditional Chinese aesthetic, dramatic lighting

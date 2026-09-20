@@ -1,0 +1,1 @@
+Large cargo ship going through Panama Canal locks, water levels changing, massive steel gates opening, engineering marvel, poster style screen-print with flat color blocks and halftone textures, cream colored background, dark navy Chinese text labels, Chinese title "运河水闸 工程奇迹"

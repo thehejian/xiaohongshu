@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese general Xiang Yu locked in a grueling stalemate against Liu Bang's forces at a fortified line, both sides exhausted. Ancient Chinese people, period clothing. Navy and amber duotone. Halftone texture. Chinese title 项羽被拖住 in bold condensed font. Subtitle 荥阳成皋一线. Vintage poster feel. No outlines. Ample whitespace.

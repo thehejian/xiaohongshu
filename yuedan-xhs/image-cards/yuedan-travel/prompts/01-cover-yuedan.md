@@ -1,0 +1,1 @@
+A vintage infographic poster of Jordan highlighting Petra and the Dead Sea, Jordan flag with an Asian Cup runner-up medal, poster style screen-print with flat color blocks and halftone textures, cream colored background, dark navy Chinese text labels, Chinese title "约旦 中东最被低估的国家"

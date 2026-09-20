@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese Zhao army collapsing in panic, a general slain, the empty camp taken, contrasting victory. Ancient Chinese people, period clothing. Charcoal and red duotone. Halftone texture. Chinese title 赵军崩溃 in bold condensed font. Subtitle 陈馀身死. Vintage poster feel. No outlines. Ample whitespace.

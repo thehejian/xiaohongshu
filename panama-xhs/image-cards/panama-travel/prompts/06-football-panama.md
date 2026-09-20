@@ -1,0 +1,1 @@
+A Latino football player in red Panama jersey celebrating with passion, Roman Torres style with tattooed body, crowd cheering in the background, 2018 World Cup emotional moment, poster style screen-print with flat color blocks and halftone textures, cream colored background, dark navy Chinese text labels, Chinese title "2018世界杯 巴拿马首次出线"

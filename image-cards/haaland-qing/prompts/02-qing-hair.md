@@ -1,0 +1,1 @@
+Screen print card. Historical illustration showing Qing dynasty queue hairstyle standard: braid from crown, passing through a copper coin hole. Label "铜钱鼠尾辫标准". Traditional Chinese ink wash style simplified to flat shapes. Bold flat colors. Halftone. Cream #FAF7F2, text #1E293B. Educational but funny tone.

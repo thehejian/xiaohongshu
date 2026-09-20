@@ -1,0 +1,1 @@
+Ancient Chinese ink wash painting, light color wash, inside a grand hall, a noble lady sits confidently surrounded by over a hundred female warriors holding swords and daggers, a man hesitates at the doorway, tense and intimidating atmosphere, Three Kingdoms era

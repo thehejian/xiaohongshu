@@ -1,0 +1,1 @@
+The 2026 FIFA World Cup trophy in the center, surrounded by 48 small football jerseys or flags arranged in 12 groups of 4, bright stadium lighting, depth of field, photorealistic, high detail, commercial sports photography style, NO text or labels or words anywhere in the image

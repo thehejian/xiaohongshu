@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A tall slender warlord in Eastern Han dynasty robes sending an envoy to consecrate a new temple on a mountain, soldiers and officials watching, divine protection established.

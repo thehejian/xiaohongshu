@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese Han Xin harvesting victory after victory across a map, like reaping a field, fast and unstoppable. Ancient Chinese people, period clothing. Charcoal and gold duotone. Halftone texture. Chinese title 一路收割 in bold condensed font. Subtitle 快得像开挂. Vintage poster feel. No outlines. Ample whitespace.

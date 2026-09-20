@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. A fierce warrior in Wei-Jin period armor standing guard on a boat, bloodied but determined, protecting his lord from pursuing cavalry on the shore. Heroic last stand.

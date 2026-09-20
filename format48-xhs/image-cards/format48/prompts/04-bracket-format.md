@@ -1,0 +1,1 @@
+A giant football knockout tournament bracket visualization with 32 slots, made of glowing lines and nodes, trophy at the end of the bracket, dark background with dramatic lighting, photorealistic, high detail, cinematic sports photography style, NO text or labels or words anywhere in the image

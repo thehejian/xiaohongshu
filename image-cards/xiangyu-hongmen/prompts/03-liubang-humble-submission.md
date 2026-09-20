@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. An ancient Chinese man bowing deeply with clasped hands before a seated warrior. The humble posture contrasted with the powerful figure above. Dark green and amber duotone. Halftone texture. Chinese title 刘邦低头认怂 in bold condensed font. Subtitle 伸手不打笑脸人. Vintage poster feel. No outlines. Ample whitespace.

@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese army lining up fake warships and straw soldiers on a riverbank as a decoy, banners raised to draw the enemy's eye. Ancient Chinese people, period clothing. Teal and cream duotone. Halftone texture. Chinese title 临晋疑兵 in bold condensed font. Subtitle 大张旗鼓硬渡. Vintage poster feel. No outlines. Ample whitespace.

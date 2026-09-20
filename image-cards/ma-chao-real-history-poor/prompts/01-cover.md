@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. A young warrior in Wei-Jin period armor and flowing robes, riding a powerful war horse on the northwest frontier, iron cavalry lined up behind him. Heroic and fierce aura of Liangzhou.

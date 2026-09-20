@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese general holding a sword, looking up at the sky with despair. A messenger with imperial decree stands before him. Empty battlefield behind. Dark green and amber duotone. Halftone texture. Chinese title 白起被赐死 in bold condensed font. Subtitle 我何罪于天而至此哉. Vintage poster feel. No outlines. Ample whitespace.

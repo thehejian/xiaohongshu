@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. Han dynasty period setting with appropriate clothing and architecture. Li Yu (Han dynasty) wrestling a bear, heroic outdoor scene. Chinese title '“徒手搏熊”' in calligraphic brush style. No heavy outlines.

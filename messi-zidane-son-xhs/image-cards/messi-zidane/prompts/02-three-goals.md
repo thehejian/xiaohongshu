@@ -1,0 +1,1 @@
+Screen-print poster art. A goalkeeper in Algeria green kit diving to save, ball flying past into the net. Action shot from a goalkeeper's perspective. Green goalposts, stadium background. Flat color blocks, halftone texture. Cream #FAF7F2 background, Algeria green #006233 accents. NO text, NO Chinese characters, NO words, NO letters. Pure visual composition.

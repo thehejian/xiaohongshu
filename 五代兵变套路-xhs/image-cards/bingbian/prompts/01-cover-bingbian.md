@@ -1,0 +1,1 @@
+Screen-print bold poster of an ancient Chinese golden yellow imperial robe on a wooden stand, two generals facing it back to back, army tents at dawn, symbolic crowning moment, limited color palette of crimson red, gold yellow, and deep navy, halftone textures, text overlay '黄袍加身不是赵匡胤原创' in bold title, subtitle '郭威才是祖师爷 · 五代兵变四步走', 1:1 square

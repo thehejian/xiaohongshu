@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A sick elderly warlord lying on a bed by the Yangtze River at Zigui, gazing westward toward Sichuan, final moments of a tragic life, peaceful passing.

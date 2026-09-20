@@ -1,0 +1,1 @@
+An Arab Middle Eastern person floating on the Dead Sea reading a newspaper, crystal clear blue water, white salt crystals on the shore, desert mountains in the background, the lowest point on Earth, poster style screen-print with flat color blocks and halftone textures, cream colored background, dark navy Chinese text labels, Chinese title "死海 地球最低点"

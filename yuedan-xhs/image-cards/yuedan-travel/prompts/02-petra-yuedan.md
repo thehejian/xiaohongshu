@@ -1,0 +1,1 @@
+The ancient city of Petra carved in rose-red stone, a narrow canyon leading to the Treasury building, dramatic sunlight streaming through the canyon, poster style screen-print with flat color blocks and halftone textures, cream colored background, dark navy Chinese text labels, Chinese title "佩特拉 玫瑰古城"

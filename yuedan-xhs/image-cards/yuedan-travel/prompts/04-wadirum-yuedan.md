@@ -1,0 +1,1 @@
+Vast red desert landscape of Wadi Rum with towering rock formations, Arab Bedouin camp with tents and camels, starry night sky with Milky Way, Mars-like terrain, poster style screen-print with flat color blocks and halftone textures, cream colored background, dark navy Chinese text labels, Chinese title "瓦迪拉姆 火星沙漠"

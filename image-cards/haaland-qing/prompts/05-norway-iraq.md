@@ -1,0 +1,1 @@
+Screen print card. Norway flag with "4-1" scoreline vs Iraq flag. Haaland silhouette celebrating with braid flying. "挪威4:1伊拉克 哈兰德辫子发威" text. Bold flat shapes. Halftone. Cream #FAF7F2, text #1E293B.

@@ -1,0 +1,1 @@
+A football field with two goal posts, 24 small flags lined up on one side qualifying directly, 8 additional flags on the other side being selected as best third-placed teams, dramatic sky overhead, photorealistic, high detail, sports infographic photography style, NO text or labels or words anywhere in the image

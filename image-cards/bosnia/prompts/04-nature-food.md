@@ -1,0 +1,1 @@
+Screen print card. Kravica waterfall cascading over travertine rocks. Plate of ćevapi with flatbread. Green mountains. "自然与美食 Kravica瀑布 Ćevapi" theme. Green and warm brown. Bold flat shapes. Halftone. Cream #FAF7F2, text #1E293B.

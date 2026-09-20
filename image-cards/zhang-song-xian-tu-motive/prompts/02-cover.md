@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. Secret meeting in a dimly lit room, a scholar in Eastern Han dynasty robes presenting a detailed map to a warlord by candlelight, conspiratorial atmosphere. Historic moment of betrayal.

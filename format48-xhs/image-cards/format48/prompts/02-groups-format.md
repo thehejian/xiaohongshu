@@ -1,0 +1,1 @@
+A football stadium divided into 12 sections representing 12 groups, each section has 4 seats with different colored scarves, bird's eye view from above, large empty stadium with vibrant colors, natural daylight, photorealistic, high detail, architectural photography style, NO text or labels or words anywhere in the image

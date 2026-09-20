@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A tall slender official in Eastern Han dynasty robes chasing bandits at the foot of a mountain, struck by an arrow, tragic death, fallen hero.

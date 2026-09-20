@@ -1,0 +1,1 @@
+A speech bubble infographic showing three languages around a Curacao island map, Dutch, Papiamento, English labels with small translation notes, colorful and educational, poster style screen-print with flat color blocks and halftone textures, cream colored background, dark navy Chinese text labels, Chinese title "三种语言"

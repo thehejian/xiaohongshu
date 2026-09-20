@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. Defeated warriors kneeling on grasslands, tall slender general on horseback overlooking vast peaceful northern territory. Victory and submission.

@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A tall slender warlord in Eastern Han dynasty robes ordering servants to return treasures and official seals to another warlord, boxes of gold and silver being carried, act of mercy and respect.

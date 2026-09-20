@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. A fractured map with many pieces each with a sword behind it, turning against the center. A lone figure in the middle surrounded by arrows pointing outward. Charcoal and crimson duotone. Halftone texture. Chinese title 分封的致命缺陷 in bold condensed font. Subtitle 给出去的地盘都会变成敌人. Vintage poster feel. No outlines. Ample whitespace.

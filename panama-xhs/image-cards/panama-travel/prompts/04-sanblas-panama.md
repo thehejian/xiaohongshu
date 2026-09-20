@@ -1,0 +1,1 @@
+A tropical paradise island from San Blas archipelago, white sand beach with crystal clear turquoise water, palm trees, traditional Guna sailboat on the sea, no hotels just nature, poster style screen-print with flat color blocks and halftone textures, cream colored background, dark navy Chinese text labels, Chinese title "San Blas 365个珊瑚岛"

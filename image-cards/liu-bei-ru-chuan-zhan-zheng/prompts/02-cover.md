@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A fierce city siege battle, tall slender general in Eastern Han dynasty armor leading defenders on walls, arrows flying, desperate resistance, tragic last stand.

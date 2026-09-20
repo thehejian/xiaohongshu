@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A tall slender warlord in Eastern Han dynasty robes standing on a boat with his family, looking back at the distant city of Chengdu, bittersweet departure, exile to a new life.

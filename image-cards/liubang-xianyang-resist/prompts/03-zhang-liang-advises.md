@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Two strategists in conversation. One scholar in elegant robes makes a point with open palms, the other nods with a knowing smile. Dark green and amber duotone. Halftone texture. Chinese title 张良一句话刘邦全明白 in bold condensed font. Subtitle 聪明人一点就透. Vintage poster feel. No outlines. Ample whitespace.

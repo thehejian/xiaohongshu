@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese Zhao army arraying in the open for a grand frontal battle, banners straight, camp left unguarded. Ancient Chinese people, period clothing. Crimson and gold duotone. Halftone texture. Chinese title 堂堂列阵 in bold condensed font. Subtitle 老营空虚. Vintage poster feel. No outlines. Ample whitespace.

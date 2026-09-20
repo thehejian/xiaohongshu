@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. Two fleets of war boats facing each other on a misty river, tall slender generals standing on decks, tense standoff. Elegant confrontation.

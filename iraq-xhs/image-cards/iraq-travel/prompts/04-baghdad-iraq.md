@@ -1,0 +1,1 @@
+Baghdad night market street food scene, Masgouf grilled fish on open fire along Tigris river, Middle Eastern Arab people eating and socializing, warm atmosphere, poster style, cream colored background, dark navy Chinese text labels, Chinese title "巴格达夜市 烤鱼飘香"

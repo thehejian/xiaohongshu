@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. An ancient Chinese king angrily pointing at a calm official who speaks earnestly. Tension between them. Dark green and amber duotone. Halftone texture. Chinese title 萧何说追韩信 in bold condensed font. Subtitle 跑了十几个将领你不追. Vintage poster feel. No outlines. Ample whitespace.

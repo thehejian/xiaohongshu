@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. Inside a besieged city, emaciated civilians and soldiers sitting weakly against walls, empty rice bowls, dead horses nearby, starvation and despair, tragic suffering.

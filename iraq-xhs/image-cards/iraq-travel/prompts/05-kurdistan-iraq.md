@@ -1,0 +1,1 @@
+Erbil citadel on a hill in Kurdistan northern Iraq, ancient fortress with snow capped mountains behind, spring wildflowers in foreground, peaceful Kurdish landscape, poster style, cream colored background, dark navy Chinese text labels, Chinese title "库尔德区 世外桃源"

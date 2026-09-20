@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. Two young warriors in Han dynasty robes, one offering his grand mansion to the other, sworn brothers by oath, heroic and passionate. Youthful ambition and loyalty.

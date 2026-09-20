@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A tall, slender scholar in Eastern Han dynasty robes standing on a city wall watching a general leading troops westward into the distance, bittersweet farewell,留守重任.

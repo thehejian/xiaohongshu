@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese Han troops launching a sudden attack on the rear city of Anyi, gates surprised, defenders unprepared. Ancient Chinese people, period clothing. Charcoal and gold duotone. Halftone texture. Chinese title 奇袭安邑 in bold condensed font. Subtitle 后方被掏. Vintage poster feel. No outlines. Ample whitespace.

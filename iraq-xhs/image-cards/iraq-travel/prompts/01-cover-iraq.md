@@ -1,0 +1,1 @@
+Ancient Mesopotamia map with Babylon ziggurat, Iraq flag, football trophy from 2007 Asian Cup, cradle of civilization theme, poster style, cream colored background, dark navy Chinese text labels, Chinese title "伊拉克 文明的摇篮"

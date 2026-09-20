@@ -1,0 +1,1 @@
+Amman cityscape built on seven hills, white stone houses covering the hills, a Roman amphitheater from 2000 years ago in the city center, Middle Eastern city view, poster style screen-print with flat color blocks and halftone textures, cream colored background, dark navy Chinese text labels, Chinese title "安曼 山城"

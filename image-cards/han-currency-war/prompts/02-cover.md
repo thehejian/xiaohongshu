@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. Han dynasty period setting with appropriate clothing and architecture. Different Han coins of varying sizes and thicknesses, merchants arguing. Chinese title '“钱法之乱”' in calligraphic brush style. No heavy outlines.

@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. Cold palace corridor, a lone emperor kneeling in despair, watching distant figures being taken away.

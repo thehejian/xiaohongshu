@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. Ancient Chinese Liu Bang trapped in a walled city under siege, surrounded by enemy camps, food supplies exhausted, desperate situation. Ancient Chinese people, period clothing. Navy and amber duotone. Halftone texture. Chinese title 困守荥阳 in bold condensed font. Subtitle 粮草断绝. Vintage poster feel. No outlines. Ample whitespace.

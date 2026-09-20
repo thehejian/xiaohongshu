@@ -1,0 +1,3 @@
+# 结尾互动底图
+
+Screen-print poster style ending card. Cream background #FAF7F2. Large bold geometric question mark icon at center (just shape, not text character). Speech bubble graphic outline at center (completely blank inside - no text, no letter forms). Football trophy icon at bottom. Diverse player silhouettes at very bottom - mix of black, white, mixed race clearly visible. Halftone textures, bold geometric shapes in coral #E8655A and navy #1E293B. Absolutely NO text, NO letters, NO symbols resembling writing anywhere in the image. Completely clean blank space inside speech bubble for later text overlay. Keep ample whitespace inside speech bubble - pure blank cream color only.

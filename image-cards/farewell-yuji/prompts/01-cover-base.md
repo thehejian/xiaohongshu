@@ -1,0 +1,1 @@
+Screen-print poster art. Ancient Chinese warlord Xiang Yu holding his dying concubine Yu Ji in his arms inside a military tent at night, a single oil lamp flickering, tragic farewell scene, a warrior's grief. Ancient Chinese people, period clothing.

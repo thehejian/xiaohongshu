@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. An aging warrior in Wei-Jin period robes lying on a sickbed, writing a final letter with trembling hands, sorrowful expression, few loyal followers watching. Tragic hero's last moments.

@@ -1,0 +1,1 @@
+A row of colorful Dutch colonial houses along a turquoise Caribbean waterfront, Willemstad Curacao, pink yellow blue green buildings reflecting on calm water, palm trees, poster style screen-print with flat color blocks and halftone textures, cream colored background, dark navy Chinese text labels, Chinese title "彩色威廉斯塔德"

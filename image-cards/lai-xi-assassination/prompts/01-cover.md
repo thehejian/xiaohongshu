@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. A general in Han dynasty armor holding his wound in a military tent, writing a final letter by candlelight, a comrade kneeling beside him weeping. Chinese title "来歙殉国" in calligraphic brush style.

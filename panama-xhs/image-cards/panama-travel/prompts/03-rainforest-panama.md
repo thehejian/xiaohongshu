@@ -1,0 +1,1 @@
+Tropical rainforest with a sloth hanging from a tree branch, toucan on another branch, lush green jungle canopy, Soberania National Park, poster style screen-print with flat color blocks and halftone textures, cream colored background, dark navy Chinese text labels, Chinese title "热带雨林 树懒与巨嘴鸟"

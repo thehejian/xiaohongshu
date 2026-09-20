@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A scholar in Eastern Han dynasty robes escorting a funeral procession along a river, wind blowing, solemn journey. Mourning and duty.

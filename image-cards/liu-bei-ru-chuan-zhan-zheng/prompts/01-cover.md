@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A tense banquet scene in Eastern Han dynasty hall, two tall slender warlords facing each other across a table, hidden tension beneath polite gestures, political intrigue.

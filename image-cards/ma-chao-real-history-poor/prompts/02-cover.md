@@ -1,0 +1,1 @@
+Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere. Intense siege battle at Tong Pass, massive army surrounding a desperate camp, flags waving, arrows flying, tense standoff between two warlords. Dramatic confrontation.

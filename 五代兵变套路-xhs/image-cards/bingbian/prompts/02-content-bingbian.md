@@ -1,0 +1,1 @@
+Screen-print scene of soldiers tearing down a yellow banner and draping it over general Guo Wei, army camp at night, torches and混乱, dramatic shadows, crimson and gold palette, halftone print grain, text overlay '郭威澶州兵变黄旗披身' in bold title, subtitle '公元950年 · 士兵哗变强行拥立', 1:1 square

@@ -1,0 +1,1 @@
+Iguazu Falls wide panoramic view from the Argentinian side, hundreds of waterfalls cascading down a massive curved cliff, dense mist rising, rainbows forming in the spray, lush green subtropical jungle all around, bright natural daylight, photorealistic nature photography style, high detail, NO text or labels or words anywhere in the image

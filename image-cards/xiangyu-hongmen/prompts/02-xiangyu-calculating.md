@@ -1,0 +1,1 @@
+Screen-print poster art, warm cream paper background. A powerful ancient Chinese general sitting alone in thought, maps and scrolls spread before him. A chessboard with many pieces visible. Slate blue and rust duotone. Halftone texture. Chinese title 项羽的政治账 in bold condensed font. Subtitle 杀一人 vs 战十八路诸侯. Vintage poster feel. No outlines. Ample whitespace.
