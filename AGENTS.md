@@ -231,3 +231,21 @@ opencli xiaohongshu publish "$(cat article.md)" --title "$(head -1 article.md)" 
 - **背景建筑**：汉代庭院有柱廊、瓦当、夯土墙，避免唐宋及以后的建筑风格
 - **Prompt中必须明确标注"汉代""深衣""宽袖长袍"** 等关键词确保AI不画错
 - 图二、图三必须与图一有明显场景差异（不同地点/人物/活动），避免三张图雷同
+
+## Git & 部署
+
+- **独立仓库**：本目录是独立 git repo，remote 为 `https://github.com/thehejian/xiaohongshu.git`（NOT 属于 `/Users/mac` 主仓库）
+- **初始化**：在 `003-Twitter/` 目录内 `git init` + `git remote add origin`
+- **图片忽略**：`.gitignore` 忽略 `*.png *.jpg *.jpeg *.gif *.webp *.svg` + `*.log` + `.DS_Store`
+- **定时推送**：macOS launchd 每天凌晨 2:00 自动 commit + push
+  - 脚本：`auto_push.sh`
+  - plist：`~/Library/LaunchAgents/com.thehejian.xiaohongshu-autopush.plist`
+  - 日志：`/var/log/xiaohongshu_cron.log`
+  - 无变更时自动跳过，不会产生空提交
+
+### 经验教训（2026-09-20）
+
+- **远程仓库已有内容时**：`git pull --rebase` 可能因数据量大导致 `early EOF` / `partial file` 错误，此时直接 `git push --force` 覆盖即可（用户确认过远程内容不需要保留）
+- **crontab 在 opencode 环境阻塞**：`crontab -` 命令会超时卡死，改用 launchd plist 更可靠
+- **launchd 加载**：先 `launchctl unload` 再 `launchctl load`，避免重复加载报错
+- **验证推送一致性**：`git fetch origin && git diff --stat origin/main HEAD` 确认本地与远端完全同步
