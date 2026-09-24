@@ -1,0 +1,1 @@
+Ink wash painting style, wide Qin countryside at harvest, farmers freely working large contiguous fields without old boundary ridges, golden grain, prosperous village in distance, open sky, sense of renewal and order, historical realism, no text

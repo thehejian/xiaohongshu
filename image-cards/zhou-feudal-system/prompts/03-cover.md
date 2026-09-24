@@ -1,0 +1,1 @@
+Ink wash painting style, powerful Zhou vassal lords in a grand hall ignoring a distant royal envoy, self-confident generals and ministers, weakened royal symbol in background, tense political mood, dramatic lighting, historical realism, no text

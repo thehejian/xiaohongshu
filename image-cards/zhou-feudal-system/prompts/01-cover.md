@@ -1,0 +1,1 @@
+Ink wash painting style, Western Zhou royal court ceremony, Son of Heaven on a raised dais granting seals and robes to kneeling feudal lords, bronze ritual vessels, hierarchical arrangement of ranks, solemn atmosphere, historical realism, no text

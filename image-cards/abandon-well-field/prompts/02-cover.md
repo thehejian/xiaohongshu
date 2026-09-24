@@ -1,0 +1,1 @@
+Ink wash painting style, interior of a Qin state office, wooden land deed slips and measuring ropes on a low table, a scribe recording acreage by candlelight, noblemen in Han-style robes looking concerned in background, dramatic side lighting, historical realism, no text

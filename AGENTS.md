@@ -36,8 +36,8 @@ set -a; source ~/.baoyu-skills/.env; set +a
 ## Folder layout
 
 - `image-cards/<topic>/` — CURRENT pipeline. Only create new topics here.
-- `*-xhs/` (300+ dirs) — LEGACY SVG+Inkscape pipeline, do not touch
-- `_gen_runner.py` / `batch_gen.py` — LEGACY, do not use
+- `*-xhs/` (~28 dirs, legacy remnant) — LEGACY SVG+Inkscape pipeline, do not touch
+- `_gen_runner.py` / `batch_gen.py` — LEGACY, do not use（已不在仓库中）
 
 ## 世说新语 series
 
@@ -50,7 +50,7 @@ set -a; source ~/.baoyu-skills/.env; set +a
 
 - Feishu drive folder「游记」 at root: `L8MKfqrG6lNMJkdf79ZcrB8inJg` (https://qcnh2b60jsx1.feishu.cn/drive/folder/L8MKfqrG6lNMJkdf79ZcrB8inJg)
 - **All 游记 docs MUST be created inside this folder** (create doc with `--parent-token L8MKfqrG6lNMJkdf79ZcrB8inJg`, or `drive +move` afterwards)
-- Local topic folders under `wohuling/` (first游记 topic); future topics: `<destination>/`
+- Local topic folders under `wohuling/`（规划中，尚未创建）; future topics: `<destination>/`
 - XHS title prefix = `场景N：{标题}` or 直接标题（如「秦岭深处的阿勒泰」）
 - 游记文章风格：**干货攻略型**，含导航地址、路线、用时、装备、最佳季节、轨迹链接
 - 游记配图：用户自拍真实照片，无需AI生成；顺序：远景封面→核心景观→细节特写→收尾
@@ -78,7 +78,7 @@ Write like you're telling a friend a fascinating story. 情感真挚, avoid text
 
 ### Historical accuracy — must verify
 
-Cite specific events, names, numbers, and years. **Verify any lesser-known claim** before writing — check against `book/两汉风云.epub` and structured references (史记/资治通鉴). Don't invent or approximate. If unsure, omit rather than guess.
+Cite specific events, names, numbers, and years. **Verify any lesser-known claim** before writing — check against structured references (史记/后汉书/资治通鉴/三国志) and web sources. (本仓库未包含 `book/两汉风云.epub`，如需电子书请单独获取。) Don't invent or approximate. If unsure, omit rather than guess.
 
 **Primary source hierarchy for verification** (must use when writing 东汉题材):
 1. `后汉书` (范晔) — first stop for Eastern Han facts
@@ -127,15 +127,9 @@ len(article.replace('\n','').replace(' ',''))
 
 If <700 chars, expand the main narrative with more vivid scenes and details — **do NOT** add 后世影响/现代启示 sections (phased out).
 
-### Existing enrichment scripts
+### Historical enrichment (legacy — scripts no longer in repo)
 
-| Script | Topics | Purpose |
-|--------|--------|---------|
-| `enrich_v2.py` | 56–100 | Base article content (~450 chars each) in dict `A` |
-| `enrich_v3_batch1.py` | 56–77 | Enrichment (~400 chars) + Feishu upload |
-| `enrich_v3_batch2.py` | 78–100 | Enrichment (~400 chars) + Feishu upload |
-
-All topics **1–100** are enriched and uploaded to Feishu (they still use the old 后世影响+现代启示 enrichment, but new topics from 144 onward must NOT).
+Topics **1–100** were previously enriched and uploaded to Feishu (old 后世影响+现代启示 style). New topics from 144 onward must NOT use that structure. The `enrich_v2.py` / `enrich_v3_batch*.py` scripts have been removed; do not reference them.
 
 ### Feishu title format
 
@@ -156,15 +150,6 @@ lark-cli docs +media-insert --doc <token> --file ./03-cover.png --as user
 ```
 
 **Tracking**: `.feishu_uploaded` records `NNN|folder-name|doc-token` — always append, never deduplicate.
-
-### Enrichment/upload via script
-
-```bash
-# Run in background, check enrich_batch{N}.log:
-python3 -u enrich_v3_batch1.py 56 77 > enrich_batch1.log 2>&1 &
-```
-
-Each topic takes ~30–90s to upload (create doc + 3 image inserts).
 
 ## Image generation (`gen_one.py`)
 
@@ -213,10 +198,9 @@ opencli xiaohongshu publish "$(cat article.md)" --title "$(head -1 article.md)" 
 
 ## References
 
-- `MEMORY.md` — exhaustive gotcha collection (platform limits, opencli bugs)
-- `.opencode/memory/SUMMARY.md` — anchored session memory
-- `正文提示词.md` — master document with 127 topics (24–150), each with article body + 3–6 image prompts
-- `book/两汉风云.epub` — primary source for current series
+- `MEMORY.md.backup` — legacy gotcha collection（原 `MEMORY.md` 已改名，仓库内无独立 `MEMORY.md`）
+- `正文提示词.md` — master document with topics 正文 + image prompts
+- `.feishu_uploaded` — 统一飞书上传追踪：`NNN|folder-name|doc-token`（已合并原子目录分散记录）
 
 ## Style Preferences
 
@@ -235,12 +219,8 @@ opencli xiaohongshu publish "$(cat article.md)" --title "$(head -1 article.md)" 
 ## Git & 部署
 
 - **独立仓库**：本目录是独立 git repo，remote 为 `https://github.com/thehejian/xiaohongshu.git`（NOT 属于 `/Users/mac` 主仓库）
-- **初始化**：在 `003-Twitter/` 目录内 `git init` + `git remote add origin`
-- **图片忽略**：`.gitignore` 忽略 `*.png *.jpg *.jpeg *.gif *.webp *.svg` + `*.log` + `.DS_Store`
-- **定时推送**：macOS launchd 每天凌晨 2:00 自动 commit + push
-  - 脚本：`auto_push.sh`
-  - plist：`~/Library/LaunchAgents/com.thehejian.xiaohongshu-autopush.plist`
-  - 日志：`/var/log/xiaohongshu_cron.log`
+- **图片与生成物忽略**：`.gitignore` 忽略图片、`_payload_*.json`（含 base64 图）、`node_modules/`、`__pycache__/`、`*.mp4`、`*.log`、`.DS_Store`
+- **定时推送（仅原 macOS 环境）**：`auto_push.sh` + launchd plist 不在本仓库内，部署在原机 `~/Library/LaunchAgents/`；日志 `/var/log/xiaohongshu_cron.log`
   - 无变更时自动跳过，不会产生空提交
 
 ### 经验教训（2026-09-20）

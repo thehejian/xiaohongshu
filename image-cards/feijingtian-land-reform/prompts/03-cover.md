@@ -1,0 +1,1 @@
+Ink wash painting style, bustling Qin agricultural market after reform, farmers trading surplus grain, newly purchased plots stretching to horizon, carts and granaries, warm afternoon light, prosperity and mobility, historical realism, no text

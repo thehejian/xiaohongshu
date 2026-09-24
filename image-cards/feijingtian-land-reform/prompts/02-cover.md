@@ -1,0 +1,1 @@
+Ink wash painting style, Qin tax official measuring a private field with a cord and wooden stake, farmer holding a land token nearby, noble estate visible beyond with closed gates, clear daylight, balanced composition, historical realism, no text

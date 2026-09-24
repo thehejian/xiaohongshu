@@ -1,0 +1,1 @@
+Ink wash painting style, ancient Chinese Warring States landscape, wide open farmland with raised earthen field boundaries being dismantled by peasants with hoes, morning light over Qin plains, distant hills, muted earth tones with soft grey mist, historical realism, no text, no people faces close-up

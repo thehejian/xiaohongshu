@@ -1,0 +1,1 @@
+Ink wash painting style, map-like aerial view of Zhou feudal domains as separate walled states across a river landscape, each state with its own banner and city, borders shifting and expanding, cartographic elegance in ink wash, historical realism, no text

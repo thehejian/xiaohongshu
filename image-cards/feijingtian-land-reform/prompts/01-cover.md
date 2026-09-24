@@ -1,0 +1,1 @@
+Ink wash painting style, ancient Chinese landscape, laborers pushing down earthen field boundaries under vast sky, transforming small plots into broad farmland, Warring States era, dynamic composition, earthy palette with soft crimson accents, historical realism, no text
