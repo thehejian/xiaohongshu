@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A warlord in late Eastern Han dynasty armor sitting alone, deep in thought, weighing a difficult decision, candlelight flickering, contemplative mood.

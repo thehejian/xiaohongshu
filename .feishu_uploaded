@@ -67,3 +67,200 @@
 410|yu-ji-sun-ce-death|FBMhdxrtuo2JF1xR4AMcsmsenzh
 410|yu-ji-sun-ce-death|KLXodrG8wospYaxsoPwc4wr9nwX
 410|yu-ji-sun-ce-death|Yv3cdtho0o8E0VxiIP0cHEVQnec
+410|yu-ji-sun-ce-death|U4VEdTHYooTfVHxT1gNc8zkLnYg
+
+# 配图经验教训（2026-09-20新增）
+
+## 1. 内容相关性
+- 每张配图必须紧密结合正文内容，不能只是通用的水墨画
+- 图1要对应正文开头/背景
+- 图2要对应正文高潮/关键事件
+- 图3要对应正文结尾/结局
+- 提示词要明确描述具体的场景、人物动作、历史事件细节
+
+## 2. 人物形象规范
+- 道士：必须有道袍、白须，不能是光头或普通人形象
+- 将军：必须有头发（短黑发），不能是光头
+- 服饰：必须符合东汉末年风格（深衣、曲裾、直裾、宽袖长袍）
+- 禁止：现代服装、错误朝代服饰
+
+## 3. 生成速度优化
+- 使用3个API key并行生成可大幅提高速度（从~6分钟降到~2分钟）
+- 3个key：sk-TFZyZw2wRgLD78Ptyonc1Knm7CUM69PQWb4L4cg9OABpguQx
+          sk-B4Ura1jIYueXZmGkngI2WzkiyU4UBwcsUYk4q2dHoOhEOGlo
+          sk-0gxsyZkpshxGdhk5Ru3JwpZQHkDDpiuX4slariWoIJRDS9dk
+
+## 4. 飞书文档规则
+- 每次修改后必须新建飞书文档，不能更新已有文档
+- 文档ID必须立即记录，不能使用占位符
+411|zhang-lu-han-zhong-wudou-mi-dao|JWgAdVrKgoLyHkxmni5cWaRwnIe
+411|zhang-lu-han-zhong-wudou-mi-dao|N2dtdEWL7odw1exgcwYcW9r5nVf
+411|zhang-lu-han-zhong-wudou-mi-dao|LjuhdPdwDoobB9xjETXcpxJmn2c
+412|sui-gu-bai-bo-fei-shen-shi|AmdzdsauNo0Z7Wx7yzjceGujnef
+412|sui-gu-bai-bo-fei-shen-shi|OynRdtoGko5TsRxjd3DcmXn9nIh
+
+## 东汉末年服饰器具规范（2026-09-20新增）
+
+### 服饰要求
+- 铠甲：铁札甲（lamellar armor）、皮甲，禁止金属板甲或现代风格
+- 头盔：东汉末年风格铁盔，禁止钢盔或中世纪头盔
+- 长袍：深衣、曲裾、直裾、宽袖长袍，禁止现代服装
+- 士兵：皮甲+长裤+布靴，禁止赤膊或穿着不当
+
+### 器具要求
+- 武器：长矛、戟、剑、弓箭，禁止火枪或现代武器
+- 马具：简单马鞍和缰绳，禁止西式马具
+- 军营：帐篷、旗帜、篝火，禁止现代设施
+
+### 场景要求
+- 战场：冷兵器作战，禁止爆炸或现代战争元素
+- 建筑：夯土墙、瓦当、木结构，禁止现代建筑
+- 日常：几榻、案几、漆器，禁止现代家具
+
+### 提示词写法
+- 必须明确标注"late Eastern Han dynasty"或"东汉末年"
+- 必须描述具体服饰类型（leather/iron lamellar armor）
+- 必须描述具体器具（spears, swords, bows）
+- 避免模糊描述，要具体到时代特征
+413|liu-bei-yi-zhou-shen-guo|Rl8Gd597QoYf7BxmyCscTJF0nwg
+414|zhu-huan-fei-tou-nu|IfWjd9l7EoL374xDhNAcV7WsnYc
+415|zuo-ci-cao-cao-magic|JvZMdHMMKoUWrHxRRmrcaYZpnrf
+416|guan-lu-zhao-yan-life|WaApdFCONop5Ofx7tagcRYUBnjc
+
+## 志怪故事配图规范（2026-09-20新增）
+
+### 《搜神记》系列特点
+- 故事带有超自然、奇幻元素
+- 需要体现"神秘感"和"诡异氛围"
+- 人物服饰仍需符合东汉末年风格
+
+### 配图要点
+1. **飞头婢女类**：无头形象需谨慎处理，避免恐怖感过强
+2. **幻术类**：要体现"变化"的过程，如酒变色、隐身等
+3. **改命类**：要体现"天命"的神圣感，如星光、仙人等
+4. **医术类**：要体现"超自然医术"的神秘感
+
+### 提示词写法
+- 必须包含"late Eastern Han dynasty"确保时代正确
+- 描述超自然元素时要具体（如"hovering head"、"semi-transparent figure"）
+- 避免过于恐怖的描述，保持"志怪"而非"恐怖"风格
+- 场景要符合古代中国山水画意境
+
+### 常见问题
+- 超自然元素容易画错（如飞头变成断头）
+- 仙人形象容易画成道士或和尚
+- 需要明确区分"方士"和"仙人"的不同形象
+417|hua-tuo-supernatural-medicine|We7ldYzyvoRWwCxgIi3c5pGNnJe
+417|hua-tuo-supernatural-medicine|PMlcdkjviol973x0o2bcvxfNn7b
+
+## 华佗超自然医术配图要点（2026-09-20新增）
+
+### 核心原则
+- 每张图必须紧密结合正文描述的具体场景
+- 不能只是通用的人物肖像，要体现"故事性"
+
+### 具体场景对应
+1. **图1诊脉**：要体现"盯着眼睛诊断诅咒"的紧张感
+   - 华佗凝视病人双眼
+   - 病人虚弱消瘦
+   - 烛光下的紧张氛围
+
+2. **图2吐蛇**：要体现"吐出小蛇"的震撼场景
+   - 病人口中吐出蛇
+   - 医生冷静观察
+   - 蛇在盆中蠕动
+
+3. **图3通幽**：要体现"洞察幽冥"的神秘能力
+   - 华佗手持药囊
+   - 身后有鬼魅身影
+   - 阴阳符号等元素
+
+### 提示词写法改进
+- 描述要具体到"动作"和"表情"
+- 要包含"环境细节"（如烛光、房间等）
+- 避免模糊的"wise physician"，要具体到场景
+- 体现"超自然"而非普通医疗场景
+418|cao-cao-dream-three-horses|RnhgdiLqGoXrJjxOUSOcZiUZnpg
+418|cao-cao-dream-three-horses|G3Cddz2nUorOYtxhZGvcfTflnvd
+418|cao-cao-dream-three-horses|NRWIdneQ8oD1HcxFI73cxFqgnhb
+419|zhong-yao-dream-chess|E2Ond6pMbosuAexS47CcpTbbnKb
+汉中之战法正|zhong-shu-battle-fa-zheng|HKe8dZknIoY7V3xC0ILcmoqKnbb
+汉中之战法正|zhong-shu-battle-fa-zheng|BStedGMYko5tmyxohhTchcNzn1e
+汉中之战法正|zhong-shu-battle-fa-zheng|TTikd9ba7oiVJOxSyXicoHQ8nOB
+
+## 三张图风格统一要点（2026-09-20新增）
+
+### 核心原则
+- 三张图必须风格一致，不能出现明显差异
+- 同一组图使用相同的提示词风格描述
+
+### 风格统一方法
+1. **开头描述一致**：都用"Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes..."
+2. **环境描写一致**：都包含"misty atmosphere"、"sparse composition with negative space"
+3. **服饰描写一致**：都明确标注"late Eastern Han dynasty"
+4. **氛围描写一致**：根据场景选择统一的氛围词（如"tense"、"tragic"、"mystical"）
+
+### 常见问题
+- 图二容易风格突变，需要特别注意
+- 如果图一图三风格一致，图二要用更接近的提示词
+- 重新生成后要检查整体风格是否统一
+420|dan-dao-fuhui-lusu|CnW9do6pDot4bZxvHvMc2Vwknpd
+420|dan-dao-fuhui-lusu|BN5Dd9n3zoc0Uix5Ncock2A8nV0
+420|dan-dao-fuhui-lusu|IRq3dY50soml11xE3r8cwTbGnbh
+421|liu-ye-cao-cao-shu|Vd7cdKsrooLePPxcBd0cqrzRnTg
+421|liu-ye-cao-cao-shu|JSm6d5MzuoAHenxsIm7cHXDbnJH
+
+## 正文英文问题（2026-09-20 新增严重警告）
+
+### 问题描述
+- 正文中出现英文单词（如"contemporaries"）是极为严重的问题
+- 小红书用户全是中文用户，英文内容会严重影响阅读体验
+- 必须在写article.md后仔细检查全文，确保无任何英文
+
+### 预防措施
+1. **写完后必须逐行检查**：确保全文只有中文、数字和标点
+2. **禁止使用"比如"后的英文翻译**：如"即XXX"也要避免
+3. **人名地名统一**：全部使用中文，不写英文原名
+4. **专有名词**：全部使用中文译名，如"contemporaries"→"同时代的人"
+
+### 检查清单
+- [ ] 无英文单词
+- [ ] 无英文标点（如逗号、句号）
+- [ ] 无中英文混排
+- [ ] 数字使用阿拉伯数字或中文数字均可，但要统一
+422|zhang-lu-tiandao|TEFadJwwHotTGxxaGVgcPfHHn8c
+422|zhang-lu-tiandao|EhwddH5E6oBNCExGd0DcCojEn4e
+422|zhang-lu-tiandao|OyVEd4G29ovynVxnE0qcU21jnBg
+423|fazheng-dingjunshan|GrW8dvr7GopBTgxV0AncpDmvn4d
+424|zhang-he-fire-brigade|M4sLdfsGGob0lBxFPnvcEGILnTg
+424|zhang-he-fire-brigade|BchPdRWsJo9TbMxZwL7cwvDcnLf
+425|liu-bei-hanzhong-sealchan|DncPdVZtNo8QRZxnIvAcAVVYn6W
+426|yang-xiu-death|YhO6d8cLNoBK5KxcOCncbfFInEh
+427|cao-cao-toufeng|ZKEhdNmdyocz3KxEqEScPxsznEf
+428|topic-428|HTpPdKyvyodYdqxQf8hc0zWRnTd
+429|topic-429|Sx4tdbx34o02T0xXJ3Tcv7XVnLg
+430|topic-430|VCWydVuTBojBPPxhW0JcQKfvnEg
+430|topic-430|TlafdrUwSoT89Ux9e6xcFJYWnOZ
+431|topic-431|Ugeydc0QDoblIWxi1atcbG6Hn3b
+432|topic-432|F8stdsMbYo71ICxQoFWcmMBrnCg
+433|topic-433|D40Yd5Mg5oXByKxgVTTctY4OnZM
+433|topic-433|SCcYduBkEoGqruxFZK8cgQVvnJf
+434|topic-434|URQRddzWaoFxn6xSkpkcBI3YnSd
+434|topic-434|UQWBdPJuhomLyrxF8dFcL1yyn6b
+435|topic-435|GBzBdSiJboM1HfxOvC3cZ3T1nSh
+435|topic-435|MDGpdKBSIoz9UaxgHYRckCZbnSN
+436|topic-436|RAjFdtWyIojTTtxSkdPc0Kvpnrd
+435|topic-435|GBzBdSiJboM1HfxOvC3cZ3T1nSh  #draft-saved
+435|topic-435|MDGpdKBSIoz9UaxgHYRckCZbnSN  #draft-saved
+436|topic-436|RAjFdtWyIojTTtxSkdPc0Kvpnrd  #draft-saved
+437|topic-437|ZircdqaQQoWOxpxNObpceCjxntf
+438|topic-438|HzuZdTp1Qogja2x40FscXNLXnfc
+439|topic-439|MmhodrkvLoTQBoxV8RCccSO1nFd
+440|topic-440|OR7EdKD7aohJIox6QagcstjEnme
+441|topic-441|IY45dJRXLoE0lTxk2becaQzLnyd
+442|topic-442|J3fFdRHntol9PBxLpJbcZlrtnOb
+442|topic-442|Cnt2d207po7XDJxlp6vcpZANnle
+442|topic-442|QwR2dWn6zoy4D7xVMlVcmUfrn4c
+442|topic-442|VTKsdWv9UoZ6YWxLACYcAS8inN2
+442|topic-442|GFvnd4W76oEB1XxLD9LcKdRNnSe
+443|topic-443|NEMMd15hwodK6AxG7CacOO0KnLh

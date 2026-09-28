@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A warrior general in late Eastern Han dynasty iron armor charging down a hillside on horseback, spear raised, enemy soldiers fleeing, fierce battle scene.

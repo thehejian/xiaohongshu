@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A scholar practicing calligraphy with a brush at his desk, ink flowing like dragons and snakes across the paper, master calligrapher at work.

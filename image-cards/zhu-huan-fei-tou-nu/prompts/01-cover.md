@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A headless woman in late Eastern Han dynasty silk robes floating out of a bedroom window into the moonlit night, eerie and mysterious, supernatural scene.

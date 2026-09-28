@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A Shu region Taoist priest performing an ancient ritual with incense and torches at night, firelight illuminating an ancient city wall, authentic late Eastern Han dynasty religious ceremony.

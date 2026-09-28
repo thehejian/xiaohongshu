@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A Taoist master in late Eastern Han dynasty robes standing before a roadside food station, villagers gathered, religious authority, community service.

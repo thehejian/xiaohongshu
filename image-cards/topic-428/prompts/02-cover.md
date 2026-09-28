@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A young emperor in late Western Han dynasty robes kneeling before ancestral tablets in a temple, conflicted expression, candles burning, familial duty.

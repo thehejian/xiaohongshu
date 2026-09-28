@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. An immortal elder using a brush to change numbers on a destiny scroll from nineteen to ninety-one, starlight illuminating the scene, magical moment.

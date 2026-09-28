@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A warlord in Southern Dynasty armor on horseback leading a northern expedition army, banners flying, Luoyang ruins in background, determined expression.

@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A young emperor in late Western Han dynasty imperial robes ascending the dragon throne, officials bowing below, solemn coronation ceremony.

@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A warlord in late Eastern Han dynasty robes sitting with two young men, one adopted son and one biological son, family scene, imperial ambitions, scrolls on the table.

@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A Taoist master in late Eastern Han dynasty robes kneeling before a warlord in armor, soldiers standing guard on both sides, surrender ceremony, respectful submission, two figures in dialogue.

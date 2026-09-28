@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A warlord and a dream interpreter sitting face to face by candlelight, both looking grave and concerned, discussing a prophecy, tense atmosphere.

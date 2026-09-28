@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A Taoist leader with long white beard wearing traditional robes performing a ritual on a mountaintop, divine light surrounding him, followers watching in awe, sacred moment.

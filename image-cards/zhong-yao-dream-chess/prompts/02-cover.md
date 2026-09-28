@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A high official in formal court robes standing in a grand palace hall, officials lined up on both sides, position of great power and honor.

@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A strategist in late Eastern Han dynasty robes sitting across from a warlord in armor, discussing strategy over a map, candlelight, military tent, intellectual partnership.

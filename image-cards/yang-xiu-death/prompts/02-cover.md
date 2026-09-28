@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A scholar in late Eastern Han dynasty robes pointing at a sign on a gate, explaining a riddle to amazed onlookers, intellectual display, clever wit.

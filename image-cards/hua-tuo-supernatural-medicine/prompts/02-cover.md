@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A man vomiting writhing snakes from his mouth into a basin, a calm physician in Eastern Han dynasty robes watching nearby, supernatural medical cure, shocking but miraculous scene.

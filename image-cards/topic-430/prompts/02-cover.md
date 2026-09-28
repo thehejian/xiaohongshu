@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. Angry soldiers in Northern Wei frontier armor rising in rebellion, torches and weapons, border fortress burning, military uprising scene.

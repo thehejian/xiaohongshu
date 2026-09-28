@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. An emperor in Northern Wei dynasty robes leading a grand court procession southward, leaving the northern capital, thousands following, historic migration.

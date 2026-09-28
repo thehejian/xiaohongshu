@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A general in late Eastern Han dynasty iron armor rushing into battle with a spear, fire and smoke rising behind him, urgent救援 scene.

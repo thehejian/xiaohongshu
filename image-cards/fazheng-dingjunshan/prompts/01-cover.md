@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A strategist in late Eastern Han dynasty robes standing on a hilltop, pointing down at an enemy camp below, battle preparation, strategic advantage, overlooking the valley.

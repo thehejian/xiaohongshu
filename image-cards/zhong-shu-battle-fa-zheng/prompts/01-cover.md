@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. Two generals in late Eastern Han dynasty armor planning strategy over a war map in a military tent, candlelit night, strategic discussion, intense atmosphere.

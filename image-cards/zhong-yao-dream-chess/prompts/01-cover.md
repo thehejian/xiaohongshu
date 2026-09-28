@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A young scholar in late Eastern Han dynasty robes playing chess with a ghostly white figure in a candlelit study at night, supernatural encounter, eerie but calm atmosphere.

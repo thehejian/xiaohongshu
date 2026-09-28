@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. Two armies facing each other across a river, northern cavalry on one side, southern infantry on the other, political division, empire fractured.

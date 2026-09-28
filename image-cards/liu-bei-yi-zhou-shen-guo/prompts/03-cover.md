@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. Local people kneeling to welcome a noble leader entering a city gate, banners and flags flying, joyful celebration, authentic late Eastern Han dynasty clothing and city architecture.

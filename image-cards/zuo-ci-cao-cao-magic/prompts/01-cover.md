@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A Taoist magician in late Eastern Han dynasty robes fishing with a copper basin and silk thread, a large perch leaping from the water, astonished court officials watching, winter banquet scene.

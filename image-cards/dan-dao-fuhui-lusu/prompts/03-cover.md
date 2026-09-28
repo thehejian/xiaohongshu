@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. Two officials in late Eastern Han dynasty robes signing a scroll agreement by a campfire, soldiers watching from both sides, wine cups and tablets on the table, diplomatic resolution achieved.

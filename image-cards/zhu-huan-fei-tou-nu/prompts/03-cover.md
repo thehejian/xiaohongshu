@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A stern general in late Eastern Han dynasty armor questioning a kneeling servant girl by candlelight, dramatic tension, authentic period clothing and interior setting.

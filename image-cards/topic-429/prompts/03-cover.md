@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. An elderly warlord in Southern Dynasty robes lying on a sickbed, generals gathered around, unfinished map of northern territories, dying wish.

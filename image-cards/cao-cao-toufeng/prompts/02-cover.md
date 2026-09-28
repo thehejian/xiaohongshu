@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A physician in late Eastern Han dynasty robes performing acupuncture on a seated warlord, needle near the temple, medical treatment scene.

@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. An ambush in a narrow mountain pass, soldiers hidden on both cliffs shooting arrows down at a general in armor below, arrows flying through the air, soldiers falling, tragic battlefield scene.

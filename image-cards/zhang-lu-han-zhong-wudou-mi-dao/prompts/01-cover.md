@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A Taoist official in Eastern Han dynasty robes standing on a platform presiding over a community gathering, people kneeling below, religious governance in action, theocratic rule.

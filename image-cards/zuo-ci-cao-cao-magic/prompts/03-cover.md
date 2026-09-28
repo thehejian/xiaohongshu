@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A semi-transparent Taoist figure walking through a palace wall, disappearing into thin air, soldiers chasing in vain, supernatural escape, mysterious atmosphere.

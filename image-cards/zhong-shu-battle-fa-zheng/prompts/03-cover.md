@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A grieving warlord in late Eastern Han dynasty armor weeping over the body of his advisor, mourning the death of a brilliant strategist, tragic loss.

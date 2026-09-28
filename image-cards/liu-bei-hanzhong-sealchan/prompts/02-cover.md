@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. Two armies facing each other across a valley, warlords on horseback surveying their forces, tense standoff, mountain passes.

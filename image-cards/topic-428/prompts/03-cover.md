@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A young boy in simple late Western Han dynasty clothes sitting in a prison cell, guarded by a kind狱吏, humble beginnings, suffering childhood.

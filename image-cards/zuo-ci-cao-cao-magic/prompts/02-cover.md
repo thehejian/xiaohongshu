@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A Taoist magician blowing on a wine cup, the liquid changing from clear wine to sweet mead, magical transformation, amazed spectators in late Eastern Han dynasty clothing.

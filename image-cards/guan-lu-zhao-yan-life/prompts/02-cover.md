@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A young man kneeling before two white-haired elders playing chess under a pine tree, offering wine and dried meat, mountain immortals scene, ancient Chinese landscape.

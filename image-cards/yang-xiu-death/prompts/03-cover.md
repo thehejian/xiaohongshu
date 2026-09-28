@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A scholar in late Eastern Han dynasty robes advising a young nobleman in a private study, scrolls and books around them, secret political alliance, succession struggle.

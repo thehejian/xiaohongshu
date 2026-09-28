@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A wise fortune teller in late Eastern Han dynasty robes holding a chess piece, calm and composed, divination tools on the table, scholarly atmosphere.

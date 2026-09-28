@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A scholar in late Eastern Han dynasty robes being led away in chains by guards, a warlord watching coldly from a pavilion above, tragic fate.

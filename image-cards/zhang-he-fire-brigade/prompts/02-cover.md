@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A fierce battle in a mountain pass, a warrior general in iron armor on horseback pursuing a fleeing enemy general climbing rocky cliffs, soldiers scattered on both sides, chaotic retreat.

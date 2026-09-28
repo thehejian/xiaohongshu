@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A wise advisor in late Eastern Han dynasty robes pointing at a war map inside a military tent, candlelight illuminating strategic details, soldiers waiting outside, consistent ink wash style.

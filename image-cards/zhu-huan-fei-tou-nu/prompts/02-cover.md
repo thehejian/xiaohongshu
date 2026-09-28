@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. A Shanyue tribal gathering around a bonfire at night, a Taoist priest performing an ancient ritual with a hovering head, mystical and primitive atmosphere, authentic tribal clothing.

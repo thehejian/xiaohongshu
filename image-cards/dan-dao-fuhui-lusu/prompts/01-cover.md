@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. Two generals in late Eastern Han dynasty armor facing each other across a river, two armies camped on opposite banks, tense negotiation, diplomatic standoff.

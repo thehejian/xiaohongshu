@@ -1,0 +1,1 @@
+Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere. Two armies facing each other across the Yellow River, Southern Dynasty warlord on south bank, Northern Wei forces on north bank, tense standoff.
