@@ -209,17 +209,23 @@ opencli xiaohongshu publish "$(cat article.md)" --title "$(head -1 article.md)" 
 - 两汉内容（场景1-214）：写实历史画风格，精细描绘人物表情服饰，光线戏剧性，历史厚重感
 - 三国内容（场景215起）：写实历史画风格，精细描绘人物表情服饰，光线戏剧性，历史厚重感
 
-### 水墨配图标准风格（2026-09-28 确认，用户指定以霍去病篇为准）
+### 水墨配图标准风格（2026-09-28 确认，用户指定以霍去病篇为准，443–445、447、448、452 用户审核均通过，452 复核「这会儿风格很好」——此为**最终定稿公式**，不再改动）
 
 - **用户不喜欢 `delicate pale colors peeking through` 淡彩版前缀**（442 审核反馈），要求参考 `image-cards/huoqubing*` 的风格
-- 标准风格前缀：
+- **标准风格前缀（443–445 验证通过的最终版）**：
   ```
   Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere.
   ```
-- **必须加收尾约束**：`No heavy outlines. Amble whitespace.`（注意正确写法是 `Ample whitespace`）
-- **构图要求**：大留白，人物放画面下部1/3，上半幅留天空/雾/远山，`Ancient Chinese people, period clothing`
+- **场景段写法（关键经验）**：风格段之后直接写生动场景 + 果断主色（如 `crimson battle robe`、`crimson sashes`），**不要**加 `strictly limited`、`faint`、`overcast`、`small in the lower third` 之类过度约束词——会把画面框死变平（442 教训）
+- **光线统一**：三条 prompt 都用 `soft diffused daylight`（或夜景用 `soft light from paper window`），光线不统一会像三种画风
+- **收尾约束**：
+  ```
+  Ancient Chinese people, period clothing. No heavy outlines. Ample whitespace. Unified series style, consistent brushwork and tone.
+  ```
+- **构图要求**：大留白，`wide empty sky above`，雾中远山 `fading into mist`
+- **生成方式**：必须用 `gen_fixed.py`（单模型 `agnes-image-2.1-flash` 三线程并行，只换 key 不换模型）。**不要用 gen_one.py/gen_no_ref.py 混跑**——403 时切 2.0 模型会导致三张图风格漂移
 - 霍去病原版 prompt 含中文书法标题（`Chinese title "..." in calligraphic brush style`）——**用户另有"图内无文字"要求，除非用户明确要标题，否则不加**
-- 新场景 443 起一律用此风格
+- 新场景一律用此风格
 
 ### 历史画人物服饰规范（2026-08-17 新增）
 
@@ -458,6 +464,40 @@ opencli xiaohongshu publish "$(cat image-cards/topic-<N>/article.md)" \
 #### 第 6 步：进入下一场景
 
 用户说"写下篇" → 回到第 0 步，序号 +1，重复全流程。
+
+---
+
+#### 查重规则（2026-09-28 用户指令：「重复的直接跳过」，447 起强制执行）
+
+写任何新主题前**必须先查重**，判定重复就直接跳过该主题（序号照进，不回填、不写飞书、不存草稿），在回复中列一行跳过说明即可，**不要逐个追问用户**。
+
+**三步查重法：**
+
+1. **查近期主题**：比对 `正文提示词.md` 里最近 10–20 个主题——同人物、同事件、同战役弧线即算候选重复
+2. **查已有正文**：`grep -E '关键词' image-cards/*/article.md`（人名/战役名/名场面），看该素材是否已成文
+3. **查 XHS 草稿**：`grep 关键词 /tmp/xhs_drafts.txt`（缓存可能过期，需要准确列表时重新 `opencli xiaohongshu drafts`）
+
+⚠️ 旧系列文件夹（如 `guan-yu-history`、`water-flood-battles` 等英文slug目录）**很多不在 `.feishu_uploaded` 里**——查重不能只信该日志，必须同时看第 2、3 步。
+
+**判定标准：**
+
+| 情形 | 处理 |
+|------|------|
+| 主体人物/事件与已有成文或草稿相同（新文几乎全文都会是旧文换皮） | **直接跳过** |
+| 仅次要提及重叠，但主体角度不同（人物深挖 vs 主题综述；单事件深挖 vs 通史类编译） | **保留写**：正文开头即换角度，**主动避开旧文已写过的段落**，飞书审核时标注重叠说明 |
+| 原稿本身有大段整句重复（如 446 重复×3、448 重复×5） | 属于素材质量问题，不构成跳过理由——重写修正即可 |
+
+**已执行记录（2026-09-28）：**
+
+- 跳过：**446**（=442 刘渊洛阳）、**449**（=443 轲比能）、**450**（=444/445 袁氏投蹋顿）、**451**（=444/445 白狼山斩蹋顿）
+- 保留改写区分：**448**（443 是"统一为何短命"主题文，448 换成"早成吉思汗一千年"人物深挖+制度对比框架，避开 443 已写的轲比能段）；**452**（425 已写"称王+封禅"，452 开篇即从五虎上将假名单切入，全文不写封禅梗）
+
+#### 素材使用教训（2026-09-28）
+
+- `正文提示词.md` 部分原稿有**整段/整句多次复制**（446、448、450 均是）——直接通读理解后重写，不要照抄
+- **无把握的数字宁可删**：448 原稿战役兵力"各万骑"记不清出处，成文时删数字只留"三路大军""死者十七八/各带数十骑逃回"等有把握细节
+- 演义台词必须与正史区分并标注（如"虎女焉肯嫁犬子"演义加工，正史只记"骂辱其使"——452 写法）
+- 写前先 `grep` 旧文，**主动错开旧文已用的表述和段落**，即便判定"保留写"也要让读者看不出换皮
 
 ---
 
