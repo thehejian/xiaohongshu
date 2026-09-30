@@ -62,11 +62,8 @@ def main() -> int:
             print(f"⚠ 旧线程 {base} 有残留状态，改用新线程 {thread}")
 
     if args.jump_to:
-        # 调试模式：直接注入目标节点输入，从该节点继续
-        print(f"▶ 调试 jump-to={args.jump_to} thread={thread}")
-        # 先获取最新 state（含之前所有节点产出）
+        # 调试模式：从目标节点本身重跑（不重跑上游，保住已通过的产物）
         snap = graph.get_state(config)
-        # 如果状态里有中断信息，先清除
         inp = dict(snap.values or {})
         inp["series"] = args.series
         if args.topic:
@@ -74,13 +71,18 @@ def main() -> int:
         if args.resume:
             inp["review_decision"] = args.resume
         inp["dry_run"] = dry_run
-        # 让 graph 从 jump_to 节点开始重新跑（清除后续节点 state 以确保干净）
-        cfg2 = {"configurable": {"thread_id": thread, "checkpoint_id": snap.checkpoint_id}}
-        # 清空目标节点之后的 state，从该节点重跑
-        cfg2["__restart_at"] = args.jump_to
-        return _run_loop(graph, cfg2, inp, args)
+        # 找目标节点的前驱，以它的身份写状态 → 图下一步执行的目标节点本身
+        # （StateSnapshot 无 checkpoint_id，旧实现调用不存在的 _run_loop，从未跑通过）
+        preds = [e.source for e in graph.get_graph().edges
+                 if e.target == args.jump_to and e.source not in ("__start__",)]
+        if not preds:
+            print(f"❌ 找不到 {args.jump_to} 的前驱节点，无法定位重跑起点")
+            return 2
+        graph.update_state(config, inp, as_node=preds[0])
+        inp = None  # 从新 checkpoint 继续执行
+        print(f"▶ 调试 jump-to={args.jump_to} thread={thread}（前驱 {preds[0]}）")
 
-    if args.resume:
+    elif args.resume:
         inp = Command(resume=args.resume)
         print(f"▶ 续跑 thread={thread} resume={args.resume}（dry_run={dry_run}）")
     else:

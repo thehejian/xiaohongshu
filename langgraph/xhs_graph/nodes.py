@@ -402,6 +402,16 @@ def write_prompts(state: dict) -> dict:
                        for t in prompts]
             prompts = [(t + "\n" + INKWASH_CLOSING) if (p.image_style == "inkwash" and INKWASH_CLOSING not in t) else t
                        for t in prompts]
+            # 光线同属固定公式，按多数派自动补齐（516 教训：LLM 四轮统一不了光线措辞
+            # 直接 raise——公式类一律修补，别赌重试）
+            if p.image_style == "inkwash":
+                if any("soft light from paper window" in t for t in prompts) and \
+                        not any("soft diffused daylight" in t for t in prompts):
+                    std = "soft light from paper window"
+                else:
+                    std = "soft diffused daylight"
+                prompts = [(t if ("soft diffused daylight" in t or "soft light from paper window" in t)
+                            else t + "\n" + std) for t in prompts]
         problems = _prompts_validation(p, prompts)
         if not problems:
             break
