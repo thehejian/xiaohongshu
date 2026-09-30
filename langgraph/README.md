@@ -168,3 +168,16 @@ resolve_topic → dedup ─skip→ report_skip → END
 | （潜伏 bug）`_strip_fences` 用到 `json` 却未 import | 补 `import json`（此前 LLM 输出 JSON 包裹时会 NameError） | `nodes.py` 头部 |
 
 配套红线测试：`test_verify_rejects_cliche_title` / `test_verify_accepts_concrete_title` / `test_inkwash_closing_has_style_anchor`（`tests/test_redline.py`）。
+
+### 12. 通用操作细节十条（2026-09-30 追加，对应 AGENTS.md 第 14–23 条）
+
+1. **lark-cli 非交互 PATH**：`export PATH="$HOME/.npm-global/bin:/opt/homebrew/bin:$PATH"` 后再 `+create/+media-insert`；图内 `_tool_env()` 已内置双目录
+2. **验图/搬图**：`docs +fetch --format json` → `data.document.content` 数 `<img name=`、src 去重=3；缺图 `docs +media-download --token <src>`（无 `--doc` 参数）→ 原位 insert
+3. **台账读法**：`awk -F'|' '{print $1}' | sort | uniq -d` 列重建序号，取**最后一条** token 为最新；` #draft-saved` 后缀 `split()[0]`
+4. **修订 commit 只含元数据**：png 被 gitignore 且 `add -f` 无效，图片版本靠飞书承载
+5. **push 瞬态错误**：HTTP 500 / Connection reset → sleep 5 重试；`gh: command not found` 无害
+6. **建文档 body = `tail -n +3 article.md`**（跳标题行+空行），标题单独传 `--title`；`document_id` 取不到即 raise，严禁占位符
+7. **改流程先 `--dry-run`**：占位稿 + `DRYRUN-DOC` 走通全链路（verify/gen/create/闸门）再上真实题
+8. **机器验结构、人审验视觉**：`verify_images` 只查 PNG 魔数/3:4/≥50KB，画风漂移和主体画反必须人在闸门里看文档
+9. **两层重试分工**：节点内 6 轮只修空输出/字数（不耗 attempts）；围栏/英文/标题问题由 verify 打回走图路由 3 轮——排障先看谁在报错
+10. **删飞书文档需用户点名确认**：`drive +delete --file-token <tok> --type docx --yes --as user`；删前核对是旧重复版（非台账最新行），历史文档不动

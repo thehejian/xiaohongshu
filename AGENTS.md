@@ -285,6 +285,18 @@ opencli xiaohongshu publish "$(cat article.md)" --title "$(head -1 article.md)" 
 > 11. **fact 打回的数字类问题改标题**（514）：把具体数字从标题删掉或改回素材原文说法（「数十万」），重试蒙混不过；write 节点已自动附此修法提示
 > 12. **画风锁定靠 prompt 文字**（499/509）：带参考图仍会漂成线描平涂，`INKWASH_CLOSING` 已并入正反双面风格锚点；重生成单图要**同时验风格和主体**（509 主体画反靠对调文件名修复）
 > 13. **删 topic 目录前必 `ls`**（508/514 误删事故）：`rm -rf` 范围用 `find -maxdepth 1 -type d -name "topic-5XX"` 先确认；恢复 = copy 相邻 topic + 手写 prompts + `gen_fixed.py` 重生成
+>
+> **操作细节补丁（2026-09-30 追加 14–23，多为 README §5/§9/§10 摘要）**：
+> 14. **lark-cli 非交互 shell 必须先补 PATH**：node 在 `/opt/homebrew/bin` 不在默认 PATH，手动跑 `+create/+media-insert` 前 `export PATH="$HOME/.npm-global/bin:/opt/homebrew/bin:$PATH"`（缺了报 `env: node: No such file or directory`）；图内 `_tool_env()` 已内置，别在图外裸跑
+> 15. **插图结果只认 fetch 验证、缺图可跨文档搬回**：`docs +fetch --format json` 取 `data.document.content` 数 `<img name=` 且 src 去重=3；缺图用 `docs +media-download --token <src>`（**无 `--doc` 参数**，加了报 unknown flag）下载原图再 insert
+> 16. **台账同序号多行的读法**：`awk -F'|' '{print $1}' .feishu_uploaded | sort | uniq -d` 列出所有重建过的序号（曾 33 个）；取该序号**最后一条** token 才是最新文档，`435/436` 的 token 带 ` #draft-saved` 后缀要 `split()[0]`
+> 17. **修订类 commit 只含元数据**：`*.png` 被 gitignore 拦截且 `git add -f` 也不生效——只提交台账 + `prompts/*.md` + `article.md`，图片新版本由飞书文档承载
+> 18. **push 网络错误都是瞬态**：HTTP 500 / `Connection reset by peer` → sleep 5 重试即可；日志里 `gh: command not found` 只是 credential helper 提示，不影响推送结果（与第 8 条「record ⚠ 不用管」互补）
+> 19. **建文档 body 必须跳标题行**：`tail -n +3 article.md` 进 `--content -`，标题单独传 `--title`（第 1 行标题 + 第 2 行空行都不进正文）；`document_id` 正则取不到必须 raise，**严禁占位符 token 归档**
+> 20. **改流程先 `--dry-run` 再真实批量**：`uv run cli.py run --series history --topic N --dry-run` 用占位稿 + `DRYRUN-DOC` 走通 verify/gen/create/闸门全链路，确认新逻辑无副作用再上真实题（本轮加验图逻辑即此测法）
+> 21. **机器验结构、人审验视觉**：`verify_images` 只管 PNG 魔数 / 3:4 比例 / ≥50KB，**画风漂移、主体画反这类问题结构检查抓不住**——必须靠人工闸门看文档，别以为过了节点就万事大吉
+> 22. **两层重试的分工**：write 节点内 6 轮只修空输出/字数不足（不耗图 attempts）；围栏/英文/标题类结构问题由 `verify_article` 打回走图路由 3 轮。排障先分清是哪层在报错，别对着节点日志猜图路由
+> 23. **删飞书文档是唯一破坏性操作**：先核对该 token 是**旧重复版**而非台账最新行，经用户确认后 `lark-cli drive +delete --file-token <tok> --type docx --yes --as user`；历史文档未经用户点名一律不动
 > **下方第 0~6 步保留为手动兜底/排障路径**：图跑不通、或需人工单步操作时按此执行；人工执行时 Hard rules 红线原样生效。
 > 本流程适用于两汉风云/三国/后续所有 `image-cards/<topic>/` 场景创作。
 > **必须严格按顺序执行，不得跳步。** 每步完成后自查，全部通过才进入下一步。
