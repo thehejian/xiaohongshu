@@ -267,11 +267,13 @@ opencli xiaohongshu publish "$(cat article.md)" --title "$(head -1 article.md)" 
 ### 完整作业流程（场景创作 SOP，2026-09-22 更新）
 
 > ✅ **新工作流（2026-09-29）**：结构化执行走 `langgraph/`——`cd langgraph && uv run cli.py run --series history [--topic N]`，图会自动完成下方 0~6 步并在飞书文档后**停下等审核**（`--resume approve|rewrite|redraw|archive` 续跑），详见 `langgraph/README.md`。
-> **langgraph 排障四条（2026-09-30 批量 470–485 实战，详本见 README「经验教训」节）**：
+> **langgraph 排障六条（2026-09-30 批量 470–495 实战，详本见 README「经验教训」节）**：
 > 1. 飞书正文尾部多出代码块（字数统计元信息）→ 已修：`_strip_fences` 删全文任意位置围栏 + `verify_article` 硬检查打回；**清洗和验证两层都要管结构问题**
 > 2. 重跑报"验证/生图重试超限"但 verify 明明 passed → 旧 thread checkpoint 残留 attempts 计数；CLI 已自动换新线程，**归档时若打印过"改用新线程"必须 `--thread <线程>-2`**
 > 3. 重跑前先删残留 `image-cards/topic-N/`（否则 dedup 直接 skip）——**删前必查 `.feishu_uploaded` 和 git，已入台账的绝不能删**
 > 4. fact_check 报错先看 report_error 里的 issues：模型偶发误判，同稿重跑即过，别急着改稿
+> 5. **每条打回路由的原因都要进重试输入**（486：fact issues 未喂给重写 → 盲改二次失败，已修）；节点内重试耗尽 raise 会"静默崩图"（487），已改自动修补前缀+重试 4 轮——排障用 `graph.get_state(thread)` 看 `tasks[].error`
+> 6. 归档线程号**照抄运行时打印的"改用新线程 XXX"**，换线程会累积（-2、-3…），别想当然
 > **下方第 0~6 步保留为手动兜底/排障路径**：图跑不通、或需人工单步操作时按此执行；人工执行时 Hard rules 红线原样生效。
 > 本流程适用于两汉风云/三国/后续所有 `image-cards/<topic>/` 场景创作。
 > **必须严格按顺序执行，不得跳步。** 每步完成后自查，全部通过才进入下一步。
