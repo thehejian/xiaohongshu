@@ -188,3 +188,21 @@ resolve_topic → dedup ─skip→ report_skip → END
 8. **机器验结构、人审验视觉**：`verify_images` 只查 PNG 魔数/3:4/≥50KB，画风漂移和主体画反必须人在闸门里看文档
 9. **两层重试分工**：节点内 6 轮只修空输出/字数（不耗 attempts）；围栏/英文/标题问题由 verify 打回走图路由 3 轮——排障先看谁在报错
 10. **删飞书文档需用户点名确认**：`drive +delete --file-token <tok> --type docx --yes --as user`；删前核对是旧重复版（非台账最新行），历史文档不动
+
+### 13. 第七批（517–525 修复轮 + 批量实战）新增教训
+
+- **图片问题 vs 标题问题的修复路径不同**（517/518/522/523/525 实战）：
+  - **图片风格/主体错** → `git checkout <原稿commit> -- image-cards/topic-N/article.md image-cards/topic-N/prompts/`（保留 article/prompts）→ 只删目标 png（或全删保证一致性）→ `--jump-to gen_images` 续跑（**前驱是 write_prompts，不是 human_review**）→ `--resume archive`
+  - **标题不好** → 同上但需全量重跑（删 article.md + pngs），因为标题在 write_article 阶段生成，不可局部改
+  - **517 踩坑**：误删 article.md 后全量重跑，正文/标题被 LLM 重写，用户反馈只改图却动了文——以后图片问题**务必 git checkout 恢复 article/prompts 再 jump-to gen_images**
+- **`--jump-to` 的前驱判定必须排除 human_review 闸门**（517 实踩）：
+  - `human_review` 通过条件边连接到 `gen_images`（redraw），但正常流程前驱是 `write_prompts`
+  - cli.py 旧实现（`_run_loop` 从未跑通）→ 新实现必须**优先非条件边**，其次条件边；否则前驱取 human_review → graph 从闸门前继续 → 直接走到 record 跳过 gen_images，造成账台账重复行（本批 517 出现 3 行记录）
+  - 已修复：`preds = non_cond or all_preds`，过滤 `__start__/human_review`
+- **`--auto-archive` 让批量效率翻倍**（517-525 实测）：
+  - 旧模式：每题两步（跑闸门 → 抄线程号 → archive），agent 往返 ~2 分钟/题
+  - 新模式：单条循环一条命令跑完，每题零 agent 往返
+  - 9 题（517-525）全程**无需人工介入**，流水线顺畅时每题 ~2 分钟（含 LLM 重试）
+  - **注意**：`--auto-archive` 不经过人审直接归档——仅适合批量收尾；有修改意见时必须暂停走人工流程
+- **单图重生成策略**（525 教训）：`gen_fixed.py` 不支持单图幂等（无 `if exists skip`），修图二只能删全部 3 张图重跑；代价可控（3 图并发约 30–60s），但建议**优先只对图二/图三动手**（图一通常是封面定调，不要动）
+- **台账同序号多行必须去重**（517 事故）：前驱判错导致同题 3 行台账；扫描法 `awk -F'|' '{print $1}' .feishu_uploaded | sort | uniq -d` 仍适用；取该序号**最后一条** token 为最新文档

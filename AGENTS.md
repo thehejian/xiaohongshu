@@ -297,6 +297,11 @@ opencli xiaohongshu publish "$(cat article.md)" --title "$(head -1 article.md)" 
 > 21. **机器验结构、人审验视觉**：`verify_images` 只管 PNG 魔数 / 3:4 比例 / ≥50KB，**画风漂移、主体画反这类问题结构检查抓不住**——必须靠人工闸门看文档，别以为过了节点就万事大吉
 > 22. **两层重试的分工**：write 节点内 6 轮只修空输出/字数不足（不耗图 attempts）；围栏/英文/标题类结构问题由 `verify_article` 打回走图路由 3 轮。排障先分清是哪层在报错，别对着节点日志猜图路由
 > 23. **删飞书文档是唯一破坏性操作**：先核对该 token 是**旧重复版**而非台账最新行，经用户确认后 `lark-cli drive +delete --file-token <tok> --type docx --yes --as user`；历史文档未经用户点名一律不动
+>
+> **批量实战补丁（517–525，2026-09-30）**：
+> 24. **图片问题 vs 标题问题走不同修复路径**（517 踩坑）：图片风格/主体错 → `git checkout <原稿commit> -- image-cards/topic-N/article.md image-cards/topic-N/prompts/`（保留正文+提示词）→ 只删目标 png → `--jump-to gen_images` → `--resume archive`；**标题不好** → 删 article.md + 全量重跑（标题在 write 阶段生成，不可局部改）。517 误删 article.md 导致正文被重写，以后图片问题**务必 git checkout 恢复**
+> 25. **`--jump-to` 前驱必须排除 human_review**（517 台账 3 行事故根因）：human_review 通过条件边连 gen_images（redraw），但正常前驱是 write_prompts。cli.py 已修复：优先非条件边，其次条件边；**以后 `--jump-to gen_images` 默认前驱=write_prompts，不会误走闸门**
+> 26. **`--auto-archive` 批量一键**：单循环一条命令跑完一题（到闸门自动 archive），每题零 agent 往返；517–525 九题全程无人工介入。注意：仅适合**批量收尾**；有修改意见时停止用 `--auto-archive`，走人工 `--resume <approve|rewrite|redraw>` 流程
 > **下方第 0~6 步保留为手动兜底/排障路径**：图跑不通、或需人工单步操作时按此执行；人工执行时 Hard rules 红线原样生效。
 > 本流程适用于两汉风云/三国/后续所有 `image-cards/<topic>/` 场景创作。
 > **必须严格按顺序执行，不得跳步。** 每步完成后自查，全部通过才进入下一步。
