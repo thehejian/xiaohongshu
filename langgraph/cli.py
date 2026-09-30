@@ -75,8 +75,13 @@ def main() -> int:
         inp["dry_run"] = dry_run
         # 找目标节点的前驱，以它的身份写状态 → 图下一步执行的目标节点本身
         # （StateSnapshot 无 checkpoint_id，旧实现调用不存在的 _run_loop，从未跑通过）
-        preds = [e.source for e in graph.get_graph().edges
-                 if e.target == args.jump_to and e.source not in ("__start__",)]
+        # 排除 human_review（闸门）；优先非条件边（正常流程前驱），其次条件边（闸门前驱）
+        all_preds = [e.source for e in graph.get_graph().edges
+                     if e.target == args.jump_to and e.source not in ("__start__", "human_review")]
+        non_cond = [e.source for e in graph.get_graph().edges
+                    if e.target == args.jump_to and e.source not in ("__start__", "human_review")
+                    and not getattr(e, "conditional", False)]
+        preds = non_cond or all_preds
         if not preds:
             print(f"❌ 找不到 {args.jump_to} 的前驱节点，无法定位重跑起点")
             return 2
