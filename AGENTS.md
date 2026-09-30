@@ -235,6 +235,7 @@ opencli xiaohongshu publish "$(cat article.md)" --title "$(head -1 article.md)" 
 
 - 两汉内容（场景1-214）：写实历史画风格，精细描绘人物表情服饰，光线戏剧性，历史厚重感
 - 三国内容（场景215起）：写实历史画风格，精细描绘人物表情服饰，光线戏剧性，历史厚重感
+- **标题句式规则（2026-09-30，509/513 打回后定稿）**：从正文提炼**具体动作/人物对比/反差事实**（如「斩马谡贬自己：诸葛亮的赏罚组合拳」），一眼能看出讲什么；**禁止「我没想到」「竟然」开头的空悬惊叹句式**。`verify_article` 已硬校验（含即打回重写），style.py #文风 已同步
 
 ### 水墨配图标准风格（2026-09-28 确认，用户指定以霍去病篇为准，443–445、447、448、452 用户审核均通过，452 复核「这会儿风格很好」——此为**最终定稿公式**，不再改动）
 
@@ -247,8 +248,9 @@ opencli xiaohongshu publish "$(cat article.md)" --title "$(head -1 article.md)" 
 - **光线统一**：三条 prompt 都用 `soft diffused daylight`（或夜景用 `soft light from paper window`），光线不统一会像三种画风
 - **收尾约束**：
   ```
-  Ancient Chinese people, period clothing. No heavy outlines. Ample whitespace. Unified series style, consistent brushwork and tone.
+  Ancient Chinese people, period clothing. No heavy outlines. Ample whitespace. Unified series style, consistent brushwork and tone. Traditional Chinese ink-and-wash figure painting, wet brush washes with soft bleeding edges, visible watercolor gradients and paper grain, muted desaturated earth tones, hand-painted loose brushwork. No clean digital outlines, no flat cel shading, no cartoon style, no glossy digital rendering.
   ```
+  （2026-09-30 追加后半段**风格锚点**——499/509 教训：带参考图仍会漂成线描平涂，画风锁定必须正反两面写进 prompt；`nodes.py` 的 `INKWASH_CLOSING` 已同步，改此段必须同步）
 - **构图要求**：大留白，`wide empty sky above`，雾中远山 `fading into mist`
 - **生成方式**：必须用 `gen_fixed.py`（单模型 `agnes-image-2.1-flash` 三线程并行，只换 key 不换模型）。**不要用 gen_one.py/gen_no_ref.py 混跑**——403 时切 2.0 模型会导致三张图风格漂移
 - 霍去病原版 prompt 含中文书法标题（`Chinese title "..." in calligraphic brush style`）——**用户另有"图内无文字"要求，除非用户明确要标题，否则不加**
@@ -276,6 +278,13 @@ opencli xiaohongshu publish "$(cat article.md)" --title "$(head -1 article.md)" 
 > 6. 归档线程号**照抄运行时打印的"改用新线程 XXX"**，换线程会累积（-2、-3…），别想当然
 > 7. **report_error 先重跑再改稿**：多为 LLM 单轮方差（英文词/超长/空输出），删残留 article.md 重跑一次（自动新线程）多半全过；重跑还栽同类问题才人工介入。空稿问题已修（空输出带反馈重试）
 > 8. 归档 record_note 带 `⚠ push 失败` **不用管**——commit 已落地，下一次归档的 push 自动补上；看后续 note 是否"已推送 GitHub"确认
+>
+> **排障补丁（2026-09-30 第二批 506–515 + 修复轮，详本见 README §9–§11）**：
+> 9. **media-insert 单点串行 + 插后必验图**：并行调用会各插一遍（508/514 各 6 图且全部 ok:true 无告警）。`create_feishu` 已内置 fetch 验图（数量=3、src 去重、缺图自动补插、重复图 raise）；**手动插图时同样只允许一个 for 循环，插完跑 `docs +fetch` 数 `<img`**
+> 10. **标题禁「我没想到」句式**（509/513 连续打回）：改从正文提炼具体动作/对比/反差。已三处硬化：style.py 文风、write 硬性要求、`verify_article` 硬校验（含即打回）
+> 11. **fact 打回的数字类问题改标题**（514）：把具体数字从标题删掉或改回素材原文说法（「数十万」），重试蒙混不过；write 节点已自动附此修法提示
+> 12. **画风锁定靠 prompt 文字**（499/509）：带参考图仍会漂成线描平涂，`INKWASH_CLOSING` 已并入正反双面风格锚点；重生成单图要**同时验风格和主体**（509 主体画反靠对调文件名修复）
+> 13. **删 topic 目录前必 `ls`**（508/514 误删事故）：`rm -rf` 范围用 `find -maxdepth 1 -type d -name "topic-5XX"` 先确认；恢复 = copy 相邻 topic + 手写 prompts + `gen_fixed.py` 重生成
 > **下方第 0~6 步保留为手动兜底/排障路径**：图跑不通、或需人工单步操作时按此执行；人工执行时 Hard rules 红线原样生效。
 > 本流程适用于两汉风云/三国/后续所有 `image-cards/<topic>/` 场景创作。
 > **必须严格按顺序执行，不得跳步。** 每步完成后自查，全部通过才进入下一步。

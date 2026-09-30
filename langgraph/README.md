@@ -152,4 +152,19 @@ resolve_topic → dedup ─skip→ report_skip → END
 - **跨文档搬图补缺失**（077 案例）：本地 topic 目录已删时，从旧版文档 fetch 拿 `<img src="file_token">` → `lark-cli docs +media-download --token <file_token> --output x.png`（**没有 `--doc` 参数，加了报 unknown flag**）→ `media-insert` 插入目标文档
 - **重生成单图要同时验"风格"和"主体"**（509）：带 ref=同 topic 图三 + 风格锚点后画风达标，但两张**主体画反**（01 画成授印场景、02 画成上奏朝堂）。ref 场景元素会干扰主体。修复：对调两张文件名，让顺序匹配正文叙事（比再赌一轮重生成稳）
 - **标题"我没想到…"句式被用户连续打回**（509/513 同款）：本批两篇标题都以"我没想到"开头，用户判不好。改写方向：**从正文提炼具体动作/对比**——`斩马谡贬自己：诸葛亮的赏罚组合拳`、`没打一场硬仗，诸葛亮白捡两郡`、`曹真病死，司马懿从没被雪藏`。规则：标题要具体、有反差、能一眼看出讲什么，忌空悬的惊叹句式
-- **旧重复文档的处置**：旧 508/514 文档（6 图）保留在飞书，台账最新行指向新文档；用户要删除时再删（同 475 处理方式）
+- **旧重复文档的处置**：旧 508/514 文档（6 图）已于 2026-09-30 经用户确认删除（`lark-cli drive +delete --file-token <tok> --type docx --yes --as user`）；台账最新行指向新文档。历史其他重建文档先不动
+
+### 11. 流程加固（2026-09-30，把 499–515 的教训固化进代码）
+
+以上教训不只记文档，已直接改 `xhs_graph`（改动均有红线测试守护，`uv run pytest tests/ -q` 8/8 过）：
+
+| 教训来源 | 代码改动 | 位置 |
+|---------|---------|------|
+| 509/513 标题"我没想到"连遭打回 | ① 文风提示词改为"具体动作/对比/反差"并明令禁句式 ② 写正文硬性要求同步 ③ `verify_article` 新增硬校验：标题含「我没想到」直接打回重写 | `prompts/style.py` #文风、`nodes.py` write_article 要求3、`nodes.py` verify_article |
+| 499/509 画风漂移（线描平涂） | `INKWASH_CLOSING` 追加正反双面风格锚点（ink-and-wash + No clean digital outlines…），LLM 输出与自动修补都会带上 | `nodes.py` INKWASH_CLOSING |
+| 514 数字类 fact 打回重试无效 | fact issues 喂给重写时追加修法提示：**只用素材原文说法或删掉数字，严禁自造精确数字** | `nodes.py` write_article fact feedback |
+| 508/514 双循环插图 6 图无告警 | `create_feishu` 插完必 `docs +fetch` 验图：数量=预期、src 去重；缺图自动补插 2 轮，验不过 raise；重复图直接 raise 要求删文档重建。`_insert` 收成唯一执行点并加红线注释 | `nodes.py` create_feishu |
+| 509 目录里有 `*.bak.png` | 兜底 glob 从 `*.png` 收紧为 `0\d-cover\.png`，备份文件不会被误插 | `nodes.py` create_feishu |
+| （潜伏 bug）`_strip_fences` 用到 `json` 却未 import | 补 `import json`（此前 LLM 输出 JSON 包裹时会 NameError） | `nodes.py` 头部 |
+
+配套红线测试：`test_verify_rejects_cliche_title` / `test_verify_accepts_concrete_title` / `test_inkwash_closing_has_style_anchor`（`tests/test_redline.py`）。

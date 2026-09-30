@@ -1,0 +1,22 @@
+[project]
+name = "xhs-langgraph"
+version = "0.1.0"
+description = "小红书创作发布流程 — LangGraph 状态机（003-Twitter 仓库）"
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=0.6",
+    "langgraph-checkpoint-sqlite>=2.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
