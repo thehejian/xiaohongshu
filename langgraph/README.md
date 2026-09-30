@@ -134,3 +134,12 @@ resolve_topic → dedup ─skip→ report_skip → END
 - **修订后必须新建飞书文档（硬规则不变）**：499 重写图三、504 改标题都走了 `docs +create` 新建路径，旧文档 `BRwtdTAN…/VgykdOeb…` 留在飞书但不更新。台账 append 新 token 行（格式 `NNN|topic-NNN|新token`）供追溯，原 token 仍保留在上一条
 - **图片文件 gitignore，修订提交只含元数据**：`*.png` 被 `.gitignore` 排除，`git add -f` 也不生效（被 ignore 拦截不报错但实际不 add）。因此修订类 commit 只 `git add` 台账 + `prompts/*.md` + `article.md`，图片本身靠飞书文档承载新版本
 
+### 9. 第五批（506–515）新增教训
+
+- **fact_check 拦截的具体数字问题需要改标题而非正文**（514）：原稿 `一场暴雨击溃三十万魏军` 的 `三十万` 属素材未提供的具体数字，节点内 2 轮重写后 fact_check 仍报同一问题。正确修法：**把具体数字从标题里去掉**（改为 `数十万`），正文保持素材原文不碰；教训：fact_check 报 "标题使用具体数字而素材未提供" 时，改标题比改正文更干净
+- **事实核查打回不等于节点内重试有效**（508/514）：两道题都是 fact_check 打回后 retry → 同一 issue 再次出现 → `report_error`。**判定标准**：fact_check 报的是 **LLM 对素材解读**（如"赵云亲自烧毁栈道"与素材措辞偏差），可以人工改稿绕过；报的是 **数字/日期/人名等硬事实**（如"三十万"素材说"数十万"），必须改标题或重写，不能靠 retry 蒙混
+- **topic 目录被误删后 prompt 需要手补**（508/514 事故）：执行 `rm -rf image-cards/topic-508 /image-cards/topic-514` 时误删了整批 topic 目录（含 gen_fixed.py + prompts + 已生成图），只能靠 515 的目录 copy + 手写 prompt 恢复。**教训**：删目录前先 `ls` 确认范围，用 `find -maxdepth 1 -type d -name "topic-50[89]"` 更稳；恢复时用 `cp -r topic-515/* topic-508/` 后只覆盖 `prompts/*.md` + `article.md`
+- **topic 目录缺失时的恢复路径**（实战验证）：① 从同批次相邻 topic copy 完整目录（含 gen_fixed.py） ② 手写 3 个 `prompts/{01,02,03}-cover.md`（按本次正文内容改写，保留统一水墨风格后缀）③ `python3 gen_fixed.py` 一次生成全部 3 图 ④ `lark-cli docs +create` 建新文档 + 串行 media-insert + 台账 append。全流程约 20 分钟，不算太慢
+- **批量 10 题中有 2 题撞 fact_check 不丢人**：506/507/509/510/511/512/513/515 共 8 题一次过闸归档（通过率 80%）；508/514 因 fact_check 打回需人工介入，修正后一次重新生成。说明 pipeline 对常规题稳定，特殊事实细节仍靠人工兜底
+- **流水号连续推进不受影响**：ledger max=515，508/514 虽有修复但序号照进，不影响后续扩展
+
