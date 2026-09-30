@@ -633,6 +633,8 @@ opencli xiaohongshu publish "$(cat image-cards/topic-<N>/article.md)" \
 - **图片与生成物忽略**：`.gitignore` 忽略图片、`_payload_*.json`（含 base64 图）、`node_modules/`、`__pycache__/`、`*.mp4`、`*.log`、`.DS_Store`
 - **定时推送（仅原 macOS 环境）**：`auto_push.sh` + launchd plist 不在本仓库内，部署在原机 `~/Library/LaunchAgents/`；日志 `/var/log/xiaohongshu_cron.log`
   - 无变更时自动跳过，不会产生空提交
+- **langgraph `record` 节点已内置推送（2026-09-30 加）**：每个主题归档时 commit 后自动 `git push origin HEAD`；push 失败/超时**不致命**（本地已提交兜底），`record_note` 带 ⚠ 提示，稍后手动 `git push` 补推即可。走全局 `~/.gitconfig` 代理（`http://192.168.0.117:10808`）
+  - 推送日志里的 `gh: command not found` 无害——credential helper 找不到 gh 会回退 `store` 正常认证
 
 ### 经验教训（2026-09-20）
 
