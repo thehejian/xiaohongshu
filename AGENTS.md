@@ -8,13 +8,14 @@ Social media content farm: XHS image-card articles (西汉风云 history/literat
 - `.png`/`.jpg`/`.jpeg` gitignored — never commit images
 - **🚨 审核→存草稿流程（强制）**: 每次完成场景制作后，必须先**新建飞书文档**保存内容，**仅停留在飞书文档阶段**。待用户审核确认无误并明确说"存草稿"或"OK"后，**再执行**`opencli xiaohongshu publish --draft true`存小红书草稿。**严禁**在完成飞书文档后自动存草稿，必须等用户明确指示才可执行。**场景/游记通用此流程**。
 - **每次写一个**：当前场景全部完成后，停止并等待用户审核指令。不要再自动推进到下一个场景。
+- **langgraph 状态机与本 SOP 双轨**：结构化流水线在 `langgraph/`（见其 README），**默认演练模式**，`--real` 才真实执行；上条审核红线已由图的 `human_review` interrupt + `route_review` 边**强制**（未经 approve 不可达 publish 节点，`tests/test_redline.py` 守护）。图跑不通时回退下方手动 SOP，人工执行时红线原样生效。
 - **每次修改（正文/配图）后必须新建飞书文档保存**，不能更新已有文档
 - **飞书审核→确认无误→才存草稿**：先 `creator-profile` 验证 session，再 `publish --draft true`
 - XHS 标题≤20 CJK字（含标点），正文≤950字纯文本，tags 用 `#话题` 附在正文末尾
 - **`article.md` 第1行必须是独立标题行（≤20字），此即 XHS 标题**。若第1行是正文首句，`publish --title "$(head -1 article.md)"` 会报 "Title is NNN chars — must be ≤ 20"。177 曾因此失败，写入后即成功
 - **写article.md前必须先确认标题≤20字**，避免-publish时失败重做
 - **飞书文档ID必须立即记录**：`lark-cli docs +create`成功后立即提取document_id并写入.feishu_uploaded，**严禁使用占位符`_doc_id_`**
-- **gen_one.py必须从上一成功案例copy**：每次新建文件夹后立即执行`cp image-cards/<上一个>/gen_one.py image-cards/<当前>/gen_one.py`
+- **gen_one.py必须从上一成功案例copy**：每次新建文件夹后立即执行`cp image-cards/<上一个>/gen_one.py image-cards/<当前>/gen_one.py`，**gen_fixed.py（主用）与 gen_no_ref.py 同样要 copy**
 - **插入图片前必须确认工作目录**：先`pwd`确认在正确文件夹，再用相对路径`./01-cover.png`
 - All Python scripts with Chinese text need `# -*- coding: utf-8 -*-` (system Python 3.9)
 
@@ -32,17 +33,19 @@ set -a; source ~/.baoyu-skills/.env; set +a
 - **飞书文档存放文件夹**：
   - `两汉风云`（folder_token: `JUBNfa8TyldTHsd9pzNcOTbynWf`，https://qcnh2b60jsx1.feishu.cn/drive/folder/JUBNfa8TyldTHsd9pzNcOTbynWf）— 场景文档
   - `游记`（folder_token: `L8MKfqrG6lNMJkdf79ZcrB8inJg`，https://qcnh2b60jsx1.feishu.cn/drive/folder/L8MKfqrG6lNMJkdf79ZcrB8inJg）— 游记文档
+  - `科技`（folder_token: `LFpJf4lSRlMUKpdPi9fcWIjhnNZ`，https://qcnh2b60jsx1.feishu.cn/drive/folder/LFpJf4lSRlMUKpdPi9fcWIjhnNZ）— 科技类文档（2026-09-29 新建，科技帖 `--parent-token` 用此）
 
 ## Folder layout
 
-- `image-cards/<topic>/` — CURRENT pipeline. Only create new topics here.
+- `image-cards/<topic>/` — 历史类 CURRENT pipeline（`topic-<N>` 目录）。Only create new topics here.
+- `image-cards/<英文slug>/` — **科技类**目录（如 `ios27-official-release/`），**不建** `topic-<N>`，不占历史序号体系
 - `*-xhs/` (~28 dirs, legacy remnant) — LEGACY SVG+Inkscape pipeline, do not touch
 - `_gen_runner.py` / `batch_gen.py` — LEGACY, do not use（已不在仓库中）
 
 ## 世说新语 series
 
 - Feishu drive folder「世说新语」 at root: `W729fRxeAlXePBdj1fMcWjoCnMb` (https://qcnh2b60jsx1.feishu.cn/drive/folder/W729fRxeAlXePBdj1fMcWjoCnMb)
-- **All 世说新语 docs MUST be created inside this folder** (create doc with `--folder-token W729fRxeAlXePBdj1fMcWjoCnMb`, or `drive +move` afterwards)
+- **All 世说新语 docs MUST be created inside this folder** (create doc with `--parent-token W729fRxeAlXePBdj1fMcWjoCnMb`, or `drive +move` afterwards — `docs +create` 只认 `--parent-token`)
 - Local topic folders under `image-cards/shixi-xinyu/<topic>/`; Feishu title prefix = `世说N：{标题}`
 - Sample content: 周处除三害（自新门，西晋）
 
@@ -50,17 +53,19 @@ set -a; source ~/.baoyu-skills/.env; set +a
 
 - Feishu drive folder「游记」 at root: `L8MKfqrG6lNMJkdf79ZcrB8inJg` (https://qcnh2b60jsx1.feishu.cn/drive/folder/L8MKfqrG6lNMJkdf79ZcrB8inJg)
 - **All 游记 docs MUST be created inside this folder** (create doc with `--parent-token L8MKfqrG6lNMJkdf79ZcrB8inJg`, or `drive +move` afterwards)
-- Local topic folders under `wohuling/`（规划中，尚未创建）; future topics: `<destination>/`
+- Local topic folders at repo root: `wohuling/`（卧虎岭，已用）、`youji/`（桃岔河，已用）; future topics: `<destination>/`
 - XHS title prefix = `场景N：{标题}` or 直接标题（如「秦岭深处的阿勒泰」）
 - 游记文章风格：**干货攻略型**，含导航地址、路线、用时、装备、最佳季节、轨迹链接
 - 游记配图：用户自拍真实照片，无需AI生成；顺序：远景封面→核心景观→细节特写→收尾
-- 游记含两步路轨迹链接：`https://www.2bulu.com/track/track_detail.htm?trackId={id}`
+- 游记含两步路轨迹链接：`https://www.2bulu.com/track/track_detail.htm?trackId={id}`（用户给了 trackId 才加）
+- **XHS 单草稿最多 9 张图**（opencli 硬限制）：照片多时按「入口→上升→核心景观→高潮→收尾」叙事线精选
+- 完整操作手册：`/Users/mac/ai_doc/macmin_游记类小红书创作与发布指南.md`（2026-09-29 成文，含排障表与 AGENTS 对照）
 
 ### 游记 workflow
 
 1. 用户提供照片 + 目的地信息（海拔/难度/交通等）
 2. 上网查证目的地资料（百度百科/抖音/8264等），确保信息准确
-3. 写 `article.md` — 干货攻略风，**~650-800字**，含阴阳割昏晓等文学引用（如适用）
+3. 写 `article.md` — 干货攻略风，**~650-800字**（计数含标题行与 tags），含阴阳割昏晓等文学引用（如适用）
 4. 创建飞书文档（`--parent-token L8MKfqrG6lNMJkdf79ZcrB8inJg`）+ 逐张插入图片
 5. 用户审核 → 说"存草稿" → `opencli xiaohongshu publish --draft true`
 
@@ -69,12 +74,20 @@ set -a; source ~/.baoyu-skills/.env; set +a
 - `lark-cli drive +move --file-token <token> --type docx --folder-token <folder>` — **type参数是 `--type` 不是 `--file-type`**（2026-08-15 实测）
 - `lark-cli drive +search --doc-types folder` 可搜索文件夹
 - 游记文档创建时用 `--parent-token` 而非 `--folder-token`（与场景文档一致）
+- **`lark-cli docs +media-insert` 必须用相对路径**：`--file ./x.jpg`；绝对路径报 `unsafe file path` 且不插入。第一轮就要 cd 到照片目录用相对路径（2026-09-05 实测）
+- **插图成败以 `docs +fetch` 数 img 标签为准，勿凭自编 JSON 管道判定**：管道报错 ≠ 插入失败——桃岔河曾因管道报错误判"全失败"而重插，致 26 图翻倍；用 `+fetch --detail with-ids` 取 block id 后 `+update --command block_delete` 可删重复 block（2026-09-29 实操清 13 个）
+- **lark-cli stderr 进度会干扰 JSON 解析**：命令先向 stderr 打 `Inserting/Block created`，直接 pipe 到 `json.load` 报错——先看原始输出或 `grep '^{'` 过滤（2026-09-05 实测）
+- **路径方向双轨制**：飞书插图 `--file` 要**相对**路径；opencli `--images` 要**绝对**路径——记反必报错（2026-09-05 实测）
+- **游记在 `.feishu_uploaded` 用 9001+ 独立编号段**（`9001|wohuling|…`、`9002|youji-taochahe|…`），勿复用场景号段防同号冲突（2026-09-29 实测，编号段规则待固化）
+- **未提交的记录会被并行会话清掉**（2026-09-29 实测：本文件游记 gotchas、MEMORY.md、youji/article.md、.feishu_uploaded 追加行均被清除后重建）——关键记录写完尽快 `git commit`
 
 ## Article pipeline
 
 ### Writing style — must be engaging
 
 Write like you're telling a friend a fascinating story. 情感真挚, avoid textbook tone. Use vivid details, concrete scenes, and narrative tension. The title should spark curiosity — a question, a contrast, or an unexpected angle. Aim for readers to think "I didn't know that" and want to share.
+
+**科技类帖不适用上段**：用清单体——1️⃣2️⃣编号小标题+emoji+每条利益点短句+口语化点评+结尾互动问题（"你会升吗？评论区聊聊"），标题=关键词+痛点/数字/悬念，能短则短（详见「科技类帖速览」与《科技类指南》3.2）。
 
 ### Historical accuracy — must verify
 
@@ -113,10 +126,19 @@ Cite specific events, names, numbers, and years. **Verify any lesser-known claim
 > 📌 **详细版 SOP 见下方「完整作业流程（场景创作 SOP）」**，此处仅保留速览。
 
 1. Write `article.md` — **5±2 paragraphs, 2–5 sentences each, ~800 chars total**. No 古文 quotes unless asked. 标题独立第1行 ≤20字，全中文无英文。
-2. Write **3 English prompts** `prompts/01-cover.md` … `03-*.md` (was 6, changed from topic 150 onward)
-3. Translate prompts to Chinese → user approves → proceed
-4. Generate 3 images via `gen_one.py` (already in each topic folder)
-5. Upload to Feishu (see below) → user reviews → XHS draft
+2. Write **3 English prompts** `prompts/01-cover.md` … `03-*.md` (was 6, changed from topic 150 onward) — 风格前缀以「水墨配图标准风格」定稿公式为准
+3. Generate 3 images via **`gen_fixed.py`**（单模型，勿混跑 gen_one.py）
+4. Upload to Feishu (see below) → user reviews images+正文 together at 飞书阶段 → XHS draft（近期 443–453 实际流程，无独立翻译审批步）
+
+### 科技类帖速览（Tech，2026-09-29 新增；完整规范见 `/Users/mac/ai_doc/macmin_科技类小红书创作与发布指南.md`）
+
+1. **选题**：无素材库，`websearch` 检索当日热点；查重只看已有成文（`grep`）+ 草稿箱，**不走** `正文提示词.md`
+2. **正文**：清单体（1️⃣2️⃣编号+emoji+利益点短句+结尾互动问题），非讲故事；同硬性要求：标题≤20字全中文、全文750–900、零英文（`iOS`→「苹果新系统」、`Siri`→「语音助手」）；**例外——专有名词保留**：主角是英文名的产品（如 LangGraph/LangChain/Uber）正文可保留专有名词，**开写前先问用户**，标题仍全中文（5002 用户拍板）
+3. **提示词**：扁平科技插画风 + **封面英文大字**（`Xiaohongshu social media cover, 3:4 vertical, clean flat tech illustration style` + `huge bold English headline text "XXX"`）——**中文大字必乱码，禁止中文大字**；逐张生成后 `read` 验字，不走 gen_fixed.py 盲出；大字拼写错两次就**换更短不易拼错的词**（PLUGINS→MODULAR），**别把逐字母拼写提示写进 prompt**（`M-O-D-U-L-A-R` 会被字面渲染出来）
+4. **事实核查**：每条数据 websearch 查证，性能数据带「最高」口径，条件限定（首批语言/机型/地区）不能丢
+5. **飞书**：`--parent-token LFpJf4lSRlMUKpdPi9fcWIjhnNZ`（**科技夹**，非两汉风云）
+6. **序号**：科技帖独立段 **5001+**（5001 deepseek、5002 langgraph…），勿复用历史段号——393 曾与历史场景393 同号冲突；`.feishu_uploaded` 仍追加记录
+7. **出图**：3 个 key 可 3 图**并行**（每图独立 key，约 1 分钟，用户已给 3 key 时用之），每张仍必须 `read` 验字；验字发现**内容与提示词完全对不上**（串图）→ 怀疑 API 返回错 URL，直连诊断（打印 `data[0].url` 另存对比），**不要盲目改 prompt 重试**（5002 实测连续 4 次串图，换词换 key 均无效，直连一次成功）；下载中断会产生 256KB 整数截断文件，生成后顺手查大小
 
 ### Article char count — critical
 
@@ -142,6 +164,7 @@ Topics **1–100** were previously enriched and uploaded to Feishu (old 后世�
 ```bash
 export PATH="/opt/homebrew/bin:$PATH"
 # Create doc (passing content via stdin) — always use --parent-token:
+# ⚠️ 按类型分流：历史/场景 → 两汉风云 JUBNfa8TyldTHsd9pzNcOTbynWf；科技 → 科技夹 LFpJf4lSRlMUKpdPi9fcWIjhnNZ（游记/世说见对应节）
 echo "$article_text" | lark-cli docs +create --title "场景N：标题" --content - --doc-format markdown --as user --format json --parent-token JUBNfa8TyldTHsd9pzNcOTbynWf
 
 # Insert images sequentially (parallel → 429):
@@ -153,7 +176,9 @@ lark-cli docs +media-insert --doc <token> --file ./03-cover.png --as user
 
 **Tracking**: `.feishu_uploaded` records `NNN|folder-name|doc-token` — always append, never deduplicate.
 
-## Image generation (`gen_one.py`)
+## Image generation (`gen_fixed.py` 主用；`gen_one.py` 为 legacy/备用)
+
+> ⚠️ **当前主用 `gen_fixed.py`**（单模型 `agnes-image-2.1-flash` 三线程，见 SOP 第 3 步）——本节描述的是 `gen_one.py`（带参考图 + 2.1→2.0 降级）的 legacy 行为，仅在备用时参考；**禁止**用 gen_one/gen_no_ref 与 gen_fixed 混跑同一主题。
 
 - Model: `agnes-image-2.1-flash` (falls back to `agnes-image-2.0-flash`)
 - 3 parallel threads using `AGNES_API_KEY{i % 3}`
@@ -206,6 +231,8 @@ opencli xiaohongshu publish "$(cat article.md)" --title "$(head -1 article.md)" 
 
 ## Style Preferences
 
+- **同步约定（2026-09-29）**：本节及下方「水墨配图标准风格」「人物服饰规范」是**文字规范正本**；`langgraph/xhs_graph/prompts/style.py` 是其编译产物（创作节点只读 prompts/，不回读本文件）。**修改本节 → 必须同步 style.py**，防止双份漂移。
+
 - 两汉内容（场景1-214）：写实历史画风格，精细描绘人物表情服饰，光线戏剧性，历史厚重感
 - 三国内容（场景215起）：写实历史画风格，精细描绘人物表情服饰，光线戏剧性，历史厚重感
 
@@ -225,7 +252,7 @@ opencli xiaohongshu publish "$(cat article.md)" --title "$(head -1 article.md)" 
 - **构图要求**：大留白，`wide empty sky above`，雾中远山 `fading into mist`
 - **生成方式**：必须用 `gen_fixed.py`（单模型 `agnes-image-2.1-flash` 三线程并行，只换 key 不换模型）。**不要用 gen_one.py/gen_no_ref.py 混跑**——403 时切 2.0 模型会导致三张图风格漂移
 - 霍去病原版 prompt 含中文书法标题（`Chinese title "..." in calligraphic brush style`）——**用户另有"图内无文字"要求，除非用户明确要标题，否则不加**
-- 新场景一律用此风格
+- **仅适用于历史/三国类**：新历史场景一律用此风格。**科技类不适用**——用扁平科技插画+玻璃拟态、封面必须英文大字（见「科技类帖速览」与《科技类指南》5.1）
 
 ### 历史画人物服饰规范（2026-08-17 新增）
 
@@ -233,27 +260,39 @@ opencli xiaohongshu publish "$(cat article.md)" --title "$(head -1 article.md)" 
 - **年龄感准确**：如曹操假中风时约18-20岁青年，非孩童；段颎被毒死时须发花白老者
 - **器物符合时代**：杯子用青铜卮/爵，不用玻璃杯；桌案用几榻，不用现代桌椅
 - **背景建筑**：汉代庭院有柱廊、瓦当、夯土墙，避免唐宋及以后的建筑风格
+- **「白衣」类词义防误画**：如「白衣渡江」= 换**平民商贾常服**伪装（素色交领民服、货担斗笠），**不是披麻戴孝**——prompt 写 plain commoner/merchant robes、carrying goods，禁 mourning clothes、white funeral headbands、垂髫丧巾意象（2026-09-29 场景453 图三教训，用户指出"白衣是普通人样貌非传白戴孝"）
 - **Prompt中必须明确标注"汉代""深衣""宽袖长袍"** 等关键词确保AI不画错
 - 图二、图三必须与图一有明显场景差异（不同地点/人物/活动），避免三张图雷同
 
 ### 完整作业流程（场景创作 SOP，2026-09-22 更新）
 
+> ✅ **新工作流（2026-09-29）**：结构化执行走 `langgraph/`——`cd langgraph && uv run cli.py run --series history [--topic N]`，图会自动完成下方 0~6 步并在飞书文档后**停下等审核**（`--resume approve|rewrite|redraw|archive` 续跑），详见 `langgraph/README.md`。
+> **langgraph 排障四条（2026-09-30 批量 470–485 实战，详本见 README「经验教训」节）**：
+> 1. 飞书正文尾部多出代码块（字数统计元信息）→ 已修：`_strip_fences` 删全文任意位置围栏 + `verify_article` 硬检查打回；**清洗和验证两层都要管结构问题**
+> 2. 重跑报"验证/生图重试超限"但 verify 明明 passed → 旧 thread checkpoint 残留 attempts 计数；CLI 已自动换新线程，**归档时若打印过"改用新线程"必须 `--thread <线程>-2`**
+> 3. 重跑前先删残留 `image-cards/topic-N/`（否则 dedup 直接 skip）——**删前必查 `.feishu_uploaded` 和 git，已入台账的绝不能删**
+> 4. fact_check 报错先看 report_error 里的 issues：模型偶发误判，同稿重跑即过，别急着改稿
+> **下方第 0~6 步保留为手动兜底/排障路径**：图跑不通、或需人工单步操作时按此执行；人工执行时 Hard rules 红线原样生效。
 > 本流程适用于两汉风云/三国/后续所有 `image-cards/<topic>/` 场景创作。
 > **必须严格按顺序执行，不得跳步。** 每步完成后自查，全部通过才进入下一步。
 
 ---
 
-#### 第 0 步：读取原始素材与确认序号
+#### 第 0 步：查重 + 读取原始素材与确认序号
 
+0. **先查重**（见下方「查重规则」节）：主题 N 若与近期主题/已有成文/草稿重复 → 直接跳过该号（序号照进不回填），N+1 继续，直到找到不重复的主题。
 1. 打开 `正文提示词.md`，找到目标场景编号 N（如 431），读取：
    - 原始标题
    - 原始正文
    - 原始 3 条英文提示词
-2. 确认当前最大已完成序号（看 `.feishu_uploaded` 最后一行），N = 最大值 + 1。
+2. 确认当前最大已完成序号：**取 `.feishu_uploaded` 中行首数字的最大值**，N = 最大值 + 1。
+   > ⚠️ **不能取最后一行**——该文件已混入其他系列条目（如 `393|ios27-official-release|…`，与历史场景 393 同号且追加在末尾），最后一行 ≠ 最大序号。示例：`awk -F'|' '$2 ~ /^topic-/ {if ($1+0>m) m=$1} END {print m}' .feishu_uploaded`
 3. 在 `image-cards/` 下新建文件夹 `topic-<N>/`（若已有同名 topic 目录则复用）。
-4. **立即 copy gen_one.py**：
+4. **立即 copy 生成脚本（gen_fixed.py 主用）**：
    ```bash
-   cp image-cards/<上一个成功的>/gen_one.py image-cards/topic-<N>/gen_one.py
+   cp image-cards/<上一个成功的>/gen_fixed.py image-cards/topic-<N>/
+   cp image-cards/<上一个成功的>/gen_one.py image-cards/topic-<N>/
+   cp image-cards/<上一个成功的>/gen_no_ref.py image-cards/topic-<N>/
    ```
    > 🚨 这一步不能忘，忘了会导致后续无法生成图片。
 
@@ -310,11 +349,13 @@ opencli xiaohongshu publish "$(cat article.md)" --title "$(head -1 article.md)" 
 
 #### 第 2 步：写 3 条英文提示词（prompts/）
 
+> ⚠️ 下列要素为**历史类**专用（朝代/服饰/故事性）。**科技类**要素不同：扁平插画前缀+英文大字+三图对应功能点，见「科技类帖速览」。
+
 **目录结构：**
 ```
 image-cards/topic-<N>/
 ├── article.md
-├── gen_one.py
+├── gen_fixed.py（主用）/ gen_one.py / gen_no_ref.py
 └── prompts/
     ├── 01-cover.md    ← 封面，无参考图
     ├── 02-cover.md    ← 用 01-cover.png 做参考图
@@ -323,9 +364,9 @@ image-cards/topic-<N>/
 
 **每条 prompt 必须包含的要素（缺一不可）：**
 
-1. **风格前缀**（3 条完全一致，保证画面统一）：
+1. **风格前缀**（3 条完全一致，保证画面统一；⚠️ 以 Style Preferences「水墨配图标准风格」最终定稿公式为准，勿用旧淡彩版）：
    ```
-   Ink wash painting with subtle color tints, light rice paper texture, flowing ink strokes, delicate pale colors peeking through, sparse composition with negative space, misty atmosphere.
+   Ink wash painting style, light rice paper texture, flowing ink strokes, subtle crimson and grey colors, sparse composition with negative space, misty atmosphere.
    ```
 2. **时代标注**：`late Eastern Han dynasty` / `Eastern Han dynasty` / `Three Kingdoms period`（按场景朝代）
 3. **具体服饰**：写明 garment 类型，如 `dark robes with wide sleeves`、`iron lamellar armor`、`leather lamellar armor`
@@ -354,13 +395,13 @@ image-cards/topic-<N>/
 
 #### 第 3 步：生成图片
 
-**方式 A：gen_one.py（推荐，三图并行）**
+**方式 A：gen_fixed.py（✅ 当前唯一推荐，三图并行，单模型防风格漂移）**
 ```bash
 cd image-cards/topic-<N>
-python3 gen_one.py 1        # 生成 01-cover.png（无参考图）
-python3 gen_one.py 2 3      # 生成 02、03（以 01-cover.png 为参考图）
+python3 gen_fixed.py            # 三线程并行，一键生成 01/02/03
 ```
-- 3 个 API key 轮流并行，单图约 30–60s，503 正常会自动重试（最多 20 次）
+- **固定单模型 `agnes-image-2.1-flash`，只轮换 3 个 key 不换模型**（gen_one.py 的 2.1→2.0 降级会导致三张图风格漂移，禁止混跑）
+- 单图约 30–60s，503 正常会自动重试（最多 20 次）
 - 输出：`01-cover.png` / `02-cover.png` / `03-cover.png`
 
 **方式 B：curl 单图（单张重画时用）**
@@ -404,6 +445,7 @@ echo "$article" | lark-cli docs +create \
   --title "场景<N>：<标题>" \
   --content - --doc-format markdown --as user --format json \
   --parent-token JUBNfa8TyldTHsd9pzNcOTbynWf
+# ↑ 历史类用两汉风云夹；科技帖改用 LFpJf4lSRlMUKpdPi9fcWIjhnNZ（科技夹），见「科技类帖速览」
 # ↑ 立即从 JSON 输出中提取 document_id
 ```
 
@@ -423,7 +465,7 @@ lark-cli docs +media-insert --doc <document_id> --file ./03-cover.png --as user
 echo "<N>|topic-<N>|<document_id>" >> .feishu_uploaded
 ```
 
-**输出飞书链接给用户审核**，然后**停下来等待**。
+**输出飞书链接给用户审核**——链接**单独成行，后面不加括号注释**（❌`https://…（科技夹）`，2026-09-29 用户指令），然后**停下来等待**。
 
 ---
 
@@ -475,7 +517,9 @@ opencli xiaohongshu publish "$(cat image-cards/topic-<N>/article.md)" \
 
 1. **查近期主题**：比对 `正文提示词.md` 里最近 10–20 个主题——同人物、同事件、同战役弧线即算候选重复
 2. **查已有正文**：`grep -E '关键词' image-cards/*/article.md`（人名/战役名/名场面），看该素材是否已成文
-3. **查 XHS 草稿**：`grep 关键词 /tmp/xhs_drafts.txt`（缓存可能过期，需要准确列表时重新 `opencli xiaohongshu drafts`）
+3. **查 XHS 草稿**：`grep 关键词 /tmp/xhs_drafts.txt`（`/tmp` 缓存可能过期或**被系统清空**，需准确列表时重新拉取：`opencli xiaohongshu drafts -f plain | tee /tmp/xhs_drafts.txt`）
+
+⚠️ **科技类帖无素材库**：跳过第 1 步（不查 `正文提示词.md`），重点走第 2、3 步（产品/系统/热点名 grep 已有成文与草稿，如「iOS 27」「苹果新系统」），且选题本身要先 `websearch` 确认是当周热点。
 
 ⚠️ 旧系列文件夹（如 `guan-yu-history`、`water-flood-battles` 等英文slug目录）**很多不在 `.feishu_uploaded` 里**——查重不能只信该日志，必须同时看第 2、3 步。
 
@@ -506,7 +550,7 @@ opencli xiaohongshu publish "$(cat image-cards/topic-<N>/article.md)" \
 #### 核心原则
 - **每张图必须紧密结合正文描述的具体场景**，不能只是通用的人物肖像
 - **要体现"故事性"**，让读者一眼就能看出是正文中的哪个情节
-- **图内绝对不能有文字/书法**（用户多次强调）
+- **图内绝对不能有文字/书法**（用户多次强调；**限历史类**——科技帖封面恰恰要英文大字，禁止的是中文大字，见科技类帖速览）
 
 #### 人物形象规范
 - **武将**：必须穿铠甲（铁札甲/皮甲），明确写 `armor`、`military commander`，否则画成文官
