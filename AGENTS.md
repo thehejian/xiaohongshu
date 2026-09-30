@@ -268,7 +268,7 @@ opencli xiaohongshu publish "$(cat article.md)" --title "$(head -1 article.md)" 
 
 ### 完整作业流程（场景创作 SOP，2026-09-22 更新）
 
-> ✅ **新工作流（2026-09-29）**：结构化执行走 `langgraph/`——`cd langgraph && uv run cli.py run --series history [--topic N]`，图会自动完成下方 0~6 步并在飞书文档后**停下等审核**（`--resume approve|rewrite|redraw|archive` 续跑），详见 `langgraph/README.md`。
+> ✅ **新工作流（2026-09-29）**：结构化执行走 `langgraph/`——`cd langgraph && uv run cli.py run --series history [--topic N]`，图会自动完成下方 0~6 步并在飞书文档后**停下等审核**（`--resume approve|rewrite|redraw|archive` 续跑），详见 `langgraph/README.md`；设计/排障/对照全集另见 [`/Users/mac/ai_doc/langgraph_小红书流程改造设计文档.md`](file:///Users/mac/ai_doc/langgraph_小红书流程改造设计文档.md)（2026-09-30 成文）。
 > **langgraph 排障八条（2026-09-30 批量 470–505 实战，详本见 README「经验教训」节）**：
 > 1. 飞书正文尾部多出代码块（字数统计元信息）→ 已修：`_strip_fences` 删全文任意位置围栏 + `verify_article` 硬检查打回；**清洗和验证两层都要管结构问题**
 > 2. 重跑报"验证/生图重试超限"但 verify 明明 passed → 旧 thread checkpoint 残留 attempts 计数；CLI 已自动换新线程，**归档时若打印过"改用新线程"必须 `--thread <线程>-2`**
