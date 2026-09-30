@@ -33,6 +33,8 @@ def parse() -> argparse.Namespace:
                         "create_feishu","human_review","publish_draft","record"],
                      help="调试：从指定节点重新跑（覆盖 checkpoint）")
     run.add_argument("--thread", help="checkpoint 线程 id（默认 <series>-<topic>）")
+    run.add_argument("--auto-archive", action="store_true",
+                     help="到审核闸门后自动 resume archive（仅归档不发布，批量用）")
     return ap.parse_args()
 
 
@@ -83,6 +85,16 @@ def main() -> int:
         print(f"▶ 调试 jump-to={args.jump_to} thread={thread}（前驱 {preds[0]}）")
 
     elif args.resume:
+        # 守卫：只允许对停在审核闸门的线程续跑（516 教训：对空线程 --resume 会
+        # KeyError 'series' 还留下毒 checkpoint，白跑一轮）
+        snap0 = graph.get_state(config)
+        nxt = list(snap0.next or ())
+        if not snap0.values or nxt != ["human_review"]:
+            print(f"❌ --resume 无效：线程 {thread} 未停在审核闸门"
+                  f"（已有状态={bool(snap0.values)}, next={nxt}）。")
+            print("   全新任务 → 去掉 --resume 直接跑（report_error 后重跑同理）；")
+            print("   已到闸门 → --thread 用运行时打印的线程号（可能带 -2/-3 后缀）。")
+            return 2
         inp = Command(resume=args.resume)
         print(f"▶ 续跑 thread={thread} resume={args.resume}（dry_run={dry_run}）")
     else:
@@ -122,6 +134,19 @@ def main() -> int:
               + (f" --topic {args.topic}" if args.topic else " --topic <N>")
               + f" --resume <approve|rewrite|redraw|archive> --thread {thread}"
               + (" --real" if args.real else ""))
+        if args.auto_archive and pending == ["human_review"]:
+            # 批量模式：同进程内直接归档（线程号无需人工记录），绝不触达 publish
+            print("⏵ --auto-archive：自动 archive（仅记台账+commit+push，不存草稿）")
+            try:
+                for _ in graph.stream(Command(resume="archive"), config, stream_mode="updates"):
+                    pass
+            except Exception as exc:  # noqa: BLE001
+                print(f"  ⚠ archive 失败: {type(exc).__name__}: {exc}")
+                return 3
+            fin = graph.get_state(config).values or {}
+            print(f"   doc_url: {fin.get('doc_url')}")
+            print(f"   record_note: {fin.get('record_note')}")
+            return 0 if not fin.get("errors") else 1
         return 3
 
     final = snapshot.values or {}

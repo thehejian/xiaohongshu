@@ -12,11 +12,18 @@ uv sync                       # 首次
 # 演练（默认，就是 --dry-run）：选题→查重→正文→验证→生图→飞书桩→⏸审核闸门
 uv run cli.py run --series history --topic 454
 
-# 审核续跑（闸门只吃这四个词）
+# 审核续跑（闸门只吃这四个词；空线程/未到闸门会友好报错 exit 2，不再 KeyError）
 uv run cli.py run --series history --topic 454 --resume approve   # → 存草稿 → 记台账
 uv run cli.py run --series history --topic 454 --resume rewrite   # → 回写正文
 uv run cli.py run --series history --topic 454 --resume redraw    # → 回重新生图
 uv run cli.py run --series history --topic 454 --resume archive   # → 只归档不发布
+
+# 批量一键：到闸门自动 archive（仅记台账+commit+push，绝不存草稿），一条命令跑完一题
+uv run cli.py run --series history --topic 517 --real --auto-archive
+for n in $(seq 517 525); do uv run cli.py run --series history --topic $n --real --auto-archive || true; done
+
+# 单节点续跑（节点 raise 后不整题重跑，保住已通过的上游产物）
+uv run cli.py run --series history --topic 516 --real --thread history-516-2 --jump-to write_prompts
 
 uv run pytest -q             # 红线测试：未经 approve 不可达 publish
 ```

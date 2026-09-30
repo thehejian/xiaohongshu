@@ -86,3 +86,26 @@ def test_inkwash_closing_has_style_anchor():
     assert "ink-and-wash" in INKWASH_CLOSING
     assert "No clean digital outlines" in INKWASH_CLOSING
     assert "paper grain" in INKWASH_CLOSING
+
+
+def test_write_article_self_heals_structural(tmp_path, monkeypatch):
+    """516 优化：英文/超长/标题超限/禁句式在 write 内部循环自愈，不烧图 attempts。"""
+    bad = "我没想到 think 这个标题真的已经远远超过十八个字的上限了\n\n" + "正文" * 950
+    good = "送女装逼不出司马懿\n\n" + "正文" * 400
+    outs = [bad, good]
+
+    def fake_chat(msgs, model=None, temperature=None, max_tokens=None, **kw):
+        assert outs, "LLM 被多调用了一次"
+        return outs.pop(0)
+
+    monkeypatch.setattr(nodes.llm, "chat", fake_chat)
+    wd = tmp_path / "t"
+    wd.mkdir()
+    st = {"series": "history", "dry_run": False, "topic_no": 1, "slug": "topic-1",
+          "title": "占位", "material": "### 正文\n\n素材原文", "workdir": str(wd),
+          "attempts": {}}
+    nodes.write_article(st)
+    art = (wd / "article.md").read_text(encoding="utf-8")
+    assert art.splitlines()[0] == "送女装逼不出司马懿"
+    assert not outs, "第 1 稿的问题未触发反馈重试"
+    assert st["attempts"]["write"] == 1, "内部自愈不应消耗图级 attempts"

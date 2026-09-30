@@ -220,11 +220,25 @@ def write_article(state: dict) -> dict:
                 sys_msg = (f"{sys_msg}\n\n⚠️ 上次输出为空或只有元信息（被清理后无正文）。"
                            "必须直接输出 article.md 内容本身：第1行标题、第2行空行、第3行起正文、末尾 #话题 tags。")
                 continue
-            # 字数不足时追加反馈继续要
+            # 本地可查的结构问题在内部循环自愈（516 教训：只查字数时，英文/超长/
+            # 标题超限全靠 verify 打回烧图 attempts，三轮耗尽直接 report_error 白跑一题）
             chars = len(re.sub(r"\s", "", content))
-            if chars >= p.words_min:
+            first = content.splitlines()[0].strip() if content.splitlines() else ""
+            probs = []
+            if chars < p.words_min:
+                probs.append(f"仅 {chars} 字，低于下限 {p.words_min}——扩写具体场景，严禁概述缩写")
+            elif chars > p.words_max:
+                probs.append(f"{chars} 字超上限 {p.words_max}——删减枝蔓，保主叙事")
+            if len(first) > 18:
+                probs.append(f"标题 {len(first)} 字 > 18——压缩到 18 字内")
+            if "我没想到" in first:
+                probs.append("标题禁「我没想到」句式——改写成具体动作/对比")
+            en = re.search(r"[A-Za-z]{2,}", content)
+            if en:
+                probs.append(f"混入英文「{en.group(0)}」——全部改中文（人名地名音译）")
+            if not probs:
                 break
-            sys_msg = f"{sys_msg}\n\n⚠️ 上次输出仅 {chars} 字，低于下限 {p.words_min} 字。必须扩写至 {p.words_min} 字以上，多写具体场景与细节，严禁概述式缩写。"
+            sys_msg = f"{sys_msg}\n\n⚠️ 上次输出问题（必须逐条修正）：{'；'.join(probs)}。"
         if len(re.sub(r"\s", "", content)) < p.words_min:
             # 所有轮都未达标，仍写入（让 verify 环节报错由图路由处理）
             pass
