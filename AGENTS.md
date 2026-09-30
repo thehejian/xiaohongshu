@@ -133,8 +133,8 @@ Cite specific events, names, numbers, and years. **Verify any lesser-known claim
 ### 科技类帖速览（Tech，2026-09-29 新增；完整规范见 `/Users/mac/ai_doc/macmin_科技类小红书创作与发布指南.md`）
 
 1. **选题**：无素材库，`websearch` 检索当日热点；查重只看已有成文（`grep`）+ 草稿箱，**不走** `正文提示词.md`
-2. **正文**：清单体（1️⃣2️⃣编号+emoji+利益点短句+结尾互动问题），非讲故事；同硬性要求：标题≤20字全中文、全文750–900、零英文（`iOS`→「苹果新系统」、`Siri`→「语音助手」）；**例外——专有名词保留**：主角是英文名的产品（如 LangGraph/LangChain/Uber）正文可保留专有名词，**开写前先问用户**，标题仍全中文（5002 用户拍板）
-3. **提示词**：扁平科技插画风 + **封面英文大字**（`Xiaohongshu social media cover, 3:4 vertical, clean flat tech illustration style` + `huge bold English headline text "XXX"`）——**中文大字必乱码，禁止中文大字**；逐张生成后 `read` 验字，不走 gen_fixed.py 盲出；大字拼写错两次就**换更短不易拼错的词**（PLUGINS→MODULAR），**别把逐字母拼写提示写进 prompt**（`M-O-D-U-L-A-R` 会被字面渲染出来）
+2. **正文**：清单体（1️⃣2️⃣编号+emoji+利益点短句+结尾互动问题），非讲故事；同硬性要求：标题≤20字全中文、全文750–900、零英文（`iOS`→「苹果新系统」、`Siri`→「语音助手」）；**例外——专有名词保留**：主角是英文名的产品（如 LangGraph/LangChain/Uber）正文可保留专有名词，**开写前先问用户**，标题仍全中文（5002 用户拍板）；**条目之间必须空行分段**——条目挤在一起飞书整篇糊成一大段（5004 打回重排）
+3. **提示词**：扁平科技插画风 + **封面英文大字**（`Xiaohongshu social media cover, 3:4 vertical, clean flat tech illustration style` + `huge bold English headline text "XXX"`）——**中文大字必乱码，禁止中文大字**；逐张生成后 `read` 验字，不走 gen_fixed.py 盲出；大字拼写错两次就**换更短不易拼错的词**（PLUGINS→MODULAR），**别把逐字母拼写提示写进 prompt**（`M-O-D-U-L-A-R` 会被字面渲染出来）；**图一大字必须点题**——含产品/主题关键词（SQLite→`SQLITE IS BACK`、Jev→`MEET JEV`），只写抽象口号（NO CHAT）会被打回（5003/5004 用户反馈）
 4. **事实核查**：每条数据 websearch 查证，性能数据带「最高」口径，条件限定（首批语言/机型/地区）不能丢
 5. **飞书**：`--parent-token LFpJf4lSRlMUKpdPi9fcWIjhnNZ`（**科技夹**，非两汉风云）
 6. **序号**：科技帖独立段 **5001+**（5001 deepseek、5002 langgraph…），勿复用历史段号——393 曾与历史场景393 同号冲突；`.feishu_uploaded` 仍追加记录
