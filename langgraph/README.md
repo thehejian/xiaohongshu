@@ -206,3 +206,23 @@ resolve_topic → dedup ─skip→ report_skip → END
   - **注意**：`--auto-archive` 不经过人审直接归档——仅适合批量收尾；有修改意见时必须暂停走人工流程
 - **单图重生成策略**（525 教训）：`gen_fixed.py` 不支持单图幂等（无 `if exists skip`），修图二只能删全部 3 张图重跑；代价可控（3 图并发约 30–60s），但建议**优先只对图二/图三动手**（图一通常是封面定调，不要动）
 - **台账同序号多行必须去重**（517 事故）：前驱判错导致同题 3 行台账；扫描法 `awk -F'|' '{print $1}' .feishu_uploaded | sort | uniq -d` 仍适用；取该序号**最后一条** token 为最新文档
+
+### 14. 第八批（537/540/541/544/545 修复轮）新增教训
+
+- **标题问题 vs 图片问题的修复路径不同**（537/540/541/544/545 实战）：
+  - **只改标题**：必须**删 article.md** 后全量重跑（write_article 节点生成标题，无法局部改）
+  - **只改图片**：保留 article.md + prompts，只删目标 png → `--jump-to gen_images`（前驱=write_prompts，非 human_review）
+  - **两者都要改**：删 article.md + 全部 png → 全量重跑（本次 545 就是这种情况）
+  - **关键**：不要误删 article.md 只为了改图——会白跑一次 write + fact + prompts
+- **`--auto-archive` 遇到残留 article.md 会静默跳过**（536-545 第一轮踩坑）：
+  - 查重节点见 article.md 即 skip，不报错也不进入流水线
+  - 修复前先 `rm article.md`（或整目录清理），再跑 `--auto-archive`
+  - 现象：`record_note: 查重跳过: article.md 已存在`，用户以为跑完了实际没做任何事
+- **gen_fixed.py 无单图幂等**（545 教训）：
+  - 删单张 png 后重跑仍会生成全部 3 张（脚本硬编码 gen all）
+  - 只改单张图时，用 `gen_one.py N`（单图生成，有 ref 则用 01-cover.png）
+  - 或删全部 3 张让 gen_fixed.py 一次性生成（3 图并发，时间约等于 1 张）
+- **台账同序号多行是正常现象**（修订必追加）：
+  - 每次修改后新建飞书文档 → 台账追加新行，旧行保留
+  - 扫描最新 token：`awk -F'|' '$1==N && $2 ~ /^topic-/ {tok=$3}' .feishu_uploaded`（取最后匹配）
+  - fetch 验图时务必用最新 token，否则可能验到旧版文档

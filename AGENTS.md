@@ -670,3 +670,10 @@ opencli xiaohongshu publish "$(cat image-cards/topic-<N>/article.md)" \
 - **crontab 在 opencode 环境阻塞**：`crontab -` 命令会超时卡死，改用 launchd plist 更可靠
 - **launchd 加载**：先 `launchctl unload` 再 `launchctl load`，避免重复加载报错
 - **验证推送一致性**：`git fetch origin && git diff --stat origin/main HEAD` 确认本地与远端完全同步
+>
+> **单点修复路径速查（2026-09-30 实战汇总）**：
+> 27. **只改标题**：`rm image-cards/topic-N/article.md` → 全量重跑（write_article 不可局部改）
+> 28. **只改图片**：保留 article.md + prompts，`rm image-cards/topic-N/0N-cover.png` → `--jump-to gen_images`（前驱=write_prompts，非 human_review）→ `--resume archive`
+> 29. **改图片+标题**：`rm article.md 0*-cover.png` → 全量重跑
+> 30. **`--auto-archive` 遇 article.md 残留 → 静默跳过**：先检查 `ls image-cards/topic-N/`，有残留必须先删再跑
+> 31. **台账同序号多条 = 正常**：修订必追加，fetch 验图时取最后一条 token（`awk -F'|' '$1==N ... END{print $3}'`）

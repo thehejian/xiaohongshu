@@ -154,7 +154,14 @@ def main() -> int:
             return 0 if not fin.get("errors") else 1
         return 3
 
+    # 非闸门结束（report_skip / report_error / END）
     final = snapshot.values or {}
+    if args.auto_archive and final.get("dedup_verdict") == "skip":
+        # auto-archive 模式下查重跳过：明确告知用户需先删残留
+        print(f"⚠ --auto-archive 遇到查重跳过（{final.get('dedup_notes', '')}）")
+        print("   如需重新生成：先 rm image-cards/topic-<N>/article.md 再跑")
+        print(f"   record_note: {final.get('record_note')}")
+        return 0
     print("\n✅ 运行结束")
     for k in ("dedup_verdict", "doc_url", "publish_result", "record_note", "errors"):
         if final.get(k):
