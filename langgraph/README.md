@@ -226,3 +226,15 @@ resolve_topic → dedup ─skip→ report_skip → END
   - 每次修改后新建飞书文档 → 台账追加新行，旧行保留
   - 扫描最新 token：`awk -F'|' '$1==N && $2 ~ /^topic-/ {tok=$3}' .feishu_uploaded`（取最后匹配）
   - fetch 验图时务必用最新 token，否则可能验到旧版文档
+
+### 15. 第九批（546/547/549/552/554/555 修复轮）新增教训
+
+- **改标题 vs 改图片的策略选择**（546–555 实战总结）：
+  - **只改图片**：保留 article.md + prompts，只删目标 png → `--jump-to gen_images`（前驱=write_prompts）→ `--resume archive`。**单次改图首选此路径，不重跑 write/fact/prompts**
+  - **只改标题**：`rm article.md` → 全量重跑（write_article 生成标题，不可局部改）
+  - **两者都改**：`rm article.md 0*-cover.png` → 全量重跑。554 就是此情况（标题 + 3 张图全部重写）
+  - **禁忌**：不要为了改图片误删 article.md——会白跑一次 write + fact + prompts 全流程
+- **`gen_fixed.py` 无单图幂等**（555 教训）：删 1 张 png 后重跑仍生成全部 3 张。单图修改的两种正确方式：① 用 `python3 gen_one.py N`（单图生成，自动取 01-cover.png 作 ref）；② 删全部 3 张让 gen_fixed.py 一次性并发生成
+- **jump-to 前驱逻辑已固化**（554 之前踩坑）：cli.py 优先非条件边（normal flow: write_prompts → gen_images），排除 human_review（条件边 redraw → gen_images）。**以后 `--jump-to gen_images` 默认前驱=write_prompts**，无需手动确认
+- **手动改 prompt 的结构陷阱**（554 踩坑）：554 原始 prompt 中 `[光线]` 标记和 `soft diffused daylight` 散落多处，写入时格式错乱导致风格异常。教训：**改写 prompt 必须保持 `[统一风格]...[光线]...[时代+服饰+人物]...[动作+环境]...[构图]...[收尾]` 的完整结构**，否则 LLM 输出不可控
+- **台账同序号多行 = 正常修订痕迹**：每次修改新建飞书文档 → 台账追加新行，旧行保留作追溯。验图时用最新 token（`awk ... END{print $3}`）

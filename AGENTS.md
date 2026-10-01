@@ -677,3 +677,10 @@ opencli xiaohongshu publish "$(cat image-cards/topic-<N>/article.md)" \
 > 29. **改图片+标题**：`rm article.md 0*-cover.png` → 全量重跑
 > 30. **`--auto-archive` 遇 article.md 残留 → 静默跳过**：先检查 `ls image-cards/topic-N/`，有残留必须先删再跑
 > 31. **台账同序号多条 = 正常**：修订必追加，fetch 验图时取最后一条 token（`awk -F'|' '$1==N ... END{print $3}'`）
+>
+> **修复策略速查（2026-10-01 实战汇总）**：
+> 32. **只改图片**：保留 article.md + prompts，`rm 0N-cover.png` → `--jump-to gen_images`（前驱=write_prompts）→ `--resume archive`。单图用 `python3 gen_one.py N`，不要删全部 3 张
+> 33. **只改标题**：`rm article.md` → 全量重跑（write_article 生成标题，不可局部改）
+> 34. **标题+图片都改**：`rm article.md 0*-cover.png` → 全量重跑（554 策略）
+> 35. **禁止**：为改图片误删 article.md——会白跑 write/fact/prompts 全流程
+> 36. **写 prompt 结构必须完整**：`[统一风格]...[光线]...[时代+服饰+人物]...[动作+环境]...[构图]...[收尾]`，缺一不可，否则 LLM 输出失控
