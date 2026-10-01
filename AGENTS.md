@@ -684,3 +684,9 @@ opencli xiaohongshu publish "$(cat image-cards/topic-<N>/article.md)" \
 > 34. **标题+图片都改**：`rm article.md 0*-cover.png` → 全量重跑（554 策略）
 > 35. **禁止**：为改图片误删 article.md——会白跑 write/fact/prompts 全流程
 > 36. **写 prompt 结构必须完整**：`[统一风格]...[光线]...[时代+服饰+人物]...[动作+环境]...[构图]...[收尾]`，缺一不可，否则 LLM 输出失控
+>
+> **标题/图片修复实操指南（2026-10-01 实战）**：
+> 37. **改标题**：删 `article.md` → 全量重跑。注意：LLM 会重写标题，sed 预先改标题无效——接受 LLM 新标题或再跑一次
+> 38. **只改图 N**：`rm image-cards/topic-N/0N-cover.png` → `--jump-to gen_images`（前驱=write_prompts）→ `--resume archive`。最快路径，不动 article/prompts
+> 39. **改标题+图片**：`rm article.md 0*-cover.png` → 全量重跑（554/564 策略）
+> 40. **`--jump-to write_prompts` 不可靠**：LLM 光线校验偶发失败（多次），改 prompts 文件后建议**删 prompts 目录**让 LLM 重新生成，比 jump-to 更稳

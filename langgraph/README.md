@@ -238,3 +238,10 @@ resolve_topic → dedup ─skip→ report_skip → END
 - **jump-to 前驱逻辑已固化**（554 之前踩坑）：cli.py 优先非条件边（normal flow: write_prompts → gen_images），排除 human_review（条件边 redraw → gen_images）。**以后 `--jump-to gen_images` 默认前驱=write_prompts**，无需手动确认
 - **手动改 prompt 的结构陷阱**（554 踩坑）：554 原始 prompt 中 `[光线]` 标记和 `soft diffused daylight` 散落多处，写入时格式错乱导致风格异常。教训：**改写 prompt 必须保持 `[统一风格]...[光线]...[时代+服饰+人物]...[动作+环境]...[构图]...[收尾]` 的完整结构**，否则 LLM 输出不可控
 - **台账同序号多行 = 正常修订痕迹**：每次修改新建飞书文档 → 台账追加新行，旧行保留作追溯。验图时用最新 token（`awk ... END{print $3}`）
+
+### 16. 第十批（541/552/561/564 标题+图片修复轮）新增教训
+
+- **改标题不能靠 sed 改 article.md**（541/552/561 踩坑）：sed 改了文件，但 `rm article.md` 重跑后 LLM 完全重写标题，sed 修改无效。正确做法：接受 LLM 新标题（在 verify 合规范围内），或手动 `sed` 后再不删 article.md 直接 jump-to create_feishu（但 title 字段需在 state 里注入，cli.py 未暴露此能力）——**改标题的实际可行路径只有全量重跑，接受 LLM 重写**
+- **`--jump-to write_prompts` 仍可能栽在光线校验**（541 两次卡住）：LLM 输出光线措辞不统一时，即使加了 auto-repair 也可能 fail。遇到连续失败时，**删 prompts 目录强制重新生成**比 jump-to 更有效
+- **单图修改策略优先级**：改图二/图三 → 只删该 png + jump-to gen_images（最快，保留 article/prompts）；改标题 → 删 article.md 全量重跑（title 由 LLM 控制）；两者都改 → 全删全跑
+- **台账最新行取法**：`awk -F'|' '$1==N && $2 ~ /^topic-/ {tok=$3} END {print tok}' .feishu_uploaded`（最后匹配即最新，自动处理多行）
