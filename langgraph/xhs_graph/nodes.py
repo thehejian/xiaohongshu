@@ -717,7 +717,7 @@ def report_error(state: dict) -> dict:
 
 # ── 路由 ─────────────────────────────────────────────────
 def route_dedup(state: dict) -> str:
-    return "report_skip" if state["dedup_verdict"] == "skip" else "write_article"
+    return "report_skip" if state.get("dedup_verdict") == "skip" else "write_article"
 
 
 def route_fact(state: dict) -> str:
