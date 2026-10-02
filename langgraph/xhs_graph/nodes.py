@@ -198,7 +198,7 @@ def write_article(state: dict) -> dict:
         if state.get("attempts", {}).get("write", 0) > 1 and fb:
             sys_msg = with_feedback(STYLE_HISTORY, fb)
         user = (
-            f"素材原文：\n{state['material']}\n\n"
+            f"素材原文：\n{state.get('material', '')}\n\n"
             f"硬性要求（违反任一条即为废稿）：\n"
             f"1. 全文去空格换行后 {p.words_min}-{p.words_max} 字（含标题与 tags，严禁低于下限；字数不足必须扩写具体场景，严禁缩写）\n"
             "2. 全中文正文零英文单词（人名地名一律音译；年份用「公元219年」写法）\n"
@@ -244,7 +244,7 @@ def write_article(state: dict) -> dict:
             pass
     else:
         # 演练：素材正文拼合规占位稿，验证 verify 判定逻辑
-        mat = re.search(r"^### 正文\s*\n+(.*?)(?=^### |\Z)", state["material"], re.M | re.S)
+        mat = re.search(r"^### 正文\s*\n+(.*?)(?=^### |\Z)", state.get("material", ""), re.M | re.S)
         body = mat.group(1).strip() if mat else ""
         paras = [x for x in re.split(r"\n\s*\n", body) if x.strip()]
         acc, chosen = 0, []
@@ -333,7 +333,7 @@ def fact_check(state: dict) -> dict:
         "常识性补充、情感渲染、视角转换。文风字数问题不用管。\n"
         '只输出 JSON：{"passed":true|false,"issues":["..."]}'
     )
-    user = f"素材原文：\n{state['material'][:3000]}\n\n待发布正文：\n{Path(state['article_path']).read_text(encoding='utf-8')}"
+    user = f"素材原文：\n{state.get('material', '')[:3000]}\n\n待发布正文：\n{Path(state['article_path']).read_text(encoding='utf-8')}"
     raw = llm.chat([{"role": "system", "content": sys},
                     {"role": "user", "content": user}], model=llm.CHECK_MODEL)
     try:
@@ -398,7 +398,7 @@ def write_prompts(state: dict) -> dict:
         "9) 参考正文情节对应：图1封面主视觉、图2另一关键情节、图3第三个情节或收尾意象"
     )
     user = (
-        f"标题：{state.get('title', '')}\n\n素材：\n{state['material'][:2500]}\n\n"
+        f"标题：{state.get('title', '')}\n\n素材：\n{state.get('material', '')[:2500]}\n\n"
         f"正文：\n{Path(state['article_path']).read_text(encoding='utf-8')}"
     )
 
