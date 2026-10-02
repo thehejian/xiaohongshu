@@ -265,7 +265,7 @@ def write_article(state: dict) -> dict:
             text += "\n\n（演练占位：真实模式由 LLM 扩写至 700 字以上，此处仅用于跑通校验。）" * (
                 (p.words_min - cnt) // 40 + 1
             )
-        content = f"{state['title']}\n\n{text}\n"
+        content = f"{state.get('title', '')}\n\n{text}\n"
 
     path = Path(state["workdir"]) / "article.md"
     path.write_text(content, encoding="utf-8")
@@ -380,7 +380,7 @@ def write_prompts(state: dict) -> dict:
         for i in range(1, p.image_count + 1):
             f = Path(state["workdir"]) / "prompts" / f"0{i}-cover.md"
             f.parent.mkdir(exist_ok=True)
-            f.write_text(prefix + f" [演练占位场景 {i}] {state['title']}\n", encoding="utf-8")
+            f.write_text(prefix + f" [演练占位场景 {i}] {state.get('title', '')}\n", encoding="utf-8")
             out.append(str(f))
         return {"prompts": out}
 
@@ -398,7 +398,7 @@ def write_prompts(state: dict) -> dict:
         "9) 参考正文情节对应：图1封面主视觉、图2另一关键情节、图3第三个情节或收尾意象"
     )
     user = (
-        f"标题：{state['title']}\n\n素材：\n{state['material'][:2500]}\n\n"
+        f"标题：{state.get('title', '')}\n\n素材：\n{state['material'][:2500]}\n\n"
         f"正文：\n{Path(state['article_path']).read_text(encoding='utf-8')}"
     )
 
