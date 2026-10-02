@@ -721,7 +721,7 @@ def route_dedup(state: dict) -> str:
 
 
 def route_fact(state: dict) -> str:
-    if not state["fact_check"]["passed"]:
+    if not state.get("fact_check", {}).get("passed", True):
         if state.get("attempts", {}).get("fact", 0) >= 2:
             return "report_error"
         return "write_article"
