@@ -270,7 +270,7 @@ def write_article(state: dict) -> dict:
     path = Path(state["workdir"]) / "article.md"
     path.write_text(content, encoding="utf-8")
     # 从生成的文章第1行提取实际标题（可能不同于素材标题）
-    actual_title = content.splitlines()[0].strip() if content.splitlines() else state["title"]
+    actual_title = content.splitlines()[0].strip() if content.splitlines() else state.get("title", "")
     return {"article_path": str(path), "attempts": state["attempts"], "title": actual_title}
 
 
@@ -530,7 +530,7 @@ def route_images(state: dict) -> str:
 # ── 8. 飞书文档 + 串行插图 ───────────────────────────────
 def create_feishu(state: dict) -> dict:
     p = _p(state)
-    title = (p.title_prefix.format(n=state["topic_no"]) + state["title"]) if p.title_prefix else state["title"]
+    title = (p.title_prefix.format(n=state["topic_no"]) + state.get("title", "")) if p.title_prefix else state.get("title", "")
     wd = Path(state["workdir"])
 
     if state["dry_run"]:
@@ -620,7 +620,7 @@ def human_review(state: dict) -> dict:
         {
             "type": "xhs_review",
             "topic": state["slug"],
-            "title": state["title"],
+            "title": state.get("title", ""),
             "doc_url": state["doc_url"],
             "verify": state.get("verify"),
             "fact_check": state.get("fact_check"),
