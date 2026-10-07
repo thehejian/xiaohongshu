@@ -729,3 +729,22 @@ def route_fact(state: dict) -> str:
 
 
 
+
+# 图片恢复功能
+def restore_images_for_topic(topic_no: int) -> dict:
+    """在生图前恢复图片（从备份目录）"""
+    from pathlib import Path
+    import shutil
+    
+    backup_root = Path("/Volumes/mac_share/007-照片/小红书图片备份")
+    cards_root = Path("/Users/mac/.qclaw/workspace/002-AIagent/03-opencode/003-Twitter/image-cards")
+    
+    backup_dir = backup_root / f"topic-{topic_no}"
+    target_dir = cards_root / f"topic-{topic_no}"
+    
+    if backup_dir.exists():
+        target_dir.mkdir(parents=True, exist_ok=True)
+        for png in backup_dir.glob("*.png"):
+            shutil.copy2(png, target_dir / png.name)
+        return {"restored": True, "topic": topic_no}
+    return {"restored": False, "topic": topic_no}
