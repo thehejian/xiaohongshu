@@ -707,3 +707,14 @@ opencli xiaohongshu publish "$(cat image-cards/topic-<N>/article.md)" \
 > 38. **只改图 N**：`rm image-cards/topic-N/0N-cover.png` → `--jump-to gen_images`（前驱=write_prompts）→ `--resume archive`。最快路径，不动 article/prompts
 > 39. **改标题+图片**：`rm article.md 0*-cover.png` → 全量重跑（554/564 策略）
 > 40. **`--jump-to write_prompts` 不可靠**：LLM 光线校验偶发失败（多次），改 prompts 文件后建议**删 prompts 目录**让 LLM 重新生成，比 jump-to 更稳
+
+## 飞书文件夹全量去重（2026-10-08 实战，789→528 篇）
+
+- **三层去重顺序**：① 完全同标题 → ② 同场景号同文改题（正文相似度≥0.8，保新/保本地匹配）→ ③ 同场景号不同文（素材库改号/删号遗留）。③类需人工判定：优先级 **本地 article.md 匹配 > 素材库现标题匹配 > 创建时间新者**
+- **台账 `.feishu_uploaded` 的范围 ⊇ 场景文件夹**：63-98、5001-5006、9001/9002 等 doc 存在但**在其他文件夹**，"死指针"判定不能用"是否在场景文件夹内"——曾因此误删 33 topic 台账行后从 bak 恢复。正确做法：`lark-cli docs +fetch --doc TOKEN` 看 `ok:true` 判存在（**`drive files get` 子命令不存在**，空输出≠文档不存在，必须解析 `ok` 字段）
+- **`json.load` 后 dict 键是 str**：`plan["5006"]` vs `by_n[5006]` int 键不匹配导致 55 条全走 ADD 分支——靠 `FIX=0` 异常打印发现；加载后立即 `{int(k): v for ...}`
+- **PATH 不跨 bash 调用保留**：每条命令都要 `export PATH="/opt/homebrew/bin:$PATH"`；后台 python 脚本内部必须 `os.environ["PATH"] = "/opt/homebrew/bin:" + ...`（否则 FileNotFoundError 或 `env: node: No such file`）
+- **台账多行不一定是重复**：可能是修订追加（保最后）、`#draft-saved` 后缀脏行、或同号不同文（不同 doc）。删行前先 `docs +fetch` 验活
+- **并行会话会写同一台账**：删除期间另一会话新增了 `5006|same-model-different-harness|...` 行（slug 格式我的脚本写不出）——发现"凭空出现"的行先查 `git log -S` + 备份对比，别急着当脏数据删
+- **`git -c http.proxy= -c https.proxy= push`** 直连推送偶发 90s 超时，重试即可（commit 已在本地，不丢）
+- 归档：备份 `.feishu_uploaded.bak*`（gitignore 已排除）在删行/大改后台账必先 `cp` 留底
