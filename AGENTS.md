@@ -655,6 +655,23 @@ opencli xiaohongshu publish "$(cat image-cards/topic-<N>/article.md)" \
 5. **恢复成功后立即 git commit**（未提交的恢复成果没有第二道保险）
 6. 修复脚本对同一文件**只跑一次**，跑完脚本即删/即标记，防止重复执行造成二次损坏
 
+### 经验教训（2026-10-08 误删事故 — `rm -rf image-cards` 全删后恢复）
+
+**事故**：会话 shell 工作目录残留（此前 `cd image-cards/xxx` 生效中），一条复合命令里先 `pwd`（显示仓库根，因该命令内已隐式回根？——实际是**前一条命令的 cd 跨调用持久**）后 `rm -rf image-cards`，把整个 image-cards 删光：git 追踪 746 目录 + 未追踪的 5 个科技帖目录（5001/5002/5003/5004/393）+ topic-458 + tools/。
+
+**恢复路径（全部成功，25/25 文件与原始提交逐字节一致）**：
+1. git 追踪文件 → `git restore -- image-cards/`（秒级全量）
+2. 未追踪科技帖正文/prompts → **opencode 会话 DB**（`~/.local/share/opencode/opencode.db` 的 `part` 表，`tool='write'` 的 `state.input.{filePath,content}`，取每文件最新 write；**bash python 改写不走 write 部件**——jev 曾用 heredoc python 改稿，需再扫 `tool='bash'` 命令里的 `reps`/`replace` 重放，否则拿到中间稿）
+3. 图片 → 飞书文档 `docs +fetch` 取 `<img src>` → `docs +media-download --token <src> --output <path>`（15 张全回，与删除前字节数一致）
+4. 最终验证 → **悬空提交**：tech 目录曾被 `git reset --soft` 掉的 `c38a3a6` 还在对象库，`git cat-file -t <sha>` 可达——`git show c38a3a6:image-cards/xxx` 拿原始版逐一 diff，25/25 SAME；topic-458/article.md 与 tools/ 三脚本也从该提交 `git checkout c38a3a6 -- <path>` 找回
+5. 字数验证基线：deepseek 784 / langgraph 842 / jev 889 / sqlite 843 / ios27 819（body），与飞书文档 `docs +fetch` 纯文本逐一比对 `match=True`
+
+**铁律**：
+1. **`rm -rf` 前必须先 `pwd` 且命令内 cd 与 rm 分两条命令发**——本仓库 bash 会话 cd 跨调用持久，是最易踩的坑
+2. 恢复优先级：`git restore` > 会话 DB write 部件 > 飞书文档/图片 > 悬空提交 blob；**快照目录（~/.local/share/opencode/snapshot）基本没用**（对象稀疏，本次 0 命中）
+3. 恢复完必须做三方交叉验证：DB 记录字数 ↔ 飞书文档纯文本 ↔ 悬空提交 blob，三者一致才算恢复
+4. 恢复成功立即 `git commit`（本次科技帖目录已补提交入台账）
+
 ## Git & 部署
 
 - **独立仓库**：本目录是独立 git repo，remote 为 `https://github.com/thehejian/xiaohongshu.git`（NOT 属于 `/Users/mac` 主仓库）
