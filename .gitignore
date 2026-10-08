@@ -28,3 +28,7 @@ __pycache__/
 
 # Logs
 *.log
+
+# Sync build artifacts & ledger backups
+_sync/
+.feishu_uploaded.bak*
