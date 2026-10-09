@@ -720,5 +720,6 @@ opencli xiaohongshu publish "$(cat image-cards/topic-<N>/article.md)" \
 - **PATH 不跨 bash 调用保留**：每条命令都要 `export PATH="/opt/homebrew/bin:$PATH"`；后台 python 脚本内部必须 `os.environ["PATH"] = "/opt/homebrew/bin:" + ...`（否则 FileNotFoundError 或 `env: node: No such file`）
 - **台账多行不一定是重复**：可能是修订追加（保最后）、`#draft-saved` 后缀脏行、或同号不同文（不同 doc）。删行前先 `docs +fetch` 验活
 - **并行会话会写同一台账**：删除期间另一会话新增了 `5006|same-model-different-harness|...` 行（slug 格式我的脚本写不出）——发现"凭空出现"的行先查 `git log -S` + 备份对比，别急着当脏数据删
-- **`git -c http.proxy= -c https.proxy= push`** 直连推送偶发 90s 超时，重试即可（commit 已在本地，不丢）
+- **`git -c http.proxy= -c https.proxy= push`** 直连推送偶发 90s 超时，重试即可（commit 已在本地，不丢）；git 全局已配代理 `192.168.0.105:20171`，**默认 `git push` 即走它**，直连只作兜底
+- **定期体检（每批上传后必跑，防再累积）**：① 同标题=0：`list` 文件夹全标题 sort | uniq -d；② 同场景号多文档=0：`awk -F'|' '{print $1}' .feishu_uploaded | sort | uniq -d`（多行=修订，取最后条并确认旧版已删）；③ 台账全活：逐 token `docs +fetch` 看 `ok:true`。任一非零 → 按三层去重处理
 - 归档：备份 `.feishu_uploaded.bak*`（gitignore 已排除）在删行/大改后台账必先 `cp` 留底
