@@ -174,7 +174,7 @@ lark-cli docs +media-insert --doc <token> --file ./03-cover.png --as user
 # ... 3 total, sleep 3s between each
 ```
 
-**Tracking**: `.feishu_uploaded` records `NNN|folder-name|doc-token` — always append, never deduplicate.
+**Tracking**: `.feishu_uploaded` records `NNN|folder-name|doc-token` — 上传时只追加；但重跑/修订会累积多行、`#draft-saved` 脏行，**定期按文末「飞书文件夹全量去重」节收敛**（2026-10-08 实战：789→528 篇、台账 552→371 行）。读多行序号取**最后一条**（规则 16）。
 
 ## Image generation (`gen_fixed.py` 主用；`gen_one.py` 为 legacy/备用)
 
@@ -465,6 +465,10 @@ curl -s --max-time 120 -H "Content-Type: application/json" \
 
 **硬性规则：每次修改（正文或配图）都必须新建文档，绝不能更新已有文档。**
 
+> ⚠️ **新建 ≠ 免查重**（2026-10-08 教训：该规则 + 素材改号遗留曾累积 261 篇重复，全量清理 789→528）：
+> - **创建前**：扫一遍目标文件夹标题，确认**无同标题、无同场景号旧版**再 create；同号旧版存在 = 先跟用户确认"保新删旧"再动手
+> - **审核通过后**：旧版文档**必须删除**（见第 5 步），只留最新版——否则每次修订都净增一篇
+
 ```bash
 export PATH="/opt/homebrew/bin:$PATH"
 cd image-cards/topic-<N>
@@ -507,9 +511,9 @@ echo "<N>|topic-<N>|<document_id>" >> .feishu_uploaded
 
 | 用户反馈 | 处理动作 |
 |---------|---------|
-| "图X重画" / "图X不行" | 改 prompt → 重生成该图 → **新建整个飞书文档**（含全部图）→ 重新走第4步 |
+| "图X重画" / "图X不行" | 改 prompt → 重生成该图 → **新建整个飞书文档**（含全部图）→ 重新走第4步 → **新文档通过后删旧版**（`lark-cli drive +delete --file-token <旧tok> --type docx --yes --as user`，规则 23）+ 台账改指向新 token |
 | "不要第X张" | 存草稿时 `--images` 列表里去掉该图 |
-| "正文改成……" | 改 article.md → **新建飞书文档** → 重新走第4步 |
+| "正文改成……" | 改 article.md → **新建飞书文档** → 重新走第4步 → **新文档通过后删旧版**（同上） |
 | 确认无误 | 进入存草稿 |
 
 **存草稿命令（两步，缺一不可）：**
